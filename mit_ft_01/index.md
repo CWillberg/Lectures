@@ -60,8 +60,6 @@ Hochschule Magdeburg-Stendal
 Kontakt: christian.willberg@h2.de
 
 
-
-
 ---
 
 <!--paginate: true-->
@@ -233,8 +231,12 @@ Verbindungsart
 
 ## Schweißen
 
+
+---
+
 ## Kleben
 
+---
 
 ## Löten 
 
