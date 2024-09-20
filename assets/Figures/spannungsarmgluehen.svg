@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="113.70302mm"
+   height="80mm"
+   viewBox="0 0 113.70302 80"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="spannungsarmgluehen.svg"
+   inkscape:export-filename="EModul.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.1683362"
+     inkscape:cx="126.82535"
+     inkscape:cy="114.604"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="50"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-15.723825"
+       originy="-102.01906"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.723826,-102.01906)">
+    <g
+       id="g6">
+      <g
+         id="g1"
+         transform="matrix(2.5072614,0,0,2.5072614,-57.611879,-193.83779)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 35.000001,118 v 23 l 37.960374,0.0261"
+           id="path2" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 35.000001,121.56944 1,-0.0216 v 0.0216"
+           id="path3" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 35.000001,127.97347 1,-0.0216 v 0.0216"
+           id="path3-5" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 35.000001,134.3775 1,-0.0216 v 0.0216"
+           id="path3-7" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:0.8, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 45.000001,123 v 25"
+           id="path4" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:0.8, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 52.030547,123 -0.03055,25"
+           id="path5" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:0.8, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 64.000002,148 V 132"
+           id="path7" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:0.8, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 70.900006,147.99911 -0.06101,-6.8739"
+           id="path8" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="31.134388"
+           y="135.1006"
+           id="text8"><tspan
+             sodipodi:role="line"
+             id="tspan8"
+             style="font-size:1.76389px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
+             x="31.134388"
+             y="135.1006">200</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="31.500452"
+           y="128.647"
+           id="text8-0"><tspan
+             sodipodi:role="line"
+             id="tspan8-5"
+             style="font-size:1.76389px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
+             x="31.500452"
+             y="128.647">400</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="31.478489"
+           y="122.19341"
+           id="text8-2"><tspan
+             sodipodi:role="line"
+             id="tspan8-7"
+             style="font-size:1.76389px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
+             x="31.478489"
+             y="122.19341">600</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="45.776951"
+           y="122.07697"
+           id="text9"><tspan
+             sodipodi:role="line"
+             id="tspan9"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="45.776951"
+             y="122.07697">550<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan23"> °C</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="35.4814"
+           y="143.08315"
+           id="text9-5"><tspan
+             sodipodi:role="line"
+             id="tspan9-1"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="35.4814"
+             y="143.08315">Erwärmung</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="35.4814"
+             y="145.2923"
+             id="tspan10">&lt;100 <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan11">K/h</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="45.946739"
+           y="143.26263"
+           id="text9-5-1"><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="45.946739"
+             y="143.26263"
+             id="tspan10-9">Halte-</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="45.946739"
+             y="145.4675"
+             id="tspan14">dauer</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="45.946739"
+             y="147.67665"
+             id="tspan15">1<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan17">h</tspan>/</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="45.946739"
+             y="149.88579"
+             id="tspan18">25<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan16">mm</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="52.919922"
+           y="143.28503"
+           id="text9-5-5"><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="52.919922"
+             y="143.28503"
+             id="tspan10-3">Ofenab-</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="52.919922"
+             y="145.4899"
+             id="tspan19">kühlung</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="52.919922"
+             y="147.69905"
+             id="tspan12">&lt;50 <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan13">K/h</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="71.671341"
+           y="143.26263"
+           id="text20"><tspan
+             sodipodi:role="line"
+             id="tspan20"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2"
+             x="71.671341"
+             y="143.26263">Zeit</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="64.336197"
+           y="143.28418"
+           id="text9-5-5-3"><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="64.336197"
+             y="143.28418"
+             id="tspan10-3-2">Luftab-</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:1.76389px;stroke-width:0.2"
+             x="64.336197"
+             y="145.48904"
+             id="tspan12-7">kühlung</tspan></text>
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 35.000001,141 c 2.813947,-6.09682 3.541444,-12.58255 10,-18 h 7 c 4.037891,5.3558 8.013917,6.86523 12.000001,9 2.279665,4.56198 4.55933,6.36453 6.838995,9.12521"
+           id="path21"
+           sodipodi:nodetypes="ccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;font-family:Arial;-inkscape-font-specification:Arial;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="-134.17252"
+           y="30.533485"
+           id="text21"
+           transform="rotate(-90)"><tspan
+             sodipodi:role="line"
+             id="tspan21"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+             x="-134.17252"
+             y="30.533485">Temperatur [<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan22">°C</tspan>]</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
