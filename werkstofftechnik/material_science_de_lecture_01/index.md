@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/../../assets/styles/background.png')
+backgroundImage: url('../../assets/styles/background.png')
 title: Vorlesung Physikalische Eigenschaften
 author: Christian Willberg
 ---
@@ -76,7 +76,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 [Formelsammlung]( https://cwillberg.github.io/Werkstofftechnik/Formelsammlung)
 TBD
 [CoopSpace]()
-![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/styles/vorlesung.png)
 
 ---
 
@@ -106,7 +106,7 @@ TBD
 
 </div>
 
-![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/styles/vorlesung.png)
 
 ---
 
@@ -444,7 +444,7 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ## Wiederholung Kristalle und Gitter
 
-![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/styles/vorlesung.png)
 
 ---
 

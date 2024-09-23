@@ -42,16 +42,15 @@ jobs:
     strategy:
       matrix:
         folder:
-          - assets
-          - ./werkstofftechnik/material_science_de_lecture_01
-          - ./werkstofftechnik/material_science_de_lecture_02
-          - ./werkstofftechnik/material_science_de_lecture_03
-          - ./werkstofftechnik/material_science_de_lecture_04
-          - ./werkstofftechnik/material_science_de_lecture_05
-          - ./mb_wst/wst_mb_01
-          - ./mb_wst/wst_mb_02
-          - ./mensch_technik/mit_ft_01
-          - ./stream/stream_wst_01
+          - werkstofftechnik/material_science_de_lecture_01
+          - werkstofftechnik/material_science_de_lecture_02
+          - werkstofftechnik/material_science_de_lecture_03
+          - werkstofftechnik/material_science_de_lecture_04
+          - werkstofftechnik/material_science_de_lecture_05
+          - mb_wst/wst_mb_01
+          - mb_wst/wst_mb_02
+          - mensch_technik/mit_ft_01
+          - stream/stream_wst_01
     steps:
       - uses: actions/checkout@v4
 
@@ -86,10 +85,8 @@ jobs:
           path: public
           merge-multiple: true
 
-      # Kopiere alles in den public Ordner, um die Verzeichnisstruktur beizubehalten
-      - name: Copy everything to public folder
-        run: |
-          cp -r ./* public/
+      - name: Copy assets
+        run: cp -r assets public/assets
 
       - run: ls -R public
 

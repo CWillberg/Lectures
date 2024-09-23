@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/../../assets/styles/background.png')
+backgroundImage: url('../../assets/styles/background.png')
 title: Vorlesung Nicht Eisen Werkstoffe
 author: Christian Willberg
 ---
@@ -70,7 +70,7 @@ Kontakt: christian.willberg@h2.de
 
 ![bg  98% fit](../../assets/Figures/crack.jpg)
 
-![bg  70% fit](../../assets/../../assets/styles/qr-code.png)
+![bg  70% fit](../../assets/styles/qr-code.png)
 
 
 

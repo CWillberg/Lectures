@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/../../assets/styles/background.png')
+backgroundImage: url('../../assets/styles/background.png')
 title: Vorlesung Legierungsbildung
 author: Christian Willberg
 ---
@@ -245,6 +245,12 @@ Verbindungsart
 
 # Beschichten
 
+- Optik, Korrosionsschutz
+- Lackieren
+- Galvanisieren
+
 ---
 
 # Stoffeigenschaften ändern
+
+

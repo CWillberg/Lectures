@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/../../assets/styles/background.png')
+backgroundImage: url('../../assets/styles/background.png')
 title: Vorlesung Datenanalyse
 author: Christian Willberg
 ---
@@ -73,14 +73,14 @@ Kontakt: christian.willberg@h2.de
 - Integration digitaler Systeme im Maschinenbau
 - Datenanalyse von komplexen Systeme -> 8 - 10 tausend Lastberechnungen pro Nacht
 
-![bg right 60% fit](../../assets/../../assets/styles/qr-code.png)
+![bg right 60% fit](../../assets/styles/qr-code.png)
 
 
 
 ---
 ## Repository
 
-![bg right 60% fit](../../assets/../../assets/styles/git_code.png)
+![bg right 60% fit](../../assets/styles/git_code.png)
 
 
 ---

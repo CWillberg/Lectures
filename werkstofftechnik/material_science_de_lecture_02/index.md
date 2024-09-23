@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/../../assets/styles/background.png')
+backgroundImage: url('../../assets/styles/background.png')
 title: Vorlesung Korrosion, Verschleiß und Ermüdung
 author: Christian Willberg
 ---
@@ -70,7 +70,7 @@ Kontakt: christian.willberg@h2.de
 
 ![bg  90% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Zeche-Zollern_2132.JPG/1920px-Zeche-Zollern_2132.JPG)
 
-![bg  70% fit](../../assets/../../assets/styles/qr-code.png)
+![bg  70% fit](../../assets/styles/qr-code.png)
 
 
 
@@ -289,7 +289,7 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 ---
 
 # Ermüdung
-![bg right 60% fit](../../assets/../../assets/styles/qr-code.png)
+![bg right 60% fit](../../assets/styles/qr-code.png)
 
 <details>
 <summary>Was ist Ermüdung?</summary>
@@ -468,7 +468,7 @@ Charakterisierung:
 - Haltedauer
 - Art des Abkühlens (Ofen-, Luft-, Öl-, Wasserabkühlung)
 
-![bg right 50% fit](../../assets/../../assets/styles/qr-code.png)
+![bg right 50% fit](../../assets/styles/qr-code.png)
 
 
 ---

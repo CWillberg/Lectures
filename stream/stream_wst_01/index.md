@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/../../assets/styles/background.png')
+backgroundImage: url('../../assets/styles/background.png')
 title: Lecture Basics of Mechanical Engineering - Materials Science
 author: Christian Willberg
 ---
@@ -75,7 +75,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 - Everything stays in the room!
 - Questions
 
-![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/styles/vorlesung.png)
 
 ---
 
