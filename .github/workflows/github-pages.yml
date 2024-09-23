@@ -74,7 +74,6 @@ jobs:
         with:
           path: public
           name: ${{ matrix.folder }}
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -87,8 +86,10 @@ jobs:
           path: public
           merge-multiple: true
 
-      - name: Copy assets
-        run: cp -r assets public/assets && cp index.html public/index.html
+      # Kopiere alles in den public Ordner, um die Verzeichnisstruktur beizubehalten
+      - name: Copy everything to public folder
+        run: |
+          cp -r ./* public/
 
       - run: ls -R public
 
