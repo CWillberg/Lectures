@@ -49,7 +49,7 @@ jobs:
           - material_science_de_lecture_05
           - wst_mb_01
           - wst_mb_02
-          - mit_ft_01
+          - mti_ft_01
           - stream_wst_01
     steps:
       - uses: actions/checkout@v4
