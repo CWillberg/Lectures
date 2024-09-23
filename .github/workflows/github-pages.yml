@@ -68,11 +68,16 @@ jobs:
 
       - run: ls -R public
 
+      - name: Get First Folder Part
+        run: |
+          FOLDER_PART=$(echo "$FOLDER" | cut -d '/' -f1)
+          echo "${FOLDER_PART}" 
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           path: public
-          name: ${{ matrix.folder }}
+          name: ${{ FOLDER_PART }}
   deploy:
     needs: build
     runs-on: ubuntu-latest
