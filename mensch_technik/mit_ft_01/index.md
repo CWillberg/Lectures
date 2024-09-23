@@ -245,6 +245,12 @@ Verbindungsart
 
 # Beschichten
 
+- Optik, Korrosionsschutz
+- Lackieren
+- Galvanisieren
+
 ---
 
 # Stoffeigenschaften ändern
+
+
