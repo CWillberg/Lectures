@@ -42,15 +42,16 @@ jobs:
     strategy:
       matrix:
         folder:
-          - material_science_de_lecture_01
-          - material_science_de_lecture_02
-          - material_science_de_lecture_03
-          - material_science_de_lecture_04
-          - material_science_de_lecture_05
-          - wst_mb_01
-          - wst_mb_02
-          - mit_ft_01
-          - stream_wst_01
+          - assets
+          - ./werkstofftechnik/material_science_de_lecture_01
+          - ./werkstofftechnik/material_science_de_lecture_02
+          - ./werkstofftechnik/material_science_de_lecture_03
+          - ./werkstofftechnik/material_science_de_lecture_04
+          - ./werkstofftechnik/material_science_de_lecture_05
+          - ./mb_wst/wst_mb_01
+          - ./mb_wst/wst_mb_02
+          - ./mensch_technik/mit_ft_01
+          - ./stream/stream_wst_01
     steps:
       - uses: actions/checkout@v4
 
