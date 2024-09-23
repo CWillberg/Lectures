@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../assets/../assets/styles/background.png')
+backgroundImage: url('../../assets/../../assets/styles/background.png')
 title: Lecture Basics of Mechanical Engineering - Materials Science
 author: Christian Willberg
 ---
@@ -49,10 +49,10 @@ footer {
 </style>
 
 ## Lecture Basics of Mechanical Engineering - Materials Science
-Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences 
 
-![bg right](../assets/Figures/IWES_test.jpg)
+![bg right](../../assets/Figures/IWES_test.jpg)
 
 Contact: christian.willberg@h2.de
 Parts of the script were taken from \
@@ -75,7 +75,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 - Everything stays in the room!
 - Questions
 
-![bg right 50%](../assets/../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
 
 ---
 
@@ -245,7 +245,7 @@ Composed of:
 
 ---
 
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg 80%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
 ---
 
@@ -263,7 +263,7 @@ Composed of:
 - Characterized by three space axes x, y, and z, angles α, β, γ, and distances along the axes
 - a0, b0, and c0 (lattice constants) -> unit cell
 
-![bg fit right](../assets/Figures/einheitszelle.png)
+![bg fit right](../../assets/Figures/einheitszelle.png)
 
 ---
 
@@ -290,15 +290,15 @@ Composed of:
 ---
 
 Cubic Face-Centered (fcc)
-![bg right 30%](../assets/Figures/kfz.png)
+![bg right 30%](../../assets/Figures/kfz.png)
 
 Cubic Body-Centered (bcc)
 
-![bg vertical 30%](../assets/Figures/krz.png)
+![bg vertical 30%](../../assets/Figures/krz.png)
 
 Hexagonal Close-Packed (hcp)
 
-![bg 30%](../assets/Figures/hdp.png)
+![bg 30%](../../assets/Figures/hdp.png)
 
 ---
 
@@ -338,7 +338,7 @@ _Thermal Analysis_
 
 ---
 
-![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
+![bg fit](../../assets/Figures/Haltepunkte_knickpunkte.png)
 
 
 ---
@@ -364,7 +364,7 @@ _Thermal Analysis_
 - Between the chains, secondary valence bonds and molecular entanglements exist
 
 
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+![bg right fit](../../assets/Figures/Syndiotactic_polypropene.png)
 
 ---
 
@@ -407,7 +407,7 @@ _Thermal Analysis_
 - Non-crystalline, i.e., amorphous state
 - In glass, the melt is first undercooled and then "frozen" below the transformation temperature Tg. 
 
-![bg right fit](../assets/Figures/amorph.png)
+![bg right fit](../../assets/Figures/amorph.png)
 
 ---
 
@@ -422,7 +422,7 @@ _Thermal Analysis_
 
 ## Zero-Dimensional Defects
 
-![bg right 50%](../assets/Figures/ideales_gitter.png)
+![bg right 50%](../../assets/Figures/ideales_gitter.png)
 
 <details>
 <summary>What are the possible variants?</summary>
@@ -460,7 +460,7 @@ _Thermal Analysis_
 - Due to residual stresses
 - Through plastic deformations
 
-![bg right 80%](../assets/Figures/versetzung.png)
+![bg right 80%](../../assets/Figures/versetzung.png)
 ![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
 
 ---
@@ -480,7 +480,7 @@ _Thermal Analysis_
 
 Good or Bad
 
-![bg right 70%](../assets/Figures/fragezeichen.png)
+![bg right 70%](../../assets/Figures/fragezeichen.png)
 
 ---
 
@@ -513,7 +513,7 @@ Plastic deformation of a crystal essentially occurs through the sliding of atomi
 
 ## Image
 
-![](../assets/Figures/Beispiel_plast.bmp)
+![](../../assets/Figures/Beispiel_plast.bmp)
   
 ---
 

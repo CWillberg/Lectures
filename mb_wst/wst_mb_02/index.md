@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../assets/../assets/styles/background.png')
+backgroundImage: url('../../assets/../../assets/styles/background.png')
 title: Vorlesung Legierungsbildung
 author: Christian Willberg
 ---
@@ -52,7 +52,7 @@ footer {
 
 
 ## Vorlesung Werkstofftechnik - Gefüge der Werkstoffe
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
@@ -223,7 +223,7 @@ Kristallitbildung (Kornbildung mit Korngrenzen)
 
 ---
 ## Einflussparameter auf die Ausbildung der Korngröße
-![](../assets/Figures/Korngroesse.png)
+![](../../assets/Figures/Korngroesse.png)
 a) → feinkörniges Gefüge  $\qquad$	b)  → grobkörniges Gefüge
 
 
@@ -350,8 +350,8 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 ---
 
 
-![bg fit 70%](../assets/Figures/Zustandsdiagramm.png)
-![bg fit 70%](../assets/Figures/Zustandsdiagramm_3.png)
+![bg fit 70%](../../assets/Figures/Zustandsdiagramm.png)
+![bg fit 70%](../../assets/Figures/Zustandsdiagramm_3.png)
 
 ---
 

@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../assets/../assets/styles/background.png')
+backgroundImage: url('../../assets/../../assets/styles/background.png')
 title: Vorlesung Physikalische Eigenschaften
 author: Christian Willberg
 ---
@@ -52,10 +52,10 @@ footer {
 
 
 ## Vorlesung Werkstofftechnik Physikalische Eigenschaften
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](../assets/Figures/crack.jpg)
+![bg right](../../assets/Figures/crack.jpg)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -76,7 +76,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 [Formelsammlung]( https://cwillberg.github.io/Werkstofftechnik/Formelsammlung)
 TBD
 [CoopSpace]()
-![bg right 50%](../assets/../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
 
 ---
 
@@ -106,7 +106,7 @@ TBD
 
 </div>
 
-![bg right 50%](../assets/../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
 
 ---
 
@@ -216,7 +216,7 @@ TBD
 - orthotropie
 - ...
 - anisotropie
-![bg right 80%](../assets/Figures/xyz.png)
+![bg right 80%](../../assets/Figures/xyz.png)
 
 <!---
 - Diskussion; Eigenschaften können richtungsabhängig sein
@@ -269,7 +269,7 @@ E - Elastizitätsmodul, Young's modulus $\left[\frac{N}{m^2}\right]$\
     <img src="Figures/EModul.svg" style="height:230px;width:auto;vertical-align: top;">
 </div>
 
-![bg right:25%](../assets/Figures/Normalspannung.gif)
+![bg right:25%](../../assets/Figures/Normalspannung.gif)
 
 ---
 
@@ -285,7 +285,7 @@ $\tau = \frac{F_s}{A}= G\gamma$
 
 - G - Schub-, Gleitmodul, Shear modulus $\left[\frac{N}{m^2}\right]$
 
-![bg right:25%](../assets/Figures/Schubspannung.gif)
+![bg right:25%](../../assets/Figures/Schubspannung.gif)
 
 
 ---
@@ -300,7 +300,7 @@ für heterogene Werkstoffe sind anderen Konstellationen denkbar
 - [Kompressionsmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{3(1-2\nu)}$
 - [Schubmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{2(1+\nu)}$
 
-![bg right:25%](../assets/Figures/Kompression.gif)
+![bg right:25%](../../assets/Figures/Kompression.gif)
 
 ---
 
@@ -336,7 +336,7 @@ für heterogene Werkstoffe sind anderen Konstellationen denkbar
 
 </details>
 
-![bg fit right:50%](../assets/Figures/IWES_test.jpg)
+![bg fit right:50%](../../assets/Figures/IWES_test.jpg)
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Bildreferenz</a>
 </div>
@@ -352,8 +352,8 @@ für heterogene Werkstoffe sind anderen Konstellationen denkbar
 * dynamische Stabilität
 * -->
 
-![bg fit](../assets/Figures/EF1.png)
-![bg fit](../assets/Figures/EF2.png)
+![bg fit](../../assets/Figures/EF1.png)
+![bg fit](../../assets/Figures/EF2.png)
 
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
@@ -385,7 +385,7 @@ für heterogene Werkstoffe sind anderen Konstellationen denkbar
 
 ## Plastische Versagen 
 
-![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+![bg fit right:50%](../../assets/Figures/Stress_strain_ductile.svg)
 
 
 <div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
@@ -403,11 +403,11 @@ Federmodel $\sigma = E\epsilon$
  - Elastischer Anteil
  - Dargestellt durch Federlemente
 <div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+    <img src="../../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
 </div>
 
 <div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+    <img src="../../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
 </div>
 
 Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$ 
@@ -419,15 +419,15 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ## 
 
-![bg fit](../assets/Figures/Spannung-Dehnung.png)
-![bg fit](../assets/Figures/Spannung-Dehnrate.png)
+![bg fit](../../assets/Figures/Spannung-Dehnung.png)
+![bg fit](../../assets/Figures/Spannung-Dehnrate.png)
 
 ---
 
 ## 
 
-![bg fit](../assets/Figures/Spannung-Zeit.png)
-![bg fit](../assets/Figures/Hysteresis.png)
+![bg fit](../../assets/Figures/Spannung-Zeit.png)
+![bg fit](../../assets/Figures/Hysteresis.png)
 
 
 
@@ -444,7 +444,7 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ## Wiederholung Kristalle und Gitter
 
-![bg right 50%](../assets/../assets/styles/vorlesung.png)
+![bg right 50%](../../assets/../../assets/styles/vorlesung.png)
 
 ---
 
@@ -459,11 +459,11 @@ zur Beschreibung des Kristalls
 
 
 <div style="position: absolute; bottom: 340px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/NaCl_polyhedra.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:250px;width:auto;vertical-align: top;background-color:transparent;">
+    <img src="../../assets/Figures/NaCl_polyhedra.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:250px;width:auto;vertical-align: top;background-color:transparent;">
 </div>
 
 <div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Rock_salt_crystal.jpg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
+    <img src="../../assets/Figures/Rock_salt_crystal.jpg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
 </div>
 
 ---
@@ -472,13 +472,13 @@ zur Beschreibung des Kristalls
 - alles strebt nach engergetisch "stabilen" Zuständen
 
 <div style="position: absolute; bottom: -360px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/energie.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:1320px;width:auto;vertical-align: top;background-color:transparent;">
+    <img src="../../assets/Figures/energie.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:1320px;width:auto;vertical-align: top;background-color:transparent;">
 </div>
 
 - [Einheitszelle](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
 
 <div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Einheitszelle.png" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
+    <img src="../../assets/Figures/Einheitszelle.png" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
 </div>
 
 <details>
@@ -516,7 +516,7 @@ zur Beschreibung des Kristalls
 
 ## Nulldimensionale Fehlstellen
 
-![bg right 50%](../assets/Figures/ideales_gitter.png)
+![bg right 50%](../../assets/Figures/ideales_gitter.png)
 
 
 
@@ -558,7 +558,7 @@ zur Beschreibung des Kristalls
 - aufgrund von Eigenspannungen
 - durch plastische Verformungen
 
-![bg right 80%](../assets/Figures/versetzung.png)
+![bg right 80%](../../assets/Figures/versetzung.png)
 ![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
 
 
@@ -581,7 +581,7 @@ zur Beschreibung des Kristalls
 
 Gut oder Schlecht
 
-![bg right 70%](../assets/Figures/fragezeichen.png)
+![bg right 70%](../../assets/Figures/fragezeichen.png)
 
 ---
 
@@ -613,7 +613,7 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 ## Bild
 
-![](../assets/Figures/Beispiel_plast.bmp)
+![](../../assets/Figures/Beispiel_plast.bmp)
   
 ---
 
@@ -801,7 +801,7 @@ $\dot{\mathbf{q}}=-\boldsymbol{\lambda}\text{grad}(T)$
 - $\text{grad}(T)$ ist der Gradient der Temperaturänderung $\frac{\partial T}{\partial dx_i}$; 
 - im linearen Fall $\text{grad}(T)=\Delta T / d = \frac{T_2-T_1}{d}$
 
-![bg right:30% fit](../assets/Figures/Temperaturgradient.png)
+![bg right:30% fit](../../assets/Figures/Temperaturgradient.png)
 
 ---
 
