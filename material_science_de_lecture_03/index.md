@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/styles/background.png')
+backgroundImage: url('../assets/styles/background.png')
 title: Vorlesung Datenanalyse
 author: Christian Willberg
 ---
@@ -52,7 +52,7 @@ footer {
 
 
 ## Vorlesung Werkstofftechnik
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
 ![bg right fit](https://html.scirp.org/file/75341x12.png)
@@ -73,14 +73,14 @@ Kontakt: christian.willberg@h2.de
 - Integration digitaler Systeme im Maschinenbau
 - Datenanalyse von komplexen Systeme -> 8 - 10 tausend Lastberechnungen pro Nacht
 
-![bg right 60% fit](../../assets/styles/qr-code.png)
+![bg right 60% fit](../assets/styles/qr-code.png)
 
 
 
 ---
 ## Repository
 
-![bg right 60% fit](../../assets/styles/git_code.png)
+![bg right 60% fit](../assets/styles/git_code.png)
 
 
 ---

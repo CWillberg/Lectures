@@ -145,7 +145,7 @@ Materials in the strict sense refer to solid substances used for manufacturing c
 
 ## Ceramics
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/c/ca/Langstab-Isolator_110_kV.jpg)
+![bg right fit](http://www.hoogspanningsnet.com/wp-content/uploads/Eindsluitingen%20(Michel).jpg)
 
 ---
 

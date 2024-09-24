@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/styles/background.png')
+backgroundImage: url('../assets/styles/background.png')
 title: Vorlesung Zerstörungsfreie Prüfung
 author: Christian Willberg
 ---
@@ -52,7 +52,7 @@ footer {
 
 
 ## Vorlesung Werkstofftechnik
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
 ![bg right](https://leichtbau.dlr.de/wp-content/uploads/2023/11/Strukturversuch-scaled-2560x1280.jpg)
@@ -70,7 +70,7 @@ Kontakt: christian.willberg@h2.de
 
 ![bg  98% fit](https://leichtbau.dlr.de/wp-content/uploads/2023/11/Strukturversuch-scaled-2560x1280.jpg)
 
-![bg  70% fit](../../assets/styles/qr-code.png)
+![bg  70% fit](../assets/styles/qr-code.png)
 
 
 
@@ -112,7 +112,7 @@ Was sind Modelle und wozu braucht man sie?
 
 ---
 
-![bg fit 60%](../../assets/Figures/KIC.png)
+![bg fit 60%](../assets/Figures/KIC.png)
 
 ---
 
@@ -124,14 +124,14 @@ Was sind Modelle und wozu braucht man sie?
 
 ---
 
-![bg fit 60%](../../assets/Figures/FEM.png)
+![bg fit 60%](../assets/Figures/FEM.png)
 
 ---
 
 ## 
 
 
-![bg fit 60%](../../assets/Figures/Testpyramide.png)
+![bg fit 60%](../assets/Figures/Testpyramide.png)
 
 
 ---
@@ -266,7 +266,7 @@ Splines, B-Splines - komplexer
 
 ---
 
-![bg 70%](../../assets/Figures/filter.png)
+![bg 70%](../assets/Figures/filter.png)
 
 ---
 
@@ -315,7 +315,7 @@ $Z = \int_0^{\varepsilon_{B}}\sigma d \varepsilon$
 - Energiefreisetzungrate $G = \frac{Z}{A_{Bruch}}$
 - Einfluss der Belastungs-geschwindigkeit 
 
-![bg right 90%](../../assets/Figures/varying_storedElastic_energy.svg)
+![bg right 90%](../assets/Figures/varying_storedElastic_energy.svg)
 
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
@@ -395,7 +395,7 @@ Verformungszonen einer gestauchten Probe (Abb3.16)
 
 ## Druckverformung
 
-![bg left 80%](../../assets/Figures/Verformungszonen_Druck.svg)
+![bg left 80%](../assets/Figures/Verformungszonen_Druck.svg)
 
 I - geringe Verformung (Reibbehinderung)
 II - mäßige Zugverformung
@@ -436,7 +436,7 @@ $l_b$ - Länge der Probe
 ---
 
 ## 2 Punkt Biegeversuch
-![](../../assets/Figures/kragbalken.svg)
+![](../assets/Figures/kragbalken.svg)
 
 $E=\frac{4l_b^2 F}{ubh^3}$
 
@@ -444,7 +444,7 @@ $E=\frac{4l_b^2 F}{ubh^3}$
 
 ## 3 Punkt Biegeversuch
 
-![](../../assets/Figures/3Punktbiege.svg)
+![](../assets/Figures/3Punktbiege.svg)
 
 $E=\frac{l_b^3 F}{4ubh^3}$
 
@@ -452,7 +452,7 @@ $E=\frac{l_b^3 F}{4ubh^3}$
 
 ## 4 Punkt Biegeversuch
 
-![](../../assets/Figures/4Punktbiege.svg)
+![](../assets/Figures/4Punktbiege.svg)
 
 Ziel ist ein querkraftfreier Bereich und daraus resultierend ein konstantes Biegemoment
 
@@ -475,7 +475,7 @@ $l_a$ Abstand zwischen Auflagepunkt und näher gelegenem Druckpunkt des Prüfste
 - ENF (End-Notched Flexure) Versuch nutzt die Spannungsnulllinie gezielt aus
 
 
-![](../../assets/Figures/ENF.svg)
+![](../assets/Figures/ENF.svg)
 
 ---
 
@@ -485,7 +485,7 @@ $l_a$ Abstand zwischen Auflagepunkt und näher gelegenem Druckpunkt des Prüfste
   - Torsionsversuch
   - Zug-/Druckversuch
 
-![](../../assets/Figures/Whoehlerversuch.svg)
+![](../assets/Figures/Whoehlerversuch.svg)
 
 ---
 
@@ -646,7 +646,7 @@ $c = \lambda f$
 - $c$ ist die Licht- oder Schallgeschwindigkeit
 
 $\lambda = \frac{c}{f} = \frac{6000 m/s}{10^6 1/s} = 6 mm$
-![bg right fit](../../assets/Figures/sandwichvarianten.png)
+![bg right fit](../assets/Figures/sandwichvarianten.png)
 ![bg vertical fit](https://upload.wikimedia.org/wikipedia/commons/4/44/Kohlenstofffasermatte.jpg)
 
 ---
@@ -754,13 +754,13 @@ Schubwellen
 
 ## Symmetrische Moden (Longitudinalwellen)
 
-<video controls="constrols" width="600" scr=".../../assets/Videos/asym.avi">
+<video controls="constrols" width="600" scr=".../assets/Videos/asym.avi">
 
 ---
 
 ## Anti-Symmetrische Moden (Transversalwellen)
 
-<video controls="constrols" width="600" scr=".../../assets/Videos/asym.avi">
+<video controls="constrols" width="600" scr=".../assets/Videos/asym.avi">
 
 ---
 
@@ -796,9 +796,9 @@ sie haben eine Gruppen und Phasengeschwindigkeit
 - $d_{31}$; el. Spannung in 3 Richtung und Deformation in 1, bzw. 2 Richtung
 - $d_{33}$; el. Spannung in 3 Richtung und Deformation in 3 Richtung
 
-![bg right 70%](../../assets/Figures/piezo.png)
+![bg right 70%](../assets/Figures/piezo.png)
 
-![bg vertical 100%](../../assets/Figures/polarization_2.png)
+![bg vertical 100%](../assets/Figures/polarization_2.png)
 
 ---
 
@@ -811,7 +811,7 @@ $\frac{p_{a,r}}{p_{a,e}}=\frac{W_2-W_1}{W_2+W_1}$
 _Durchgehender Schall_
 $\frac{p_{a,d}}{p_{a,e}}=\frac{2W_2}{W_2+W_1}$
 
-![bg right fit](../../assets/Figures/reflexion.png)
+![bg right fit](../assets/Figures/reflexion.png)
 
 ---
 
@@ -1084,7 +1084,7 @@ $MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\
 
 
 ---
-![](../../assets/Figures/sensornetzwerke.png)
+![](../assets/Figures/sensornetzwerke.png)
 [Schadensinteraktion](.../assetsVideos/flachbodenbohrung.avi)
 
 

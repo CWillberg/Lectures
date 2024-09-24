@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/styles/background.png')
+backgroundImage: url('../assets/styles/background.png')
 title: Vorlesung Korrosion, Verschleiß und Ermüdung
 author: Christian Willberg
 ---
@@ -52,7 +52,7 @@ footer {
 
 
 ## Vorlesung Werkstofftechnik
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
@@ -70,7 +70,7 @@ Kontakt: christian.willberg@h2.de
 
 ![bg  90% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Zeche-Zollern_2132.JPG/1920px-Zeche-Zollern_2132.JPG)
 
-![bg  70% fit](../../assets/styles/qr-code.png)
+![bg  70% fit](../assets/styles/qr-code.png)
 
 
 
@@ -201,8 +201,8 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
 $\text{H}_2\text{O} + \frac12\text{O}_2 + 2\text{e}^{-} \rightarrow 2\text{OH}^-$
 $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \rightarrow 2\text{Fe(OH)}_3$
 - kann noch weiter zerfallen
-![bg vertical](../../assets/Figures/whitespace.png)
-![bg fit](../../assets/Figures/whitespace.png)
+![bg vertical](../assets/Figures/whitespace.png)
+![bg fit](../assets/Figures/whitespace.png)
 ![bg  fit](https://upload.wikimedia.org/wikipedia/commons/9/97/Korrosion.svg)
 
 ---
@@ -230,7 +230,7 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 **Lochfraßkorrosion**
 - bleibt lange unbemerkt
 - können sich in der Tiefe trogförmig ausdehnen
-![bg vertical right 1%](../../assets/Figures/whitespace.png)
+![bg vertical right 1%](../assets/Figures/whitespace.png)
 ![bg fit](https://upload.wikimedia.org/wikipedia/commons/8/84/Pitting_corrosion-scheme.png)
 ![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b3/Corrosion.Pit.jpg)
 
@@ -289,7 +289,7 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 ---
 
 # Ermüdung
-![bg right 60% fit](../../assets/styles/qr-code.png)
+![bg right 60% fit](../assets/styles/qr-code.png)
 
 <details>
 <summary>Was ist Ermüdung?</summary>
@@ -468,7 +468,7 @@ Charakterisierung:
 - Haltedauer
 - Art des Abkühlens (Ofen-, Luft-, Öl-, Wasserabkühlung)
 
-![bg right 50% fit](../../assets/styles/qr-code.png)
+![bg right 50% fit](../assets/styles/qr-code.png)
 
 
 ---
@@ -511,7 +511,7 @@ Ziele ausabeiten für
 - Langsames Erwärmen auf 550 - 650 °C (unterhalb $\text{A}_{c1}$)
 - Haltedauer 2 - 4 h, langsame Abkühlung (Ofenabkühlung)
 
-![bg right 99% fit](../../assets/Figures/spannungsarmgluehen.svg)
+![bg right 99% fit](../assets/Figures/spannungsarmgluehen.svg)
 
 Ziel:
 Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonstigen Eigenschaften
@@ -522,7 +522,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - Rekristallisationstemperatur bei Stahl: 500 - 600°C
 - halten, langsame Abkühlung
 - bei zu langer Haltezeit: Grobkornbildung
-![bg right 99% fit](../../assets/Figures/rekristallisationsgluehen.svg)
+![bg right 99% fit](../assets/Figures/rekristallisationsgluehen.svg)
 
 Ziel:
 
@@ -534,7 +534,7 @@ Rückgängigmachen von Eigenschaftsänderungen (Verfestigung) durch Kaltumformun
 - Temperaturen um  $\text{A}_{C1}$ (unterhalb, oberhalb oder pendelnd um  $\text{A}_{C1}$)
 - langsame Abkühlung.
 
-![bg fit right 99](../../assets/Figures/weichgluehen.svg)
+![bg fit right 99](../assets/Figures/weichgluehen.svg)
 Ziel:
 Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands. Dabei werden Zementitteilchen kugelig eingeformt (GKZ-Glühen).
 
@@ -546,13 +546,13 @@ Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands. D
 - Erwärmung zwischen $\text{A}_{C1}$ und Glühtemperatur rasch, kurze Haltedauer
 - rasche Abkühlung durch Zweiphasen-Intervall, dann langsam abkühlen
 
-![bg fit right 99](../../assets/Figures/normalgluehen.svg)
+![bg fit right 99](../assets/Figures/normalgluehen.svg)
 
 ---
 
 ## Normalglühen
 
-![bg fit right 99](../../assets/Figures/normalgluehen.svg)
+![bg fit right 99](../assets/Figures/normalgluehen.svg)
 
 Ziel:
 
@@ -569,7 +569,7 @@ Verfahrensparameter:
 - langsame Ofenabkühlung
 - dann raschere Luftabkühlung
 
-![bg fit right 99](../../assets/Figures/grobkorngluehen.svg)
+![bg fit right 99](../assets/Figures/grobkorngluehen.svg)
 
 Ziel:
 Erzielung eines groben Korns. Hierdurch wird die Spanbarkeit verbessert.
@@ -582,7 +582,7 @@ Erzielung eines groben Korns. Hierdurch wird die Spanbarkeit verbessert.
 - lange Haltezeit (bis 50 h)
 - langsame Abkühlung
 
-![bg fit right 99](../../assets/Figures/diffussionsgluehen.svg)
+![bg fit right 99](../assets/Figures/diffussionsgluehen.svg)
 
 Ziel:
 Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
@@ -604,7 +604,7 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 - Probe wird abgeschreckt
 - bei konstanter Temperatur gehalten, bis Umwandlung abgeschlossen
 
-![bg right fit](../../assets/Figures/ztisotherm.png)
+![bg right fit](../assets/Figures/ztisotherm.png)
 
 ---
 ## Kontinuierliche Abkühlung
@@ -612,7 +612,7 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 - die Umwandlung in Ferrit, Perlit, Bainit (Zwischenstufe) oder Martensit bei verschiedenen Temperaturen findet in unterschiedlichem Ausmaß statt
 - am Ende der Abkühlkurve wird meist die erreichbare Härte eingetragen
 
-![bg right fit](../../assets/Figures/ztukontinuierlich.png)
+![bg right fit](../assets/Figures/ztukontinuierlich.png)
 
 ---
 

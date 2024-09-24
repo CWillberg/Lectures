@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../../assets/styles/background.png')
+backgroundImage: url('../assets/styles/background.png')
 title: Vorlesung Nicht Eisen Werkstoffe
 author: Christian Willberg
 ---
@@ -52,10 +52,10 @@ footer {
 
 
 ## Vorlesung Werkstofftechnik
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](../../assets/Figures/crack.jpg)
+![bg right](../assets/Figures/crack.jpg)
 
 Kontakt: christian.willberg@h2.de
 
@@ -68,9 +68,9 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
-![bg  98% fit](../../assets/Figures/crack.jpg)
+![bg  98% fit](../assets/Figures/crack.jpg)
 
-![bg  70% fit](../../assets/styles/qr-code.png)
+![bg  70% fit](../assets/styles/qr-code.png)
 
 
 
@@ -215,7 +215,7 @@ Nachteile:
 
 ---
 
-![bg](../../assets/Figures/spezifische_Eigenschaften.png)
+![bg](../assets/Figures/spezifische_Eigenschaften.png)
 
 ---
 
@@ -227,7 +227,7 @@ Nachteile:
 -  Polymere können aus Naturstoffen oder rein synthisch gewonnen werden
 
 
-![bg right fit](../../assets/Figures/Syndiotactic_polypropene.png)
+![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
 
 ---
 
@@ -425,7 +425,7 @@ beeinflussen.
 - oberhalb $\text{T}_g$ Flüssigkeitsverhaltne
 - der Prozess ist reversibel
 
-![bg right fit](../../assets/Figures/Eigenschaft-Temperaturkurve-Glas.svg)
+![bg right fit](../assets/Figures/Eigenschaft-Temperaturkurve-Glas.svg)
 
 
 
@@ -515,11 +515,11 @@ Hierfür wird die Mikrostruktur gebaut.
 
 ---
 
-![bg fit](../../assets/Figures/metamaterial.png)
+![bg fit](../assets/Figures/metamaterial.png)
 
 ---
 
-![bg fit](../../assets/Figures/poisson.png)
+![bg fit](../assets/Figures/poisson.png)
 
 ---
 
@@ -639,7 +639,7 @@ aus ökologischer Sicht interessant.
 
 ---
 
-![](../../assets/Figures/Natur_Materialeigenschaften.png)
+![](../assets/Figures/Natur_Materialeigenschaften.png)
 
 Polypropylen (PP), PP und Talkum (PP-T), PP und Holzfasern (WPC), PP und Bastfasern (wie Hanf, Flachs, Jute, Kenaf) sowie PP und Glasfasern (PP-GF)
 
@@ -647,7 +647,7 @@ Polypropylen (PP), PP und Talkum (PP-T), PP und Holzfasern (WPC), PP und Bastfas
 
 Anteil am Verbundmarkt in der EU sind ca. 15% (Stand 2015)
 
-![bg right fit](../../assets/Figures/Einatz_naturfasern.png)
+![bg right fit](../assets/Figures/Einatz_naturfasern.png)
 
 ---
 
