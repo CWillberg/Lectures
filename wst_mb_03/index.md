@@ -67,6 +67,21 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 <!--paginate: true-->
 
+## Inhalte
+
+- Grundbegriffe
+- Kristallbildung
+- Zustandsdiagramme
+- Gefüge
+
+![bg right 70%](wst_mb_03.png)
+
+
+
+
+
+---
+
 # Begriffe
 
 ## Legierung
@@ -181,6 +196,8 @@ Subsitutionsmischkristall
 - ähnlicher Durchmesser
 - gleiches Kritallgitter
 
+---
+
 Einlagerungsmischkristall
 - kleinere Atome
 - in Lücken des Kristallgitters eingelagert (Einlagerungs- oder Zwischengitteratome) 
@@ -256,7 +273,7 @@ Korngrenze
 - starke Unterkühlung der Schmelze an der Kokillenwand
 - Ausbildung von zahlreichen Kristallkeime -> kleine, gleichmäßige Kristallite
 
-![bg right 80%](Figures/Kokille.png)
+![bg right 80%](../assets/Figures/Kokille.png)
 
 ---
 
@@ -265,7 +282,7 @@ Korngrenze
 - gerichtetes Wachstum von Kristallite (Stängelkristalle), bei denen die kristallografische Orientierung mit der Richtung des Wärmegefälles übereinstimmt;
 - die dadurch aufgetretene Orientierung => Gusstextur 
 
-![bg right 80%](Figures/Kokille.png)
+![bg right 80%](../assets/Figures/Kokille.png)
 
 ---
 
@@ -275,7 +292,7 @@ Korngrenze
 - globulare feinkörnige Kernzone 
 - Bei sehr reinen Metallen liegt in der dritten Zone allerdings ein grobkörniges Gefüge vor
 
-![bg right 80%](Figures/Kokille.png)
+![bg right 80%](../assets/Figures/Kokille.png)
 
 ---
  
@@ -303,7 +320,7 @@ Das Ätzen zur Gefügeentwicklung kann auch als ein Korrosionsvorgang bezeichnet
 Korngrenzenätzung
 - bevorzugtes auflösen von Korngrenzen
 
-![bg right 50%](Figures/Korngrenzenaetzung.png)
+![bg right 50%](../assets/Figures/Korngrenzenaetzung.png)
 
 ---
 
@@ -312,7 +329,7 @@ Kornflächenätzung
 - Körner reflektieren das Licht unterschiedlich 
 
 
-![bg right 60%](Figures/Kornflaechenaetzung.png)
+![bg right 60%](../assets/Figures/Kornflaechenaetzung.png)
 
 ---
 
@@ -355,25 +372,6 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 
 ---
 
-Die Phasen bzw. Phasengrenzlinien, die durch die jeweiligen Zustandsvariablen beeinflusst wer-den, können als ein Zustandsdiagramm dargestellt werden.
-Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel. Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustands-variablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern. Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt:
-
-F = n  - P + 2 
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-Unter Annahme, dass der Druck konstant ist (feste Stoffe), wird die Gibbsche Phasenregel zu: 	
-				
-F = n  - P + 1
-				
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
-
-				F = 0		ein Haltepunkt und
-				F = 1		ein Knickpunkt.
-
-
-
----
 ## Löslichkeiten
 
 <details>
@@ -399,6 +397,40 @@ Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlu
 ## Beispiel aus der eigenen Erfahrung
 - Ölfilm auf Wasser ist nicht löslich und es findet eine Trennung aufgrund der unterschiedlichen Dichte statt
 - Salz- / Zuckerkristalle in Wasser werden vollständig gelöst und ist nicht mehr sichtbar
+
+
+---
+
+# Zustandsdiagramme (ZSD)
+
+---
+
+
+- Die Phasen bzw. Phasengrenzlinien können als ein Zustandsdiagramm dargestellt werden
+- Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel
+- Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern
+- Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
+
+---
+
+## Gibbsche Phasenregel
+
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+				
+$F = n  - P + 1$
+				
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
+
+---
+
+
 
 
 ---
@@ -471,6 +503,8 @@ Sonderfall:
 ---
 ![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Peritektikum.svg)
 
+
+
 ---
 
 ## Realdiagramme
@@ -488,7 +522,7 @@ Sonderfall:
 ---
 
 
-![bg 70%](Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg 70%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 ## Wichtige Gleichgewichtslinien
@@ -499,7 +533,7 @@ ECF 		Eutektikale
 PSK 		Eutektoide			
 ES, PQ		Sättigungslinien				MOSK		Curie-Linie
 QPSECD 	Bildung/Auflösung Fe3C	
-![bg right fit](Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -511,7 +545,7 @@ E -	Punkt max. C-Löslichkeit im $\alpha$ - MK
 P - Punkt max. C-Löslichkeit im $\gamma$ - MK
 u. a. m. (vgl. Fe-Fe3C - Diagramm)
 
-![bg right fit](Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 
 ---
@@ -526,7 +560,7 @@ e:	équilibre (Gleichgewicht)
 Ac1: 723°C
 Ac3: abhängig vom C-Gehalt
 
-![bg right fit](Figures/umwandlungen.png)
+![bg right fit](../assets/Figures/umwandlungen.png)
 
 
 ---
