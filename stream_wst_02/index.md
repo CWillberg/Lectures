@@ -5,9 +5,11 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Lecture Basics of Mechanical Engineering - Materials Science
+title: Lecture on Real Structures and Properties
 author: Christian Willberg
 ---
+
+
 
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
@@ -24,6 +26,7 @@ author: Christian Willberg
 </style>
 
 <style scoped>
+.column
 .column-container {
     display: flex;
     flex-direction: row;
@@ -31,7 +34,7 @@ author: Christian Willberg
 
 .column {
     flex: 1;
-    padding: 0 20px; /* Placement of columns */
+    padding: 0 20px; /* Positioning of the columns */
 }
 
 .centered-image {
@@ -42,385 +45,46 @@ author: Christian Willberg
 
 <style>
 footer {
-    font-size: 14px; /* Footer font size */
-    color: #888; /* Footer color */
-    text-align: right; /* Footer alignment */
+    font-size: 14px; /* Change footer font size */
+    color: #888; /* Change footer color */
+    text-align: right; /* Change footer alignment */
 }
 </style>
 
-## Lecture Basics of Mechanical Engineering - Materials Science
-Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-Magdeburg-Stendal University of Applied Sciences 
 
-![bg right](../assets/Figures/IWES_test.jpg)
+## Lecture Materials Science - Lecture on Real Structures and Properties
+Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Hochschule Magdeburg-Stendal
+
+![bg right](https://upload.wikimedia.org/wikipedia/commons/d/d7/Gold-crystals.jpg)
 
 Contact: christian.willberg@h2.de
-Parts of the script were taken from \
+Parts of the script are taken from \
 Prof. Dr.-Ing. Jürgen Häberle
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Image Reference</a>
-</div>
+
+---
+
+## Objectives
+- Defects in crystals
+- Plasticity
+- Basics of mechanical properties
+
+![bg right 70%](stream_wst_02.png)
 
 ---
 
 <!--paginate: true-->
 
-
-# Lecture
-
-**Framework**
-
-- Eating or drinking is okay, but quietly
-- Issues with childcare
-- Everything stays in the room!
-- Questions
-
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
-## Content
-
-- Materials
-- Structure of materials
-  - Atoms and bonds
-  - Fine structure
-  - Microstructure
-- Material microstructure
-- Plasticity
-
----
-
-## Materials
-
-<details>
-<summary>What are materials?</summary>
-<div>
-Materials in the strict sense refer to solid substances used for manufacturing components and constructions.
-</div>
-</details>
-
----
-
-## Application areas with images
-
-- Metals
-  - Iron Steel
-  - Non-ferrous
-- Plastics
-- Ceramics
-- Composites
-
----
-
-## Cast Iron - Steel
-
-![bg 60% right](https://upload.wikimedia.org/wikipedia/commons/b/bf/Gu%C3%9Fteil_2007.gif)
-
-![bg 60% vertical](https://upload.wikimedia.org/wikipedia/commons/2/2e/LPD_22_MAR_2010.jpg)
-
----
-
-## Non-ferrous Metals
-
-- Copper is an excellent conductor of electricity and heat
-
-![bg right 70%](https://images-of-elements.com/copper.jpg)
-
----
-
-- Magnesium is used in lightweight construction
-- Titanium and titanium alloys
-    - high strength and heat resistance
-    - corrosion resistant
-- Nickel
-    - corrosion resistant
-    - high heat resistance
-
-![bg right 30%](https://images-of-elements.com/magnesium.jpg)
-![bg right 30% vertical](https://images-of-elements.com/titanium-crystal.jpg)
-![bg right 30%](https://images-of-elements.com/nickel.jpg)
-
----
-
-## Ceramics
-
-![bg right fit](http://www.hoogspanningsnet.com/wp-content/uploads/Eindsluitingen%20(Michel).jpg)
-
----
-
-## Glasses
-
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/15/Magnifying_Glass_Photo.jpg)
-
----
-
-## Fiber-reinforced Composites
-
-![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2022/03/boom_blank_be.png)
-
----
-
-# Structure of Materials
-
-![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
-
----
-
--	Atomic structure (type of atomic components)
--	Fine structure (bonds between atomic components and their geometric arrangement)
--	Microstructure (grains – geometrically arranged areas separated by boundaries within the material)
--	Macrostructure (overall appearance of a material during manufacturing and use)
-
----
-
-# Bonds
-
-## Primary Bonds  
-**Primary bonds - high bond energy, strong bond**
--	Ionic bond 
--	Covalent bond: polar (O-H) and nonpolar (C-C, C-H)
--	Metallic bond
-
----
-
-## Metallic Bond
-
-- Outer electrons (valence electrons) are weakly bound 
-- A lattice of positively charged metal ions (atomic cores) is formed
-- Outer electrons can move freely within the lattice, known as **electron gas** 
-- Result: good electrical and thermal conductivity
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/41/Nuvola_di_elettroni.svg)
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg)
-
----
-
-## Relevant Quantities
-
-**Atomic Number**
-Number of protons in the nucleus
-**Atomic Mass**
-Defines the mass of the element
-The mass of the material is a combination of atomic mass and density
-**Electronegativity**
-Determines whether atoms give or receive electrons in a bond
-Metallic bonds tend to be on the left
-Covalent bonds tend to be on the right
-
----
-
-## Secondary Bonds 
-**Secondary bonds - low bond energy, weak bond**
--	Van der Waals bond: intermolecular forces
--	Hydrogen bond: two molecules or two suitable parts of a macromolecule interact via hydrogen atoms
-- Bond energies are one to two orders of magnitude smaller than those of covalent bonds.
-
----
-
-| **Description** | **Ionic or heteropolar bond** | **Covalent bond (homopolar)** | **Metallic bond** |
-|-----------------|-------------------------------|---------------------------------|-------------------|
-| **Participating Components** | Ions (Metal + Nonmetal) | Same atom type (Nonmetal + Nonmetal) | Same atom type (Metal + Metal) |
-| **Electrical charge state** | Positive ion + negative ion (Cation + Anion) | Atoms share electron pairs to achieve noble gas configuration | Atoms release their outer electrons to the entire structure; electrons move freely within the lattice |
-
----
-
-| **Description** | **Ionic bond** | **Covalent bond** | **Metallic bond** |
-|-----------------|-----------------|-------------------|-------------------|
-| **Material properties** | Electrically conductive when dissolved, crystalline structure | Low electrical and thermal conductivity; high melting point | Excellent electrical and thermal conductivity, ductility; limited chemical resistance |
-| **Examples** | Alkali metal compounds, halides (e.g., NaCl, MgO) | Diamond, methane (CH₄) (nonpolar), methanol (CH₃OH) (polar) | Copper (Cu), Aluminum (Al), Iron (Fe) |
-
----
-
-## Atomic Structure
-
-Composed of:
-- Nucleus (protons + neutrons) defining the mass
-- Shell (electrons) with different layers, defining chemical and many physical properties
-
-![bg fit right](https://upload.wikimedia.org/wikipedia/commons/0/04/AtomRadialeDichte_He%2C_Ne%2CAr.jpg)
-
----
-
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
-
----
-
-### Fine Structure
-- Crystal structures
-- Molecular structures
-- Glassy-amorphous structures
-- Real structure
-
----
-
-## Crystal Lattice
-
-- Formed by a three-dimensional periodic shift of its components
-- Characterized by three space axes x, y, and z, angles α, β, γ, and distances along the axes
-- a0, b0, and c0 (lattice constants) -> unit cell
-
-![bg fit right](../assets/Figures/einheitszelle.png)
-
----
-
-| Crystal System    | Lattice Constants      | Angles        | Examples                                                 |
-|-------------------|------------------------|---------------|----------------------------------------------------------|
-| Triclinic         | a₀ ≠ b₀ ≠ c₀            | α ≠ β ≠ γ ≠ 90°| Silicate minerals                                        |
-| Monoclinic        | a₀ ≠ b₀ ≠ c₀            | α = γ = 90°; β ≠ 90°| Mo₂S₃; β-Pu                                               |
-| Orthorhombic      | a₀ ≠ b₀ ≠ c₀            | α = β = γ = 90°| U, S, P, Ga, γ-Sn                                         |
-| Rhombohedral      | a₀ = b₀ = c₀            | α = β = γ ≠ 90°| As, Hg, Sb                                                |
-| Hexagonal         | a₀ = b₀ ≠ c₀            | α = β = 90°; γ = 120°| α-Ti, Mg, Zn                                              |
-| Tetragonal        | a₀ = b₀ ≠ c₀            | α = β = γ = 90°| B, CuTi₃, Sn (T > 13.5°)                                 |
-
-
-
----
-
-## Most Common Lattice Forms in Metals
-
-| Crystal System    | Lattice Constants      | Angles        | Examples                                                 |
-|-------------------|------------------------|---------------|----------------------------------------------------------|
-| Cubic             | a₀ = b₀ = c₀            | α = β = γ = 90°| Cu, Al, Ni, Au, Ag; γ-Iron (fcc); α-Iron, V, Cr, W (bcc); Mn, Po (hcp) |
-
-
----
-
-Cubic Face-Centered (fcc)
-![bg right 30%](../assets/Figures/kfz.png)
-
-Cubic Body-Centered (bcc)
-
-![bg vertical 30%](../assets/Figures/krz.png)
-
-Hexagonal Close-Packed (hcp)
-
-![bg 30%](../assets/Figures/hdp.png)
-
----
-
-## Influences
-
-- Corrosion: Aggressive media attack occurs at preferred planes
-- Deformation: Plastic deformation occurs along preferred crystallographic planes and directions → Slip Systems
-- Ultrasound: Use of oscillating crystals with specific crystallographic boundary surfaces
-- Conductivity: Use of Germanium or Silicon wafers in (1 1 1)- or (1 0 0)-orientation for semiconductor elements
-- Magnetization: Easiest magnetization of iron-silicon transformer sheets along the cube edge [1 0 0]
-
----
-
-
-
-## Polymorphism in Metals
-
-- Polymorphism: The formation of different lattice structures depending on temperature
-- The different lattice forms are the allotropic modifications 
-
-(also: Polymorphism of carbon: Graphite, Diamond, etc.).
-
----
-
-## Determination of Transformation Points
-
-_Dilatometry_
-- Measurement of length changes due to lattice transformation
-
-_Thermal Analysis_
-- Recording the temperature progression
-- Lattice transformations (phase changes) require or release thermal energy
-- Plateau or inflection points in heating or cooling curves.
-
-- Plateau points: in pure metals
-
-
----
-
-![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
-
-
----
-
-
-
-## Molecular Structures
-
-- Typical for non-metallic-organic materials
-  - Natural materials: Wood, Rubber, Leather, Fibers, etc.
-  - Synthetic plastics: PMMA, Epoxy, etc.
-
-
-
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
-
-![bg vertical 80%](https://upload.wikimedia.org/wikipedia/commons/0/03/14-05-28-LEGO-by-RalfR-061.jpg)
-
----
-
-- Formed through polymerization reactions of monomeric building blocks into chain molecules
-- Within the chains, covalent bonds occur
-- Between the chains, secondary valence bonds and molecular entanglements exist
-
-
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
-
----
-
-## Polymerization Reaction
-
-- Free bonds must be created in the monomers
-- The monomers "need" new partners to reach a new energetic minimum
-
----
-
-## Chain Polymerizations
-
-  - Splitting of C=C double bonds in the monomer (catalytic process through pressure, temperature, catalyst)
-  - Linking the split monomers into macromolecules
-
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
-
----
-
-## Step-Growth Reactions 
-
-**Polycondensation**
-- Removal of low-molecular (e.g., H2O) reaction products through a chemical reaction creates free bonds
-- Stepwise reaction or interruption leads to the formation of linear, branched, or cross-linked polymers (thermoplastics, elastomers, or thermosets)  
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
-
----
-
-**Polyaddition**
-- Free bonds are created by rearrangement of double bonds between different monomer molecules
-- These then form molecular chains
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/4d/Polyaddition_Polyurethane_V.2.1.png)
-
----
-
-## Glassy-Amorphous Structures
-
-- Glasses are non-metallic inorganic, preferably silicate melt products
-- Non-crystalline, i.e., amorphous state
-- In glass, the melt is first undercooled and then "frozen" below the transformation temperature Tg. 
-
-![bg right fit](../assets/Figures/amorph.png)
-
----
-
 # Real Structure of Crystals
 ## Lattice Defects
 
-- Zero-Dimensional Defects (Point Defects): Vacancies, interstitial atoms, interstitial foreign atoms, substitutional foreign atoms
-- One-Dimensional Defects (Line Defects): Dislocations
-- Two-Dimensional Defects (Plane Defects): Stacking faults, grain boundaries, subgrain boundaries, phase boundaries
+- Zero-dimensional defects (point defects): vacancies, interstitial atoms, interstitial foreign atoms, substitutional foreign atom
+- One-dimensional defects (line defects): dislocations
+- Two-dimensional defects (surface defects): stacking faults, grain boundaries, subgrain boundaries, phase boundaries
 
 ---
 
-## Zero-Dimensional Defects
+## Zero-dimensional Defects
 
 ![bg right 50%](../assets/Figures/ideales_gitter.png)
 
@@ -444,10 +108,10 @@ _Thermal Analysis_
 <summary>How can foreign atoms be used?</summary>
 <div>
 
-- [Doping](https://de.wikipedia.org/wiki/Dotierung) in semiconductors
-    - Targeted manipulation of electrical conductivity by introducing additional atoms
-- Interstitial and substitutional foreign atoms
-    - Increased strength through natural "crack stop" or locally easier slip and local reduction of stresses
+- [Doping](https://en.wikipedia.org/wiki/Doping_(semiconductor)) in semiconductors
+    - targeted manipulation of electrical conductivity by introducing additional atoms
+- Interstitial and substitutional foreign atom
+    - increase in strength through natural "crack stopping" or locally easier dislocation and reduction of local stresses
 </div>
 </details>
 
@@ -455,30 +119,30 @@ _Thermal Analysis_
 
 ## Dislocations
 
-[Dislocations](https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)) arise
-- During crystal growth
-- Due to residual stresses
-- Through plastic deformations
+[Dislocations](https://en.wikipedia.org/wiki/Dislocation_(materials_science)) occur
+- during crystal growth
+- due to residual stresses
+- through plastic deformation
 
 ![bg right 80%](../assets/Figures/versetzung.png)
 ![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
 
 ---
 
-## Two-Dimensional Defects - Grain Boundaries
+## Two-dimensional Defects - Grain Boundaries
 - Grain boundaries
 - Phase boundaries
 - Subgrain boundaries
 
 ![bg right fit](https://www.struers.com/-/media/Struers-media-library/Knowledge/Materials/Grain-structures/FIg-0A-974x732-px.jpg?lm=20191009T054854Z&h=732&w=974&hash=4504C0AA9A9B6DEB6BDF91CC93EDF46ED9AADF75)
 
-[Skript](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
+[Script](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
 
 ---
 
 ## Plasticity
 
-Good or Bad
+Good or Bad?
 
 ![bg right 70%](../assets/Figures/fragezeichen.png)
 
@@ -486,47 +150,47 @@ Good or Bad
 
 ## Examples
 
-**High Plasticity**:
+**High plasticity**:
 
 - Modeling clay
 - Wet clay
-- Metals and metal alloys with suitable atomic lattice:
-  - Hot steel during forging
-  - Cold forming of sheets 
+- Metals and metal alloys with a suitable atomic lattice:
+  - glowing steel in forging
+  - cold forming of sheets 
 
-**Low Plasticity**:
+**Low plasticity**:
   - Rubber
   - Ceramics
   - Fiber-reinforced composites (epoxy-glass fiber or epoxy-carbon fiber)
-   
+
 ---
 
 ## Plasticity - Single Crystal
 
-Plastic deformation of a crystal essentially occurs through the sliding of atomic layers along specific crystallographic planes and directions under the influence of shear stresses.
+The plastic deformation of a crystal mainly occurs through the sliding of atomic layers along certain crystallographic planes and directions under the influence of shear stress.
 
-- Slip system consists of slip plane and slip direction
-- Critical shear stress ($\tau_{Kr}\approx G/10$ - estimation or theoretical shear strength)
-- Reality ~100 times lower due to dislocations
+- The slip system consists of a slip plane and a slip direction.
+- Critical shear stress ($\tau_{Cr}\approx G/10$ - estimate or theoretical shear strength)
+- Reality is ~100 times lower due to dislocations
 
 ---
 
 ## Image
 
 ![](../assets/Figures/Beispiel_plast.bmp)
-  
+
 ---
 
-## Plastic Deformation of Polycrystalline Materials
+## Plastic Deformation of Polycrystalline Material
 
-- Micro- and Macroplasticity
+- Micro- and macroplasticity
   - Plastic deformation starts at "unfavorable" orientations
 - Grain boundaries
-  - Barrier for dislocation movement
+  - Barrier to dislocation motion
   - At high temperatures, grain boundaries can slide (creep)
   - Targeted manufacturing can increase toughness through grain boundaries
 - Heterogeneity
-  - Multiphasic
+  - Multiphase materials
   - Inhomogeneous distribution of stresses and deformations
 - Anisotropy
 
@@ -541,11 +205,11 @@ Plastic deformation of a crystal essentially occurs through the sliding of atomi
 
 ![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
 
-- $R_m$ - Tensile Strength
-- $R_e$ - Yield Strength
-- Elongation limit or yield strength $R_{p0,2}$
-  - Loading and then unloading, 0.2% elongation remains
-- Elongation limit is used as a substitute for yield strength
+- $R_m$ - tensile strength
+- $R_e$ - yield strength
+- Offset yield strength or elastic limit $R_{p0.2}$
+  - After loading and unloading, 0.2% strain remains
+- Offset yield strength is used as a substitute for yield strength
 
 ---
 
@@ -555,12 +219,275 @@ Plastic deformation of a crystal essentially occurs through the sliding of atomi
 
 - Upper yield strength $R_{eH}$
 - Lower yield strength $R_{eL}$
->Zigzag area: Lüders band
+>Jagged area: Lüders region
 
-[Example Video](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
+[Example video](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
 
 ---
 
 ## Plasticity - Forming
-- [Deep Drawing Principle](https://www.youtube.com/watch?v=Zbfld_851z0)
-- [Deep Drawing Real](https://www.youtube.com/watch?v=rHfepOqPVHI)
+- [Deep drawing principle](https://www.youtube.com/watch?v=Zbfld_851z0)
+- [Deep drawing in reality](https://www.youtube.com/watch?v=rHfepOqPVHI)
+
+---
+## Material Properties
+
+<details>
+<summary>What are material properties?</summary>
+
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <pre align="center" class="mermaid">
+    %%{init: {'theme': 'forest'}}%%
+    mindmap
+      root((Properties))
+        Physical
+          Mechanical
+          Electrical
+          Thermal
+          ...
+        Chemical
+            Solubility
+            Electronegativity
+            ...
+        Biological / Physiological
+            Environmental Impact
+            Weatherability
+            Toxicity
+            ...
+        Social / Societal
+            Value
+            Acceptance
+            Working Conditions
+            Origin
+            ...
+    </pre>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    </script>
+  </body>
+</html>
+</details>
+
+<!DOCTYPE html>
+
+---
+
+## Symmetry
+- Isotropy
+- Transverse Isotropy
+- Orthotropy
+- ...
+- Anisotropy
+![bg right 80%](../assets/Figures/xyz.png)
+
+<!---
+- Discussion; properties can be direction-dependent
+- Practical examples
+-->
+
+---
+
+## Mechanical Properties
+<a id="Mechanics"></a>
+
+- **Reversible** deformation, where immediately or after a certain time following the application of external load, the deformed material returns to its original shape: elastic and viscoelastic deformation.
+
+- **Irreversible (permanent)** deformation, where the shape change remains even after the external load is removed: plastic and viscous deformation.
+
+- Fracture, i.e., separation of the material caused by the formation and propagation of cracks.
+
+---
+
+## Simulation Example
+
+<iframe src="https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400" width="1150" height="600"></iframe>
+
+---
+
+
+## Concept of Stress - Strain
+
+- Geometry-independent characteristics
+- How can one determine a characteristic that is defined solely by the material?
+- Example: Density
+
+---
+
+## Elasticity
+
+- Reversible, energy-preserving
+- Hooke's Law 1D
+Normal stress $\sigma = E\varepsilon$
+Shear stress $\tau = G\gamma$
+
+---
+
+## Basics
+
+- Normal strain [-]
+$\varepsilon_{mechanical} = \frac{l - l_0}{l_0}$
+
+- Normal stress $\left[\frac{N}{m^2}\right]$, $[Pa]$
+$\sigma = \frac{F}{A}=E\varepsilon$
+E - Elastic modulus, Young's modulus $\left[\frac{N}{m^2}\right]$\
+\
+\
+\
+\
+.
+<div style="position: absolute; bottom: 40px; left: 80px; color: blue; font-size: 20px;"> 
+    <img src="Figures/EModul.svg" style="height:230px;width:auto;vertical-align: top;">
+</div>
+
+![bg right:25%](../assets/Figures/Normalspannung.gif)
+
+---
+
+## Basics
+
+- Shear strain [-]
+$\varepsilon = \frac12(\frac{u_x}{l_0}+\frac{u_y}{b_0})=\frac{\gamma}{2}$
+
+- Shear stress $\left[\frac{N}{m^2}\right]$, $[Pa]$
+$\tau = \frac{F_s}{A}= G\gamma$
+
+- Normal and shear stresses are not compatible, leading to the concept of equivalent stresses -> Engineering Mechanics
+
+- G - Shear modulus $\left[\frac{N}{m^2}\right]$
+
+![bg right:25%](../assets/Figures/Schubspannung.gif)
+
+---
+
+## Basics
+
+- Poisson's ratio [-]
+$\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
+for homogeneous materials $0\leq\nu\leq 0.5$
+for heterogeneous materials, other configurations are possible
+
+- [Bulk modulus](https://en.wikipedia.org/wiki/Bulk_modulus#Relation_between_elastic_moduli) $K = \frac{E}{3(1-2\nu)}$
+- [Shear modulus](https://en.wikipedia.org/wiki/Bulk_modulus#Relation_between_elastic_moduli) $K = \frac{E}{2(1+\nu)}$
+
+![bg right:25%](../assets/Figures/Kompression.gif)
+
+---
+
+## Material Examples
+
+| Material                          | E [GPa]   | G [GPa] | $\nu [-]$     |
+|:----------------------------------|:----------|:--------|:--------------|
+| Unalloyed steel                   | 200       | 77      | 0.30          |
+| Titanium                          | 110       | 40      | 0.36          |
+| Copper                            | 120       | 45      | 0.35          |
+| Aluminum                          | 70        | 26      | 0.34          |
+| Magnesium                         | 45        | 17      | 0.27          |
+| Tungsten                          | 360       | 130     | 0.35          |
+| Cast iron with lamellar graphite  | 120       | 60      | 0.25          |
+| Brass                             | 100       | 35      | 0.35          |
+| Thermoplastics / Thermosets       | 2 … 5     | 1 … 2   | ~0.35         |
+| Elastomers                        | 0.1       | 0.03    | 0.45 - 0.49   |
+| Plywood                           | 4 … 16    | -       | -             |
+| Concrete                          | 40 … 45   | -       | -             |
+
+---
+
+## Stiffness
+<details>
+<summary>How are material properties related to stiffness?</summary>
+
+- Material $\cdot$ cross-sectional area = stiffness
+- Tensile, normal stiffness = $EA$
+- Bending stiffness = $EI$
+- Torsional stiffness = $GI_P$
+
+</details>
+
+![bg fit right:50%](../assets/Figures/IWES_test.jpg)
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Image reference</a>
+</div>
+
+---
+
+## 
+<!---
+
+* 1st and 2nd natural frequencies ->  https://doi.org/10.3390/en14092451
+* Deformation in the impact and swing direction are identical
+* Tower impact is relevant
+* Dynamic stability
+* -->
+
+![bg fit](../assets/Figures/EF1.png)
+![bg fit](../assets/Figures/EF2.png)
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Image reference</a>
+</div>
+
+---
+
+## Strength
+
+[The strength of a material describes its ability to withstand mechanical loads before failure occurs and is expressed as mechanical stress $\left[N/m^2\right]$. Failure can involve **unacceptable deformation**, particularly **plastic (permanent) deformation**, or **fracture**.](https://en.wikipedia.org/wiki/Strength_of_materials)
+
+>Important: Strength $\neq$ Stiffness
+
+---
+
+## Plastic Failure
+
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
+    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
+</div>
+
+---
+
+## Viscous Behavior
+
+- Reversible
+- Time-dependent
+
+Spring model $\sigma = E\epsilon$ 
+ - Elastic component
+ - Represented by spring elements
+<div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
+    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+</div>
+
+<div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
+    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+</div>
+
+Damper  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$ 
+- Viscous component
+- Represented by damper elements
+
+---
+
+## 
+
+
+![bg fit](../assets/Figures/Spannung-Dehnung.png)
+![bg fit](../assets/Figures/Spannung-Dehnrate.png)
+
+---
+
+## 
+
+![bg fit](../assets/Figures/Spannung-Zeit.png)
+![bg fit](../assets/Figures/Hysteresis.png)
+
+
+
+---
+
+## Excursion: Modeling of Materials
+- Rheological models
+- Consist of many springs, dampers, and other elements
+- These degrees of freedom ($E_i$, $\eta_i$) are then fitted

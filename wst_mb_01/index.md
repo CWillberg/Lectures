@@ -69,17 +69,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 <!--paginate: true-->
 
-## Nützliche Links
-
-<!-- zusammenarbeit; wir erarbeiten unsere eigene Dokumenation -->
-[Skript](https://cwillberg.github.io/Werkstofftechnik/)
-[Formelsammlung]( https://cwillberg.github.io/Werkstofftechnik/Formelsammlung)
-TBD
-[CoopSpace]()
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
 ## Vorlesung
 
 **Rahmen**
@@ -90,7 +79,7 @@ TBD
 - Alles verbleibt in Raum!
 - Fragen
 
-![bg right 50%](../assets/styles/vorlesung.png)
+![bg right 50%](wst_mb_01.png)
 
 ---
 

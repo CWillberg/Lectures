@@ -51,15 +51,25 @@ footer {
 </style>
 
 
-## Vorlesung Werkstofftechnik - Gefüge der Werkstoffe
+## Vorlesung Werkstofftechnik - Vorlesung Reale Strukturen und Eigenschaften
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/d/d7/Gold-crystals.jpg)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
 Prof. Dr.-Ing. Jürgen Häberle übernommen
+
+---
+
+## Ziele
+- Fehler in Kristallen
+- Plastizität
+- Grundlagen mechanischer Eigenschaften
+
+![bg right 70%](wst_mb_02.png)
+
 
 
 
@@ -230,9 +240,6 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 ---
 
 
-
-
-
 ## Werkstoffeigenschaften
 
 <details>
@@ -308,6 +315,13 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 <iframe src="https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400" width="1150" height="600"></iframe>
 
+
+---
+## Konzept Spannung - Dehnung
+
+- Geometriefreie Kennwerte
+- Wie kann man einen Kennwert bestimmen, der nur durch das Material bestimmt ist?
+- Beispiel: Dichte
 
 ---
 
@@ -493,233 +507,4 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 - Rheologische Modelle
 - setzen sich aus vielen Federn, Dämpfern und anderen Elementen zusammen
 - diese Freiheitsgrade ($E_i$, $\eta_i$) werden dann gefittet
-
-
-
----
-
-## Wiederholung Kristalle und Gitter
-
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
-## Kristalle - Kritallgitter
-
-- Stoffe die sich in einer Kristallstruktur anordnen
-- Periodische Wiederholung der "Basis"
-- Die Basis kann beliebig groß sein
-- Elementarzellen enthält alle Informationen
-zur Beschreibung des Kristalls
-- alle Metalle bilden in der Regel Kristalle 
-
-
-<div style="position: absolute; bottom: 340px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/NaCl_polyhedra.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:250px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Rock_salt_crystal.jpg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
----
-
-## "Faule" Physik
-- alles strebt nach engergetisch "stabilen" Zuständen
-
-<div style="position: absolute; bottom: -360px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/energie.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:1320px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-- [Einheitszelle](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-
-<div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Einheitszelle.png" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<details>
-<summary>Recherchiert wichtige Parameter der Einheitszelle?</summary>
-<div>
-
-- a$_0$, b$_0$, c$_0$ - Gitterkonstanten - Abstand der Atome
-- $\alpha$, $\beta$, $\gamma$ - Achswinkel - Winkel der Elementarzellen
-- 14 mögliche [Bravais Gitter](https://de.wikipedia.org/wiki/Bravais-Gitter) in 3D
-- [Zahl der Atome](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-- [Koordinationszahl](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-- [Packungsdichte](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-</div>
-</details>
-
----
-
-## Einfluss des Raumgitters
-
--	Korrosion: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
--	Verformung: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
--	Ultraschall: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
--	Leitfähigkeit:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
--	Magnetisierung: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen entlang der Würfelkante [1 0 0]
-
----
-
-## Gitterbaudefekte
-
--	Nulldimensionale Fehlstellen (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	Eindimensionale Fehlstellen (Liniendefekte): Versetzungen
--	Zweidimensionale Fehlstellen (Flächendefekte): Stapelfehler, Korngrenzen, Subkorn-grenzen, Phasengrenzen
-
----
-
-## Nulldimensionale Fehlstellen
-
-![bg right 50%](../assets/Figures/ideales_gitter.png)
-
-
-
-<details>
-<summary>Was gibt es für mögliche Varianten?</summary>
-<div>
-
-- Zwischengitteratome
-- Leerstellen
-- Frenkeltyp (Autreten der gleichen Zahl Zwischen-gitteratome und Fehlstellen)
-- Substitutions-Fremdatom
-- Zwischengitter-Fremdatom 
-</div>
-</details>
-
----
-
-## Fremdatome
-
-<details>
-<summary>Wie lassen sich Fremdatome nutzen?</summary>
-<div>
-
--	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
-    - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
-- Zwischengitter und Substitutionsfremdatom
-    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
-</div>
-</details>
-
-
----
-
-
-## Versetzungen
-
-[Versetzungen](https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)) enstehen
-- beim Kristallwachstum
-- aufgrund von Eigenspannungen
-- durch plastische Verformungen
-
-![bg right 80%](../assets/Figures/versetzung.png)
-![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
-
-
----
-
-## Zweidimensionale Fehlstellen - Korngrenzen
-- Korngrenzen
-- Phasengrenzen
-- Subkorngrenzen
-
-![bg right fit](https://www.struers.com/-/media/Struers-media-library/Knowledge/Materials/Grain-structures/FIg-0A-974x732-px.jpg?lm=20191009T054854Z&h=732&w=974&hash=4504C0AA9A9B6DEB6BDF91CC93EDF46ED9AADF75)
-
-[Skript](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
-
-
----
-
-
-## Plastizität
-
-Gut oder Schlecht
-
-![bg right 70%](../assets/Figures/fragezeichen.png)
-
----
-
-## Beispiele
-
-**Hohe Plastizität**:
-
-- Knete
-- feuchter Ton
-- Metalle und Metalllegierungen mit geeignetem Atomgitter:
-  - glühender Stahl beim Schmieden
-  - Kaltumformung von Blechen 
-
-**Geringe Plastizität**:
-  - Gummi
-  - Keramik
-  - Faserkunstoffverbunde (Epoxid-Glasfaser oder Epoxid-Kohlefaser)
-   
----
-
-## Plastizität - Einkristall
-
-Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch Abgleiten von Atomschichten entlang bestimmter kristallographischer Ebenen und Richtungen unter Einwirken von Schubspannungen.
-
-- Gleitsystem besteht aus Gleitebene und Gleitrichtung
-- kritische Schubspannung ($\tau_{Kr}\approx G/10$ - Abschätzung oder theoretische Schubfestigkeit)
-- Realtität um Faktor ~100 niedriger durch Versetzungen
----
-
-## Bild
-
-![](../assets/Figures/Beispiel_plast.bmp)
-  
----
-
-## Plastische Verformung des polykristallinen Werkstoffs
-
-- Mikro- und Makroplastizität
-  - Plastische Verformung beginnt bei "ungünstigen" Orientierungen
-- Korngrenzen
-  - Barriere für Versetzungsbewegung
-  - bei hohen Temperaturen können Korngrenzen gleiten (Kriechen)
-  - gezielte Fertigung kann durch Korngrenzen Zähigkeit erhöhen
-- Heterogenität
-  - Mehrphasigkeit
-  - inhomogene Verteilung der Spannungen und Verformungen
-- Anisotropie
-
----
-
-## Polykristall Plastizität
-[Beispiel aus einer Simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
-
-- $R_m$ - Zugfestigkeit
-- $R_e$ - Streckgrenze
-- Dehngrenze oder Elastizitätsgrenze $R_{p0,2}$
-  - Belastung und dann Entlastung 0.2% Dehung verbleibt
-- Dehngrenze wird als Ersatzstreckgrenze verwendet
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
-
-- obere Streckgrenze $R_{eH}$
-- untere Streckgrenze $R_{eL}$
->gezackter Bereich: Lüdersbereich
-
-[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
-
----
-
-## Plastizität - Umformen
-- [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
-- [Tiefziehen Real](https://www.youtube.com/watch?v=rHfepOqPVHI)
-
----
 
