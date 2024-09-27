@@ -205,6 +205,19 @@ Einlagerungsmischkristall
 
 _Beide Arten sind einphasig._
 
+
+---
+
+## Intermetallische Phase
+
+-	meist komplizierter Gitteraufbau, unabhängig von Ausgangsgittern
+- geordnete Einlagerungsstrukturen
+- keine Verbindung im chemischen Sinne (Ge-setz der konstanten und multiplen Proportio-nen gilt nicht)
+- vorherrschender Bindungstyp: Metallbindung, aber Atom- und Ionenbindungsanteile „zugemischt“
+
+Eigenschaft: hart und sehr spröde
+
+
 ---
 
 
@@ -431,11 +444,6 @@ F = 1		ein Knickpunkt.
 ---
 
 
-
-
----
-
-
 ![bg 60%](../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
 
 ---
@@ -475,13 +483,13 @@ F = 1		ein Knickpunkt.
 
 ---
 
-![](Figures/Mischungsluecke.png)
+![](../assets/Figures/Mischungsluecke.png)
 
 
 ---
 
 _Löslichkeits- oder Sättigungslinien_
-- Linien, die die Einphasengebiete ($\alpha$, $\beta$) von dem Gebiet der Kristallgemische aus Mischkristal-len ($\alpha+\beta$) abgrenzen
+- Linien, die die Einphasengebiete ($\alpha$, $\beta$) von dem Gebiet der Kristallgemische aus Mischkristallen ($\alpha+\beta$) abgrenzen
 Sonderfall:
 - ein System von Mischkristallen bilden Einlagerungsmischkristalle 
 - Die Konzentrationsachse endet dann mit der Konzentration der Sättigung der Komponente B im Gitter der Komponente A
@@ -518,6 +526,26 @@ Sonderfall:
 - Man kann je nach Erscheinungsform des Kohlenstoffs zwischen dem stabilen System Fe-C, in dem Kohlenstoff als Graphit, und dem metastabilen System Fe-Fe3C, in dem Kohlenstoff gebunden als Fe3C (intermediäre Phase Zementit) vorliegt, unterscheiden. 
 - Stabil bedeutet, dass der Kohlenstoff in Form von Graphit nicht weiter zerlegt werden kann, Fe3C aber bei langzeitigem Glühen in Eisen und Temperkohle zerfällt. 
 - Das metastabile Sys-tem stellt gewissermaßen ein relatives Minimum der Gesamtenergie des Systems dar. Für techni-sche Belange kann es als „hinreichend stabil“ bewertet werden.
+
+---
+
+# Eisen-Kohlenstoffdiagramm (EKD)
+
+- wichtigstes ZSD
+- Eisenist der wichtigste Werkstoff im Maschinenbau. 
+
+Gründe sind
+- geringe Kosten
+- hohe Festigkeit und elastische Steifigkeit
+- Vielzahl von möglichen Legierungen
+- Verfügbarkeit
+- Gießbarkeit, Schweißbarkeit, etc.
+
+[Erklärvideo für das Eisen Kohlenstoff Diagramm](https://www.youtube.com/watch?v=oJqvnKhnsg0&t=1s)
+
+---
+
+![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
 
 ---
 
@@ -565,57 +593,126 @@ Ac3: abhängig vom C-Gehalt
 
 ---
 
+# Phasen- und Gefüge im System-Eisen-Kohlenstoff
+# Mischkristalle
 
-3.3.2 Phasen- und Gefüge im System-Eisen-Kohlenstoff
-Mischkristalle
--Mischkristall (krz): Gefügebezeichnung Ferrit (-Ferrit); rein ferritisches Gefüge besitzt ge-ringe Härte/Festigkeit, aber hohe Duktilität. Max. C-Löslichkeit: nur 0,02 %.
+---
+## $\alpha$-Mischkristall (krz)
+- Gefügebezeichnung Ferrit ($\alpha$-Ferrit)
+- rein ferritisches Gefüge besitzt geringe Härte/Festigkeit, aber hohe Duktilität (Zähigkeit)
+- Max. C-Löslichkeit: nur 0,02 % 
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/b/be/Ductility.svg)
 
--Mischkristall (krz): -Ferrit ist nur oberhalb von 1392°C stabil und von technisch untergeord-neter Bedeutung. Max. C-Löslichkeit: 0,12 %.
+---
+## Exkurs Härte / Festigkeit
+Im Detail kommt das später.
+Festigkeit 
+- Maß der maximalen Beanspruchbarkeit bis Versagen
+- Kraft pro Querschnittsfläche
 
--Mischkristall (kfz): Gefügebezeichnung Austenit; scheidet sich oberhalb der G-S-E-Linie im Ei-sen-Kohlenstoff-Diagramm aus; durch Legierungszusätze (Ni, Mn) und Abschrecken auch bei Raumtemperatur beständig (austenitische Stähle). Das Austenitgefüge ist unmagnetisch, zäh und durch Kaltverfestigung härtbar (Mangan-, Nickel-, Chrom-Nickel-Stähle). Es besitzt hohe Warm-festigkeit, gute Korrosions- und Zunderbeständigkeit. Max. C-Löslichkeit: 2,06 %.
-
-Intermediäre Phase
-Zementit (Eisencarbid Fe3C); 6,67 Masse-% C-Gehalt! 
-
-Die Kristallstruktur von Zementit ist relativ kompliziert. In einer orthorhombischen Elementarzelle befinden sich zwölf Eisen- und vier Kohlenstoffatome, wobei die Kohlenstoffatome relativ unregelmäßig (zweifach überkappt trigonal-prismatisch) von acht Eisenatomen umgeben sind.
-Zementit ist hart und spröde. Die überwiegende Zahl der technischen Eisen-Kohlenstoff-Legierungen erstarrt unter Bildung von Zementit. 
+Härte 
+- mechanischer Widerstand gegen mechanisches Eindringung eines anderen Körpers 
+- Maß für die Verschleißbeständigkeit
 
 
-Bezeichnungen:
+---
 
-Primärzementit:	
+## $\delta$-Mischkristall (krz)
+ - $\delta$-Ferrit ist nur oberhalb von 1392°C stabil  
+ - technisch von untergeordneter Bedeutung
+ - Max. C-Löslichkeit: 0.12 %
+
+---
+
+## $\gamma$-Mischkristall (kfz)
+- Gefügebezeichnung Austenit
+- scheidet sich oberhalb der G-S-E-Linie  aus; 
+  - durch Legierungszusätze (Ni, Mn) und Abschrecken auch bei Raumtemperatur beständig (austenitische Stähle)
+- unmagnetisch, zäh und durch Kaltverfestigung härtbar (Mangan-, Nickel-, Chrom-Nickel-Stähle)
+- hohe Warmfestigkeit, gute Korrosions- und Zunderbeständigkeit
+- Max. C-Löslichkeit: 2.06 %
+
+
+---
+
+## Intermediäre Phase
+Zementit (Eisencarbid Fe3C); 6.67 Masse-% C-Gehalt
+
+- Primärzementit:	
 primäre Kristallisation aus der Schmelze (Linie CD)
 
-Sekundärzementit: 
+- Sekundärzementit: 
 Ausscheidung aus dem Austenit (Linie ES)
 
-Tertiärzementit:	
+- Tertiärzementit:	
 Ausscheidung aus dem Ferrit (Linie PQ)
 
 
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+---
+
+## Kristallstruktur
+
+![bg right 80%](../assets/Figures/Zementit.png)
+
+- orthorhombischen Elementarzelle 
+  -  zwölf Eisen- und vier Kohlenstoffatome
+  - die Kohlenstoffatome sind relativ unregelmäßig (zweifach überkappt trigonal-prismatisch) von acht Eisenatomen umgeben
+
+---
+
+- Zementit ist hart und spröde
+- überwiegende Zahl der technischen Eisen-Kohlenstoff-Legierungen erstarrt unter Bildung von Zementit
+
+![bg right 80%](../assets/Figures/Zementit.png)
+
+---
+
+# Phasengemische/Gemische von Mischkristallen
+
+## Perlit (Eutektoid)
+- Gefüge aus Zementit und Ferrit (= Phasengemisch)
+- entsteht durch den "eutektoiden" Zerfall des Austenits ($\gamma$-Mischkristall) mit 0.8% C bei 723°C
+- eutektoider Punkt S: hier liegen 100% Perlit vor
+- relativ hohe Härte, relativ hohe Festigkeit, schlechte Umformbarkeit, geringe Zähigkeit
+
+---
+
+- lamellenartiger Aufbau (Schichten von $\alpha$-Mk und Fe3C-Kristallen) .
+- häufig spricht man von einer "Perlitstufe", die - gemessen am Lamellenabstand - in Perlit, fein-streifigen  und feinststreifigen Perlit unterteilt wird. 
 
 
-Bild 3.3-2: Die Kristallstruktur von Zementit
+![bg right](../assets/Figures/perilitisches_gefuege.png)
+
+---
+
+## Ledeburit (Eutektikum) 
+
+- Gefüge aus Austenit und Zementit bzw. „zerfallenem“ Austenit und Zementit (= Phasengemisch), Kohlenstoffgehalt 4,3 %, Schmelztemperatur 1147°C 
+- Eutektischer Punkt C: hier liegen 100% Ledeburit vor
+- Unterscheidung zwischen Ledeburit I (dicht unterhalb 1.147 °C)
+  -  um ein Gefüge aus Austenit und Zementit handelt
+
+- Ledeburit II (Raumtemperatur)
+  - aus Zementit I mit ankristallisiertem Sekundärzementit (aus dem Austenit bei sinkender Temperatur ausgeschieden) und (bei langsamer Abkühlung) aus Perlit
+  -  Der Perlit entsteht durch den eutektoiden Zerfall des Austenits aus dem Ledeburit I bei 723 °C. 
+
+---
+- bei schnellerer Abkühlung kann anstelle des Perlit auch Bainit bzw. bei sehr schneller Abkühlung Martensit vorliegen. 
+- Ledeburit ist schlecht umformbar, hat sehr geringe Duktilität. 
+ - bei Raumtemperatur  feines Gemenge von Fe3C-Kristalliten und Perlitbereichen im Auflichtmikroskop als charakteristische Pantherfellstruktur sichtbar.
+
+![bg right](../assets/Figures/ledeburit_gefuege.png)
 
 
+---
 
-Phasengemische/Gemische von Mischkristallen
-Perlit (Eutektoid) - Gefüge aus Zementit und Ferrit (= Phasengemisch); Perlit entsteht durch den "eutektoiden" Zerfall des Austenits (-Mischkristall) mit 0,8% C bei 723°C = eutektoider Punkt S: hier liegen 100% Perlit vor; lamellenartiger Aufbau (Schichten von -Mk und Fe3C-Kristallen) re-lativ hohe Härte, relativ hohe Festigkeit, schlechte Umformbarkeit, geringe Zähigkeit.
-Häufig spricht man von einer "Perlitstufe", die - gemessen am Lamellenabstand - in Perlit, fein-streifigen (veraltet Sorbit) und feinststreifigen (veraltet Troostit) Perlit unterteilt wird. 
+Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der beteiligten Phasen (z.B. $\alpha$-Mk, Fe3C), ihren mengenmäßigen Anteil (z. B. abhängig vom C-Gehalt) und die Art ihrer Verteilung im Gefüge bestimmt.
 
-Ledeburit (Eutektikum) - Gefüge aus Austenit und Zementit bzw. „zerfallenem“ Austenit und Zementit (= Phasengemisch), Kohlenstoffgehalt 4,3 %, Schmelztemperatur 1147°C = Eutektischer Punkt C: hier liegen 100% Ledeburit vor. 
-Es wird zwischen Ledeburit I und Ledeburit II unterschieden. Während es sich bei Ledeburit I (dicht unterhalb 1.147 °C) um ein Gefüge aus Austenit und Zementit handelt, besteht der Ledeburit II (Raumtemperatur) aus Zementit I mit ankristallisiertem Sekundärzementit (aus dem Austenit bei sinkender Temperatur ausgeschieden) und (bei langsamer Abkühlung) aus Perlit. Der Perlit ent-steht durch den eutektoiden Zerfall des Austenits aus dem Ledeburit I bei 723 °C. Bei rascherer Abkühlung kann anstelle des Perlit auch Bainit bzw. bei sehr schneller Abkühlung Martensit vor-liegen. Ledeburit ist schlecht umformbar, hat sehr geringe Duktilität. Das Gefüge ist bei Raum-temperatur als feines Gemenge von Fe3C-Kristalliten und Perlitbereichen im Auflichtmikroskop als charakteristische Pantherfellstruktur sichtbar.
+---
 
-a)  		b)  
-
-Bild 3.3-3: a) REM-Aufnahme eines vollständig perlitischen Gefüges; 
-	b) Lichtmikroskopische Aufnahme von Ledeburit
-
-
-Merke:
-Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der beteiligten Pha-sen (z.B. -Mk, Fe3C), ihren mengenmäßigen Anteil (z. B. abhängig vom C-Gehalt) und die Art ihrer Verteilung im Gefüge bestimmt.
-
-3.3.2 Phasen- und Gefüge im Ungleichgewichtszustand
+# 3.3.2 Phasen- und Gefüge im Ungleichgewichtszustand
 Bisher wurde der oben beschriebene Gleichgewichtszustand betrachtet. Die Ausbildung der Gleichgewichtsphasen (EKD) ist durch Diffusionsvorgänge gesteuert. Bei schnelleren Tempera-turänderungen wird die Kohlenstoffdiffusion, die zur Entmischung des Austenits erforderlich ist, behindert (siehe hierzu Kapitel I-4).
 Dadurch entstehen auch neuartige Gefügebestandteile, die nicht mehr dem Gleichgewichtszustand entsprechen.
 
@@ -626,44 +723,27 @@ Bainit
 wie Martensit: Ferrit mit zwangsgelöstem Kohlenstoff; anders als bei der Bildung von Martensit sind hier Umklappvorgänge im Kristallgitter und Diffusionsvorgänge gekoppelt, dadurch werden verschiedene Umwandlungsmechanismen möglich. Bainit bildet sich im Temperaturbereich zwi-schen der Perlit- und der Martensitstufe bei Abkühlungsgeschwindigkeiten, die für eine vollständi-ge Martensitbildung zu niedrig und für die Perlitbildung zu hoch sind. Es wurde daher früher auch Zwischenstufengefüge genannt.
 Reiner Bainit lässt sich nur durch isotherme Abkühlung, z.B. beim Warmbadhärten, erzielen. Vor-teilhaft ist das Zwischenstufengefüge dort, wo bei einer Vergütung durch Abschrecken und Anlas-sen eine Härterissgefahr besteht. Es hat sehr gute Festigkeits- und Zähigkeitseigenschaften.
 
-
+---
  
-3.3.3 Eisen-Kohlenstoff-Legierungsbezeichnungen
+# 3.3.3 Eisen-Kohlenstoff-Legierungsbezeichnungen
 
-Fe-C-Legierungen mit C-Gehalten < 2,06 Masse-% heißen (Kohlenstoff-) Stähle.
-Man unterscheidet:
-	0,02 < Masse-% C < 0,8 	untereutektoide Stähle
-	0,8 Masse-% C 	eutektoide Stähle
-	0,8 <  Masse-% C < 2,06 	übereutektoide Stähle
+| Kohlenstoffgehalt (Masse-%) | Bezeichnung               | Typ                                  |
+|-----------------------------|---------------------------|--------------------------------------|
+| 0.02 < C < 0.8              | (Kohlenstoff-) Stahl       | untereutektoide Stähle               |
+| C = 0.8                     | (Kohlenstoff-) Stahl       | eutektoide Stähle                    |
+| 0.8 < C < 2.06              | (Kohlenstoff-) Stahl       | übereutektoide Stähle                |
+| 2.06 < C < 4.3              | Gusseisen                 | untereutektische Gusseisen           |
+| C = 4.3                     | Gusseisen                 | eutektische Gusseisen                |
+| 4.3 < C < 6.67              | Gusseisen                 | übereutektische Gusseisen            |
 
-Fe-C-Legierungen mit C-Gehalten > 2,06 Masse-% heißen Gusseisen. 
-Man unterscheidet:
-	2,06 < Masse-% C < 4,3 	untereutektische Gusseisen
-	4,3 Masse-% C 	eutektische Gusseisen
-	4,3  < Masse-% C < 6,67 	übereutektische Gusseisen
+---
+
+![bg right fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
+
+
+---
 
 Weiterhin wird unterschieden zwischen dem schwarzen Gusseisen (Grauguss), in dem der über-schüssige Kohlenstoff in Form von Graphit, und dem weißen Gusseisen, in dem der Kohlenstoff in Form von Zementit vorkommt. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Bild 3.3-4: Technische Werkstoffe des Systems Eisen-Eisencarbid (Quelle: Seidel)
-
-
-
 
 
 
