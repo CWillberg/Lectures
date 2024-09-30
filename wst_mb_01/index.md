@@ -433,6 +433,15 @@ _Thermische Analyse_
 
 ---
 
+# Materialeigenschaften
+- Eigenschaften werden maßgeblich durch die Mikrostruktur und Elektronen (äußere Schale) beeinflusst
+
+**Eigenarbeit**
+- Wärmedehnung
+- elektrische Leitfähigkeit
+- Wärmeleitfäigkeit
+
+---
 
 ## Referencen
 <a id="Referenzen"></a>

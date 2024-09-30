@@ -63,7 +63,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-## Ziele
+## Inhalte
 - Fehler in Kristallen
 - Plastizität
 - Grundlagen mechanischer Eigenschaften

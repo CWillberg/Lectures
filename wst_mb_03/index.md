@@ -711,21 +711,43 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der beteiligten Phasen (z.B. $\alpha$-Mk, Fe3C), ihren mengenmäßigen Anteil (z. B. abhängig vom C-Gehalt) und die Art ihrer Verteilung im Gefüge bestimmt.
 
 ---
+# Phasen- und Gefüge im Ungleichgewichtszustand
 
-# 3.3.2 Phasen- und Gefüge im Ungleichgewichtszustand
-Bisher wurde der oben beschriebene Gleichgewichtszustand betrachtet. Die Ausbildung der Gleichgewichtsphasen (EKD) ist durch Diffusionsvorgänge gesteuert. Bei schnelleren Tempera-turänderungen wird die Kohlenstoffdiffusion, die zur Entmischung des Austenits erforderlich ist, behindert (siehe hierzu Kapitel I-4).
-Dadurch entstehen auch neuartige Gefügebestandteile, die nicht mehr dem Gleichgewichtszustand entsprechen.
+- Gleichgewichtszustände durch Diffusionsvorgänge dominiert
+- bei schnelleren Temperaturänderungen wird die Kohlenstoffdiffusion, die zur Entmischung des Austenits erforderlich ist, behindert 
+- Dadurch entstehen auch neuartige Gefügebestandteile, die nicht mehr dem Gleichgewichtszustand entsprechen
+- führt zu "zwangsgelöstem" Kohlenstoff
+---
 
-Martensit
-raumzentriertes Gitter tetragonal verzerrt („verspanntes Ferritgitter“); meist feinnadeliges, sehr hartes und sprödes Gefüge. Es entsteht, wenn Austenit durch Überschreiten der kritischen Abkühl-geschwindigkeit so schnell abgekühlt wird, dass der im Kristallgitter gelöste Kohlenstoff aufgrund der niedrigen Temperatur nicht diffundieren kann: der im krz-Gitter des -Fe zwangsgelöste Koh-lenstoff verzerrt das Gitter und weitet es tetragonal auf („diffusionsloses Umklappen“). 
+## Martensit
+- raumzentriertes Gitter tetragonal verzerrt („verspanntes Ferritgitter“)
+- meist feinnadeliges, sehr hartes und sprödes Gefüge
+- der im krz-Gitter des $\alpha$-Fe zwangsgelöste Kohlenstoff verzerrt das Gitter und weitet es tetragonal auf („diffusionsloses Umklappen“). 
 
-Bainit  
-wie Martensit: Ferrit mit zwangsgelöstem Kohlenstoff; anders als bei der Bildung von Martensit sind hier Umklappvorgänge im Kristallgitter und Diffusionsvorgänge gekoppelt, dadurch werden verschiedene Umwandlungsmechanismen möglich. Bainit bildet sich im Temperaturbereich zwi-schen der Perlit- und der Martensitstufe bei Abkühlungsgeschwindigkeiten, die für eine vollständi-ge Martensitbildung zu niedrig und für die Perlitbildung zu hoch sind. Es wurde daher früher auch Zwischenstufengefüge genannt.
-Reiner Bainit lässt sich nur durch isotherme Abkühlung, z.B. beim Warmbadhärten, erzielen. Vor-teilhaft ist das Zwischenstufengefüge dort, wo bei einer Vergütung durch Abschrecken und Anlas-sen eine Härterissgefahr besteht. Es hat sehr gute Festigkeits- und Zähigkeitseigenschaften.
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/fa/Steel_035_water_quenched.png)
 
 ---
- 
-# 3.3.3 Eisen-Kohlenstoff-Legierungsbezeichnungen
+
+## Bainit  
+
+- anders als bei der Bildung von Martensit sind hier Umklappvorgänge im Kristallgitter und Diffusionsvorgänge gekoppelt
+-  bildet sich im Temperaturbereich zwischen der Perlit- und der Martensitstufe bei Abkühlungsgeschwindigkeiten (für Martensitbildung zu niedrig; für die Perlitbildung zu hoch)
+
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/00/522OB80Si10_450.jpg)
+
+---
+ ## Bainit  
+
+- reiner Bainit lässt sich nur durch isotherme Abkühlung, z.B. beim Warmbadhärten, erzielen. 
+- Vorteilhaft, wo bei einer Vergütung durch Abschrecken und Anlassen eine Härterissgefahr besteht. 
+- Es hat sehr gute Festigkeits- und Zähigkeitseigenschaften.
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/00/522OB80Si10_450.jpg)
+
+---
+
+# Eisen-Kohlenstoff-Legierungsbezeichnungen
 
 | Kohlenstoffgehalt (Masse-%) | Bezeichnung               | Typ                                  |
 |-----------------------------|---------------------------|--------------------------------------|
@@ -738,16 +760,15 @@ Reiner Bainit lässt sich nur durch isotherme Abkühlung, z.B. beim Warmbadhärt
 
 ---
 
-![bg right fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
+![bg fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
 
 
 ---
 
-Weiterhin wird unterschieden zwischen dem schwarzen Gusseisen (Grauguss), in dem der über-schüssige Kohlenstoff in Form von Graphit, und dem weißen Gusseisen, in dem der Kohlenstoff in Form von Zementit vorkommt. 
-
-
-
-Mit zunehmendem C-Gehalt steigen die Festigkeit und Härtbarkeit des Stahles, wogegen seine Dehnung, Schmiedbarkeit, Schweißbarkeit und Bearbeitbarkeit (durch spanabhebende Werkzeuge) verringert werden. Der Korrosionswiderstand gegenüber Wasser, Säuren und heißen Gasen wird durch den Kohlenstoff praktisch nicht beeinflusst. Für Kohlenstoffgehalte unter 0,25 Masse-% sind Stähle gut schweißbar.
+- Weiterhin wird unterschieden zwischen dem schwarzen Gusseisen (Grauguss), in dem der überschüssige Kohlenstoff in Form von Graphit, und dem weißen Gusseisen, in dem der Kohlenstoff in Form von Zementit vorkommt 
+- Mit zunehmendem C-Gehalt steigen die Festigkeit und Härtbarkeit des Stahles, wogegen seine Dehnung, Schmiedbarkeit, Schweißbarkeit und Bearbeitbarkeit (durch spanabhebende Werkzeuge) verringert werden
+- Der Korrosionswiderstand gegenüber Wasser, Säuren und heißen Gasen wird durch den Kohlenstoff praktisch nicht beeinflusst. 
+- Für Kohlenstoffgehalte unter 0.25 Masse-% sind Stähle gut schweißbar
 
 
 ---

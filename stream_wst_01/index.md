@@ -393,8 +393,12 @@ _Thermal Analysis_
 
 ---
 
-## References
-<a id="References"></a>
 
-Rainer Schwab: *Werkstoffkunde und Werkstoffprüfung für Dummies*, 2019; ISBN-10 352771538X
+# Material Properties
+- Properties are significantly influenced by the microstructure and electrons (outer shell).
+
+**Work Function**
+- Thermal expansion
+- Electrical conductivity
+- Thermal conductivity
 
