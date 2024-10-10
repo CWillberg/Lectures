@@ -335,7 +335,7 @@ Hexagonal dichteste Packung (hpd)
 - Polymorphie: ist die Ausbildung von verschiedenen Gitterstrukturen in Abhängigkeit von der Temperatur
 - die verschiedenen Gitterformen sind die allotropen Modifikationen 
 
-(auch: Polymorphie des Kohlenstoffs: Gra-phit, Diamant,…).
+(auch: Polymorphie des Kohlenstoffs: Graphit, Diamant,…).
 
 ---
 
