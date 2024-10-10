@@ -83,19 +83,14 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-## Inhalte
+## Inhalte nach Modulhandbuch
 
-- Werkstoffe
-- Aufbau von Materialien
-  - Atome und Bindungen
-  - Feinstruktur
-  - Mikrostruktur
-- Gefüge von Werkstoffen
-- Eigenschaften von Materialien
-  - physikalische
-  - nicht physikalische
-- Zustandsdiagramme
-
+- Einteilung von Werkstoffen
+- Werkstoffstruktur, Gefüge, Legierungen, Gitterbaufehler
+- ideale und reale Zustandsdiagramme, Gleichgewichts- und
+Ungleichgewichtszustände
+- Wärmebehandlung, Härteverfahren
+- Labor: Zugversuch, Härteprüfung
 ---
 
 

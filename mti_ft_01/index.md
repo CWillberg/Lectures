@@ -55,7 +55,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/1/1d/SchmelzofenArbeiter.jpg)
 
 Kontakt: christian.willberg@h2.de
 
@@ -117,9 +117,10 @@ Die Prozesskette beim Gießen besteht aus
 
 ---
 ## Lunker
-- Übergang vom flüssigen zum festen Zustand führt oft zum Schrumpfen
+- Übergang vom flüssigen zum festen Zustand führt oft zum Schrumpfen -> Phasenänderungen 
 - es entstehen Zwischenräume - Lunke
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/7/71/Lutetium_1cm3_cube.jpg)
+
 ---
 
 ## Additive Fertigung
@@ -136,6 +137,12 @@ Die Prozesskette beim Gießen besteht aus
 
 ---
 
+## Urformen - Verbindung zur Werkstofftechnik
+
+- Schmelzpunkt
+- Zustandsdiagramme
+
+---
 
 # Umformen 
 - zwei Hauptklassen
@@ -164,7 +171,7 @@ Die Prozesskette beim Gießen besteht aus
 - Verfestigung nimmt zu, ggf. Rekristallisationslühen oder Zwischenglühen
 - Gefüge hat starken Einfluss
 - Bauteile enthalten in der Regel Eigenspannungen
-- hohe Genuigkeit und Oberflächegüte
+- hohe Genauigkeit und Oberflächegüte
 - keinne Verzunderungen und Oxidationen
 
 ---
@@ -209,48 +216,6 @@ Unterteilt in
 - Schleifen
 - Bohren
 
----
 
-
-
----
-
-# Fügen
-
-Lösbarkeit
-- lösbar
-- bedingt lösbar
-- unlösbar
-
-Verbindungsart
-- Stoffschlüssig -> Kleben, Schweißen, Löten
-- Formschlüssig -> Haken, Ösen
-- Kraftschlüssig -> Reibung (Anpressen)
-
----
-
-## Schweißen
-
-
----
-
-## Kleben
-
----
-
-## Löten 
-
-
----
-
-# Beschichten
-
-- Optik, Korrosionsschutz
-- Lackieren
-- Galvanisieren
-
----
-
-# Stoffeigenschaften ändern
 
 
