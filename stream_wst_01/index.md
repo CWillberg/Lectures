@@ -105,7 +105,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 </details>
 
 ---
-## Application Areas with Images
+## Application Areas 
 
 - Metals
   - Iron steel
