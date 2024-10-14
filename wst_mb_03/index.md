@@ -74,7 +74,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Zustandsdiagramme
 - Gefüge
 
-![bg right 70%](wst_mb_03.png)
+![bg right 70%](../assets/QR/wst_mb_03.png)
 
 
 

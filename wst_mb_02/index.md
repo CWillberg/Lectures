@@ -68,7 +68,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Plastizität
 - Grundlagen mechanischer Eigenschaften
 
-![bg right 70%](wst_mb_02.png)
+![bg right 70%](../assets/QR/wst_mb_02.png)
 
 
 
