@@ -74,7 +74,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 - Everything stays in the room!
 - Questions
 
-![bg right 50%](stream_wst_01.png)
+![bg right 50%](../assets/QR/stream_wst_01.png)
 
 ---
 
