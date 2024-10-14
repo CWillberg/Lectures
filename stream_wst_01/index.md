@@ -19,7 +19,7 @@ author: Christian Willberg
   display: flex;
   }
 .col{
-  flex: 1;
+  flex: 1; 
   }
 </style>
 
