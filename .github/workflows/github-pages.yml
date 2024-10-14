@@ -42,12 +42,12 @@ jobs:
     strategy:
       matrix:
         folder:
-          - kurz_Einfuehrung
-          - material_science_de_lecture_01
-          - material_science_de_lecture_02
-          - material_science_de_lecture_03
-          - material_science_de_lecture_04
-          - material_science_de_lecture_05
+          #- kurz_Einfuehrung
+          #- material_science_de_lecture_01
+          #- material_science_de_lecture_02
+          #- material_science_de_lecture_03
+          #- material_science_de_lecture_04
+          #- material_science_de_lecture_05
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03
