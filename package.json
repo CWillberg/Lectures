@@ -6,13 +6,13 @@
   "private": true,
   "scripts": {
     "build": "rimraf public && FOLDER=${FOLDER} npm run -s og-image && FOLDER=${FOLDER} npm run -s deck",
-    "deck": "marp --no-stdin ./${FOLDER}/index.md -o public/${FOLDER}/index.html --html",
-    "og-image": "marp --no-stdin ./${FOLDER}/index.md -o public/${FOLDER}/og-image.jpg --html",
+    "deck": "PUPPETEER_TIMEOUT=60000 marp --no-stdin ./${FOLDER}/index.md -o public/${FOLDER}/index.html --html",
+    "og-image": "PUPPETEER_TIMEOUT=60000 marp --no-stdin ./${FOLDER}/index.md -o public/${FOLDER}/og-image.jpg --html",
     "start": "marp -ps .",
     "vercel-build": "yum install nss mesa-libgbm -y && MARP_USER=root CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^3.4.0",
+    "@marp-team/marp-cli": "^4.0.0",
     "ncp": "^2.0.0",
     "rimraf": "^6.0.1"
   }
