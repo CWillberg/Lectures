@@ -53,7 +53,7 @@ jobs:
           #- wst_mb_03
           #- mti_ft_01
           - stream_wst_01
-          #- stream_wst_02
+          - stream_wst_02
           #- stream_wst_03
     steps:
       - uses: actions/checkout@v4
