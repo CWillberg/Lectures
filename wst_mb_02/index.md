@@ -276,7 +276,7 @@ Was sind Werkstoffeigenschaften?
 
 ## Simulationsbeispiel
 
-<iframe src="https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400" width="1150" height="600"></iframe>
+[External Link](https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400)
 
 
 ---
