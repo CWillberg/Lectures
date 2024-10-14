@@ -242,45 +242,8 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 ## Werkstoffeigenschaften
 
-<details>
-<summary>Was sind Werkstoffeigenschaften?</summary>
+Was sind Werkstoffeigenschaften?
 
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    <pre align="center" class="mermaid">
-    %%{init: {'theme': 'forest'}}%%
-    mindmap
-      root((Eigenschaften))
-        Physikalisch
-          Mechanisch
-          Elektrisch
-          Thermisch
-          ...
-        Chemisch
-            Löslichkeit
-            Elektronegativität
-            ...
-        Biologisch / Physiologisch
-            Umweltwirkung
-            Verwitterbarkeit
-            Toxidität
-            ...
-        Sozial / Gesellschaftlich
-            Wert
-            Akzeptanz
-            Arbeitsbedingungen
-            Herkunft
-            ...
-    </pre>
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    </script>
-  </body>
-</html>
-</details>
-
-<!DOCTYPE html>
 
 ---
 

@@ -232,45 +232,8 @@ The plastic deformation of a crystal mainly occurs through the sliding of atomic
 ---
 ## Material Properties
 
-<details>
-<summary>What are material properties?</summary>
+What are material properties?
 
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    <pre align="center" class="mermaid">
-    %%{init: {'theme': 'forest'}}%%
-    mindmap
-      root((Properties))
-        Physical
-          Mechanical
-          Electrical
-          Thermal
-          ...
-        Chemical
-            Solubility
-            Electronegativity
-            ...
-        Biological / Physiological
-            Environmental Impact
-            Weatherability
-            Toxicity
-            ...
-        Social / Societal
-            Value
-            Acceptance
-            Working Conditions
-            Origin
-            ...
-    </pre>
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    </script>
-  </body>
-</html>
-</details>
-
-<!DOCTYPE html>
 
 ---
 
