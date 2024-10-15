@@ -108,10 +108,10 @@ Ungleichgewichtszustände
 
 
 ---
-## Anwendunggebiete mit Bildern
+## Anwendunggebiete
 
 - Metalle
-  - Eisen Stahl
+  - Eisen, Stahl, Gusseisen
   - Nicht Eisen
 - Kunststoffe
 - Keramiken
@@ -439,7 +439,7 @@ _Thermische Analyse_
 **Eigenarbeit**
 - Wärmedehnung
 - elektrische Leitfähigkeit
-- Wärmeleitfäigkeit
+- Wärmeleitfähigkeit
 
 ---
 
