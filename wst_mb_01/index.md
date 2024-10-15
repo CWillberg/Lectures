@@ -255,10 +255,6 @@ Besteht aus
 - Kern (Protonen + Neutronen) der die Masse definiert
 - Hülle (Elektronen) mit verschieden Schalen, welche chemischen und viele physikalische Eigeschaften definiert
 
-![bg fit right](https://upload.wikimedia.org/wikipedia/commons/0/04/AtomRadialeDichte_He%2C_Ne%2CAr.jpg)
-
----
-
 - Aufenthaltswahrscheinlichkeit der Elektronen sorgt für Abstoßung und Anziehung
 - als Elastizität oder Wärmedehnung makroskopisch zu erkennen
 
