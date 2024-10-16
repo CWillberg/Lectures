@@ -209,6 +209,15 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 ---
 
+
+## Konzept Spannung - Dehnung
+
+- Geometriefreie Kennwerte
+- Wie kann man einen Kennwert bestimmen, der nur durch das Material bestimmt ist?
+- Beispiel: Dichte
+
+---
+
 ## Streckgrenze
 
 ![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
@@ -278,13 +287,6 @@ Was sind Werkstoffeigenschaften?
 
 [External Link](https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400)
 
-
----
-## Konzept Spannung - Dehnung
-
-- Geometriefreie Kennwerte
-- Wie kann man einen Kennwert bestimmen, der nur durch das Material bestimmt ist?
-- Beispiel: Dichte
 
 ---
 
