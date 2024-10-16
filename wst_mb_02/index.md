@@ -213,7 +213,7 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 ## Konzept Spannung - Dehnung
 
 - Geometriefreie Kennwerte
-- Wie kann man einen Kennwert bestimmen, der nur durch das Material bestimmt ist?
+- Diskussion: Wie kann man einen Kennwert bestimmen, der nur durch das Material bestimmt ist?
 - Beispiel: Dichte
 
 ---
@@ -468,8 +468,157 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ---
 
-## Exkurs: Modellierung von Werkstoffen
-- Rheologische Modelle
-- setzen sich aus vielen Federn, Dämpfern und anderen Elementen zusammen
-- diese Freiheitsgrade ($E_i$, $\eta_i$) werden dann gefittet
+
+## Wärmedehnung
+
+
+$\boldsymbol{\varepsilon}_{thermisch}=-\boldsymbol{\alpha}\Delta T$
+
+_Wärmeausdehnungskoeffizientenmatrix_
+
+$\boldsymbol{\alpha} = 
+\begin{bmatrix}
+\alpha_{11} & \alpha_{12} & \alpha_{13} \\
+\alpha_{12} & \alpha_{22} & \alpha_{23} \\
+\alpha_{13} & \alpha_{23} & \alpha_{33}
+\end{bmatrix}
+$
+
+**1D oder isotropisch**
+$\varepsilon_{thermisch}=-\alpha\Delta T$
+
+>Beispiel -> Paraview
+
+---
+
+| Symmetrie | Modell | Beispiele |
+|---|---|---|
+| Isotropie | $\alpha_{11}=\alpha_{22}=\alpha_{33}$ und $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$ | Metalle, Kunststoffe|
+| transversale Isotropie | $\alpha_{22}=\alpha_{33}$ und $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$| Einzellage Faserverbund |
+| Orthotropie Isotropie | $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$| Mehrlagiger Faserverbund |
+| Anisotropie | beliebige $\alpha_{ij}$ | homogenisierte Betrachtung eines unysmmetrischen Mehrlagen-Verbunds |
+
+---
+
+## Thermische Eigenschaften 
+- Bi-Metall Streifen
+- Brücken
+- Schienen
+- Hochpräzisionsmessgeräten
+- Schweißen, Löten, etc.
+- ...
+
+Kann u.a. zu thermischen Eigenspannungen, Verzug führen. 
+
+
+---
+
+## Beispiel: Thermische Spannungen 1D
+
+$\sigma = E \varepsilon = E (\varepsilon_{mechanisch}+\varepsilon_{thermisch})= E (\varepsilon_{mechanisch}-\alpha\Delta T)$
+
+>Durch eine Vordehung kann die Belastung auf ein Bauteil reduziert werden
+
+## Beispiel: Thermische Längenänderung 1D
+$\Delta l = l_0 \varepsilon_{mechanisch}$
+>Für freie eine Dehnung, d.h. es wirken keine Spannungen
+
+$0 = E \varepsilon = E (\varepsilon_{mechanisch}+\varepsilon_{thermisch})= E (\varepsilon_{mechanisch}-\alpha\Delta T)$
+$\varepsilon_{mechanisch}=\alpha\Delta T$
+$\Delta l = l_0 \varepsilon_{thermisch} = l_0\alpha\Delta T$
+
+---
+
+## Wärmeleitung
+- auch Konduktion und Wärmediffusion
+- $T_{hoch}\rightarrow T_{niedrig}$ (2. Hauptsatz der Thermodynamik). 
+- es geht keine Wärme aufgrund der Energieerhaltung (1. Hauptsatz) verloren.
+
+**Wärmestrom $[W]$**
+$\dot{\mathbf{q}}=-\boldsymbol{\lambda}\text{grad}(T)$
+
+- $\text{grad}(T)$ ist der Gradient der Temperaturänderung $\frac{\partial T}{\partial dx_i}$; 
+- im linearen Fall $\text{grad}(T)=\Delta T / d = \frac{T_2-T_1}{d}$
+
+![bg right:30% fit](../assets/Figures/Temperaturgradient.png)
+
+---
+
+$\dot{\mathbf{q}}=-\boldsymbol{\lambda}\text{grad}(T)$
+
+$\dot{\mathbf{q}} = \frac{\partial \mathbf{q}}{\partial t}$
+- zeigt an das sich etwas ändert -> $dt$
+
+$\boldsymbol{\lambda}=\begin{bmatrix}
+\lambda_{11} & 0 & 0 \\
+0 & \lambda_{22} & 0 \\
+0 & 0 & \lambda_{33}
+\end{bmatrix}$
+ist die Matrix der Wärmeleitfähigkeit.
+**Sonderfälle**
+- wenn $T_1$ = $T_2$ gibt es keine Leitung
+- wenn $\boldsymbol{\lambda}=0$; perfekte Isolation und keine Wärmeleitung
+
+---
+
+| Symmetrie | Modell | Beispiele |
+|---|---|---|
+| Isotropie | $\lambda_{11}=\lambda_{22}=\lambda_{33}$ | Metalle, Kunststoffe|
+| transversale Isotropie  | $\lambda_{22}=\lambda_{33}$ | Einzellage Faserverbund |
+| Anisotropie | beliebige $\lambda_{ij}$ | Mehrlagen Faserverbund |
+
+>Beispiel -> Paraview
+
+---
+
+## Wärmeübergang
+
+Übertragung der Wärme von einem Festkörper in ein Fluid oder Gas. 
+
+>Wichtig, wenn Maschinen gekühlt oder erwärmt werden sollen. 
+
+Wird durch den Wärmeübergangskoeffizient beschrieben $\alpha_{Übergang}$. Er hängt unter anderem  von der spezifischen Wärmekapazität, der Dichte und dem Wärmeleitkoeffizienten des wärmeabführenden sowie des wärmeliefernden Mediums ab.
+
+$\dot{q}=\alpha_{Übergang}A\Delta T$
+
+>Beispiel Wärmepumpe und Fußbodenheizung
+
+---
+
+## Spezifische Wärmekapazität
+
+sagt aus wieviel Energie in Form von Wärme in einen Stoff "stecken" muss, um die Temperatur zu erhöhen.
+
+$C_p=\frac{\Delta q}{m \Delta T}$
+
+---
+
+## Wärmestrahlung
+
+$\dot{q}=\epsilon_{Emissionsgrad}\sigma_{Stefan-Boltzmann}AT^4$
+
+Emissiongrad $\epsilon_{Emissionsgrad}$ liegt zwischen 0 (perfekter Spiegel) und 1 (idealer Schwarzer Körper) und ist in Teilen materialabhängig.
+
+>nutzbar für Spektralanalysen, um die Zusammensetzung von Werkstoffen zu bestimmen. 
+
+![bg right:50% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg/1920px-McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg.png)
+
+---
+
+# Spezielle Temperaturen
+
+## Phasenübergangstemperatur
+Temperatur wo ein Phasenübergang in einer Kristallstruktur stattfindet (siehe [Phasendiagramme](@ref "Phasendiagamme")). Wird maßgeblich durch beigesetzte Stoffe beeinflusst (siehe [Legierungen](@ref "Legierungen"))
+
+## Schmelztemperatur
+Als Schmelztemperatur bezeichnet man die Temperatur, bei der ein Stoff vom festen in den flüssigen Aggregatzustand übergeht. 
+
+---
+
+## Siedetemperatur
+
+Temperatur des Phasenübergangs von flüssig zu gasförmig. Für Schmierstoffe ggf. relevant.
+
+## Curie Temperatur
+Nach Piere Curie benannt. [Bezeichnet](https://de.wikipedia.org/wiki/Curie-Temperatur) die Temperatur, bei deren Erreichen ferromagnetische bzw. ferroelektrische Eigenschaften eines Materials vollständig verschwunden sind, so dass sie oberhalb nur noch paramagnetisch bzw. paraelektrisch sind. 
 
