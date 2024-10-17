@@ -230,226 +230,37 @@ The plastic deformation of a crystal mainly occurs through the sliding of atomic
 - [Deep drawing in reality](https://www.youtube.com/watch?v=rHfepOqPVHI)
 
 ---
-## Material Properties
 
-What are material properties?
+## Creeping
 
+- Time-dependent deformation under constant load
 
----
+- **Example**: [Deployable Space Structures](https://youtu.be/vMMc7-VUUtM?si=5uYx40b4eWGl7j0G&t=77)
 
-## Symmetry
-- Isotropy
-- Transverse Isotropy
-- Orthotropy
-- ...
-- Anisotropy
-![bg right 80%](../assets/Figures/xyz.png)
-
-<!---
-- Discussion; properties can be direction-dependent
-- Practical examples
--->
+![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2022/03/boom_blank_be.png)
 
 ---
 
-## Mechanical Properties
-<a id="Mechanics"></a>
+- **Occurs in metals above a transition temperature**:  
+  $T > 0.3–0.4 \cdot T_S$
+  
+- **Irreversible plastic deformation** takes place even at low mechanical stresses, **below the yield strength** $R_e$:
+  - Slow but continuous progress
 
-- **Reversible** deformation, where immediately or after a certain time following the application of external load, the deformed material returns to its original shape: elastic and viscoelastic deformation.
-
-- **Irreversible (permanent)** deformation, where the shape change remains even after the external load is removed: plastic and viscous deformation.
-
-- Fracture, i.e., separation of the material caused by the formation and propagation of cracks.
-
----
-
-## Simulation Example
-[External Link](https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400)
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4d/3StageCreep.svg)
 
 ---
 
+## Creep Characteristics in Metals
 
-## Concept of Stress - Strain
+- **Dependent on**: temperature, stress, time, material
+- **Causes**: 
+  - Dislocation movements
+  - Vacancy diffusion
+  - Grain boundary sliding
+  - Grain boundary diffusion
 
-- Geometry-independent characteristics
-- How can one determine a characteristic that is defined solely by the material?
-- Example: Density
-
----
-
-## Elasticity
-
-- Reversible, energy-preserving
-- Hooke's Law 1D
-Normal stress $\sigma = E\varepsilon$
-Shear stress $\tau = G\gamma$
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4d/3StageCreep.svg)
 
 ---
 
-## Basics
-
-- Normal strain [-]
-$\varepsilon_{mechanical} = \frac{l - l_0}{l_0}$
-
-- Normal stress $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\sigma = \frac{F}{A}=E\varepsilon$
-E - Elastic modulus, Young's modulus $\left[\frac{N}{m^2}\right]$\
-\
-\
-\
-\
-.
-<div style="position: absolute; bottom: 40px; left: 80px; color: blue; font-size: 20px;"> 
-    <img src="Figures/EModul.svg" style="height:230px;width:auto;vertical-align: top;">
-</div>
-
-![bg right:25%](../assets/Figures/Normalspannung.gif)
-
----
-
-## Basics
-
-- Shear strain [-]
-$\varepsilon = \frac12(\frac{u_x}{l_0}+\frac{u_y}{b_0})=\frac{\gamma}{2}$
-
-- Shear stress $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\tau = \frac{F_s}{A}= G\gamma$
-
-- Normal and shear stresses are not compatible, leading to the concept of equivalent stresses -> Engineering Mechanics
-
-- G - Shear modulus $\left[\frac{N}{m^2}\right]$
-
-![bg right:25%](../assets/Figures/Schubspannung.gif)
-
----
-
-## Basics
-
-- Poisson's ratio [-]
-$\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
-for homogeneous materials $0\leq\nu\leq 0.5$
-for heterogeneous materials, other configurations are possible
-
-- [Bulk modulus](https://en.wikipedia.org/wiki/Bulk_modulus#Relation_between_elastic_moduli) $K = \frac{E}{3(1-2\nu)}$
-- [Shear modulus](https://en.wikipedia.org/wiki/Bulk_modulus#Relation_between_elastic_moduli) $K = \frac{E}{2(1+\nu)}$
-
-![bg right:25%](../assets/Figures/Kompression.gif)
-
----
-
-## Material Examples
-
-| Material                          | E [GPa]   | G [GPa] | $\nu [-]$     |
-|:----------------------------------|:----------|:--------|:--------------|
-| Unalloyed steel                   | 200       | 77      | 0.30          |
-| Titanium                          | 110       | 40      | 0.36          |
-| Copper                            | 120       | 45      | 0.35          |
-| Aluminum                          | 70        | 26      | 0.34          |
-| Magnesium                         | 45        | 17      | 0.27          |
-| Tungsten                          | 360       | 130     | 0.35          |
-| Cast iron with lamellar graphite  | 120       | 60      | 0.25          |
-| Brass                             | 100       | 35      | 0.35          |
-| Thermoplastics / Thermosets       | 2 … 5     | 1 … 2   | ~0.35         |
-| Elastomers                        | 0.1       | 0.03    | 0.45 - 0.49   |
-| Plywood                           | 4 … 16    | -       | -             |
-| Concrete                          | 40 … 45   | -       | -             |
-
----
-
-## Stiffness
-<details>
-<summary>How are material properties related to stiffness?</summary>
-
-- Material $\cdot$ cross-sectional area = stiffness
-- Tensile, normal stiffness = $EA$
-- Bending stiffness = $EI$
-- Torsional stiffness = $GI_P$
-
-</details>
-
-![bg fit right:50%](../assets/Figures/IWES_test.jpg)
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Image reference</a>
-</div>
-
----
-
-## 
-<!---
-
-* 1st and 2nd natural frequencies ->  https://doi.org/10.3390/en14092451
-* Deformation in the impact and swing direction are identical
-* Tower impact is relevant
-* Dynamic stability
-* -->
-
-![bg fit](../assets/Figures/EF1.png)
-![bg fit](../assets/Figures/EF2.png)
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Image reference</a>
-</div>
-
----
-
-## Strength
-
-[The strength of a material describes its ability to withstand mechanical loads before failure occurs and is expressed as mechanical stress $\left[N/m^2\right]$. Failure can involve **unacceptable deformation**, particularly **plastic (permanent) deformation**, or **fracture**.](https://en.wikipedia.org/wiki/Strength_of_materials)
-
->Important: Strength $\neq$ Stiffness
-
----
-
-## Plastic Failure
-
-![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
-
-<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
-    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
-</div>
-
----
-
-## Viscous Behavior
-
-- Reversible
-- Time-dependent
-
-Spring model $\sigma = E\epsilon$ 
- - Elastic component
- - Represented by spring elements
-<div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-Damper  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$ 
-- Viscous component
-- Represented by damper elements
-
----
-
-## 
-
-
-![bg fit](../assets/Figures/Spannung-Dehnung.png)
-![bg fit](../assets/Figures/Spannung-Dehnrate.png)
-
----
-
-## 
-
-![bg fit](../assets/Figures/Spannung-Zeit.png)
-![bg fit](../assets/Figures/Hysteresis.png)
-
-
-
----
-
-## Excursion: Modeling of Materials
-- Rheological models
-- Consist of many springs, dampers, and other elements
-- These degrees of freedom ($E_i$, $\eta_i$) are then fitted

@@ -267,5 +267,26 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 - Beispiel [entfalltbare Raumfahrtstrukturen](https://youtu.be/vMMc7-VUUtM?si=5uYx40b4eWGl7j0G&t=77)
 
+---
+
+- findet bei Metallen oberhalb einer Übergangstemperatur statt ($~0.3-0.4 \cdot T_S$)
+
+- auch bei geringen mechanischen Spannungen unterhalb der Streckgrenze $R_e$ findet eine irreversible plastische Verformung, die langsam, aber stetig voranschreitet statt 
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
 
 
+---
+
+- temperatur-, spannungs-, zeit- und werkstoffabhängig
+
+- **Ursache**: Versetzungsbewegungen, Leerstellendiffusion, Korngrenzengleiten, Korngrenzendiffusion
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
+
+---
+
+## Kriechen in Kunststoffen
+- bestehen aus Molekülketten 
+- diese gleiten bzw. entknäueln sich diese unter äußerer 
+- Sekundärbindungne zwischen den Makromolekülen werden neu gebildet und Deformation bleibt erhalten
