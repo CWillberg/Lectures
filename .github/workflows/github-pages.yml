@@ -51,10 +51,12 @@ jobs:
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03
-          - mti_ft_01
+          - wst_mb_04
+          - mti_ft_05
           - stream_wst_01
           - stream_wst_02
           - stream_wst_03
+          - stream_wst_04
     steps:
       - uses: actions/checkout@v4
 

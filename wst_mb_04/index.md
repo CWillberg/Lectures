@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung Grundlagen Maschinenbau - Werkstofftechnik
+title: Vorlesung Legierungsbildung
 author: Christian Willberg
 ---
 
@@ -51,1084 +51,725 @@ footer {
 </style>
 
 
-## Vorlesung Grundlagen Maschinenbau - Werkstofftechnik
+## Vorlesung Werkstofftechnik - Gefüge der Werkstoffe
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](../assets/Figures/IWES_test.jpg)
+![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
 Prof. Dr.-Ing. Jürgen Häberle übernommen
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
+
 
 
 ---
 
 <!--paginate: true-->
 
-## Nützliche Links
-
-<!-- zusammenarbeit; wir erarbeiten unsere eigene Dokumenation -->
-[Skript](https://cwillberg.github.io/Werkstofftechnik/)
-[Formelsammlung]( https://cwillberg.github.io/Werkstofftechnik/Formelsammlung)
-TBD
-[CoopSpace]()
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
-## Vorlesung
-
-**Rahmen**
-
-
-- Essen oder Trinken sind okay, aber leise
-- Probleme bei der Kinderbetreuung
-- Alles verbleibt in Raum!
-- Fragen
-
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
 ## Inhalte
 
-- Werkstoffe
-- Aufbau von Materialien
-  - Atome und Bindungen
-  - Feinstruktur
-  - Mikrostruktur
-- Gefüge von Werkstoffen
-- Eigenschaften von Materialien
-  - physikalische
-  - nicht physikalische
+- Grundbegriffe
+- Kristallbildung
 - Zustandsdiagramme
+- Gefüge
+
+![bg right 70%](../assets/QR/wst_mb_03.png)
+
+
+
+
 
 ---
 
+# Begriffe
 
+## Legierung
+- von "ligare" - zusammenbinden, verbinden, vereinigen
+- Gemisch aus mehreren Atomsorten (_Komponenten_) mit _metallischem Charakter_
+- Komponenten
+  - meist metallisch (Cu, Ni)
+  - nicht metallisch (C, P, S, N, O)
+- Variationen
+  - welche Komponenten
+  - Zahl der Komponenten
+  - Konzentration der Komponenten
+---
 
-## Werkstoffe
+## Chemische Zusammensetzung oder Konzentration
+**Massenanteil, Gewichtsanteil, Massenprozent (Synonym)**
+$\frac{m_1}{\sum_i m_{i}}\cdot 100 = m_{1-rel}$ in [%]
+Bsp. $m_{Cu-rel}=\frac{m_{Cu}}{m_{Cu}+m_{Fe}}\cdot 100$
 
+Massen $m$ von Komponenten sind unterschiedlich
+
+**Atomanteil**
+
+$\frac{n_1}{\sum_i n_{i}}\cdot 100 = n_{1-rel}$ in [%]
+Bsp. $n_{Cu-rel}=\frac{n_{Cu}}{n_{Cu}+n_{Fe}}\cdot 100$
+
+Wenn Massen $m$ von Komponenten ähnlich sind, dann sind $n_{rel}$ und $m_{rel}$ gleich. 
+
+---
+
+## Übung
+
+1 kg Legierung 25% Ni - 75% Cu.
+
+Wieviel Masse hat Cu und Ni für den Massenanteil und den Atomanteil?
+
+---
+## Lösung
 
 <details>
-<summary>Was sind Werkstoffe?</summary>
+<summary>Massenanteil</summary>
 <div>
 
-[Werkstoffe im engeren Sinne nennt man Materialien im festen Aggregatzustand, aus denen Bauteile und Konstruktionen hergestellt werden können.](https://de.wikipedia.org/wiki/Werkstoff)
+$m_{Ni}=0.75\cdot 1kg = 0.75 kg$
+$m_{Cu}=0.25\cdot 1kg = 0.25 kg$
 </div>
 </details>
 
-
----
-## Anwendunggebiete mit Bildern
-
-- Metalle
-  - Eisen Stahl
-  - Nicht Eisen
-- Kunststoffe
-- Keramiken
-- Verbundwerkstoffe
-
-
----
-
-## Gußeisen - Stahl
-
-![bg 60% right](https://upload.wikimedia.org/wikipedia/commons/b/bf/Gu%C3%9Fteil_2007.gif)
-
-![bg 60% vertical](https://upload.wikimedia.org/wikipedia/commons/2/2e/LPD_22_MAR_2010.jpg)
-
----
-
-## Nicht Eisen Metalle
-
-- Kupfer ist ein sehr guter elektrischer und thermischer Leiter
-
-![bg right 70%](https://images-of-elements.com/copper.jpg)
-
----
-
-- Magnesium findet im Leichtbau Anwendung 
-- Titan und Titanlegierungen 
-    - hohe Festigkeit und Warmfestigkeit
-    - Korrosionsbeständig
-- Nickel
-    - Korrosionsbeständigkeit
-    - hohe Warmfestigkeit
-
-![bg right 30%](https://images-of-elements.com/magnesium.jpg)
-![bg right 30% vertical](https://images-of-elements.com/titanium-crystal.jpg)
-![bg right 30%](https://images-of-elements.com/nickel.jpg)
-
----
-
-## Keramiken
-
-![bg right fit](http://www.hoogspanningsnet.com/wp-content/uploads/Eindsluitingen%20(Michel).jpg)
-
-
----
-
-## Gläser
-
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/15/Magnifying_Glass_Photo.jpg)
-
----
-
-## Faserverbundwerkstoffe
-
-![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2022/03/boom_blank_be.png)
-
----
-
-# Struktur von Werkstoffen
-
-![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
-
-
-
----
-
--	Atomistische Struktur (Art der atomaren Bausteine)
--	Feinstruktur (Bindungen zwischen den atomaren Bausteinen und deren geometrische An-ordnung)
--	Mikrostruktur (Gefüge – Bereiche geometrischer Anordnung, die im Werkstoffinnern durch Grenzflächen voneinander getrennt sind)
--	Makrostruktur (Grobstruktur – Gesamterscheinung eines Werkstoffes bei der Herstellung und dem Einsatz eines Bauteils)
-
-
-
----
-
-# Bindungen
-
-## Hauptvalenzbindungen  
-**Primärbindungen - hohe Bindungsenergie, starke Bindung**
--	Ionen- bzw. heteropolare Bindung 
--	Atom- bzw. homöopolare (oder kovalente) Bindung: polar (O-H) und unpolar (C-C, C-H)
--	Metallische Bindung
-
----
-
-## Metallische Bindung
-
-- Außenelektronen (Valenzelektronen) sind nur schwach gebunden 
-- es bildet sich ein Gitter (periodisch angeordneten) positiver geladener Metallionen (Atomrümpfen)
-- Außenelektronen  können sich innerhalb des Gitters nahezu frei bewegen, sogennantes **Elektronengas** 
-- bewirkt: gute elektrische Leitfähigkeit + hohe Wärmeleitfähigkeit
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/41/Nuvola_di_elettroni.svg)
-
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg)
-
----
-## Relevante Gößen
-
-**Ordnungszahl**
-Zahl der Protonen im Kern
-**Atommasse**
-bestimmt die Masse des Elements
- Masse des Werkstoffs ist eine Kombination aus Atommasse und Dichte
-**Elektronegativiät**
-bestimmt ob Atome abgegeben oder aufgenommen werden in einer Bindung
-metallische Bindungen eher links
-kovalente Bindungen eher rechts
-
----
-
-## Neben- oder Restvalenzbindungen 
-**Sekundärbindungen - geringe Bindungsenergie, schwache Bindung**
--	van der Waals-Bindung: zwischenmolekulare Kräfte
--	Wasserstoffbrückenbindung: zwei Moleküle oder zwei geeignet weit voneinander getrennte Abschnitte eines Makromoleküls treten über Wasserstoffatome in Wechselwirkung 
-- die Bindungsenergien sind ein bis zwei Zehnerpotenzen kleiner als die der Atombindungen.
-
----
-
-
-| **Bezeichnung** | **Ionenbindung oder heteropolare Bindung** | **Atombindung homöopolare (kovalente) Bindung** | **Metallische Bindung** |
-|-----------------|---------------------------------|-------------------------------------------------|--------------------------|
-| **Beteiligte Bausteine** | Ionen (Metall + Nichtmetall) | Gleiche Atomart (Nichtmetall + Nichtmetall) | Gleiche Atomart (Metall + Metall) |
-| **Beschreibung des elektrischen Lade-zustandes** | Positiv geladenes Ion + negativ geladenes Ion (Kation + Anion) | Atome besitzen ein oder mehrere gemeinsame Elektronenpaare, um die Edelgaskonfiguration zu erreichen | Atome geben ihre Außenelektronen an den Gesamtverband ab. Elektronen bewegen sich dort frei im Atomgitter |
----
-
-
-
-| **Bezeichnung** | **Ionenbindung oder heteropolare Bindung** | **Atombindung homöopolare (kovalente) Bindung** | **Metallische Bindung** |
-|-----------------|---------------------------------|-------------------------------------------------|--------------------------|
-| **Von den Bindungs-kräften abhängige Werkstoff-eigenschaften** | Im gelösten Zustand elektrisch leitfähig, kristalline Gefügestruktur | Geringe elektrische und thermische Leitfähigkeit; hoher Schmelzpunkt | Sehr gute elektrische und thermische Leitfähigkeit und Duktilität; eingeschränkte chemische Beständigkeit |
-| **Beispiele** | Alkalimetallverbindungen, Halogenverbindungen (z.B. NaCl, MgO) | Diamant, Methan (CH₄) (unpolar), Methanol (CH₃OH) (polar) | Kupfer (Cu), Aluminium (Al), Eisen (Fe) |
-
----
-
-## Atomistische Struktur
-
-Besteht aus
-- Kern (Protonen + Neutronen) der die Masse definiert
-- Hülle (Elektronen) mit verschieden Schalen, welche chemischen und viele physikalische Eigeschaften definiert
-
-![bg fit right](https://upload.wikimedia.org/wikipedia/commons/0/04/AtomRadialeDichte_He%2C_Ne%2CAr.jpg)
-
-
----
-
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
-
-
----
-
-### Feinstruktur
-- Kristallstrukturen
-- Molekülstrukturen
-- Glasig-amorphe Strukturen
-- Realstruktur
-
----
-## Raumgitter
-
-- entsteht durch die dreidimensional-periodische Verschiebung seiner Bausteine
-- charakterisiert durch drei Raumachsen x, y und z liegenden Winkel α, β, γ die Abstände auf den Achsen das jeweilige Raumgitter
-- a0, b0 und c0  (Gitterkonstanten) -> Einheitszelle
-
-
-![bg fit right](../assets/Figures/einheitszelle.png)
-
----
-
-| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
-|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
-| triklin          | a₀ ≠ b₀ ≠ c₀          | α ≠ β ≠ γ ≠ 90°                    | Silikat-Minerale                                           |
-| monoklin         | a₀ ≠ b₀ ≠ c₀          | α = γ = 90°; β ≠ 90°               | Mo₂S₃; β-Pu                                                |
-| (ortho)rhombisch | a₀ ≠ b₀ ≠ c₀          | α = β = γ = 90°                    | U, S, P, Ga, γ-Sn                                          |
-| rhomboedrisch    | a₀ = b₀ = c₀          | α = β = γ ≠ 90°                    | As, Hg, Sb                                                 |
-| hexagonal        | a₀ = b₀ ≠ c₀          | α = β = 90°; γ = 120°              | α-Ti, Mg, Zn                                               |
-| tetragonal       | a₀ = b₀ ≠ c₀          | α = β = γ = 90°                    | B, CuTi₃, Sn (T > 13,5°)                                   |
-
-
-
----
-
-## Häufigste Gitterformen bei Metallen
-
-| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
-|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
-| kubisch          | a₀ = b₀ = c₀          | α = β = γ = 90°                    | Cu, Al, Ni, Au, Ag; γ-Eisen (kfz); α-Eisen, V, Cr, W (krz); Mn, Po (kp) |
-
-
----
-
-Kubisch flächenzentriert (kfz)
-![bg right 30%](../assets/Figures/kfz.png)
-
-Kubisch raumzentriert (krz)
-
-![bg vertical 30%](../assets/Figures/krz.png)
-
-Hexagonal dichteste Packung (hpd)
-
-![bg 30%](../assets/Figures/hdp.png)
-
----
-
-## Einflüsse
-
--	Korrosion: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
--	Verformung: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
--	Ultraschall: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
--	Leitfähigkeit:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
--	Magnetisierung: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen ent-lang der Würfelkante [1 0 0]
-
----
-
-
-
-## Polymorphie bei Metallen
-
-- Polymorphie: ist die Ausbildung von verschiedenen Gitterstrukturen in Abhängigkeit von der Temperatur
-- die verschiedenen Gitterformen sind die allotropen Modifikationen 
-
-(auch: Polymorphie des Kohlenstoffs: Gra-phit, Diamant,…).
-
----
-
-## Bestimmung der Umwandlungspunkte
-
-_Dilatometrie_
-- Messung der Längenänderung aufgrund der Gitterumwandlung
-
-_Thermische Analyse_
-- Aufzeichnung des Temperaturverlaufs
-- Gitterwandlungen (Phasenänderungen) brauchen Wärmeenergie oder geben sie ab
-- Halte- bzw. Knickpunkte in den Erwärmungs- oder Abkühlungskurven.
-
-- Haltepunkte: bei reinen Metallen
-
-
----
-
-![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
-
-
----
-
-
-
-## Molekülstrukturen
-
-- typisch für nichtmetallisch-organische Werkstoffe
-  - natürliche Materialien: Holz, Kautschuk, Leder, Fasern usw.
-  - synthetische Kunststoffe: PMMA, Epoxid, usw.
-
-
-
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
-
-![bg vertical 80%](https://upload.wikimedia.org/wikipedia/commons/0/03/14-05-28-LEGO-by-RalfR-061.jpg)
-
----
-
-- entsteht durch Aufbaureaktionen von monomeren Grundbausteine zu Kettenmolekülen
-- innerhalb der Ketten treten Atombindungen auf
-- zwischen den Ketten existieren Nebenvalenzbindungen und Molekülverhakungen
-
-
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
-
----
-
-## Aufbaureaktion (Polymerisation)
-
-- Es müssen freie Bindungen in den Monomeren erzeugt werden
-- die Monomere "brauchen" neue Partner, um wieder energetisches Minimum zu erreichen
-
----
-
-## Kettenpolymerisationen
-
-  - Aufspalten von C=C-Doppelbindungen im Monomer (katalytischer Prozess durch Druck, Temperatur, Katalysator)
-  - Verbindung der aufgespaltenen Monomere zu Makromolekülen
-
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
-
----
-
-## Stufenwachstumsreaktionen 
-
-**Polykondensation**
-- Abspaltung niedermolekulare (z.B. H2O) Reaktionsprodukte durch eine chemische Reaktion schafft frei Bindungen
-- schrittweise Reaktion oder Unterbrechung führen zur Bildung von linearen, verzweigten oder vernetzten Polymeren (Thermoplaste, Elastomere oder Duromere)  
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
-
----
-
-**Polyaddition**
-- freie Bindungen entstehen durch Umlagerungen von Doppelbindungen zweier unterschiedlicher Monomermoleküle
-- diese bilden dann Molekülketten
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/4d/Polyaddition_Polyurethane_V.2.1.png)
-
----
-
-## Glasig-amorphe Strukturen
-
-- Gläser sind ein nichtmetallisch-anorganisches, vorzugsweise silikatisches Schmelzprodukte
-- nichtkristallinen, also amorphen Zustand
-- bei Glas, wird die Schmelze zunächst unterkühlt und dann unterhalb der Transformations- temperatur Tg „eingefroren“. 
-
-![bg right fit](../assets/Figures/amorph.png)
-
-
----
-
-# Realstruktur von Kristallen
-## Gitterbaudefekte
-
--	Nulldimensionale Fehlstellen (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	Eindimensionale Fehlstellen (Liniendefekte): Versetzungen
--	Zweidimensionale Fehlstellen (Flächendefekte): Stapelfehler, Korngrenzen, Subkorn-grenzen, Phasengrenzen
-
----
-
-## Nulldimensionale Fehlstellen
-
-![bg right 50%](../assets/Figures/ideales_gitter.png)
-
-
-
 <details>
-<summary>Was gibt es für mögliche Varianten?</summary>
+<summary>Atomanteil</summary>
 <div>
 
-- Zwischengitteratome
-- Leerstellen
-- Frenkeltyp (Autreten der gleichen Zahl Zwischen-gitteratome und Fehlstellen)
-- Substitutions-Fremdatom
-- Zwischengitter-Fremdatom 
+$A_{Cu}= 63.54 u$ - Atomare Masseneinheit $u = 1.66\cdot 10^{-27}kg$
+$A_{Ni}= 58.69 u$
+$m = n_{Cu}A_{Cu}+n_{Ni}A_{Ni}$
+$n_{Cu} = 0.25n$, $n_{Ni} = 0.75n$
+$m=(0.25A_{Cu}+0.75A_{Ni})n$
+$n = \frac{m}{0.25A_{Cu}+0.75A_{Ni}}=1.00565E+25$
+$m_{Cu}=n_{Cu}A_{Cu}=0.2449kg$
+$m_{Ni}=n_{Ni}A_{Ni}=0.7551kg$
 </div>
 </details>
 
 ---
 
-## Fremdatome
+## Phase
+
+- Bekannt im Bezug auf den Aggregatzustand (fest, flüssig, gasförmig, plasmaförmig)
+
+**Allgemeine Definition**
+Unter Phase versteht man einen chemisch und physikalisch gleichartigen homogenen Bestandteil einer Legierung oder von Materie überhaupt.
+
+---
+
 
 <details>
-<summary>Wie lassen sich Fremdatome nutzen?</summary>
+<summary>Einphasigkeit</summary>
 <div>
-
--	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
-    - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
-- Zwischengitter und Substitutionsfremdatom
-    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
+- reines Aluminium
+- reines Eisen
+- Wasser
 </div>
 </details>
 
 
----
-
-
-## Versetzungen
-
-[Versetzungen](https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)) enstehen
-- beim Kristallwachstum
-- aufgrund von Eigenspannungen
-- durch plastische Verformungen
-
-![bg right 80%](../assets/Figures/versetzung.png)
-![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
-
-
----
-
-## Zweidimensionale Fehlstellen - Korngrenzen
-- Korngrenzen
-- Phasengrenzen
-- Subkorngrenzen
-
-![bg right fit](https://www.struers.com/-/media/Struers-media-library/Knowledge/Materials/Grain-structures/FIg-0A-974x732-px.jpg?lm=20191009T054854Z&h=732&w=974&hash=4504C0AA9A9B6DEB6BDF91CC93EDF46ED9AADF75)
-
-[Skript](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
-
-
----
-
-
-## Plastizität
-
-Gut oder Schlecht
-
-![bg right 70%](../assets/Figures/fragezeichen.png)
-
----
-
-## Beispiele
-
-**Hohe Plastizität**:
-
-- Knete
-- feuchter Ton
-- Metalle und Metalllegierungen mit geeignetem Atomgitter:
-  - glühender Stahl beim Schmieden
-  - Kaltumformung von Blechen 
-
-**Geringe Plastizität**:
-  - Gummi
-  - Keramik
-  - Faserkunstoffverbunde (Epoxid-Glasfaser oder Epoxid-Kohlefaser)
-   
----
-
-## Plastizität - Einkristall
-
-Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch Abgleiten von Atomschichten entlang bestimmter kristallographischer Ebenen und Richtungen unter Einwirken von Schubspannungen.
-
-- Gleitsystem besteht aus Gleitebene und Gleitrichtung
-- kritische Schubspannung ($\tau_{Kr}\approx G/10$ - Abschätzung oder theoretische Schubfestigkeit)
-- Realtität um Faktor ~100 niedriger durch Versetzungen
----
-
-## Bild
-
-![](../assets/Figures/Beispiel_plast.bmp)
-  
----
-
-## Plastische Verformung des polykristallinen Werkstoffs
-
-- Mikro- und Makroplastizität
-  - Plastische Verformung beginnt bei "ungünstigen" Orientierungen
-- Korngrenzen
-  - Barriere für Versetzungsbewegung
-  - bei hohen Temperaturen können Korngrenzen gleiten (Kriechen)
-  - gezielte Fertigung kann durch Korngrenzen Zähigkeit erhöhen
-- Heterogenität
-  - Mehrphasigkeit
-  - inhomogene Verteilung der Spannungen und Verformungen
-- Anisotropie
-
----
-
-## Polykristall Plastizität
-[Beispiel aus einer Simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
-
-- $R_m$ - Zugfestigkeit
-- $R_e$ - Streckgrenze
-- Dehngrenze oder Elastizitätsgrenze $R_{p0,2}$
-  - Belastung und dann Entlastung 0.2% Dehung verbleibt
-- Dehngrenze wird als Ersatzstreckgrenze verwendet
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
-
-- obere Streckgrenze $R_{eH}$
-- untere Streckgrenze $R_{eL}$
->gezackter Bereich: Lüdersbereich
-
-[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
-
----
-
-## Plastizität - Umformen
-- [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
-- [Tiefziehen Real](https://www.youtube.com/watch?v=rHfepOqPVHI)
-
----
-
-
-
-
-
-## Werkstoffeigenschaften
-
 <details>
-<summary>Was sind Werkstoffeigenschaften?</summary>
-
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    <pre align="center" class="mermaid">
-    %%{init: {'theme': 'forest'}}%%
-    mindmap
-      root((Eigenschaften))
-        Physikalisch
-          Mechanisch
-          Elektrisch
-          Thermisch
-          ...
-        Chemisch
-            Löslichkeit
-            Elektronegativität
-            ...
-        Biologisch / Physiologisch
-            Umweltwirkung
-            Verwitterbarkeit
-            Toxidität
-            ...
-        Sozial / Gesellschaftlich
-            Wert
-            Akzeptanz
-            Arbeitsbedingungen
-            Herkunft
-            ...
-    </pre>
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    </script>
-  </body>
-</html>
-</details>
-
-<!DOCTYPE html>
-
----
-
-## Materialpatenschaft
-
-
-
-
-<details>
-<summary>Welche Werkstoffe fallen euch ein?</summary>
+<summary>Zweiphasigkeit</summary>
 <div>
-
-- Materialien beschreiben und Eigenschaften dokumentieren
-  - kontinuierlich über das Semester mit den verschiedenen Themen
-  - Vorstellung Ende des Semesters
-- Online mit QR Code für die Materialbibliothek bereitstellen
-- Warum?
-  - Auswahl des passenden Werkstoffs
-
+- Nebel
+- übersättigte Lösungen
 </div>
 </details>
-
----
-
-## Symmetrien
-- isotropie
-- transversale isotropie
-- orthotropie
-- ...
-- anisotropie
-![bg right 80%](../assets/Figures/xyz.png)
-
-<!---
-- Diskussion; Eigenschaften können richtungsabhängig sein
-- Praxisbeispiele
--->
-
----
-
-## Mechanische Eigenschaften
-<a id="Mechanik"></a>
-
-- die **reversible** Verformung, bei der sofort bzw. eine bestimmte Zeit nach dem Einwirken der äußeren Belastung der verformte Werkstoff seine ursprüngliche Form zurückerhält: elastische und viskoelastische Verformung;
-
-- die **irreversible (bleibende)** Verformung, bei der die Formänderung auch nach dem Einwirken der äußeren Belastung erhalten bleibt: plastische und viskose Verformung;
-
-- der Bruch, d.h. eine durch Entstehen und Ausbreiten von Rissen bewirkte Trennung des Werkstoffes.
-
-
----
-
-## Simulationsbeispiel
-
-<iframe src="https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400" width="1150" height="600"></iframe>
-
-
----
-
-## Elastizität
-- reversibel, energieerhaltend
-- Hooksches Gesetz 1D
-Normalspannung $\sigma = E\varepsilon$
-Schubspannung $\tau = G\gamma$
-
----
-
-## Grundlagen
-
-- Normaldehnung [-]
-$\varepsilon_{mechanisch} = \frac{l - l_0}{l_0}$
-
-- Normalspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\sigma = \frac{F}{A}=E\varepsilon$
-E - Elastizitätsmodul, Young's modulus $\left[\frac{N}{m^2}\right]$\
-\
-\
-\
-\
-.
-<div style="position: absolute; bottom: 40px; left: 80px; color: blue; font-size: 20px;"> 
-    <img src="Figures/EModul.svg" style="height:230px;width:auto;vertical-align: top;">
-</div>
-
-![bg right:25%](../assets/Figures/Normalspannung.gif)
-
----
-
-## Grundlagen
-
-- Schubdehnungen [-]
-$\varepsilon = \frac12(\frac{u_x}{l_0}+\frac{u_y}{b_0})=\frac{\gamma}{2}$
-
-- Schubspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\tau = \frac{F_s}{A}= G\gamma$
-
-- Normal- und Schubspannungen sind nicht kompatibel; daher die Vergleichsspannungen -> Technische Mechnanik
-
-- G - Schub-, Gleitmodul, Shear modulus $\left[\frac{N}{m^2}\right]$
-
-![bg right:25%](../assets/Figures/Schubspannung.gif)
-
-
----
-
-## Grundlagen
-
-- Querkontraktionszahl [-]
-- $\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
-für homogene Werkstoffe $0\leq\nu\leq 0.5$
-für heterogene Werkstoffe sind anderen Konstellationen denkbar
-
-- [Kompressionsmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{3(1-2\nu)}$
-- [Schubmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{2(1+\nu)}$
-
-![bg right:25%](../assets/Figures/Kompression.gif)
-
----
-
-## Werkstoffbeispiele
-
-| Werkstoff                         | E [GPa]   | G [GPa] | $\nu [-]$     |
-|:----------------------------------|:----------|:--------|:----------|
-| Stahl unlegiert                   | 200       | 77      | 0.30      |
-| Titan                             | 110       | 40      | 0.36      |
-| Kupfer                            | 120       | 45      | 0.35      |
-| Aluminium                         | 70        | 26      | 0.34      |
-| Magnesium                         | 45        | 17      | 0.27      |
-| Wolfram                           | 360       | 130     | 0.35      |
-| Gusseisen mit lamellarem Graphit  | 120       | 60      | 0.25      |
-| Messing                           | 100       | 35      | 0.35      |
-| Thermoplaste/Duromere             | 2 … 5     | 1 … 2   | ~0.35   |
-| Elastomere                        | 0.1       | 0.03    | 0.45 - 0.49|
-| Sperrholz                         | 4 … 16    | -       | -         |
-| Beton                             | 40 … 45   | -       | -         |
-
-
----
-
-
-## Steifigkeiten
 <details>
-<summary>Wie Materialeigenschaften den Steifigkeiten zusammen?</summary>
-
-- Material $\cdot$ Querschnitte = Steifigkeit
-- Dehn-, Normalsteifigkeit = $EA$
-- Biegesteifigkeit = $EI$
-- Torsionssteifigkeit = $GI_P$
-
-</details>
-
-![bg fit right:50%](../assets/Figures/IWES_test.jpg)
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Bildreferenz</a>
-</div>
-
----
-
-## 
-<!---
-
-* 1. und 2. Eigenfrequenz ->  https://doi.org/10.3390/en14092451
-* Verformung in Schlag- und Schwenkrichtung sind aber identisch
-* Turmschlag ist relevant
-* dynamische Stabilität
-* -->
-
-![bg fit](../assets/Figures/EF1.png)
-![bg fit](../assets/Figures/EF2.png)
-
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Bildreferenz</a>
-</div>
-
----
-
-## Eigenfrequenzen / Resonanzen / Stabilität
-
-- $f_{eigen}=\frac{\omega_{eigen}}{2\pi}=\frac{1}{2\pi}\sqrt{\frac{c}{m}}$ mit $c$ bspw. $EA$
-
-[Tacoma Narrows Bridge](https://youtu.be/j-zczJXSxnw?t=10)
-
-- Knick Stab
-- Beulen
-
----
-
-## Festigkeit
-
-[Die Festigkeit eines Werkstoffes beschreibt die Beanspruchbarkeit durch mechanische Belastungen, bevor es zu einem Versagen kommt, und wird angegeben als mechanische Spannung $\left[N/m^2\right]$. Das Versagen kann eine **unzulässige Verformung** sein, insbesondere eine **plastische (bleibende) Verformung** oder auch ein **Bruch**.](https://de.wikipedia.org/wiki/Festigkeit)
-
-
->Wichtig: Festigkeit $\neq$ Steifigkeit
-
----
-
-
-## Plastische Versagen 
-
-![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
-
-
-<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
-    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
-</div>
-
----
-
-## Viskoses Verhalten
-
-- reversibel
-- zeitabhängig
-
-Federmodel $\sigma = E\epsilon$ 
- - Elastischer Anteil
- - Dargestellt durch Federlemente
-<div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$ 
-- Viskoser Anteil
-- Dargestellt durch Dämpferelemente
-
-
----
-
-## 
-
-![bg fit](../assets/Figures/Spannung-Dehnung.png)
-![bg fit](../assets/Figures/Spannung-Dehnrate.png)
-
----
-
-## 
-
-![bg fit](../assets/Figures/Spannung-Zeit.png)
-![bg fit](../assets/Figures/Hysteresis.png)
-
-
-
----
-
-## Exkurs: Modellierung von Werkstoffen
-- Rheologische Modelle
-- setzen sich aus vielen Federn, Dämpfern und anderen Elementen zusammen
-- diese Freiheitsgrade ($E_i$, $\eta_i$) werden dann gefittet
-
-
-
----
-
-## Wiederholung Kristalle und Gitter
-
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
-## Kristalle - Kritallgitter
-
-- Stoffe die sich in einer Kristallstruktur anordnen
-- Periodische Wiederholung der "Basis"
-- Die Basis kann beliebig groß sein
-- Elementarzellen enthält alle Informationen
-zur Beschreibung des Kristalls
-- alle Metalle bilden in der Regel Kristalle 
-
-
-<div style="position: absolute; bottom: 340px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/NaCl_polyhedra.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:250px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Rock_salt_crystal.jpg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
----
-
-## "Faule" Physik
-- alles strebt nach engergetisch "stabilen" Zuständen
-
-<div style="position: absolute; bottom: -360px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/energie.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:1320px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-- [Einheitszelle](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-
-<div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Einheitszelle.png" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<details>
-<summary>Recherchiert wichtige Parameter der Einheitszelle?</summary>
+<summary>Mischkristall</summary>
 <div>
-
-- a$_0$, b$_0$, c$_0$ - Gitterkonstanten - Abstand der Atome
-- $\alpha$, $\beta$, $\gamma$ - Achswinkel - Winkel der Elementarzellen
-- 14 mögliche [Bravais Gitter](https://de.wikipedia.org/wiki/Bravais-Gitter) in 3D
-- [Zahl der Atome](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-- [Koordinationszahl](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-- [Packungsdichte](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
+Ein Mischkristall ist ein chemisch homogener, gleichartiger Kritall, der aus mehreren Atomsorten aufgebaut ist.
 </div>
 </details>
 
----
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a8/114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P_%28cropped%29.jpg)
 
-## Einfluss des Raumgitters
-
--	Korrosion: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
--	Verformung: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
--	Ultraschall: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
--	Leitfähigkeit:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
--	Magnetisierung: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen entlang der Würfelkante [1 0 0]
+![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/4/4e/Nuclear_Power_Plant_Cattenom.jpg)
 
 ---
 
-## Gitterbaudefekte
+## Mischkristalle - Arten
 
--	Nulldimensionale Fehlstellen (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	Eindimensionale Fehlstellen (Liniendefekte): Versetzungen
--	Zweidimensionale Fehlstellen (Flächendefekte): Stapelfehler, Korngrenzen, Subkorn-grenzen, Phasengrenzen
+![bg right fit](http://anorganik.chemie.vias.org/img/mischkristalle.png)
+
+Subsitutionsmischkristall
+- ähnlicher chemischer Charakter
+- ähnlicher Durchmesser
+- gleiches Kritallgitter
 
 ---
 
-## Nulldimensionale Fehlstellen
+Einlagerungsmischkristall
+- kleinere Atome
+- in Lücken des Kristallgitters eingelagert (Einlagerungs- oder Zwischengitteratome) 
+- zweite Komponente ist gelöst
 
-![bg right 50%](../assets/Figures/ideales_gitter.png)
+_Beide Arten sind einphasig._
 
+
+---
+
+## Intermetallische Phase
+
+-	meist komplizierter Gitteraufbau, unabhängig von Ausgangsgittern
+- geordnete Einlagerungsstrukturen
+- keine Verbindung im chemischen Sinne (Ge-setz der konstanten und multiplen Proportio-nen gilt nicht)
+- vorherrschender Bindungstyp: Metallbindung, aber Atom- und Ionenbindungsanteile „zugemischt“
+
+Eigenschaft: hart und sehr spröde
+
+
+---
+
+
+# Gefüge der Werkstoffe
+
+- durch Art, Größe, Form und Orientierung und Anordnung der einzelnen Bestandteile (Phasen), wie Kristallite (Körner), amorphe Bereiche, Verstärkungs- bzw. Füllstoffe, charakterisiert
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a7/Vanadium-bar.jpg)
+![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/5e/AlubronzeCuAl20v500.png)
+
+---
+
+## Entstehung des Gefüges
+
+Schmelze  → Abkühlung / Unterkühlung
+↓
+Keimbildung (homogen + heterogen)
+↓
+Keimwachstum → Kristallisation
+↓
+Kristallitbildung (Kornbildung mit Korngrenzen)
+↓
+∑ aller Körner und Korngrenzen 	=>    Gefüge
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
+
+---
+
+## Keimbildung
+- Erstarren findet nicht gleichmäßig statt -> Bildung von Keimen
+- homogen (arteigenen) oder heterogen (artfremden) 
+- Wachstum der Keime (Kristallwachstum)  bis gesamte Schmelze erstarrt ist
+- Es bestehen Zusammenhänge zwischen der Keimzahl (KZ) und der Kristallisationsgeschwindigkeit (KG) einer-seits und der Unterkühlung ΔT andererseits.
+
+---
+## Einflussparameter auf die Ausbildung der Korngröße
+![](../assets/Figures/Korngroesse.png)
+a) → feinkörniges Gefüge  $\qquad$	b)  → grobkörniges Gefüge
+
+
+- große Zahl von Keimen -> feinkörniges Gefüge
+- schnelles Kristallwachstum und geringe KZ -> grobkörniges Gefüge
+
+---
+## Begriffe
+Korn 
+- Keime haben Wachstum abgeschlossen und sto0en aneinander
+- Kristallorientierung zwischen benachbarten Körnern ist in der Regel unterschiedlich
+- Form und Größe wird durch den Wärmfluss bestimmt
+  - gleichmäßig in alle Richtungen - _globulistisch_
+  - Vorzugsrichtung des Wärmeflusses - _transkristalline Erstarrung_
+
+Korngrenze 
+- Übergangsflächen zwischen Körnern
+
+
+---
+
+## Gießen oder Stranggießen
+
+- Beim Gießen oder Stranggießen in eine Metallform (Kokille) bildet sich eine Gussstruktur in drei Zonen, meist mit einer deutlichen Abgrenzung zueinander:
+
+---
+
+1.	Feinkörnige globulare Randzone
+
+- starke Unterkühlung der Schmelze an der Kokillenwand
+- Ausbildung von zahlreichen Kristallkeime -> kleine, gleichmäßige Kristallite
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+
+2.	Transkristallisationszone mit stängelförmigen, sehr groben Kristalliten
+
+- gerichtetes Wachstum von Kristallite (Stängelkristalle), bei denen die kristallografische Orientierung mit der Richtung des Wärmegefälles übereinstimmt;
+- die dadurch aufgetretene Orientierung => Gusstextur 
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+
+3.	Globulare Kernzone
+- Verunreinigungen, werden von den Stängelkristallen vor sich her geschoben und reichern sich  im Kern an
+- hohen Anzahl von artfremden Keimen 
+- globulare feinkörnige Kernzone 
+- Bei sehr reinen Metallen liegt in der dritten Zone allerdings ein grobkörniges Gefüge vor
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+ 
+# Gefügenachweise
+
+- Im Allgemeinen sind die einzelnen Kristallite (Körner) in einem Werkstoff nicht ohne weiteres sichtbar. 
+- Für werkstoffwissenschaftliche Untersuchungen ist es jedoch notwendig, die vorhandene Mikrostruktur zu analysieren. 
+- Arbeitsschritte:
+  - gezielte Probenentnahme 
+  - Schleifen und Polieren der Probe
+  - Ätzen der Oberfläche
+
+---
+
+## Mikroschliffe
+- sorgfältig präparierte Schlifffläche kann mittels eines Licht- oder Elektronenrastermikroskops betrachtet werden. 
+- Das Elektronenrastermikroskop weist neben der wesentlich stärkeren Auflösung auch eine höhere Schärfentiefe auf.
+
+
+---
+
+## Ätzungen
+Das Ätzen zur Gefügeentwicklung kann auch als ein Korrosionsvorgang bezeichnet werden.
+
+Korngrenzenätzung
+- bevorzugtes auflösen von Korngrenzen
+
+![bg right 50%](../assets/Figures/Korngrenzenaetzung.png)
+
+---
+
+Kornflächenätzung
+- nebeneinander liegende Kornschnittflächen werden unterschiedlich  stark aufgeraut bzw. mit Oxidschichten bedeckt
+- Körner reflektieren das Licht unterschiedlich 
+
+
+![bg right 60%](../assets/Figures/Kornflaechenaetzung.png)
+
+---
+
+## Makroschliffe
+
+Mit Hilfe der Makroätzungen können nur Gefügeerscheinungen untersucht werden, die mit bloßem Auge oder einer Lupe zu erkennen sind. 
+Folgende Nachweise sind möglich:
+-	Seigerungen und deren Lokalisierung: Ätzungen nach Heyn und Oberhoffer oder Baumannabdruck
+-	Güte von Schweißverbindungen: Adlerätzung
+-	Entwicklung von Kraftwirkungslinien nach plastischer Verformung: Ätzung nach Fry
+
+---
+
+## Begriffe für die qualitative und quantitative Beschreibung von Gefügen
+
+Metallographie - Metalle
+Keramographie - Keramiken
+Plastographie - Polymerwerkstoffe
+
+
+---
+
+# Zustandsdiagramme
+
+- auch Phasendiagramm -phase diagram-
+- stellt den Zustand von Legierungen und Stoffgemischen in Abhängigkeit von der chemischen Zusammensetzung, Temperatur und ggf. dem Druck dar
+- Zustand meint die auftretenden Phasen (alle festen, flüssige, gasförmige)
+
+
+---
+## Achtung!
+
+Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei einer sehr lang-samen Abkühlung aus dem schmelzflüssigen Zustand bis hin zur Raumtemperatur, bei der sich das Gleichgewicht zwischen den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann. 
+
+---
+
+
+![bg fit 70%](../assets/Figures/Zustandsdiagramm.png)
+![bg fit 70%](../assets/Figures/Zustandsdiagramm_3.png)
+
+---
+
+## Löslichkeiten
+
+<details>
+<summary>Unlöslich</summary>
+<div>
+- zu große Unterschiede bei den Atomdurchmessern
+- Kristallgitter weichen voneinander ab
+- Komponenten sind chemisch sehr unterschiedlich
+</div>
+</details>
 
 
 <details>
-<summary>Was gibt es für mögliche Varianten?</summary>
+<summary>Löslich</summary>
 <div>
-
-- Zwischengitteratome
-- Leerstellen
-- Frenkeltyp (Autreten der gleichen Zahl Zwischen-gitteratome und Fehlstellen)
-- Substitutions-Fremdatom
-- Zwischengitter-Fremdatom 
+- kaum Unterschiede bei den Atomdurchmessern
+- Kristallgitter sind identisch
+- Komponenten sind chemisch sehr nah beieinander
 </div>
 </details>
 
 ---
-
-## Fremdatome
-
-<details>
-<summary>Wie lassen sich Fremdatome nutzen?</summary>
-<div>
-
--	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
-    - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
-- Zwischengitter und Substitutionsfremdatom
-    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
-</div>
-</details>
+## Beispiel aus der eigenen Erfahrung
+- Ölfilm auf Wasser ist nicht löslich und es findet eine Trennung aufgrund der unterschiedlichen Dichte statt
+- Salz- / Zuckerkristalle in Wasser werden vollständig gelöst und ist nicht mehr sichtbar
 
 
 ---
 
-
-## Versetzungen
-
-[Versetzungen](https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)) enstehen
-- beim Kristallwachstum
-- aufgrund von Eigenspannungen
-- durch plastische Verformungen
-
-![bg right 80%](../assets/Figures/versetzung.png)
-![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
-
-
----
-
-## Zweidimensionale Fehlstellen - Korngrenzen
-- Korngrenzen
-- Phasengrenzen
-- Subkorngrenzen
-
-![bg right fit](https://www.struers.com/-/media/Struers-media-library/Knowledge/Materials/Grain-structures/FIg-0A-974x732-px.jpg?lm=20191009T054854Z&h=732&w=974&hash=4504C0AA9A9B6DEB6BDF91CC93EDF46ED9AADF75)
-
-[Skript](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
-
+# Zustandsdiagramme (ZSD)
 
 ---
 
 
-## Plastizität
-
-Gut oder Schlecht
-
-![bg right 70%](../assets/Figures/fragezeichen.png)
-
----
-
-## Beispiele
-
-**Hohe Plastizität**:
-
-- Knete
-- feuchter Ton
-- Metalle und Metalllegierungen mit geeignetem Atomgitter:
-  - glühender Stahl beim Schmieden
-  - Kaltumformung von Blechen 
-
-**Geringe Plastizität**:
-  - Gummi
-  - Keramik
-  - Faserkunstoffverbunde (Epoxid-Glasfaser oder Epoxid-Kohlefaser)
-   
----
-
-## Plastizität - Einkristall
-
-Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch Abgleiten von Atomschichten entlang bestimmter kristallographischer Ebenen und Richtungen unter Einwirken von Schubspannungen.
-
-- Gleitsystem besteht aus Gleitebene und Gleitrichtung
-- kritische Schubspannung ($\tau_{Kr}\approx G/10$ - Abschätzung oder theoretische Schubfestigkeit)
-- Realtität um Faktor ~100 niedriger durch Versetzungen
----
-
-## Bild
-
-![](../assets/Figures/Beispiel_plast.bmp)
-  
----
-
-## Plastische Verformung des polykristallinen Werkstoffs
-
-- Mikro- und Makroplastizität
-  - Plastische Verformung beginnt bei "ungünstigen" Orientierungen
-- Korngrenzen
-  - Barriere für Versetzungsbewegung
-  - bei hohen Temperaturen können Korngrenzen gleiten (Kriechen)
-  - gezielte Fertigung kann durch Korngrenzen Zähigkeit erhöhen
-- Heterogenität
-  - Mehrphasigkeit
-  - inhomogene Verteilung der Spannungen und Verformungen
-- Anisotropie
+- Die Phasen bzw. Phasengrenzlinien können als ein Zustandsdiagramm dargestellt werden
+- Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel
+- Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern
+- Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
 
 ---
 
-## Polykristall Plastizität
-[Beispiel aus einer Simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
+## Gibbsche Phasenregel
+
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+				
+$F = n  - P + 1$
+				
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
 
 ---
 
-## Streckgrenze
 
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
-
-- $R_m$ - Zugfestigkeit
-- $R_e$ - Streckgrenze
-- Dehngrenze oder Elastizitätsgrenze $R_{p0,2}$
-  - Belastung und dann Entlastung 0.2% Dehung verbleibt
-- Dehngrenze wird als Ersatzstreckgrenze verwendet
+![bg 60%](../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
 
 ---
 
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
-
-- obere Streckgrenze $R_{eH}$
-- untere Streckgrenze $R_{eL}$
->gezackter Bereich: Lüdersbereich
-
-[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
+![bg 60%](../assets/Figures/Zustandsdiagramm_Kupfer_Nickel.png)
 
 ---
 
-## Plastizität - Umformen
-- [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
-- [Tiefziehen Real](https://www.youtube.com/watch?v=rHfepOqPVHI)
+![bg fit](../assets/Figures/binaeresSystem.png)
+
+---
+
+## Eutektischer Entmischung
+
+- Komponenten sind **löslich** im flüssigen Zustand
+- Komponenten sind **unlöslich** im festen Zustand
+
+![](Figures/eutektischerPunkt.png)
+
+
+---
+
+## Eutektische Reaktion
+
+-  bei einer Konzentration erstarren aus der Schmelze S bei konstanter Temperatur (Eutektikale) A- und B-Kristalle zu einem feinkristallinen Kristallgemisch (Eutektikum)
+- eutektische Gefüge besitzt oft eine schicht- oder lamellenartige Struktur
+- Legierungen anderer Konzentrationen scheiden vor Erreichen der Eutektikale (Haltepunkt bei der Eutektischen Reaktion) die überwiegende Komponente aus (A- oder B-Kristalle), so dass sich die Konzentration der verbleibenden Schmelze der eutektischen Zusammensetzung annähert. 
+- die Eutektikale bildet die Soliduslinie des gesamten Systems
+
+
+
+---
+
+## System mit Mischungslücken
+- Komponenten sind **löslich** im flüssigen Zustand
+- Komponenten sind **begrenzt löslich** im festen Zustand
+
+---
+
+![](../assets/Figures/Mischungsluecke.png)
+
+
+---
+
+_Löslichkeits- oder Sättigungslinien_
+- Linien, die die Einphasengebiete ($\alpha$, $\beta$) von dem Gebiet der Kristallgemische aus Mischkristallen ($\alpha+\beta$) abgrenzen
+Sonderfall:
+- ein System von Mischkristallen bilden Einlagerungsmischkristalle 
+- Die Konzentrationsachse endet dann mit der Konzentration der Sättigung der Komponente B im Gitter der Komponente A
+- Das Einphasengebiet der Komponente B kann dann nicht existieren.
+
+---
+
+
+## Systeme mit Peritektikum (mit peritektischer Entmischung) 
+
+
+-  weit auseinander liegende Schmelz-/Erstarrungstemperaturen der beteiligten Komponenten sind charakteristisch.
+- Bei Abkühlung aus der Schmelze bildet sich ein Mischkristall $\alpha$
+- bildet bei konstanter Temperatur (entsprechend der **Eutektikalen**) mit der Schmelze reagierend eine zweite Mischkristallart $\beta$ bildet. 
+- bei einer peritektischen Reak-tion entstehen aus der Schmelze und bereits ausgeschiedenen $\alpha$-Mischkristallen bei gleich bleibender Temperatur neue $\beta$-Mischkristalle.
+
+
+
+---
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Peritektikum.svg)
+
+
+
+---
+
+## Realdiagramme
+- die bisherigen Digramme waren Idealdigramme und treten so nicht wirklich auf
+- Eisen-Kohlenstoff-Diagramm (EKD) ist das wichtigste Realdiagramm
+- Grundmetall ist Eisen -> Stahl oder Eisenguss
+- das EKD setzt sich aus den Idealdiagrammen - dem peritektischen, eutektischen und eutektoiden Teildiagramm - zusammen
+
+---
+
+- Man kann je nach Erscheinungsform des Kohlenstoffs zwischen dem stabilen System Fe-C, in dem Kohlenstoff als Graphit, und dem metastabilen System Fe-Fe3C, in dem Kohlenstoff gebunden als Fe3C (intermediäre Phase Zementit) vorliegt, unterscheiden. 
+- Stabil bedeutet, dass der Kohlenstoff in Form von Graphit nicht weiter zerlegt werden kann, Fe3C aber bei langzeitigem Glühen in Eisen und Temperkohle zerfällt. 
+- Das metastabile Sys-tem stellt gewissermaßen ein relatives Minimum der Gesamtenergie des Systems dar. Für techni-sche Belange kann es als „hinreichend stabil“ bewertet werden.
+
+---
+
+# Eisen-Kohlenstoffdiagramm (EKD)
+
+- wichtigstes ZSD
+- Eisenist der wichtigste Werkstoff im Maschinenbau. 
+
+Gründe sind
+- geringe Kosten
+- hohe Festigkeit und elastische Steifigkeit
+- Vielzahl von möglichen Legierungen
+- Verfügbarkeit
+- Gießbarkeit, Schweißbarkeit, etc.
+
+[Erklärvideo für das Eisen Kohlenstoff Diagramm](https://www.youtube.com/watch?v=oJqvnKhnsg0&t=1s)
+
+---
+
+![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
+
+---
+
+
+![bg 70%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+---
+## Wichtige Gleichgewichtslinien
+
+ABCD 	Liquiduslinie			
+AHIECF 	Soliduslinie			
+ECF 		Eutektikale			
+PSK 		Eutektoide			
+ES, PQ		Sättigungslinien				MOSK		Curie-Linie
+QPSECD 	Bildung/Auflösung Fe3C	
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+---
+
+## Punkte im Zustandsdiagramm
+S - eutektoider Punkt
+C - eutektischer Punkt
+G -	$\alpha$ / $\gamma$ - Umwandlungspunkt des reinen Eisens
+E -	Punkt max. C-Löslichkeit im $\alpha$ - MK
+P - Punkt max. C-Löslichkeit im $\gamma$ - MK
+u. a. m. (vgl. Fe-Fe3C - Diagramm)
+
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+
+---
+
+Folgende Grenzlinientemperaturen (Umwandlungstemperaturen) werden benutzt: 
+
+A: 	arreter (anhalten)
+r:	refroidir (abkühlen)
+c:	chauffer (erwärmen)
+e:	équilibre (Gleichgewicht)
+
+Ac1: 723°C
+Ac3: abhängig vom C-Gehalt
+
+![bg right fit](../assets/Figures/umwandlungen.png)
+
+
+---
+
+# Phasen- und Gefüge im System-Eisen-Kohlenstoff
+# Mischkristalle
+
+---
+## $\alpha$-Mischkristall (krz)
+- Gefügebezeichnung Ferrit ($\alpha$-Ferrit)
+- rein ferritisches Gefüge besitzt geringe Härte/Festigkeit, aber hohe Duktilität (Zähigkeit)
+- Max. C-Löslichkeit: nur 0,02 % 
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/b/be/Ductility.svg)
+
+---
+## Exkurs Härte / Festigkeit
+Im Detail kommt das später.
+Festigkeit 
+- Maß der maximalen Beanspruchbarkeit bis Versagen
+- Kraft pro Querschnittsfläche
+
+Härte 
+- mechanischer Widerstand gegen mechanisches Eindringung eines anderen Körpers 
+- Maß für die Verschleißbeständigkeit
+
+
+---
+
+## $\delta$-Mischkristall (krz)
+ - $\delta$-Ferrit ist nur oberhalb von 1392°C stabil  
+ - technisch von untergeordneter Bedeutung
+ - Max. C-Löslichkeit: 0.12 %
+
+---
+
+## $\gamma$-Mischkristall (kfz)
+- Gefügebezeichnung Austenit
+- scheidet sich oberhalb der G-S-E-Linie  aus; 
+  - durch Legierungszusätze (Ni, Mn) und Abschrecken auch bei Raumtemperatur beständig (austenitische Stähle)
+- unmagnetisch, zäh und durch Kaltverfestigung härtbar (Mangan-, Nickel-, Chrom-Nickel-Stähle)
+- hohe Warmfestigkeit, gute Korrosions- und Zunderbeständigkeit
+- Max. C-Löslichkeit: 2.06 %
+
+
+---
+
+## Intermediäre Phase
+Zementit (Eisencarbid Fe3C); 6.67 Masse-% C-Gehalt
+
+- Primärzementit:	
+primäre Kristallisation aus der Schmelze (Linie CD)
+
+- Sekundärzementit: 
+Ausscheidung aus dem Austenit (Linie ES)
+
+- Tertiärzementit:	
+Ausscheidung aus dem Ferrit (Linie PQ)
+
+
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+---
+
+## Kristallstruktur
+
+![bg right 80%](../assets/Figures/Zementit.png)
+
+- orthorhombischen Elementarzelle 
+  -  zwölf Eisen- und vier Kohlenstoffatome
+  - die Kohlenstoffatome sind relativ unregelmäßig (zweifach überkappt trigonal-prismatisch) von acht Eisenatomen umgeben
+
+---
+
+- Zementit ist hart und spröde
+- überwiegende Zahl der technischen Eisen-Kohlenstoff-Legierungen erstarrt unter Bildung von Zementit
+
+![bg right 80%](../assets/Figures/Zementit.png)
+
+---
+
+# Phasengemische/Gemische von Mischkristallen
+
+## Perlit (Eutektoid)
+- Gefüge aus Zementit und Ferrit (= Phasengemisch)
+- entsteht durch den "eutektoiden" Zerfall des Austenits ($\gamma$-Mischkristall) mit 0.8% C bei 723°C
+- eutektoider Punkt S: hier liegen 100% Perlit vor
+- relativ hohe Härte, relativ hohe Festigkeit, schlechte Umformbarkeit, geringe Zähigkeit
+
+---
+
+- lamellenartiger Aufbau (Schichten von $\alpha$-Mk und Fe3C-Kristallen) .
+- häufig spricht man von einer "Perlitstufe", die - gemessen am Lamellenabstand - in Perlit, fein-streifigen  und feinststreifigen Perlit unterteilt wird. 
+
+
+![bg right](../assets/Figures/perilitisches_gefuege.png)
+
+---
+
+## Ledeburit (Eutektikum) 
+
+- Gefüge aus Austenit und Zementit bzw. „zerfallenem“ Austenit und Zementit (= Phasengemisch), Kohlenstoffgehalt 4,3 %, Schmelztemperatur 1147°C 
+- Eutektischer Punkt C: hier liegen 100% Ledeburit vor
+- Unterscheidung zwischen Ledeburit I (dicht unterhalb 1.147 °C)
+  -  um ein Gefüge aus Austenit und Zementit handelt
+
+- Ledeburit II (Raumtemperatur)
+  - aus Zementit I mit ankristallisiertem Sekundärzementit (aus dem Austenit bei sinkender Temperatur ausgeschieden) und (bei langsamer Abkühlung) aus Perlit
+  -  Der Perlit entsteht durch den eutektoiden Zerfall des Austenits aus dem Ledeburit I bei 723 °C. 
+
+---
+- bei schnellerer Abkühlung kann anstelle des Perlit auch Bainit bzw. bei sehr schneller Abkühlung Martensit vorliegen. 
+- Ledeburit ist schlecht umformbar, hat sehr geringe Duktilität. 
+ - bei Raumtemperatur  feines Gemenge von Fe3C-Kristalliten und Perlitbereichen im Auflichtmikroskop als charakteristische Pantherfellstruktur sichtbar.
+
+![bg right](../assets/Figures/ledeburit_gefuege.png)
+
+
+---
+
+Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der beteiligten Phasen (z.B. $\alpha$-Mk, Fe3C), ihren mengenmäßigen Anteil (z. B. abhängig vom C-Gehalt) und die Art ihrer Verteilung im Gefüge bestimmt.
+
+---
+# Phasen- und Gefüge im Ungleichgewichtszustand
+
+- Gleichgewichtszustände durch Diffusionsvorgänge dominiert
+- bei schnelleren Temperaturänderungen wird die Kohlenstoffdiffusion, die zur Entmischung des Austenits erforderlich ist, behindert 
+- Dadurch entstehen auch neuartige Gefügebestandteile, die nicht mehr dem Gleichgewichtszustand entsprechen
+- führt zu "zwangsgelöstem" Kohlenstoff
+---
+
+## Martensit
+- raumzentriertes Gitter tetragonal verzerrt („verspanntes Ferritgitter“)
+- meist feinnadeliges, sehr hartes und sprödes Gefüge
+- der im krz-Gitter des $\alpha$-Fe zwangsgelöste Kohlenstoff verzerrt das Gitter und weitet es tetragonal auf („diffusionsloses Umklappen“). 
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/fa/Steel_035_water_quenched.png)
+
+---
+
+## Bainit  
+
+- anders als bei der Bildung von Martensit sind hier Umklappvorgänge im Kristallgitter und Diffusionsvorgänge gekoppelt
+-  bildet sich im Temperaturbereich zwischen der Perlit- und der Martensitstufe bei Abkühlungsgeschwindigkeiten (für Martensitbildung zu niedrig; für die Perlitbildung zu hoch)
+
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/00/522OB80Si10_450.jpg)
+
+---
+ ## Bainit  
+
+- reiner Bainit lässt sich nur durch isotherme Abkühlung, z.B. beim Warmbadhärten, erzielen. 
+- Vorteilhaft, wo bei einer Vergütung durch Abschrecken und Anlassen eine Härterissgefahr besteht. 
+- Es hat sehr gute Festigkeits- und Zähigkeitseigenschaften.
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/00/522OB80Si10_450.jpg)
+
+---
+
+# Eisen-Kohlenstoff-Legierungsbezeichnungen
+
+| Kohlenstoffgehalt (Masse-%) | Bezeichnung               | Typ                                  |
+|-----------------------------|---------------------------|--------------------------------------|
+| 0.02 < C < 0.8              | (Kohlenstoff-) Stahl       | untereutektoide Stähle               |
+| C = 0.8                     | (Kohlenstoff-) Stahl       | eutektoide Stähle                    |
+| 0.8 < C < 2.06              | (Kohlenstoff-) Stahl       | übereutektoide Stähle                |
+| 2.06 < C < 4.3              | Gusseisen                 | untereutektische Gusseisen           |
+| C = 4.3                     | Gusseisen                 | eutektische Gusseisen                |
+| 4.3 < C < 6.67              | Gusseisen                 | übereutektische Gusseisen            |
+
+---
+
+![bg fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
+
+
+---
+
+- Weiterhin wird unterschieden zwischen dem schwarzen Gusseisen (Grauguss), in dem der überschüssige Kohlenstoff in Form von Graphit, und dem weißen Gusseisen, in dem der Kohlenstoff in Form von Zementit vorkommt 
+- Mit zunehmendem C-Gehalt steigen die Festigkeit und Härtbarkeit des Stahles, wogegen seine Dehnung, Schmiedbarkeit, Schweißbarkeit und Bearbeitbarkeit (durch spanabhebende Werkzeuge) verringert werden
+- Der Korrosionswiderstand gegenüber Wasser, Säuren und heißen Gasen wird durch den Kohlenstoff praktisch nicht beeinflusst. 
+- Für Kohlenstoffgehalte unter 0.25 Masse-% sind Stähle gut schweißbar
+
 
 ---
 
@@ -1136,5 +777,6 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 <a id="Referenzen"></a>
 
 Rainer Schwab: Werkstoffkunde und Werkstoffprüfung für Dummies, 2019; ISBN-10 352771538X
+[Grundlagen der Metallkunde](https://wiki.arnold-horsch.de/index.php/Grundlagen_der_Metallkunde)
 
 

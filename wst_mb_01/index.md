@@ -183,6 +183,25 @@ Ungleichgewichtszustände
 -	Makrostruktur (Grobstruktur – Gesamterscheinung eines Werkstoffes bei der Herstellung und dem Einsatz eines Bauteils)
 
 
+---
+
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg)
+
+---
+
+## Relevante Gößen
+
+**Ordnungszahl**
+Zahl der Protonen im Kern
+**Atommasse**
+bestimmt die Masse des Elements
+ Masse des Werkstoffs ist eine Kombination aus Atommasse und Dichte
+**Elektronegativiät**
+bestimmt ob Atome abgegeben oder aufgenommen werden in einer Bindung
+metallische Bindungen eher links
+kovalente Bindungen eher rechts
+
+
 
 ---
 
@@ -205,23 +224,6 @@ Ungleichgewichtszustände
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/41/Nuvola_di_elettroni.svg)
 
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg)
-
----
-## Relevante Gößen
-
-**Ordnungszahl**
-Zahl der Protonen im Kern
-**Atommasse**
-bestimmt die Masse des Elements
- Masse des Werkstoffs ist eine Kombination aus Atommasse und Dichte
-**Elektronegativiät**
-bestimmt ob Atome abgegeben oder aufgenommen werden in einer Bindung
-metallische Bindungen eher links
-kovalente Bindungen eher rechts
 
 ---
 
