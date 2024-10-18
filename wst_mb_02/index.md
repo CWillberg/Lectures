@@ -147,6 +147,10 @@ $E \approx \frac12 G b^2$
 ![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/52/Dislocation_screw_e.svg)
 
 ---
+# [Defektübersicht](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
+
+
+---
 
 ## Zweidimensionale Fehlstellen - Korngrenzen
 - Korngrenzen

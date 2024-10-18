@@ -129,6 +129,10 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 
+# [Defects](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
+
+---
+
 ## Two-dimensional Defects - Grain Boundaries
 - Grain boundaries
 - Phase boundaries
@@ -195,9 +199,22 @@ The plastic deformation of a crystal mainly occurs through the sliding of atomic
 - Anisotropy
 
 ---
+## Slip Systems 
+![](https://upload.wikimedia.org/wikipedia/commons/b/b9/Slip_systems_in_zirconium_alloys.png)
+
+
+---
 
 ## Polycrystal Plasticity
 [Example from a simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
+
+
+---
+
+
+## Shear bands
+
+![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/8/81/X-shaped_shear_bands_in_clay.jpg)
 
 ---
 
@@ -210,6 +227,9 @@ The plastic deformation of a crystal mainly occurs through the sliding of atomic
 - Offset yield strength or elastic limit $R_{p0.2}$
   - After loading and unloading, 0.2% strain remains
 - Offset yield strength is used as a substitute for yield strength
+
+
+
 
 ---
 
@@ -261,6 +281,4 @@ The plastic deformation of a crystal mainly occurs through the sliding of atomic
   - Grain boundary diffusion
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4d/3StageCreep.svg)
-
----
 
