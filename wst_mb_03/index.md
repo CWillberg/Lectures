@@ -600,14 +600,37 @@ p-Dotierung - Zugabe von Elektronenakzeptoren
 
 # Magnetismus
 ## Arten des Magnetismus
+**Diamagnetismus**  
+Führt zu einer Abschwächung des Magnetfeldes durch die Wirkung der Lenzschen Regel in der Atomhülle (lokal induziertes Magnetfeld wirkt dem äußeren entgegen).  
+*Beispiele:* Alle Materialien
 
-| Typ | Auftreten | Beispiele|
-| --- | --- | --- |
-| Diamagnetismus | Führt zu einer Abschwächung des Magnetfeldes, durch die Wirkung der Lenzschen Regel in der Atomhülle (lokal induziertes Magnetfeld wirkt dem äußeren entgegen). | alle Materialien |
-| Paramagnetismus | Atome, Ionen oder Moleküle haben ein magnetisches Moment, welches sich nach dem äußeren Magnetfeld ausrichtet. Das führt zu einer Verstärkung des Magnetfels. Höhere Temperaturen reduzieren den Effekt, da sich die Atome, Ionen oder Moleküle stärker bewegen. |Lithium, Natrium, Metalle der Seltenen Erden (Scandium, Noedym, Holmium) |
-| Ferromagnetismus | Die magnetischen Momente einzelner Teilche sind nicht unabhängig, sondern richtigen sich spontan parallel aus. Die kleinste kritalline Einheit ist als [weissscher Bezirk](https://de.wikipedia.org/wiki/Weiss-Bezirk) bekannt. Durch die Curie kann dieser Effekt zerstört werden. | Eisen, Nickel, Alnico (Eisen, Aluminium, Nickel, Cobalt, Kupfer Legierungen)|
-| Ferrimagnetismus | Vergleichbar zum Ferromagnetismus. Die mikroskopische Anordnung der magnetische Momente der Atome sind abgewechseln antiparallel ausgerichtet. Die Momente löschen sich dabei nicht vollständig aus. Für das gesamte Material wirkt der Ferrimagnetismus wie eine abgeschwächte Form des Ferromagnetismus | Nickel, Kupfer, Magnesium |
-| Antiferromagnetismus | Wie beim Ferrimagnetismus, nur das die antiparalleln magnetischen Pole sich gegeneinander auslöschen. Der idale Antiferromagnet zeigt ingesamt kein magnetisches Verhalten nach außen. Bei Erhitzung über die [Néel-Temperatur](https://de.wikipedia.org/wiki/N%C3%A9el-Temperatur) wird das Material paramagnetisch | einige Nickelverbindungen, Chrom |
+---
+
+**Paramagnetismus**  
+Atome, Ionen oder Moleküle besitzen ein magnetisches Moment, das sich nach dem äußeren Magnetfeld ausrichtet und das Magnetfeld verstärkt. Höhere Temperaturen verringern den Effekt, da sich die Atome, Ionen oder Moleküle stärker bewegen.  
+*Beispiele:* Lithium, Natrium, Metalle der Seltenen Erden (Scandium, Neodym, Holmium)
+
+---
+
+**Ferromagnetismus**  
+Die magnetischen Momente einzelner Teilchen sind nicht unabhängig, sondern richten sich spontan parallel aus. Die kleinste kristalline Einheit wird als [weissscher Bezirk](https://de.wikipedia.org/wiki/Weiss-Bezirk) bezeichnet. Der Effekt kann durch die Curie-Temperatur zerstört werden.  
+*Beispiele:* Eisen, Nickel, Alnico (Eisen-, Aluminium-, Nickel-, Kobalt-, Kupferlegierungen)
+
+
+![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/0/0a/Growing-magnetic-domains.svg)
+
+---
+
+**Ferrimagnetismus**  
+Ähnlich dem Ferromagnetismus, jedoch sind die magnetischen Momente der Atome mikroskopisch wechselweise antiparallel ausgerichtet und löschen sich nicht vollständig aus. Im Gesamten wirkt der Ferrimagnetismus wie eine abgeschwächte Form des Ferromagnetismus.  
+*Beispiele:* Nickel, Kupfer, Magnesium
+
+---
+
+**Antiferromagnetismus**  
+Ähnlich dem Ferrimagnetismus, jedoch löschen sich die antiparallelen magnetischen Pole vollständig gegenseitig aus. Ein idealer Antiferromagnet zeigt nach außen kein magnetisches Verhalten. Bei Erhitzung über die [Néel-Temperatur](https://de.wikipedia.org/wiki/N%C3%A9el-Temperatur) wird das Material paramagnetisch.  
+*Beispiele:* Einige Nickelverbindungen, Chrom
+
 
 ---
 
@@ -647,15 +670,8 @@ Ferromagnetische Stoffe  $\mu_{r}\gg 1$; $40 \lessapprox \mu_r \lessapprox 10^6$
 
 Supraleiter 1. Art $\mu_{r} = 0$. 
 
----
 
 
----
-
-## Weisssche Bezirke
-Sind mikroskopische magnetisierte Domänen in den Kristallen eines ferromagnetischen Stoffes. Die magnetischen Momente dieser Bezirke können erst einmal beliebig angeornet sein, sodass das Material ingesamt ein geringes magnetisches Moment aufweist. Durch das aufbringen eines externen magnetischen Felds, kann eine Ausrichtung erreicht werden, welche dann permanent ist.
- 
-![](https://upload.wikimedia.org/wikipedia/commons/0/0a/Growing-magnetic-domains.svg)
 
 
 
