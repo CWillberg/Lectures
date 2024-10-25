@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Materials-and-Production-Engineering-Lecture on Real Structures and Properties
+title: Materials-and-Production-Engineering-Lectures on Real Structures and Properties
 author: Christian Willberg
 ---
 

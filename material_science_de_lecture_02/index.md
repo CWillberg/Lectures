@@ -4,7 +4,7 @@ marp: true
 theme: default
 header: ''
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+backgroundImage: url('../assets/styles/background.png')0
 title: Vorlesung Korrosion, Verschleiß und Ermüdung
 author: Christian Willberg
 ---

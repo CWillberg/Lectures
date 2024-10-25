@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Materials-and-Production-Engineering-Lecture Alloy Formation
+title: Materials-and-Production-Engineering-Lectures Material Properties
 author: Christian Willberg
 ---
 
@@ -49,7 +49,7 @@ footer {
 </style>
 
 
-## Lecture on Materials Science - Material properties
+## Lectures on Materials Science - Material properties
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences
 
@@ -142,7 +142,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 ---
 
 
-## Concept of Stress - Strain
+## Reminder: Concept of Stress - Strain
 
 - Geometry-independent characteristics
 - How can one determine a characteristic that is defined solely by the material?
@@ -249,25 +249,7 @@ for heterogeneous materials, other configurations are possible
 
 ---
 
-## 
-<!---
-
-* 1st and 2nd natural frequencies ->  https://doi.org/10.3390/en14092451
-* Deformation in the impact and swing direction are identical
-* Tower impact is relevant
-* Dynamic stability
-* -->
-
-![bg fit](../assets/Figures/EF1.png)
-![bg fit](../assets/Figures/EF2.png)
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Image reference</a>
-</div>
-
----
-
-## Strength
+## Reminder: Strength
 
 [The strength of a material describes its ability to withstand mechanical loads before failure occurs and is expressed as mechanical stress $\left[N/m^2\right]$. Failure can involve **unacceptable deformation**, particularly **plastic (permanent) deformation**, or **fracture**.](https://en.wikipedia.org/wiki/Strength_of_materials)
 
@@ -275,7 +257,7 @@ for heterogeneous materials, other configurations are possible
 
 ---
 
-## Plastic Failure
+## Reminder: Stress-Strain relation in a ductile material
 
 ![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
 
@@ -322,156 +304,344 @@ Damper  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ---
 
-# Fatigue
+## Thermal Expansion
 
-<details>
-<summary>What is Fatigue?</summary>
-<!DOCTYPE html>
-<html lang="en">
+$\boldsymbol{\varepsilon}_{thermal} = -\boldsymbol{\alpha} \Delta T$
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Sleeping_students.jpg" alt="Alternative text" width="500">
-  </body>
-</html>
-</details>
+_Thermal Expansion Coefficient Matrix_
 
----
+$\boldsymbol{\alpha} = 
+\begin{bmatrix}
+\alpha_{11} & \alpha_{12} & \alpha_{13} \\
+\alpha_{12} & \alpha_{22} & \alpha_{23} \\
+\alpha_{13} & \alpha_{23} & \alpha_{33}
+\end{bmatrix}
+$
 
-- Typically occurs with cyclic loading
-  - Isothermal mechanical fatigue
-    - [Oscillating load](https://www.youtube.com/watch?v=_qVXkAWtH60)
+**1D or Isotropic**
+$\varepsilon_{thermal} = -\alpha \Delta T$
 
-    - Aircraft fuselage (pressure build-up and release)
-  - Thermal fatigue
-    - Ovens, heating elements
-  - Thermo-mechanical fatigue
-    - High-pressure tanks
-  - Electro-thermal fatigue
-    - Electrical conductors (filaments)
 
 ---
 
-![bg 60%](https://leichtbau.dlr.de/wp-content/uploads/2021/11/Abbildung-2_Innovationsbericht_Wasserstofftank_CG06.png)
+| Symmetry | Model | Examples |
+|---|---|---|
+| Isotropy | $\alpha_{11} = \alpha_{22} = \alpha_{33}$ and $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Metals, Plastics |
+| Transverse Isotropy | $\alpha_{22} = \alpha_{33}$ and $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Single-layer Fiber Composite |
+| Orthotropy | $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Multilayer Fiber Composite |
+| Anisotropy | Arbitrary $\alpha_{ij}$ | Homogenized view of an asymmetric multilayer composite |
 
 ---
 
-## Fatigue
-- The load is below the yield strength $R_{p0,2}$
-  - > _Reminder: What does $R_{p0,2}$ indicate?_
-- Stress concentrations occur in material defects (pores, microcracks, etc.) or in the crystal (dislocations, vacancies, etc.)
-- Initially, randomly distributed regions of local plastic deformation develop under alternating loads
-- These points represent stress concentration areas, which enlarge over time and can lead to fracture
+## Thermal Properties
+- Bi-metal strips
+- Bridges
+- Rails
+- High-precision measurement devices
+- Welding, soldering, etc.
+- ...
 
-[Explanation video](https://www.youtube.com/watch?v=o-6V_JoRX1g)
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/1/1c/Woehlerlinie.png)
-![bg fit 80%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
+May lead to thermal residual stresses, distortion, etc.
 
 ---
 
-## Terms
+## Example: Thermal Stresses 1D
 
-- Lifespan
-- Fatigue crack
-- Fatigue fracture
-- Short-term strength (K)
-- Operational strength (Time strength Z)
-- Endurance limit (D)
+$\sigma = E \varepsilon = E (\varepsilon_{mechanical} + \varepsilon_{thermal}) = E (\varepsilon_{mechanical} - \alpha \Delta T)$
 
-![bg right fit 70%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
+> Pre-stretching can reduce the load on a component.
 
----
+## Example: Thermal Length Change 1D
+$\Delta l = l_0 \varepsilon_{mechanical}$
 
-## Countermeasures
+> For free expansion, i.e., no stresses are acting.
 
-- Reduce notch effect
-- Material adaptation
-- Design adjustments to prevent local stress from exceeding allowable limits
-- Regular inspections
+$0 = E \varepsilon = E (\varepsilon_{mechanical} + \varepsilon_{thermal}) = E (\varepsilon_{mechanical} - \alpha \Delta T)$
+$\varepsilon_{mechanical} = \alpha \Delta T$
+$\Delta l = l_0 \varepsilon_{thermal} = l_0 \alpha \Delta T$
 
 ---
 
-## Wear
+## Heat Conduction
+- Also conduction and heat diffusion
+- $T_{high} \rightarrow T_{low}$ (2nd Law of Thermodynamics)
+- No heat is lost due to energy conservation (1st Law of Thermodynamics)
 
-- Permanent deformation and material loss on the surface of solids due to friction
-- Technologically unintended and can lead to functional failure
-- Influenced by:
-  - Frictional pairing
-  - Surface layer and intermediate substance properties
-  - Type of motion
-  - Load intensity
+**Heat Flux $[W]$**
+$\dot{\mathbf{q}} = -\boldsymbol{\lambda} \text{grad}(T)$
 
----
+- $\text{grad}(T)$ is the gradient of temperature change $\frac{\partial T}{\partial dx_i}$;
+- In the linear case $\text{grad}(T) = \Delta T / d = \frac{T_2 - T_1}{d}$
 
-| Wear Type             | Appearance                                                        | Primary Occurrence                                         |
-|-----------------------|-------------------------------------------------------------------|------------------------------------------------------------|
-| Sliding wear           | Grooves or furrows from abrasion, material transfer, or local melting | Unlubricated bearings, clutches, brakes                    |
-| Rolling wear           | Flaking due to fatigue cracks                                     | Rail/wheel, rolling bearings                               |
-| Pitting               | Pitting formation: pitting                                        | Rolling elements, especially gears                         |
-| Abrasive wear          | Plastic deformation, erosion                                     | Excavating equipment, bulk material transport, particle impingement |
-| Cavitation             | Pitted surface with fatigue cracks                               | Water turbines, pumps                                      |
-| Tribo-oxidation (fretting corrosion) | Loose oxidation products                            | Machine elements with form-fit or force-fit connections     |
+![bg right:30% fit](../assets/Figures/Temperaturgradient.png)
 
 ---
 
-## Sliding Wear
+$\dot{\mathbf{q}} = -\boldsymbol{\lambda} \text{grad}(T)$
 
-- Influenced [by](https://download.basf.com/p1/8a8081c57fd4b609017fd66047f138c3/de/Reibung_und_Verschlei%25C3%259F%250Abei_Polymerwerkstoffen)
-  - The average roughness depth $R_z$
-  - Contact pressure
-  - Wear path ratio $W=k\frac{F_N}{A}10^6$
-  - $k$ in $\left[\frac{mm^3}{Nm}\right]$ specific wear rate (independent of load)
+$\dot{\mathbf{q}} = \frac{\partial \mathbf{q}}{\partial t}$
+- Indicates that something changes -> $dt$
 
-![bg right fit 90%](https://media.springernature.com/original/springer-static/image/chp:10.1007%2F978-3-658-17851-2_4/MediaObjects/299062_3_De_4_Fig17_HTML.gif)
+$\boldsymbol{\lambda} = \begin{bmatrix}
+\lambda_{11} & 0 & 0 \\
+0 & \lambda_{22} & 0 \\
+0 & 0 & \lambda_{33}
+\end{bmatrix}$
 
----
+is the matrix of thermal conductivity.
 
-## Rolling Wear
-- [Rolling](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) involves slip components superimposed on the rolling process
-- Small contact area; high surface pressure
-- Surface degradation (plastic deformation, microstructure changes, etc.)
-- Can be significantly reduced by lubrication $\rightarrow$ specific lubricant film thickness $\lambda$
-
-![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007/978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
-
-![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007/978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
+**Special Cases**
+- When $T_1 = T_2$, there is no conduction.
+- When $\boldsymbol{\lambda} = 0$, perfect insulation, no heat conduction.
 
 ---
 
-## Cavitation
+| Symmetry | Model | Examples |
+|---|---|---|
+| Isotropy | $\lambda_{11} = \lambda_{22} = \lambda_{33}$ | Metals, Plastics |
+| Transverse Isotropy | $\lambda_{22} = \lambda_{33}$ | Single-layer Fiber Composite |
+| Anisotropy | Arbitrary $\lambda_{ij}$ | Multilayer Fiber Composite |
 
-[Video](https://www.youtube.com/watch?v=J0H0Nw44oA4)
-
-<details>
-<summary>Physical cause?</summary>
-<div>
-
-- Static pressure is dependent on fluid velocity
-- Vapor bubbles form when the vapor pressure drops below a threshold
-- These bubbles move into regions with higher pressure and rapidly collapse
-- Pressure and temperature spikes occur
-</div>
-</details>
+>Example -> Paraview
 
 ---
 
-- Localized stress on the surface
-- These regions weaken and flake off
-- Surface is affected by:
-  - Efficiency reduction
-  - Corrosion
-  - Areas where cracks can initiate
+## Heat Transfer
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cavitation.jpg)
+Transfer of heat from a solid body to a fluid or gas.
+
+> Important when machines need to be cooled or heated.
+
+Described by the heat transfer coefficient $\alpha_{transfer}$. It depends, among other things, on the specific heat capacity, density, and thermal conductivity of both the heat-removing and heat-delivering medium.
+
+$\dot{q} = \alpha_{transfer} A \Delta T$
+
+> Example: Heat pump and underfloor heating.
 
 ---
 
-## Fretting Corrosion
+## Specific Heat Capacity
 
-- Sliding motions between two highly loaded components
-- Typically occurs with insufficient interference fit $\rightarrow$ Fits
+Indicates how much energy in the form of heat needs to be stored in a material to increase its temperature.
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+$C_p = \frac{\Delta q}{m \Delta T}$
 
+---
+
+## Thermal Radiation
+
+$\dot{q} = \epsilon_{emissivity} \sigma_{Stefan-Boltzmann} A T^4$
+
+The emissivity $\epsilon_{emissivity}$ ranges from 0 (perfect mirror) to 1 (ideal black body) and is partially material-dependent.
+
+> Useful for spectral analysis to determine the composition of materials.
+
+![bg right:50% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg/1920px-McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg.png)
+
+---
+
+# Special Temperatures
+
+## Phase Transition Temperature
+The temperature where a phase transition in a crystal structure occurs. Significantly influenced by added substances.
+
+
+## Thermal Expansion
+
+$\boldsymbol{\varepsilon}_{thermal} = -\boldsymbol{\alpha} \Delta T$
+
+_Thermal Expansion Coefficient Matrix_
+
+$\boldsymbol{\alpha} = 
+\begin{bmatrix}
+\alpha_{11} & \alpha_{12} & \alpha_{13} \\
+\alpha_{12} & \alpha_{22} & \alpha_{23} \\
+\alpha_{13} & \alpha_{23} & \alpha_{33}
+\end{bmatrix}
+$
+
+**1D or Isotropic**
+$\varepsilon_{thermal} = -\alpha \Delta T$
+
+>Example -> Paraview
+
+---
+
+| Symmetry | Model | Examples |
+|---|---|---|
+| Isotropy | $\alpha_{11} = \alpha_{22} = \alpha_{33}$ and $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Metals, Plastics |
+| Transverse Isotropy | $\alpha_{22} = \alpha_{33}$ and $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Single-layer Fiber Composite |
+| Orthotropy | $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Multilayer Fiber Composite |
+| Anisotropy | Arbitrary $\alpha_{ij}$ | Homogenized view of an asymmetric multilayer composite |
+
+---
+
+## Thermal Properties
+- Bi-metal strips
+- Bridges
+- Rails
+- High-precision measurement devices
+- Welding, soldering, etc.
+- ...
+
+May lead to thermal residual stresses, distortion, etc.
+
+---
+
+## Example: Thermal Stresses 1D
+
+$\sigma = E \varepsilon = E (\varepsilon_{mechanical} + \varepsilon_{thermal}) = E (\varepsilon_{mechanical} - \alpha \Delta T)$
+
+> Pre-stretching can reduce the load on a component.
+
+## Example: Thermal Length Change 1D
+$\Delta l = l_0 \varepsilon_{mechanical}$
+
+> For free expansion, i.e., no stresses are acting.
+
+$0 = E \varepsilon = E (\varepsilon_{mechanical} + \varepsilon_{thermal}) = E (\varepsilon_{mechanical} - \alpha \Delta T)$
+$\varepsilon_{mechanical} = \alpha \Delta T$
+$\Delta l = l_0 \varepsilon_{thermal} = l_0 \alpha \Delta T$
+
+---
+
+## Heat Conduction
+- Also conduction and heat diffusion
+- $T_{high} \rightarrow T_{low}$ (2nd Law of Thermodynamics)
+- No heat is lost due to energy conservation (1st Law of Thermodynamics)
+
+**Heat Flux $[W]$**
+$\dot{\mathbf{q}} = -\boldsymbol{\lambda} \text{grad}(T)$
+
+- $\text{grad}(T)$ is the gradient of temperature change $\frac{\partial T}{\partial dx_i}$;
+- In the linear case $\text{grad}(T) = \Delta T / d = \frac{T_2 - T_1}{d}$
+
+![bg right:30% fit](../assets/Figures/Temperaturgradient.png)
+
+---
+
+$\dot{\mathbf{q}} = -\boldsymbol{\lambda} \text{grad}(T)$
+
+$\dot{\mathbf{q}} = \frac{\partial \mathbf{q}}{\partial t}$
+- Indicates that something changes -> $dt$
+
+$\boldsymbol{\lambda} = \begin{bmatrix}
+\lambda_{11} & 0 & 0 \\
+0 & \lambda_{22} & 0 \\
+0 & 0 & \lambda_{33}
+\end{bmatrix}$
+
+is the matrix of thermal conductivity.
+
+**Special Cases**
+- When $T_1 = T_2$, there is no conduction.
+- When $\boldsymbol{\lambda} = 0$, perfect insulation, no heat conduction.
+
+---
+
+| Symmetry | Model | Examples |
+|---|---|---|
+| Isotropy | $\lambda_{11} = \lambda_{22} = \lambda_{33}$ | Metals, Plastics |
+| Transverse Isotropy | $\lambda_{22} = \lambda_{33}$ | Single-layer Fiber Composite |
+| Anisotropy | Arbitrary $\lambda_{ij}$ | Multilayer Fiber Composite |
+
+>Example -> Paraview
+
+---
+
+## Heat Transfer
+
+Transfer of heat from a solid body to a fluid or gas.
+
+> Important when machines need to be cooled or heated.
+
+Described by the heat transfer coefficient $\alpha_{transfer}$. It depends, among other things, on the specific heat capacity, density, and thermal conductivity of both the heat-removing and heat-delivering medium.
+
+$\dot{q} = \alpha_{transfer} A \Delta T$
+
+> Example: Heat pump and underfloor heating.
+
+---
+
+## Specific Heat Capacity
+
+Indicates how much energy in the form of heat needs to be stored in a material to increase its temperature.
+
+$C_p = \frac{\Delta q}{m \Delta T}$
+
+---
+
+## Thermal Radiation
+
+$\dot{q} = \epsilon_{emissivity} \sigma_{Stefan-Boltzmann} A T^4$
+
+The emissivity $\epsilon_{emissivity}$ ranges from 0 (perfect mirror) to 1 (ideal black body) and is partially material-dependent.
+
+> Useful for spectral analysis to determine the composition of materials.
+
+![bg right:50% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg/1920px-McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg.png)
+
+---
+
+# Special Temperatures
+
+## Phase Transition Temperature
+The temperature where a phase transition in a crystal structure occurs (see [Phase Diagrams](@ref "Phase Diagrams")). Significantly influenced by added substances (see [Alloys](@ref "Alloys")).
+
+## Melting Temperature
+The temperature at which a material transitions from a solid to a liquid state.
+
+---
+
+## Boiling Temperature
+
+The temperature at which the phase transition from liquid to gas occurs. Relevant for lubricants, for example.
+
+## Curie Temperature
+Named after Pierre Curie. [Refers](https://en.wikipedia.org/wiki/Curie_temperature) to the temperature at which ferromagnetic or ferroelectric properties of a material completely disappear, so that above it, they are only paramagnetic or paraelectric.
+
+---
+
+## Residual Stresses
+- Thermal
+- Deformation
+- Microstructural Transformation
+- Chemical
+
+
+---
+
+# Electro magnetic properties
+
+---
+
+
+
+**Diamagnetism**  
+Occurs due to a weakening of the magnetic field, as a result of the Lenz's Law effect in the electron cloud (locally induced magnetic field opposes the external field).  
+*Examples:* All materials
+
+---
+
+**Paramagnetism**  
+Atoms, ions, or molecules have a magnetic moment that aligns with the external magnetic field, leading to a strengthening of the field. Higher temperatures reduce the effect, as atoms, ions, or molecules exhibit increased movement.  
+*Examples:* Lithium, sodium, rare earth metals (scandium, neodymium, holmium)
+
+---
+
+**Ferromagnetism**  
+Magnetic moments of individual particles align spontaneously and parallel rather than independently. The smallest crystalline unit exhibiting this is known as a [Weiss domain](https://de.wikipedia.org/wiki/Weiss-Bezirk). This effect can be disrupted by reaching the Curie temperature.  
+*Examples:* Iron, nickel, alnico (iron, aluminum, nickel, cobalt, copper alloys)
+
+---
+
+**Ferrimagnetism**  
+Similar to ferromagnetism; however, the microscopic arrangement of atomic magnetic moments is aligned in alternating antiparallel orientations. The moments do not entirely cancel each other out, and ferrimagnetism acts like a weakened form of ferromagnetism across the material.  
+*Examples:* Nickel, copper, magnesium
+
+---
+
+**Antiferromagnetism**  
+Like ferrimagnetism, except that the antiparallel magnetic poles cancel each other out completely. An ideal antiferromagnet exhibits no external magnetic behavior. When heated above the [Néel temperature](https://de.wikipedia.org/wiki/N%C3%A9el-Temperatur), the material becomes paramagnetic.  
+*Examples:* Some nickel compounds, chromium
 
