@@ -378,7 +378,9 @@ $\varepsilon_{mechanisch}=\alpha\Delta T$
 $\Delta l = l_0 \varepsilon_{thermisch} = l_0\alpha\Delta T$
 
 ---
+[Datenblatt Stahl](https://de.materials4me.com/media/pdf/84/1b/16/MaterialDataSheet_S235JR.pdf)
 
+---
 ## Wärmeleitung
 - auch Konduktion und Wärmediffusion
 - $T_{hoch}\rightarrow T_{niedrig}$ (2. Hauptsatz der Thermodynamik). 

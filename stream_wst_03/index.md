@@ -259,6 +259,8 @@ for heterogeneous materials, other configurations are possible
 
 ## Reminder: Stress-Strain relation in a ductile material
 
+[Datasheet](https://de.materials4me.com/media/pdf/84/1b/16/MaterialDataSheet_S235JR.pdf)
+
 ![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
 
 <div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
@@ -438,13 +440,8 @@ The emissivity $\epsilon_{emissivity}$ ranges from 0 (perfect mirror) to 1 (idea
 
 ![bg right:50% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg/1920px-McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg.png)
 
+
 ---
-
-# Special Temperatures
-
-## Phase Transition Temperature
-The temperature where a phase transition in a crystal structure occurs. Significantly influenced by added substances.
-
 
 ## Thermal Expansion
 
