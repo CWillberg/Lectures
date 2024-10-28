@@ -306,6 +306,9 @@ Damper  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ---
 
+# Thermal Properties
+
+---
 ## Thermal Expansion
 
 $\boldsymbol{\varepsilon}_{thermal} = -\boldsymbol{\alpha} \Delta T$
@@ -443,142 +446,6 @@ The emissivity $\epsilon_{emissivity}$ ranges from 0 (perfect mirror) to 1 (idea
 
 ---
 
-## Thermal Expansion
-
-$\boldsymbol{\varepsilon}_{thermal} = -\boldsymbol{\alpha} \Delta T$
-
-_Thermal Expansion Coefficient Matrix_
-
-$\boldsymbol{\alpha} = 
-\begin{bmatrix}
-\alpha_{11} & \alpha_{12} & \alpha_{13} \\
-\alpha_{12} & \alpha_{22} & \alpha_{23} \\
-\alpha_{13} & \alpha_{23} & \alpha_{33}
-\end{bmatrix}
-$
-
-**1D or Isotropic**
-$\varepsilon_{thermal} = -\alpha \Delta T$
-
->Example -> Paraview
-
----
-
-| Symmetry | Model | Examples |
-|---|---|---|
-| Isotropy | $\alpha_{11} = \alpha_{22} = \alpha_{33}$ and $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Metals, Plastics |
-| Transverse Isotropy | $\alpha_{22} = \alpha_{33}$ and $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Single-layer Fiber Composite |
-| Orthotropy | $\alpha_{12} = \alpha_{13} = \alpha_{23} = 0$ | Multilayer Fiber Composite |
-| Anisotropy | Arbitrary $\alpha_{ij}$ | Homogenized view of an asymmetric multilayer composite |
-
----
-
-## Thermal Properties
-- Bi-metal strips
-- Bridges
-- Rails
-- High-precision measurement devices
-- Welding, soldering, etc.
-- ...
-
-May lead to thermal residual stresses, distortion, etc.
-
----
-
-## Example: Thermal Stresses 1D
-
-$\sigma = E \varepsilon = E (\varepsilon_{mechanical} + \varepsilon_{thermal}) = E (\varepsilon_{mechanical} - \alpha \Delta T)$
-
-> Pre-stretching can reduce the load on a component.
-
-## Example: Thermal Length Change 1D
-$\Delta l = l_0 \varepsilon_{mechanical}$
-
-> For free expansion, i.e., no stresses are acting.
-
-$0 = E \varepsilon = E (\varepsilon_{mechanical} + \varepsilon_{thermal}) = E (\varepsilon_{mechanical} - \alpha \Delta T)$
-$\varepsilon_{mechanical} = \alpha \Delta T$
-$\Delta l = l_0 \varepsilon_{thermal} = l_0 \alpha \Delta T$
-
----
-
-## Heat Conduction
-- Also conduction and heat diffusion
-- $T_{high} \rightarrow T_{low}$ (2nd Law of Thermodynamics)
-- No heat is lost due to energy conservation (1st Law of Thermodynamics)
-
-**Heat Flux $[W]$**
-$\dot{\mathbf{q}} = -\boldsymbol{\lambda} \text{grad}(T)$
-
-- $\text{grad}(T)$ is the gradient of temperature change $\frac{\partial T}{\partial dx_i}$;
-- In the linear case $\text{grad}(T) = \Delta T / d = \frac{T_2 - T_1}{d}$
-
-![bg right:30% fit](../assets/Figures/Temperaturgradient.png)
-
----
-
-$\dot{\mathbf{q}} = -\boldsymbol{\lambda} \text{grad}(T)$
-
-$\dot{\mathbf{q}} = \frac{\partial \mathbf{q}}{\partial t}$
-- Indicates that something changes -> $dt$
-
-$\boldsymbol{\lambda} = \begin{bmatrix}
-\lambda_{11} & 0 & 0 \\
-0 & \lambda_{22} & 0 \\
-0 & 0 & \lambda_{33}
-\end{bmatrix}$
-
-is the matrix of thermal conductivity.
-
-**Special Cases**
-- When $T_1 = T_2$, there is no conduction.
-- When $\boldsymbol{\lambda} = 0$, perfect insulation, no heat conduction.
-
----
-
-| Symmetry | Model | Examples |
-|---|---|---|
-| Isotropy | $\lambda_{11} = \lambda_{22} = \lambda_{33}$ | Metals, Plastics |
-| Transverse Isotropy | $\lambda_{22} = \lambda_{33}$ | Single-layer Fiber Composite |
-| Anisotropy | Arbitrary $\lambda_{ij}$ | Multilayer Fiber Composite |
-
->Example -> Paraview
-
----
-
-## Heat Transfer
-
-Transfer of heat from a solid body to a fluid or gas.
-
-> Important when machines need to be cooled or heated.
-
-Described by the heat transfer coefficient $\alpha_{transfer}$. It depends, among other things, on the specific heat capacity, density, and thermal conductivity of both the heat-removing and heat-delivering medium.
-
-$\dot{q} = \alpha_{transfer} A \Delta T$
-
-> Example: Heat pump and underfloor heating.
-
----
-
-## Specific Heat Capacity
-
-Indicates how much energy in the form of heat needs to be stored in a material to increase its temperature.
-
-$C_p = \frac{\Delta q}{m \Delta T}$
-
----
-
-## Thermal Radiation
-
-$\dot{q} = \epsilon_{emissivity} \sigma_{Stefan-Boltzmann} A T^4$
-
-The emissivity $\epsilon_{emissivity}$ ranges from 0 (perfect mirror) to 1 (ideal black body) and is partially material-dependent.
-
-> Useful for spectral analysis to determine the composition of materials.
-
-![bg right:50% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg/1920px-McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg.png)
-
----
 
 # Special Temperatures
 
@@ -607,38 +474,178 @@ Named after Pierre Curie. [Refers](https://en.wikipedia.org/wiki/Curie_temperatu
 
 
 ---
+# Electrical and Magnetic Properties
 
-# Electro magnetic properties
+Electrical and magnetic properties are generally closely related and influence each other.
 
 ---
 
+## Permittivity
 
+Describes the relationship between electric flux density and the electric field.
+
+$\varepsilon_0$ is the permittivity in a vacuum.
+
+$$\mathbf{D} = \varepsilon_0 \, \boldsymbol{\varepsilon}_{permittivity} \, \mathbf{E}$$
+
+$$\boldsymbol{\varepsilon}_{permittivity} = \begin{bmatrix}
+\varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
+\varepsilon_{12} & \varepsilon_{22} & \varepsilon_{23} \\
+\varepsilon_{13} & \varepsilon_{23} & \varepsilon_{33}
+\end{bmatrix}$$
+
+---
+
+Depending on the crystal structure, permittivity may be direction-dependent.
+
+| Symmetry | Model |
+|----------|-------|
+| Isotropy | $\varepsilon_{11} = \varepsilon_{22} = \varepsilon_{33}$ and $\varepsilon_{12} = \varepsilon_{13} = \varepsilon_{23} = 0$ |
+| Transverse Isotropy | $\varepsilon_{22} = \varepsilon_{33}$ and $\varepsilon_{12} = \varepsilon_{13} = \varepsilon_{23} = 0$ |
+| Orthotropic Isotropy | $\varepsilon_{12} = \varepsilon_{13} = \varepsilon_{23} = 0$ |
+| Anisotropy | arbitrary $\varepsilon_{ij}$ |
+
+Often specified as relative permittivity
+
+$$\varepsilon_r = \frac{\varepsilon_{permittivity}}{\varepsilon_0}$$
+
+---
+
+- Capacitance of a plate capacitor
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/9/92/Verschiedene_Kondensatoren_2.JPG)
+
+$$C = \varepsilon_0 \, \varepsilon_r \, \frac{A}{d}$$
+
+- High permittivity allows stronger capacitors.
+
+---
+
+## Electrical Conductivity
+
+- The conductivity of a substance or mixture depends on the availability and density of mobile charge carriers.
+
+- In metals, these are loosely bound in the form of electrons. All materials have some level of conductivity.
+
+---
+
+Unit $\left[\frac{S}{m}\right.$, $\left.\frac{\Omega}{m}\right]$
+
+$$\mathbf{J} = \sigma_{electrical \, conductivity} \, \mathbf{E}$$
+
+- Superconductors possess infinite conductivity.
+
+---
+
+## Electrical Resistance
+
+- In the case of constant electrical conductivity, this corresponds to Ohm's law.
+
+**Ohm's Law**
+
+$$R = \frac{U}{I} = \rho_{specific} \, \frac{l}{A}$$
+
+- The specific resistance $\rho_{specific}$ is a material constant. It is temperature-dependent.
+- Used for thermocouples.
+
+---
+
+Conductors - metals (copper, silver, etc.), graphite
+
+$$\rho_{specific} < 100 \, \frac{\Omega \, mm^2}{m}$$
+
+Semiconductors - silicon, boron, selenium, ...
+
+$$100 < \rho_{specific} < 10^{12} \, \frac{\Omega \, mm^2}{m}$$
+
+Insulators - aluminum oxide ceramics, epoxy resins
+
+$$\rho_{specific} > 10^{12} \, \frac{\Omega \, mm^2}{m}$$
+
+---
+
+## Doping
+
+- The conductivity of semiconductors can be strongly influenced by doping, often by several orders of magnitude.
+- High-purity material is required.
+
+n-doping - Addition of electron donors (extra electrons)  
+p-doping - Addition of electron acceptors
+
+---
+
+- p-doping creates electron deficiencies, also known as holes or defect electrons.
+- These allow the conduction of electric current.
+- Conductivity arises because the holes or electrons are mobile—though less so than electrons in metals.
+
+---
+
+# Magnetism
+
+## Types of Magnetism
 
 **Diamagnetism**  
-Occurs due to a weakening of the magnetic field, as a result of the Lenz's Law effect in the electron cloud (locally induced magnetic field opposes the external field).  
+Leads to a weakening of the magnetic field due to the effect of Lenz's rule in the atomic shell (locally induced magnetic field opposes the external field).  
 *Examples:* All materials
 
 ---
 
 **Paramagnetism**  
-Atoms, ions, or molecules have a magnetic moment that aligns with the external magnetic field, leading to a strengthening of the field. Higher temperatures reduce the effect, as atoms, ions, or molecules exhibit increased movement.  
+Atoms, ions, or molecules possess a magnetic moment that aligns with the external magnetic field, enhancing it. Higher temperatures reduce the effect as atoms, ions, or molecules move more freely.  
 *Examples:* Lithium, sodium, rare earth metals (scandium, neodymium, holmium)
 
 ---
 
 **Ferromagnetism**  
-Magnetic moments of individual particles align spontaneously and parallel rather than independently. The smallest crystalline unit exhibiting this is known as a [Weiss domain](https://de.wikipedia.org/wiki/Weiss-Bezirk). This effect can be disrupted by reaching the Curie temperature.  
-*Examples:* Iron, nickel, alnico (iron, aluminum, nickel, cobalt, copper alloys)
+The magnetic moments of individual particles are not independent but align spontaneously in parallel. The smallest crystalline unit is called a [Weiss domain](https://de.wikipedia.org/wiki/Weiss-Bezirk). The effect can be destroyed by the Curie temperature.  
+*Examples:* Iron, nickel, alnico (alloys of iron, aluminum, nickel, cobalt, copper)
+
+![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/0/0a/Growing-magnetic-domains.svg)
 
 ---
 
 **Ferrimagnetism**  
-Similar to ferromagnetism; however, the microscopic arrangement of atomic magnetic moments is aligned in alternating antiparallel orientations. The moments do not entirely cancel each other out, and ferrimagnetism acts like a weakened form of ferromagnetism across the material.  
+Similar to ferromagnetism, but the magnetic moments of atoms are microscopically aligned in alternating antiparallel directions and do not fully cancel out. Overall, ferrimagnetism appears as a weaker form of ferromagnetism.  
 *Examples:* Nickel, copper, magnesium
 
 ---
 
 **Antiferromagnetism**  
-Like ferrimagnetism, except that the antiparallel magnetic poles cancel each other out completely. An ideal antiferromagnet exhibits no external magnetic behavior. When heated above the [Néel temperature](https://de.wikipedia.org/wiki/N%C3%A9el-Temperatur), the material becomes paramagnetic.  
+Similar to ferrimagnetism, but the antiparallel magnetic poles completely cancel each other out. An ideal antiferromagnet shows no external magnetic behavior. When heated above the [Néel temperature](https://de.wikipedia.org/wiki/N%C3%A9el-Temperatur), the material becomes paramagnetic.  
 *Examples:* Some nickel compounds, chromium
 
+---
+
+## Permeability
+
+It is the ratio between magnetic flux density and magnetic field strength.
+
+$$\mathbf{B} = \mu_0 \, \boldsymbol{\mu} \, \mathbf{H}$$
+
+Similar to permittivity. Here, too, there is a constant, the magnetic field constant $\mu_0$, which describes permeability in a vacuum.
+
+In general:
+
+$$\boldsymbol{\mu} = \begin{bmatrix}
+\mu_{11} & \mu_{12} & \mu_{13} \\
+\mu_{12} & \mu_{22} & \mu_{23} \\
+\mu_{13} & \mu_{23} & \mu_{33}
+\end{bmatrix}$$
+
+Relative permeability:
+
+$$\mu_r = \frac{\mu}{\mu_0}$$
+
+---
+
+Diamagnetic materials  $0 \leq \mu_{r} < 1$
+
+Paramagnetic materials $\mu_{r} > 1$
+
+Superparamagnetic materials  $\mu_{r} \gg 1$
+
+Ferrimagnetic materials $ 20 \lessapprox \mu_{r} \lessapprox 15000$
+
+Ferromagnetic materials  $\mu_{r} \gg 1$; $40 \lessapprox \mu_r \lessapprox 10^6$
+
+Type 1 superconductors $\mu_{r} = 0$.
