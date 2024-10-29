@@ -244,6 +244,10 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
   - Belastung und dann Entlastung 0.2% Dehung verbleibt
 - Dehngrenze wird als Ersatzstreckgrenze verwendet
 
+
+[Datenblatt Stahl](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
+
+
 ---
 
 ## Streckgrenze

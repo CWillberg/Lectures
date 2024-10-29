@@ -258,6 +258,9 @@ für heterogene Werkstoffe sind anderen Konstellationen denkbar
 ![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
 
 
+
+[Datenblatt Stahl](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
+
 <div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
     <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
 </div>
@@ -301,10 +304,8 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 ![bg fit](../assets/Figures/Hysteresis.png)
 
 
-
 ---
-
-[Datenblatt Stahl](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
+# Thermische Eigenschaften 
 
 ---
 
@@ -323,7 +324,7 @@ $\boldsymbol{\alpha} =
 \end{bmatrix}
 $
 
-**1D oder isotropisch**
+**1D oder isotrop**
 $\varepsilon_{thermisch}=-\alpha\Delta T$
 
 >Beispiel -> Paraview
@@ -339,7 +340,7 @@ $\varepsilon_{thermisch}=-\alpha\Delta T$
 
 ---
 
-## Thermische Eigenschaften 
+## Anwendungen 
 - Bi-Metall Streifen
 - Brücken
 - Schienen
