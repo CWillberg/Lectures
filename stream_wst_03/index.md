@@ -563,10 +563,99 @@ Insulators - aluminum oxide ceramics, epoxy resins
 $$\rho_{specific} > 10^{12} \, \frac{\Omega \, mm^2}{m}$$
 
 ---
+# Electrical and Magnetic Properties
+
+Electrical and magnetic properties are generally closely related and influence each other.
+
+---
+
+## Permittivity
+
+Describes the relationship between electric flux density and the electric field.
+
+$\varepsilon_0$ is the permittivity in a vacuum.
+
+$$\mathbf{D} = \varepsilon_0 \, \boldsymbol{\varepsilon}_{permittivity} \, \mathbf{E}$$
+
+$$\boldsymbol{\varepsilon}_{permittivity} = \begin{bmatrix}
+\varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
+\varepsilon_{12} & \varepsilon_{22} & \varepsilon_{23} \\
+\varepsilon_{13} & \varepsilon_{23} & \varepsilon_{33}
+\end{bmatrix}$$
+
+---
+
+Depending on the crystal structure, permittivity may be direction-dependent.
+
+| Symmetry | Model |
+|----------|-------|
+| Isotropy | $\varepsilon_{11} = \varepsilon_{22} = \varepsilon_{33}$ and $\varepsilon_{12} = \varepsilon_{13} = \varepsilon_{23} = 0$ |
+| Transverse Isotropy | $\varepsilon_{22} = \varepsilon_{33}$ and $\varepsilon_{12} = \varepsilon_{13} = \varepsilon_{23} = 0$ |
+| Orthotropic Isotropy | $\varepsilon_{12} = \varepsilon_{13} = \varepsilon_{23} = 0$ |
+| Anisotropy | arbitrary $\varepsilon_{ij}$ |
+
+Often specified as relative permittivity
+
+$$\varepsilon_r = \frac{\varepsilon_{permittivity}}{\varepsilon_0}$$
+
+---
+
+- Capacitance of a plate capacitor
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/9/92/Verschiedene_Kondensatoren_2.JPG)
+
+$$C = \varepsilon_0 \, \varepsilon_r \, \frac{A}{d}$$
+
+- High permittivity allows stronger capacitors.
+
+---
+
+## Electrical Conductivity
+
+- The conductivity of a substance or mixture depends on the availability and density of mobile charge carriers.
+
+- In metals, these are loosely bound in the form of electrons. All materials have some level of conductivity.
+
+---
+
+Unit $\left[\frac{S}{m}\right.$, $\left.\frac{\Omega}{m}\right]$
+
+$$\mathbf{J} = \sigma_{electrical \, conductivity} \, \mathbf{E}$$
+
+- Superconductors possess infinite conductivity.
+
+---
+
+## Electrical Resistance
+
+- In the case of constant electrical conductivity, this corresponds to Ohm's law.
+
+**Ohm's Law**
+
+$$R = \frac{U}{I} = \rho_{specific} \, \frac{l}{A}$$
+
+- The specific resistance $\rho_{specific}$ is a material constant. It is temperature-dependent.
+- Used for thermocouples.
+
+---
+
+Conductors - metals (copper, silver, etc.), graphite
+
+$$\rho_{specific} < 100 \, \frac{\Omega \, mm^2}{m}$$
+
+Semiconductors - silicon, boron, selenium, ...
+
+$$100 < \rho_{specific} < 10^{12} \, \frac{\Omega \, mm^2}{m}$$
+
+Insulators - aluminum oxide ceramics, epoxy resins
+
+$$\rho_{specific} > 10^{12} \, \frac{\Omega \, mm^2}{m}$$
+
+---
 
 ## Doping
 
-- The conductivity of semiconductors can be strongly influenced by doping, often by several orders of magnitude.
+- The conductivity of semiconductors can be significantly influenced by doping, often by several orders of magnitude.
 - High-purity material is required.
 
 n-doping - Addition of electron donors (extra electrons)  
@@ -575,8 +664,8 @@ p-doping - Addition of electron acceptors
 ---
 
 - p-doping creates electron deficiencies, also known as holes or defect electrons.
-- These allow the conduction of electric current.
-- Conductivity arises because the holes or electrons are mobile—though less so than electrons in metals.
+- These enable the conduction of electric current.
+- Conductivity occurs because the holes or electrons are mobile, though not as mobile as electrons in metals.
 
 ---
 
@@ -585,40 +674,52 @@ p-doping - Addition of electron acceptors
 ## Types of Magnetism
 
 **Diamagnetism**  
-Leads to a weakening of the magnetic field due to the effect of Lenz's rule in the atomic shell (locally induced magnetic field opposes the external field).  
+Leads to a weakening of the magnetic field due to the Lenz's law effect in the atomic shell (locally induced magnetic field opposes the external field).  
 *Examples:* All materials
 
 ---
 
 **Paramagnetism**  
-Atoms, ions, or molecules possess a magnetic moment that aligns with the external magnetic field, enhancing it. Higher temperatures reduce the effect as atoms, ions, or molecules move more freely.  
-*Examples:* Lithium, sodium, rare earth metals (scandium, neodymium, holmium)
+- Atoms, ions, or molecules have a magnetic moment that aligns with the external magnetic field, strengthening the field.
+- Higher temperatures reduce the effect as atoms, ions, or molecules move more freely.
+
+*Examples:* Lithium, sodium, rare earth metals (scandium, neodymium, holmium)  
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/0d/Paramagnetism_with_and_without_field.svg)
 
 ---
 
 **Ferromagnetism**  
-The magnetic moments of individual particles are not independent but align spontaneously in parallel. The smallest crystalline unit is called a [Weiss domain](https://de.wikipedia.org/wiki/Weiss-Bezirk). The effect can be destroyed by the Curie temperature.  
-*Examples:* Iron, nickel, alnico (alloys of iron, aluminum, nickel, cobalt, copper)
+- The magnetic moments align spontaneously in parallel.
+- The smallest crystalline unit is called a **Weiss domain**.
+- The effect can be destroyed by the Curie temperature.
 
+*Examples:* Iron, nickel, alnico (alloys of iron, aluminum, nickel, cobalt, copper)  
 ![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/0/0a/Growing-magnetic-domains.svg)
 
 ---
 
 **Ferrimagnetism**  
-Similar to ferromagnetism, but the magnetic moments of atoms are microscopically aligned in alternating antiparallel directions and do not fully cancel out. Overall, ferrimagnetism appears as a weaker form of ferromagnetism.  
-*Examples:* Nickel, copper, magnesium
+- The magnetic moments of atoms are aligned in alternating antiparallel directions and do not completely cancel each other out.
+- Appears as a weaker form of ferromagnetism.
+
+*Examples:* Nickel, copper, magnesium  
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/b/bc/Ferrimagnetic_ordering_illustration.svg)
 
 ---
 
 **Antiferromagnetism**  
-Similar to ferrimagnetism, but the antiparallel magnetic poles completely cancel each other out. An ideal antiferromagnet shows no external magnetic behavior. When heated above the [Néel temperature](https://de.wikipedia.org/wiki/N%C3%A9el-Temperatur), the material becomes paramagnetic.  
-*Examples:* Some nickel compounds, chromium
+- Similar to ferrimagnetism, but the antiparallel magnetic poles completely cancel each other out.
+- An ideal antiferromagnet shows no external magnetic behavior.
+- When heated above the Néel temperature, the material becomes paramagnetic.
+
+*Examples:* Some nickel compounds, chromium  
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/29/AntiferromagnetischerWerkstoff.png)
 
 ---
 
 ## Permeability
 
-It is the ratio between magnetic flux density and magnetic field strength.
+The ratio between magnetic flux density and magnetic field strength.
 
 $$\mathbf{B} = \mu_0 \, \boldsymbol{\mu} \, \mathbf{H}$$
 

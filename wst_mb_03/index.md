@@ -609,13 +609,19 @@ Führt zu einer Abschwächung des Magnetfeldes durch die Wirkung der Lenzschen R
 ---
 
 **Paramagnetismus**  
-Atome, Ionen oder Moleküle besitzen ein magnetisches Moment, das sich nach dem äußeren Magnetfeld ausrichtet und das Magnetfeld verstärkt. Höhere Temperaturen verringern den Effekt, da sich die Atome, Ionen oder Moleküle stärker bewegen.  
+- Atome, Ionen oder Moleküle besitzen ein magnetisches Moment, das sich nach dem äußeren Magnetfeld ausrichtet und das Magnetfeld verstärkt
+- Höhere Temperaturen verringern den Effekt, da sich die Atome, Ionen oder Moleküle stärker bewegen
+
 *Beispiele:* Lithium, Natrium, Metalle der Seltenen Erden (Scandium, Neodym, Holmium)
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/0d/Paramagnetism_with_and_without_field.svg)
 
 ---
 
 **Ferromagnetismus**  
-Die magnetischen Momente einzelner Teilchen sind nicht unabhängig, sondern richten sich spontan parallel aus. Die kleinste kristalline Einheit wird als [weissscher Bezirk](https://de.wikipedia.org/wiki/Weiss-Bezirk) bezeichnet. Der Effekt kann durch die Curie-Temperatur zerstört werden.  
+- die magnetischen Momente  richten sich spontan parallel aus
+-  kleinste kristalline Einheit wird als **weissscher Bezirk** bezeichnet
+- der Effekt kann durch die Curie-Temperatur zerstört werden
+
 *Beispiele:* Eisen, Nickel, Alnico (Eisen-, Aluminium-, Nickel-, Kobalt-, Kupferlegierungen)
 
 
@@ -624,15 +630,21 @@ Die magnetischen Momente einzelner Teilchen sind nicht unabhängig, sondern rich
 ---
 
 **Ferrimagnetismus**  
-Ähnlich dem Ferromagnetismus, jedoch sind die magnetischen Momente der Atome mikroskopisch wechselweise antiparallel ausgerichtet und löschen sich nicht vollständig aus. Im Gesamten wirkt der Ferrimagnetismus wie eine abgeschwächte Form des Ferromagnetismus.  
+- die magnetischen Momente der Atome mikroskopisch wechselweise antiparallel ausgerichtet und löschen sich nicht vollständig aus
+-  wirkt wie eine abgeschwächte Form des Ferromagnetismus
+
 *Beispiele:* Nickel, Kupfer, Magnesium
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/b/bc/Ferrimagnetic_ordering_illustration.svg)
 
 ---
 
 **Antiferromagnetismus**  
-Ähnlich dem Ferrimagnetismus, jedoch löschen sich die antiparallelen magnetischen Pole vollständig gegenseitig aus. Ein idealer Antiferromagnet zeigt nach außen kein magnetisches Verhalten. Bei Erhitzung über die [Néel-Temperatur](https://de.wikipedia.org/wiki/N%C3%A9el-Temperatur) wird das Material paramagnetisch.  
-*Beispiele:* Einige Nickelverbindungen, Chrom
+- ähnlich dem Ferrimagnetismus, jedoch löschen sich die antiparallelen magnetischen Pole vollständig gegenseitig aus
+-  idealer Antiferromagnet zeigt nach außen kein magnetisches Verhalten
+- bei Erhitzung über die Néel-Temperatur wird das Material paramagnetisch
 
+*Beispiele:* Einige Nickelverbindungen, Chrom
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/29/AntiferromagnetischerWerkstoff.png)
 
 ---
 
@@ -668,7 +680,6 @@ Superparamagnetische Stoffe  $\mu_{r}\gg 1$
 Ferrimagnetische Stoffe $ 20\lessapprox \mu_{r} \lessapprox 15000$
 
 Ferromagnetische Stoffe  $\mu_{r}\gg 1$; $40 \lessapprox \mu_r \lessapprox 10^6$
-
 
 Supraleiter 1. Art $\mu_{r} = 0$. 
 
