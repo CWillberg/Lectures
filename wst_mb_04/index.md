@@ -70,7 +70,7 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 [Formelsammlung](https://cwillberg.github.io/Werkstofftechnik/Formelsammlung)  
 TBD  
 [CoopSpace]()  
-![bg right 50%](../assets/wst_mb_04.png)
+![bg right 50%](../assets/QR/wst_mb_04.png)
 
 ---
 
