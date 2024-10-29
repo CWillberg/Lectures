@@ -67,6 +67,12 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 <!--paginate: true-->
 
+# Inhalte
+
+![bg right 70%](../assets/QR/wst_mb_04.png)
+
+---
+
 # Begriffe
 
 ## Legierung

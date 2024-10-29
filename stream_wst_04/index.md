@@ -62,6 +62,12 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 
+# Topics
+
+![bg right 70%](../assets/QR/stream_wst_04.png)
+
+---
+
 # Fatigue
 
 <details>

@@ -173,14 +173,7 @@ $\varepsilon_{mechanisch} = \frac{l - l_0}{l_0}$
 - Normalspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
 $\sigma = \frac{F}{A}=E\varepsilon$
 E - Elastizitätsmodul, Young's modulus $\left[\frac{N}{m^2}\right]$\
-\
-\
-\
-\
-.
-<div style="position: absolute; bottom: 40px; left: 80px; color: blue; font-size: 20px;"> 
-    <img src="Figures/EModul.svg" style="height:230px;width:auto;vertical-align: top;">
-</div>
+
 
 ![bg right:25%](../assets/Figures/Normalspannung.gif)
 

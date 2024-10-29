@@ -61,6 +61,11 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 
 ---
+# Topics
+
+![bg right 70%](../assets/QR/stream_wst_03.png)
+
+---
 
 <!--paginate: true-->
 ## Material Properties
@@ -71,7 +76,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 <!DOCTYPE html>
 <html lang="en">
   <body>
-    <pre align="center" class="mermaid">
+  <pre align="center" class="mermaid">
     %%{init: {'theme': 'forest'}}%%
     mindmap
       root((Properties))
