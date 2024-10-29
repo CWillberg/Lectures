@@ -64,12 +64,9 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 <!--paginate: true-->
 
-## Nützliche Links
 
-[Skript](https://cwillberg.github.io/Werkstofftechnik/)  
-[Formelsammlung](https://cwillberg.github.io/Werkstofftechnik/Formelsammlung)  
-TBD  
-[CoopSpace]()  
+
+
 ![bg right 50%](../assets/QR/wst_mb_04.png)
 
 ---
