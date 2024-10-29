@@ -150,13 +150,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-## Simulationsbeispiel
-
-[External Link](https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400)
-
-
----
-
 ## Elastizität
 - reversibel, energieerhaltend
 - Hooksches Gesetz 1D
@@ -311,6 +304,9 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ---
 
+[Datenblatt Stahl](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
+
+---
 
 ## Wärmedehnung
 
@@ -370,8 +366,7 @@ $0 = E \varepsilon = E (\varepsilon_{mechanisch}+\varepsilon_{thermisch})= E (\v
 $\varepsilon_{mechanisch}=\alpha\Delta T$
 $\Delta l = l_0 \varepsilon_{thermisch} = l_0\alpha\Delta T$
 
----
-[Datenblatt Stahl](https://de.materials4me.com/media/pdf/84/1b/16/MaterialDataSheet_S235JR.pdf)
+
 
 ---
 ## Wärmeleitung
