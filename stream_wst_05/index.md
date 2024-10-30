@@ -64,13 +64,13 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 <!--paginate: true-->
 
-## Contents
+# Contents
 
 - Basic Concepts
 - Crystal Formation
 - Phase Diagrams
 - Microstructure
-# Topics
+
 
 ![bg right 70%](../assets/QR/stream_wst_05.png)
 
