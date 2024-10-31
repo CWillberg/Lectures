@@ -114,17 +114,47 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 ![bg fit 80%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
 
 ---
+## Spannungsverhältnis
+$R = \frac{\sigma_u}{\sigma_o}$
+## Mittelspannung
+$\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
+
+$\sigma_o$ - Oberspannung
+$\sigma_o$ - Unterspannung
+
+
+---
+
+## Dauerfestigkeitsschaubilder
+- Haigh-Diagramm und Smith-Diagramm empfohlen nach DIN 50100
+
+---
+
+
+## Smith-Diagramm
+
+- Winkelhalbierende eintragen
+- Oben und unten (paralle Linien) -> statische Druck- und Zugfestigkeit
+- Kurven werden aus Wöhlerexperiment mit verschiedenen R bestimmt
+
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
+
+---
 
 ## Begriffe
 
 - Lebensdauer
 - Ermüdungsriss
 - Ermüdungsbruch
-- Kurzzeitfestigkeit (K)
-- Zeitfestigkeit (Z)
-- Dauerfestigkeit (D)
+- Kurzzeitfestigkeit (K) $<10^5$ (Low Cycle Fatigue (LCF))
+- Zeitfestigkeit (Z) $10^4<10^6$ (High Cycle Fatigue (HCF))
+- Dauerfestigkeit (D) $>10^6$ (Very High Cycle Fatigue (VHCF))
+
 
 ![bg right fit 70%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
+
+
+
 
 ---
 

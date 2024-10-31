@@ -116,14 +116,20 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 
+
+## 
+
+
+---
+
 ## Terms
 
 - Lifespan
 - Fatigue crack
 - Fatigue fracture
-- Short-term strength (K)
-- Operational strength (Time strength Z)
-- Endurance limit (D)
+- Low Cycle Fatigue (LCF) $<10^5$
+- High Cycle Fatigue (HCF) $10^4<10^6$
+- Very High Cycle Fatigue (VHCF) $>10^6$
 
 ![bg right fit 70%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
 
