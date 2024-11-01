@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Materials-and-Production-Engineering-Lectures Fatigue and wear
+title: Lecture on Fundamentals of Mechanical Engineering - Materials Science
 author: Christian Willberg
 ---
 
@@ -15,56 +15,56 @@ author: Christian Willberg
 </script>
 
 <style>
-.container{
+.container {
   display: flex;
-  }
-.col{
+}
+.col {
   flex: 1;
-  }
+}
 </style>
 
 <style scoped>
 .column-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .column {
-    flex: 1;
-    padding: 0 20px; /* Placement of the columns */
+  flex: 1;
+  padding: 0 20px;
 }
 
 .centered-image {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 </style>
 
 <style>
 footer {
-    font-size: 14px; /* Change footer font size */
-    color: #888; /* Change footer color */
-    text-align: right; /* Change footer alignment */
+  font-size: 14px;
+  color: #888;
+  text-align: right;
 }
 </style>
 
+## Fatigue and Wear
+Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+University of Applied Sciences Magdeburg-Stendal
 
-## Lectures on Materials Science - Fatigue and wear
-Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-Magdeburg-Stendal University of Applied Sciences
+![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/a/a2/Bochumer_Verein-23-50078.jpg)
-
-Contact: christian.willberg@h2.de
-Parts of the script are adopted from \
-Prof. Dr.-Ing. Jürgen Häberle
-
+Contact: christian.willberg@h2.de  
+Parts of this script are adapted from Prof. Dr.-Ing. Jürgen Häberle  
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+  <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Image reference</a>
+</div>
 
 ---
 
-# Topics
+<!--paginate: true-->
 
-![bg right 70%](../assets/QR/stream_wst_04.png)
+![bg right 50%](../assets/QR/stream_wst_04.png)
 
 ---
 
@@ -72,27 +72,23 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 <details>
 <summary>What is Fatigue?</summary>
-<!DOCTYPE html>
-<html lang="en">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Sleeping_students.jpg" alt="Alternative text" width="500">
-  </body>
-</html>
+
 </details>
 
 ---
 
-- Typically occurs with cyclic loading
+- Typically occurs under cyclic loading
   - Isothermal mechanical fatigue
     - [Oscillating load](https://www.youtube.com/watch?v=_qVXkAWtH60)
-
-    - Aircraft fuselage (pressure build-up and release)
+    - Aircraft fuselages (pressure buildup and release)
   - Thermal fatigue
     - Ovens, heating elements
-  - Thermo-mechanical fatigue
-    - High-pressure tanks
-  - Electro-thermal fatigue
-    - Electrical conductors (filaments)
+  - Thermomechanical fatigue
+    - High-pressure containers
+  - Electrothermal fatigue
+    - Current conductors (filaments)
 
 ---
 
@@ -101,11 +97,11 @@ Prof. Dr.-Ing. Jürgen Häberle
 ---
 
 ## Fatigue
-- The load is below the yield strength $R_{p0,2}$
-  - > _Reminder: What does $R_{p0,2}$ indicate?_
-- Stress concentrations occur in material defects (pores, microcracks, etc.) or in the crystal (dislocations, vacancies, etc.)
-- Initially, randomly distributed regions of local plastic deformation develop under alternating loads
-- These points represent stress concentration areas, which enlarge over time and can lead to fracture
+- Load is below the yield strength $R_{p0,2}$
+  - > _Reminder: What does $R_{p0,2}$ mean?_
+- Stress concentrations occur at material defects (pores, microcracks) or in the crystal (dislocations, defects)
+- Initially, random local areas of plastic deformation form under alternating load
+- These points represent stress concentration areas that increase over time and can lead to fracture
 
 [Explanation video](https://www.youtube.com/watch?v=o-6V_JoRX1g)
 
@@ -115,23 +111,58 @@ Prof. Dr.-Ing. Jürgen Häberle
 ![bg fit 80%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
 
 ---
+## Stress Ratio
+$R = \frac{\sigma_u}{\sigma_o}$
+## Mean Stress
+$\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
+
+$\sigma_o$ - Upper stress
+$\sigma_o$ - Lower stress
 
 
-## 
+---
 
+## Endurance Limit Diagrams
+- Haigh diagram and Smith diagram recommended according to DIN 50100
+
+---
+
+## Haigh Diagram
+
+![](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-erstellung.jpg)
+
+
+
+---
+
+![](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-spannungsverhaeltnis.jpg)
+
+---
+
+## Smith Diagram
+
+- Draw angle bisector
+- Top and bottom (parallel lines) -> static tensile and compressive strength
+- Curves are determined from Wöhler experiments with different R values
+
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
 
 ---
 
 ## Terms
 
-- Lifespan
+- Lifetime
 - Fatigue crack
 - Fatigue fracture
-- Low Cycle Fatigue (LCF) $<10^5$
-- High Cycle Fatigue (HCF) $10^4<10^6$
-- Very High Cycle Fatigue (VHCF) $>10^6$
+- Low-cycle fatigue (LCF) $<10^5$ cycles 
+- High-cycle fatigue (HCF) $10^4<10^6$ cycles 
+- Very high-cycle fatigue (VHCF) $>10^6$ cycles 
 
-![bg right fit 70%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
+
+![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
+![bg vertical 60%](https://farm6.staticflickr.com/5522/12140479094_6f746014ab_z.jpg)
+
+
 
 ---
 
@@ -139,7 +170,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 - Reduce notch effect
 - Material adaptation
-- Design adjustments to prevent local stress from exceeding allowable limits
+- Adjust design so that local stress does not exceed allowable limits
 - Regular inspections
 
 ---
@@ -147,47 +178,48 @@ Prof. Dr.-Ing. Jürgen Häberle
 ## Wear
 
 - Permanent deformation and material loss on the surface of solids due to friction
-- Technologically unintended and can lead to functional failure
+- Technologically undesirable and can lead to malfunctions
 - Influenced by:
-  - Frictional pairing
-  - Surface layer and intermediate substance properties
+  - Friction pair
+  - Surface layer and intermediate substance
   - Type of motion
   - Load intensity
 
 ---
 
-| Wear Type             | Appearance                                                        | Primary Occurrence                                         |
-|-----------------------|-------------------------------------------------------------------|------------------------------------------------------------|
-| Sliding wear           | Grooves or furrows from abrasion, material transfer, or local melting | Unlubricated bearings, clutches, brakes                    |
-| Rolling wear           | Flaking due to fatigue cracks                                     | Rail/wheel, rolling bearings                               |
-| Pitting               | Pitting formation: pitting                                        | Rolling elements, especially gears                         |
-| Abrasive wear          | Plastic deformation, erosion                                     | Excavating equipment, bulk material transport, particle impingement |
-| Cavitation             | Pitted surface with fatigue cracks                               | Water turbines, pumps                                      |
-| Tribo-oxidation (fretting corrosion) | Loose oxidation products                            | Machine elements with form-fit or force-fit connections     |
+| Type of Wear            | Appearance                                                        | Primary Occurrence                                         |
+|--------------------------|-------------------------------------------------------------------|------------------------------------------------------------|
+| Sliding wear             | Grooves or scoring due to abrasion, material transfer, or local melting | Unlubricated bearings, clutches, brakes                   |
+| Rolling wear             | Flaking due to fatigue cracks                                    | Wheel/rail, rolling bearings                               |
+| Pitting                  | Pitting formation                                                | Rolling bodies, especially gears                           |
+| Abrasive wear            | Plastic deformation, erosion                                     | Excavators, bulk material transport, particle impact       |
+| Cavitation               | Surface damage due to impact of vapor bubbles                    | Water turbines, pumps                                      |
+| Tribooxidation (fretting corrosion) | Loose oxidation product                             | Machine elements with form or force-fit connections        |
 
 ---
 
 ## Sliding Wear
 
 - Influenced [by](https://download.basf.com/p1/8a8081c57fd4b609017fd66047f138c3/de/Reibung_und_Verschlei%25C3%259F%250Abei_Polymerwerkstoffen)
-  - The average roughness depth $R_z$
+  - Average roughness depth $R_z$
   - Contact pressure
   - Wear path ratio $W=k\frac{F_N}{A}10^6$
-  - $k$ in $\left[\frac{mm^3}{Nm}\right]$ specific wear rate (independent of load)
+  - $k$ in $\left[\frac{mm^3}{Nm}\right]$ specific wear coefficient (load-independent)
 
 ![bg right fit 90%](https://media.springernature.com/original/springer-static/image/chp:10.1007%2F978-3-658-17851-2_4/MediaObjects/299062_3_De_4_Fig17_HTML.gif)
 
 ---
 
+
 ## Rolling Wear
-- [Rolling](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) involves slip components superimposed on the rolling process
+- [Rolling](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) is a type of stress where sliding components (slip) overlay the pure rolling motion
 - Small contact area; high surface pressure
-- Surface degradation (plastic deformation, microstructure changes, etc.)
-- Can be significantly reduced by lubrication $\rightarrow$ specific lubricant film thickness $\lambda$
+- Surface disruption (plastic deformation, microstructural changes, etc.)
+- Significantly reducible with lubrication $\rightarrow$ specific lubricant film thickness $\lambda$
 
-![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007/978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
+![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
 
-![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007/978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
+![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
 
 ---
 
@@ -196,21 +228,21 @@ Prof. Dr.-Ing. Jürgen Häberle
 [Video](https://www.youtube.com/watch?v=J0H0Nw44oA4)
 
 <details>
-<summary>Physical cause?</summary>
+<summary>Physical Cause?</summary>
 <div>
 
-- Static pressure is dependent on fluid velocity
-- Vapor bubbles form when the vapor pressure drops below a threshold
-- These bubbles move into regions with higher pressure and rapidly collapse
-- Pressure and temperature spikes occur
+- Static pressure depends on the velocity of a fluid
+- When vapor pressure is exceeded, vapor bubbles form
+- These bubbles move into areas of higher pressure and collapse instantly
+- Pressure and temperature peaks occur
 </div>
 </details>
 
 ---
 
-- Localized stress on the surface
-- These regions weaken and flake off
-- Surface is affected by:
+- Local surface stresses
+- These areas fatigue and spall off
+- Affects the surface
   - Efficiency reduction
   - Corrosion
   - Areas where cracks can initiate
@@ -221,9 +253,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ## Fretting Corrosion
 
-- Sliding motions between two highly loaded components
-- Typically occurs with insufficient interference fit $\rightarrow$ Fits
+- Sliding movements between two highly stressed components
+- Often due to insufficient fit $\rightarrow$ tight fits
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
-
-

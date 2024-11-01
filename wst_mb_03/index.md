@@ -485,7 +485,15 @@ Die elektrischen und magnetischen Eigeschaften hängen in der Regel eng zusammen
 
 ## Permittivität
 
-Beschreibt das Verhaltnis zwischen der elektrischen Flussdichte und dem elektrischen Feld. 
+
+- beschreibt wie stark die innere Struktur der äußeren Ladung entgegenwirkt
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/1/13/Dipole_im_elektrischen_Feld.svg)
+
+
+---
+
+- mathematisch Verhältnis zwischen der elektrischen Flussdichte und dem elektrischen Feld. 
 
 $\varepsilon_0$ ist dabei die Permitivität im Vakuum.
 
@@ -502,7 +510,7 @@ $\boldsymbol{\varepsilon}_{Permitivität} = \begin{bmatrix}
 
 
 
-Je nach Kristallstruktur ist die Permittivität richtungsabhängig.
+Je nach Mikrostruktur ist die Permittivität richtungsabhängig.
 | Symmetrie | Modell | 
 |---|---|
 | Isotropie | $\varepsilon_{11}=\varepsilon_{22}=\varepsilon_{33}$ und $\varepsilon_{12}=\varepsilon_{13}=\varepsilon_{23}=0$ |

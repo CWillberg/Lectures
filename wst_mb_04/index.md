@@ -52,7 +52,7 @@ footer {
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](../assets/Figures/IWES_test.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
 
 Kontakt: christian.willberg@h2.de  
 Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen  
@@ -130,6 +130,17 @@ $\sigma_o$ - Unterspannung
 
 ---
 
+## Haigh-Diagramm
+
+![](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-erstellung.jpg)
+
+
+
+---
+
+![](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-spannungsverhaeltnis.jpg)
+
+---
 
 ## Smith-Diagramm
 
@@ -151,8 +162,8 @@ $\sigma_o$ - Unterspannung
 - Dauerfestigkeit (D) $>10^6$ (Very High Cycle Fatigue (VHCF))
 
 
-![bg right fit 70%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
-
+![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
+![bg vertical  60%](https://farm6.staticflickr.com/5522/12140479094_6f746014ab_z.jpg)
 
 
 
@@ -202,15 +213,16 @@ $\sigma_o$ - Unterspannung
 
 ---
 
-## Rollverschleiß
-- [Rollen](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) umfasst Schlupfkomponenten, die dem Rollvorgang überlagert sind
-- Kleine Kontaktfläche; hohe Flächenpressung
-- Oberflächenabbau (plastische Verformung, Mikrostrukturveränderungen usw.)
-- Kann durch Schmierung signifikant reduziert werden $\rightarrow$ spezifische Schmierfilm-Dicke $\lambda$
 
-![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007/978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
+## Wälzverschleiß
+- [Wälzen](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) ist eine Beanspruchungsart, bei der Gleitanteile (Schlupf) den reinen Rollvorgang überlagern
+- kleine Kontaktfläche; hohe Flächenpressung
+- Oberflächenzerrüttung (plastische Verformung, Gefügeänderungen, usw.)
+- durch Schmierung deutlich reduzierbar $\rightarrow$ spezifische Schmierfilmdicke $\lambda$
 
-![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007/978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
+![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
+
+![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
 
 ---
 
@@ -222,21 +234,21 @@ $\sigma_o$ - Unterspannung
 <summary>Physikalische Ursache?</summary>
 <div>
 
-- Der statische Druck hängt von der Flüssigkeitsgeschwindigkeit ab
-- Dampfblasen entstehen, wenn der Dampfdruck unter einen Schwellenwert fällt
-- Diese Blasen wandern in Bereiche mit höherem Druck und kollabieren rasch
-- Dabei entstehen Druck- und Temperaturschwankungen
+- statischer Druck ist abhängig von der Geschwindigkeit eines Fluids
+- bei Unterschreitung des Verdampfungsdrucks bilden sich Dampfblasen
+- diese Blasen laufen in Bereiche mit höherem Druck und kondensieren schlagartig
+- Druck- und Temperaturspitzen treten auf
 </div>
 </details>
 
 ---
 
-- Lokale Belastung an der Oberfläche
-- Diese Bereiche werden geschwächt und blättern ab
-- Auswirkungen auf die Oberfläche:
-  - Wirkungsgradverlust
+- lokale Belastungen an der Oberfläche
+- diese Bereiche ermüden und platzen ab
+- Beeinträchtigt die Oberfläche
+  - Wirkungsgradreduktion
   - Korrosion
-  - Bereiche, in denen sich Risse bilden können
+  - Bereiche wo Risse initiieren können
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cavitation.jpg)
 
@@ -244,7 +256,10 @@ $\sigma_o$ - Unterspannung
 
 ## Reibkorrosion
 
-- Gleitbewegungen zwischen zwei hochbelasteten Komponenten
-- Tritt typischerweise bei unzureichendem Presssitz auf $\rightarrow$ Passungen
+- Gleitbewegungen zwischen zwei hochbelasteten Bauteilen
+- meist bei zu geringem Übermaß $\rightarrow$ Passungen
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+
+
+
