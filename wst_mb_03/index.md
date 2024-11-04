@@ -597,6 +597,12 @@ p-Dotierung - Zugabe von Elektronenakzeptoren
 
 ---
 
+
+![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/n-dotieren.gif)
+![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/p-dotieren.gif)
+
+---
+
 # Magnetismus
 ## Arten des Magnetismus
 **Diamagnetismus**  

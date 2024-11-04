@@ -562,7 +562,11 @@ $$\boldsymbol{\varepsilon}_{permittivity} = \begin{bmatrix}
 \varepsilon_{13} & \varepsilon_{23} & \varepsilon_{33}
 \end{bmatrix}$$
 
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/1/13/Dipole_im_elektrischen_Feld.svg)
+
 ---
+
 
 Depending on the crystal structure, permittivity may be direction-dependent.
 
@@ -645,6 +649,12 @@ p-doping - Addition of electron acceptors
 - p-doping creates electron deficiencies, also known as holes or defect electrons.
 - These enable the conduction of electric current.
 - Conductivity occurs because the holes or electrons are mobile, though not as mobile as electrons in metals.
+
+
+---
+
+![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/n-dotieren.gif)
+![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/p-dotieren.gif)
 
 ---
 
