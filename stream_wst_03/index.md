@@ -724,7 +724,7 @@ Paramagnetic materials $\mu_{r} > 1$
 
 Superparamagnetic materials  $\mu_{r} \gg 1$
 
-Ferrimagnetic materials $ 20 \lessapprox \mu_{r} \lessapprox 15000$
+Ferrimagnetic materials $20 \lessapprox \mu_{r} \lessapprox 15000$
 
 Ferromagnetic materials  $\mu_{r} \gg 1$; $40 \lessapprox \mu_r \lessapprox 10^6$
 
