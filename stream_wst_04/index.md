@@ -112,13 +112,14 @@ Parts of this script are adapted from Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 ## Stress Ratio
-$R = \frac{\sigma_u}{\sigma_o}$
+$R = \frac{\sigma_l}{\sigma_u}$
 ## Mean Stress
-$\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
+$\sigma_m=\frac{\sigma_l+\sigma_u}{2}$
 
-$\sigma_o$ - Upper stress
-$\sigma_o$ - Lower stress
+$\sigma_u$ - Upper stress
+$\sigma_l$ - Lower stress
 
+![bg right 90%](../assets/Figures/sinuskurven_mit_offset.png)
 
 ---
 

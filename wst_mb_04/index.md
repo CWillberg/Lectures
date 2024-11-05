@@ -120,8 +120,9 @@ $R = \frac{\sigma_u}{\sigma_o}$
 $\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
 
 $\sigma_o$ - Oberspannung
-$\sigma_o$ - Unterspannung
+$\sigma_u$ - Unterspannung
 
+![bg right 90%](../assets/Figures/sinuskurven_mit_offset.png)
 
 ---
 

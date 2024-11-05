@@ -69,7 +69,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 # Inhalte
 
-![bg right 70%](../assets/QR/wst_mb_04.png)
+![bg right 70%](../assets/QR/wst_mb_05.png)
 
 ---
 
