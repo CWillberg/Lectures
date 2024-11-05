@@ -202,7 +202,7 @@ _Beide Arten sind einphasig._
 
 -	meist komplizierter Gitteraufbau, unabhängig von Ausgangsgittern
 - geordnete Einlagerungsstrukturen
-- keine Verbindung im chemischen Sinne (Ge-setz der konstanten und multiplen Proportio-nen gilt nicht)
+- keine Verbindung im chemischen Sinne (Gesetz der konstanten und multiplen Proportionen gilt nicht)
 - vorherrschender Bindungstyp: Metallbindung, aber Atom- und Ionenbindungsanteile „zugemischt“
 
 Eigenschaft: hart und sehr spröde

@@ -175,7 +175,7 @@ $\sigma_u$ - Unterspannung
 - Kerbwirkung verringern
 - Materialanpassung
 - Konstruktion anpassen, damit lokale Spannung zulässige Grenzen nicht überschreitet
-- Regelmäßige Inspektionen
+- Regelmäßige Inspektionen 
 
 ---
 
