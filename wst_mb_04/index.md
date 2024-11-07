@@ -179,15 +179,70 @@ $\sigma_u$ - Unterspannung
 
 ---
 
-## Verschleiß
 
-- Permanente Verformung und Materialverlust an der Oberfläche von Festkörpern durch Reibung
-- Technologisch unerwünscht und kann zu Funktionsausfällen führen
-- Beeinflusst durch:
-  - Reibpaarung
-  - Oberflächenschicht und Zwischensubstanz
-  - Bewegungsart
-  - Lastintensität
+# Verschleiß
+
+---
+
+
+- infolge Reibung eintretende bleibende Form- und Stoffveränderung an der Oberfläche von Festkörpern
+- ist technologisch nicht beabsichtigt und eine Form des funktionellen Versagens darstellt bzw. darstellen kann
+- Beeinflusst durch
+  - Reibkörperpaarung
+  - Beschaffenheit der Grenzschichten und des Zwischenstoffes
+  - Art des Bewegungsablaufes
+  - Höhe der Belastung 
+
+---
+
+- **Adhäsiver Verschleiß**
+- **Abrasiver Verschleiß**
+- **Oberflächenzerrüttung**
+- **Tribooxidation**
+
+---
+
+## Adhäsiver Verschleiß
+ - Adhäsiver Verschleiß tritt bei mangelnder Schmierung auf
+ - bei hoher Flächenpressung haften Flächen aneinander
+ - tritt Gleiten ein, werden Randschichtteilchen
+ - es entstehen Löcher und schuppenartige Materialteilchen, die oft an der Gleitfläche des härteren Partners haften bleiben. 
+
+---
+
+![bg 50%](https://upload.wikimedia.org/wikipedia/commons/3/31/Rt%2BRv%2BRp.gif)
+
+---
+
+## Abrasiver Verschleiß
+
+- harte Teilchen eines Schmierstoffs oder Rauheitsspitzen eines Reibungspartners dringen in Randschicht ein
+  -> es kommt es zu Ritzung und Mikrozerspanen
+  - Furchverschleiß oder Erosionsverschleiß 
+
+- richtige Wahl der Werkstoffpaarung; Metall-Kunststoff- oder Metall-Keramik-Paarungen
+
+---
+
+Beispiel Windenergie:
+- Sand im Wind "schmirgelt" die Oberfläche ab
+- Wirkungsgrad sinkt
+![bg right 100%](https://encyclopedia.pub/media/item_content/202209/6333de2d03ef5energies-15-05672-g008.png)
+
+---
+
+## Oberflächenzerrüttung
+
+- wechselnde oder schwellende mechanische Spannungen an der Oberfläche
+- Ermüdung oder Kriechen des Materials an der Oberfläche
+
+---
+
+## Tribooxidation
+- Tribooxidation (Passungsrost) an einer Welle aus Stahl
+-  Bildung von Zwischenschichten, z. B. Oxidschichten, infolge chemischer Reaktion und ihre mechanische Zerstörung durch Bewegung der Bauteile 
+- tritt fast immer zusammen mit adhäsivem Verschleiß auf
+
 
 ---
 
