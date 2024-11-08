@@ -176,33 +176,85 @@ $\sigma_l$ - Lower stress
 
 ---
 
-## Wear
-
-- Permanent deformation and material loss on the surface of solids due to friction
-- Technologically undesirable and can lead to malfunctions
-- Influenced by:
-  - Friction pair
-  - Surface layer and intermediate substance
-  - Type of motion
-  - Load intensity
+# Wear
 
 ---
 
-| Type of Wear            | Appearance                                                        | Primary Occurrence                                         |
-|--------------------------|-------------------------------------------------------------------|------------------------------------------------------------|
-| Sliding wear             | Grooves or scoring due to abrasion, material transfer, or local melting | Unlubricated bearings, clutches, brakes                   |
-| Rolling wear             | Flaking due to fatigue cracks                                    | Wheel/rail, rolling bearings                               |
-| Pitting                  | Pitting formation                                                | Rolling bodies, especially gears                           |
-| Abrasive wear            | Plastic deformation, erosion                                     | Excavators, bulk material transport, particle impact       |
-| Cavitation               | Surface damage due to impact of vapor bubbles                    | Water turbines, pumps                                      |
-| Tribooxidation (fretting corrosion) | Loose oxidation product                             | Machine elements with form or force-fit connections        |
+- Permanent shape and material changes on the surface of solid bodies due to friction
+- Not intended technologically and can represent or result in functional failure
+- Influenced by
+  - Friction pair combination
+  - Condition of boundary layers and intermediate substances
+  - Type of movement
+  - Magnitude of load 
+
+---
+
+- **Adhesive Wear**
+- **Abrasive Wear**
+- **Surface Fatigue**
+- **Triboxidation**
+
+---
+
+## Adhesive Wear
+ - Adhesive wear occurs with insufficient lubrication
+ - High surface pressure causes surfaces to stick together
+ - When sliding occurs, boundary layer particles transfer
+ - Results in holes and flaky material particles, often adhering to the sliding surface of the harder counterpart
+
+---
+
+![bg 50%](https://upload.wikimedia.org/wikipedia/commons/3/31/Rt%2BRv%2BRp.gif)
+
+---
+
+## Abrasive Wear
+
+- Hard particles in a lubricant or roughness peaks of a friction partner penetrate the boundary layer
+  -> results in scratching and micro-cutting
+  - Groove wear or erosion wear 
+
+- Correct choice of material pairing; metal-plastic or metal-ceramic pairings
+
+---
+
+Example Wind Energy:
+- Sand in the wind "grinds" down the surface
+- Efficiency decreases
+![bg right 100%](https://encyclopedia.pub/media/item_content/202209/6333de2d03ef5energies-15-05672-g008.png)
+
+---
+
+## Surface Fatigue
+
+- Alternating or swelling mechanical stresses on the surface
+- Fatigue or creep of the material on the surface
+
+---
+
+## Triboxidation
+- Triboxidation (fit corrosion) on a steel shaft
+- Formation of intermediate layers, e.g., oxide layers, due to chemical reaction and their mechanical destruction due to movement of parts
+- Almost always occurs together with adhesive wear
+
+---
+
+| Type of Wear               | Appearance                                                        | Primary Occurrence                                          |
+|----------------------------|-------------------------------------------------------------------|-------------------------------------------------------------|
+| Sliding Wear               | Grooves or scratches due to abrasion, material transfer, or local melting | Non-lubricated bearings, clutches, brakes                   |
+| Rolling Wear               | Flaking due to fatigue cracks                                      | Wheel/rail, rolling bearings                                |
+| Pitting                    | Formation of pits: pitting                                        | Rolling elements, especially gears                          |
+| Abrasive Wear              | Plastic deformation, erosion                                      | Excavators, bulk material transport, particle impact        |
+| Cavitation                 | Surface damage due to impact of vapor bubbles                     | Water turbines, pumps                                       |
+| Triboxidation (Friction Corrosion) | Loose oxidation product                                | Machine elements with form or force-locked connections      |
 
 ---
 
 ## Sliding Wear
 
 - Influenced [by](https://download.basf.com/p1/8a8081c57fd4b609017fd66047f138c3/de/Reibung_und_Verschlei%25C3%259F%250Abei_Polymerwerkstoffen)
-  - Average roughness depth $R_z$
+  - Mean roughness depth $R_z$
   - Contact pressure
   - Wear path ratio $W=k\frac{F_N}{A}10^6$
   - $k$ in $\left[\frac{mm^3}{Nm}\right]$ specific wear coefficient (load-independent)
@@ -211,12 +263,11 @@ $\sigma_l$ - Lower stress
 
 ---
 
-
 ## Rolling Wear
-- [Rolling](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) is a type of stress where sliding components (slip) overlay the pure rolling motion
+- [Rolling](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) is a type of stress in which sliding components (slip) superimpose the pure rolling process
 - Small contact area; high surface pressure
-- Surface disruption (plastic deformation, microstructural changes, etc.)
-- Significantly reducible with lubrication $\rightarrow$ specific lubricant film thickness $\lambda$
+- Surface fatigue (plastic deformation, structural changes, etc.)
+- Significantly reducible through lubrication $\rightarrow$ specific lubricant film thickness $\lambda$
 
 ![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
 
@@ -232,18 +283,18 @@ $\sigma_l$ - Lower stress
 <summary>Physical Cause?</summary>
 <div>
 
-- Static pressure depends on the velocity of a fluid
-- When vapor pressure is exceeded, vapor bubbles form
-- These bubbles move into areas of higher pressure and collapse instantly
+- Static pressure depends on the speed of a fluid
+- When the vapor pressure is undercut, vapor bubbles form
+- These bubbles move into areas with higher pressure and condense abruptly
 - Pressure and temperature peaks occur
 </div>
 </details>
 
 ---
 
-- Local surface stresses
-- These areas fatigue and spall off
-- Affects the surface
+- Local stress on the surface
+- These areas fatigue and flake off
+- Impacts the surface
   - Efficiency reduction
   - Corrosion
   - Areas where cracks can initiate
@@ -252,9 +303,9 @@ $\sigma_l$ - Lower stress
 
 ---
 
-## Fretting Corrosion
+## Friction Corrosion
 
-- Sliding movements between two highly stressed components
-- Often due to insufficient fit $\rightarrow$ tight fits
+- Sliding movements between two highly loaded components
+- Often occurs when there is insufficient clearance $\rightarrow$ fits
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)

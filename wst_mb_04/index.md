@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung Grundlagen Maschinenbau - Werkstofftechnik
+title: Ermüdung und Verschleiß
 author: Christian Willberg
 ---
 

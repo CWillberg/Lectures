@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung Reale Strukturen und Eigenschaften
+title: Reale Strukturen und Eigenschaften
 author: Christian Willberg
 ---
 
@@ -51,7 +51,7 @@ footer {
 </style>
 
 
-## Vorlesung Werkstofftechnik - Werkstoffeigenschaften
+## Werkstoffeigenschaften
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
