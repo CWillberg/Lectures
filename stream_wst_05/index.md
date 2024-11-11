@@ -94,7 +94,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 - involves direct electron exchange
 - reaction partner is usually oxygen $\text{O}_2$
 Example:
- $2\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
+ $\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
  
 - mostly occurs at higher temperatures (process: scaling)
 
@@ -247,6 +247,9 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 - occurs at grain boundaries
 - Reminder: Influence of the crystal lattice - aggressive media attack preferential planes
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/28/Intergranular_corrosion.JPG)
+
+---
+
 ## Other Types of Corrosion
 
 - [Microbial](https://en.wikipedia.org/wiki/Microbial_corrosion) Corrosion
