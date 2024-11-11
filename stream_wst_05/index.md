@@ -275,7 +275,7 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 ## Corrosion Protection 
 
 - Work in small groups, 10–15 minutes of research
-- 2 groups:
+-  group work:
   - Identify 3 passive methods
   - Identify 3 active methods 
 - Brief presentation of results (use the board if needed)
