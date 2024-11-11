@@ -55,7 +55,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 University of Applied Sciences Magdeburg-Stendal
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
 
 Contact: christian.willberg@h2.de
 Parts of the script are taken from \
@@ -269,7 +269,7 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 
 ---
 
-## Corrosion Protection Activity
+## Corrosion Protection 
 
 - Work in small groups, 10–15 minutes of research
 - 2 groups:
