@@ -126,6 +126,10 @@ $\sigma_u$ - Unterspannung
 
 ---
 
+![bg](https://www.ing-hanke.de/wp-content/uploads/2022/05/Fatigue_Bereiche.jpg)
+
+---
+
 ## Dauerfestigkeitsschaubilder
 - Haigh-Diagramm und Smith-Diagramm empfohlen nach DIN 50100
 
@@ -149,7 +153,7 @@ $\sigma_u$ - Unterspannung
 - Oben und unten (paralle Linien) -> statische Druck- und Zugfestigkeit
 - Kurven werden aus Wöhlerexperiment mit verschiedenen R bestimmt
 
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
+![bg right 80%](https://www.ing-hanke.de/wp-content/uploads/2020/03/Dauerfestigkeitsschaulbild_Smith-Diagramm.jpg)
 
 ---
 
@@ -176,8 +180,13 @@ $\sigma_u$ - Unterspannung
 - Materialanpassung
 - Konstruktion anpassen, damit lokale Spannung zulässige Grenzen nicht überschreitet
 - Regelmäßige Inspektionen 
+- Oberfläche
+
+![bg right 100%](https://www.ing-hanke.de/wp-content/uploads/2020/03/Abminderungsfaktoren_Dauerfestigkeit_Rauheit_Sproedheit_Stahl.jpg)
 
 ---
+
+
 
 
 # Verschleiß
