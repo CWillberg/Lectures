@@ -437,7 +437,7 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 # Eisen-Kohlenstoffdiagramm (EKD)
 
 - wichtigstes ZSD
-- Eisenist der wichtigste Werkstoff im Maschinenbau. 
+- Eisen ist der wichtigste Werkstoff im Maschinenbau. 
 
 Gründe sind
 - geringe Kosten
