@@ -260,9 +260,18 @@ Beispiel Windenergie:
 | Gleitverschleiß          | Rillen oder Riefen durch Abrieb, Materialübertragung oder lokales Schmelzen | Un-geschmierte Lager, Kupplungen, Bremsen                  |
 | Rollverschleiß           | Abblättern durch Ermüdungsrisse                                     | Rad/Schiene, Wälzlager                                     |
 | Pittings                 | Grübchenbildung: Pitting                                           | Wälzkörper, speziell Zahnräder                             |
+
+
+
+
+---
+
+| Verschleißart            | Erscheinung                                                        | Primäres Vorkommen                                         |
+|--------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
 | Abrasivverschleiß         | Plastische Verformung, Erosion                                    | Bagger, Schüttguttransport, Partikelaufprall               |
 | Kavitation               | Oberflächenschädigung durch Aufprall von Dampfblasen              | Wasserturbinen, Pumpen                                     |
 | Tribooxidation (Reibkorrosion) | Loses Oxidationsprodukt                                      | Maschinenelemente mit form- oder kraftschlüssigen Verbindungen |
+
 
 ---
 

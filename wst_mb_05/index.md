@@ -94,7 +94,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - es erfolgt ein direkter Elektronenaustausch
 - Reaktionspartner ist meist Sauerstoff $\text{O}_2$
 Bsp.:
- $2\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
+ $\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
  
 - findet meist bei höheren Temperaturen statt (Vorgang: Zundern)
 
@@ -157,7 +157,7 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
   - gleiche Metalle mit unterschiedlichen elektrischen Potentialen
 - Benetzung mit Elektrolyt
 
-![bg right fit](https://i.stack.imgur.com/hGbnD.jpg)
+![bg right fit](https://files.mtstatic.com/site_4334/51551/0?Expires=1731435194&Signature=PQ3JOuh0VozDA8tFw35iriF0XJmwj4SLimLBgbV27EILIeZCX0Gx-Jyy4QZr-ZQopT5xkjbE~xXmgF4iOt5yB-CeZPMIMhyVVmoVNhUxE6F7a4TUiOocegmSpD~h0U4zYobq7vYN9XwAkAyx5uXQhDvSk-kmNOzLAZaeFmHKysc_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
 
 ---
 
