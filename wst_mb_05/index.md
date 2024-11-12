@@ -156,6 +156,7 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
   - zwei Metalle
   - gleiche Metalle mit unterschiedlichen elektrischen Potentialen
 - Benetzung mit Elektrolyt
+
 ![bg right fit](https://i.stack.imgur.com/hGbnD.jpg)
 
 ---
