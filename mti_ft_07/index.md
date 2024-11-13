@@ -85,22 +85,54 @@ Kontakt: christian.willberg@h2.de
 ## Urformen
 
 - Einteilung nach [DIN 8580](https://de.wikipedia.org/wiki/Urformen)
-- Beispiele:
+- die wesentlichen Klassen:
   - Urformen aus dem flüssigen Zustand
-  - Urformen aus dem plastischen Zustand
+  - Urformen aus dem breiigen Zustand 
+    - z. B. Gießen von Gips oder Beton
+  - Urformen aus dem plastischen Zustand 
+    - z.B. Spritzgießen, Strangpressen
+  - Urformen aus dem körnigen oder pulverförmigen Zustand 
+    - z.B. Metall- oder Keramikpulver die gepresst, und anschließend in einem Sinterprozesses erhitzt und dadurch miteinander zu einem festen Körper verbunden
+
+---
+- Einteilung nach [DIN 8580](https://de.wikipedia.org/wiki/Urformen)
+  - Urformen aus dem span- oder faserförmigen Zustand
+    - Papierherstellung oder die Produktion von Spanplatten
+  - Urformen aus dem gas- oder dampfförmigen Zustand
+    -  Gas oder Dampf wird in eine geometrisch definierte Form überführt, z. B. durch Kondensation metallischer Dämpfe.
+  - Urformen aus dem ionisierten Zustand
+    - z.B. Abscheiden von Material mittels Elektrolyse im Rahmen der Galvanoformung
   - Additive Fertigung
 
+---
 
+
+
+## Urformen - Verbindung zur Werkstofftechnik / Materialeigenschaften?
+
+
+---
+
+- Schmelzpunkt
+- Zustandsdiagramme
+- Schmelzbarkeit
+- elektrische Leitfähigkeit
+- ...
+
+
+---
+S. 18 Bild einfügen
 
 ---
 
 ## Urformen aus dem flüssigen Zustand
 
-1.1.1 Schwerkraftgießen
-1.1.2 Druckgießen
-1.1.3 Niederdruckgießen
+- Schwerkraftgießen
+- Druckgießen
+- Niederdruckgießen
 
 ---
+
 ## Gießen
 Die Prozesskette beim Gießen besteht aus
 - der Vorbereitung mit der Herstellung der Formen und dem Schmelzen der Werkstoffe,
@@ -123,8 +155,162 @@ Die Prozesskette beim Gießen besteht aus
 ---
 ## Lunker
 - Übergang vom flüssigen zum festen Zustand führt oft zum Schrumpfen -> Phasenänderungen 
-- es entstehen Zwischenräume - Lunke
+- es entstehen Zwischenräume - Lunker
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/7/71/Lutetium_1cm3_cube.jpg)
+
+--- 
+## weitere Ursachen
+
+1.	Feinkörnige globulare Randzone
+
+
+
+2.	Transkristallisationszone mit stängelförmigen, sehr groben Kristalliten
+
+
+
+3.	Globulare Kernzone
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+
+## Vermeidung von Lunkern
+
+- große Radien
+- geometrische Anpassungen
+
+![bg right 100%](https://www.inggo.com/fileadmin/_migrated/pics/1t_2_2_2_4_i01.gif)
+
+---
+
+## zu Berücksichtigen
+
+- Thermische Verformung
+- Eigenspannungen
+- Thermischer Schrumpf
+
+---
+
+## Gusseisen 
+
+- Massenanteil über 2.06 %
+- gute Gießbarkeit auf (geringer Schmelzpunkt, dünnflüssige Schmelze, …)
+- hart und spröde ist
+- Die Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
+  - bei Gusseisen mit Lamellengraphit – der häufigsten Sorte – ist sie gut
+  - Festigkeit ist geringer als die von Stahlguss, die Dämpfung ist höher
+- Viele Sorten enthalten zusätzlich noch Silicium, das die Gießbarkeit verbessert, sowie weitere Legierungsanteile wie Mangan, Chrom oder Nickel
+---
+
+![bg fit](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+
+---
+
+Es wird unterschieden zwischen:
+
+- grauem Gusseisen (Grauguss), in dem der Kohlenstoff in Form von Graphit vorkommt. _Die Bruchflächen erscheinen grau_
+- weißem Gusseisen, in dem der Kohlenstoff als Carbid in Form von Zementit (Fe3C) vorkommt. _Die Bruchflächen sind weiß_
+
+![bg right 100%](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
+
+---
+
+## Vergleich Gusseisen und Stahl 
+
+[Qualitativ zum Lesen](https://capablemachining.com/de/Blog/Stahl-vs.-Gusseisen-ein-umfassender-Vergleich/)
+
+- Dichte $7.2\frac{g}{cm^3}$ vs. $7.85\frac{g}{cm^3}$ 
+- Schmelztemperatur $1150 °C$
+- korrosionsbeständiger als Stahl
+- spröder als Stahl
+
+[Quantitativ](https://www.schweizer-fn.de/festigkeit/festigkeitswerte/guss/stahlguss_start.php)
+
+---
+
+
+![bg ](https://www.tec-science.com/wp-content/uploads/2021/03/de-druckversuch-druckspannung-stauchungs-diagramm.jpg)
+
+---
+
+# Einteilung und Eigenschaften
+
+---
+
+## Gusseisen mit Lamellengraphit
+
+- einfachste und häufigste Gusseisen-Sorte ist Gusseisen mit Lamellengraphit 
+![bg right fit](https://www.giessereilexikon.com/uploads/tx_d3ency/189-01.png)
+- Graphit liegt in Form von dünnen, unregelmäßig geformten Lamellen vor
+
+
+---
+
+
+## Gusseisen mit Lamellengraphit
+
+![bg right fit](https://www.giessereilexikon.com/uploads/tx_d3ency/189-01.png)
+-  Lamellen wirken bei Zugbelastung als Kerben, daher ist die Zugfestigkeit infolge der Kerbwirkung relativ gering
+-  Druckfestigkeit liegt etwa um den Faktor 4 höher als die Zugfestigkeit
+
+---
+
+![bg right 70%](https://www.gsl-metallhandel.de/images/gusseisen-mit-lamellengraphit-maschinengeformt.jpg)
+
+- spröder Werkstoff
+- gute Wärmeleitfähigkeit
+-  vorteilhafte Selbstschmiereigenschaften
+  - wenn durch Bearbeitung die Lamellen angeschnitten und der Graphit selbst oder an dessen Stelle andere Schmiermittel in den Hohlräumen „bevorratet“ werden können. 
+
+---
+
+## Gusseisen mit Kugelgraphit
+
+- Bessere mechanische Eigenschaften als Gusseisen mit Lamellengraphit
+- zeigt duktiles Verhalten 
+
+![bg right 80%](https://matdania.com/wp-content/uploads/2017/04/Nodular_Iron.jpg)
+
+---
+
+
+
+## Gusseisen mit [Vermiculargraphit](https://www.giessereilexikon.com/giesserei-lexikon/Encyclopedia/show/gusseisen-mit-vermiculargrafit-190/?cHash=57ba0f0209983c2de8ccc8e299b07616)
+![bg right 80%](https://www.giessereilexikon.com/uploads/tx_d3ency/190-07.png)
+- Eigenschaften zwischen Gusseisen mit Lamellengraphit und denen des Gusseisens mit Kugelgraphit
+-  Herstellung ist jedoch schwieriger und erfordert eine in engen Toleranzen geführte Schmelzbehandlung
+
+---
+
+- höhere Festigkeit und Bruchdehnung und Bruchzähigkeit
+- geringere Wanddickenabhängigkeit der Eigenschaften
+Gusseisen mit Vermiculargrafit zeichnet sich gegenüber Gusseisen mit Lamellengrafit durch folgende Eigenschaften aus:
+
+- höhere Festigkeit und Bruchdehnung
+- höhere Bruchzähigkeit
+- geringere Wanddickenabhängigkeit der Eigenschaften
+
+---
+
+Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folgende Vorteile:
+
+- niedrigerer thermischer Ausdehnungskoeffizient
+- höhere Wärmeleitfähigkeit
+- niedrigerer E-Modul
+- geringeres thermisch induziertes Eigenspannungsniveau
+- bessere Temperaturwechselbeständigkeit und geringere Verzugsneigung aufgrund der zuvor genannten Eigenschaften
+- besseres Dämpfungsvermögen
+- bessere gießtechnische Eigenschaften (geringere Lunkerneigung, besseres Formfüllungs- und Fließvermögen)
+
+---
+# Prozess des Gießens
+
+
+
+## Nachteile
+
+
 
 ---
 
@@ -142,84 +328,9 @@ Die Prozesskette beim Gießen besteht aus
 
 ---
 
-## Urformen - Verbindung zur Werkstofftechnik
 
-- Schmelzpunkt
-- Zustandsdiagramme
 
 ---
-
-# Umformen 
-- zwei Hauptklassen
-- Warmformgebung und Kaltformgebung
-**Umformgrad**
-- entspricht der Dehung in Prozent
-- für kleine Deformationen $\phi=\frac{\Delta l}{l_0}*100\%$
-- für große Deformationen $\phi=ln\frac{l_1}{l_0}*100\%$ -> logarithmisches Dehnungsmaß
----
-
-## Warmformgebung
-- deutlich höher als die Rekristallisationstemperatur
-- während oder zwischen Arbeitsschritten findet eine Rekristallisation statt
-- kubisch flächen zentrierte Kristalle werden bevorzugt (wenn vorhanden)
-- Gefüge und Einschlüsse beeinflussen maßgeblich das Umformverhalten
-
----
-## Warmformgebungsverfahren
-- [Schmieden](https://youtu.be/AxLszR6fkLM?si=k6A9aOVfQceOK9v0&t=80)
-- Pressen
-- [Walzen](https://www.youtube.com/watch?v=WOTO64HgnXc)
-- ...
----
-
-## Kaltformgebung
-- Verfestigung nimmt zu, ggf. Rekristallisationslühen oder Zwischenglühen
-- Gefüge hat starken Einfluss
-- Bauteile enthalten in der Regel Eigenspannungen
-- hohe Genauigkeit und Oberflächegüte
-- keinne Verzunderungen und Oxidationen
-
----
-
-## Kaltformgebungsverfahren
-- Prägen
-- Pressen
-- Fließpressen
-- Tiefziehen
-
----
-
-## Tiefziehen
-
-![](https://upload.wikimedia.org/wikipedia/commons/f/fc/Emboutissage1.png)
-[Metall](https://www.youtube.com/watch?v=WtJNFdv54EM)
-[Kunststoff](https://www.youtube.com/watch?v=_FDMz7YAtWA)
-
----
-
-# Trennen
-Unterteilt in 
-- Zerteilen
-- Spanen
-- Abtragen
-- Zerlegen
-- Reinigen
-- Evakuieren 
-
----
-## Zerteilen
-- ist spanfrei
-- Scherscheiden oder Keilschneiden
-
----
-
-## Spanen
-- Feilen
-- Sägen
-- Drehen
-- Fräsen
-- Schleifen
-- Bohren
 
 
 

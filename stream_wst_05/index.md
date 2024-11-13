@@ -156,7 +156,7 @@ $\text{Metal ion} + \text{Electron} \rightarrow \text{Metal atom}$
   - two metals
   - identical metals with different electrical potentials
 - Electrolyte wetting
-![bg right fit](https://i.stack.imgur.com/hGbnD.jpg)
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
 
 ---
 

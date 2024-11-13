@@ -157,7 +157,7 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
   - gleiche Metalle mit unterschiedlichen elektrischen Potentialen
 - Benetzung mit Elektrolyt
 
-![bg right fit](https://files.mtstatic.com/site_4334/51551/0?Expires=1731435194&Signature=PQ3JOuh0VozDA8tFw35iriF0XJmwj4SLimLBgbV27EILIeZCX0Gx-Jyy4QZr-ZQopT5xkjbE~xXmgF4iOt5yB-CeZPMIMhyVVmoVNhUxE6F7a4TUiOocegmSpD~h0U4zYobq7vYN9XwAkAyx5uXQhDvSk-kmNOzLAZaeFmHKysc_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
 
 ---
 
