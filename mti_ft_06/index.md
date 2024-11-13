@@ -55,7 +55,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -94,7 +94,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - es erfolgt ein direkter Elektronenaustausch
 - Reaktionspartner ist meist Sauerstoff $\text{O}_2$
 Bsp.:
- $2\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
+ $\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
  
 - findet meist bei höheren Temperaturen statt (Vorgang: Zundern)
 
@@ -156,7 +156,8 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
   - zwei Metalle
   - gleiche Metalle mit unterschiedlichen elektrischen Potentialen
 - Benetzung mit Elektrolyt
-![bg right fit](https://i.stack.imgur.com/hGbnD.jpg)
+
+![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
 
 ---
 
