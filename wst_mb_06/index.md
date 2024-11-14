@@ -149,6 +149,44 @@ Unter Phase versteht man einen chemisch und physikalisch gleichartigen homogenen
 
 ---
 
+Phasenänderungen sind unterteilbar in 
+- Umwandlungen
+- Ausscheidungen
+
+---
+
+## Umwandlungen
+
+- instabile Gittermodifikationen wandeln sich in stabile um
+- unterhalb einer Gleichgewichtstemperatur (bspw. $\gamma-FE$ in $\alpha-FE$)
+- bei Legierungen kann sich die Mischkristallkonfiguration ändern. Dann ändert sich die Konzentration (bspw. $\gamma-MK$ in $\alpha-MK$)
+
+---
+
+## Auscheidungen
+- Löslichkeit nimmt ab (Änderung der Temperatur)
+- Phasen (eine oder mehre) scheiden aus dem Mischkritall aus
+- Erfordert einen Massentransport (Diffusion) -> phys. Arbeit nötig (Wärme) und Zeit
+
+---
+
+## Diffusion
+
+- Diffusion allgemein ist temperatur- und zeitabhängig
+- es findet ein Massentransport statt
+Beschrieben durch das 1. Ficksche Gesetz
+$dm_A=-D\frac{dc_A}{dx}Sdt$
+mit 
+$D=D_0exp(-\frac{Q_A}{RT})$
+- $D_0$ - Diffusionskonstante
+- $Q_A$ - Aktivierungsenergie / Wärme
+
+_Modell kann auch verwendet werden, um Diffusion von Gasen aus Tanks zu beschreiben_
+
+---
+
+
+
 
 <details>
 <summary>Einphasigkeit</summary>
@@ -210,6 +248,25 @@ Eigenschaft: hart und sehr spröde
 
 ---
 
+
+
+
+## Gibbsche Phasenregel
+
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+        
+$F = n  - P + 1$
+        
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
+
+---
 
 # Gefüge der Werkstoffe
 
@@ -415,22 +472,6 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 - Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern
 - Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
 
----
-
-## Gibbsche Phasenregel
-
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
 
 ---
 
@@ -446,12 +487,37 @@ F = 1		ein Knickpunkt.
 
 ---
 
+
+
+![bg 100%](../assets/Figures/Konstituionelle_abkuehlung.png)
+
+
+---
+
 ## Eutektischer Entmischung
 
 - Komponenten sind **löslich** im flüssigen Zustand
 - Komponenten sind **unlöslich** im festen Zustand
 
 ![](../assets/Figures/eutektischerPunkt.png)
+
+
+---
+
+## Korngrenzen
+[Video zum Kritallwachstum](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
+- nichtlösbare und/oder Verunreinigungen werden von der Kristallfronten vor sich hergeschoben -> **Korngrenzensubstanzen**
+
+![bg right](https://wiki.arnold-horsch.de/images/a/a5/16MnCrS5-CRIDA_Gr%C3%BCn.jpg)
+
+---
+
+## Korngrenzensubstanzen
+Fall 1:
+Korngrenzensubstanz ist verformbar -> Materialverhalten wird durch Körner dominiert
+
+Fall 2: 
+Korngrenzensubstanz sind spröde -> Materialverhalten wird durch Korngrenzen dominiert -> Versprödung
 
 
 ---
