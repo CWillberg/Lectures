@@ -121,8 +121,28 @@ Kontakt: christian.willberg@h2.de
 
 
 ---
-S. 18 Bild einfügen
 
+# Folgende Schritte sind notwendig
+
+
+---
+
+- Bereitstellung des Werkstoffs
+- Erzeugung eines urformfähigen Werkstoffzustand
+- Füllen des Urformwerkzeugs mit urformfähigmen Werkstoff
+- Übergang des Werkstoffs in den formbaren Zustand im Umformwerkzeug
+- Entnahme des geformten Ergebnisses
+
+---
+
+![bg](https://upload.wikimedia.org/wikipedia/commons/5/5f/Black-band_ironstone_%28aka%29.jpg)
+
+---
+
+![bg](https://upload.wikimedia.org/wikipedia/commons/b/b0/Casting.jpg)
+
+---
+[Beispiel Video](https://www.youtube.com/watch?v=oGlUJX_e1Vc)
 ---
 
 ## Urformen aus dem flüssigen Zustand
