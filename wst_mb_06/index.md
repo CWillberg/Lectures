@@ -185,7 +185,22 @@ _Modell kann auch verwendet werden, um Diffusion von Gasen aus Tanks zu beschrei
 
 ---
 
+## Gibbsche Phasenregel
 
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+        
+$F = n  - P + 1$
+        
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
+
+---
 
 
 <details>
@@ -216,57 +231,79 @@ Ein Mischkristall ist ein chemisch homogener, gleichartiger Kritall, der aus meh
 
 ![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/4/4e/Nuclear_Power_Plant_Cattenom.jpg)
 
+
+---
+# Mischkristalle
+
+- mindestens 2 Atomsorten
+- Heterogenität wird erst im Bereich atomarer Abmessungen sichtbar
+- die meisten Metalle können in ihrem Gitterverband eine bestimmte Menge andere Atome aufnehmen
+- dies führt zu "Verspannungen" im Gitter
+
+- "solid solution" (fest Lösung)
+
+
+
 ---
 
 ## Mischkristalle - Arten
 
-![bg right fit](http://anorganik.chemie.vias.org/img/mischkristalle.png)
+![bg right fit](../assets/Figures/mischkristalle.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Bildquelle</a>
+</div>
 
 Subsitutionsmischkristall
 - ähnlicher chemischer Charakter
 - ähnlicher Durchmesser
 - gleiches Kritallgitter
 
+
+
+---
+
+
+## Mischkristalle - Arten
+
+![bg right fit](../assets/Figures/mischkristalle.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Bildquelle</a>
+</div>
+
+
+
 Einlagerungsmischkristall
 - kleinere Atome
 - in Lücken des Kristallgitters eingelagert (Einlagerungs- oder Zwischengitteratome) 
 - zweite Komponente ist gelöst
-
+- Durchmesserverhältnis $f=\frac{d}{D}\leq 0.41$
 _Beide Arten sind einphasig._
 
----
-
-## Intermetallische Phase
-
--	meist komplizierter Gitteraufbau, unabhängig von Ausgangsgittern
-- geordnete Einlagerungsstrukturen
-- keine Verbindung im chemischen Sinne (Gesetz der konstanten und multiplen Proportionen gilt nicht)
-- vorherrschender Bindungstyp: Metallbindung, aber Atom- und Ionenbindungsanteile „zugemischt“
-
-Eigenschaft: hart und sehr spröde
-
 
 ---
 
+## Intermetallische Phase / intermediäre Kristalle
 
-
-
-## Gibbsche Phasenregel
-
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
+-	meist komplizierter Gitteraufbau, unabhängig von Ausgangsgittern (mehrere hundert Atome)
+- zwischen den Atomsorten gibt es starke Anziehungskräfte
+- neben der metallischen Bindung wirken die kovalenten und Ionenbindungen
+-> Bindungsform zwischen chemisch und metallisch -> intermediate
 
 ---
+
+- sie sind sehr hart und spröde
+- technische Legierungen enthalten in der Regel weniger als 10%
+- wichtige Untergruppe -> interstitiellen Phasen (Einlagerungsstrukturen)
+  - Carbide, Boride, Nitride
+  - wird in Werkzeugstählen und hitzebeständigen Stählen eingesetzt
+
+---
+
+
 
 # Gefüge der Werkstoffe
 

@@ -74,65 +74,65 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 
-# Terms
+# Terminology
 
 ## Alloy
-- from "ligare" - to bind, join, unite
-- Mixture of several atomic species (_components_) with _metallic character_
-- Components
-  - usually metallic (Cu, Ni)
-  - non-metallic (C, P, S, N, O)
-- Variations
-  - which components
-  - number of components
-  - concentration of components
+- From "ligare" - to bind, connect, unite
+- Mixture of multiple types of atoms (_components_) with _metallic character_
+- Components:
+  - Mostly metallic (Cu, Ni)
+  - Non-metallic (C, P, S, N, O)
+- Variations:
+  - Which components
+  - Number of components
+  - Concentration of components
+
 ---
 
 ## Chemical Composition or Concentration
-**Mass fraction, weight fraction, mass percent (synonyms)**
-$\frac{m_1}{\sum_i m_{i}}\cdot 100 = m_{1-rel}$ in [%]
-Ex. $m_{Cu-rel}=\frac{m_{Cu}}{m_{Cu}+m_{Fe}}\cdot 100$
+**Mass fraction, weight fraction, mass percent (synonym)**  
+$\frac{m_1}{\sum_i m_{i}}\cdot 100 = m_{1-rel}$ in [%]  
+E.g., $m_{Cu-rel}=\frac{m_{Cu}}{m_{Cu}+m_{Fe}}\cdot 100$  
 
-Masses $m$ of components are different
+Masses $m$ of components differ.
 
-**Atomic fraction**
+**Atomic fraction**  
+$\frac{n_1}{\sum_i n_{i}}\cdot 100 = n_{1-rel}$ in [%]  
+E.g., $n_{Cu-rel}=\frac{n_{Cu}}{n_{Cu}+n_{Fe}}\cdot 100$
 
-$\frac{n_1}{\sum_i n_{i}}\cdot 100 = n_{1-rel}$ in [%]
-Ex. $n_{Cu-rel}=\frac{n_{Cu}}{n_{Cu}+n_{Fe}}\cdot 100$
-
-When the masses $m$ of components are similar, then $n_{rel}$ and $m_{rel}$ are equal. 
+If masses $m$ of components are similar, then $n_{rel}$ and $m_{rel}$ are equal.
 
 ---
 
 ## Exercise
 
-1 kg alloy 25% Ni - 75% Cu.
+1 kg alloy 25% Ni - 75% Cu.  
 
-How much mass does Cu and Ni have for the mass fraction and atomic fraction?
+What are the masses of Cu and Ni for mass fraction and atomic fraction?
 
 ---
 ## Solution
 
 <details>
-<summary>Mass fraction</summary>
+<summary>Mass Fraction</summary>
 <div>
 
-$m_{Ni}=0.75\cdot 1kg = 0.75 kg$
+$m_{Ni}=0.75\cdot 1kg = 0.75 kg$  
 $m_{Cu}=0.25\cdot 1kg = 0.25 kg$
 </div>
 </details>
 
 <details>
-<summary>Atomic fraction</summary>
+<summary>Atomic Fraction</summary>
 <div>
 
-$A_{Cu}= 63.54 u$ - atomic mass unit $u = 1.66\cdot 10^{-27}kg$
-$A_{Ni}= 58.69 u$
-$m = n_{Cu}A_{Cu}+n_{Ni}A_{Ni}$
-$n_{Cu} = 0.25n$, $n_{Ni} = 0.75n$
-$m=(0.25A_{Cu}+0.75A_{Ni})n$
-$n = \frac{m}{0.25A_{Cu}+0.75A_{Ni}}=1.00565E+25$
-$m_{Cu}=n_{Cu}A_{Cu}=0.2449kg$
+$A_{Cu}= 63.54 u$ - Atomic mass unit $u = 1.66\cdot 10^{-27}kg$  
+$A_{Ni}= 58.69 u$  
+$m = n_{Cu}A_{Cu}+n_{Ni}A_{Ni}$  
+$n_{Cu} = 0.25n$, $n_{Ni} = 0.75n$  
+$m=(0.25A_{Cu}+0.75A_{Ni})n$  
+$n = \frac{m}{0.25A_{Cu}+0.75A_{Ni}}=1.00565E+25$  
+$m_{Cu}=n_{Cu}A_{Cu}=0.2449kg$  
 $m_{Ni}=n_{Ni}A_{Ni}=0.7551kg$
 </div>
 </details>
@@ -141,160 +141,238 @@ $m_{Ni}=n_{Ni}A_{Ni}=0.7551kg$
 
 ## Phase
 
-- Known in relation to the state of matter (solid, liquid, gaseous, plasma)
+- Commonly understood in terms of the state of matter (solid, liquid, gas, plasma)
 
-**General definition**
-A phase is understood as a chemically and physically homogeneous component of an alloy or matter in general.
+**General Definition**  
+A phase is a chemically and physically uniform, homogeneous part of an alloy or matter in general.
+
+---
+
+Phase changes can be categorized into:  
+- Transformations  
+- Precipitations  
 
 ---
 
 
+## Transformations
+
+- Unstable lattice modifications convert into stable ones.  
+- Below an equilibrium temperature (e.g., $\gamma-Fe$ to $\alpha-Fe$).  
+- In alloys, the configuration of solid solutions can change, altering concentration (e.g., $\gamma$-MK to $\alpha$-MK).  
+
+---
+
+## Precipitations
+- Solubility decreases (with temperature change)
+- Phases (one or more) precipitate out of the solid solution
+- Requires mass transport (diffusion) → physical work (heat) and time
+
+---
+
+## Diffusion
+
+- Diffusion, in general, is temperature- and time-dependent
+- Involves mass transport  
+Described by Fick's First Law:  
+$dm_A=-D\frac{dc_A}{dx}Sdt$  
+with  
+$D=D_0exp(-\frac{Q_A}{RT})$  
+- $D_0$ - Diffusion constant  
+- $Q_A$ - Activation energy / heat  
+
+_The model can also be applied to describe gas diffusion from tanks._
+
+---
+
+## Gibbs' Phase Rule
+
+$F = n - P + 2$  
+(for gases and liquids)  
+F = Number of degrees of freedom; n = Number of components; P = Number of phases  
+
+At constant pressure (solid substances):  
+        
+$F = n - P + 1$  
+
+For cooling and heating curves in metallic systems, this results in:  
+F = 0 → A plateau  
+F = 1 → A turning point  
+
+---
+
 <details>
-<summary>Single-phase</summary>
+<summary>Single Phase</summary>
 <div>
-- pure aluminum
-- pure iron
-- water
+- Pure aluminum  
+- Pure iron  
+- Water  
 </div>
 </details>
 
-
 <details>
-<summary>Two-phase</summary>
+<summary>Two Phases</summary>
 <div>
-- fog
-- supersaturated solutions
-</div>
-</details>
-<details>
-<summary>Solid solution</summary>
-<div>
-A solid solution is a chemically homogeneous, uniform crystal made up of several types of atoms.
+- Mist  
+- Supersaturated solutions  
 </div>
 </details>
 
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a8/114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P_%28cropped%29.jpg)
+<details>
+<summary>Solid Solution</summary>
+<div>
+A solid solution is a chemically homogeneous, uniform crystal consisting of multiple types of atoms.  
+</div>
+</details>
 
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a8/114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P_%28cropped%29.jpg)  
 ![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/4/4e/Nuclear_Power_Plant_Cattenom.jpg)
+
+---
+
+# Solid Solutions
+
+- At least 2 types of atoms
+- Heterogeneity becomes visible only at atomic dimensions
+- Most metals can incorporate a certain number of foreign atoms in their lattice
+- This leads to "strain" in the lattice  
+
+- Known as "solid solution"
 
 ---
 
 ## Types of Solid Solutions
 
-![bg right fit](http://anorganik.chemie.vias.org/img/mischkristalle.png)
+![bg right fit](../assets/Figures/mischkristalle.png)
 
-Substitutional solid solution
-- similar chemical character
-- similar diameter
-- same crystal lattice
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Image Source</a>
+</div>
+
+**Substitutional Solid Solution**  
+- Similar chemical properties  
+- Similar diameters  
+- Same crystal lattice  
 
 ---
 
-Interstitial solid solution
-- smaller atoms
-- placed in the gaps of the crystal lattice (interstitial or interstitial atoms) 
-- second component is dissolved
+## Types of Solid Solutions (continued)
+
+![bg right fit](../assets/Figures/mischkristalle.png)
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Image Source</a>
+</div>
+
+**Interstitial Solid Solution**  
+- Smaller atoms  
+- Fit into gaps in the crystal lattice (interstitial atoms)  
+- Second component is dissolved  
+- Diameter ratio $f=\frac{d}{D}\leq 0.41$  
 
 _Both types are single-phase._
 
+---
+
+## Intermetallic Phase / Intermediate Crystals
+
+- Usually a complex lattice structure, independent of parent lattices (hundreds of atoms)
+- Strong attractive forces between atom types
+- In addition to metallic bonds, covalent and ionic bonds are present  
+→ Binding form lies between chemical and metallic → intermediate  
 
 ---
 
-## Intermetallic phase
-
-- mostly complex lattice structure, independent of the original lattices
-- ordered interstitial structures
-- not a compound in the chemical sense (law of constant and multiple proportions does not apply)
-- predominant bond type: metallic bond, but with added atomic and ionic bond components
-
-Characteristic: hard and very brittle
-
+- These are very hard and brittle  
+- Technical alloys usually contain less than 10% of these phases  
+- Important subgroup → interstitial phases (interstitial structures):  
+  - Carbides, borides, nitrides  
+  - Used in tool steels and heat-resistant steels  
 
 ---
 
 # Microstructure of Materials
 
-- characterized by the type, size, shape, orientation, and arrangement of individual components (phases), such as crystallites (grains), amorphous regions, reinforcements, or fillers
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a7/Vanadium-bar.jpg)
+- Characterized by the type, size, shape, orientation, and arrangement of individual components (phases) such as crystallites (grains), amorphous areas, and reinforcement or filler materials  
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a7/Vanadium-bar.jpg)  
 ![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/5e/AlubronzeCuAl20v500.png)
 
 ---
 
 ## Formation of Microstructure
 
-Melt  → Cooling / Undercooling
-↓
-Nucleation (homogeneous + heterogeneous)
-↓
-Crystal growth → Crystallization
-↓
-Formation of crystallites (grain formation with grain boundaries)
-↓
-∑ of all grains and grain boundaries 	=>    Microstructure
+Melt  → Cooling / Undercooling  
+↓  
+Nucleation (homogeneous + heterogeneous)  
+↓  
+Nucleus Growth → Crystallization  
+↓  
+Formation of Crystallites (grains with grain boundaries)  
+↓  
+∑ of all grains and grain boundaries  → Microstructure  
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
 
 ---
 
 ## Nucleation
-- Solidification does not occur uniformly -> formation of nuclei
-- homogeneous (same type) or heterogeneous (different type) 
-- Growth of nuclei (crystal growth) until the entire melt has solidified
-- There are relationships between the number of nuclei (NN) and the crystallization speed (CS) on one hand and the undercooling ΔT on the other.
+
+- Solidification does not occur uniformly → nuclei form  
+- Can be homogeneous (of the same type) or heterogeneous (of different types)  
+- Nuclei grow (crystal growth) until the entire melt has solidified  
+- Relationships exist between the number of nuclei (N) and the crystallization rate (R) on one hand, and the degree of undercooling ΔT on the other.  
 
 ---
-## Influencing Factors on Grain Size Formation
-![](../assets/Figures/Korngroesse.png)
-a) → fine-grained microstructure  $\qquad$	b)  → coarse-grained microstructure
 
+## Factors Influencing Grain Size Formation
 
-- large number of nuclei -> fine-grained microstructure
-- rapid crystal growth and low NN -> coarse-grained microstructure
+![](../assets/Figures/Korngroesse.png)  
+a) → Fine-grained structure  $\qquad$	b)  → Coarse-grained structure  
+
+- High number of nuclei → fine-grained structure  
+- Rapid crystal growth and low nucleus count → coarse-grained structure  
 
 ---
-## Terms
-Grain 
-- Nuclei have completed growth and touch each other
-- Crystal orientation between adjacent grains is generally different
-- Shape and size are determined by heat flow
-  - uniform in all directions - _globular_
-  - preferred direction of heat flow - _transcrystalline solidification_
 
-Grain boundary 
-- Transition areas between grains
+## Terminology  
+**Grain**  
+- Nuclei have finished growing and meet each other  
+- Crystal orientation between neighboring grains is generally different  
+- Shape and size are determined by heat flow:  
+  - Uniform in all directions - _globular_  
+  - Preferential direction of heat flow - _columnar solidification_  
 
+**Grain Boundary**  
+- Transition surfaces between grains  
 
 ---
 
 ## Casting or Continuous Casting
 
-- During casting or continuous casting in a metal mold (ingot mold), a casting structure forms in three zones, usually with a clear demarcation between them:
+- During casting or continuous casting into a metal mold, a casting structure forms in three zones, typically with distinct boundaries:
 
 ---
 
-1.	Fine-grained globular boundary zone
-
-- strong undercooling of the melt at the mold wall
-- formation of numerous crystal nuclei -> small, uniform crystallites
+1. Fine-Grained Globular Boundary Zone  
+- Strong undercooling of the melt at the mold wall  
+- Formation of numerous nuclei → small, uniform crystallites  
 
 ![bg right 80%](../assets/Figures/Kokille.png)
 
 ---
 
-2.	Transcrystallization zone with stem-like, very coarse crystallites
-
-- directed growth of crystallites (stem crystals), where the crystallographic orientation aligns with the direction of the heat gradient;
-- the orientation that arises from this => casting texture 
+2. Columnar Zone with Stem-Shaped, Very Coarse Crystallites  
+- Directed growth of crystallites (stem crystals), with crystallographic orientation aligned with the direction of the heat gradient  
+- This orientation results in a casting texture  
 
 ![bg right 80%](../assets/Figures/Kokille.png)
 
 ---
 
-3.	Globular core zone
-- impurities are pushed ahead by the stem crystals and accumulate in the core
-- high number of different-type nuclei 
-- fine-grained globular core zone 
-- In very pure metals, however, a coarse-grained structure is found in the third zone
+3. Globular Core Zone  
+- Impurities are pushed by stem crystals and accumulate at the core  
+- High number of foreign nuclei → globular fine-grained core zone  
+- In very pure metals, a coarse-grained structure is observed in the third zone  
 
 ![bg right 80%](../assets/Figures/Kokille.png)
 
