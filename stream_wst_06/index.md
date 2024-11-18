@@ -77,7 +77,6 @@ Prof. Dr.-Ing. Jürgen Häberle
 # Terminology
 
 ## Alloy
-- From "ligare" - to bind, connect, unite
 - Mixture of multiple types of atoms (_components_) with _metallic character_
 - Components:
   - Mostly metallic (Cu, Ni)
@@ -141,7 +140,7 @@ $m_{Ni}=n_{Ni}A_{Ni}=0.7551kg$
 
 ## Phase
 
-- Commonly understood in terms of the state of matter (solid, liquid, gas, plasma)
+Commonly understood in terms of the state of matter (solid, liquid, gas, plasma)
 
 **General Definition**  
 A phase is a chemically and physically uniform, homogeneous part of an alloy or matter in general.
@@ -197,7 +196,7 @@ $F = n - P + 1$
 
 For cooling and heating curves in metallic systems, this results in:  
 F = 0 → A plateau  
-F = 1 → A turning point  
+F = 1 → A gradient change
 
 ---
 

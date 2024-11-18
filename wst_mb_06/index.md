@@ -142,7 +142,7 @@ $m_{Ni}=n_{Ni}A_{Ni}=0.7551kg$
 
 ## Phase
 
-- Bekannt im Bezug auf den Aggregatzustand (fest, flüssig, gasförmig, plasmaförmig)
+Bekannt im Bezug auf den Aggregatzustand (fest, flüssig, gasförmig, plasmaförmig)
 
 **Allgemeine Definition**
 Unter Phase versteht man einen chemisch und physikalisch gleichartigen homogenen Bestandteil einer Legierung oder von Materie überhaupt.
