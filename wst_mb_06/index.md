@@ -185,47 +185,27 @@ _Modell kann auch verwendet werden, um Diffusion von Gasen aus Tanks zu beschrei
 
 ---
 
-## Gibbsche Phasenregel
-
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
-
----
 
 
-<details>
+
 <summary>Einphasigkeit</summary>
-<div>
+
 - reines Aluminium
 - reines Eisen
 - Wasser
-</div>
-</details>
 
 
-<details>
+
+
 <summary>Zweiphasigkeit</summary>
-<div>
+
 - Nebel
 - übersättigte Lösungen
-</div>
-</details>
-<details>
+
 <summary>Mischkristall</summary>
-<div>
-Ein Mischkristall ist ein chemisch homogener, gleichartiger Kritall, der aus mehreren Atomsorten aufgebaut ist.
-</div>
-</details>
+
+- Ein Mischkristall ist ein chemisch homogener, gleichartiger Kritall, der aus mehreren Atomsorten aufgebaut ist.
+
 
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a8/114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P_%28cropped%29.jpg)
 
@@ -392,6 +372,12 @@ Korngrenze
 ![bg right 80%](../assets/Figures/Kokille.png)
 
 ---
+
+## Schweißen
+
+![bg right](https://cdn.schuetz-licht.com/image/Wissen/Schweissnahtpruefung/A-Mass/Schweissnaht-Analyse.JPG)
+
+---
  
 # Gefügenachweise
 
@@ -459,7 +445,11 @@ Plastographie - Polymerwerkstoffe
 ---
 ## Achtung!
 
-Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei einer sehr lang-samen Abkühlung aus dem schmelzflüssigen Zustand bis hin zur Raumtemperatur, bei der sich das Gleichgewicht zwischen den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann. 
+Zustandsdiagramme sind Gleichgewichtsdiagramme. 
+Sie haben nur Gültigkeit bei einer sehr langsamen 
+Abkühlung aus dem schmelzflüssigen Zustand bis hin zur 
+Raumtemperatur, bei der sich das Gleichgewicht zwischen 
+den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann. 
 
 ---
 
@@ -469,26 +459,40 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 
 ---
 
+
+## Gibbsche Phasenregel
+
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+        
+$F = n  - P + 1$
+        
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwär-mungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
+
+---
+
 ## Löslichkeiten
 
-<details>
-<summary>Unlöslich</summary>
-<div>
+
+Unlöslich
+
 - zu große Unterschiede bei den Atomdurchmessern
 - Kristallgitter weichen voneinander ab
 - Komponenten sind chemisch sehr unterschiedlich
-</div>
-</details>
 
 
-<details>
-<summary>Löslich</summary>
-<div>
+
+
+Löslich
 - kaum Unterschiede bei den Atomdurchmessern
 - Kristallgitter sind identisch
 - Komponenten sind chemisch sehr nah beieinander
-</div>
-</details>
 
 ---
 ## Beispiel aus der eigenen Erfahrung
@@ -496,10 +500,7 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 - Salz- / Zuckerkristalle in Wasser werden vollständig gelöst und ist nicht mehr sichtbar
 
 
----
 
-
-# Zustandsdiagramme (ZSD)
 
 ---
 
@@ -557,6 +558,7 @@ Fall 2:
 Korngrenzensubstanz sind spröde -> Materialverhalten wird durch Korngrenzen dominiert -> Versprödung
 
 
+
 ---
 
 ## Eutektische Reaktion
@@ -598,6 +600,7 @@ Sonderfall:
 - Bei Abkühlung aus der Schmelze bildet sich ein Mischkristall $\alpha$
 - bildet bei konstanter Temperatur (entsprechend der **Eutektikalen**) mit der Schmelze reagierend eine zweite Mischkristallart $\beta$ bildet. 
 - bei einer peritektischen Reak-tion entstehen aus der Schmelze und bereits ausgeschiedenen $\alpha$-Mischkristallen bei gleich bleibender Temperatur neue $\beta$-Mischkristalle.
+
 
 
 
