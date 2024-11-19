@@ -130,7 +130,7 @@ Kontakt: christian.willberg@h2.de
 - Bereitstellung des Werkstoffs
 - Erzeugung eines urformfähigen Werkstoffzustand
 - Füllen des Urformwerkzeugs mit urformfähigmen Werkstoff
-- Übergang des Werkstoffs in den formbaren Zustand im Umformwerkzeug
+- Übergang des Werkstoffs in den formbaren Zustand im Urformwerkzeug
 - Entnahme des geformten Ergebnisses
 
 ---
@@ -214,7 +214,7 @@ Die Prozesskette beim Gießen besteht aus
 
 ## Gusseisen 
 
-- Massenanteil über 2.06 %
+- Massenanteil über 2.06 % Kohlenstoff
 - gute Gießbarkeit auf (geringer Schmelzpunkt, dünnflüssige Schmelze, …)
 - hart und spröde ist
 - Die Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
@@ -335,19 +335,6 @@ Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folge
 
 ---
 
-## Additive Fertigung
-
-- schichtweiser Aufbau eines dreidimensionalen Bautils
-- Verfahrensarten
-  - Tropfen
-  - Filament
-  - Draht
-  - Pulverauftrag
-  - ...
-
-[Grundlagen](https://www.youtube.com/watch?v=d_YUk4vcFCE)
-
----
 
 
 
