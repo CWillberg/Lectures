@@ -168,6 +168,51 @@ $c_S=20\%$, $c_{\alpha}=40\%$, $c_L=25\%$
 $\frac{m_s}{m_{\alpha}}={c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25\%-20\%}=\frac{15}{5}=\frac{3}{1}$
 - im Punkt 2 liegt 3 mal soviel Schmelze wie Mischkristall vor
 
+
+---
+
+## Praktische Bedeutung
+
+- Kupfer Nickel Legierungen haben gegenüber reinem Kupfer eine höhere Festigkeit bei guter Korrosionsbeständigkeit
+
+
+---
+
+# Völlige Löslichkeit im flüssigen und teilweise Löslichkeit im festen Zustand
+
+- Metallschmelzen der Elemente A und B lösen sich in beliebigen Mischungsverhältnissen (Konzentrationen)
+- die Mischkristalle bilden sich nur noch in bestimmten Maße
+
+Wann tritt das auf?
+
+---
+
+- Atomdurchmesser weichen voneinander ab
+- Kristallgitter der Komponenten unterscheiden sich
+- Komponenten sich chemisch verschieden
+
+Die Komponenten sich sich weder sehr ähnlich, noch sehr verschieden
+
+Es können folgende ZSDs auftauchen
+- Eutektikum
+- Peritektikum
+
+
+---
+
+![bg 70%](../assets/Figures/Eutektikum.png)
+
+---
+
+## Hinweis
+
+- Löslichkeitslücke meist als Mischungslücke bekannt
+- $\alpha_1$ ist ein A reicher Kristall
+- $\alpha_2$ ist ein B reicher Kristall
+
+- Durchmesser irgendwann so groß, dass die Löslichkeitslücke in den Schmelzbereich ragt
+-> Eutektikum
+
 ---
 
 ## Eutektischer Entmischung
@@ -187,23 +232,6 @@ $\frac{m_s}{m_{\alpha}}={c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25\%-20
 
 ---
 
-## Gibbsche Phasenregel
-
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
-
-
----
 
 
 
@@ -241,6 +269,10 @@ Sonderfall:
 ---
 
 
+![](https://www.giessereilexikon.com/uploads/tx_d3ency/687-02.png)
+
+---
+
 ## Systeme mit Peritektikum (mit peritektischer Entmischung) 
 
 
@@ -254,6 +286,26 @@ Sonderfall:
 
 ---
 ![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Peritektikum.svg)
+
+---
+
+
+## Gibbsche Phasenregel
+
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+        
+$F = n  - P + 1$
+        
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
+
+
 
 ---
 
