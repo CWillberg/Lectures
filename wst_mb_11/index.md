@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung Grundlagen Maschinenbau - Werkstofftechnik
+title: Vorlesung Zerstörungsfreie Prüfung
 author: Christian Willberg
 ---
 
@@ -51,1090 +51,582 @@ footer {
 </style>
 
 
-## Vorlesung Grundlagen Maschinenbau - Werkstofftechnik
+## Vorlesung Werkstofftechnik - Zerstörungsfreie Prüfung
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](../assets/Figures/IWES_test.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/UT_principe.svg/660px-UT_principe.svg.png)
 
 Kontakt: christian.willberg@h2.de
-Teile des Skripts sind von \
-Prof. Dr.-Ing. Jürgen Häberle übernommen
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
+
+
 
 
 ---
 
 <!--paginate: true-->
 
-## Nützliche Links
 
-<!-- zusammenarbeit; wir erarbeiten unsere eigene Dokumenation -->
-[Skript](https://cwillberg.github.io/Werkstofftechnik/)
-[Formelsammlung]( https://cwillberg.github.io/Werkstofftechnik/Formelsammlung)
-TBD
-[CoopSpace]()
-![bg right 50%](../assets/styles/vorlesung.png)
+# Zerstörungsfreie Prüfung
+
+Ziele der zerstörungsfreien Prüfung (ZfP)
+
+
+---
+## Entwicklungsstufen
+
+ZfP 1.0 – Werkzeuge (zur Schärfung der Sinne)
+ZfP 2.0 – Analoge Systeme (zur Ansicht innerhalb der Komponenten)
+ZfP 3.0 – Digitale Verarbeitung und Automatisierung
+ZfP 4.0 – Transparenz von Informationen, technische & digitale Hilfsmittel und autonome und dezentralisierte Entscheidungen
 
 ---
 
-## Vorlesung
+## Verfahren
+- jede messbare physikalische Größe kann im Prinzip genutzt werden 
 
-**Rahmen**
-
-
-- Essen oder Trinken sind okay, aber leise
-- Probleme bei der Kinderbetreuung
-- Alles verbleibt in Raum!
-- Fragen
-
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
-## Inhalte
-
-- Werkstoffe
-- Aufbau von Materialien
-  - Atome und Bindungen
-  - Feinstruktur
-  - Mikrostruktur
-- Gefüge von Werkstoffen
-- Eigenschaften von Materialien
-  - physikalische
-  - nicht physikalische
-- Zustandsdiagramme
+  - mechanisch (außer Ultraschallprüfung)
+  - optisch
+  - elektromagnetisch
+  - elektrisch
+  - thermisch
+  - magnetisch
 
 ---
 
 
+## Ausarbeiten und Vorstellen
 
-## Werkstoffe
+--- 
 
+
+## Probabilty of Detection
+
+- Metrik, welche die Wahrscheinlichkeit der Detektion eines Fehlers einer bestimmten Größe angibt
+
+![bg right 80%](https://sentin.ai/wp-content/uploads/2020/08/POD-Curve-768x768.jpg)
+
+
+- Die zulässige Fehlergröße ist  bekannt
+- mit einer Konfidenz von 95% angeben. D.h. zu 95% werden 90% der Fehler detektiert.
+
+---
+
+## Schadensgröße
+
+- je nach Verfahren variiert die detektierbare Schadensgröße
+- es gilt nicht immer _kleine Schadesgröße_ $=$ _besser_
+- minimaler Schaden $l = \frac{\lambda}{2}$ -> Abstasttheorem
+$c = \lambda f$
+- $c$ ist die Licht- oder Schallgeschwindigkeit
+
+$\lambda = \frac{c}{f} = \frac{6000 m/s}{10^6 1/s} = 6 mm$
+![bg right fit](../assets/Figures/sandwichvarianten.png)
+![bg vertical fit](https://upload.wikimedia.org/wikipedia/commons/4/44/Kohlenstofffasermatte.jpg)
+
+---
+
+
+## Sichtprüfung
+
+- kann mit verschiedenen Werkzeugen stattfinden und ist sehr verbreitet
+- direkte Sichtprüfung
+  - Auge
+  - Boroskope (Elastoskope, Endoskope, Spiegelrohre, ...)
+- indirekte Sichtprüfung
+  - Kameras
+  - Drohnen
+
+
+---
+
+## Eindringprüfung
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ressuage_principe_2.svg/330px-Ressuage_principe_2.svg.png)
+1. Reinigung, 2. Farbe auftragen und eindringen lassen, 3. Oberflächliches reinigen, 4. Entwickler auftragen
+
+- bei Tageslicht oder im dunkeln 
+
+---
+
+## Durchstrahlungsprüfung
+
+- Röntgen-, Mikrowellen-, Gammastrahlung 
+- Synchrotronstrahlung (Spezialfälle, eher selten)
+
+- auch als Computertomographie nutzbar
+![bg right fit](https://www.researchgate.net/profile/Christian-Willberg/publication/258207141/figure/fig1/AS:297342013067264@1447903268377/Plate-and-actuator_W640.jpg)
+![bg vertical fit](https://www.researchgate.net/profile/Christian-Willberg/publication/258207141/figure/fig3/AS:297342013067266@1447903268956/The-continues-debonding-region-A-shown-by-C-T-images-in-several-frames-see-Fig-2_W640.jpg)
+
+---
+
+## Thermographie
+**aktive**
+- Bauteil ist warm und wird vermessen
+- Unterschiede in der Temperaturverteilung können zur Identifikation von Fehlern genutzt werden
+- Prozessanpassungen sind möglich
+
+**passive**
+- Bauteil wird angeregt und die Reaktion wird vermessen
+- induktive Erwärmung bei Kohlefaserverbundbauteilen
+
+
+---
+
+## Modalanalyse
+
+$\mathbf{M}\ddot{\mathbf{u}}+\mathbf{Ku}=\mathbf{0}$
+
+- Eigenformen
+- Eigenfrequenzen
+
+
+$(\mathbf{K}-\omega^2\mathbf{M})\hat{\mathbf{x}}=\mathbf{0}$
+
+**Federpendel**
+$m\ddot{u}+cu=0$
+
+$c-\omega^2 m = 0$
+
+$\omega = 2\pi f = \sqrt{\frac{c}{m}}$
+
+---
+
+## Modalanalyse
+
+- Anregung mit einem Shaker oder Impulshammer
+- Messpunkte mit Beschleunigungssensor oder Laser
+- Ein Anregungspunkt -> viele Messpunkte
+- Viele Anregungspunkte -> ein Messpunkt
+
+
+![bg right 50%](https://www.researchgate.net/profile/Andrzej-Rysak/publication/291827506/figure/fig4/AS:322054793515011@1453795254691/Modal-analysis-of-the-vibrating-beam-in-the-fixed-mass-case-The-corresponding-bending_W640.jpg)
+
+![bg vertical 50%](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Modal_testing-detail.tif/lossy-page1-489px-Modal_testing-detail.tif.jpg)
+
+---
+
+
+
+## Ultraschallprüfung
+
+**Wellenarten**
+Longtitudinalwellen (P Wellen)
+Transversalwellen (S Wellen)
+Love Wellen
+Rayleighwellen
+Lambwellen, bzw. geführte Ultraschallwellen
+Symmetrische, unsymmetrische und Schubwellen
+Torsionswellen
+Schubwellen
+
+---
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/07/Overview_Seismic_Waves.jpg)
+
+---
+
+## Symmetrische Moden (Longitudinalwellen)
+
+<video controls="constrols" width="600" scr=".../assets/Videos/asym.avi">
+
+---
+
+## Anti-Symmetrische Moden (Transversalwellen)
+
+<video controls="constrols" width="600" scr=".../assets/Videos/asym.avi">
+
+---
+
+
+## Schallgeschwindigkeiten
+$c_{l}=\sqrt{\frac{E(1-\nu)}{\rho(1-\nu-\nu^2)}}$
+$c_{t}= \sqrt{\frac{G}{\rho}}$
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/e/e7/Sym_asym_sigma0.27_und_0.34_edited2.svg)
+
+Geführte Ultraschallwellen sind dispersiv
+sie haben eine Gruppen und Phasengeschwindigkeit
+
+---
+
+## Dispersion
+
+- Gruppengeschwindigkeit - wie schnell bewegt sich die Hüllkurve 
+- Phasengeschwindigkeit - wie schnell bewegt sich die Phase (einzelne Frequenz)
+
+- für eine Frequenz sind Gruppen und Phasengeschwindigkeiten identisch
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif)
+
+- Für frequenzabhänige Phasengeschwindigkeiten verbreitert sich die Hüllkurve -> Dispersion 
+
+---
+
+## Piezoelektrischer Effekt
+
+- Aktuatoreffekt
+- Sensoreffekt
+- $d_{31}$; el. Spannung in 3 Richtung und Deformation in 1, bzw. 2 Richtung
+- $d_{33}$; el. Spannung in 3 Richtung und Deformation in 3 Richtung
+
+![bg right 70%](../assets/Figures/piezo.png)
+
+![bg vertical 100%](../assets/Figures/polarization_2.png)
+
+---
+
+## Reflexionen an Grenzflächen
+- Schallwiderstand $W = c_L\rho$
+
+_Reflektierender Schall_
+$\frac{p_{a,r}}{p_{a,e}}=\frac{W_2-W_1}{W_2+W_1}$
+
+_Durchgehender Schall_
+$\frac{p_{a,d}}{p_{a,e}}=\frac{2W_2}{W_2+W_1}$
+
+![bg right fit](../assets/Figures/reflexion.png)
+
+---
+
+## Rechenaufgabe
+
+-> Wasser - Stahl
+-> Luft - Stahl
+-> Wasser - Aluminium
+-> Luft - Aluminium
+-> Wasser - PMMA
+-> Luft - PMMA
+
+
+---
+
+## Signal - Rausch Verhältnis
+
+$SNR = \frac{P_{Signal}}{P_{Rauschen}}$
+
+- Mehrfachmessungen reduziert den Rauschanteil
+
+---
+
+
+## Messaufbau
+
+- 1 - 2 Wandler
+- Messverstärker
+- Messaufnehmer
+
+![bg right 80%](http://std-partners.de/fileadmin/_processed_/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
+
+---
+
+## Anbindung des Prüfkopfs an die Oberfläche
+
+Wasser
+- billig
+- gut automatisierbar
+
+Motoröl, Schmierfett
+- bereits vorhanden im Bauteil
+- nicht optimiert auf Prüfung
+
+---
+
+Glycerin, Gel
+- Vorteilhaft ist die hohe Viskosität und die hohe akustische Impedanz
+- raue Oberflächen und stark dämpfende Materialien (Schweißnahtprüfung)
+
+Luft
+- spart Koppelmedium
+- viel Rauschen
+---
+
+
+
+
+
+## Impuls-Echo Verfahren
+
+- Zone des "Todes"
+  - Zeit für Wechsel von Sender zum Empfänger
+
+- Doppelsensorsystem
+  - Messung auf beiden Seiten
+  - Zugänglichkeit und Aufwand
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/UT_principe.svg/660px-UT_principe.svg.png)
+
+---
+
+## Messbild
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/08/Swing_shaft_spline_cracking.png)
+
+---
+
+## Schweißnahtprüfung
+
+- Schrägschallung aufgrund der schwierigen Ankopplung
+
+
+![bg right fit](https://www.karldeutsch.de/wp-content/uploads/2018/12/UT-2-2-DE.png)
+
+## Klebschichten
+
+- werden ähnlich geprüft
+- es kann sogenannte "kissing bonds" geben
+
+---
+
+## Wanddickenmessung
+
+![](https://www.karldeutsch.de/wp-content/uploads/2018/12/UT-2-1-DE.png)
+
+
+---
+
+## Bildgebung
+
+- Messdaten können auf verschiedene Weise dargestellt werden
+
+---
+
+## A Bild (amplitude)
+
+- Laufzeit vs. Amplitude
+- bei konstanter Geschwindigkeit kann für einen Punkt eine Fehlstelle im Signal detektiert werden
+
+![bg right fit](https://wiki.polymerservice-merseburg.de/images/4/40/A_bild.JPG)
+
+---
+
+## B Bild (brightness)
+
+- Einzelpunkt ist nur eine andere Darstellung des A Bildes (Intensität des Echos wird durch Helligkeit dargestellt)
+- Durch die Erfassung der Schallrichtung können 2D oder 3D Bilder erzeugt werden
+
+
+![bg right 70%](https://www.spektrum.de/lexika/images/physik/fff925_w.jpg)
+
+---
+
+
+## C Bild
+- ein projiziertes Bild der Größen der Fehlstellen
+
+![](https://upload.wikimedia.org/wikipedia/de/1/1f/C-bild-2.jpg)
+
+---
+
+## D Bild
+
+- flächiger Scan
+
+![bg right 80%](https://wiki.polymerservice-merseburg.de/images/a/a7/D_Bild_Technik-4.JPG)
+
+![](https://wiki.polymerservice-merseburg.de/images/a/af/D_Bild_Technik-1.JPG)
+
+---
+
+## Dickenmessung mittels Geführten Ultraschallwellen
+
+
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/e/e7/Sym_asym_sigma0.27_und_0.34_edited2.svg)
+
+---
+
+# Structural Health Monitoring
+
+- Überwachung einer Struktur während des Betriebs
+- Verwand mit dem Condition Monitoring
+  - bspw. Getriebeüberwachung -> Detektion von Lagerschäden
+
+---
+
+Ziele:
+Wartungskosten senken
+  - weniger Reparaturen
+  - einfachere Prüfung
+  - rechtzeitige Wartung
+- Lastanpassung bei Schäden
+- Lebensdauer verlängern
+- Sicherheit erhöhen
+
+---
 
 <details>
-<summary>Was sind Werkstoffe?</summary>
+<summary>Stufe 1</summary>
 <div>
-
-[Werkstoffe im engeren Sinne nennt man Materialien im festen Aggregatzustand, aus denen Bauteile und Konstruktionen hergestellt werden können.](https://de.wikipedia.org/wiki/Werkstoff)
+Ein System kann feststellen, dass ein Event passiert ist
 </div>
 </details>
 
-
----
-## Anwendunggebiete mit Bildern
-
-- Metalle
-  - Eisen Stahl
-  - Nicht Eisen
-- Kunststoffe
-- Keramiken
-- Verbundwerkstoffe
-
-
----
-
-## Gußeisen - Stahl
-
-![bg 60% right](https://upload.wikimedia.org/wikipedia/commons/b/bf/Gu%C3%9Fteil_2007.gif)
-
-![bg 60% vertical](https://upload.wikimedia.org/wikipedia/commons/2/2e/LPD_22_MAR_2010.jpg)
-
----
-
-## Nicht Eisen Metalle
-
-- Kupfer ist ein sehr guter elektrischer und thermischer Leiter
-
-![bg right 70%](https://images-of-elements.com/copper.jpg)
-
----
-
-- Magnesium findet im Leichtbau Anwendung 
-- Titan und Titanlegierungen 
-    - hohe Festigkeit und Warmfestigkeit
-    - Korrosionsbeständig
-- Nickel
-    - Korrosionsbeständigkeit
-    - hohe Warmfestigkeit
-
-![bg right 30%](https://images-of-elements.com/magnesium.jpg)
-![bg right 30% vertical](https://images-of-elements.com/titanium-crystal.jpg)
-![bg right 30%](https://images-of-elements.com/nickel.jpg)
-
----
-
-## Keramiken
-
-![bg right fit](http://www.hoogspanningsnet.com/wp-content/uploads/Eindsluitingen%20(Michel).jpg)
-
-
----
-
-## Gläser
-
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/15/Magnifying_Glass_Photo.jpg)
-
----
-
-## Faserverbundwerkstoffe
-
-![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2022/03/boom_blank_be.png)
-
----
-
-# Struktur von Werkstoffen
-
-![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
-
-
-
----
-
--	Atomistische Struktur (Art der atomaren Bausteine)
--	Feinstruktur (Bindungen zwischen den atomaren Bausteinen und deren geometrische An-ordnung)
--	Mikrostruktur (Gefüge – Bereiche geometrischer Anordnung, die im Werkstoffinnern durch Grenzflächen voneinander getrennt sind)
--	Makrostruktur (Grobstruktur – Gesamterscheinung eines Werkstoffes bei der Herstellung und dem Einsatz eines Bauteils)
-
-
-
----
-
-# Bindungen
-
-## Hauptvalenzbindungen  
-**Primärbindungen - hohe Bindungsenergie, starke Bindung**
--	Ionen- bzw. heteropolare Bindung 
--	Atom- bzw. homöopolare (oder kovalente) Bindung: polar (O-H) und unpolar (C-C, C-H)
--	Metallische Bindung
-
----
-
-## Metallische Bindung
-
-- Außenelektronen (Valenzelektronen) sind nur schwach gebunden 
-- es bildet sich ein Gitter (periodisch angeordneten) positiver geladener Metallionen (Atomrümpfen)
-- Außenelektronen  können sich innerhalb des Gitters nahezu frei bewegen, sogennantes **Elektronengas** 
-- bewirkt: gute elektrische Leitfähigkeit + hohe Wärmeleitfähigkeit
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/41/Nuvola_di_elettroni.svg)
-
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg)
-
----
-## Relevante Gößen
-
-**Ordnungszahl**
-Zahl der Protonen im Kern
-**Atommasse**
-bestimmt die Masse des Elements
- Masse des Werkstoffs ist eine Kombination aus Atommasse und Dichte
-**Elektronegativiät**
-bestimmt ob Atome abgegeben oder aufgenommen werden in einer Bindung
-metallische Bindungen eher links
-kovalente Bindungen eher rechts
-
----
-
-## Neben- oder Restvalenzbindungen 
-**Sekundärbindungen - geringe Bindungsenergie, schwache Bindung**
--	van der Waals-Bindung: zwischenmolekulare Kräfte
--	Wasserstoffbrückenbindung: zwei Moleküle oder zwei geeignet weit voneinander getrennte Abschnitte eines Makromoleküls treten über Wasserstoffatome in Wechselwirkung 
-- die Bindungsenergien sind ein bis zwei Zehnerpotenzen kleiner als die der Atombindungen.
-
----
-
-
-| **Bezeichnung** | **Ionenbindung oder heteropolare Bindung** | **Atombindung homöopolare (kovalente) Bindung** | **Metallische Bindung** |
-|-----------------|---------------------------------|-------------------------------------------------|--------------------------|
-| **Beteiligte Bausteine** | Ionen (Metall + Nichtmetall) | Gleiche Atomart (Nichtmetall + Nichtmetall) | Gleiche Atomart (Metall + Metall) |
-| **Beschreibung des elektrischen Lade-zustandes** | Positiv geladenes Ion + negativ geladenes Ion (Kation + Anion) | Atome besitzen ein oder mehrere gemeinsame Elektronenpaare, um die Edelgaskonfiguration zu erreichen | Atome geben ihre Außenelektronen an den Gesamtverband ab. Elektronen bewegen sich dort frei im Atomgitter |
----
-
-
-
-| **Bezeichnung** | **Ionenbindung oder heteropolare Bindung** | **Atombindung homöopolare (kovalente) Bindung** | **Metallische Bindung** |
-|-----------------|---------------------------------|-------------------------------------------------|--------------------------|
-| **Von den Bindungs-kräften abhängige Werkstoff-eigenschaften** | Im gelösten Zustand elektrisch leitfähig, kristalline Gefügestruktur | Geringe elektrische und thermische Leitfähigkeit; hoher Schmelzpunkt | Sehr gute elektrische und thermische Leitfähigkeit und Duktilität; eingeschränkte chemische Beständigkeit |
-| **Beispiele** | Alkalimetallverbindungen, Halogenverbindungen (z.B. NaCl, MgO) | Diamant, Methan (CH₄) (unpolar), Methanol (CH₃OH) (polar) | Kupfer (Cu), Aluminium (Al), Eisen (Fe) |
-
----
-
-## Atomistische Struktur
-
-Besteht aus
-- Kern (Protonen + Neutronen) der die Masse definiert
-- Hülle (Elektronen) mit verschieden Schalen, welche chemischen und viele physikalische Eigeschaften definiert
-
-![bg fit right](https://upload.wikimedia.org/wikipedia/commons/0/04/AtomRadialeDichte_He%2C_Ne%2CAr.jpg)
-
-
----
-
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
-
-
----
-
-### Feinstruktur
-- Kristallstrukturen
-- Molekülstrukturen
-- Glasig-amorphe Strukturen
-- Realstruktur
-
----
-## Raumgitter
-
-- entsteht durch die dreidimensional-periodische Verschiebung seiner Bausteine
-- charakterisiert durch drei Raumachsen x, y und z liegenden Winkel α, β, γ die Abstände auf den Achsen das jeweilige Raumgitter
-- a0, b0 und c0  (Gitterkonstanten) -> Einheitszelle
-
-
-![bg fit right](../assets/Figures/einheitszelle.png)
-
----
-
-| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
-|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
-| triklin          | a₀ ≠ b₀ ≠ c₀          | α ≠ β ≠ γ ≠ 90°                    | Silikat-Minerale                                           |
-| monoklin         | a₀ ≠ b₀ ≠ c₀          | α = γ = 90°; β ≠ 90°               | Mo₂S₃; β-Pu                                                |
-| (ortho)rhombisch | a₀ ≠ b₀ ≠ c₀          | α = β = γ = 90°                    | U, S, P, Ga, γ-Sn                                          |
-| rhomboedrisch    | a₀ = b₀ = c₀          | α = β = γ ≠ 90°                    | As, Hg, Sb                                                 |
-| hexagonal        | a₀ = b₀ ≠ c₀          | α = β = 90°; γ = 120°              | α-Ti, Mg, Zn                                               |
-| tetragonal       | a₀ = b₀ ≠ c₀          | α = β = γ = 90°                    | B, CuTi₃, Sn (T > 13,5°)                                   |
-
-
-
----
-
-## Häufigste Gitterformen bei Metallen
-
-| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
-|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
-| kubisch          | a₀ = b₀ = c₀          | α = β = γ = 90°                    | Cu, Al, Ni, Au, Ag; γ-Eisen (kfz); α-Eisen, V, Cr, W (krz); Mn, Po (kp) |
-
-
----
-
-Kubisch flächenzentriert (kfz)
-![bg right 30%](../assets/Figures/kfz.png)
-
-Kubisch raumzentriert (krz)
-
-![bg vertical 30%](../assets/Figures/krz.png)
-
-Hexagonal dichteste Packung (hpd)
-
-![bg 30%](../assets/Figures/hdp.png)
-
----
-
-## Einflüsse
-
--	Korrosion: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
--	Verformung: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
--	Ultraschall: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
--	Leitfähigkeit:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
--	Magnetisierung: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen ent-lang der Würfelkante [1 0 0]
-
----
-
-
-
-## Polymorphie bei Metallen
-
-- Polymorphie: ist die Ausbildung von verschiedenen Gitterstrukturen in Abhängigkeit von der Temperatur
-- die verschiedenen Gitterformen sind die allotropen Modifikationen 
-
-(auch: Polymorphie des Kohlenstoffs: Gra-phit, Diamant,…).
-
----
-
-## Bestimmung der Umwandlungspunkte
-
-_Dilatometrie_
-- Messung der Längenänderung aufgrund der Gitterumwandlung
-
-_Thermische Analyse_
-- Aufzeichnung des Temperaturverlaufs
-- Gitterwandlungen (Phasenänderungen) brauchen Wärmeenergie oder geben sie ab
-- Halte- bzw. Knickpunkte in den Erwärmungs- oder Abkühlungskurven.
-
-- Haltepunkte: bei reinen Metallen
-
-
----
-
-![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
-
-
----
-
-
-
-## Molekülstrukturen
-
-- typisch für nichtmetallisch-organische Werkstoffe
-  - natürliche Materialien: Holz, Kautschuk, Leder, Fasern usw.
-  - synthetische Kunststoffe: PMMA, Epoxid, usw.
-
-
-
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
-
-![bg vertical 80%](https://upload.wikimedia.org/wikipedia/commons/0/03/14-05-28-LEGO-by-RalfR-061.jpg)
-
----
-
-- entsteht durch Aufbaureaktionen von monomeren Grundbausteine zu Kettenmolekülen
-- innerhalb der Ketten treten Atombindungen auf
-- zwischen den Ketten existieren Nebenvalenzbindungen und Molekülverhakungen
-
-
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
-
----
-
-## Aufbaureaktion (Polymerisation)
-
-- Es müssen freie Bindungen in den Monomeren erzeugt werden
-- die Monomere "brauchen" neue Partner, um wieder energetisches Minimum zu erreichen
-
----
-
-## Kettenpolymerisationen
-
-  - Aufspalten von C=C-Doppelbindungen im Monomer (katalytischer Prozess durch Druck, Temperatur, Katalysator)
-  - Verbindung der aufgespaltenen Monomere zu Makromolekülen
-
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
-
----
-
-## Stufenwachstumsreaktionen 
-
-**Polykondensation**
-- Abspaltung niedermolekulare (z.B. H2O) Reaktionsprodukte durch eine chemische Reaktion schafft frei Bindungen
-- schrittweise Reaktion oder Unterbrechung führen zur Bildung von linearen, verzweigten oder vernetzten Polymeren (Thermoplaste, Elastomere oder Duromere)  
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
-
----
-
-**Polyaddition**
-- freie Bindungen entstehen durch Umlagerungen von Doppelbindungen zweier unterschiedlicher Monomermoleküle
-- diese bilden dann Molekülketten
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/4d/Polyaddition_Polyurethane_V.2.1.png)
-
----
-
-## Glasig-amorphe Strukturen
-
-- Gläser sind ein nichtmetallisch-anorganisches, vorzugsweise silikatisches Schmelzprodukte
-- nichtkristallinen, also amorphen Zustand
-- bei Glas, wird die Schmelze zunächst unterkühlt und dann unterhalb der Transformations- temperatur Tg „eingefroren“. 
-
-![bg right fit](../assets/Figures/amorph.png)
-
-
----
-
-# Realstruktur von Kristallen
-## Gitterbaudefekte
-
--	Nulldimensionale Fehlstellen (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	Eindimensionale Fehlstellen (Liniendefekte): Versetzungen
--	Zweidimensionale Fehlstellen (Flächendefekte): Stapelfehler, Korngrenzen, Subkorn-grenzen, Phasengrenzen
-
----
-
-## Nulldimensionale Fehlstellen
-
-![bg right 50%](../assets/Figures/ideales_gitter.png)
-
-
-
 <details>
-<summary>Was gibt es für mögliche Varianten?</summary>
+<summary>Stufe 2</summary>
 <div>
-
-- Zwischengitteratome
-- Leerstellen
-- Frenkeltyp (Autreten der gleichen Zahl Zwischen-gitteratome und Fehlstellen)
-- Substitutions-Fremdatom
-- Zwischengitter-Fremdatom 
+Ein System kann feststellen, dass ein Event passiert ist und wo es stattfand
 </div>
 </details>
 
----
-
-## Fremdatome
-
 <details>
-<summary>Wie lassen sich Fremdatome nutzen?</summary>
+<summary>Stufe 3</summary>
 <div>
-
--	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
-    - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
-- Zwischengitter und Substitutionsfremdatom
-    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
+Ein System kann feststellen, dass ein Event passiert ist, wo es stattfand und was stattgefunden hat (Typ des Events)
 </div>
 </details>
 
-
----
-
-
-## Versetzungen
-
-[Versetzungen](https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)) enstehen
-- beim Kristallwachstum
-- aufgrund von Eigenspannungen
-- durch plastische Verformungen
-
-![bg right 80%](../assets/Figures/versetzung.png)
-![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
-
-
----
-
-## Zweidimensionale Fehlstellen - Korngrenzen
-- Korngrenzen
-- Phasengrenzen
-- Subkorngrenzen
-
-![bg right fit](https://www.struers.com/-/media/Struers-media-library/Knowledge/Materials/Grain-structures/FIg-0A-974x732-px.jpg?lm=20191009T054854Z&h=732&w=974&hash=4504C0AA9A9B6DEB6BDF91CC93EDF46ED9AADF75)
-
-[Skript](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
-
-
----
-
-
-## Plastizität
-
-Gut oder Schlecht
-
-![bg right 70%](../assets/Figures/fragezeichen.png)
-
----
-
-## Beispiele
-
-**Hohe Plastizität**:
-
-- Knete
-- feuchter Ton
-- Metalle und Metalllegierungen mit geeignetem Atomgitter:
-  - glühender Stahl beim Schmieden
-  - Kaltumformung von Blechen 
-
-**Geringe Plastizität**:
-  - Gummi
-  - Keramik
-  - Faserkunstoffverbunde (Epoxid-Glasfaser oder Epoxid-Kohlefaser)
-   
----
-
-## Plastizität - Einkristall
-
-Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch Abgleiten von Atomschichten entlang bestimmter kristallographischer Ebenen und Richtungen unter Einwirken von Schubspannungen.
-
-- Gleitsystem besteht aus Gleitebene und Gleitrichtung
-- kritische Schubspannung ($\tau_{Kr}\approx G/10$ - Abschätzung oder theoretische Schubfestigkeit)
-- Realtität um Faktor ~100 niedriger durch Versetzungen
----
-
-## Bild
-
-![](../assets/Figures/Beispiel_plast.bmp)
-  
----
-
-## Plastische Verformung des polykristallinen Werkstoffs
-
-- Mikro- und Makroplastizität
-  - Plastische Verformung beginnt bei "ungünstigen" Orientierungen
-- Korngrenzen
-  - Barriere für Versetzungsbewegung
-  - bei hohen Temperaturen können Korngrenzen gleiten (Kriechen)
-  - gezielte Fertigung kann durch Korngrenzen Zähigkeit erhöhen
-- Heterogenität
-  - Mehrphasigkeit
-  - inhomogene Verteilung der Spannungen und Verformungen
-- Anisotropie
-
----
-
-## Polykristall Plastizität
-[Beispiel aus einer Simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
-
-- $R_m$ - Zugfestigkeit
-- $R_e$ - Streckgrenze
-- Dehngrenze oder Elastizitätsgrenze $R_{p0,2}$
-  - Belastung und dann Entlastung 0.2% Dehung verbleibt
-- Dehngrenze wird als Ersatzstreckgrenze verwendet
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
-
-- obere Streckgrenze $R_{eH}$
-- untere Streckgrenze $R_{eL}$
->gezackter Bereich: Lüdersbereich
-
-[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
-
----
-
-## Plastizität - Umformen
-- [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
-- [Tiefziehen Real](https://www.youtube.com/watch?v=rHfepOqPVHI)
-
----
-
-
-
-
-
-## Werkstoffeigenschaften
-
 <details>
-<summary>Was sind Werkstoffeigenschaften?</summary>
-
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    <pre align="center" class="mermaid">
-    %%{init: {'theme': 'forest'}}%%
-    mindmap
-      root((Eigenschaften))
-        Physikalisch
-          Mechanisch
-          Elektrisch
-          Thermisch
-          ...
-        Chemisch
-            Löslichkeit
-            Elektronegativität
-            ...
-        Biologisch / Physiologisch
-            Umweltwirkung
-            Verwitterbarkeit
-            Toxidität
-            ...
-        Sozial / Gesellschaftlich
-            Wert
-            Akzeptanz
-            Arbeitsbedingungen
-            Herkunft
-            ...
-    </pre>
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    </script>
-  </body>
-</html>
-</details>
-
-<!DOCTYPE html>
-
----
-
-## Materialpatenschaft
-
-
-
-
-<details>
-<summary>Welche Werkstoffe fallen euch ein?</summary>
+<summary>Stufe 4</summary>
 <div>
-
-- Materialien beschreiben und Eigenschaften dokumentieren
-  - kontinuierlich über das Semester mit den verschiedenen Themen
-  - Vorstellung Ende des Semesters
-- Online mit QR Code für die Materialbibliothek bereitstellen
-- Warum?
-  - Auswahl des passenden Werkstoffs
-
+Ein System kann feststellen, dass ein Event passiert ist, wo es stattfand, was stattgefunden und wie schädlich dieses Event für die Struktur ist
 </div>
 </details>
 
 ---
 
-## Symmetrien
-- isotropie
-- transversale isotropie
-- orthotropie
-- ...
-- anisotropie
-![bg right 80%](../assets/Figures/xyz.png)
+## Verfahren
 
-<!---
-- Diskussion; Eigenschaften können richtungsabhängig sein
-- Praxisbeispiele
--->
-
----
-
-## Mechanische Eigenschaften
-<a id="Mechanik"></a>
-
-- die **reversible** Verformung, bei der sofort bzw. eine bestimmte Zeit nach dem Einwirken der äußeren Belastung der verformte Werkstoff seine ursprüngliche Form zurückerhält: elastische und viskoelastische Verformung;
-
-- die **irreversible (bleibende)** Verformung, bei der die Formänderung auch nach dem Einwirken der äußeren Belastung erhalten bleibt: plastische und viskose Verformung;
-
-- der Bruch, d.h. eine durch Entstehen und Ausbreiten von Rissen bewirkte Trennung des Werkstoffes.
-
-
----
-
-## Simulationsbeispiel
-
-<iframe src="https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=400" width="1150" height="600"></iframe>
-
-
----
-
-## Elastizität
-- reversibel, energieerhaltend
-- Hooksches Gesetz 1D
-Normalspannung $\sigma = E\varepsilon$
-Schubspannung $\tau = G\gamma$
-
----
-
-## Grundlagen
-
-- Normaldehnung [-]
-$\varepsilon_{mechanisch} = \frac{l - l_0}{l_0}$
-
-- Normalspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\sigma = \frac{F}{A}=E\varepsilon$
-E - Elastizitätsmodul, Young's modulus $\left[\frac{N}{m^2}\right]$\
-\
-\
-\
-\
-.
-<div style="position: absolute; bottom: 40px; left: 80px; color: blue; font-size: 20px;"> 
-    <img src="Figures/EModul.svg" style="height:230px;width:auto;vertical-align: top;">
-</div>
-
-![bg right:25%](../assets/Figures/Normalspannung.gif)
-
----
-
-## Grundlagen
-
-- Schubdehnungen [-]
-$\varepsilon = \frac12(\frac{u_x}{l_0}+\frac{u_y}{b_0})=\frac{\gamma}{2}$
-
-- Schubspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\tau = \frac{F_s}{A}= G\gamma$
-
-- Normal- und Schubspannungen sind nicht kompatibel; daher die Vergleichsspannungen -> Technische Mechnanik
-
-- G - Schub-, Gleitmodul, Shear modulus $\left[\frac{N}{m^2}\right]$
-
-![bg right:25%](../assets/Figures/Schubspannung.gif)
-
-
----
-
-## Grundlagen
-
-- Querkontraktionszahl [-]
-- $\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
-für homogene Werkstoffe $0\leq\nu\leq 0.5$
-für heterogene Werkstoffe sind anderen Konstellationen denkbar
-
-- [Kompressionsmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{3(1-2\nu)}$
-- [Schubmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{2(1+\nu)}$
-
-![bg right:25%](../assets/Figures/Kompression.gif)
-
----
-
-## Werkstoffbeispiele
-
-| Werkstoff                         | E [GPa]   | G [GPa] | $\nu [-]$     |
-|:----------------------------------|:----------|:--------|:----------|
-| Stahl unlegiert                   | 200       | 77      | 0.30      |
-| Titan                             | 110       | 40      | 0.36      |
-| Kupfer                            | 120       | 45      | 0.35      |
-| Aluminium                         | 70        | 26      | 0.34      |
-| Magnesium                         | 45        | 17      | 0.27      |
-| Wolfram                           | 360       | 130     | 0.35      |
-| Gusseisen mit lamellarem Graphit  | 120       | 60      | 0.25      |
-| Messing                           | 100       | 35      | 0.35      |
-| Thermoplaste/Duromere             | 2 … 5     | 1 … 2   | ~0.35   |
-| Elastomere                        | 0.1       | 0.03    | 0.45 - 0.49|
-| Sperrholz                         | 4 … 16    | -       | -         |
-| Beton                             | 40 … 45   | -       | -         |
-
+- Modalanalyse
+- Geführte Ultraschallwellen
+- Akkustische Emission
+- Lastpfadanalysen
+  - Beispiel Parallelfeder rechnen
+- Dehnungmessung
+- Modellbasierte Ansätze
 
 ---
 
 
-## Steifigkeiten
-<details>
-<summary>Wie Materialeigenschaften den Steifigkeiten zusammen?</summary>
+## Technische Anwendungen
 
-- Material $\cdot$ Querschnitte = Steifigkeit
-- Dehn-, Normalsteifigkeit = $EA$
-- Biegesteifigkeit = $EI$
-- Torsionssteifigkeit = $GI_P$
+Brücken
+- Second Penang Bridge - Penang, Malaysia
+  ![](https://www.geosig.com/images/page_image_111.png)
 
-</details>
+---
+Pipelines
 
-![bg fit right:50%](../assets/Figures/IWES_test.jpg)
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Bildreferenz</a>
-</div>
+![](https://journals.sagepub.com/cms/10.1177/1475921719837718/asset/images/large/10.1177_1475921719837718-fig17.jpeg)
+
+--- 
+
+## Technische Anwendungen
+
+Flugzeug
+- Lastpfadanalyse
+- Überwachung von Anbindungen
+- Sicherheit ist nicht der Hauptfokus in der Luftfahrt
+
+![bg right fit](https://journals.sagepub.com/cms/10.1177/1475921720919678/asset/images/large/10.1177_1475921720919678-fig5.jpeg)
+
+![bg right fit](https://journals.sagepub.com/cms/10.1177/1475921720919678/asset/images/large/10.1177_1475921720919678-fig4.jpeg)
+
+![bg vertical fit](https://journals.sagepub.com/cms/10.1177/1475921720919678/asset/images/large/10.1177_1475921720919678-fig2.jpeg)
 
 ---
 
-## 
-<!---
+Windenergie
 
-* 1. und 2. Eigenfrequenz ->  https://doi.org/10.3390/en14092451
-* Verformung in Schlag- und Schwenkrichtung sind aber identisch
-* Turmschlag ist relevant
-* dynamische Stabilität
-* -->
-
-![bg fit](../assets/Figures/EF1.png)
-![bg fit](../assets/Figures/EF2.png)
-
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Bildreferenz</a>
-</div>
+![](https://onlinelibrary.wiley.com/cms/asset/7f3901c5-5735-4b5f-8ce1-655b4e3fcfe7/mfig001.jpg)
 
 ---
 
-## Eigenfrequenzen / Resonanzen / Stabilität
+## Modalanalyse
 
-- $f_{eigen}=\frac{\omega_{eigen}}{2\pi}=\frac{1}{2\pi}\sqrt{\frac{c}{m}}$ mit $c$ bspw. $EA$
+$(\mathbf{K}-\omega^2\mathbf{M})\mathbf{\hat{x}}=0$
 
-[Tacoma Narrows Bridge](https://youtu.be/j-zczJXSxnw?t=10)
-
-- Knick Stab
-- Beulen
-
----
-
-## Festigkeit
-
-[Die Festigkeit eines Werkstoffes beschreibt die Beanspruchbarkeit durch mechanische Belastungen, bevor es zu einem Versagen kommt, und wird angegeben als mechanische Spannung $\left[N/m^2\right]$. Das Versagen kann eine **unzulässige Verformung** sein, insbesondere eine **plastische (bleibende) Verformung** oder auch ein **Bruch**.](https://de.wikipedia.org/wiki/Festigkeit)
-
-
->Wichtig: Festigkeit $\neq$ Steifigkeit
+- Eigenfrequenz $\omega=2\pi f$
+- Eigenformen $\mathbf{\hat{x}}$
+  - [MAC](https://community.sw.siemens.com/s/article/modal-assurance-criterion-mac) Kriterium
+  - Winkelberechnung zwischen Eigenformen
 
 ---
 
+$MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref})(\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref})}$
 
-## Plastische Versagen 
-
-![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
-
-
-<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
-    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
-</div>
+![bg right fit](https://community.sw.siemens.com/servlet/rtaImage?eid=ka6KZ00000006AW&feoid=00N4O000006Yxpf&refid=0EM4O00000112wj)
 
 ---
 
-## Viskoses Verhalten
+## Geführte Ultraschallwellen
 
-- reversibel
-- zeitabhängig
+- Anregung über Piezokomposite
+- Empfang mit Piiezokompositen oder Fibre Bragg Gittern
 
-Federmodel $\sigma = E\epsilon$ 
- - Elastischer Anteil
- - Dargestellt durch Federlemente
-<div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
+![bg right fit](https://pub.mdpi-res.com/aerospace/aerospace-10-00430/article_deploy/html/images/aerospace-10-00430-g008.png?1683204034)
 
-<div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
 
-Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$ 
-- Viskoser Anteil
-- Dargestellt durch Dämpferelemente
+---
+![](../assets/Figures/sensornetzwerke.png)
+[Schadensinteraktion](.../assetsVideos/flachbodenbohrung.avi)
 
 
 ---
 
-## 
-
-![bg fit](../assets/Figures/Spannung-Dehnung.png)
-![bg fit](../assets/Figures/Spannung-Dehnrate.png)
-
----
-
-## 
-
-![bg fit](../assets/Figures/Spannung-Zeit.png)
-![bg fit](../assets/Figures/Hysteresis.png)
-
+## Herausforderungen
+- Temperatur
+- Feuchte
+- innere Struktur des Materials
+- Modenkonversion
+- Spannungen in der Struktur
+- Alterung
 
 
 ---
+## Potentiale
+Beispiel Flugzeug
+- BVI (barely visible impact)
+- Größe ist durch Sichtbarkeit definiert
+  - Leitwerk ist der Schaden größer als am Flügel
 
-## Exkurs: Modellierung von Werkstoffen
-- Rheologische Modelle
-- setzen sich aus vielen Federn, Dämpfern und anderen Elementen zusammen
-- diese Freiheitsgrade ($E_i$, $\eta_i$) werden dann gefittet
+- SHM System erlauben kleinere Schäden bei der Auslegung
 
-
-
----
-
-## Wiederholung Kristalle und Gitter
-
-![bg right 50%](../assets/styles/vorlesung.png)
-
----
-
-## Kristalle - Kritallgitter
-
-- Stoffe die sich in einer Kristallstruktur anordnen
-- Periodische Wiederholung der "Basis"
-- Die Basis kann beliebig groß sein
-- Elementarzellen enthält alle Informationen
-zur Beschreibung des Kristalls
-- alle Metalle bilden in der Regel Kristalle 
-
-
-<div style="position: absolute; bottom: 340px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/NaCl_polyhedra.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:250px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Rock_salt_crystal.jpg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
----
-
-## "Faule" Physik
-- alles strebt nach engergetisch "stabilen" Zuständen
-
-<div style="position: absolute; bottom: -360px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/energie.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:1320px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-- [Einheitszelle](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-
-<div style="position: absolute; bottom: 40px; left: 780px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/Einheitszelle.png" alt="https://creativecommons.org/licenses/by-sa/4.0/deed.en" style="height:220px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<details>
-<summary>Recherchiert wichtige Parameter der Einheitszelle?</summary>
-<div>
-
-- a$_0$, b$_0$, c$_0$ - Gitterkonstanten - Abstand der Atome
-- $\alpha$, $\beta$, $\gamma$ - Achswinkel - Winkel der Elementarzellen
-- 14 mögliche [Bravais Gitter](https://de.wikipedia.org/wiki/Bravais-Gitter) in 3D
-- [Zahl der Atome](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-- [Koordinationszahl](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-- [Packungsdichte](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/kristalle/)
-</div>
-</details>
-
----
-
-## Einfluss des Raumgitters
-
--	Korrosion: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
--	Verformung: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
--	Ultraschall: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
--	Leitfähigkeit:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
--	Magnetisierung: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen entlang der Würfelkante [1 0 0]
-
----
-
-## Gitterbaudefekte
-
--	Nulldimensionale Fehlstellen (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	Eindimensionale Fehlstellen (Liniendefekte): Versetzungen
--	Zweidimensionale Fehlstellen (Flächendefekte): Stapelfehler, Korngrenzen, Subkorn-grenzen, Phasengrenzen
-
----
-
-## Nulldimensionale Fehlstellen
-
-![bg right 50%](../assets/Figures/ideales_gitter.png)
-
-
-
-<details>
-<summary>Was gibt es für mögliche Varianten?</summary>
-<div>
-
-- Zwischengitteratome
-- Leerstellen
-- Frenkeltyp (Autreten der gleichen Zahl Zwischen-gitteratome und Fehlstellen)
-- Substitutions-Fremdatom
-- Zwischengitter-Fremdatom 
-</div>
-</details>
-
----
-
-## Fremdatome
-
-<details>
-<summary>Wie lassen sich Fremdatome nutzen?</summary>
-<div>
-
--	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
-    - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
-- Zwischengitter und Substitutionsfremdatom
-    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
-</div>
-</details>
+- Abgeschätzt der [1 - 5% ](https://elib.dlr.de/123946/1/1475921718813279.pdf) Strukturmasse könnte reduziert werden 
 
 
 ---
 
+## Mikroskopie
 
-## Versetzungen
+- Analyse der Mikrostruktur von Werkstoffen
+- Lokale Analyse der Werkstoff- oder Kornzusammensetzung
+- Präparation der Probe (Schleifen, Oberflächenbehandlung, usw.)
+- Lichquellen beeinflusssen maßgeblich den Kontrast
+- Filter
 
-[Versetzungen](https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)) enstehen
-- beim Kristallwachstum
-- aufgrund von Eigenspannungen
-- durch plastische Verformungen
+![bg right fit](https://www.ikts.fraunhofer.de/de/abteilungen/werkstoff_prozesscharakterisierung/korrelative_mikroskopie_und_materialdaten/fa_multiskalige-3D-analytik_datenkorrelation_und_praeparation_in_der_halbleiterentwicklung/jcr:content/contentPar/sectioncomponent_cop/sectionParsys/imagerow/imageComponent1/image.img.4col.jpg/1683533051397/39-4-3d-detailansicht-eines-cpu-chips.jpg)
 
-![bg right 80%](../assets/Figures/versetzung.png)
-![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
+---
+
+## Lichtmikroskopie
+
+- Korngrößenanalyse von Metallen und Legierungen 
+- Flächenzählverfahren 
+- Linienschnittverfahren (Korngrenzenschnitte mit durch den Prüfer in das Bild definierten Linienzug)
+
+![bg right fit](https://static1.olympus-ims.com/data/Image/appnotes/GrainSizeAnalysis_AppNote_img4_rev.jpg?rev=9463)
 
 
 ---
 
-## Zweidimensionale Fehlstellen - Korngrenzen
-- Korngrenzen
-- Phasengrenzen
-- Subkorngrenzen
+## Elektronenrastermikroskop
+- nutzt Elektronenstrahlen zum Abtasten
+- Auflösung hierdurch deutlich erhöht $1nm .. 2nm$
+- ca. 500 mal bessere Vergrößerung als beim Lichmikroskop (2000:1) vs. (1000000)
 
-![bg right fit](https://www.struers.com/-/media/Struers-media-library/Knowledge/Materials/Grain-structures/FIg-0A-974x732-px.jpg?lm=20191009T054854Z&h=732&w=974&hash=4504C0AA9A9B6DEB6BDF91CC93EDF46ED9AADF75)
-
-[Skript](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
-
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/e/ef/Funktionsprinzip_REM.gif)
 
 ---
 
+## Rastersondenmikroskopie
 
-## Plastizität
-
-Gut oder Schlecht
-
-![bg right 70%](../assets/Figures/fragezeichen.png)
-
----
-
-## Beispiele
-
-**Hohe Plastizität**:
-
-- Knete
-- feuchter Ton
-- Metalle und Metalllegierungen mit geeignetem Atomgitter:
-  - glühender Stahl beim Schmieden
-  - Kaltumformung von Blechen 
-
-**Geringe Plastizität**:
-  - Gummi
-  - Keramik
-  - Faserkunstoffverbunde (Epoxid-Glasfaser oder Epoxid-Kohlefaser)
-   
----
-
-## Plastizität - Einkristall
-
-Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch Abgleiten von Atomschichten entlang bestimmter kristallographischer Ebenen und Richtungen unter Einwirken von Schubspannungen.
-
-- Gleitsystem besteht aus Gleitebene und Gleitrichtung
-- kritische Schubspannung ($\tau_{Kr}\approx G/10$ - Abschätzung oder theoretische Schubfestigkeit)
-- Realtität um Faktor ~100 niedriger durch Versetzungen
----
-
-## Bild
-
-![](../assets/Figures/Beispiel_plast.bmp)
-  
----
-
-## Plastische Verformung des polykristallinen Werkstoffs
-
-- Mikro- und Makroplastizität
-  - Plastische Verformung beginnt bei "ungünstigen" Orientierungen
-- Korngrenzen
-  - Barriere für Versetzungsbewegung
-  - bei hohen Temperaturen können Korngrenzen gleiten (Kriechen)
-  - gezielte Fertigung kann durch Korngrenzen Zähigkeit erhöhen
-- Heterogenität
-  - Mehrphasigkeit
-  - inhomogene Verteilung der Spannungen und Verformungen
-- Anisotropie
-
----
-
-## Polykristall Plastizität
-[Beispiel aus einer Simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
-
-- $R_m$ - Zugfestigkeit
-- $R_e$ - Streckgrenze
-- Dehngrenze oder Elastizitätsgrenze $R_{p0,2}$
-  - Belastung und dann Entlastung 0.2% Dehung verbleibt
-- Dehngrenze wird als Ersatzstreckgrenze verwendet
-
----
-
-## Streckgrenze
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
-
-- obere Streckgrenze $R_{eH}$
-- untere Streckgrenze $R_{eL}$
->gezackter Bereich: Lüdersbereich
-
-[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
-
----
-
-## Plastizität - Umformen
-- [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
-- [Tiefziehen Real](https://www.youtube.com/watch?v=rHfepOqPVHI)
-
----
-
-## Referencen
-<a id="Referenzen"></a>
-
-Rainer Schwab: Werkstoffkunde und Werkstoffprüfung für Dummies, 2019; ISBN-10 352771538X
+- Abstasten der Struktur mit einer Nadel
+- Wechselwirkung ist nicht mechanisch und unterscheidet sich je nach Mikroskop
+  - Tunnelstrom
+  - Van der Waals Kräfte (korreliert mit Federsteifigkeit)
+  - magnetische Kräfte
 
 
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/0/0f/AFM_%28used%29_cantilever_in_Scanning_Electron_Microscope%2C_magnification_1000x.GIF)

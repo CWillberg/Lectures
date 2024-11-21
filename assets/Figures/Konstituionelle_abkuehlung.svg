@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.4485269"
-     inkscape:cx="441.82818"
-     inkscape:cy="244.73139"
+     inkscape:zoom="1.0242632"
+     inkscape:cx="341.22089"
+     inkscape:cy="255.30547"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="4472"
@@ -92,25 +92,6 @@
          style="fill:context-stroke;fill-rule:evenodd;stroke:none"
          id="path2" />
     </marker>
-    <marker
-       style="overflow:visible"
-       id="marker2-3"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Concave triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path2-5" />
-    </marker>
   </defs>
   <g
      inkscape:label="Ebene 1"
@@ -118,14 +99,16 @@
      id="layer1"
      transform="translate(-12.703278,-34.927642)">
     <path
+       style="fill:none;stroke:#858585;stroke-width:0.5;stroke-opacity:1;stroke-dasharray:none"
+       d="M 60.000001,89.999998 59.554755,45.148534"
+       id="path18"
+       inkscape:export-filename="Konstituionelle_abkuehlung.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-start:url(#marker2);marker-end:url(#marker2)"
        d="M 20,39.999999 V 89.999996 H 95.000002 V 39.999999"
        id="path1" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-start:url(#marker2-3)"
-       d="m 125,40 v 49.999997 h 75 v 0"
-       id="path3-0"
-       sodipodi:nodetypes="cccc" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none"
        d="m 20,89.999996 0.05352,0.99173 z"
@@ -323,20 +306,7 @@
          x="47.081112"
          y="95.153328">c<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6">1</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
-       x="118.15434"
-       y="81.050247"
-       id="text18-4-6"><tspan
-         sodipodi:role="line"
-         id="tspan18-7-3"
-         style="stroke-width:0.5"
-         x="118.15434"
-         y="81.050247">c<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan6-8">1</tspan></tspan></text>
+   id="tspan30">S</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
@@ -348,78 +318,53 @@
          style="stroke-width:0.5"
          x="75.599304"
          y="95.010216">c<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan7">0</tspan></tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:Symbol;-inkscape-font-specification:Symbol;baseline-shift:sub"
+   id="tspan31">a</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
-       x="118.03544"
-       y="64.920067"
-       id="text18-5-8"><tspan
+       x="57.874859"
+       y="95.153328"
+       id="text18-5-83"><tspan
          sodipodi:role="line"
-         id="tspan18-5-2"
+         id="tspan18-5-7"
          style="stroke-width:0.5"
-         x="118.03544"
-         y="64.920067">c<tspan
+         x="57.874859"
+         y="95.153328">c<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan7-3">0</tspan></tspan></text>
+   id="tspan29">L</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
-       x="117.93064"
-       y="45.476368"
-       id="text18-4-6-3"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Symbol;-inkscape-font-specification:Symbol;fill:none;stroke:#858585;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       x="61.338543"
+       y="44.814407"
+       id="text32"><tspan
          sodipodi:role="line"
-         id="tspan18-7-3-4"
-         style="stroke-width:0.5"
-         x="117.93064"
-         y="45.476368">c<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan8">S</tspan></tspan></text>
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:0.499999, 1.5;stroke-dashoffset:0"
-       d="m 125,64.999996 h 55"
-       id="path10" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 125,79.999998 h 15 l 0.1363,-34.851464 c 4.69102,22.82368 24.95747,18.401465 39.8637,19.851462 v 2e-6"
-       id="path17"
-       sodipodi:nodetypes="ccccc" />
+         id="tspan32"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-opacity:1"
+         x="61.338543"
+         y="44.814407">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.46667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0"
-       x="124.63735"
-       y="99.871841"
-       id="text27"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Symbol;-inkscape-font-specification:Symbol;fill:none;stroke:#858585;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       x="61.890446"
+       y="59.169556"
+       id="text32-4"><tspan
          sodipodi:role="line"
-         id="tspan27"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
-         x="124.63735"
-         y="99.871841">MK</tspan></text>
+         id="tspan32-0"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-opacity:1"
+         x="61.890446"
+         y="59.169556">2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.46667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0"
-       x="159.47084"
-       y="99.871841"
-       id="text28"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Symbol;-inkscape-font-specification:Symbol;fill:none;stroke:#858585;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+       x="62.296814"
+       y="74.432655"
+       id="text32-1"><tspan
          sodipodi:role="line"
-         id="tspan28"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
-         x="159.47084"
-         y="99.871841">S</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-opacity:1"
-       x="143.12195"
-       y="37.866993"
-       id="text20-4"
-       inkscape:export-filename="entmischung.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan20-4"
-         style="stroke-width:0.5"
-         x="143.12195"
-         y="37.866993">Entmischung</tspan></text>
+         id="tspan32-6"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-opacity:1"
+         x="62.296814"
+         y="74.432655">3</tspan></text>
   </g>
 </svg>
