@@ -140,8 +140,30 @@ Löslich
 ---
 
 
+## Gibbsche Phasenregel
 
-![bg 60%](../assets/Figures/Konstituionelle_abkuehlung.png)
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+        
+$F = n  - P + 1$
+        
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
+
+
+---
+# Zusammenfassung
+
+- Die Phasen bzw. Phasengrenzlinien können als ein Zustandsdiagramm dargestellt werden
+- Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel
+- Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern (Bewegung in T oder der Konzentration)
+- Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
+
 
 ---
 
@@ -152,6 +174,10 @@ Löslich
 - Schmelze und Mischkristall müssen nicht die gleiche chemische Zusammensetzung haben
 
 $\frac{m_s}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}$
+
+
+![bg right 90%](../assets/Figures/Konstituionelle_abkuehlung.png)
+
 
 ---
 
@@ -183,9 +209,11 @@ $\frac{m_s}{m_{\alpha}}={c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25\%-20
 - Metallschmelzen der Elemente A und B lösen sich in beliebigen Mischungsverhältnissen (Konzentrationen)
 - die Mischkristalle bilden sich nur noch in bestimmten Maße
 
-Wann tritt das auf?
-
 ---
+
+## Wann tritt das auf?
+
+
 
 - Atomdurchmesser weichen voneinander ab
 - Kristallgitter der Komponenten unterscheiden sich
@@ -213,51 +241,30 @@ Es können folgende ZSDs auftauchen
 - Durchmesser irgendwann so groß, dass die Löslichkeitslücke in den Schmelzbereich ragt
 -> Eutektikum
 
----
-
-## Eutektischer Entmischung
-
 - Komponenten sind **löslich** im flüssigen Zustand
-- Komponenten sind **unlöslich** im festen Zustand
-
-![](../assets/Figures/eutektischerPunkt.png)
-
+- Komponenten sind **begrenzt löslich** im festen Zustand
 
 ---
-
-- Die Phasen bzw. Phasengrenzlinien können als ein Zustandsdiagramm dargestellt werden
-- Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel
-- Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern (Bewegung in T oder der Konzentration)
-- Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
-
----
-
-
-
-
-
 
 ## Eutektische Reaktion
 
 -  bei einer Konzentration erstarren aus der Schmelze S bei konstanter Temperatur (Eutektikale) A- und B-Kristalle zu einem feinkristallinen Kristallgemisch (Eutektikum)
 - eutektische Gefüge besitzt oft eine schicht- oder lamellenartige Struktur
 - Legierungen anderer Konzentrationen scheiden vor Erreichen der Eutektikale (Haltepunkt bei der Eutektischen Reaktion) die überwiegende Komponente aus (A- oder B-Kristalle), so dass sich die Konzentration der verbleibenden Schmelze der eutektischen Zusammensetzung annähert. 
-- die Eutektikale bildet die Soliduslinie des gesamten Systems
+- die **Eutektikale** bildet die Soliduslinie des gesamten Systems
 
+---
+
+## Eutektischer Entmischung
+
+
+![](../assets/Figures/eutektischerPunkt.png)
 
 
 ---
 
-## System mit Mischungslücken
-- Komponenten sind **löslich** im flüssigen Zustand
-- Komponenten sind **begrenzt löslich** im festen Zustand
-
----
-
-![](../assets/Figures/Mischungsluecke.png)
 
 
----
 
 _Löslichkeits- oder Sättigungslinien_
 - Linien, die die Einphasengebiete ($\alpha$, $\beta$) von dem Gebiet der Kristallgemische aus Mischkristal-len ($\alpha+\beta$) abgrenzen
@@ -269,10 +276,6 @@ Sonderfall:
 ---
 
 
-![](https://www.giessereilexikon.com/uploads/tx_d3ency/687-02.png)
-
----
-
 ## Systeme mit Peritektikum (mit peritektischer Entmischung) 
 
 
@@ -281,6 +284,11 @@ Sonderfall:
 - bildet bei konstanter Temperatur (entsprechend der **Eutektikalen**) mit der Schmelze reagierend eine zweite Mischkristallart $\beta$ bildet. 
 - bei einer peritektischen Reak-tion entstehen aus der Schmelze und bereits ausgeschiedenen $\alpha$-Mischkristallen bei gleich bleibender Temperatur neue $\beta$-Mischkristalle.
 
+---
+
+
+
+![bg fit](https://www.giessereilexikon.com/uploads/tx_d3ency/687-02.png)
 
 
 
@@ -289,25 +297,10 @@ Sonderfall:
 
 ---
 
-
-## Gibbsche Phasenregel
-
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
-
-
+# Fragen
 
 ---
+
 
 ## Realdiagramme
 - die bisherigen Digramme waren Idealdigramme und treten so nicht wirklich auf
