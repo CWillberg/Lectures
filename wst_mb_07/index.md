@@ -302,6 +302,10 @@ Sonderfall:
 ---
 
 
+# Realdiagramme
+
+---
+
 ## Realdiagramme
 - die bisherigen Digramme waren Idealdigramme und treten so nicht wirklich auf
 - Eisen-Kohlenstoff-Diagramm (EKD) ist das wichtigste Realdiagramm
