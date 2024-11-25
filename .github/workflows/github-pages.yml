@@ -62,6 +62,7 @@ jobs:
           - mti_ft_05
           - mti_ft_06
           - mti_ft_07
+          - mti_ft_08
           - stream_wst_01
           - stream_wst_02
           - stream_wst_03
