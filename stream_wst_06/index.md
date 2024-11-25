@@ -49,7 +49,7 @@ footer {
 </style>
 
 
-## Lecture on Materials Science - Microstructure of Materials
+## Lecture on Materials Science - Alloy (1/3)
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences
 
@@ -67,7 +67,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 # Content
 
 
-![bg right 70%](../assets/QR/stream_wst_05.png)
+![bg right 70%](../assets/QR/stream_wst_06.png)
 
 
 

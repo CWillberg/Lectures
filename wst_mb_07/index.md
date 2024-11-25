@@ -66,6 +66,7 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
+![bg right 70%](../assets/QR/wst_mb_07.png)
 
 # Zustandsdiagramme
 
