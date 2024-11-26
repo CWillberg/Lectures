@@ -55,7 +55,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/1/1d/SchmelzofenArbeiter.jpg)
+![bg right](https://leichtbau.dlr.de/wp-content/uploads/2023/11/Strukturversuch-scaled-2560x1280.jpg)
 
 Kontakt: christian.willberg@h2.de
 
@@ -259,22 +259,6 @@ Splines, B-Splines - komplexer
 
 ![bg 70%](../assets/Figures/filter.png)
 
----
-
-
-
-
-
-
-## Übung
-
-- Erstellen eines Datensatzes
-- Plotten des Datensatzes
-- Fitting
-- Statistisch Bewertung von Daten
-- Überschwingen von Signalen
-- FFTs
-- Gradientenbestimmung
 
 ---
 

@@ -87,6 +87,7 @@ Kontakt: christian.willberg@h2.de
 
 
 ---
+
 ## Charakterisierung
 Mathematische Modelle werden im Ingenieurswesen genutzt, um Vorhersagen über das Verhalten von Bauteilen und Strukturen zu machen. Die Bestimmung der für das Modell notwendingen Parameter nennt man Charakterisierung.
 
