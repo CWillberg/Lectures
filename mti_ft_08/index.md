@@ -109,7 +109,6 @@ Was sind Modelle und wozu braucht man sie?
 
 
 
-<iframe src="https://perilab-results.nimbus-extern.dlr.de/models/ForgedCT?step=65&variable=von%20Mises%20Stress&displFactor=20" width="920" height="600"></iframe>
 
 
 
