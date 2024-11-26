@@ -55,6 +55,8 @@ jobs:
           - wst_mb_05
           - wst_mb_06
           - wst_mb_07
+          - wst_mb_08
+          - wst_mb_09
           - mti_ft_01
           - mti_ft_02
           - mti_ft_03
