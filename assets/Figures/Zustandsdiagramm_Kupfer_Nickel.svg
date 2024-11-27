@@ -29,11 +29,11 @@
      showgrid="true"
      inkscape:zoom="2.8970538"
      inkscape:cx="237.48265"
-     inkscape:cy="235.23899"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="4472"
-     inkscape:window-y="50"
+     inkscape:cy="235.58416"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -100,7 +100,10 @@
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-start:url(#marker2);marker-end:url(#marker2)"
        d="M 20,39.999999 V 89.999996 H 95.000002 V 39.999999"
-       id="path1" />
+       id="path1"
+       inkscape:export-filename="Zustandsdiagramm_Kupfer_Nickel.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none"
@@ -231,7 +234,7 @@
          id="tspan16"
          style="stroke-width:0.5"
          x="12.670205"
-         y="92">C</tspan></text>
+         y="92">Cu</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
