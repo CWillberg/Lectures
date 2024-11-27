@@ -98,13 +98,12 @@ Ungleichgewichtszustände
 ## Werkstoffe
 
 
-<details>
-<summary>Was sind Werkstoffe?</summary>
-<div>
+
+Was sind Werkstoffe?
+
 
 [Werkstoffe im engeren Sinne nennt man Materialien im festen Aggregatzustand, aus denen Bauteile und Konstruktionen hergestellt werden können.](https://de.wikipedia.org/wiki/Werkstoff)
-</div>
-</details>
+
 
 
 ---
