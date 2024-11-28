@@ -323,6 +323,20 @@ Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folge
 - besseres Dämpfungsvermögen
 - bessere gießtechnische Eigenschaften (geringere Lunkerneigung, besseres Formfüllungs- und Fließvermögen)
 
+---
+
+## Urformen - Additive Fertigung
+
+- schichtweiser Aufbau eines dreidimensionalen Bautils
+- Verfahrensarten
+  - Tropfen
+  - Filament
+  - Draht
+  - Pulverauftrag
+  - ...
+
+[Grundlagen](https://www.youtube.com/watch?v=d_YUk4vcFCE)
+
 
 
 
