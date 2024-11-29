@@ -149,7 +149,11 @@ Ac3: abhängig vom C-Gehalt
 # Phasen- und Gefüge im System-Eisen-Kohlenstoff
 # Mischkristalle
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+---
+
+![bg  fit](../assets/Figures/umwandlungen.png)
+
+![bg  fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 ## $\alpha$-Mischkristall (krz)
@@ -199,9 +203,28 @@ Härte
 ![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
+## Austenit
+
+- bezeichnet die kubisch-flächenzentrierte Modifikation (Phase) des reinen Eisens und seiner Mischkristalle
+- eine hohe Löslichkeit von Kohlenstoffatomen 
+
+---
 
 ## Intermediäre Phase
 Zementit (Eisencarbid Fe3C); 6.67 Masse-% C-Gehalt
+
+
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+---
+
+## Metastabile Systeme
+
+![](../assets/Figures/meta-stabil.png)
+
+
+
+---
 
 - Primärzementit:	
 primäre Kristallisation aus der Schmelze (Linie CD)
@@ -234,13 +257,21 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 
 ---
 
+![bg 60%](https://upload.wikimedia.org/wikipedia/commons/a/ac/Primaerzementit.jpg)
+
+---
+
 # Phasengemische/Gemische von Mischkristallen
 
-## Perlit (Eutektoid)
+---
+
+## Perlit 
 - Gefüge aus Zementit und Ferrit (= Phasengemisch)
 - entsteht durch den "eutektoiden" Zerfall des Austenits ($\gamma$-Mischkristall) mit 0.8% C bei 723°C
 - eutektoider Punkt S: hier liegen 100% Perlit vor
 - relativ hohe Härte, relativ hohe Festigkeit, schlechte Umformbarkeit, geringe Zähigkeit
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/de/c/c8/Perlit.png)
 
 ---
 
@@ -252,7 +283,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 
 ---
 
-## Ledeburit (Eutektikum) 
+## Ledeburit
 
 - Gefüge aus Austenit und Zementit bzw. „zerfallenem“ Austenit und Zementit (= Phasengemisch), Kohlenstoffgehalt 4,3 %, Schmelztemperatur 1147°C 
 - Eutektischer Punkt C: hier liegen 100% Ledeburit vor
@@ -276,6 +307,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der beteiligten Phasen (z.B. $\alpha$-Mk, Fe3C), ihren mengenmäßigen Anteil (z. B. abhängig vom C-Gehalt) und die Art ihrer Verteilung im Gefüge bestimmt.
 
 ---
+
 # Phasen- und Gefüge im Ungleichgewichtszustand
 
 - Gleichgewichtszustände durch Diffusionsvorgänge dominiert
@@ -334,26 +366,31 @@ Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der b
 
 ---
 
+# Stahl
+
+[Normen](https://moodle2.hs-magdeburg.de/moodle/mod/resource/view.php?id=332129)
+
+- Massenanteil von Kohlenstoff weniger als 2.06 %
+- hohe Zugfestigkeit
+- teurer als Gusseisen
+- Duktiler und zäher als Gusseisen
+- Schweißbar
+- höhere Schmelzpunkt als Gusseisen
+
+---
+
+
 - Weiterhin wird unterschieden zwischen dem schwarzen Gusseisen (Grauguss), in dem der überschüssige Kohlenstoff in Form von Graphit, und dem weißen Gusseisen, in dem der Kohlenstoff in Form von Zementit vorkommt 
 - Mit zunehmendem C-Gehalt steigen die Festigkeit und Härtbarkeit des Stahles, wogegen seine Dehnung, Schmiedbarkeit, Schweißbarkeit und Bearbeitbarkeit (durch spanabhebende Werkzeuge) verringert werden
 - Der Korrosionswiderstand gegenüber Wasser, Säuren und heißen Gasen wird durch den Kohlenstoff praktisch nicht beeinflusst. 
 - Für Kohlenstoffgehalte unter 0.25 Masse-% sind Stähle gut schweißbar
-
-
----
-
-# Stahl
-
-Normen
-Eigenschaften
-
 
 ---
 
 
 ## Gusseisen 
 
-- Massenanteil über 2.06 %
+- Massenanteil von Kohlenstoff über 2.06 %
 - gute Gießbarkeit auf (geringer Schmelzpunkt, dünnflüssige Schmelze, …)
 - hart und spröde ist
 - Die Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
@@ -475,4 +512,3 @@ Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folge
 - besseres Dämpfungsvermögen
 - bessere gießtechnische Eigenschaften (geringere Lunkerneigung, besseres Formfüllungs- und Fließvermögen)
 
----

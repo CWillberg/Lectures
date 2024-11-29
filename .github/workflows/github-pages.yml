@@ -74,6 +74,8 @@ jobs:
           - stream_wst_05
           - stream_wst_06
           - stream_wst_07
+          - stream_wst_08
+          - stream_wst_09
     steps:
       - uses: actions/checkout@v4
 
