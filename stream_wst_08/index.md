@@ -107,7 +107,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 
-![bg fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -122,7 +122,7 @@ ES, PQ - Saturation lines
 MOSK   - Curie line                   
 QPSECD - Formation/Dissolution of Fe₃C
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -134,7 +134,7 @@ QPSECD - Formation/Dissolution of Fe₃C
 - **E**: Maximum C-solubility in $\alpha$-matrix
 - **P**: Maximum C-solubility in $\gamma$-matrix
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -158,7 +158,7 @@ QPSECD - Formation/Dissolution of Fe₃C
 
 ![bg fit](../assets/Figures/umwandlungen.png)
 
-![bg fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
