@@ -314,10 +314,14 @@ The properties of the alloy (e.g., steel, cast iron) depend on the involved phas
 
 # Phases and Microstructures in Non-Equilibrium States
 
+
+
 - Equilibrium states are dominated by diffusion processes.  
 - Rapid temperature changes hinder the carbon diffusion required for the segregation of austenite.  
 - This leads to the formation of novel microstructural components that deviate from the equilibrium state.  
 - Results in "supersaturated" carbon.  
+
+## NOT IN THE PHASE DIAGRAM!
 
 ---
 
@@ -328,6 +332,19 @@ The properties of the alloy (e.g., steel, cast iron) depend on the involved phas
 - The carbon, trapped in the BCC lattice of $\alpha$-Fe, distorts and expands the lattice tetragonally through a "diffusionless transformation."  
 
 ![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/fa/Steel_035_water_quenched.png)
+
+
+---
+
+- is formed in carbon steels by the rapid cooling (quenching) of the austenite 
+- carbon atoms do not have time to diffuse out of the crystal structure in large enough quantities to form cementite (Fe3C). 
+
+![bg right 80%](../assets/Figures/Structure-of-the-austenite-fcc-and-martensite-fct-crystal-phases.png)
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="https://artpictures.club/autumn-2023.html" style="color: blue;">Image Reference</a>
+</div>
+
 
 ---
 

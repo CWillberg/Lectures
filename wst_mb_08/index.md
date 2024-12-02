@@ -55,7 +55,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+[bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
 Kontakt: christian.willberg@h2.de
 
@@ -66,7 +66,11 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
+---
 
+[Molekulardynamische Simulation](https://youtu.be/oBjEbDyoIaQ?si=vFq98n2SPjwydCGd&t=115)
+
+---
 
 # Realdiagramme
 
@@ -314,6 +318,9 @@ Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der b
 - bei schnelleren Temperaturänderungen wird die Kohlenstoffdiffusion, die zur Entmischung des Austenits erforderlich ist, behindert 
 - Dadurch entstehen auch neuartige Gefügebestandteile, die nicht mehr dem Gleichgewichtszustand entsprechen
 - führt zu "zwangsgelöstem" Kohlenstoff
+
+## Tauchen nicht im Phasendiagramm auf!
+
 ---
 
 ## Martensit
@@ -322,6 +329,18 @@ Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der b
 - der im krz-Gitter des $\alpha$-Fe zwangsgelöste Kohlenstoff verzerrt das Gitter und weitet es tetragonal auf („diffusionsloses Umklappen“). 
 
 ![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/fa/Steel_035_water_quenched.png)
+
+---
+
+
+- wird bei sehr schneller Abkühlung gebildet
+- Kohlenstoffatome haben keine Zeit für Diffusion und können keine Fe3C bilden
+
+![bg right 80%](../assets/Figures/Structure-of-the-austenite-fcc-and-martensite-fct-crystal-phases.png)
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="https://artpictures.club/autumn-2023.html" style="color: blue;">Image Reference</a>
+</div>
 
 ---
 
