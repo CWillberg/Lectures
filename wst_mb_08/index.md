@@ -84,11 +84,6 @@ Kontakt: christian.willberg@h2.de
 
 ---
 
-- Man kann je nach Erscheinungsform des Kohlenstoffs zwischen dem stabilen System Fe-C, in dem Kohlenstoff als Graphit, und dem metastabilen System Fe-Fe3C, in dem Kohlenstoff gebunden als Fe3C (intermediäre Phase Zementit) vorliegt, unterscheiden. 
-- Stabil bedeutet, dass der Kohlenstoff in Form von Graphit nicht weiter zerlegt werden kann, Fe3C aber bei langzeitigem Glühen in Eisen und Temperkohle zerfällt. 
-- Das metastabile System stellt gewissermaßen ein relatives Minimum der Gesamtenergie des Systems dar. Für techni-sche Belange kann es als „hinreichend stabil“ bewertet werden.
-
----
 
 
 
@@ -106,6 +101,13 @@ Gründe sind
 
 [Erklärvideo für das Eisen Kohlenstoff Diagramm](https://www.youtube.com/watch?v=oJqvnKhnsg0&t=1s)
 
+
+
+---
+
+
+- Man kann je nach Erscheinungsform des Kohlenstoffs zwischen dem stabilen System Fe-C, in dem Kohlenstoff als Graphit, und dem metastabilen System Fe-Fe$_3$C, in dem Kohlenstoff gebunden als Fe$_3$C (intermediäre Phase Zementit) vorliegt, unterscheiden
+
 ---
 
 ![bg 70%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
@@ -114,11 +116,11 @@ Gründe sind
 ## Wichtige Gleichgewichtslinien
 
 ABCD 	Liquiduslinie			
-AHIECF 	Soliduslinie			
+AHJECF 	Soliduslinie			
 ECF 		Eutektikale			
 PSK 		Eutektoide			
 ES, PQ		Sättigungslinien				MOSK		Curie-Linie
-QPSECD 	Bildung/Auflösung Fe3C	
+QPSECD 	Bildung/Auflösung Fe$_3$C	
 ![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
@@ -129,24 +131,11 @@ C - eutektischer Punkt
 G -	$\alpha$ / $\gamma$ - Umwandlungspunkt des reinen Eisens
 E -	Punkt max. C-Löslichkeit im $\alpha$ - MK
 P - Punkt max. C-Löslichkeit im $\gamma$ - MK
-u. a. m. (vgl. Fe-Fe3C - Diagramm)
+u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 
 ![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 
----
-
-Folgende Grenzlinientemperaturen (Umwandlungstemperaturen) werden benutzt: 
-
-A: 	arreter (anhalten)
-r:	refroidir (abkühlen)
-c:	chauffer (erwärmen)
-e:	équilibre (Gleichgewicht)
-
-Ac1: 723°C
-Ac3: abhängig vom C-Gehalt
-
-![bg right fit](../assets/Figures/umwandlungen.png)
 
 ---
 
@@ -155,9 +144,17 @@ Ac3: abhängig vom C-Gehalt
 
 ---
 
-![bg  fit](../assets/Figures/umwandlungen.png)
+
+![bg fit](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
 
 ![bg  fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+---
+
+![bg fit](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
+
+![bg  fit](../assets/Figures/EKD_farbe.png)
+
 
 ---
 ## $\alpha$-Mischkristall (krz)
@@ -186,7 +183,7 @@ Härte
  - technisch von untergeordneter Bedeutung
  - Max. C-Löslichkeit: 0.12 %
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -196,7 +193,7 @@ Härte
 - scheidet sich oberhalb der G-S-E-Linie  aus; 
   - durch Legierungszusätze (Ni, Mn) und Abschrecken auch bei Raumtemperatur beständig (austenitische Stähle)
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -204,7 +201,7 @@ Härte
 - hohe Warmfestigkeit, gute Korrosions- und Zunderbeständigkeit
 - Max. C-Löslichkeit: 2.06 %
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../assets/Figures/EKD_farbe.png)
 
 ---
 ## Austenit
@@ -212,10 +209,12 @@ Härte
 - bezeichnet die kubisch-flächenzentrierte Modifikation (Phase) des reinen Eisens und seiner Mischkristalle
 - eine hohe Löslichkeit von Kohlenstoffatomen 
 
+![bg right fit](../assets/Figures/EKD_farbe.png)
+
 ---
 
 ## Intermediäre Phase
-Zementit (Eisencarbid Fe3C); 6.67 Masse-% C-Gehalt
+Zementit (Eisencarbid Fe$_3$C); 6.67 Masse-% C-Gehalt
 
 
 ![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
@@ -224,9 +223,13 @@ Zementit (Eisencarbid Fe3C); 6.67 Masse-% C-Gehalt
 
 ## Metastabile Systeme
 
+- meta-stabil ist Fe$_3$C
+- Stabil ist Graphit
+
+
 ![](../assets/Figures/meta-stabil.png)
 
-
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/5/54/GraphitGitter4.png)
 
 ---
 
@@ -250,7 +253,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 
 - orthorhombischen Elementarzelle 
   -  zwölf Eisen- und vier Kohlenstoffatome
-  - die Kohlenstoffatome sind relativ unregelmäßig (zweifach überkappt trigonal-prismatisch) von acht Eisenatomen umgeben
+  - die Kohlenstoffatome sind relativ unregelmäßig von acht Eisenatomen umgeben
 
 ---
 
@@ -279,7 +282,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 
 ---
 
-- lamellenartiger Aufbau (Schichten von $\alpha$-Mk und Fe3C-Kristallen) .
+- lamellenartiger Aufbau (Schichten von $\alpha$-Mk und Fe$_3$C-Kristallen) .
 - häufig spricht man von einer "Perlitstufe", die - gemessen am Lamellenabstand - in Perlit, fein-streifigen  und feinststreifigen Perlit unterteilt wird. 
 
 
@@ -294,27 +297,27 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 - Unterscheidung zwischen Ledeburit I (dicht unterhalb 1.147 °C)
   -  um ein Gefüge aus Austenit und Zementit handelt
 
+---
+
 - Ledeburit II (Raumtemperatur)
   - aus Zementit I mit ankristallisiertem Sekundärzementit (aus dem Austenit bei sinkender Temperatur ausgeschieden) und (bei langsamer Abkühlung) aus Perlit
   -  Der Perlit entsteht durch den eutektoiden Zerfall des Austenits aus dem Ledeburit I bei 723 °C. 
 
 ---
+
 - bei schnellerer Abkühlung kann anstelle des Perlit auch Bainit bzw. bei sehr schneller Abkühlung Martensit vorliegen. 
 - Ledeburit ist schlecht umformbar, hat sehr geringe Duktilität. 
- - bei Raumtemperatur  feines Gemenge von Fe3C-Kristalliten und Perlitbereichen im Auflichtmikroskop als charakteristische Pantherfellstruktur sichtbar.
+ - bei Raumtemperatur  feines Gemenge von Fe$_3$C-Kristalliten und Perlitbereichen im Auflichtmikroskop als charakteristische Pantherfellstruktur sichtbar.
 
 ![bg right](../assets/Figures/ledeburit_gefuege.png)
 
 
----
-
-Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der beteiligten Phasen (z.B. $\alpha$-Mk, Fe3C), ihren mengenmäßigen Anteil (z. B. abhängig vom C-Gehalt) und die Art ihrer Verteilung im Gefüge bestimmt.
 
 ---
 
 # Phasen- und Gefüge im Ungleichgewichtszustand
 
-- Gleichgewichtszustände durch Diffusionsvorgänge dominiert
+- Gleichgewichtszustände sind durch Diffusionsvorgänge dominiert
 - bei schnelleren Temperaturänderungen wird die Kohlenstoffdiffusion, die zur Entmischung des Austenits erforderlich ist, behindert 
 - Dadurch entstehen auch neuartige Gefügebestandteile, die nicht mehr dem Gleichgewichtszustand entsprechen
 - führt zu "zwangsgelöstem" Kohlenstoff
@@ -334,13 +337,16 @@ Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der b
 
 
 - wird bei sehr schneller Abkühlung gebildet
-- Kohlenstoffatome haben keine Zeit für Diffusion und können keine Fe3C bilden
+- Kohlenstoffatome haben keine Zeit für Diffusion und können keine Fe$_3$C bilden
 
-![bg right 80%](../assets/Figures/Structure-of-the-austenite-fcc-and-martensite-fct-crystal-phases.png)
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/5/54/Bain%27sches_Modell_der_marten-sitischen_Umwandlung.gif)
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://artpictures.club/autumn-2023.html" style="color: blue;">Image Reference</a>
-</div>
+
+---
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/20/Martensit_-_Oberfl%C3%A4chenreliefbildung.gif)
+
+[Formgedächtnislegierungen](https://www.youtube.com/watch?v=1goaBtgZqDY)
 
 ---
 
@@ -389,17 +395,8 @@ Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der b
 
 [Normen](https://moodle2.hs-magdeburg.de/moodle/mod/resource/view.php?id=332129)
 
-- Massenanteil von Kohlenstoff weniger als 2.06 %
-- hohe Zugfestigkeit
-- teurer als Gusseisen
-- Duktiler und zäher als Gusseisen
-- Schweißbar
-- höhere Schmelzpunkt als Gusseisen
-
----
 
 
-- Weiterhin wird unterschieden zwischen dem schwarzen Gusseisen (Grauguss), in dem der überschüssige Kohlenstoff in Form von Graphit, und dem weißen Gusseisen, in dem der Kohlenstoff in Form von Zementit vorkommt 
 - Mit zunehmendem C-Gehalt steigen die Festigkeit und Härtbarkeit des Stahles, wogegen seine Dehnung, Schmiedbarkeit, Schweißbarkeit und Bearbeitbarkeit (durch spanabhebende Werkzeuge) verringert werden
 - Der Korrosionswiderstand gegenüber Wasser, Säuren und heißen Gasen wird durch den Kohlenstoff praktisch nicht beeinflusst. 
 - Für Kohlenstoffgehalte unter 0.25 Masse-% sind Stähle gut schweißbar
@@ -407,25 +404,14 @@ Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der b
 ---
 
 
-## Gusseisen 
-
-- Massenanteil von Kohlenstoff über 2.06 %
-- gute Gießbarkeit auf (geringer Schmelzpunkt, dünnflüssige Schmelze, …)
-- hart und spröde ist
-- Die Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
-  - bei Gusseisen mit Lamellengraphit – der häufigsten Sorte – ist sie gut
-  - Festigkeit ist geringer als die von Stahlguss, die Dämpfung ist höher
-- Viele Sorten enthalten zusätzlich noch Silicium, das die Gießbarkeit verbessert, sowie weitere Legierungsanteile wie Mangan, Chrom oder Nickel
----
-
-![bg fit](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+# Gusseisen
 
 ---
 
 Es wird unterschieden zwischen:
 
 - grauem Gusseisen (Grauguss), in dem der Kohlenstoff in Form von Graphit vorkommt. _Die Bruchflächen erscheinen grau_
-- weißem Gusseisen, in dem der Kohlenstoff als Carbid in Form von Zementit (Fe3C) vorkommt. _Die Bruchflächen sind weiß_
+- weißem Gusseisen, in dem der Kohlenstoff als Carbid in Form von Zementit (Fe$_3$C) vorkommt. _Die Bruchflächen sind weiß_
 
 ![bg right 100%](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
 
@@ -445,18 +431,6 @@ Es wird unterschieden zwischen:
 
 ---
 
-bild 16.3 einfügen aus Werkstofftechnik für dummies
-
-stabile Systeme (nicht gelöster Kohlenstoff in Form von Grafitkristallen) treten umso eher auf
-- je höher der Kohlenstoffanteil
-- je höher der Siliziumanteil
-- je langsamer die Abkühlung
-
----
-
-metastabile Systeme in Form von Zementitkristallen (Kohlenstoff ist nicht gelöst)
-
----
 
 ![bg ](https://www.tec-science.com/wp-content/uploads/2021/03/de-druckversuch-druckspannung-stauchungs-diagramm.jpg)
 
@@ -530,4 +504,27 @@ Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folge
 - bessere Temperaturwechselbeständigkeit und geringere Verzugsneigung aufgrund der zuvor genannten Eigenschaften
 - besseres Dämpfungsvermögen
 - bessere gießtechnische Eigenschaften (geringere Lunkerneigung, besseres Formfüllungs- und Fließvermögen)
+
+---
+
+## Stahl vs. Gusseisen 
+
+- Massenanteil von Kohlenstoff weniger als 2.06 %
+- hohe Zugfestigkeit
+- teurer als Gusseisen
+- Duktiler und zäher als Gusseisen
+- Schweißbar
+- höhere Schmelzpunkt als Gusseisen
+
+---
+
+## Stahl vs. Gusseisen 
+
+- Massenanteil von Kohlenstoff über 2.06 %
+- gute Gießbarkeit auf (geringer Schmelzpunkt, dünnflüssige Schmelze, …)
+- hart und spröde ist
+- Die Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
+  - bei Gusseisen mit Lamellengraphit – der häufigsten Sorte – ist sie gut
+  - Festigkeit ist geringer als die von Stahlguss, die Dämpfung ist höher
+- Viele Sorten enthalten zusätzlich noch Silicium, das die Gießbarkeit verbessert, sowie weitere Legierungsanteile wie Mangan, Chrom oder Nickel
 

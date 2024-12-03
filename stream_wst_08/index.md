@@ -138,19 +138,6 @@ QPSECD - Formation/Dissolution of Fe₃C
 
 ---
 
-### Critical Temperatures (Transformation Temperatures)
-
- A       arreter (stop)         
- r       refroidir (cool)       
- c       chauffer (heat)        
- e       équilibre (equilibrium)
- 
- Ac₁  723°C  
- Ac₃  Dependent on C content 
-
-![bg right fit](../assets/Figures/umwandlungen.png)
-
----
 # Phases and Microstructures in the Iron-Carbon System
 # Solid Solutions
 
