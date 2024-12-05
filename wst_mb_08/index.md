@@ -417,19 +417,7 @@ Es wird unterschieden zwischen:
 
 ---
 
-## Vergleich Gusseisen und Stahl 
 
-[Qualitativ zum Lesen](https://capablemachining.com/de/Blog/Stahl-vs.-Gusseisen-ein-umfassender-Vergleich/)
-
-- Dichte $7.2\frac{g}{cm^3}$ vs. $7.85\frac{g}{cm^3}$ 
-- Schmelztemperatur $1150 °C$
-- korrosionsbeständiger als Stahl
-- spröder als Stahl
-- Schwindmaß ist nur ca 1%
-
-[Quantitativ](https://www.schweizer-fn.de/festigkeit/festigkeitswerte/guss/stahlguss_start.php)
-
----
 
 
 ![bg ](https://www.tec-science.com/wp-content/uploads/2021/03/de-druckversuch-druckspannung-stauchungs-diagramm.jpg)
@@ -507,6 +495,20 @@ Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folge
 
 ---
 
+## Vergleich Gusseisen und Stahl 
+
+[Qualitativ zum Lesen](https://capablemachining.com/de/Blog/Stahl-vs.-Gusseisen-ein-umfassender-Vergleich/)
+
+- Dichte $7.2\frac{g}{cm^3}$ vs. $7.85\frac{g}{cm^3}$ 
+- Schmelztemperatur $1150 °C$
+- korrosionsbeständiger als Stahl
+- spröder als Stahl
+- Schwindmaß ist nur ca 1%
+
+[Quantitativ](https://www.schweizer-fn.de/festigkeit/festigkeitswerte/guss/stahlguss_start.php)
+
+---
+
 ## Stahl vs. Gusseisen 
 
 - Massenanteil von Kohlenstoff weniger als 2.06 %
@@ -524,7 +526,7 @@ Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folge
 - gute Gießbarkeit auf (geringer Schmelzpunkt, dünnflüssige Schmelze, …)
 - hart und spröde ist
 - Die Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
-  - bei Gusseisen mit Lamellengraphit – der häufigsten Sorte – ist sie gut
+  - bei Gusseisen mit Lamellengraphit - der häufigsten Sorte - ist sie gut
   - Festigkeit ist geringer als die von Stahlguss, die Dämpfung ist höher
 - Viele Sorten enthalten zusätzlich noch Silicium, das die Gießbarkeit verbessert, sowie weitere Legierungsanteile wie Mangan, Chrom oder Nickel
 

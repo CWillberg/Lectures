@@ -102,9 +102,11 @@ Charakterisierung:
 
 
 ---
+
 ![bg 70% fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
+
 ![bg 43% fit](../assets/Figures/EKD_farbe.png)
 
 ---
@@ -125,7 +127,19 @@ Ziele ausabeiten für
 - Langsames Erwärmen auf 550 - 650 °C (unterhalb $\text{A}_{c1}$)
 - Haltedauer 2 - 4 h, langsame Abkühlung (Ofenabkühlung)
 
-![bg right 99% fit](../assets/Figures/spannungsarmgluehen.svg)
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+Ziel:
+Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonstigen Eigenschaften
+
+
+---
+
+## Spannungsarmglühen
+- Langsames Erwärmen auf 550 - 650 °C (unterhalb $\text{A}_{c1}$)
+- Haltedauer 2 - 4 h, langsame Abkühlung (Ofenabkühlung)
+
+![bg right 90% fit](../assets/Figures/spannungsarmgluehen.svg)
 
 Ziel:
 Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonstigen Eigenschaften
@@ -133,14 +147,38 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 ---
 
 ## Rekristallisationsglühen
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+
+- Rückgängigmachen von Eigenschaftsänderungen (Verfestigung) durch Kaltumformung; 
+- Gefügeumbildung bzw. -neubildung im festen Zustand;
+- Spannungsabbau
+- Erhöhung der Bruchdehnung
+
+---
+
+
+
+
+## Rekristallisationsglühen
 - Rekristallisationstemperatur bei Stahl: 500 - 600°C
 - halten, langsame Abkühlung
 - bei zu langer Haltezeit: Grobkornbildung
-![bg right 99% fit](../assets/Figures/rekristallisationsgluehen.svg)
+![bg right 90% fit](../assets/Figures/rekristallisationsgluehen.svg)
 
-Ziel:
 
-Rückgängigmachen von Eigenschaftsänderungen (Verfestigung) durch Kaltumformung; Gefügeumbildung bzw. -neubildung im festen Zustand; Spannungsabbau, Erhöhung der Bruchdehnung
+---
+
+
+
+
+## Weichglühen
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+- Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands
+- Zementitteilchen werde kugelig eingeformt (GKZ-Glühen).
 
 ---
 
@@ -148,11 +186,11 @@ Rückgängigmachen von Eigenschaftsänderungen (Verfestigung) durch Kaltumformun
 - Temperaturen um  $\text{A}_{C1}$ (unterhalb, oberhalb oder pendelnd um  $\text{A}_{C1}$)
 - langsame Abkühlung.
 
-![bg fit right 99](../assets/Figures/weichgluehen.svg)
-Ziel:
-Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands. Dabei werden Zementitteilchen kugelig eingeformt (GKZ-Glühen).
+![bg fit right 90%](../assets/Figures/weichgluehen.svg)
+.
 
 ---
+
 
 ## Normalglühen
 
@@ -160,33 +198,53 @@ Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands. D
 - Erwärmung zwischen $\text{A}_{C1}$ und Glühtemperatur rasch, kurze Haltedauer
 - rasche Abkühlung durch Zweiphasen-Intervall, dann langsam abkühlen
 
-![bg fit right 99](../assets/Figures/normalgluehen.svg)
+![bg fit right](../assets/Figures/EKD_farbe.png)
 
 ---
 
 ## Normalglühen
 
-![bg fit right 99](../assets/Figures/normalgluehen.svg)
+![bg fit right 90%](../assets/Figures/normalgluehen.svg)
 
-Ziel:
 
-Herstellung eines gleichmäßigen und feinkörnigen Gefüges mit Perlitanteilen, Annäherung an den Gleichgewichtszustand durch zweifaches Umkörnen (bei Erwärmung und Abkühlung). Häufig eingesetztes Verfahren
+- Herstellung eines gleichmäßigen und feinkörnigen Gefüges mit Perlitanteilen
+- Annäherung an den Gleichgewichtszustand durch zweifaches Umkörnen (bei Erwärmung und Abkühlung)
+- häufig eingesetztes Verfahren
 
 ---
 
 ## Grobkornglühen
 
 
-Verfahrensparameter:
+- Erzielung eines groben Korns
+- Verbesserung der Spanbarkeit
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+
+
+---
+
+
+## Grobkornglühen
+
+
 - Temperatur deutlich über $\text{A}_{C3}$ (950 - 1100°C)
 - Haltezeit 1 bis 2 h
 - langsame Ofenabkühlung
 - dann raschere Luftabkühlung
 
-![bg fit right 99](../assets/Figures/grobkorngluehen.svg)
+![bg fit right 90%](../assets/Figures/grobkorngluehen.svg)
 
-Ziel:
-Erzielung eines groben Korns. Hierdurch wird die Spanbarkeit verbessert.
+
+
+---
+
+## Diffusionsglühen
+
+- Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -196,10 +254,13 @@ Erzielung eines groben Korns. Hierdurch wird die Spanbarkeit verbessert.
 - lange Haltezeit (bis 50 h)
 - langsame Abkühlung
 
-![bg fit right 99](../assets/Figures/diffussionsgluehen.svg)
+![bg fit right 90%](../assets/Figures/diffussionsgluehen.svg)
 
-Ziel:
-Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
+
+
+---
+
+![bg 60%](../assets/Figures/Diffusion_Kohlenstoff_in_Eisen.png)
 
 ---
 
@@ -230,7 +291,7 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 
 ---
 
-# Härten
+# Härteverfahren
 
 ---
 
@@ -238,6 +299,8 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 
 - erfolgt das Abkühlen von einer Temperatur oberhalb der Umwandlungslinie GOSK mit einer Geschwindigkeit, die größer ist als die kritische („Abschrecken“)
 - Ziel ist ein Ungleichgewichtszustand durch Umwandlung des Austenits in Martensit (gegebenenfalls auch Bainit)
+
+![bg right 100%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -283,3 +346,5 @@ Das [Randschichthärten](http://wiki.arnold-horsch.de/index.php/Oberfl%C3%A4chen
 ![bg vertical fit 55%](http://wiki.arnold-horsch.de/images/c/c8/Induktion-1.png)
 
 ---
+
+# Fragen?
