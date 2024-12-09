@@ -68,6 +68,9 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
+![bg right 70%](../assets/QR/composite_01.png)
+
+---
 
 # Grundlagen der Materialmodellierung
 
