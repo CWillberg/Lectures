@@ -76,16 +76,16 @@ $\boldsymbol{\sigma}_T=\mathbf{C}_T\cdot\cdot\boldsymbol{\varepsilon}_T$
 $\boldsymbol{\sigma} =
 \begin{bmatrix}
 \sigma_{11} & \sigma_{12} & \sigma_{13} \\
-\sigma_{yx} & \sigma_{22} & \sigma_{23} \\
-\sigma_{zx} & \sigma_{zy} & \sigma_{33}
+\sigma_{21} & \sigma_{22} & \sigma_{23} \\
+\sigma_{31} & \sigma_{32} & \sigma_{33}
 \end{bmatrix}
 $
 
 $\boldsymbol{\varepsilon} =
 \begin{bmatrix}
 \varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
-\varepsilon_{yx} & \varepsilon_{22} & \varepsilon_{23} \\
-\varepsilon_{zx} & \varepsilon_{zy} & \varepsilon_{33}
+\varepsilon_{21} & \varepsilon_{22} & \varepsilon_{23} \\
+\varepsilon_{31} & \varepsilon_{32} & \varepsilon_{33}
 \end{bmatrix}$
 
 ---
