@@ -154,8 +154,6 @@ $\begin{bmatrix}
 \gamma_{12}
 \end{bmatrix}$
 
----
-
 
 ---
 
