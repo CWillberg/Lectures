@@ -193,6 +193,35 @@ $\mathbf{\sigma}=\mathbf{R}^T \mathbf{\sigma}' \mathbf{R}$
 
 ---
 
+$\mathbf{Q}=\mathbf{C}_{Voigt}^{2D}$
+
+$\mathbf{\sigma}= \mathbf{Q} \mathbf{\varepsilon}=
+\begin{bmatrix}Q_{11}  & Q_{12} & Q_{16}\\
+Q_{12}  & Q_{22} & Q_{26}\\
+Q_{16}  & Q_{26} & Q_{66}
+\end{bmatrix}\begin{bmatrix}
+\varepsilon_1 \\
+\varepsilon_2 \\
+\gamma_{12}
+\end{bmatrix}$
+
+$\mathbf{Q}^{0°}=\begin{bmatrix}
+\frac{E_1}{1-\nu_{12}\nu_{21}} & \frac{\nu_{21}E_1}{1-\nu_{12}\nu_{21}} & 0 \\
+\frac{\nu_{12}E_2}{1-\nu_{12}\nu_{21}} & \frac{E_2}{1-\nu_{12}\nu_{21}} & 0 \\
+0 & 0 & G_{12}
+\end{bmatrix}$
+
+
+---
+## Rotierte Matrixeinträge nach Schürmann
+![](../assets/Figures/glg922.png)
+
+---
+
+![](../assets/Figures/glg927.png)
+
+---
+
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/de/8/82/Dehnung-Schiebungs-Kopplung.png)
 
 $A_{ij} = \sum_{k=1}^{N} \hat Q_{ij,k} \cdot t_k$
