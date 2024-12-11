@@ -87,11 +87,26 @@ Vorteile
 - enge Toleranzen
 - Verbesserte Eigenschaften durch Verfestigungen
 
+
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+---
+
+
+## Kaltumformung
+- unterhalb der Rekristallisationstemperatur und ohne Vorwärmen des Werkstücks
+
+
+
 Nachteile
 - hohe mechanische Werkzeugbeanspruchung, hoher Kraftbedarf
 - schlechtere Umformbarkeit als bei Warmumformung
 
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
 ---
+
 
 ![bg fit](https://bortec-group.com/app/uploads/resized/2022/07/kaltumformung-1-2560x0-c-center.jpg)
 
@@ -110,6 +125,7 @@ Nachteile
 - hohe thermische Werkzeugbeanspruchung
 - Energiebedarf für die Erwärmung
 
+
 ---
 
 ## Warmumformung
@@ -119,6 +135,13 @@ Vorteile
 - hohes Umformvermögen
 - geringe mechanische Werkzeugbeanspruchung und geringer Kraftbedarf
 
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+---
+
+- oberhalb der Rekristillisationstemperatur 
+
 Nachteile
 - Randentkohlungen können entstehen
 - Abbrand und Zunderbildung
@@ -126,14 +149,17 @@ Nachteile
 - hohe thermische Werkzeugbeanspruchung
 - hoher Aufwand für die Erwärmung und Nachbearbeitung
 
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
 ---
+
 
 ![](https://www.iph-hannover.de/_thumbnails_/1261_2_Umformtechnik_Pleuel1_IPH_Ralf_Buechler.jpg?m=1593587632)
 ![](https://www.durr.com/fileadmin/_processed_/1/2/csm_duerr-hot-working_2db6833f4b.webp)
 
 ---
 
-## Warmformgebungsverfahren Beispiele
+## Warmformgebungsverfahren - Beispiele
 - [Schmieden](https://youtu.be/AxLszR6fkLM?si=k6A9aOVfQceOK9v0&t=80)
 - [Walzen](https://www.youtube.com/watch?v=WOTO64HgnXc)
 
@@ -315,7 +341,7 @@ $W_S$ - Arbeit durch Schiebung
 
 ![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/fc/Emboutissage1.png)
 [Metall](https://www.youtube.com/watch?v=WtJNFdv54EM)
-[Kunststoff](https://www.youtube.com/watch?v=_FDMz7YAtWA)
+[Kunststoff](https://youtu.be/_FDMz7YAtWA?si=Hqx3rEmdAj7ykcIJ&t=99)
 
 
 
