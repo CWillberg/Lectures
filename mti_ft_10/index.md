@@ -192,8 +192,22 @@ Nachteile
 
 # Begrifflichkeiten
 
-Umformbarkeit beschreibt die Fähigkeit eines Wekrstoffes unter bestimmten Bedingungen seinen Zustand dauerhaft zu verändern. Maßgeblich durch die Kristallstruktur (Kristalle und Gefüge) bestimmt.
+Umformbarkeit beschreibt die Fähigkeit eines Werkstoffes unter bestimmten Bedingungen seinen Zustand dauerhaft zu verändern. Maßgeblich durch die Kristallstruktur (Kristalle und Gefüge) bestimmt.
 
+
+
+---
+
+
+
+**Umformgrad**
+- entspricht der Dehung in Prozent
+- für kleine Deformationen $\phi=\frac{\Delta l}{l_0}\cdot100\%$
+- für große Deformationen $\phi=ln\frac{l_1}{l_0}\cdot100\%$ -> logarithmisches Dehnungsmaß
+- Richtungsabhängig (3 Umformgrade)
+
+- Schiebungen
+- Winkel $\gamma$ am Referenzblock
 
 
 ---
@@ -212,18 +226,6 @@ $
 - Schubspannungen $\tau$ -> symmetrisch
 
 - Bewertung der lokalen Belastung (Spannung-Dehnung) ist analytisch in der Regel nicht möglich
-
-
----
-
-**Umformgrad**
-- entspricht der Dehung in Prozent
-- für kleine Deformationen $\phi=\frac{\Delta l}{l_0}\cdot100\%$
-- für große Deformationen $\phi=ln\frac{l_1}{l_0}\cdot100\%$ -> logarithmisches Dehnungsmaß
-- Richtungsabhängig (3 Umformgrade)
-
-- Schiebungen
-- Winkel $\gamma$ am Referenzblock
 
 
 ---

@@ -57,6 +57,8 @@ jobs:
           - wst_mb_07
           - wst_mb_08
           - wst_mb_09
+          - wst_mb_10
+          - wst_mb_11
           - mti_ft_01
           - mti_ft_02
           - mti_ft_03
@@ -76,6 +78,8 @@ jobs:
           - stream_wst_07
           - stream_wst_08
           - stream_wst_09
+          - stream_wst_10
+          - stream_wst_11
           - composites_01
     steps:
       - uses: actions/checkout@v4
