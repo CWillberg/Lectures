@@ -215,13 +215,18 @@ Beschreibt wie gut zwischen Daten ein linearer Zusammenhang besteht (zwischen -1
 ## Fitting
 Methode der kleinsten Fehlerquadrate
 
-$\text{min}||\mathbf{y}_m(\mathbf{x}) - \mathbf{y} ||$
+$\text{min}||\mathbf{y}_m(\mathbf{x}) - \mathbf{y}||^2$
+
+
 
 um eine beliebige fitting Funktion zu bestimmen.
 
 Wahl der Funktion:
 Polynome - können bei hohen Polynograde zu Überschwingen führen
 Splines, B-Splines - komplexer
+
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/17/MDKQ1.svg)
 
 ---
 
@@ -401,7 +406,7 @@ Einflussgrößen
 - Annahmen der Bernoulli Balkentheorie müssen gelten 
 - eher für spröde Werkstoffe
 
-$l>20*h$.
+$l>20\cdot h$.
 
 $F$ - Prüfkraft
 
@@ -485,16 +490,14 @@ Einflussgrößen
 [Video](https://youtu.be/BOpBzKanX9k?si=icWRiGPNs-8H9qXo)
 
 
-<details>
-<summary>Herausforderungen?</summary>
-<div>
+
+Herausforderungen?
+
+---
 
 - repräsentative Lasten
 - Erwärmung durch zu schnelle Belastung
 - die Reihenfolge der Lasten beeinflusst die Lebensdauer
-
-</div>
-</details>
 
 
 ---

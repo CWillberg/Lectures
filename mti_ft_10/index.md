@@ -72,7 +72,7 @@ Kontakt: christian.willberg@h2.de
 
 # Umformen 
 
-Ist das Fertigugen durch bildsames (plastisches) Ändern der Form eines festen Körpers. Dabei werden sowohl Masse als auch Stoffzusammenhalt beibehalten.
+Ist das Fertigen durch bildsames (plastisches) Ändern der Form eines festen Körpers. Dabei werden sowohl Masse als auch Stoffzusammenhalt beibehalten.
 
 - zwei Hauptklassen
 - Kaltumformung, Halbwarmumformung, Warmumformung
