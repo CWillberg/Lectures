@@ -552,7 +552,9 @@ $(\mathbf{K}-\omega^2\mathbf{M})\mathbf{\hat{x}}=0$
 
 $MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref})(\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref})}$
 
-![bg right fit](https://community.sw.siemens.com/servlet/rtaImage?eid=ka6KZ00000006AW&feoid=00N4O000006Yxpf&refid=0EM4O00000112wj)
+[Software](https://github.com/dagghe/pyOMA2?tab=readme-ov-file)
+
+![bg right fit](https://www.researchgate.net/profile/Joseph-Morlier/publication/233854676/figure/fig3/AS:339754907389955@1458015290184/Modal-Assurance-Criteria-MAC-of-modeshapes-of-undamaged-plate-Vs-damaged-plate-gives-no_W640.jpg)
 
 ---
 

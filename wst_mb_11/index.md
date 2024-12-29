@@ -85,7 +85,7 @@ ZfP 4.0 – Transparenz von Informationen, technische & digitale Hilfsmittel und
 ## Verfahren
 - jede messbare physikalische Größe kann im Prinzip genutzt werden 
 
-  - mechanisch (außer Ultraschallprüfung)
+  - mechanisch
   - optisch
   - elektromagnetisch
   - elektrisch
@@ -93,11 +93,6 @@ ZfP 4.0 – Transparenz von Informationen, technische & digitale Hilfsmittel und
   - magnetisch
 
 ---
-
-
-## Ausarbeiten und Vorstellen
-
---- 
 
 
 ## Probabilty of Detection
@@ -126,6 +121,15 @@ $\lambda = \frac{c}{f} = \frac{6000 m/s}{10^6 1/s} = 6 mm$
 
 ---
 
+## Kompromiss
+
+- kleine Wellenlänge = größere Auflösung = größere Interaktion = kleinere Reichweite
+
+- große Wellenlänge = kleinere Auflösung = weniger Interaktion = größere Reichweite
+
+- 5G vs. 4G, UKW vs. Langwelle, usw.
+
+---
 
 ## Sichtprüfung
 
@@ -142,8 +146,8 @@ $\lambda = \frac{c}{f} = \frac{6000 m/s}{10^6 1/s} = 6 mm$
 
 ## Eindringprüfung
 
-
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ressuage_principe_2.svg/330px-Ressuage_principe_2.svg.png)
+
 1. Reinigung, 2. Farbe auftragen und eindringen lassen, 3. Oberflächliches reinigen, 4. Entwickler auftragen
 
 - bei Tageslicht oder im dunkeln 
@@ -306,7 +310,7 @@ $\frac{p_{a,d}}{p_{a,e}}=\frac{2W_2}{W_2+W_1}$
 
 $SNR = \frac{P_{Signal}}{P_{Rauschen}}$
 
-- Mehrfachmessungen reduziert den Rauschanteil
+- Mehrfachmessungen reduzieren den Rauschanteil
 
 ---
 
@@ -317,7 +321,13 @@ $SNR = \frac{P_{Signal}}{P_{Rauschen}}$
 - Messverstärker
 - Messaufnehmer
 
-![bg right 80%](http://std-partners.de/fileadmin/_processed_/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
+![bg right 95%](../assets/Figures/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
+  
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://std-partners.de/fileadmin/_processed_/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)" style="color: blue;">Bildreferenz</a>
+</div>
+
+
 
 ---
 
@@ -456,33 +466,28 @@ Wartungskosten senken
 
 ---
 
-<details>
-<summary>Stufe 1</summary>
-<div>
+Es gibt 4 Stufen.
+
+---
+
+Stufe 1
+
 Ein System kann feststellen, dass ein Event passiert ist
-</div>
-</details>
 
-<details>
-<summary>Stufe 2</summary>
-<div>
+
+Stufe 2
+
 Ein System kann feststellen, dass ein Event passiert ist und wo es stattfand
-</div>
-</details>
 
-<details>
-<summary>Stufe 3</summary>
-<div>
+
+Stufe 3
+
 Ein System kann feststellen, dass ein Event passiert ist, wo es stattfand und was stattgefunden hat (Typ des Events)
-</div>
-</details>
 
-<details>
-<summary>Stufe 4</summary>
-<div>
+
+Stufe 4
 Ein System kann feststellen, dass ein Event passiert ist, wo es stattfand, was stattgefunden und wie schädlich dieses Event für die Struktur ist
-</div>
-</details>
+
 
 ---
 
@@ -546,7 +551,9 @@ $(\mathbf{K}-\omega^2\mathbf{M})\mathbf{\hat{x}}=0$
 
 $MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref})(\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref})}$
 
-![bg right fit](https://community.sw.siemens.com/servlet/rtaImage?eid=ka6KZ00000006AW&feoid=00N4O000006Yxpf&refid=0EM4O00000112wj)
+[Software](https://github.com/dagghe/pyOMA2?tab=readme-ov-file)
+
+![bg right fit](https://www.researchgate.net/profile/Joseph-Morlier/publication/233854676/figure/fig3/AS:339754907389955@1458015290184/Modal-Assurance-Criteria-MAC-of-modeshapes-of-undamaged-plate-Vs-damaged-plate-gives-no_W640.jpg)
 
 ---
 
@@ -630,3 +637,4 @@ Beispiel Flugzeug
 
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/0/0f/AFM_%28used%29_cantilever_in_Scanning_Electron_Microscope%2C_magnification_1000x.GIF)
+
