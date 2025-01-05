@@ -53,7 +53,7 @@ footer {
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences
 
-![bg right](https://wiki.arnold-horsch.de/images/3/36/Flamm-1.png)
+![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
 Contact: christian.willberg@h2.de
 Parts of the script are adopted from \

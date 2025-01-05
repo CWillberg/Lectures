@@ -220,14 +220,33 @@ Beispiele:
 - Matrix
   - keramisch, Kunstharze, Metall
 
-![bg right 95%](https://upload.wikimedia.org/wikipedia/commons/c/cc/Unbestimmte_Schneide.svg)
+![bg right 95%](http://www.fachlexika.de/technik/mechatronik/schleifverfahren.jpg)
 
 ---
 
 - Körnung beschreibt die größe des Schleifmittelkörner
 - kleinere Körner -> geringere Oberflächenrauheit
 
+Schleifmittelgefüge
+- dicht
+- porös
+- hochporös
 
+[Bezeichnung von Schleifscheiben](http://www.fachlexika.de/technik/mechatronik/schleifen.html)
+
+---
+Weiche Schleifwerkzeuge für
+- harte Werkstoffe
+- goße Berührungsflächen zwischen Schleifwerkstoff und Werkstück
+- kleiner Vorschub
+
+Harte Schleifwerkzeuge für
+- weiche Werkstoffe
+- kleinere Berührungsflächen
+- größerer Vorschub
+
+
+---
 
 [Trennprozesse sind verschaltbar](https://www.youtube.com/watch?v=hmmXmKqP7B4)
 
@@ -250,6 +269,37 @@ Beispiele:
 [Wasserstrahl](https://youtu.be/DEUZLEmFUgA?si=wEJjnorsuSDoExKF)
 [Laserschneiden](https://youtu.be/3lLfXX9Xu-0?si=3XjMP1VHTGPKUuhY)
 
+---
+
+## Abtragen
+chemisch, elektrochemisch
+- ätzen
+
+thermisch
+- Funkenerosion
+- Elektronenstrahlbearbeitung
+- Laserstrahlbearbeitungen
+- Plasmastrahlbearbeitung
+
+mechanisch
+- Wasserstrahlbearbeitung
+
+---
+
+
+![bg 80%](https://upload.wikimedia.org/wikipedia/commons/c/cc/Laserschema.svg)
+
+---
+## Vorteile von Lasern
+- hohe Bearbeitungsgeschwindigkeit
+- hohe Präzision
+- hohe Bearbeitungsqualität
+- es werden keine mechanischen Kräfte ausgeübt
+- geringe Wärmebelastung
+- hohe, präzise, defineirte Energiedichte
+- Automatisierbarkeit
+- hohe Flexibilität
+- Verschleißfreies Werkzeug
 
 ---
 
@@ -262,3 +312,5 @@ Beispiele:
 - Ablöten
 - Lösen von Klebeverbindungen
 - Zerlegen textiler Verbindungen
+
+---

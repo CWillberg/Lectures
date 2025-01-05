@@ -337,7 +337,8 @@ Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folge
 
 [Grundlagen](https://www.youtube.com/watch?v=d_YUk4vcFCE)
 
+---
 
-
-
+**Referenzen**
+Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
 
