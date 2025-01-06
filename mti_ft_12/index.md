@@ -139,11 +139,87 @@ Dübel, die in entsprechend gebohrte Löcher eingefügt werden, um zwei Holzstü
 ---
 
 # Stoffschluss
+## Schweißen
+## Löten
+## Kleben
+
+---
+## Schweißen
+**Schmelzschweißverfahren**
+- Wärme
+- Stoffschluss durch Schmlzfluss der Fügeteile znd des Zusatzwerkstoffs
+
+**Pressschweißverfahren**
+- Druck oder Wärme und Druck
+- Plastifizierung und örtliches Verformen der Fügeteile
+
+
+
+![bg right 80%](https://cdn.schuetz-licht.com/image/Wissen/Schweissnahtpruefung/A-Mass/Schweissnaht-Analyse.JPG)
+
+---
+## Schweißbarkeit
+- Schweißeignung (Werkstoff <-> Verfahren)
+- Schweißsicherheit (Werkstoff <-> Konstruktion)
+- Schweißmöglichkeit (Konstruktion <-> Verfahren)
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/24/Schwei%C3%9Fbarkeit.png)
 
 ---
 
 
-![bg 70%](https://cdn.schuetz-licht.com/image/Wissen/Schweissnahtpruefung/A-Mass/Schweissnaht-Analyse.JPG)
+## Schweißeignung von Stählen
+
+Abschätzung 
+- unlegiert $C\leq 0.22\%$ -> schweißbar
+- unlegiert bedingt schweißbar $0.22\%\leq C\leq 0.4\%$
+Für Legierungen wird das sogenannte Kohlenstoffäquivalent bestimmt
+
+$CE=C+\frac{Mn}{6}+\frac{Cr+Mo+V}{5}+\frac{Ni+Cu}{15}$
+- $CE\leq 0.4\%$ Schweißeignung
+
+---
+## Schaeffler Diagramm
+- anzuwenden bei hochlegierten Stählen
+
+![bg right fit](https://prozesstechnik.industrie.de/wp-content/uploads/l/e/lexikon_pharmatechnologie_bild_LPT02_S_Abb01.png)
+
+
+---
+
+## Schweißsicherheit
+- Konstruktive Gestaltung
+  - Kraftflüsse im Bauteil
+  - Anordnung von Schweißnähten
+  - Werkstückdicke,
+  - Kerbwirkung
+  - Steifigkeitsunterschiede
+
+
+---
+
+Sicherheit wird verbessert, wenn
+- keine Umlenkung des Kraftflusses
+- ein- oder zweiachsiger Spannungszustand
+- Kerben sind zu vermeiden
+- kontinuierliche Übergänge bei Querschnitten
+
+_Belastungen wie Temperaturen, Schwingungen, etc. sind zu berücksichtigen._
+
+
+---
+
+## Schweißmöglichkeit
+- unter den vorhandenen Bedingungen muss die Schweißung fachgerecht durchgeführt werden können
+- Vorbereiten (Fugenform, Stoßart, Vorwärmen, Schweißverfahren, etc.)
+- Ausführen (Wärmeeinbringung, Wärmeführung, Schweißfolge)
+- Nachbereiten/Nachbehandeln (Richten, Schleifen, Wärmebehandlung, etc.)
+
+---
+## Fugen
+
+![bg right fit](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-3-642-39501-7_8/MediaObjects/9393_9_De_8_Fig9_HTML.gif)
+
+- Schweißquerschnitte unterscheiden sich je nach Verfahren
 
 ---
 
@@ -153,12 +229,108 @@ Dübel, die in entsprechend gebohrte Löcher eingefügt werden, um zwei Holzstü
 </div>
 
 
+---
+
+# Verfahren
+- [Lichtbogenschweißen](https://youtu.be/DccNuexANYU?si=dfJZ-JXxicJaEArz&t=33)
+- [Schutzgasschweißen](https://youtu.be/tQocMx5o6dE?si=rAnZihwb7wa5iW4K&t=160)
+- [Unterpulverschweißen](https://youtu.be/N7R_7pM3L98?si=j8tyVHzNHpr66SiM&t=14)
+[Gasschmelzschweißen](https://youtu.be/6SiwQfuhxa8?si=F9w9mjIDH6XixRLT&t=584)
+---
+## Lichtbogenschweißen
+- Lichtbogen brennt zwischen einer abschmelzenden Metallelektrode und dem Werkstück
+- die Elektrode ist gleichzeitig der Schweißzusatz
+- kann mit und ohne Schutzgas (Argon, Helium, oder Gemische) durchgeführt werden
+
+---
+## Schutzgasschweißen
+
+MSG - Metall Schutzgasschweißen
+- unterteilt in MIG (Aluminium, Kupfer, Nickel, ..)
+- MAG unlegierte und niedrig legierte und hoch legierte Stähle
+- Elektrode wird abgeschmolzen
+
+WIG - Wofram Internet Schweißen
+- Lichtbogen brennt zwischen nicht abschmelzender Wolfram Elektrode und dem Werkstück
+- Zusatzstab sorgt Schweißzusatz
+
+---
+
+## Gasschmelzschweißen / Autogenschweißen
+- wird nur noch selten genutzt
+- hohe Betriebskosten und geringe Produktivität
+- im Handwerk oder auf Baustellen aufgrund der geringen Anschaffungskosten im Einsatz
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/e/e3/Oxyfuel_gas_welding_operation-de.svg)
+
+---
 
 
+## Widerstandspressschweißen
+
+- nutzt den elktrischen Widerstand zum heizen
+
+$Q= \int_0^{t_s} I^2 R dt = W_{elektrisch}$
 
 
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/5/5d/Spot_welding_1anim.gif)
+
+- oft bei Dünnblechen im Einsatz
+
+---
+## Besonderheiten des Verfahrens
+
+|Vorteile|  Nachteile |
+|---|---|
+|keine Nahtvorbereitung|  große Kerwirkung in einem Punkt |
+|kurze Schweißzeiten|  geringe Dauerfestigkeit |
+|gute Automatisierbarkeit| Kraftumlenkung infolge der Überlappungsverbindung  |
+|kleine Wärmeflusszonen| schlechte Prüfbarkeit  |
+
+---
+
+## Reibschweißen
+- notwendige Wärme wird durch Reibung erzeugt
+- [rotierende](https://youtu.be/oO2xxweFl6A?si=UqGV7MPkqnBa7YEF&t=17) oder oszillierende Bewegung ([Ultraschallschweißen](https://youtu.be/Z4szktVnMLA?si=mta4acZfD2Q66tdt&t=13))
+
+- sehr gute Festigkeitseigenschaften
+- es bildet sich ein feinkristalines Gefüge aus
+- Ermüdungsverhalten ist gut
+- die konstruktive Gestaltung spielt bei Reibschweißbauteilen eine große Rolle
+
+---
+
+# Löten
+- ein Material wird aufgeschmolzen und verbindet die Werkstücke
+
+- bis 450 °C: Weichlöten
+- ab 450 °C: Hartlöten
+- über 900 °C: Hochtemperaturlöten
+![bg right 80%](https://tse1.mm.bing.net/th?id=OIP.5afDTb3Ps_6IZ4dBOnbBbAHaE8&pid=Api)
+
+---
+
+## Lote und Grundwerkstoffe
 
 
 ---
+
+# Kleben
+
+Adhäsion
+Kohäsion
+
+---
+Oberflächenbehandlung
+
+---
+
+Kissing Bonds
+
+---
+
++36
+
+
 **Referenzen**
 Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
