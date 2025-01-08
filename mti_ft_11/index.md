@@ -271,6 +271,24 @@ Harte Schleifwerkzeuge für
 
 ---
 
+
+
+![bg 80%](https://upload.wikimedia.org/wikipedia/commons/c/cc/Laserschema.svg)
+
+---
+## Vorteile von Lasern
+- hohe Bearbeitungsgeschwindigkeit
+- hohe Präzision
+- hohe Bearbeitungsqualität
+- es werden keine mechanischen Kräfte ausgeübt
+- geringe Wärmebelastung
+- hohe, präzise, definierte Energiedichte
+- Automatisierbarkeit
+- hohe Flexibilität
+- Verschleißfreies Werkzeug
+
+---
+
 ## Abtragen
 chemisch, elektrochemisch
 - ätzen
@@ -286,23 +304,6 @@ mechanisch
 
 ---
 
-
-![bg 80%](https://upload.wikimedia.org/wikipedia/commons/c/cc/Laserschema.svg)
-
----
-## Vorteile von Lasern
-- hohe Bearbeitungsgeschwindigkeit
-- hohe Präzision
-- hohe Bearbeitungsqualität
-- es werden keine mechanischen Kräfte ausgeübt
-- geringe Wärmebelastung
-- hohe, präzise, defineirte Energiedichte
-- Automatisierbarkeit
-- hohe Flexibilität
-- Verschleißfreies Werkzeug
-
----
-
 ## Zerlegen
 
 - Auseinandernehmen (Demontieren im engeren Sinne)
@@ -313,4 +314,3 @@ mechanisch
 - Lösen von Klebeverbindungen
 - Zerlegen textiler Verbindungen
 
----

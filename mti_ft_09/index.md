@@ -561,7 +561,7 @@ $MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\
 ## Geführte Ultraschallwellen
 
 - Anregung über Piezokomposite
-- Empfang mit Piiezokompositen oder Fibre Bragg Gittern
+- Empfang mit Piezokompositen oder Fibre Bragg Gittern
 
 ![bg right fit](https://pub.mdpi-res.com/aerospace/aerospace-10-00430/article_deploy/html/images/aerospace-10-00430-g008.png?1683204034)
 

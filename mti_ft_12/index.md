@@ -303,6 +303,20 @@ $Q= \int_0^{t_s} I^2 R dt = W_{elektrisch}$
 # Löten
 - ein Material wird aufgeschmolzen und verbindet die Werkstücke
 
+Vorteile
+- Verbinden von verschiedenartigen Werkstoffen
+- Verbinden von Nichtmetallen
+- geringer Verzug und Wärmeeintrag
+- kein Aufschmelzen des Grundwerkstoffs
+- gute elektrische und Wärmeleitfähigkeit der Lötstellen
+
+---
+Nachteile
+- Korrosionsgefahr aufgrund der Potentialunterschiede zwischen Lot und Grundwerkstoff
+- Festigkeitseinbußen bei steigender Temperatur
+
+---
+
 - bis 450 °C: Weichlöten
 - ab 450 °C: Hartlöten
 - über 900 °C: Hochtemperaturlöten
@@ -310,19 +324,48 @@ $Q= \int_0^{t_s} I^2 R dt = W_{elektrisch}$
 
 ---
 
-## Lote und Grundwerkstoffe
+## Lote 
+- meist Legierungen und selten reine Metalle
+- Aufgabe die Grundwerkstoffe zu verbinden
+- Lotschmelztemperatur muss niedriger sein als vom Grundwerkstoff
+- wenigstens ein Legierungselement des Lots muss mit dem Grundwerkstoff einen Mischkristall bilden
+- das Lot muss in der Lage sein den Grundwerkstoff zu benetzen
 
+---
+
+## Verfahren
+[Kolbenlöten](https://youtu.be/Zyuvy_rMXcY?si=ZVhBF8cbG9LATCn-&t=5)
+[Induktionslöten](https://www.youtube.com/watch?v=ToJfdgbvodc)
+[Widerstandslöten](https://youtu.be/739HFTSdWT4?si=rWB0490lCOUIu5NQ)
+  - direkt: Strom fließt über die Lötstelle
+  - indirekt: Strom fließt nicht über die Lötstelle
+
+...
 
 ---
 
 # Kleben
+Kohäsion - Klebstoff muss genug Festigkeit haben
+Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 
-Adhäsion
-Kohäsion
+![bg right 60%](https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/3/2/3/1/5/4/7/zersa_gte_rotorbla_tter_wea_recycling_c.jpg-c83f0d5959c06ce3.jpeg?org_if_sml=1&q=75&width=1600)
+![bg vertical 60%](https://sika.scene7.com/is/image/sika/glo-robot-adhesive-application-metal-profile?wid=1280&crop=0%2C1843%2C3735%2C3637)
+
 
 ---
-Oberflächenbehandlung
 
+# Oberflächenbehandlung
+
+- Oberfläche hat oft Verunreinigungen wie
+  - Staub, Metallabieb ~$10^4-10^5$nm
+  - Öle Fette ~$3$nm
+  - Reaktionsschichte  ~$1-10$nm
+  - Grundwerkstoff mit verändertem Gefüge
+- Reinigen erfolgt
+  - chemisch
+  - mechanisch
+  - entfetten
+  
 ---
 
 Kissing Bonds
