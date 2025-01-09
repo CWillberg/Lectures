@@ -351,7 +351,25 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 ![bg right 60%](https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/3/2/3/1/5/4/7/zersa_gte_rotorbla_tter_wea_recycling_c.jpg-c83f0d5959c06ce3.jpeg?org_if_sml=1&q=75&width=1600)
 ![bg vertical 60%](https://sika.scene7.com/is/image/sika/glo-robot-adhesive-application-metal-profile?wid=1280&crop=0%2C1843%2C3735%2C3637)
 
+---
+## Vorteile
+- nahezu alle Werkstoffkombinationen können gefügt  werden;
+- flächigen Kraftübertragung erzeugt eine gleichmäßige Verteilung der Kräfte 
+- große Klebefläche => relativ hohe Kräfte können zwischen dünnen Fügeteile übertragen werden $\sigma = \frac{F}{A}$
+- elastischen Klebstoffe erlauben kleine Relativbewegungen der Fügepartner, z. B. können Fügeteildehnungen bei Temperaturschwankungen ausgeglichen und Schwingungen effektiv gedämpft werden
+- geringe oder keine Wärmebelastung
+- Fügetoleranzen können ausgeglichen werden
+- ...
 
+---
+## Nachteile
+- in der Regel wird eine Sofortfestigkeit nicht erreicht
+-  je nach chemischer Basis eingeschränkte thermische und chemische Belastbarkeit/Beständigkeit
+- die mechanischen Eigenschaften sind temperaturabhängig;
+- z. T. eine gewisse Neigung zum Kriechen;
+- Klebungen altern
+- eine Wiederlösbarkeit der Verbindung ist häufig nicht ohne Beschädigung mindestens eines der Fügeteile möglich
+    
 ---
 
 # Oberflächenbehandlung
@@ -365,15 +383,66 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
   - chemisch
   - mechanisch
   - entfetten
-  
----
-
-Kissing Bonds
 
 ---
 
-+36
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Wichtige%2C_bei_der_Klebstoffauswahl_zu_ber%C3%BCcksichtigende_Kriterien.jpg)
 
+
+---
+
+## Prüfung
+
+- Kleben ist ein sogenannter „spezieller Prozess“, d. h. eine Prüfung ist nicht vollständig durch zerstörungsfreie Methoden realisierbar
+- Sicherheit durch robusten und reproduzierbaren Klebprozess
+
+- Kissing Bonds
+
+---
+
+- Reaktionsauslösung ist abhängig vom Klebstoff
+  - Temperatur, Zugabe eines Härters, Feuchtigkeit, Strahlung, ...
+- Automatisierung über [Roboter](https://youtu.be/bUEh0yOhT4Q?si=oU1Cp_FsMz--FWND) möglich
+
+---
+# Fügen durch Umformen
+- fügen durch mVorteile
+  - kein Wärmeeintrag
+  - grtoße Vielfallt bei den Werkstoffen
+  - gute ökologische Vertrgälichkeit
+  - einfache Qualitätskontrolle
+  - hohe Wirtschaftlichkeit
+
+- Nachteile
+  - kaum Normungen 
+  - punktförmige Verbindung
+
+---
+## Verfahren
+- Bördeln
+- Falzen
+- Verlappen
+![](https://upload.wikimedia.org/wikipedia/commons/1/1a/Verlappen.jpg)
+
+---
+
+# Durchsetzfügen
+![](https://upload.wikimedia.org/wikipedia/commons/a/ae/Durchsetzf%C3%BCgen_zweier_Bleche_als_2D-Animation_und_Stufensetzfolge.gif)
+
+
+---
+## Stanznieten / Niet
+
+
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/f/f4/Rivet.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/d/d8/Popnagel.gif)
+
+---
+![bg 95%](https://p0.pikist.com/photos/541/785/industry-technology-airplane-transportation-system-vehicle-rivets.jpg)
+
+![bg 60%](https://upload.wikimedia.org/wikipedia/commons/0/09/Nieten_Hohenzollernbr%C3%BCcke_K%C3%B6ln_03.jpg)
+
+---
 
 **Referenzen**
 Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
