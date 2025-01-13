@@ -83,8 +83,8 @@ Charakterisierung:
 - Haltedauer
 - Art des Abkühlens (Ofen-, Luft-, Öl-, Wasserabkühlung)
 
-![bg right 50% fit](../assets/styles/w.png)
 
+![bg right 70%](../assets/QR/wst_mb_09.png)
 
 ---
 

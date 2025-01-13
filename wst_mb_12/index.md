@@ -79,6 +79,7 @@ Kontakt: christian.willberg@h2.de
 - Faserverbundkunststoffe
 - Leichtbauexkurs
 
+![bg right 70%](../assets/QR/wst_mb_12.png)
 
 ---
 ## Vergleich von Werkstoffen

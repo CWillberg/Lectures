@@ -31,8 +31,10 @@ Kontakt: christian.willberg@h2.de
 
 Ziele der zerstörungsfreien Prüfung (ZfP)
 
+![bg right 70%](../assets/QR/wst_mb_11.png)
 
 ---
+
 ## Entwicklungsstufen
 
 ZfP 1.0 – Werkzeuge (zur Schärfung der Sinne)
@@ -600,3 +602,262 @@ Beispiel Flugzeug
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/0/0f/AFM_%28used%29_cantilever_in_Scanning_Electron_Microscope%2C_magnification_1000x.GIF)
 
+---
+
+## Signal-to-Noise Ratio
+
+$SNR = \frac{P_{\text{Signal}}}{P_{\text{Noise}}}$
+
+- Multiple measurements reduce the noise component.
+
+---
+
+## Experimental Setup
+
+- 1–2 transducers
+- Amplifier
+- Sensor
+
+![bg right 95%](../assets/Figures/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://std-partners.de/fileadmin/_processed_/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)" style="color: blue;">Image Reference</a>
+</div>
+
+---
+
+## Coupling of the Probe to the Surface
+
+**Water**  
+- Low cost  
+- Easily automated  
+
+**Motor oil, grease**  
+- Already present in the component  
+- Not optimized for testing  
+
+**Glycerin, gel**  
+- High viscosity and acoustic impedance advantageous  
+- Suitable for rough surfaces and highly damping materials (e.g., weld seam inspection)  
+
+**Air**  
+- No coupling medium required  
+- High noise level  
+
+---
+
+## Pulse-Echo Method
+
+- **Dead zone**  
+  - Transition time from transmitter to receiver.  
+
+- **Dual-sensor system**  
+  - Measurements on both sides of the material.  
+  - Challenges in accessibility and effort.  
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/UT_principe.svg/660px-UT_principe.svg.png)
+
+---
+
+## Measurement Image
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/08/Swing_shaft_spline_cracking.png)
+
+---
+
+## Weld Seam Inspection
+
+- Angled ultrasound due to challenging coupling conditions.  
+
+![bg right fit](https://www.karldeutsch.de/wp-content/uploads/2018/12/UT-2-2-DE.png)
+
+---
+
+## Adhesive Layers
+
+- Tested similarly to other materials.  
+- Potential presence of "kissing bonds."
+
+---
+
+## Wall Thickness Measurement
+
+![](https://www.karldeutsch.de/wp-content/uploads/2018/12/UT-2-1-DE.png)
+
+---
+
+## Imaging Techniques
+
+- Measurement data can be visualized in various ways.  
+
+---
+
+## A-Scan (Amplitude)
+
+- Time vs. Amplitude  
+- For a constant velocity, flaws in the signal can be detected at a specific point.  
+
+![bg right fit](https://wiki.polymerservice-merseburg.de/images/4/40/A_bild.JPG)
+
+---
+
+## B-Scan (Brightness)
+
+- A single point is another representation of the A-scan (echo intensity shown by brightness).  
+- Using sound direction, 2D or 3D images can be created.  
+
+![bg right 70%](https://www.spektrum.de/lexika/images/physik/fff925_w.jpg)
+
+---
+
+## C-Scan
+
+- A projection of the sizes of detected flaws.  
+
+![](https://upload.wikimedia.org/wikipedia/de/1/1f/C-bild-2.jpg)
+
+---
+
+## D-Scan
+
+- Area scan for larger regions.  
+
+![bg right 80%](https://wiki.polymerservice-merseburg.de/images/a/a7/D_Bild_Technik-4.JPG)
+
+![](https://wiki.polymerservice-merseburg.de/images/a/af/D_Bild_Technik-1.JPG)
+
+---
+
+## Thickness Measurement Using Guided Ultrasonic Waves
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/e/e7/Sym_asym_sigma0.27_und_0.34_edited2.svg)
+
+---
+
+## Eddy Current Testing
+
+---
+
+## Structural Health Monitoring
+
+- Monitoring a structure during operation.  
+- Related to condition monitoring (e.g., gearbox monitoring to detect bearing damage).  
+
+### Objectives:
+- Reduce maintenance costs:
+  - Fewer repairs.  
+  - Easier inspections.  
+  - Timely maintenance.  
+- Load adaptation in case of damage.  
+- Extend service life.  
+- Increase safety.  
+
+### Four Levels of SHM:
+
+1. Detect an event.  
+2. Detect and localize the event.  
+3. Detect, localize, and identify the event.  
+4. Assess damage severity and its impact on the structure.
+
+---
+
+## Methods
+
+- Modal analysis  
+- Guided ultrasonic waves  
+- Acoustic emissions  
+- Load path analyses (e.g., parallel springs)  
+- Strain measurements  
+- Model-based approaches  
+
+---
+
+## Technical Applications
+
+### Bridges
+- Example: Second Penang Bridge, Penang, Malaysia  
+
+![](https://www.geosig.com/images/page_image_111.png)
+
+---
+
+### Pipelines
+
+![](https://journals.sagepub.com/cms/10.1177/1475921719837718/asset/images/large/10.1177_1475921719837718-fig17.jpeg)
+
+---
+
+### Aircraft
+- Load path analysis  
+- Monitoring of connections  
+- Focus on efficiency rather than safety  
+
+![bg right fit](https://journals.sagepub.com/cms/10.1177/1475921720919678/asset/images/large/10.1177_1475921720919678-fig5.jpeg)
+
+---
+
+### Wind Energy
+
+![](https://onlinelibrary.wiley.com/cms/asset/7f3901c5-5735-4b5f-8ce1-655b4e3fcfe7/mfig001.jpg)
+
+---
+
+## Challenges
+
+- Temperature effects  
+- Humidity  
+- Material internal structure  
+- Mode conversion  
+- Stresses in the structure  
+- Aging  
+
+---
+
+## Potentials
+
+**Example: Aircraft**  
+- Barely visible impact (BVI): damage size defined by visibility.  
+- SHM systems allow for smaller damage considerations during design.  
+- Estimated **1–5% reduction** in structural mass ([Source](https://elib.dlr.de/123946/1/1475921718813279.pdf)).  
+
+---
+
+## Microscopy
+
+- Analysis of material microstructure.  
+- Local analysis of composition or grain structure.  
+- Sample preparation (e.g., grinding, surface treatment).  
+- Light sources significantly influence contrast.  
+
+![bg right fit](https://www.ikts.fraunhofer.de/de/abteilungen/werkstoff_prozesscharakterisierung/korrelative_mikroskopie_und_materialdaten/fa_multiskalige-3D-analytik_datenkorrelation_und_praeparation_in_der_halbleiterentwicklung/jcr:content/contentPar/sectioncomponent_cop/sectionParsys/imagerow/imageComponent1/image.img.4col.jpg/1683533051397/39-4-3d-detailansicht-eines-cpu-chips.jpg)
+
+---
+
+## Light Microscopy
+
+- Grain size analysis for metals and alloys.  
+- Area counting and line intercept methods.  
+
+![bg right fit](https://static1.olympus-ims.com/data/Image/appnotes/GrainSizeAnalysis_AppNote_img4_rev.jpg?rev=9463)
+
+---
+
+## Scanning Electron Microscopy
+
+- Uses electron beams for scanning.  
+- Significantly higher resolution ($1nm - 2nm$).  
+- ~500x better magnification compared to light microscopy.  
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/e/ef/Funktionsprinzip_REM.gif)
+
+---
+
+## Scanning Probe Microscopy
+
+- Structures scanned using a needle.  
+- Interaction varies based on the microscope type:
+  - Tunneling current.  
+  - Van der Waals forces.  
+  - Magnetic forces.  
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/0/0f/AFM_%28used%29_cantilever_in_Scanning_Electron_Microscope%2C_magnification_1000x.GIF)
