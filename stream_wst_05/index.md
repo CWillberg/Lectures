@@ -11,37 +11,6 @@ author: Christian Willberg
 
 
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-<style>
-.container{
-  display: flex;
-  }
-.col{
-  flex: 1;
-  }
-</style>
-
-<style scoped>
-.column-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.column {
-    flex: 1;
-    padding: 0 20px; /* Column spacing */
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto;
-}
-</style>
-
 <style>
 footer {
     font-size: 14px; /* Footer font size */
