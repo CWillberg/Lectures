@@ -9,25 +9,6 @@ title: Materials-and-Production-Engineering-Lecture Alloy Formation
 author: Christian Willberg
 ---
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-<style>
-.container{
-  display: flex;
-  }
-.col{
-  flex: 1;
-  }
-</style>
-
-<style scoped>
-.column-container {
-    display: flex;
-    flex-direction: row;
-}
 
 .column {
     flex: 1;
