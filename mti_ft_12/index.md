@@ -32,7 +32,7 @@ Kontakt: christian.willberg@h2.de
 ---
 
 # Definition
-Fügen ist das Zusammenbringen von verschiedenen Werkstücken (Bauelementen) geometriscehr bestimmter fester Form oder von ebensolcheen Werkstücken mit formlosem Stoff oder Verbindungselementen. Dabei wird der Zusammenhalt zwischen den Elementen jeweils örtlich geschaffen oder vermehrt.
+Fügen ist das Zusammenbringen von verschiedenen Werkstücken (Bauelementen) geometrisch bestimmter fester Form oder von ebensolchen Werkstücken mit formlosem Stoff- oder Verbindungselementen. Dabei wird der Zusammenhalt zwischen den Elementen jeweils örtlich geschaffen oder vermehrt.
 
 ![bg right 70%](../assets/QR/mti_ft_12.png)
 
@@ -86,10 +86,10 @@ Kraftschluss
 
 
 ---
-| Durchsteckschraube                         | Einziehschraube                                                                 | Stiftschraube                                   |
+| Durchsteckschraube                         | Einziehschraube,Sechskantschraube, Zylinderschraube                                                                 | Stiftschraube                                   |
 |-------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------------|
-| Sechskantschraube, Zylinderschraube       | Die Verbindung wird erzeugt durch Verspannen mit einer Mutter.                  | Bei einer Stiftschraube wird der Schraubenkopf durch eine Mutter ersetzt. |
-| In den Bohrungen ist kein Gewinde enthalten (Durchgangsbohrungen). | Hier wird das Verspannen realisiert durch den Einzug in ein Gewinde, welches in einem zu verbindenden Objekt enthalten ist. | Der Schraubenkopf kann zusätzlich versenkt werden oder aufliegen (siehe Durchsteckschraube). |
+| Die Verbindung wird erzeugt durch Verspannen mit einer Mutter.                  |  Hier wird das Verspannen realisiert durch den Einzug in ein Gewinde, welches in einem zu verbindenden Objekt enthalten ist.    | Bei einer Stiftschraube wird der Schraubenkopf durch eine Mutter ersetzt.   | 
+| In den Bohrungen ist kein Gewinde enthalten (Durchgangsbohrungen). | Der Schraubenkopf kann zusätzlich versenkt werden oder aufliegen (siehe Durchsteckschraube). |  |
 
 [Quelle](https://www.ingenieurkurse.de/technische-darstellungen-maschienenbau/normgerechtes-bemassen-in-einer-technischen-zeichnung/hinweise-zu-speziellen-schrauben-und-gewindebedingungen.html)
 
@@ -148,13 +148,7 @@ $CE=C+\frac{Mn}{6}+\frac{Cr+Mo+V}{5}+\frac{Ni+Cu}{15}$
 - $CE\leq 0.4\%$ Schweißeignung
 
 ---
-## Schaeffler Diagramm
-- anzuwenden bei hochlegierten Stählen
 
-![bg right fit](https://prozesstechnik.industrie.de/wp-content/uploads/l/e/lexikon_pharmatechnologie_bild_LPT02_S_Abb01.png)
-
-
----
 
 ## Schweißsicherheit
 - Konstruktive Gestaltung
@@ -376,9 +370,9 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 
 ---
 # Fügen durch Umformen
-- fügen durch mVorteile
+- Vorteile
   - kein Wärmeeintrag
-  - grtoße Vielfallt bei den Werkstoffen
+  - große Vielfallt bei den Werkstoffen/-kombinationen
   - gute ökologische Vertrgälichkeit
   - einfache Qualitätskontrolle
   - hohe Wirtschaftlichkeit
