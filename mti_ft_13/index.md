@@ -442,7 +442,9 @@ Ausgangsmaterial ist pulverförmig
 - geringe Schlagbiegefestigkeit
 - große Kerbempfindlichkeit
 
-![bg right fit](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_PuZaGavilaboseVe7493644773946427.png)
+![bg right fit](../assets/Figures/Gefuege_Kermaik.png)
+
+[Quelle](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_PuZaGavilaboseVe7493644773946427.png)
 
 ---
 
@@ -450,12 +452,14 @@ Ausgangsmaterial ist pulverförmig
 - Daher kein Gleiten wie bei Metallen möglich -> keine plastischen Eigenschaften
 
 
-![bg right 90%](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_waVatuLaxuyiroRu6233471439296793.png)
+![bg right 90%](../assets/Figures/Eigenschaften_Keramiken.png)
+[Quelle](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_waVatuLaxuyiroRu6233471439296793.png)
 
 ---
 ## Härte
 
-![bg  fit](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_SifuZeYuvegeWori5372538488744336.png)
+![bg  fit](../assets/Figures/haerte_Keramik.png)
+[Quelle](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_SifuZeYuvegeWori5372538488744336.png)
 
 ---
 
@@ -479,7 +483,8 @@ Glaskeramiken
 
 Unempfindlich gegen klimatische Einflüsse (Salznebel, Industriegase, Sonnenlicht, Wärme)
 - als Stecker, Klemmleisten, Schalter, usw. eignesetzt
-![bg right fit](https://pixnio.com/free-images/2017/12/11/2017-12-11-16-38-22-1536x1024.jpg)
+![bg right fit](../assets/Figures/isolator.jpg)
+[Quelle](https://pixnio.com/free-images/2017/12/11/2017-12-11-16-38-22-1536x1024.jpg)
 
 
 ---
