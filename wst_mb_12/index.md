@@ -431,7 +431,7 @@ beeinflussen.
 # Gläser
 
 - unterhalb $\text{T}_g$ Festkörperverhalten
-- oberhalb $\text{T}_g$ Flüssigkeitsverhaltne
+- oberhalb $\text{T}_g$ Flüssigkeitsverhalten
 - der Prozess ist reversibel
 
 ![bg right fit](../assets/Figures/Eigenschaft-Temperaturkurve-Glas.svg)
