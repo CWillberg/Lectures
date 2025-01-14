@@ -10,17 +10,6 @@ author: Christian Willberg
 ---
 
 
-
-
-<style>
-footer {
-    font-size: 14px; /* Ändere die Schriftgröße des Footers */
-    color: #888; /* Ändere die Farbe des Footers */
-    text-align: right; /* Ändere die Ausrichtung des Footers */
-}
-</style>
-
-
 ##  MTI - Grundlagen - Werkstofftechnik
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal

@@ -25,7 +25,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](https://cdn.schuetz-licht.com/image/Wissen/Schweissnahtpruefung/A-Mass/Schweissnaht-Analyse.JPG)
+![bg right](https://www.home-of-welding.com/storage/media/images/6246/conversions/bild6-full.jpg)
 
 Kontakt: christian.willberg@h2.de
 
