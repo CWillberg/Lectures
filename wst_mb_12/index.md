@@ -149,7 +149,7 @@ Nachteile:
 - Energieaufwand sehr hoch
 - Recycling benötigt nur 5% der Energie die für die Herstellung von Primäraluminium nötig ist
 
-!(https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Aluminiumproduzenten)[um die 60-70 Mio. t Produktion]
+[um die 60-70 Mio. t Produktion](https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Aluminiumproduzenten)
 
 ---
 
