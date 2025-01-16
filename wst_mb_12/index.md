@@ -228,7 +228,7 @@ $Cu_2 S+ 2Cu_2 O\rightarrow 6Cu+SO_2$
 
 ---
 
-![bg](../assets/Figures/spezifische_Eigenschaften.png)
+![bg fit](../assets/Figures/spezifische_Eigenschaften.png)
 
 ---
 
