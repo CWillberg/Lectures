@@ -55,7 +55,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right](../assets/Figures/FKV_struktur.png)
 
 Kontakt: christian.willberg@h2.de
 
@@ -67,6 +67,14 @@ Kontakt: christian.willberg@h2.de
 <!--paginate: true-->
 
 ---
+
+
+## Was ist ein Faserkunstoffverbund (FKV)
+
+- Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
+- Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
+- Material und seine Eigenschaften entstehen in der Fertigung 
+![bg right 70%](../assets/QR/wst_mb_13.png)
 
 ## Fokus von Industrien
 
@@ -92,24 +100,23 @@ Kontakt: christian.willberg@h2.de
   - …
 
 
----
 
-## Was ist ein Faserkunstoffverbund (FKV)
-
-- Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
-- Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
-- FKV bieten ein spezifisches Eigenschaftsprofil
-- Material und seine Eigenschaften entstehen in der Fertigung der Bauteile / Strukturen
 
 ---
 
 ## Komponenten von Faserkunstoffverbunde 
 
-Matrix – bindende Komponente
+**Matrix – bindende Komponente**
 Formgebend
 Schutz und Stabilisierung der Fasern
 Spannungen an die Fasern übertragen
-Faser – verstärkende Komponente
+![bg right 75%](../assets/Figures/FKV_struktur.png)
+
+---
+
+## Komponenten von Faserkunstoffverbunde 
+
+**Faser – verstärkende Komponente**
 Lasttragend da hohe Steifigkeit und/oder Festigkeit bei geringem Gewicht
 Begrenzte thermische Dehnung
 Weitere Bestandteile (optional)
@@ -127,8 +134,22 @@ Beimischung anderer Fasertypen
   - Wirre Anordnung (geringe Anistropie)
   - Oft recyclete Fasern
 - Langfasern
-  - Mehrere Millimeter Länge
+  - Mehrere Millimeter - einige Centimeter Länge
   - Geringere Anforderung bei Verarbeitung und Lagerung
+
+
+
+![bg right 35%](https://balticcarbon.de/wp-content/uploads/1-4.jpg)
+![bg vertical 35%](https://shop.flachs.de/wp-content/uploads/sites/2/2013/05/LangflachsGebleichZopfShop.jpg)
+![bg vertical 35%](https://img.directindustry.de/images_di/photo-mg/193131-12102231.jpg)
+
+---
+
+
+
+## Ausgangswerkstoffe - Faser
+
+
 - Endlosfasern
   - Hohe Festigkeiten und Steifigkeiten
   - Höhere Anforderung bei Verarbeitung und Lagerung
@@ -139,6 +160,7 @@ Beimischung anderer Fasertypen
 ![bg vertical 35%](https://img.directindustry.de/images_di/photo-mg/193131-12102231.jpg)
 
 ---
+
 ## Ausgangswerkstoffe - Faser
 
 - Naturfasern: Haare, Wolle, Seide, Baumwolle, Flachs, Sisal, Hanf, Jute, Ramie, Bananenfasern ...
@@ -203,3 +225,280 @@ Elastizitätsmoduln in Faserlängs- und Querrichtung unterscheiden sich um eine 
 ![bg fit](https://cdn1.vogel.de/unsafe/fit-in/1000x0/images.vogel.de/vogelonline/bdb/320000/320032/original.jpg)
 
 ---
+
+## Matrixmaterialien
+- Faserverbundwerkstoffe können als Matrix auch Metalle, Beton, usw. haben
+![](https://www.bau-linke.de/wp-content/uploads/2019/02/AdobeStock_195047858-870x436.jpeg)
+---
+
+
+## Ausgangswerkstoffe FKV - Matrix
+
+**Duroplastische Reaktionsharze**
+- Epoxidharze, Phenolharze, Polyesterharze, Vinylesterharze, …
+- Werden mit Reaktionsmittel für die Aushärtung gemischt
+- Vorimprägnierte Fasern -> Prepregs
+- Exotherm und volumenändernd beim Aushärten
+**Thermoplaste**
+- Polypropylen, Polyamid, Polyarylensulfide, …
+- Schmelzen bei einer bestimmten Temperatur (55 °C – 155 °C)
+- Teuer aber Recyclebar
+- Schwieriger zu handhaben
+
+---
+
+## Verbund schematisch
+**Symmetrien**
+- Transversale Isotropie (Eigenschaften in 2 und 3 Richtung sind gleich)
+- Orthotropie
+- Anisotropie
+**Faservolumenanteil $𝜑$**
+Errechnet sich aus Mischungsregel
+$𝜌= 𝜑𝜌_𝑓+(1- 𝜑) 𝜌_𝑚$
+Steifigkeiten und Festigkeiten
+
+![bg right fit](../assets/Figures/FKV_eigenschaften.png)
+
+---
+
+![bg fit](../assets/Figures/spezifische_Eigenschaften.png)
+
+---
+
+## Fertigung
+Wahl des Verfahrens hängt ab von
+- Der konkreten Anwendung
+- Einsatzbedingungen
+- Grundmaterial (Faser, Matrix)
+- Stückzahl
+- Kosten
+- Betriebsicherheit
+- …
+
+---
+
+## Fertigung - Verfahrensschritte
+- Erstellen von Formwerkzeugen
+- Zuschnitt und Ablage von Vorprodukten
+- Aushärtung des Harzsystems
+- Nachbearbeitung des Bauteils
+
+---
+
+## Formwerkzeug / Faserablage
+
+- Gips
+- Kunststoff
+- Metallen
+- Faserverbunden
+- Thermaldehnung sollte kompatibel
+
+![bg  right fit](../assets/Figures/formwerkzeug.png)
+![bg  vertical fit](https://leichtbau.dlr.de/wp-content/uploads/2023/06/Instrumentierung-1-1072x536.jpg)
+
+---
+## Halbzeuge
+
+- Handhabbarkeit
+- Verringerung der Fertigungstiefe
+- Erhöhung der Qualität
+- Beispiele:
+  - Gewebe
+  - Gelege
+  - Fliese, Matten
+  - Kernmaterialien
+  - Flechtschläuche
+  - …
+
+![bg right 90%](../assets/Figures/gewebearten.png)
+![bg  80%](../assets/Figures/honeycomb.png)
+
+---
+
+## Fertigung
+Manuell
+Faserablage
+Handlaminieren
+…
+Wickeln
+Spritzverfahren
+Pultrusion
+Pressen
+RTM (Resin Transfer Moulding) Verfahren
+Automatisierte Faserablageverfahren
+…
+
+![bg right 90%](../assets/Figures/manuell_ablage.png)
+
+---
+
+
+## Fertigung
+Manuell
+Faserablage
+Handlaminieren
+…
+
+
+![bg right 90%](../assets/Figures/manuell_ablage.png)
+
+---
+
+
+## Fertigung
+Manuell
+Faserablage
+Handlaminieren
+Wickeln
+Spritzverfahren
+Pultrusion
+Pressen
+...
+
+![bg right 90%](../assets/Figures/wickeln.png)
+
+---
+
+
+## Fertigung
+
+Manuell
+Faserablage
+Handlaminieren
+Wickeln
+Spritzverfahren
+Pultrusion
+Pressen
+RTM (Resin Transfer Moulding) Verfahren
+...
+
+
+![bg right 90%](../assets/Figures/autoklav.png)
+
+---
+
+
+## Fertigung
+Manuell
+Faserablage
+Handlaminieren
+Wickeln
+Spritzverfahren
+Pultrusion
+Pressen
+RTM (Resin Transfer Moulding) Verfahren
+Automatisierte Faserablageverfahren
+…
+
+![bg right 90%](../assets/Figures/afp.png)
+
+---
+
+## Schäden in Faserverbunden
+Nach Heslehurst können 52 Fehlertypen kategorisiert werden 
+  - Einteilung nach Auftreten im Lebenszyklus
+        - Materialprozess – Fehler die bei der Bereitstellung der Teilbestandteile auftreten
+        - Komponentenfertigung – Fehler während der Kompositfertigung, welche während der Ablage, Aushärtung, Bearbeitung oder der Assemblierung auftreten
+        - In-service Nutzung – im Betrieb auftretende Schäden
+  - Einteilung nach Größe
+      - Mikroskopisch 
+      - Makroskopisch
+
+---
+
+## Delaminationen
+- eine der häufigsten Schädigungen
+- hohe interlaminare Spannungen durch 
+- Querkontraktionseffekte
+- Unterschiedliche Wärmedehnungen
+- Kanten (Geometrie, Mikrorisse, Poren)
+- Trennfolien
+
+
+![bg right fit](../assets/Figures/delamination.png)
+
+---
+
+## Delaminationen
+
+- Verschmutzungen
+- Trennung zwischen zwei Lagen – interlaminarer Riss
+- Feuchteeintritt
+- Lebensdauerreduktion
+- Stabilität
+
+![bg right fit](../assets/Figures/delamination.png)
+
+---
+
+## Ablösungen
+
+- Schlechte Prozesskontrolle
+- Schlechte Passung
+- Durch eintretenden Trennfilm
+- Schlechte Oberflächenbehandlung (Verschmutzung, etc.)
+- Relevant bei Kernanbindung und Verklebung von Komponenten
+
+![bg right fit](../assets/Figures/abloesung_klebung.png)
+
+---
+
+
+## Fehler an Verbindungsbohrungen
+
+- Zu starkes Anziehen von Schrauben 
+Oberflächenschädigung
+- Lokale Beschädigung der ersten Lage
+- Austrittsschäden bei Bohrungen
+- Meist Splitterungen und lokale Delaminationen
+- Splitter können bei Bohrungen zwischen zwei Komponenten verbleiben
+
+![bg right fit](../assets/Figures/Bohrungen.png)
+
+---
+
+## Porosität
+
+
+- Schlechte Material- und Prozesskontrolle
+- Überaltertes Material
+- Feuchtigkeit im Prepreg 
+- Fehlfunktion im Autoklav
+
+
+
+![bg right fit](../assets/Figures/Poren.png)
+
+---
+
+## Porosität
+
+
+
+- Verschlechtert die Lageneigenschaften
+- Auswirkung auf die Ermüdungslebens-dauer
+- Konzentrationen von Poren wichtiger als Größe
+- Wirkt sich auf die Dichtheit aus
+
+
+![bg right fit](../assets/Figures/Poren.png)
+
+---
+
+## Vor- und Nachteile 
+**Vorteile**
+- Spezifische Materialeigenschaften
+- Weitgehend elastisches Verhalten
+- Hohe Festigkeiten und Steifigkeiten in Faserrichtung
+- „maßgeschneidertes“ Material
+- Alterung- und Korrosionsbeständigkeit
+
+---
+## Vor- und Nachteile
+**Nachteile**
+- Variantenreichtum
+- Geringe Zugfestigkeit senkrecht zur Faser
+- Schwierige Prüfung
+- Recyclebarkeit
+- Spezifische Materialeigenschaften und Verarbeitungsverfahren
+
