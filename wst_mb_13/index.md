@@ -76,6 +76,8 @@ Kontakt: christian.willberg@h2.de
 - Material und seine Eigenschaften entstehen in der Fertigung 
 ![bg right 70%](../assets/QR/wst_mb_13.png)
 
+---
+
 ## Fokus von Industrien
 
 - Luft- und Raumfahrt
