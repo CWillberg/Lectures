@@ -93,12 +93,18 @@ Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
 
 ---
 
+![bg fit](../assets/Figures/FKV_Beispiele.png)
+
+---
+
 ## Was ist ein Faserkunstoffverbund (FKV)
 
 - Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
 - Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
 - Material und seine Eigenschaften entstehen in der Fertigung 
 ![bg right 70%](../assets/QR/wst_mb_13.png)
+
+---
 
 ## Fokus von Industrien
 
