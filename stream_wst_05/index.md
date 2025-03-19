@@ -22,7 +22,7 @@ footer {
 
 ## Corrosion
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-University of Applied Sciences Magdeburg-Stendal
+Magdeburg-Stendal University of Applied Sciences 
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
 

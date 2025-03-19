@@ -88,6 +88,7 @@ jobs:
           - stream_wst_11
           - stream_wst_12
           - composites_01
+          - Berufschule
     steps:
       - uses: actions/checkout@v4
 
