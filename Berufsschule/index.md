@@ -25,7 +25,7 @@ Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183
 Hochschule Magdeburg-Stendal
 
 ![bg right](../assets/Figures/crack.jpg)
-
+![bg vertical fit](../assets/QR/composite_01.png)
 Kontakt: christian.willberg@h2.de
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
