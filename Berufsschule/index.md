@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title:  Faserverbunde
+title:  Lehrerfortbildung
 author: Christian Willberg
 ---
 
@@ -25,7 +25,7 @@ Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183
 Hochschule Magdeburg-Stendal
 
 ![bg right](../assets/Figures/crack.jpg)
-![bg vertical fit](../assets/QR/composite_01.png)
+![bg vertical fit](../assets/QR/qr_berufsschule.png)
 Kontakt: christian.willberg@h2.de
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
@@ -104,7 +104,7 @@ Kontakt: christian.willberg@h2.de
 - Naturfasern: Haare, Wolle, Seide, Baumwolle, Flachs, Sisal, Hanf, Jute, Ramie, Bananenfasern ...
 - Organische Fasern: Polyethylen (PE), Polypropylen (PP), Polyamid (PA), Polyester (PES), Polyacrylnitril (PAN), Aramid, Kohlenstoff ...
 - Anorganische Fasern: Glas, Basalt, Quarz, SiC, Al2O3, Bor, ...
-- Metallfasern aus: Stahl, Aluminium, Kupfer, Nickel, Beryllium, Wolfram ... 
+- Metallfasern aus: Stahl, Aluminium, Kupfer, Nickel, Beryllium, Wolfram ... 
 
 ![](../assets/Figures/faservergleich.png)
 
@@ -118,6 +118,7 @@ Kontakt: christian.willberg@h2.de
 - Werden mit Reaktionsmittel für die Aushärtung gemischt
 - Vorimprägnierte Fasern -> Prepregs
 - Exotherm und volumenändernd beim Aushärten
+
 **Thermoplaste**
 - Polypropylen, Polyamid, Polyarylensulfide, …
 - Schmelzen bei einer bestimmten Temperatur (55 °C – 155 °C)
@@ -129,7 +130,6 @@ Kontakt: christian.willberg@h2.de
 ## Glasfaser - FKV
 
 **Vorteile**
-
 die gute chemische und mikrobiologische Widerstandsfähigkeit. 
 Kosten
 **Nachteile**
@@ -338,3 +338,11 @@ Automatisierte Faserablageverfahren
 - Durchsatz in der Fertigung gering
 - kein Schweißen oder Umformen möglich
 - keine plastische Zone $\rightarrow$ schlechtes Crashverhalten
+
+---
+
+## Beispiele
+
+[CFK Drucktank](https://rail4earth.nimbus-extern.dlr.de/)
+[Entfalltbare Raumfahrtstrukturen](https://leichtbau.dlr.de/was-entfaltbare-satelliten-strukturen-und-baume-gemeinsam-haben)
+[Windrotorblatttests](https://leichtbau.dlr.de/statische-charakterisierung-eines-windrotorblattes)
