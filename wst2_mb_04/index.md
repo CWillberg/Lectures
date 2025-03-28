@@ -81,28 +81,5 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-## Raumgitter und Gittersysteme
+## 
 
-- entsteht durch die dreidimensional-periodische Verschiebung seiner Bausteine
-- charakterisiert durch drei Raumachsen x, y und z liegenden Winkel α, β, γ die Abstände auf den Achsen das jeweilige Raumgitter
-- a0, b0 und c0  (Gitterkonstanten) -> Einheitszelle
-
-
-![bg fit right](../assets/Figures/einheitszelle.png)
-
---- 
-
-## Packungsdichte
-
-$PD = \frac{\text{Atomvolumen innerhalb der Elementarzelle}}{\text{Volumen der Elementarzelle}}$
-
-- Bestimmung PD $\alpha$ Eisen, $\gamma$ Eisen,  Aluminium
-
----
-## Gitterfehler
-
-Quantifizierung über den Burgersvektor $\mathbf{b}$
-von der Kristallstruktur abhängiger Verzerrungsvektor
-- ungestörter Verlauf $|\mathbf{b}|=0$
-- Fehlstelle $|\mathbf{b}|=0$
-- Versetzung $|\mathbf{b}|=a_0$
