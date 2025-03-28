@@ -157,10 +157,6 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 
 
 ---
-#
-
-
----
 
 
 <iframe src="https://perilab-results.nimbus-extern.dlr.de/models/Dogbone?step=36&variable=von%20Mises%20Stress" width="1150" height="600"></iframe>
@@ -171,6 +167,15 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 
 <iframe src="https://perilab-results.nimbus-extern.dlr.de/models/DCB?step=65&variable=Damage&displFactor=200" width="1150" height="600"></iframe>
 
+
+---
+
+<iframe src="https://perilab-results.nimbus-extern.dlr.de/models/RVE?step=1&variable=Damage&displFactor=20" width="1150" height="600"></iframe>
+
+
+---
+
+<iframe src="https://perilab-results.nimbus-extern.dlr.de/models/Additive?step=1&variable=Temperature" width="1150" height="600"></iframe>
 
 ---
 
