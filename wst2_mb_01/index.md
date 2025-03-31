@@ -79,7 +79,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Alles verbleibt in Raum!
 - Fragen
 
-![bg right 50%](../assets/QR/wst_mb_01.png)
+![bg right 50%](../assets/QR/wst2_mb_01.png)
 
 ---
 ## Inhalte

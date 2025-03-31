@@ -70,7 +70,7 @@ Kontakt: christian.willberg@h2.de
 
 ## Vorlesung
 
-![bg right 50%](../assets/QR/wst_mb_01.png)
+![bg right 50%](../assets/QR/wst2_mb_02.png)
 
 ---
 
