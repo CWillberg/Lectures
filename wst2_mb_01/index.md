@@ -76,7 +76,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 - Essen oder Trinken sind okay, aber leise
 - Probleme bei der Kinderbetreuung
-- Alles verbleibt in Raum!
 - Fragen
 
 ![bg right 50%](../assets/QR/wst2_mb_01.png)
