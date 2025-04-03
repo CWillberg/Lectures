@@ -113,17 +113,41 @@ Understanding of fractures is needed for
 - $\mathbf{u}$ 2x continuously differentiable	
 - Conservation equations satisfied (momentum, angular momentum and energy)
 
-Momentum:
+![bg right 90%](../assets/Figures/impulserhaltung.png)
+![bg 90%](../assets/Figures/drehimpulserhaltung.png)
+![bg 90%](../assets/Figures/energieerhaltung.png)
+
+
+---
+
+**Conservation of Momentum**
 $\text{div}\boldsymbol{\sigma}+\mathbf{b}=\rho\ddot{\mathbf{u}}$
+
+---
+## Implications 1D
+
+truss with 2 areas
+
+$\sigma_1 = \frac{F}{A_1}$, $\sigma_2 = \frac{F}{A_2}$
+
+$\text{div}\sigma=\frac{d\sigma}{dx}$
+
+no derivative exists at the position, where $A_1$ becomes $A_2$
+
 
 ---
 
 ![bg fit](../assets/Figures/Strukturebene_Metall-2.jpg)
 
 ---
+
 ## Reality is non-local
 
 ![bg right fit](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+
+---
+
+![bg fit](../assets/Figures/model_comp.png)
 
 ---
 
@@ -143,6 +167,9 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 - neighbor
 - integral domain
 - horizon
+- deformed bond state
+...
+
 
 ## PD is a continuum formulation!
 
@@ -155,9 +182,47 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 | ordinary state-based | integral                    | bond                               |
 | non-ordinary state-based | integral                      | integral                               |
 
+---
+
+![bg vertical 50%](../assets/Figures/bondbased.png)
+![bg 50%](../assets/Figures/osb.png)
+![bg 50%](../assets/Figures/nosb.png)
 
 ---
 
+
+## Software
+
+
+<div style="display: flex; justify-content: space-between;">
+
+<div style="flex: 1; margin-right: 0px;">
+
+##
+
+  <div class="mermaid">
+  %%{init: { 'theme':'forest','quadrantChart': { 'pointLabelFontSize': '130%'} } }%%
+  quadrantChart
+      x-axis Low Functionalty --> High Functionalty
+      y-axis Hard to use --> Simple to use
+      Peridigm: [0.85, 0.2]
+      PeriLab.jl: [0.7, 0.8]
+      Peridynamics.jl: [0.5, 0.7]
+      EMU: [0.95, 0.1]
+      PeriPy: [0.2, 0.7]
+      PeriPyDIC: [0.2, 0.6]
+      LAMMPS: [0.3, 0.3]
+      PeriFlakes: [0.35, 0.4]
+      Relation-Based Software: [0.4, 0.25]
+      BB_PD: [0.2, 0.50]
+      PeriDEM: [0.13, 0.3]
+    </div>
+
+</div>
+
+<div style="flex: 1; margin-right: -300px;">
+
+---
 
 <iframe src="https://perilab-results.nimbus-extern.dlr.de/models/Dogbone?step=36&variable=von%20Mises%20Stress" width="1150" height="600"></iframe>
 
@@ -178,6 +243,8 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 <iframe src="https://perilab-results.nimbus-extern.dlr.de/models/Additive?step=1&variable=Temperature" width="1150" height="600"></iframe>
 
 ---
+
+
 
 ## Software
 ![bg right fit](https://raw.githubusercontent.com/PeriHub/PeriLab.jl/main/assets/PeriLab_crack.gif)
