@@ -96,7 +96,7 @@ Kontakt: christian.willberg@h2.de
 
 ---
 
-![bg 80%](../assets/Figures/Testpyramide.png)
+![bg 50%](../assets/Figures/Testpyramide.png)
 
 ---
 
