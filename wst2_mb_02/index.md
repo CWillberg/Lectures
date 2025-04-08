@@ -269,26 +269,23 @@ Mit Vergleichsspannungen können, im Allgemeinen dreidimensionale Spannungszusta
 
 ## Schubspannungshypothese
 
-Es wird davon ausgegangen, dass für das Versagen des Werkstoffes die größte Hauptspannungsdifferenz verantwortlich ist (Bezeichnung in einigen FE-Programmen: σ i n t {\displaystyle \sigma _{\mathrm {int} }} Intensität). Diese Hauptspannungsdifferenz entspricht dem doppelten Wert der maximalen Schubspannung τ max {\displaystyle \tau _{\max }} – dadurch wird sie bei zähem Material unter statischer Belastung, welches durch Fließen (Gleitbruch) versagt, angewandt. Im Mohr’schen Spannungskreis ist die kritische Größe der Durchmesser des größten Kreises. Die Schubspannungshypothese findet aber auch im Maschinenbau ganz allgemein Anwendung, da der Formelapparat im Vergleich zur GEH einfacher zu handhaben ist und man mit ihr im Vergleich zu Von Mises (GEH) auf der sicheren Seite liegt (es kommen im Zweifelsfall etwas größere Werte für die Vergleichsspannung und damit auch etwas mehr Sicherheitsreserven heraus)
+Es wird davon ausgegangen, dass für das Versagen des Werkstoffes die größte Hauptspannungsdifferenz verantwortlich ist. Diese Hauptspannungsdifferenz entspricht dem doppelten Wert der maximalen Schubspannung  $\tau _{\max }$ – dadurch wird sie bei zähem Material unter statischer Belastung, welches durch Fließen (Gleitbruch) versagt, angewandt. 
 
 $\sigma_{v,T} = \sqrt{(\sigma_x-\sigma_y)^2+4\tau_{xy}^2}$
 
 ---
 
-
----
-
 ## Von Mises Spannungen (Gestaltsänderungshyptothese)
+
+Nach der Gestaltänderungshypothese, auch Gestaltänderungsenergiehypothese oder Mises-Vergleichsspannung, tritt Versagen des Bauteils dann auf, wenn die Gestaltänderungsenergie einen Grenzwert überschreitet (s. auch Verzerrungen bzw. Deformation). Verwendet wird diese Hypothese für zähe Werkstoffe (z. B. Stahl) unter ruhender und wechselnder Beanspruchung. Die Mises-Vergleichsspannung wird im Maschinenbau und im Bauwesen am häufigsten eingesetzt - für die meisten gängigen Materialien (nicht allzu spröde) unter normaler Belastung (wechselnd, nicht stoßartig) ist die GEH einsetzbar. 
 
 $\sigma_{v,M} = \sqrt{\sigma_x^2+\sigma_y^2+\sigma_z^2
 -\sigma_x\sigma_y-\sigma_x\sigma_z-\sigma_y\sigma_z
 +3(\tau_{xy}^2+\tau_{xz}^2+\tau_{yz}^2)}$
 
-Nach der Gestaltänderungshypothese, auch Gestaltänderungsenergiehypothese (kurz: GEH) oder Mises-Vergleichsspannung nach Richard von Mises benannt, tritt Versagen des Bauteils dann auf, wenn die Gestaltänderungsenergie einen Grenzwert überschreitet (s. auch Verzerrungen bzw. Deformation). Verwendet wird diese Hypothese für zähe Werkstoffe (z. B. Stahl) unter ruhender und wechselnder Beanspruchung. Die Mises-Vergleichsspannung wird im Maschinenbau und im Bauwesen am häufigsten eingesetzt - für die meisten gängigen Materialien (nicht allzu spröde) unter normaler Belastung (wechselnd, nicht stoßartig) ist die GEH einsetzbar. Wichtige Anwendungsgebiete sind die Berechnungen von Wellen, die sowohl auf Biegung als auch auf Torsion beansprucht werden, sowie der Stahlbau. Die GEH ist so konstruiert, dass sich bei hydrostatischen Spannungszuständen (gleich große Spannungen in allen drei Raumrichtungen) eine Vergleichsspannung von Null ergibt, da plastisches Fließen von Metallen isochor ist und selbst extreme hydrostatische Drücke keinen Einfluss auf den Fließbeginn haben (Experimente von Bridgman). 
-
 ---
 ## Hauptnormalspannungshypothese (Rankine)
-
+Besonders geeignet für die Untersuchung von Materialien, die gefährdet sind durch einen Sprödbruch zu versagen
 $\sigma_{v,R} = \frac{(\sigma_x + \sigma_y) + \sqrt{(\sigma_x - \sigma_y)^2 + 4 \tau_{xy}^2}}{2}$
 
 ---

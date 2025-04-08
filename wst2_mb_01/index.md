@@ -238,6 +238,15 @@ kovalente Bindungen eher rechts
 - die Bindungsenergien sind ein bis zwei Zehnerpotenzen kleiner als die der Atombindungen.
 
 ---
+Übung + Wiederholung
+
+- Matrizen; Vektoren
+- Determinanten; Inverse
+
+Sympy - vorstellen
+
+---
+
 ## Patenmaterial
 
 

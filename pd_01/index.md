@@ -60,9 +60,6 @@ Magdeburg-Stendal university of applied sciences
 
 Kontakt: christian.willberg@h2.de
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
 
 
 ---
