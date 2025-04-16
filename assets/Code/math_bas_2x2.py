@@ -10,6 +10,8 @@ A = sp.Matrix([[a, b],
 # Vektor definieren
 v = sp.Matrix([x, y])
 
+# Matrix-Vektor-Multiplikation
+Av = A * v
 # Invertierung der Matrix
 A_inv = A.inv()
 
