@@ -269,7 +269,7 @@ für heterogene Werkstoffe sind anderen Konstellationen denkbar
 
 ## Viskoses Verhalten
 
-- reversibel
+- irreversibel
 - zeitabhängig
 
 Federmodel $\sigma = E\epsilon$ 
