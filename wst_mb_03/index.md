@@ -270,7 +270,7 @@ für heterogene Werkstoffe sind anderen Konstellationen denkbar
 ## Viskoses Verhalten
 
 - irreversibel
-- zeitabhängig
+- zeitabhängig, dehnratenabhängig
 
 Federmodel $\sigma = E\epsilon$ 
  - Elastischer Anteil
