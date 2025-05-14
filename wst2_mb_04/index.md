@@ -55,7 +55,7 @@ footer {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
-![bg right](../assets/Figures/IWES_test.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Konstruktionsst%C3%A5l.JPG/220px-Konstruktionsst%C3%A5l.JPG)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -72,14 +72,93 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ## Vorlesung
 
 
-![bg right 50%](../assets/QR/wst_mb_01.png)
+![bg right 50%](../assets/QR/wst2_mb_04.png)
 
 ---
 
-## Inhalte
-- WST für Bachelor S. - S.
+
+![bg 70% fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
-## 
+![bg 43% fit](../assets/Figures/EKD_farbe.png)
 
+---
+## Normen
+DIN EN 10027-1 Stahl
+  - weitere Subnormen, z.B. DIN EN 10020 (Grenzgehalte für unlegierte Stähle )
+DIN EN 10027-2 Stahl nach Werkstoffnummer
+
+DIN EN 1560 Gusseisen
+
+---
+# Wirkweise ausgewählter Legierungselemente
+**Chrom - Cr**
+
+**Vorteile**
+Verbesserte Festigkeit
+Verbessert Korrosionsbeständigkeit
+Verbesserte Zunderbeständigkeit
+Senkt die Abkühlgeschwindigkeit (erhöht Einhärtetiefe)
+**Nachteile**
+Begünstigt interkritalline Korrosion
+Begünstigt 475°C Versprödung
+Bildung von spröder $\sigma$ Phase (FeCr) 
+
+---
+**Nickel - Ni**
+Verbesserte Festigkeit
+Zähigkeit
+Zunderbeständigkeit
+Senkt die Abkühlgeschwindigkeit (erhöht Einhärtetiefe)
+Verändert Wärmedehnung
+Erhöht den elektrischen Widerstand
+
+---
+**Molybdän - Mo**
+
+Verbesserte Festigkeit
+Verbesserte Härte  und Verschleißbeständigkeit
+Senkt die Abkühlgeschwindigkeit (erhöht Einhärtetiefe)
+Senkt Anlassbeständigkeit
+Erhöht Korrosions- und Zunderbeständigkeit
+
+---
+**Mangan - Mn**
+**Vorteile**
+Verbesserte Festigkeit
+Verbesserte Härte  und Verschleißbeständigkeit
+Senkt die Abkühlgeschwindigkeit (erhöht Einhärtetiefe)
+Verbesserte Warmumformbarkeit (Verhindert Rot- und Heißbrüchigkeit)
+
+**Nachteile**
+Verschlechterte Zerspanbarkeit
+Anisotrope Materialeigenschaften  (schlechtere Zähigkeit quer zur Walsrichtung)
+Fördert Grobkornbildung
+Fördert Anlassversprödung
+
+---
+
+**Titan - Ti und Niob - Nb**
+
+Verbesserte Festigkeit und geringfügig Warmfestigkeit
+Verbesserte Schweißbarkeit
+unterstützt Kornfeinung
+Verbesserte Beständigkeit gegen interkritaline Korrosion
+
+---
+
+**Sonstige**
+Wolfram - W, Vanadium - V, Cobalt - Co, Aluminium - Al, Kupfer - Cu 
+
+---
+
+Eigenschaften ändern sich nicht proportional; Grenzgehalt ist nötig
+
+Stahl kann lässt die meisten Variationen zu
+
+Mehrere Legierungselemente führen in der Regel nicht zu additiver Wirkung
+
+Quantitative Vorhersage ist in der Regel nicht möglich
+
+Walzen und Gießen beeinflusst die Wirkung der Legierungselemente
