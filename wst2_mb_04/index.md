@@ -177,7 +177,7 @@ Walzen und Gießen beeinflusst die Wirkung der Legierungselemente
 
 ---
 
-
+![bg 80%](https://d2wg98g6yh9seo.cloudfront.net/users/345879/345879_WuwuFaRobuLuWaBu9172737724929454.jpg)
 
 ---
 
