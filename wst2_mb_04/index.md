@@ -177,6 +177,10 @@ Walzen und Gießen beeinflusst die Wirkung der Legierungselemente
 
 ---
 
+
+
+---
+
 ## Normen
 DIN EN 10027-1 Stahl
   - weitere Subnormen, z.B. DIN EN 10020 (Grenzgehalte für unlegierte Stähle )
@@ -184,4 +188,16 @@ DIN EN 10027-2 Stahl nach Werkstoffnummer
 
 DIN EN 1560 Gusseisen
 
+ [Beispiele](https://www.stauberstahl.com/werkstoffe/14301-werkstoff-datenblatt/)
+
+---
+Allgemein ergibt sich folgende Bewertung:
+
+    Cr, Co, Mn, Ni, Si, W: Divisionsfaktor 4
+
+    Al, Be, Cu, Mo, Nb, Pb, Ta, Ti, V, Zr: Divisionsfaktor 10
+
+    Ce, N, P, S: Divisionsfaktor 100
+
+    B: Divisionsfaktor 1000
 ---
