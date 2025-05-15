@@ -58,8 +58,7 @@ Hochschule Magdeburg-Stendal
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Konstruktionsst%C3%A5l.JPG/220px-Konstruktionsst%C3%A5l.JPG)
 
 Kontakt: christian.willberg@h2.de
-Teile des Skripts sind von \
-Prof. Dr.-Ing. Jürgen Häberle übernommen
+
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
 </div>
