@@ -70,7 +70,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 <!--paginate: true-->
 
 ## Vorlesung
-
+Quelle - [Eisenwerkstoffe](https://link.springer.com/chapter/10.1007/978-3-642-54989-2_6)
 
 ![bg right 50%](../assets/QR/wst2_mb_04.png)
 
@@ -79,19 +79,31 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ![bg 70% fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
----
-
-![bg 43% fit](../assets/Figures/EKD_farbe.png)
 
 ---
-## Normen
-DIN EN 10027-1 Stahl
-  - weitere Subnormen, z.B. DIN EN 10020 (Grenzgehalte für unlegierte Stähle )
-DIN EN 10027-2 Stahl nach Werkstoffnummer
 
-DIN EN 1560 Gusseisen
+
+$\alpha$-stabilisierende Elemente (Ferritstabilisierende Legierungselement): Cr, Mo, V, Si, Al, P, S, Sn, B [Quelle](https://link.springer.com/chapter/10.1007/978-3-642-54989-2_6)
+![bg right 80%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-642-54989-2_6/MediaObjects/72709_5_De_6_Fig17_HTML.gif?as=webp)
 
 ---
+$\gamma$-stabilisierende Elemente: (Austenitstabilisierende Legierungselement): C, Mn, Ni, Cu, N, Co, Zn [Quelle](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-642-54989-2_6/MediaObjects/72709_5_De_6_Fig18_HTML.gif?as=webp)
+
+![bg right 80%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-642-54989-2_6/MediaObjects/72709_5_De_6_Fig18_HTML.gif?as=webp)
+
+---
+
+
+![bg 80% fit](../assets/Figures/EKD_farbe.png)
+
+
+![bg 100%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-642-54989-2_6/MediaObjects/72709_5_De_6_Fig19_HTML.gif?as=webp)
+
+
+
+
+---
+
 # Wirkweise ausgewählter Legierungselemente
 **Chrom - Cr**
 
@@ -162,3 +174,14 @@ Mehrere Legierungselemente führen in der Regel nicht zu additiver Wirkung
 Quantitative Vorhersage ist in der Regel nicht möglich
 
 Walzen und Gießen beeinflusst die Wirkung der Legierungselemente
+
+---
+
+## Normen
+DIN EN 10027-1 Stahl
+  - weitere Subnormen, z.B. DIN EN 10020 (Grenzgehalte für unlegierte Stähle )
+DIN EN 10027-2 Stahl nach Werkstoffnummer
+
+DIN EN 1560 Gusseisen
+
+---
