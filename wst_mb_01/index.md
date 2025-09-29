@@ -85,6 +85,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ## Inhalte nach Modulhandbuch
 
 - Einteilung von Werkstoffen
+- Materialeigenschaften
 - Werkstoffstruktur, Gefüge, Legierungen, Gitterbaufehler
 - ideale und reale Zustandsdiagramme, Gleichgewichts- und
 Ungleichgewichtszustände
