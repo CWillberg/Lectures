@@ -49,6 +49,13 @@ footer {
     color: #888; /* Ändere die Farbe des Footers */
     text-align: right; /* Ändere die Ausrichtung des Footers */
 }
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
+}
 </style>
 
 

@@ -18,12 +18,18 @@ footer {
     color: #888; /* Ändere die Farbe des Footers */
     text-align: right; /* Ändere die Ausrichtung des Footers */
 }
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
+}
 </style>
 
 
 ## Vorlesung MTI - Fügen
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-Hochschule Magdeburg-Stendal
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://www.home-of-welding.com/storage/media/images/6246/conversions/bild6-full.jpg)
 

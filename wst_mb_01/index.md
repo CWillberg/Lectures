@@ -10,12 +10,6 @@ author: Christian Willberg
 ---
 
 
-
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
 <style>
 .container{
   display: flex;
@@ -40,19 +34,24 @@ author: Christian Willberg
     display: block;
     margin: 0 auto;
 }
-</style>
 
-<style>
 footer {
     font-size: 14px; /* Ändere die Schriftgröße des Footers */
     color: #888; /* Ändere die Farbe des Footers */
     text-align: right; /* Ändere die Ausrichtung des Footers */
 }
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
+}
 </style>
 
 
 ##  Grundlagen - Werkstofftechnik
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
 ![bg right](../assets/Figures/IWES_test.jpg)
@@ -321,7 +320,8 @@ $\varepsilon_v = \frac{\Delta V}{V_0} = \varepsilon_1 + \varepsilon_2 + \varepsi
 
 ---
 
-| Werkstoff                         | E [GPa]   | G [GPa] | $\nu [-]$     |
+
+| Werkstoff                         | E [GPa]   | G [GPa] | ν [-]     |
 |:----------------------------------|:----------|:--------|:----------|
 | Stahl unlegiert                   | 200       | 77      | 0.30      |
 | Titan                             | 110       | 40      | 0.36      |
@@ -330,9 +330,9 @@ $\varepsilon_v = \frac{\Delta V}{V_0} = \varepsilon_1 + \varepsilon_2 + \varepsi
 | Magnesium                         | 45        | 17      | 0.27      |
 | Wolfram                           | 360       | 130     | 0.35      |
 | Gusseisen mit lamellarem Graphit  | 120       | 60      | 0.25      |
-| Thermoplaste/Duromere             | 2 … 5     | 1 … 2   | ~0.35   |
-| Elastomere                        | 0.1       | 0.03    | 0.45 - 0.49|
-| Sperrholz                         | 4 … 16    | -       | -         |
+| Thermoplaste/Duromere             | 2-5       | 1-2     | ca. 0.35  |
+| Elastomere                        | 0.1       | 0.03    | 0.45-0.49 |
+| Sperrholz                         | 4-16      | -       | -         |
 
 
 ---
