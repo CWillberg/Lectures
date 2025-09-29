@@ -76,7 +76,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 - Essen oder Trinken sind okay, aber leise
 - Probleme bei der Kinderbetreuung
-- Alles verbleibt in Raum!
 - Fragen
 
 ![bg right 50%](../assets/QR/wst_mb_01.png)
@@ -168,277 +167,246 @@ Was sind Werkstoffe?
 
 ---
 
-# Struktur von Werkstoffen
-
-![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
-
-
-
----
-
--	Atomistische Struktur (Art der atomaren Bausteine)
--	Feinstruktur (Bindungen zwischen den atomaren Bausteinen und deren geometrische An-ordnung)
--	Mikrostruktur (Gefüge – Bereiche geometrischer Anordnung, die im Werkstoffinnern durch Grenzflächen voneinander getrennt sind)
--	Makrostruktur (Grobstruktur – Gesamterscheinung eines Werkstoffes bei der Herstellung und dem Einsatz eines Bauteils)
+# Mechanische Eigenschaften
+Was sind wichtige Eigenschaften aus Sicht einer Ingenieurin / eines Ingenieurs?
+- Materialverhalten ohne Schädigung
+- Ermüdungsverhalten
+- Verschleißverhalten
+- wann tritt eine Schädigung auf
+- ...
 
 
 ---
 
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg)
+## Konzept Spannung - Dehnung
+- Detaliert in der technischen Mechanik
+$\varepsilon$ - Dehnung
+$\sigma$ - Mechanische Spannung
 
 ---
 
-## Relevante Gößen
+## Dehnungen 1D
+$$\varepsilon = \frac{\Delta l}{l}$$
 
-**Ordnungszahl**
-Zahl der Protonen im Kern
-**Atommasse**
-bestimmt die Masse des Elements
- Masse des Werkstoffs ist eine Kombination aus Atommasse und Dichte
-**Elektronegativiät**
-bestimmt ob Atome abgegeben oder aufgenommen werden in einer Bindung
-metallische Bindungen eher links
-kovalente Bindungen eher rechts
+Beispiel:
+$l_0 = 1m$
+$l_1 = 1.01m$
+$$\varepsilon = \frac{l_1-l_0}{l_1}=0.01\rightarrow 1\%$$
 
+---
+## Spannungen 1D
 
+$$\sigma = \frac{F}{A}$$
+
+Beispiel:
+$F = 100N$
+$A = 20mm^2$
+$$\sigma = \frac{F}{A} = \frac{100 N}{20 mm^2} = 5 \frac{N}{mm^2}$$
 
 ---
 
-# Bindungen
-
-## Hauptvalenzbindungen  
-**Primärbindungen - hohe Bindungsenergie, starke Bindung**
--	Ionen- bzw. heteropolare Bindung 
--	Atom- bzw. homöopolare (oder kovalente) Bindung: polar (O-H) und unpolar (C-C, C-H)
--	Metallische Bindung
+# Mehr Dimensionalität
 
 ---
 
-## Metallische Bindung
+## Symmetrien
+- isotropie
+- transversale isotropie
+- orthotropie
+- ...
+- anisotropie
+![bg right 80%](../assets/Figures/xyz.png)
 
-- Außenelektronen (Valenzelektronen) sind nur schwach gebunden 
-- es bildet sich ein Gitter (periodisch angeordneten) positiver geladener Metallionen (Atomrümpfen)
-- Außenelektronen  können sich innerhalb des Gitters nahezu frei bewegen, sogennantes **Elektronengas** 
-- bewirkt: gute elektrische Leitfähigkeit + hohe Wärmeleitfähigkeit
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/41/Nuvola_di_elettroni.svg)
-
-
----
-
-## Neben- oder Restvalenzbindungen 
-**Sekundärbindungen - geringe Bindungsenergie, schwache Bindung**
--	van der Waals-Bindung: zwischenmolekulare Kräfte
--	Wasserstoffbrückenbindung: zwei Moleküle oder zwei geeignet weit voneinander getrennte Abschnitte eines Makromoleküls treten über Wasserstoffatome in Wechselwirkung 
-- die Bindungsenergien sind ein bis zwei Zehnerpotenzen kleiner als die der Atombindungen.
+<!---
+- Diskussion; Eigenschaften können richtungsabhängig sein
+- Praxisbeispiele
+-->
 
 ---
 
+## Mechanische Eigenschaften
 
-| **Bezeichnung** | **Ionenbindung oder heteropolare Bindung** | **Atombindung homöopolare (kovalente) Bindung** | **Metallische Bindung** |
-|-----------------|---------------------------------|-------------------------------------------------|--------------------------|
-| **Beteiligte Bausteine** | Ionen (Metall + Nichtmetall) | Gleiche Atomart (Nichtmetall + Nichtmetall) | Gleiche Atomart (Metall + Metall) |
-| **Beschreibung des elektrischen Lade-zustandes** | Positiv geladenes Ion + negativ geladenes Ion (Kation + Anion) | Atome besitzen ein oder mehrere gemeinsame Elektronenpaare, um die Edelgaskonfiguration zu erreichen | Atome geben ihre Außenelektronen an den Gesamtverband ab. Elektronen bewegen sich dort frei im Atomgitter |
----
+- die **reversible** Verformung, bei der sofort bzw. eine bestimmte Zeit nach dem Einwirken der äußeren Belastung der verformte Werkstoff seine ursprüngliche Form zurückerhält: elastische und viskoelastische Verformung;
 
+- die **irreversible (bleibende)** Verformung, bei der die Formänderung auch nach dem Einwirken der äußeren Belastung erhalten bleibt: plastische und viskose Verformung;
 
-
-| **Bezeichnung** | **Ionenbindung oder heteropolare Bindung** | **Atombindung homöopolare (kovalente) Bindung** | **Metallische Bindung** |
-|-----------------|---------------------------------|-------------------------------------------------|--------------------------|
-| **Von den Bindungs-kräften abhängige Werkstoff-eigenschaften** | Im gelösten Zustand elektrisch leitfähig, kristalline Gefügestruktur | Geringe elektrische und thermische Leitfähigkeit; hoher Schmelzpunkt | Sehr gute elektrische und thermische Leitfähigkeit und Duktilität; eingeschränkte chemische Beständigkeit |
-| **Beispiele** | Alkalimetallverbindungen, Halogenverbindungen (z.B. NaCl, MgO) | Diamant, Methan (CH₄) (unpolar), Methanol (CH₃OH) (polar) | Kupfer (Cu), Aluminium (Al), Eisen (Fe) |
+- der Bruch, d.h. eine durch Entstehen und Ausbreiten von Rissen bewirkte Trennung des Werkstoffes.
 
 ---
+## Beispiel Stahl
 
-## Atomistische Struktur
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
 
-Besteht aus
-- Kern (Protonen + Neutronen) der die Masse definiert
-- Hülle (Elektronen) mit verschieden Schalen, welche chemischen und viele physikalische Eigeschaften definiert
+[Kurvenbestimmung](https://youtu.be/WWAb7Q5DAYw?si=fcnLckvNurSh0LC5)
 
-- Aufenthaltswahrscheinlichkeit der Elektronen sorgt für Abstoßung und Anziehung
-- als Elastizität oder Wärmedehnung makroskopisch zu erkennen
+[Datenblatt Stahl](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
 
-
----
-
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
-
+<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
+    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
+</div>
 
 ---
-
-### Feinstruktur
-- Kristallstrukturen
-- Molekülstrukturen
-- Glasig-amorphe Strukturen
-- Realstruktur
-
----
-## Raumgitter
-
-- entsteht durch die dreidimensional-periodische Verschiebung seiner Bausteine
-- charakterisiert durch drei Raumachsen x, y und z liegenden Winkel α, β, γ die Abstände auf den Achsen das jeweilige Raumgitter
-- a0, b0 und c0  (Gitterkonstanten) -> Einheitszelle
-
-
-![bg fit right](../assets/Figures/einheitszelle.png)
+# Materialverhalten - reversibel
+## Elastizität
+- reversibel, energieerhaltend
+- Hooksches Gesetz 1D
+Normalspannung $\sigma = E\varepsilon$
+Schubspannung $\tau = G\gamma$
 
 ---
 
-| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
-|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
-| triklin          | a₀ ≠ b₀ ≠ c₀          | α ≠ β ≠ γ ≠ 90°                    | Silikat-Minerale                                           |
-| monoklin         | a₀ ≠ b₀ ≠ c₀          | α = γ = 90°; β ≠ 90°               | Mo₂S₃; β-Pu                                                |
-| (ortho)rhombisch | a₀ ≠ b₀ ≠ c₀          | α = β = γ = 90°                    | U, S, P, Ga, γ-Sn                                          |
-| rhomboedrisch    | a₀ = b₀ = c₀          | α = β = γ ≠ 90°                    | As, Hg, Sb                                                 |
-| hexagonal        | a₀ = b₀ ≠ c₀          | α = β = 90°; γ = 120°              | α-Ti, Mg, Zn                                               |
-| tetragonal       | a₀ = b₀ ≠ c₀          | α = β = γ = 90°                    | B, CuTi₃, Sn (T > 13,5°)                                   |
+## Grundlagen
 
+- Normaldehnung [-]
+$\varepsilon_{mechanisch} = \frac{l - l_0}{l_0}$
 
+- Normalspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
+$\sigma = \frac{F}{A}=E\varepsilon$
+E - Elastizitätsmodul, Young's modulus $\left[\frac{N}{m^2}\right]$
 
----
+- Relevant bspw. bei Verformungsanalysen
 
-## Häufigste Gitterformen bei Metallen
-
-| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
-|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
-| kubisch          | a₀ = b₀ = c₀          | α = β = γ = 90°                    | Cu, Al, Ni, Au, Ag; γ-Eisen (kfz); α-Eisen, V, Cr, W (krz); Mn, Po (kp) |
-
-
----
-
-Kubisch flächenzentriert (kfz)
-![bg right 30%](../assets/Figures/kfz.png)
-
-Kubisch raumzentriert (krz)
-
-![bg vertical 30%](../assets/Figures/krz.png)
-
-Hexagonal dichteste Packung (hpd)
-
-![bg 30%](../assets/Figures/hdp.png)
-
----
-
-## Einflüsse
-
--	Korrosion: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
--	Verformung: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
--	Ultraschall: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
--	Leitfähigkeit:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
--	Magnetisierung: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen ent-lang der Würfelkante [1 0 0]
-
----
-
-
-
-## Polymorphie bei Metallen
-
-- Polymorphie: ist die Ausbildung von verschiedenen Gitterstrukturen in Abhängigkeit von der Temperatur
-- die verschiedenen Gitterformen sind die allotropen Modifikationen 
-
-(auch: Polymorphie des Kohlenstoffs: Graphit, Diamant,…).
-
----
-
-## Bestimmung der Umwandlungspunkte
-
-_Dilatometrie_
-- Messung der Längenänderung aufgrund der Gitterumwandlung
-
-_Thermische Analyse_
-- Aufzeichnung des Temperaturverlaufs
-- Gitterwandlungen (Phasenänderungen) brauchen Wärmeenergie oder geben sie ab
-- Halte- bzw. Knickpunkte in den Erwärmungs- oder Abkühlungskurven.
-
-- Haltepunkte: bei reinen Metallen
-
-
----
-
-![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
+![bg right:25%](../assets/Figures/Normalspannung.gif)
 
 
 ---
 
 
+## Grundlagen - Querkontraktion
 
-## Molekülstrukturen
+- Querkontraktionszahl [-]
+- $\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
+für homogene Werkstoffe $0\leq\nu\leq 0.5$
+für heterogene Werkstoffe sind anderen Konstellationen denkbar
 
-- typisch für nichtmetallisch-organische Werkstoffe
-  - natürliche Materialien: Holz, Kautschuk, Leder, Fasern usw.
-  - synthetische Kunststoffe: PMMA, Epoxid, usw.
+![bg fit right:25%](https://upload.wikimedia.org/wikipedia/commons/6/65/Querkontraktion_am_einachsig_gezogenen_Stab.png)
 
-
-
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
-
-![bg vertical 80%](https://upload.wikimedia.org/wikipedia/commons/0/03/14-05-28-LEGO-by-RalfR-061.jpg)
+- Relevant bspw. bei Pressverbindungen
 
 ---
 
-- entsteht durch Aufbaureaktionen von monomeren Grundbausteine zu Kettenmolekülen
-- innerhalb der Ketten treten Atombindungen auf
-- zwischen den Ketten existieren Nebenvalenzbindungen und Molekülverhakungen
+## Grundlagen - Schub
+
+- Schubdehnungen [-]
+$\varepsilon = \frac12(\frac{u_x}{l_0}+\frac{u_y}{b_0})=\frac{\gamma}{2}$
+
+- Schubspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
+$\tau = \frac{F_s}{A}= G\gamma$
+
+- Normal- und Schubspannungen sind nicht kompatibel; daher die Vergleichsspannungen 
+- G - [Schub-](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper)-, Gleitmodul, Shear modulus $\left[\frac{N}{m^2}\right]$
+$G = \frac{E}{2(1+\nu)}$
 
 
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+![bg right:25%](../assets/Figures/Schubspannung.gif)
 
----
 
-## Aufbaureaktion (Polymerisation)
-
-- Es müssen freie Bindungen in den Monomeren erzeugt werden
-- die Monomere "brauchen" neue Partner, um wieder energetisches Minimum zu erreichen
-
----
-
-## Kettenpolymerisationen
-
-  - Aufspalten von C=C-Doppelbindungen im Monomer (katalytischer Prozess durch Druck, Temperatur, Katalysator)
-  - Verbindung der aufgespaltenen Monomere zu Makromolekülen
-
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
+- Relevant bspw. bei Torsion (Antriebsstränge, Drehfedern)
 
 ---
 
-## Stufenwachstumsreaktionen 
+## Grundlagen - Kompression
 
-**Polykondensation**
-- Abspaltung niedermolekulare (z.B. H2O) Reaktionsprodukte durch eine chemische Reaktion schafft frei Bindungen
-- schrittweise Reaktion oder Unterbrechung führen zur Bildung von linearen, verzweigten oder vernetzten Polymeren (Thermoplaste, Elastomere oder Duromere)  
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
+$\sigma_h = p = -K \cdot \frac{\Delta V}{V_0}$
 
----
+$\varepsilon_v = \frac{\Delta V}{V_0} = \varepsilon_1 + \varepsilon_2 + \varepsilon_3$
 
-**Polyaddition**
-- freie Bindungen entstehen durch Umlagerungen von Doppelbindungen zweier unterschiedlicher Monomermoleküle
-- diese bilden dann Molekülketten
+[Kompressionsmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{3(1-2\nu)}$
 
-![](https://upload.wikimedia.org/wikipedia/commons/4/4d/Polyaddition_Polyurethane_V.2.1.png)
+- Relevant bspw. bei Hydrauliken
 
----
-
-## Glasig-amorphe Strukturen
-
-- Gläser sind ein nichtmetallisch-anorganisches, vorzugsweise silikatisches Schmelzprodukte
-- nichtkristallinen, also amorphen Zustand
-- bei Glas, wird die Schmelze zunächst unterkühlt und dann unterhalb der Transformations- temperatur Tg „eingefroren“. 
-
-![bg right fit](../assets/Figures/amorph.png)
+![bg right:25%](../assets/Figures/Kompression.gif)
 
 
 ---
 
-# Materialeigenschaften
-- Eigenschaften werden maßgeblich durch die Mikrostruktur und Elektronen (äußere Schale) beeinflusst
+| Werkstoff                         | E [GPa]   | G [GPa] | $\nu [-]$     |
+|:----------------------------------|:----------|:--------|:----------|
+| Stahl unlegiert                   | 200       | 77      | 0.30      |
+| Titan                             | 110       | 40      | 0.36      |
+| Kupfer                            | 120       | 45      | 0.35      |
+| Aluminium                         | 70        | 26      | 0.34      |
+| Magnesium                         | 45        | 17      | 0.27      |
+| Wolfram                           | 360       | 130     | 0.35      |
+| Gusseisen mit lamellarem Graphit  | 120       | 60      | 0.25      |
+| Thermoplaste/Duromere             | 2 … 5     | 1 … 2   | ~0.35   |
+| Elastomere                        | 0.1       | 0.03    | 0.45 - 0.49|
+| Sperrholz                         | 4 … 16    | -       | -         |
 
-**Eigenarbeit**
-- Wärmedehnung
-- elektrische Leitfähigkeit
-- Wärmeleitfähigkeit
 
 ---
+
+
+## Steifigkeiten
+<details>
+<summary>Wie Materialeigenschaften den Steifigkeiten zusammen?</summary>
+
+- Material $\cdot$ Querschnitte = Steifigkeit
+- Dehn-, Normalsteifigkeit = $EA$
+- Biegesteifigkeit = $EI$
+- Torsionssteifigkeit = $GI_P$
+
+</details>
+
+![bg fit right:50%](../assets/Figures/IWES_test.jpg)
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Bildreferenz</a>
+</div>
+
+
+---
+
+
+## Viskoses Verhalten
+
+- irreversibel
+- zeitabhängig, dehnratenabhängig
+
+Federmodel $\sigma = E\epsilon$ 
+ - Elastischer Anteil
+ - Dargestellt durch Federlemente
+<div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
+    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+</div>
+
+<div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
+    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+</div>
+
+
+Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$ 
+- Viskoser Anteil
+- Dargestellt durch Dämpferelemente
+
+
+---
+- schnelle Belastung -> Verhalten ist elastisch
+- langsame Belastung -> Material fließt
+- [schnelle Belastung](https://en.wikipedia.org/wiki/File:Sillyputty.ogv)
+
+
+
+![bg right:30% fit](https://upload.wikimedia.org/wikipedia/commons/f/f3/Silly_putty_dripping.jpg)
+
+---
+
+## Festigkeit
+
+[Die Festigkeit eines Werkstoffes beschreibt die Beanspruchbarkeit durch mechanische Belastungen, bevor es zu einem Versagen kommt, und wird angegeben als mechanische Spannung $\left[N/m^2\right]$. Das Versagen kann eine **unzulässige Verformung** sein, insbesondere eine **plastische (bleibende) Verformung** oder auch ein **Bruch**.](https://de.wikipedia.org/wiki/Festigkeit)
+
+
+>Wichtig: Festigkeit $\neq$ Steifigkeit
+
+---
+
+## Plastizität
+
+- [Schmieden](https://youtu.be/AxLszR6fkLM?si=k6A9aOVfQceOK9v0&t=80)
+- [Walzen](https://www.youtube.com/watch?v=WOTO64HgnXc)
+
+
+---
+
 
 ## Referencen
 <a id="Referenzen"></a>
