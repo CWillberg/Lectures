@@ -78,11 +78,11 @@ Prof. Dr.-Ing. Jürgen Häberle
 ## Application Areas 
 
 - Metals
-  - Iron steel 
-  - Non-ferrous
+  - Iron, steel, cast iron
+  - Non-ferrous metals
 - Plastics
 - Ceramics
-- Composites
+- Composite materials
 
 ---
 
@@ -134,241 +134,249 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 
-# Structure of Materials
-
-![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
-
----
-
--	Atomic structure (type of atomic building blocks)
--	Fine structure (bonds between atomic building blocks and their geometric arrangement)
--	Microstructure (structure - areas of geometric arrangement separated by interfaces inside the material)
--	Macrostructure (coarse structure - overall appearance of a material during production and application of a component)
+# Mechanical Properties
+What are important properties from an engineer's perspective?
+- Material behavior without damage
+- Fatigue behavior
+- Wear behavior
+- When does damage occur
+- ...
 
 ---
 
-# Bonds
-
-## Primary Bonds  
-**Primary bonds - high bond energy, strong bond**
--	Ionic or heteropolar bond 
--	Covalent bond: polar (O-H) and non-polar (C-C, C-H)
--	Metallic bond
+## Stress-Strain Concept
+- Detailed in engineering mechanics
+$\varepsilon$ - Strain
+$\sigma$ - Mechanical stress
 
 ---
 
-## Metallic Bond
+## 1D Strains
+$$\varepsilon = \frac{\Delta l}{l}$$
 
-- Valence electrons are only weakly bound
-- a lattice (periodically arranged) of positively charged metal ions (atomic cores) is formed
-- Valence electrons can move almost freely within the lattice, known as **electron gas**
-- Results: good electrical conductivity + high thermal conductivity
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/41/Nuvola_di_elettroni.svg)
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg)
-
----
-## Relevant Quantities
-
-**Atomic number**
-Number of protons in the nucleus
-**Atomic mass**
-Defines the mass of the element
-The mass of the material is a combination of atomic mass and density
-**Electronegativity**
-Defines whether atoms are donated or accepted in a bond
-Metallic bonds tend to the left
-Covalent bonds tend to the right
+Example:
+$l_0 = 1m$
+$l_1 = 1.01m$
+$$\varepsilon = \frac{l_1-l_0}{l_1}=0.01\rightarrow 1\%$$
 
 ---
 
-## Secondary Bonds 
-**Secondary bonds - low bond energy, weak bond**
--	Van der Waals bond: intermolecular forces
--	Hydrogen bond: two molecules or two suitably distant parts of a macromolecule interact via hydrogen atoms
-- The bond energies are one to two orders of magnitude smaller than atomic bonds.
+## 1D Stresses
+
+$$\sigma = \frac{F}{A}$$
+
+Example:
+$F = 100N$
+$A = 20mm^2$
+$$\sigma = \frac{F}{A} = \frac{100 N}{20 mm^2} = 5 \frac{N}{mm^2}$$
 
 ---
 
-| **Name** | **Ionic or heteropolar bond** | **Covalent homopolar (covalent) bond** | **Metallic bond** |
-|----------|-------------------------------|---------------------------------------|-------------------|
-| **Components** | Ions (metal + non-metal) | Same atom type (non-metal + non-metal) | Same atom type (metal + metal) |
-| **Description of electrical charge state** | Positively charged ion + negatively charged ion (cation + anion) | Atoms have one or more shared electron pairs to reach noble gas configuration | Atoms donate their valence electrons to the whole bond. Electrons move freely in the lattice |
----
-
-## Atomic Structure
-
-Consists of
-- Nucleus (Protons + Neutrons) which defines the mass
-- Shell (Electrons) with various layers that define chemical and many physical properties
-
-![bg fit right](https://upload.wikimedia.org/wikipedia/commons/0/04/AtomRadialeDichte_He%2C_Ne%2CAr.jpg)
+# More Dimensionality
 
 ---
 
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+## Symmetries
+- Isotropy
+- Transverse isotropy
+- Orthotropy
+- ...
+- Anisotropy
+![bg right 80%](../assets/Figures/xyz.png)
+
+<!---
+- Discussion; Properties can be direction-dependent
+- Practical examples
+-->
 
 ---
 
-### Fine Structure
-- Crystal structures
-- Molecular structures
-- Glassy-amorphous structures
-- Real structure
+## Mechanical Properties
 
----
-## Space Lattice
+- **Reversible** deformation, where the deformed material returns to its original shape immediately or after a certain time after the external load is applied: elastic and viscoelastic deformation;
 
-- Formed by the three-dimensional periodic shift of its components
-- Characterized by three spatial axes x, y, and z, with angles α, β, γ and distances on the axes defining the respective space lattice
-- a₀, b₀, and c₀ (lattice constants) -> Unit cell
+- **Irreversible (permanent)** deformation, where the shape change is retained even after the external load is applied: plastic and viscous deformation;
 
-![bg fit right](../assets/Figures/einheitszelle.png)
+- Fracture, i.e. a separation of the material caused by the formation and propagation of cracks.
 
 ---
 
-| Crystal System    | Lattice Constants       | Angles         | Examples                                                  |
-|------------------|-------------------------|----------------|-----------------------------------------------------------|
-| Triclinic         | a₀ ≠ b₀ ≠ c₀            | α ≠ β ≠ γ ≠ 90° | Silicate minerals                                          |
-| Monoclinic        | a₀ ≠ b₀ ≠ c₀            | α = γ = 90°; β ≠ 90° | Mo₂S₃; β-Pu                                                |
-| Orthorhombic      | a₀ ≠ b₀ ≠ c₀            | α = β = γ = 90° | U, S, P, Ga, γ-Sn                                          |
-| Rhombohedral      | a₀ = b₀ = c₀            | α = β = γ ≠ 90° | As, Hg, Sb                                                 |
-| Hexagonal         | a₀ = b₀ ≠ c₀            | α = β = 90°; γ = 120° | α-Ti, Mg, Zn                                               |
-| Tetragonal        | a₀ = b₀ ≠ c₀            | α = β = γ = 90° | B, CuTi₃, Sn (T > 13.5°C)                                  |
+## Steel Example
+
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+[Curve determination](https://youtu.be/WWAb7Q5DAYw?si=fcnLckvNurSh0LC5)
+
+[Steel data sheet](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
+
+<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
+    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
+</div>
 
 ---
 
-## Common Lattice Structures in Metals
-
-| Crystal System    | Lattice Constants       | Angles         | Examples                                                  |
-|------------------|-------------------------|----------------|-----------------------------------------------------------|
-| Cubic             | a₀ = b₀ = c₀            | α = β = γ = 90° | Cu, Al, Ni, Au, Ag; γ-Iron (FCC); α-Iron, V, Cr, W (BCC); Mn, Po (SC) |
-
----
-
-Face-Centered Cubic (FCC)
-
-![bg right 30%](../assets/Figures/kfz.png)
-
-Body-Centered Cubic (BCC)
-
-![bg vertical 30%](../assets/Figures/krz.png)
-
-Hexagonal Close-Packed (HCP)
-
-![bg 30%](../assets/Figures/hdp.png)
+# Material Behavior - Reversible
+## Elasticity
+- Reversible, energy-conserving
+- Hooke's Law 1D
+Normal stress $\sigma = E\varepsilon$
+Shear stress $\tau = G\gamma$
 
 ---
 
-## Influences
+## Fundamentals
 
-- **Corrosion**: Aggressive media attack preferred planes.
-- **Deformation**: Plastic deformation occurs along preferred crystallographic planes and directions → Slip systems.
-- **Ultrasound**: Use of quartz crystals with specific crystallographic surfaces.
-- **Conductivity**: Use of germanium or silicon wafers in (1 1 1)- or (1 0 0)- orientation for semiconductor elements.
-- **Magnetization**: Easiest magnetization of iron-silicon transformer sheets along the cube edge [1 0 0].
+- Normal strain [-]
+$\varepsilon_{mechanical} = \frac{l - l_0}{l_0}$
 
----
+- Normal stress $\left[\frac{N}{m^2}\right]$, $[Pa]$
+$\sigma = \frac{F}{A}=E\varepsilon$
+E - Elastic modulus, Young's modulus $\left[\frac{N}{m^2}\right]$
 
-## Polymorphism in Metals
+- Relevant e.g. for deformation analyses
 
-- **Polymorphism**: Formation of different lattice structures depending on temperature.
-- The different lattice forms are the allotropic modifications.
-
-(Also: Carbon polymorphism: graphite, diamond, etc.)
+![bg right:25%](../assets/Figures/Normalspannung.gif)
 
 ---
 
-## Determining Transformation Points
+## Fundamentals - Lateral Contraction
 
-_Dilatometry_
-- Measurement of length changes due to lattice transformation.
+- Poisson's ratio [-]
+- $\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
+For homogeneous materials $0\leq\nu\leq 0.5$
+For heterogeneous materials other configurations are conceivable
 
-_Thermal Analysis_
-- Recording of the temperature curve.
-- Lattice transformations (phase changes) require or release thermal energy.
-- Holding or inflection points in heating or cooling curves.
+![bg fit right:25%](https://upload.wikimedia.org/wikipedia/commons/6/65/Querkontraktion_am_einachsig_gezogenen_Stab.png)
 
-- Holding points: In pure metals.
-
----
-
-![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
+- Relevant e.g. for press fits
 
 ---
 
-## Molecular Structures
+## Fundamentals - Shear
 
-- Typical for non-metallic organic materials.
-  - Natural materials: Wood, rubber, leather, fibers, etc.
-  - Synthetic plastics: PMMA, epoxy, etc.
+- Shear strains [-]
+$\varepsilon = \frac12(\frac{u_x}{l_0}+\frac{u_y}{b_0})=\frac{\gamma}{2}$
 
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
+- Shear stress $\left[\frac{N}{m^2}\right]$, $[Pa]$
+$\tau = \frac{F_s}{A}= G\gamma$
 
-![bg vertical 80%](https://upload.wikimedia.org/wikipedia/commons/0/03/14-05-28-LEGO-by-RalfR-061.jpg)
+- Normal and shear stresses are not compatible; therefore equivalent stresses
+- G - [Shear](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) modulus $\left[\frac{N}{m^2}\right]$
+$G = \frac{E}{2(1+\nu)}$
 
----
+![bg right:25%](../assets/Figures/Schubspannung.gif)
 
-- Formed by assembly reactions of monomeric building blocks into chain molecules.
-- Atomic bonds occur within the chains.
-- Van der Waals forces and molecular entanglements exist between the chains.
-
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+- Relevant e.g. for torsion (drive trains, torsion springs)
 
 ---
 
-## Assembly Reaction (Polymerization)
+## Fundamentals - Compression
 
-- Free bonds must be created in the monomers.
-- The monomers "need" new partners to reach an energetic minimum.
+$\sigma_h = p = -K \cdot \frac{\Delta V}{V_0}$
 
----
+$\varepsilon_v = \frac{\Delta V}{V_0} = \varepsilon_1 + \varepsilon_2 + \varepsilon_3$
 
-## Chain Polymerizations
+[Bulk modulus](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{3(1-2\nu)}$
 
-  - Breaking of C=C double bonds in the monomer (catalytic process through pressure, temperature, catalyst).
-  - Linking the split monomers to macromolecules.
+- Relevant e.g. for hydraulics
 
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
+![bg right:25%](../assets/Figures/Kompression.gif)
 
 ---
 
-## Step-Growth Reactions
-
-**Polycondensation**
-- Release of low molecular weight reaction products (e.g., H₂O) through a chemical reaction creates free bonds.
-- Stepwise reaction or interruption leads to the formation of linear, branched, or cross-linked polymers (thermoplastics, elastomers, or thermosets).
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
-
----
-
-**Polyaddition**
-- Free bonds are formed by rearrangement of double bonds between two different monomer molecules.
-- These then form molecular chains.
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/4d/Polyaddition_Polyurethane_V.2.1.png)
+| Material                          | E [GPa]   | G [GPa] | ν [-]     |
+|:----------------------------------|:----------|:--------|:----------|
+| Unalloyed steel                   | 200       | 77      | 0.30      |
+| Titanium                          | 110       | 40      | 0.36      |
+| Copper                            | 120       | 45      | 0.35      |
+| Aluminum                          | 70        | 26      | 0.34      |
+| Magnesium                         | 45        | 17      | 0.27      |
+| Tungsten                          | 360       | 130     | 0.35      |
+| Cast iron with lamellar graphite  | 120       | 60      | 0.25      |
+| Thermoplastics/Thermosets         | 2-5       | 1-2     | ca. 0.35  |
+| Elastomers                        | 0.1       | 0.03    | 0.45-0.49 |
+| Plywood                           | 4-16      | -       | -         |
 
 ---
 
-## Glassy-Amorphous Structures
+## Stiffness
+<details>
+<summary>How do material properties relate to stiffness?</summary>
 
-- Glasses are non-metallic inorganic, primarily silicate melt products.
-- They are in a non-crystalline (amorphous) state.
-- In glass, the melt is first undercooled and then "frozen" below the transformation temperature (Tg).
+- Material × Cross-sections = Stiffness
+- Axial stiffness = $EA$
+- Bending stiffness = $EI$
+- Torsional stiffness = $GI_P$
 
-![bg right fit](../assets/Figures/amorph.png)
+</details>
+
+![bg fit right:50%](../assets/Figures/IWES_test.jpg)
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Image reference</a>
+</div>
 
 ---
 
+## Viscous Behavior
 
-# Material Properties
-- Properties are significantly influenced by the microstructure and electrons (outer shell).
+- Irreversible
+- Time-dependent, strain rate-dependent
 
-**Work Function**
-- Thermal expansion
-- Electrical conductivity
-- Thermal conductivity
+Spring model $\sigma = E\epsilon$
+ - Elastic component
+ - Represented by spring elements
+<div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
+    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+</div>
 
+<div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
+    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
+</div>
+
+Damper $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
+- Viscous component
+- Represented by damper elements
+
+---
+
+- Fast loading -> behavior is elastic
+- Slow loading -> material flows
+- [Fast loading](https://en.wikipedia.org/wiki/File:Sillyputty.ogv)
+
+![bg right:30% fit](https://upload.wikimedia.org/wikipedia/commons/f/f3/Silly_putty_dripping.jpg)
+
+---
+
+## Hardness
+
+Resistance of a material to the penetration of a harder test body
+
+**Dependence on:**
+- Type and strength of bonding
+- Crystal structure
+- Microstructure and grain size
+- Alloying elements
+- Heat treatment
+
+**Significance:**
+- Wear resistance
+- Machinability
+
+---
+
+# Material Behavior - Irreversible
+
+---
+
+## Strength
+
+[The strength of a material describes the load-bearing capacity under mechanical loads before failure occurs, and is specified as mechanical stress $\left[N/m^2\right]$. Failure can be an **unacceptable deformation**, in particular a **plastic (permanent) deformation** or a **fracture**.](https://de.wikipedia.org/wiki/Festigkeit)
+
+>Important: Strength ≠ Stiffness
+
+---
+
+## Plasticity
+
+- [Forging](https://youtu.be/AxLszR6fkLM?si=k6A9aOVfQceOK9v0&t=80)
+- [Rolling](https://www.youtube.com/watch?v=WOTO64HgnXc)
