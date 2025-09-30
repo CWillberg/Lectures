@@ -11,10 +11,6 @@ author: Christian Willberg
 
 
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
 
 <style>
 .container{
@@ -61,7 +57,7 @@ img[alt="ORCID"] {
 ## Feinstruktur
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/a/a2/Bochumer_Verein-23-50078.jpg)
+![bg right:35% fit](../assets/Figures/kfz.png)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
