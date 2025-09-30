@@ -61,7 +61,7 @@ img[alt="ORCID"] {
 ## Vorlesung Werkstofftechnik - Vorlesung Reale Strukturen und Eigenschaften
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/d/d7/Gold-crystals.jpg)
+![bg right](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -472,7 +472,7 @@ Energie, die benötigt wird, um eine Bindung zu trennen
 - Alle Bindungen gleichwertig
 
 **Eigenschaften:**
-- Härtester bekannter Werkstoff (10 auf Mohs-Skala)
+- Härtester bekannter Werkstoff 
 - Schmelzpunkt: 3550°C
 - Hervorragender elektrischer Isolator
 - Exzellente Wärmeleitfähigkeit
@@ -489,9 +489,8 @@ Energie, die benötigt wird, um eine Bindung zu trennen
 - Kovalente C—Si Bindungen
 
 **Eigenschaften:**
-- Sehr hart (9,5 auf Mohs-Skala)
+- Sehr hart und chemisch sehr beständig
 - Schmelzpunkt: 2730°C
-- Chemisch sehr beständig
 - Gute Wärmeleitfähigkeit
 - Halbleiter bei hohen Temperaturen
 
@@ -625,19 +624,23 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 - Zugfestigkeit: 50-1500 MPa (je nach Metall)
 - Verformungsverfestigung möglich
 
+---
+
 **Bruchverhalten**
 - Zäh (nicht spröde)
 - Plastische Verformung vor Bruch
-
----
-
-## Mechanische Eigenschaften (2)
 
 **Härte**
 - Variabel je nach Metall
 - Weich: Na, K, Au (< 30 HV)
 - Mittel: Al, Cu, Ag (30-100 HV)
 - Hart: Fe, Cr, W (> 100 HV)
+
+---
+
+## Mechanische Eigenschaften (2)
+
+
 
 **Verformungsmechanismen**
 - Versetzungsbewegung (Gleitebenen)
@@ -647,15 +650,13 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 
 ---
 
-## Thermische Eigenschaften
+## Thermische Eigenschaften - Schmelzpunkte
 
-**Schmelzpunkte**
 - Niedrig bis sehr hoch (39°C - 3422°C)
 - Abhängig von Anzahl der Valenzelektronen
 
 | Metall | Schmelzpunkt [°C] |
 |--------|-------------------|
-| Hg     | -39               |
 | Na     | 98                |
 | Al     | 660               |
 | Cu     | 1085              |
@@ -669,9 +670,9 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 ## Thermische Eigenschaften (2)
 
 **Wärmeleitfähigkeit**
-- Sehr gut (10-400 W/(m·K))
+- Sehr gut (10-400 W/(mK))
 - Freie Elektronen transportieren Wärme
-- Beste Leiter: Ag, Cu, Au, Al
+- Beste thermische Leiter: Ag, Cu, Au, Al
 
 **Wärmeausdehnung**
 - Mittlere bis hohe Ausdehnung
@@ -679,7 +680,6 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 - Wichtig für thermische Spannungen
 
 **Wärmekapazität**
-- Elektronen und Gitterschwingungen (Phononen)
 - Relativ hoch
 
 ---
@@ -687,7 +687,7 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 ## Elektrische Eigenschaften
 
 **Elektrische Leitfähigkeit**
-- Ausgezeichnete Leiter
+- Ausgezeichnete elektrische Leiter
 - Freie Elektronen transportieren Ladung
 - Spezifischer Widerstand: 10⁻⁸ - 10⁻⁶ Ω·m
 
@@ -697,7 +697,6 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 | Cu     | 59                   | Kabel     |
 | Au     | 45                   | Elektronik|
 | Al     | 37                   | Leitungen |
-| Fe     | 10                   | Konstruktion|
 
 ---
 
@@ -709,36 +708,17 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 | Beteiligte | Metall + Nichtmetall | Nichtmetall | Metall |
 | Elektronen | Übertragung | Teilung | Delokalisiert |
 | Struktur | Ionengitter | Moleküle/Netzwerk | Metallgitter |
-| Leitfähigkeit | Nur geschmolzen | Nein | Ja, sehr gut |
+| el. Leitfähigkeit | Nur geschmolzen | Nein | Ja, sehr gut |
 | Verformbarkeit | Spröde | Spröde/weich | Duktil |
 | Schmelzpunkt | Hoch | Variabel | Mittel-hoch |
 | Transparenz | Oft ja | Oft ja | Nein |
 
 ---
 
-## Mechanische Eigenschaften im Vergleich
-
-**Metallische Bindung**
-- Duktil, verformbar
-- Ungerichtete Bindung ermöglicht Gleitung
-- Versetzungsbewegung
-
-**Ionische Bindung**
-- Spröde
-- Gleichnamige Ladungen stoßen sich ab
-- Keine Gleitung möglich
+# Sekundärbindungen (Zwischenmolekulare Kräfte)
 
 ---
 
-**Kovalente Bindung (Netzwerk)**
-- Sehr spröde
-- Gerichtete Bindungen müssen brechen
-- Extrem hart (Diamant)
-
----
-# Sekundärbindungen
-
----
 
 **Definition:**
 Schwache Bindungen zwischen **Molekülen** oder **Atomen** durch elektrostatische Wechselwirkungen
@@ -749,13 +729,12 @@ Schwache Bindungen zwischen **Molekülen** oder **Atomen** durch elektrostatisch
 - Keine Elektronenübertragung oder -teilung
 - Kurzreichweitig
 
-**Arten:**
-1. Van-der-Waals-Bindungen
-2. Wasserstoffbrückenbindungen
+**Hauptarten:**
+1. **Van-der-Waals-Bindungen** (0,5-25 kJ/mol)
+2. **Wasserstoffbrückenbindungen** (10-40 kJ/mol)
 
 ---
 
-## Bindungsenergie - Vergleich
 
 | Bindungstyp | Energie [kJ/mol] | Beispiel |
 |-------------|------------------|----------|
@@ -765,10 +744,28 @@ Schwache Bindungen zwischen **Molekülen** oder **Atomen** durch elektrostatisch
 | Metallisch | 100-850 | Cu, Fe |
 | **Sekundärbindungen** | | |
 | Wasserstoffbrücken | 10-40 | H₂O...H₂O |
-| Dipol-Dipol | 5-25 | HCl...HCl |
-| London-Kräfte | 0,5-10 | Ar...Ar |
+| Van-der-Waals (Dipol) | 5-25 | HCl...HCl |
+| Van-der-Waals (London) | 0,5-10 | Ar...Ar |
 
 **Faktor 10-100 schwächer!**
+
+---
+
+**Sekundärbindungen**
+│
+├── Van-der-Waals-Bindungen
+│   ├── London-Kräfte (Dispersionskräfte)
+│   │   └── Alle Moleküle/Atome
+│   │
+│   ├── Dipol-Dipol-Kräfte
+│   │   └── Polare Moleküle
+│   │
+│   └── Dipol-induzierte Dipol
+│       └── Mischung polar/unpolar
+│
+└── Wasserstoffbrückenbindungen
+└── Spezialfall: H an F, O, N
+
 
 ---
 
@@ -779,60 +776,61 @@ Schwache zwischenmolekulare Kräfte aufgrund von Ladungsverteilungen
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/c/cf/Forze_di_London.png)
 
+**Drei Unterarten**
+1. London-Kräfte (schwächste)
+2. Dipol-Dipol-Kräfte
+3. Dipol-induzierte Dipol
 
 ---
 
-**Drei Arten:**
 
-1. **London-Kräfte (Dispersionskräfte)**
-   - Temporäre Dipole durch Elektronenbewegung
-   - Wirken zwischen allen Molekülen/Atomen
-   - Schwächste Van-der-Waals-Kraft
+**1. London-Kräfte** 
+- Temporäre, fluktuierende Dipole
+- Bei **allen** Atomen/Molekülen
+- 0.5-10 kJ/mol
 
-2. **Dipol-Dipol-Kräfte**
-   - Zwischen permanenten Dipolen
-   - Stärker als London-Kräfte
+**2. Dipol-Dipol-Kräfte** 
+- Permanente Dipole
+- Nur bei polaren Molekülen
+- 5-25 kJ/mol
 
-3. **Dipol-induzierte Dipol-Kräfte**
-   - Permanenter Dipol induziert Dipol
+**3. Dipol-induzierte Dipol** 
+- Permanenter Dipol induziert temporären Dipol
+- Mischungen
 
 ---
 
 ## London-Kräfte (Dispersionskräfte)
 
 **Mechanismus:**
-Atom 1:  ⊖ ⊕   →  temporärer Dipol
+Atom 1:  ⊖ ⊕   →  temporärer Dipol (durch Elektronenbewegung)
 ↓ induziert
 Atom 2:  ⊕ ⊖   →  induzierter Dipol
-
+↓
+Anziehung
 **Eigenschaften:**
-- Treten bei **allen** Molekülen/Atomen auf
-- Auch bei unpolaren Molekülen (Ar, CH₄, N₂)
+- Treten bei **allen** Molekülen/Atomen auf (auch unpolar!)
 - Stärke nimmt mit Molekülgröße zu
 - Kurzreichweitig (~ r⁻⁶)
-
----
-
-**Beispiele:**
-- Edelgase (Ne, Ar, Kr)
-- Unpolare Moleküle (H₂, N₂, CH₄)
-- Polymere (Polyethylen)
+- Schwächste zwischenmolekulare Kraft
 
 ---
 
 ## London-Kräfte - Einfluss der Molekülgröße
 
-**Größere Moleküle → stärkere London-Kräfte**
+**Größere Moleküle → mehr Elektronen → stärkere London-Kräfte**
 
-| Molekül | Molare Masse [g/mol] | Siedepunkt [°C] |
-|---------|----------------------|-----------------|
-| He      | 4                    | -269            |
-| Ne      | 20                   | -246            |
-| Ar      | 40                   | -186            |
-| Kr      | 84                   | -153            |
-| Xe      | 131                  | -108            |
+| Molekül | Molare Masse [g/mol] | Elektronen | Siedepunkt [°C] |
+|---------|----------------------|------------|-----------------|
+| He      | 4                    | 2          | -269            |
+| Ne      | 20                   | 10         | -246            |
+| Ar      | 40                   | 18         | -186            |
+| Kr      | 84                   | 36         | -153            |
+| Xe      | 131                  | 54         | -108            |
 
 **Trend:** Mehr Elektronen → stärkere temporäre Dipole → höherer Siedepunkt
+
+**Relevanz:** Warum Motoröle bei Kälte zähflüssig werden
 
 ---
 
@@ -841,28 +839,52 @@ Atom 2:  ⊕ ⊖   →  induzierter Dipol
 **Mechanismus:**
 δ⁺     δ⁻   δ⁺     δ⁻
 H—O ... H—O
-H         H
-**Voraussetzungen:**
-- H gebunden an F, O oder N
-- Freies Elektronenpaar am Akzeptor
-- Gerichtet und relativ stark (10-40 kJ/mol)
+
+**Voraussetzung:**
+- Moleküle müssen **permanent polar** sein
+- Unterschiedliche Elektronegativität
+
+**Eigenschaften:**
+- Stärker als London-Kräfte
+- Temperaturabhängig 
+- Gerichtet
+
+---
+## 3. Dipol-induzierte Dipol-Kräfte
+
+**Mechanismus:**
+Polar:    δ⁺  δ⁻
+H—Cl        →  induziert Dipol
+↓
+Unpolar:  ⊕ ⊖
 
 ---
 
-## Wasserstoffbrücken - Beispiel Wasser
+**Beispiele:**
+- Lösung von O₂ in H₂O
+- Lösung von N₂ in Wasser
+- Mischung von polaren und unpolaren Stoffen
 
-**Wasser (H₂O)**
-H—O...H—O—H
-|
-H
-**Eigenschaften durch H-Brücken:**
-- Hoher Siedepunkt (100°C, erwartet: -80°C)
-- Hohe Schmelzwärme
-- Hohe Verdampfungswärme
-- Dichteanomalie (Eis schwimmt)
-- Oberflächenspannung
+**Bedeutung:**
+- Erklärt begrenzte Löslichkeit unpolarer Gase in Wasser
+- Wichtig für Gaslöslichkeit (z.B. Sauerstoff im Blut)
 
-**Jedes H₂O kann 4 H-Brücken bilden!**
+---
+
+## Wasserstoffbrückenbindungen
+
+**Mechanismus:** Besonders starke Dipol-Dipol-Wechselwirkung zwischen H-Atom und elektronegativen Atomen (F, O, N)
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/1a/Acetic_Acid_Hydrogenbridge_V.2.svg)
+
+---
+
+**Voraussetzungen:**
+1. H gebunden an **F, O oder N** (hohe Elektronegativität)
+2. Freies Elektronenpaar am Akzeptor-Atom
+3. Gerichtet (nicht wie normale Dipol-Dipol)
+
+**Stärke:** 10-40 kJ/mol (stärkste Sekundärbindung!)
 
 ---
 
@@ -887,22 +909,24 @@ H
 - Geringe Festigkeit
 
 ---
-
 ## Werkstofftechnische Bedeutung
 
-**Polymere**
+**1. Polymere (Kunststoffe)**
 - Sekundärbindungen zwischen Polymerketten
-- Bestimmen Schmelzpunkt und Festigkeit
-- Thermoplaste: nur Sekundärbindungen
-- Beispiel: Polyethylen (nur London-Kräfte)
+- Bestimmen Schmelzpunkt und mechanische Eigenschaften
+- Thermoplaste: **nur** Sekundärbindungen → schmelzbar
+- Duroplaste: kovalente Vernetzung → nicht schmelzbar
 
-**Schmierstoffe**
-- Graphit: schwache Van-der-Waals-Kräfte zwischen Schichten
+**2. Schmierstoffe**
+- Graphit: schwache Van-der-Waals zwischen Schichten
 - Leicht verschiebbar → geringe Reibung
+- MoS₂: ähnliches Prinzip
 
-**Adsorption**
-- Van-der-Waals-Kräfte binden Moleküle an Oberflächen
-- Aktivkohle, Katalysatoren
+---
+
+**3. Dichtungen und Elastomere**
+- Flexibilität durch schwache Bindungen
+- Gummi, Silikone
 
 ---
 
@@ -914,6 +938,8 @@ H
 - Niedrige Schmelzpunkte (50-250°C)
 - Beispiele: PE, PP, PS, PVC
 
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/19/Lego_bricks.jpg)
+
 ---
 
 **Duroplaste**
@@ -922,41 +948,25 @@ H
 - Hohe Temperaturbeständigkeit
 - Beispiele: Epoxidharze, Phenolharze
 
+![bg right:40% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bundesarchiv_Bild_183-P0619-306%2C_Trabant_601.jpg/640px-Bundesarchiv_Bild_183-P0619-306%2C_Trabant_601.jpg)
+
 **Sekundärbindungen ermöglichen Verformbarkeit!**
 
 ---
 
 ## Graphit - Schichtstruktur
 
-**Struktur:**
 - Innerhalb der Schichten: starke kovalente C-C Bindungen
 - Zwischen den Schichten: schwache Van-der-Waals-Kräfte
 
-**Eigenschaften:**
+**Eigenschaften / Anwendungen:**
 - In Schichten: hart, fest
 - Zwischen Schichten: leicht verschiebbar
 - Guter Schmierstoff
 - Elektrisch leitfähig (in Schichtebene)
+- Trockenschmiermittel, Bleistiftminen, Elektroden
 
-**Anwendung:**
-- Trockenschmiermittel
-- Bleistiftminen
-- Elektroden
-
----
-
-## Geckofüße - Adhäsion durch Van-der-Waals-Kräfte
-
-**Prinzip:**
-- Millionen feiner Härchen (Setae)
-- Große Kontaktfläche
-- Van-der-Waals-Kräfte addieren sich
-- Haftung: ~10 N/cm²
-
-**Technische Anwendung:**
-- Gecko-Tape (wiederverwendbare Klebestreifen)
-- Kletterroboter
-- Biomimetik
+![bg right:30% fit](https://upload.wikimedia.org/wikipedia/commons/5/5b/Graphene-graphite_relation.svg)
 
 ---
 
@@ -974,7 +984,7 @@ H
 - Katalysatoren (Oberflächenvergrößerung)
 - Chromatographie
 
-**Im Gegensatz zu Chemisorption (kovalente Bindung, irreversibel)**
+![bg fit right:35%](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Circular_HEPA_air_filter_%26_activated_carbon_filter_%281%29.jpg/640px-Circular_HEPA_air_filter_%26_activated_carbon_filter_%281%29.jpg)
 
 ---
 
@@ -997,40 +1007,19 @@ Lösungsmittel müssen ähnliche intermolekulare Kräfte haben wie gelöster Sto
 
 ## Oberflächenspannung
 
-**Ursache:**
 Ungleiche Anziehungskräfte an der Oberfläche
 
 **Hohe Oberflächenspannung:**
 - Starke intermolekulare Kräfte
-- H₂O: 72 mN/m (H-Brücken!)
-- Hg: 486 mN/m (Metallbindung)
+- H₂O: 72 mN/m 
 
 **Niedrige Oberflächenspannung:**
 - Schwache intermolekulare Kräfte
 - Ethanol: 22 mN/m
-- Hexan: 18 mN/m
 
 **Anwendung:**
 - Tenside (reduzieren Oberflächenspannung)
 - Benetzung von Oberflächen
-
-
----
-
-## Verdampfungsenthalpie
-
-**Definition:**
-Energie zum Verdampfen von 1 mol Stoff
-
-| Stoff | Intermolekulare Kraft | ΔH_vap [kJ/mol] |
-|-------|-----------------------|-----------------|
-| Ne | London | 1,7 |
-| CH₄ | London | 8,2 |
-| HCl | Dipol | 16,2 |
-| NH₃ | H-Brücken | 23,3 |
-| H₂O | H-Brücken | 40,7 |
-
-**H₂O hat außergewöhnlich hohe Verdampfungsenthalpie!**
 
 ---
 
@@ -1045,32 +1034,3 @@ Energie zum Verdampfen von 1 mol Stoff
 | Beispiele | NaCl, Fe, Diamant | H₂O, N₂, Polymere |
 | Festigkeit | Sehr hoch | Niedrig |
 | Verformbarkeit | Variabel | Oft gut |
-
----
-
-## Zusammenfassung - Van-der-Waals
-
-**Van-der-Waals-Bindungen:**
-- London-Kräfte (alle Stoffe)
-- Dipol-Dipol (polare Moleküle)
-- Schwach (0,5-25 kJ/mol)
-- Kurzreichweitig
-- Bestimmen Siedepunkt/Schmelzpunkt
-- Wichtig für Polymere, Schmierstoffe
-- Ermöglichen Adsorption
-- "Gleiches löst sich in Gleichem"
-
----
-
-## Zusammenfassung - Wasserstoffbrücken
-
-**Wasserstoffbrückenbindungen:**
-- Stärkste Sekundärbindung (10-40 kJ/mol)
-- H gebunden an F, O, N
-- Gerichtet
-- Erhöhen Siedepunkt dramatisch
-- Lebenswichtig (DNA, Proteine, Wasser)
-- Hohe Verdampfungsenthalpie
-- Dichteanomalie des Wassers
-- Festigkeit von Cellulose
-

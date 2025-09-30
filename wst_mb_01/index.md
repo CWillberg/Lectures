@@ -391,6 +391,27 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ---
 
+## Härte
+
+Widerstand eines Werkstoffs gegen das Eindringen eines härteren Prüfkörpers
+
+**Abhängigkeit von:**
+- Bindungsart und Bindungsstärke
+- Kristallstruktur
+- Gefüge und Korngröße
+- Legierungselemente
+- Wärmebehandlung
+
+**Bedeutung:**
+- Verschleißbeständigkeit
+- Bearbeitbarkeit
+
+---
+
+# Materialverhalten - irreversibel
+
+---
+
 ## Festigkeit
 
 [Die Festigkeit eines Werkstoffes beschreibt die Beanspruchbarkeit durch mechanische Belastungen, bevor es zu einem Versagen kommt, und wird angegeben als mechanische Spannung $\left[N/m^2\right]$. Das Versagen kann eine **unzulässige Verformung** sein, insbesondere eine **plastische (bleibende) Verformung** oder auch ein **Bruch**.](https://de.wikipedia.org/wiki/Festigkeit)
@@ -399,6 +420,8 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 >Wichtig: Festigkeit $\neq$ Steifigkeit
 
 ---
+
+
 
 ## Plastizität
 
