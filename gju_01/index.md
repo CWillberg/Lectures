@@ -5,48 +5,18 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung: Struktur der Werkstoffe
+title: GJU Lectures - Material Science
 author: Christian Willberg
 ---
 
 
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-<style>
-.container{
-  display: flex;
-  }
-.col{
-  flex: 1;
-  }
-</style>
-
-<style scoped>
-.column-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.column {
-    flex: 1;
-    padding: 0 20px; /* Platzierung der Spalten */
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto;
-}
-</style>
 
 <style>
 footer {
-    font-size: 14px; /* Ändere die Schriftgröße des Footers */
-    color: #888; /* Ändere die Farbe des Footers */
-    text-align: right; /* Ändere die Ausrichtung des Footers */
+    font-size: 14px; /* Change footer font size */
+    color: #888; /* Change footer color */
+    text-align: right; /* Change footer alignment */
 }
 img[alt="ORCID"] {
     height: 15px !important;
@@ -70,10 +40,11 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ---
 
 ## Inhalte
-- Aufbau von Werkstoffen
-- Bindungsarten
+- Fehler in Kristallen
+- Plastizität
+- Grundlagen mechanischer Eigenschaften
 
-![bg right 70%](../assets/QR/wst_mb_02.png)
+![bg right 70%](../assets/QR/GJU_01.png)
 
 
 
