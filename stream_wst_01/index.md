@@ -45,9 +45,14 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 **Framework**
 
-- Eating or drinking is okay, but quietly
-- Problems with childcare
-- Everything stays in the room!
+
+- Food or drinks are okay, but quiet
+- Problems:
+    - with childcare
+    - disadvantage compensation
+    - discrimination
+    - language-related
+    - ...
 - Questions
 
 ![bg right 50%](../assets/QR/stream_wst_01.png)

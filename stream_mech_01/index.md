@@ -72,8 +72,14 @@ Contact: christian.willberg@h2.de
 
 **Framework**
 
-- Eating or drinking is okay, but quietly
-- Problems with childcare
+
+- Food or drinks are okay, but quiet
+- Problems:
+    - with childcare
+    - disadvantage compensation
+    - discrimination
+    - language-related
+    - ...
 - Questions
 
 ![bg right 50%](../assets/QR/stream_mech_01.png)

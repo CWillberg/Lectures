@@ -74,7 +74,12 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 
 - Essen oder Trinken sind okay, aber leise
-- Probleme bei der Kinderbetreuung
+- Probleme:
+    - bei der Kinderbetreuung
+    - Nachteilsausgleich
+    - Diskriminierung
+    - sprachlich
+    - ...
 - Fragen
 
 ![bg right 50%](../assets/QR/wst_mb_01.png)
