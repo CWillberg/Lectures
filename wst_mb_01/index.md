@@ -85,6 +85,15 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ![bg right 50%](../assets/QR/wst_mb_01.png)
 
 ---
+## Organisation
+- 2 Praktika
+    - Zugprüfung
+    - Härteprüfung
+    - Teilnahme ist Zulassungsvorraussetzung zur Prüfung
+- Prüfung 40 Minuten
+- Fragen per E Mail; Konsultationen bei Bedarf
+
+---
 
 ## Inhalte nach Modulhandbuch
 
@@ -174,12 +183,19 @@ Was sind Werkstoffe?
 
 # Mechanische Eigenschaften
 Was sind wichtige Eigenschaften aus Sicht einer Ingenieurin / eines Ingenieurs?
+
+
+---
+
+# Mechanische Eigenschaften
+Was sind wichtige Eigenschaften aus Sicht einer Ingenieurin / eines Ingenieurs?
 - Materialverhalten ohne Schädigung
 - Ermüdungsverhalten
 - Verschleißverhalten
+- Temperaturfestigkeit
+- Festigkeit
 - wann tritt eine Schädigung auf
 - ...
-
 
 ---
 
@@ -436,6 +452,104 @@ Widerstand eines Werkstoffs gegen das Eindringen eines härteren Prüfkörpers
 
 ---
 
+
+## Duktilität
+
+### Brucheinschnürung
+
+$$Z = \frac{A_0 - A_f}{A_0} \cdot 100\%$$
+
+
+- A₀ = Ausgangsquerschnittsfläche [mm²]
+- A_f = Querschnittsfläche bei Bruch [mm²]
+- Z = Brucheinschnürung [%]
+
+Die Brucheinschnürung beschreibt die **relative Querschnittsverringerung** eines Materials bei Zugbelastung bis zum Bruch.
+
+---
+
+## Duktilitätsbewertung
+
+### Interpretation der Brucheinschnürung
+
+| Z-Wert | Duktilität | Materialverhalten |
+|--------|------------|-------------------|
+| Z < 5% | Spröde | Keramiken, Gusseisen |
+| 5% ≤ Z < 20% | Mäßig duktil | Hochfeste Stähle |
+| 20% ≤ Z < 50% | Duktil | Baustähle |
+| Z ≥ 50% | Sehr duktil | Reinkupfer, Aluminium |
+
+---
+
+## Bedeutung
+
+**Hohe Brucheinschnürung (Z > 40%)** bedeutet:
+- Material kann große plastische Verformungen ertragen
+- Gute Umformbarkeit (Schmieden, Tiefziehen)
+- Bruchwarnung durch sichtbare Einschnürung
+- Hohe Energieabsorption vor dem Versagen
+
+**Niedrige Brucheinschnürung (Z < 10%)** bedeutet:
+- Sprödes Versagen ohne Vorwarnung
+- Geringe Umformbarkeit
+- Wenig Energieabsorption
+
+---
+
+## Zähigkeit (Brucharbeit)
+
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+
+**Wahre Dehnung und Spannung**
+
+$$\varepsilon_{true} = \ln\left(\frac{L}{L_0}\right) = \ln(1 + \varepsilon_{nom})$$
+
+$$\sigma_{true} = \sigma_{nom} \cdot (1 + \varepsilon_{nom}) = \frac{F}{A}$$
+
+- F = Kraft
+- A = aktuelle Querschnittsfläche
+
+---
+
+### Zähigkeit als Energieabsorption
+
+$$U = \int_0^{\varepsilon_f} \sigma_{true} \, d\varepsilon_{true}$$
+
+- U = spezifische Zähigkeit [J/m³]
+- ε_f = Bruchdehnung
+
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
+    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
+</div>
+
+
+---
+
+
+Ein zäher Werkstoff kombiniert:
+- **Hohe Festigkeit** (σ) → widersteht hohen Spannungen
+- **Hohe Duktilität** (ε) → verformt sich stark vor dem Bruch
+
+**Zähigkeit = Überlebensfähigkeit eines Materials unter extremen Bedingungen**
+
+---
+
+## Zähigkeitswerte typischer Materialien
+
+| Material | Zähigkeit [MJ/m³] | Charakteristik |
+|----------|-------------------|----------------|
+| Glas | 0.01 | Extrem spröde |
+| Gusseisen | 1-3 | Spröde |
+| Hochfester Stahl | 50-100 | Fest, mäßig duktil |
+| Baustahl | 100-200 | Optimal zäh |
+| Aluminium | 70-200 | Leicht und zäh |
+| Kupfer | 200-400 | Sehr duktil |
+| Gummi | 10-100 | Elastisch-duktil |
+
+---
 
 ## Referencen
 <a id="Referenzen"></a>

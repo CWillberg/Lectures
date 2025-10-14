@@ -331,7 +331,76 @@ $Z = \int_0^{\varepsilon_{B}}\sigma d \varepsilon$
 $\sigma = \frac{F}{A} = E\varepsilon = E\frac{\Delta l}{l}$
 $F = \frac{\Delta l E A }{l}$
 
+---
 
+# Materialzähigkeit basierend auf logarithmischer Dehnung
+
+## Wahre Dehnung und Spannung
+
+### Wahre (logarithmische) Dehnung
+
+$$\varepsilon_{true} = \ln\left(\frac{L}{L_0}\right) = \ln(1 + \varepsilon_{nom})$$
+
+- L = aktuelle Länge
+- L₀ = Ausgangslänge
+- ε_nom = nominelle (technische) Dehnung
+
+### Wahre Spannung
+
+$$\sigma_{true} = \sigma_{nom} \cdot (1 + \varepsilon_{nom}) = \frac{F}{A}$$
+
+- F = Kraft
+- A = aktuelle Querschnittsfläche
+
+---
+
+## Zähigkeit (Brucharbeit)
+
+### Zähigkeit als Energieabsorption
+
+$$U = \int_0^{\varepsilon_f} \sigma_{true} \, d\varepsilon_{true}$$
+
+- U = spezifische Zähigkeit [J/m³]
+- ε_f = Bruchdehnung
+
+### Bei konstanter Volumenbedingung
+
+$$A_0 \cdot L_0 = A \cdot L \quad \Rightarrow \quad A = A_0 \cdot e^{-\varepsilon_{true}}$$
+
+$$\sigma_{true} = \frac{F}{A_0} \cdot e^{\varepsilon_{true}}$$
+
+---
+
+## Fließkurve nach Hollomon
+
+$$\sigma_{true} = K \cdot \varepsilon_{true}^n$$
+
+- K = Festigkeitskoeffizient [MPa]
+- n = Verfestigungsexponent
+
+### Zähigkeit (analytisch)
+
+$$U = \int_0^{\varepsilon_f} K \cdot \varepsilon_{true}^n \, d\varepsilon_{true} = K \cdot \frac{\varepsilon_f^{n+1}}{n+1}$$
+
+---
+
+## Alternative Materialmodelle
+
+### Ludwik-Hollomon
+
+$$\sigma_{true} = \sigma_0 + K \cdot \varepsilon_{true}^n$$
+
+### Swift
+
+$$\sigma_{true} = K \cdot (\varepsilon_0 + \varepsilon_{true})^n$$
+
+### Voce
+
+$$\sigma_{true} = \sigma_s - (\sigma_s - \sigma_0) \cdot e^{-C \cdot \varepsilon_{true}}$$
+
+- σ₀ = Anfangsfließspannung
+- σ_s = Sättigungsspannung
+- C = Materialkonstante
 
 ---
 
