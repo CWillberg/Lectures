@@ -199,7 +199,7 @@ $$\varepsilon = \frac{\Delta l}{l}$$
 Beispiel:
 $l_0 = 1m$
 $l_1 = 1.01m$
-$$\varepsilon = \frac{l_1-l_0}{l_1}=0.01\rightarrow 1\%$$
+$$\varepsilon = \frac{l_1-l_0}{l_0}=0.01\rightarrow 1\%$$
 
 ---
 ## Spannungen 1D
@@ -398,6 +398,27 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 
 ---
 
+## Härte
+
+Widerstand eines Werkstoffs gegen das Eindringen eines härteren Prüfkörpers
+
+**Abhängigkeit von:**
+- Bindungsart und Bindungsstärke
+- Kristallstruktur
+- Gefüge und Korngröße
+- Legierungselemente
+- Wärmebehandlung
+
+**Bedeutung:**
+- Verschleißbeständigkeit
+- Bearbeitbarkeit
+
+---
+
+# Materialverhalten - irreversibel
+
+---
+
 ## Festigkeit
 
 [Die Festigkeit eines Werkstoffes beschreibt die Beanspruchbarkeit durch mechanische Belastungen, bevor es zu einem Versagen kommt, und wird angegeben als mechanische Spannung $\left[N/m^2\right]$. Das Versagen kann eine **unzulässige Verformung** sein, insbesondere eine **plastische (bleibende) Verformung** oder auch ein **Bruch**.](https://de.wikipedia.org/wiki/Festigkeit)
@@ -406,6 +427,8 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 >Wichtig: Festigkeit $\neq$ Steifigkeit
 
 ---
+
+
 
 ## Plastizität
 
@@ -416,7 +439,108 @@ Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 ---
 
 
+## Duktilität
+
+### Brucheinschnürung
+
+$$Z = \frac{A_0 - A_f}{A_0} \cdot 100\%$$
+
+
+- A₀ = Ausgangsquerschnittsfläche [mm²]
+- A_f = Querschnittsfläche bei Bruch [mm²]
+- Z = Brucheinschnürung [%]
+
+Die Brucheinschnürung beschreibt die **relative Querschnittsverringerung** eines Materials bei Zugbelastung bis zum Bruch.
+
+---
+
+## Duktilitätsbewertung
+
+### Interpretation der Brucheinschnürung
+
+| Z-Wert | Duktilität | Materialverhalten |
+|--------|------------|-------------------|
+| Z < 5% | Spröde | Keramiken, Gusseisen |
+| 5% ≤ Z < 20% | Mäßig duktil | Hochfeste Stähle |
+| 20% ≤ Z < 50% | Duktil | Baustähle |
+| Z ≥ 50% | Sehr duktil | Reinkupfer, Aluminium |
+
+---
+
+## Bedeutung
+
+**Hohe Brucheinschnürung (Z > 40%)** bedeutet:
+- Material kann große plastische Verformungen ertragen
+- Gute Umformbarkeit (Schmieden, Tiefziehen)
+- Bruchwarnung durch sichtbare Einschnürung
+- Hohe Energieabsorption vor dem Versagen
+
+**Niedrige Brucheinschnürung (Z < 10%)** bedeutet:
+- Sprödes Versagen ohne Vorwarnung
+- Geringe Umformbarkeit
+- Wenig Energieabsorption
+
+---
+
+## Zähigkeit (Brucharbeit)
+
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+
+**Wahre Dehnung und Spannung**
+
+$$\varepsilon_{true} = \ln\left(\frac{L}{L_0}\right) = \ln(1 + \varepsilon_{nom})$$
+
+$$\sigma_{true} = \sigma_{nom} \cdot (1 + \varepsilon_{nom}) = \frac{F}{A}$$
+
+- F = Kraft
+- A = aktuelle Querschnittsfläche
+
+---
+
+### Zähigkeit als Energieabsorption
+
+$$U = \int_0^{\varepsilon_f} \sigma_{true} \, d\varepsilon_{true}$$
+
+- U = spezifische Zähigkeit [J/m³]
+- ε_f = Bruchdehnung
+
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
+    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
+</div>
+
+
+---
+
+
+Ein zäher Werkstoff kombiniert:
+- **Hohe Festigkeit** (σ) → widersteht hohen Spannungen
+- **Hohe Duktilität** (ε) → verformt sich stark vor dem Bruch
+
+**Zähigkeit = Überlebensfähigkeit eines Materials unter extremen Bedingungen**
+
+---
+
+## Zähigkeitswerte typischer Materialien
+
+| Material | Zähigkeit [MJ/m³] | Charakteristik |
+|----------|-------------------|----------------|
+| Glas | 0.01 | Extrem spröde |
+| Gusseisen | 1-3 | Spröde |
+| Hochfester Stahl | 50-100 | Fest, mäßig duktil |
+| Baustahl | 100-200 | Optimal zäh |
+| Aluminium | 70-200 | Leicht und zäh |
+| Kupfer | 200-400 | Sehr duktil |
+| Gummi | 10-100 | Elastisch-duktil |
+
+---
+
 ## Referencen
 <a id="Referenzen"></a>
 
 Rainer Schwab: Werkstoffkunde und Werkstoffprüfung für Dummies, 2019; ISBN-10 352771538X
+
+
+

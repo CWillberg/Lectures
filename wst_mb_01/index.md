@@ -212,7 +212,7 @@ $$\varepsilon = \frac{\Delta l}{l}$$
 Beispiel:
 $l_0 = 1m$
 $l_1 = 1.01m$
-$$\varepsilon = \frac{l_1-l_0}{l_1}=0.01\rightarrow 1\%$$
+$$\varepsilon = \frac{l_1-l_0}{l_0}=0.01\rightarrow 1\%$$
 
 ---
 ## Spannungen 1D

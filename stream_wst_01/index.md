@@ -168,7 +168,7 @@ $$\varepsilon = \frac{\Delta l}{l}$$
 Example:
 $l_0 = 1m$
 $l_1 = 1.01m$
-$$\varepsilon = \frac{l_1-l_0}{l_1}=0.01\rightarrow 1\%$$
+$$\varepsilon = \frac{l_1-l_0}{l_0}=0.01\rightarrow 1\%$$
 
 ---
 
@@ -391,3 +391,86 @@ Resistance of a material to the penetration of a harder test body
 
 - [Forging](https://youtu.be/AxLszR6fkLM?si=k6A9aOVfQceOK9v0&t=80)
 - [Rolling](https://www.youtube.com/watch?v=WOTO64HgnXc)
+
+---
+## Ductility
+### Reduction of Area (Necking)
+$$Z = \frac{A_0 - A_f}{A_0} \cdot 100\%$$
+- A₀ = Initial cross-sectional area [mm²]
+- A_f = Cross-sectional area at fracture [mm²]
+- Z = Reduction of area [%]
+
+The reduction of area describes the **relative decrease in cross-section** of a material under tensile loading until fracture.
+
+---
+
+## Ductility Assessment
+### Interpretation of Reduction of Area
+
+| Z-Value | Ductility | Material Behavior |
+|--------|------------|-------------------|
+| Z < 5% | Brittle | Ceramics, cast iron |
+| 5% ≤ Z < 20% | Moderately ductile | High-strength steels |
+| 20% ≤ Z < 50% | Ductile | Structural steels |
+| Z ≥ 50% | Highly ductile | Pure copper, aluminum |
+
+---
+
+## Significance
+**High reduction of area (Z > 40%)** means:
+- Material can withstand large plastic deformations
+- Good formability (forging, deep drawing)
+- Fracture warning through visible necking
+- High energy absorption before failure
+
+**Low reduction of area (Z < 10%)** means:
+- Brittle failure without warning
+- Low formability
+- Little energy absorption
+
+---
+
+## Toughness (Fracture Work)
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+**True Strain and Stress**
+$$\varepsilon_{true} = \ln\left(\frac{L}{L_0}\right) = \ln(1 + \varepsilon_{nom})$$
+$$\sigma_{true} = \sigma_{nom} \cdot (1 + \varepsilon_{nom}) = \frac{F}{A}$$
+- F = Force
+- A = Current cross-sectional area
+
+---
+
+### Toughness as Energy Absorption
+$$U = \int_0^{\varepsilon_f} \sigma_{true} \, d\varepsilon_{true}$$
+- U = Specific toughness [J/m³]
+- ε_f = Fracture strain
+
+![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+
+<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;">
+    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
+</div>
+
+---
+
+A tough material combines:
+- **High strength** (σ) → resists high stresses
+- **High ductility** (ε) → deforms significantly before fracture
+
+**Toughness = Survivability of a material under extreme conditions**
+
+---
+
+## Toughness Values of Typical Materials
+
+| Material | Toughness [MJ/m³] | Characteristic |
+|----------|-------------------|----------------|
+| Glass | 0.01 | Extremely brittle |
+| Cast iron | 1-3 | Brittle |
+| High-strength steel | 50-100 | Strong, moderately ductile |
+| Structural steel | 100-200 | Optimally tough |
+| Aluminum | 70-200 | Light and tough |
+| Copper | 200-400 | Highly ductile |
+| Rubber | 10-100 | Elastic-ductile |
+
