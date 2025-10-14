@@ -86,7 +86,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 ## Organisation
-- 2 Praktika
+- [2 Praktika](https://moodle2.hs-magdeburg.de/moodle/course/view.php?id=4605)
     - Zugprüfung
     - Härteprüfung
     - Teilnahme ist Zulassungsvorraussetzung zur Prüfung
