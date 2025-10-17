@@ -28,37 +28,13 @@ img[alt="ORCID"] {
 </style>
 
 
-## Materials-and-Production-Engineering-Lecture Materials Science - Lecture on Real Structures and Properties
+## Materials-and-Production-Engineering-Lecture Materials Science - Lecture on Structures of materials
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/d/d7/Gold-crystals.jpg)
+![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
 
 Contact: christian.willberg@h2.de
 
-
----
-
-## Objectives
-- Defects in crystals
-- Plasticity
-- Basics of mechanical properties
-
-![bg right 70%](stream_wst_02.png)
-
----
-## Contents
-- Structure of materials
-- Types of bonds
-
-![bg right 70%](../assets/QR/wst_mb_02.png)
-
----
-
-<!--paginate: true-->
-
-# Structure of Materials
-
-![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
 
 ---
 

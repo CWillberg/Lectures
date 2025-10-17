@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: GJU Lectures - Material Science
+title: Materials-and-Production-Engineering-Lectures on Real Structures and Properties
 author: Christian Willberg
 ---
 
@@ -28,58 +28,22 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung Werkstofftechnik - Struktur der Werkstoffe
+## GJU - Lecture on Structures of materials
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
-
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
-
-Kontakt: christian.willberg@h2.de
-Teile des Skripts sind von \
-Prof. Dr.-Ing. Jürgen Häberle übernommen
-
----
-## Einführung H2
-5 Folien
-
----
-
-
-
-
-
----
-
-## Inhalte
-- Fehler in Kristallen
-- Plastizität
-- Grundlagen mechanischer Eigenschaften
-
-![bg right 70%](../assets/QR/GJU_01.png)
-
-
-
-
----
-
-<!--paginate: true-->
-
-
-
-
-
-# Struktur von Werkstoffen
 
 ![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
 
+Contact: christian.willberg@h2.de
 
-
+<!--paginate: true-->
 ---
 
--	Atomistische Struktur (Art der atomaren Bausteine)
--	Feinstruktur (Bindungen zwischen den atomaren Bausteinen und deren geometrische An-ordnung)
--	Mikrostruktur (Gefüge – Bereiche geometrischer Anordnung, die im Werkstoffinnern durch Grenzflächen voneinander getrennt sind)
--	Makrostruktur (Grobstruktur – Gesamterscheinung eines Werkstoffes bei der Herstellung und dem Einsatz eines Bauteils)
+- Atomistic structure (type of atomic building blocks)
+- Fine structure (bonds between atomic building blocks and their geometric arrangement)
+- Microstructure (texture – areas of geometric arrangement separated by interfaces within the material)
+- Macrostructure (coarse structure – overall appearance of a material during production and use of a component)
 
+![bg right fit 60%](../assets/QR/gju_01.png)
 
 ---
 
@@ -87,80 +51,75 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-## Relevante Gößen
+## Relevant Quantities
 
-**Ordnungszahl**
-Zahl der Protonen im Kern
-**Atommasse**
-bestimmt die Masse des Elements
- Masse des Werkstoffs ist eine Kombination aus Atommasse und Dichte
-**Elektronegativiät**
-bestimmt ob Atome abgegeben oder aufgenommen werden in einer Bindung
-metallische Bindungen eher links
-kovalente Bindungen eher rechts
+**Atomic Number**
+Number of protons in the nucleus
+**Atomic Mass**
+determines the mass of the element
+Material mass is a combination of atomic mass and density
+**Electronegativity**
+determines whether atoms are donated or accepted in a bond
+metallic bonds more on the left
+covalent bonds more on the right
 
 ---
 
-## Atomistische Struktur
+## Atomistic Structure
 
-Besteht aus
-- Kern (Protonen + Neutronen) der die Masse definiert
-- Hülle (Elektronen) mit verschieden Schalen, welche chemischen und viele physikalische Eigeschaften definiert
+Consists of
+- Nucleus (protons + neutrons) which defines the mass
+- Shell (electrons) with different shells, which define chemical and many physical properties
 
-- Aufenthaltswahrscheinlichkeit der Elektronen sorgt für Abstoßung und Anziehung
-- als Elastizität oder Wärmedehnung makroskopisch zu erkennen
-
+- Probability of electron presence causes repulsion and attraction
+- macroscopically recognizable as elasticity or thermal expansion
 
 ---
 
 ![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
+---
+
+# Bonds
+
+## Primary Valence Bonds  
+**Primary bonds - high binding energy, strong bond**
+- Ionic or heteropolar bond
+- Atomic or homeopolar (or covalent) bond: polar (O-H) and nonpolar (C-C, C-H)
+- Metallic bond
 
 ---
 
-# Bindungen
-
-## Hauptvalenzbindungen  
-**Primärbindungen - hohe Bindungsenergie, starke Bindung**
--	Ionen- bzw. heteropolare Bindung 
--	Atom- bzw. homöopolare (oder kovalente) Bindung: polar (O-H) und unpolar (C-C, C-H)
--	Metallische Bindung
-
+## Secondary or Residual Valence Bonds 
+**Secondary bonds - low binding energy, weak bond**
+- Van der Waals bond: intermolecular forces
+- Hydrogen bond: two molecules or two suitably separated sections of a macromolecule interact via hydrogen atoms
+- binding energies are one to two orders of magnitude smaller than those of atomic bonds
 
 ---
 
-
-## Neben- oder Restvalenzbindungen 
-**Sekundärbindungen - geringe Bindungsenergie, schwache Bindung**
--	van der Waals-Bindung: zwischenmolekulare Kräfte
--	Wasserstoffbrückenbindung: zwei Moleküle oder zwei geeignet weit voneinander getrennte Abschnitte eines Makromoleküls treten über Wasserstoffatome in Wechselwirkung 
-- die Bindungsenergien sind ein bis zwei Zehnerpotenzen kleiner als die der Atombindungen.
-
-
----
-
-## Ionen- bzw. heteropolare Bindung
+## Ionic or Heteropolar Bond
 **Definition:**
-Bindung zwischen **Metall-Atom** und **Nichtmetall-Atom** durch elektrostatische Anziehung
+Bond between **metal atom** and **non-metal atom** through electrostatic attraction
 
-**Mechanismus:**
-1. Metall gibt Elektronen ab → **Kation** (positiv geladen)
-2. Nichtmetall nimmt Elektronen auf → **Anion** (negativ geladen)
-3. Elektrostatische Anziehung zwischen entgegengesetzt geladenen Ionen
+**Mechanism:**
+1. Metal donates electrons → **cation** (positively charged)
+2. Non-metal accepts electrons → **anion** (negatively charged)
+3. Electrostatic attraction between oppositely charged ions
 
 ---
 
-## Beispiel: Natriumchlorid (NaCl)
+## Example: Sodium Chloride (NaCl)
 
-**Natrium (Na)**
-- 1 Elektron in äußerer Schale
-- Gibt 1 Elektron ab → Na⁺ (Kation)
+**Sodium (Na)**
+- 1 electron in outer shell
+- Donates 1 electron → Na⁺ (cation)
 
-**Chlor (Cl)**
-- 7 Elektronen in äußerer Schale
-- Nimmt 1 Elektron auf → Cl⁻ (Anion)
+**Chlorine (Cl)**
+- 7 electrons in outer shell
+- Accepts 1 electron → Cl⁻ (anion)
 
-**Reaktionsgleichung:**
+**Reaction equation:**
 Na → Na⁺ + e⁻
 Cl + e⁻ → Cl⁻
 **Na⁺ + Cl⁻ → NaCl**
@@ -169,848 +128,843 @@ Cl + e⁻ → Cl⁻
 
 ---
 
-## Triebkraft: Edelgaskonfiguration
+## Driving Force: Noble Gas Configuration
 
-**Ziel:** Äußere Schale mit 8 Elektronen (Oktettregel)
+**Goal:** Outer shell with 8 electrons (octet rule)
 
-| Element | e⁻ außen | Reaktion | Ion | wie Edelgas |
-|---------|----------|----------|-----|-------------|
-| Na      | 1        | -1 e⁻    | Na⁺ | Neon        |
-| Mg      | 2        | -2 e⁻    | Mg²⁺| Neon        |
-| Cl      | 7        | +1 e⁻    | Cl⁻ | Argon       |
-| O       | 6        | +2 e⁻    | O²⁻ | Neon        |
+| Element | e⁻ outer | Reaction | Ion | like noble gas |
+|---------|----------|----------|-----|----------------|
+| Na      | 1        | -1 e⁻    | Na⁺ | Neon           |
+| Mg      | 2        | -2 e⁻    | Mg²⁺| Neon           |
+| Cl      | 7        | +1 e⁻    | Cl⁻ | Argon          |
+| O       | 6        | +2 e⁻    | O²⁻ | Neon           |
 
 ---
 
-## Weitere Beispiele
+## More Examples
 
-**Magnesiumoxid (MgO)**
+**Magnesium Oxide (MgO)**
 - Mg → Mg²⁺ + 2e⁻
 - O + 2e⁻ → O²⁻
 - **Mg²⁺ + O²⁻ → MgO**
 
-**Aluminiumoxid (Al₂O₃)**
+**Aluminum Oxide (Al₂O₃)**
 - 2 Al → 2 Al³⁺ + 6e⁻
 - 3 O + 6e⁻ → 3 O²⁻
 - **2 Al³⁺ + 3 O²⁻ → Al₂O₃**
 
-
 ---
 
-## Eigenschaften ionischer Verbindungen
+## Properties of Ionic Compounds
 
-**Kristallstruktur**
-- Regelmäßiges Ionengitter
-- Hohe Packungsdichte
-- Beispiel: NaCl-Gitter (Steinsalzstruktur)
+**Crystal Structure**
+- Regular ionic lattice
+- High packing density
+- Example: NaCl lattice (rock salt structure)
 
-**Mechanische Eigenschaften**
-- Spröde, geringe Duktilität
-- Hohe Härte
-- Hohe Druckfestigkeit
-- Geringe Zugfestigkeit
+**Mechanical Properties**
+- Brittle, low ductility
+- High hardness
+- High compressive strength
+- Low tensile strength
 
 ![bg right:30% fit](https://upload.wikimedia.org/wikipedia/commons/d/d7/Calcium-fluoride-3D-ionic.png)
 
 ---
 
-## Eigenschaften ionischer Verbindungen (2)
+## Properties of Ionic Compounds (2)
 
-**Thermische Eigenschaften**
-- Hohe Schmelzpunkte (300-1000°C)
-- Hohe Siedepunkte
-- Beispiel: NaCl schmilzt bei 801°C
+**Thermal Properties**
+- High melting points (300-1000°C)
+- High boiling points
+- Example: NaCl melts at 801°C
 
-**Elektrische Eigenschaften**
-- Isolator im festen Zustand
-- Leiter in geschmolzenem Zustand (Ionen beweglich)
-- Leiter in wässriger Lösung (Elektrolyt)
+**Electrical Properties**
+- Insulator in solid state
+- Conductor in molten state (ions mobile)
+- Conductor in aqueous solution (electrolyte)
 
 ---
 
-## Bindungsenergie
+## Binding Energy
 
 **Definition:**
-Energie, die benötigt wird, um die Bindung zu trennen
+Energy required to break the bond
 
-**Ionenbindung:**
-- Stark (400-800 kJ/mol)
-- Abhängig von:
-  - Ladung der Ionen (höhere Ladung → stärker)
-  - Ionenradius (kleinere Ionen → stärker)
+**Ionic bond:**
+- Strong (400-800 kJ/mol)
+- Depends on:
+  - Ion charge (higher charge → stronger)
+  - Ion radius (smaller ions → stronger)
 
 ---
 
-## Coulomb-Gesetz
+## Coulomb's Law
 
-**Anziehungskraft zwischen Ionen:**
+**Attractive force between ions:**
 
 $$F = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
 
-- F = Kraft
-- k = Coulomb-Konstante
-- q₁, q₂ = Ladungen der Ionen
-- r = Abstand zwischen Ionen
-
+- F = force
+- k = Coulomb constant
+- q₁, q₂ = charges of ions
+- r = distance between ions
 
 ![bg fit right:50%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
-**Schlussfolgerung:**
-Stärkere Bindung bei höherer Ladung und kleinerem Abstand
+**Conclusion:**
+Stronger bond with higher charge and smaller distance
 
 ---
 
-## Gitterenergie - Beispiele
+## Lattice Energy - Examples
 
-| Verbindung | Gitterenergie [kJ/mol] | Schmelzpunkt [°C] |
-|------------|------------------------|-------------------|
-| NaCl       | 786                    | 801               |
-| MgO        | 3795                   | 2852              |
-| CaF₂       | 2630                   | 1418              |
-| LiF        | 1037                   | 845               |
-| KCl        | 717                    | 770               |
+| Compound | Lattice Energy [kJ/mol] | Melting Point [°C] |
+|----------|-------------------------|---------------------|
+| NaCl     | 786                     | 801                 |
+| MgO      | 3795                    | 2852                |
+| CaF₂     | 2630                    | 1418                |
+| LiF      | 1037                    | 845                 |
+| KCl      | 717                     | 770                 |
 
-**Trend:** Kleinere Ionen + höhere Ladung = höhere Gitterenergie
-
----
-
-## Anwendungen ionischer Verbindungen
-
-**Keramiken**
-- Al₂O₃ (Aluminiumoxid) - Schneidwerkzeuge, Isolatoren
-- MgO (Magnesiumoxid) - Feuerfeste Materialien
-
-**Salze**
-- NaCl (Kochsalz) - Lebensmittel, Chemie
-- CaCO₃ (Calciumcarbonat) - Baumaterial, Zement
-
-**Elektronik**
-- Isolatoren und Dielektrika
+**Trend:** Smaller ions + higher charge = higher lattice energy
 
 ---
 
-## Atom- bzw. homöopolare Bindung
+## Applications of Ionic Compounds
+
+**Ceramics**
+- Al₂O₃ (aluminum oxide) - cutting tools, insulators
+- MgO (magnesium oxide) - refractory materials
+
+**Salts**
+- NaCl (table salt) - food, chemistry
+- CaCO₃ (calcium carbonate) - building material, cement
+
+**Electronics**
+- Insulators and dielectrics
+
+---
+
+## Atomic or Homeopolar Bond
 
 **Definition:**
-Bindung zwischen **Nichtmetall-Atomen** durch **gemeinsame Nutzung** von Elektronenpaaren
+Bond between **non-metal atoms** through **shared use** of electron pairs
 
-**Mechanismus:**
-1. Zwei oder mehr Atome teilen sich Elektronen
-2. Gemeinsame Elektronenpaare gehören beiden Atomen
-3. Bildung von **Molekülen** oder **kovalenten Netzwerken**
-4. Gerichtete Bindungen
+**Mechanism:**
+1. Two or more atoms share electrons
+2. Shared electron pairs belong to both atoms
+3. Formation of **molecules** or **covalent networks**
+4. Directional bonds
 
 ---
 
-## Beispiel: Wasserstoff (H₂)
+## Example: Hydrogen (H₂)
 
-**Wasserstoff (H)**
-- 1 Elektron in äußerer Schale
-- Braucht 1 weiteres Elektron für Edelgaskonfiguration
+**Hydrogen (H)**
+- 1 electron in outer shell
+- Needs 1 more electron for noble gas configuration
 
-**Bindungsbildung:**
+**Bond formation:**
 H  +  H → H—H
 
-- Jedes H-Atom steuert 1 Elektron bei
-- Beide Elektronen werden geteilt
-- Beide H-Atome erreichen He-Konfiguration (2 e⁻)
+- Each H atom contributes 1 electron
+- Both electrons are shared
+- Both H atoms achieve He configuration (2 e⁻)
 
-**Bindungsstrich (—):** Steht für ein bindendes Elektronenpaar
-
----
-
-## Triebkraft: Edelgaskonfiguration
-
-| Molekül | Atome | Bindung | Konfiguration wie |
-|---------|-------|---------|-------------------|
-| H₂      | H—H   | Einfach | Helium            |
-| Cl₂     | Cl—Cl | Einfach | Argon             |
-| O₂      | O=O   | Zweifach| Neon              |
-| N₂      | N≡N   | Dreifach| Neon              |
-
-**Mehrfachbindungen:**
-- Einfach (—): 1 Elektronenpaar
-- Zweifach (=): 2 Elektronenpaare
-- Dreifach (≡): 3 Elektronenpaare
+**Bond dash (—):** Represents a bonding electron pair
 
 ---
 
-## Weitere Beispiele
+## Driving Force: Noble Gas Configuration
 
-**Wasser (H₂O)**
-- O braucht 2 Elektronen → 2 Einfachbindungen mit H
+| Molecule | Atoms | Bond | Configuration like |
+|----------|-------|------|--------------------|
+| H₂       | H—H   | Single | Helium           |
+| Cl₂      | Cl—Cl | Single | Argon            |
+| O₂       | O=O   | Double | Neon             |
+| N₂       | N≡N   | Triple | Neon             |
 
-**Methan (CH₄)**
-- C braucht 4 Elektronen → 4 Einfachbindungen mit H
+**Multiple bonds:**
+- Single (—): 1 electron pair
+- Double (=): 2 electron pairs
+- Triple (≡): 3 electron pairs
 
-**Kohlendioxid (CO₂)**
+---
+
+## More Examples
+
+**Water (H₂O)**
+- O needs 2 electrons → 2 single bonds with H
+
+**Methane (CH₄)**
+- C needs 4 electrons → 4 single bonds with H
+
+**Carbon Dioxide (CO₂)**
 - O=C=O
-- 2 Doppelbindungen, linear
+- 2 double bonds, linear
 
 ---
 
-## Arten kovalenter Strukturen
+## Types of Covalent Structures
 
-**1. Molekülkristalle**
-- Diskrete Moleküle (H₂O, CO₂, organische Stoffe)
-- Schwache zwischenmolekulare Kräfte
-- Niedrige Schmelzpunkte
+**1. Molecular Crystals**
+- Discrete molecules (H₂O, CO₂, organic substances)
+- Weak intermolecular forces
+- Low melting points
 
-**2. Kovalente Netzwerke (Atomkristalle)**
-- Durchgehende kovalente Bindungen
-- Diamant, Siliciumcarbid, Quarz
-- Sehr hohe Schmelzpunkte
-- Extreme Härte
-
----
-
-## Polare und unpolare kovalente Bindungen
-
-**Unpolare kovalente Bindung**
-- Gleiche Atome (H₂, Cl₂, O₂)
-- Elektronen gleichmäßig verteilt
-- Keine Ladungstrennung
-- Elektronegativitätsdifferenz ΔEN = 0
-
-**Polare kovalente Bindung**
-- Verschiedene Atome (H₂O, HCl)
-- Elektronen ungleichmäßig verteilt
-- Teilladungen (δ⁺ und δ⁻)
-- Elektronegativitätsdifferenz 0 < ΔEN < 1,7
+**2. Covalent Networks (Atomic Crystals)**
+- Continuous covalent bonds
+- Diamond, silicon carbide, quartz
+- Very high melting points
+- Extreme hardness
 
 ---
 
-## Bindungsarten nach ΔEN
+## Polar and Nonpolar Covalent Bonds
 
-| ΔEN | Bindungstyp | Beispiel | Werkstofftyp |
-|-----|-------------|----------|--------------|
-| 0 - 0,4 | Unpolar kovalent | H₂, Cl₂ | Gase, unpolare Moleküle |
-| 0,4 - 1,7 | Polar kovalent | H₂O, Polymere | Kunststoffe, biologisch |
-| > 1,7 | Ionisch | NaCl, MgO | Keramiken, Salze |
+**Nonpolar Covalent Bond**
+- Same atoms (H₂, Cl₂, O₂)
+- Electrons evenly distributed
+- No charge separation
+- Electronegativity difference ΔEN = 0
 
-**Übergänge sind fließend!**
-
----
-
-## Eigenschaften molekularer Stoffe
-
-**Aggregatzustand**
-- Oft gasförmig oder flüssig bei Raumtemperatur
-- Niedrige Schmelz-/Siedepunkte (< 400°C)
-- Schwache Van-der-Waals-Kräfte zwischen Molekülen
-
-**Mechanische Eigenschaften**
-- Weich (bei Feststoffen)
-- Geringe Festigkeit
-- Oft flexibel/elastisch
-- Beispiel: Kunststoffe, Wachse
+**Polar Covalent Bond**
+- Different atoms (H₂O, HCl)
+- Electrons unevenly distributed
+- Partial charges (δ⁺ and δ⁻)
+- Electronegativity difference 0 < ΔEN < 1.7
 
 ---
 
-## Eigenschaften kovalenter Netzwerke
+## Bond Types by ΔEN
 
-**Mechanische Eigenschaften**
-- Extrem hart
-- Spröde
-- Hohe Druckfestigkeit
-- Geringe Zugfestigkeit
+| ΔEN | Bond Type | Example | Material Type |
+|-----|-----------|---------|---------------|
+| 0 - 0.4 | Nonpolar covalent | H₂, Cl₂ | Gases, nonpolar molecules |
+| 0.4 - 1.7 | Polar covalent | H₂O, polymers | Plastics, biological |
+| > 1.7 | Ionic | NaCl, MgO | Ceramics, salts |
 
-**Thermische Eigenschaften**
-- Sehr hohe Schmelzpunkte (> 2000°C)
-- Hohe thermische Stabilität
-- Geringe thermische Ausdehnung
-
-**Beispiele:** Diamant, SiC, Si₃N₄
+**Transitions are gradual!**
 
 ---
 
-## Bindungsenergie
+## Properties of Molecular Substances
+
+**Aggregate State**
+- Often gaseous or liquid at room temperature
+- Low melting/boiling points (< 400°C)
+- Weak van der Waals forces between molecules
+
+**Mechanical Properties**
+- Soft (in solids)
+- Low strength
+- Often flexible/elastic
+- Example: plastics, waxes
+
+---
+
+## Properties of Covalent Networks
+
+**Mechanical Properties**
+- Extremely hard
+- Brittle
+- High compressive strength
+- Low tensile strength
+
+**Thermal Properties**
+- Very high melting points (> 2000°C)
+- High thermal stability
+- Low thermal expansion
+
+**Examples:** Diamond, SiC, Si₃N₄
+
+---
+
+## Binding Energy
 
 **Definition:**
-Energie, die benötigt wird, um eine Bindung zu trennen
+Energy required to break a bond
 
-**Beispiele:**
-| Bindung | Energie [kJ/mol] |
-|---------|------------------|
-| H—H     | 436              |
-| C—C     | 348              |
-| C=C     | 614              |
-| C≡C     | 839              |
-| Si—Si   | 226              |
-| C—Si    | 301              |
+**Examples:**
+| Bond | Energy [kJ/mol] |
+|------|-----------------|
+| H—H  | 436             |
+| C—C  | 348             |
+| C=C  | 614             |
+| C≡C  | 839             |
+| Si—Si| 226             |
+| C—Si | 301             |
 
-**Trend:** Mehrfachbindungen sind stärker
-**Bedeutung:** Bestimmt mechanische und thermische Eigenschaften
-
----
-
-## Kovalente Werkstoffe: Diamant
-
-**Struktur:**
-- Jedes C-Atom mit 4 Nachbarn tetraedrisch verbunden
-- Durchgehendes 3D-Netzwerk
-- Alle Bindungen gleichwertig
-
-**Eigenschaften:**
-- Härtester bekannter Werkstoff 
-- Schmelzpunkt: 3550°C
-- Hervorragender elektrischer Isolator
-- Exzellente Wärmeleitfähigkeit
-
-**Anwendung:** Schneidwerkzeuge, Schleifmittel
+**Trend:** Multiple bonds are stronger
+**Significance:** Determines mechanical and thermal properties
 
 ---
 
-## Kovalente Werkstoffe: Siliciumcarbid (SiC)
+## Covalent Materials: Diamond
 
-**Struktur:**
-- Ähnlich wie Diamant
-- Si und C alternierend angeordnet
-- Kovalente C—Si Bindungen
+**Structure:**
+- Each C atom tetrahedrally bonded to 4 neighbors
+- Continuous 3D network
+- All bonds equivalent
 
-**Eigenschaften:**
-- Sehr hart und chemisch sehr beständig
-- Schmelzpunkt: 2730°C
-- Gute Wärmeleitfähigkeit
-- Halbleiter bei hohen Temperaturen
+**Properties:**
+- Hardest known material
+- Melting point: 3550°C
+- Excellent electrical insulator
+- Excellent thermal conductivity
 
-**Anwendung:** Schleifmittel, Hochtemperatur-Halbleiter, Panzerungen
-
----
-
-## Vergleich: Ionisch vs. Kovalent
-
-| Eigenschaft | Ionische Bindung | Kovalent (molekular) | Kovalent (Netzwerk) |
-|-------------|------------------|----------------------|---------------------|
-| Struktur | Kristallgitter | Moleküle | 3D-Netzwerk |
-| Schmelzpunkt | Hoch (800°C) | Niedrig (<300°C) | Sehr hoch (>2000°C) |
-| Härte | Mittel-hoch | Gering | Sehr hoch |
-| Elektrisch | Isolator (fest) | Isolator | Isolator |
-| Duktilität | Spröde | Variable | Sehr spröde |
-| Beispiel | NaCl, MgO | Kunststoffe, H₂O | Diamant, SiC |
+**Application:** Cutting tools, abrasives
 
 ---
 
-## Polymere (Kunststoffe)
+## Covalent Materials: Silicon Carbide (SiC)
 
-**Struktur:**
-- Lange Kohlenstoffketten
-- C—C und C—H Bindungen (kovalent)
-- Schwache Bindungen zwischen Ketten
+**Structure:**
+- Similar to diamond
+- Si and C arranged alternately
+- Covalent C—Si bonds
 
-**Typen:**
-- **Thermoplaste:** Linear, schmelzbar (PE, PP, PVC)
-- **Duroplaste:** Vernetzt, nicht schmelzbar (Epoxid, Bakelit)
-- **Elastomere:** Schwach vernetzt, elastisch (Gummi)
+**Properties:**
+- Very hard and chemically very stable
+- Melting point: 2730°C
+- Good thermal conductivity
+- Semiconductor at high temperatures
 
----
-
-# Dazu später mehr
-
----
-
-## Anwendungen kovalenter Werkstoffe (2)
-
-**Verbundwerkstoffe**
-- Faserverstärkte Kunststoffe (CFK, GFK)
-- Matrix: Polymer (kovalent)
-- Verstärkung: Kohlefaser, Glasfaser
-
-**Glas und Optik**
-- Fensterglas (SiO₂-basiert)
-- Optische Fasern
-- Spezialgläser
+**Application:** Abrasives, high-temperature semiconductors, armor
 
 ---
 
+## Comparison: Ionic vs. Covalent
 
-## Metallische Bindung
+| Property | Ionic Bond | Covalent (molecular) | Covalent (network) |
+|----------|------------|----------------------|--------------------|
+| Structure | Crystal lattice | Molecules | 3D network |
+| Melting point | High (800°C) | Low (<300°C) | Very high (>2000°C) |
+| Hardness | Medium-high | Low | Very high |
+| Electrical | Insulator (solid) | Insulator | Insulator |
+| Ductility | Brittle | Variable | Very brittle |
+| Example | NaCl, MgO | Plastics, H₂O | Diamond, SiC |
+
+---
+
+## Polymers (Plastics)
+
+**Structure:**
+- Long carbon chains
+- C—C and C—H bonds (covalent)
+- Weak bonds between chains
+
+**Types:**
+- **Thermoplastics:** Linear, meltable (PE, PP, PVC)
+- **Thermosets:** Crosslinked, not meltable (epoxy, bakelite)
+- **Elastomers:** Weakly crosslinked, elastic (rubber)
+
+---
+
+# More on This Later
+
+---
+
+## Applications of Covalent Materials (2)
+
+**Composite Materials**
+- Fiber-reinforced plastics (CFRP, GFRP)
+- Matrix: polymer (covalent)
+- Reinforcement: carbon fiber, glass fiber
+
+**Glass and Optics**
+- Window glass (SiO₂-based)
+- Optical fibers
+- Special glasses
+
+---
+
+## Metallic Bond
 
 **Definition:**
-Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
+Bond between **metal atoms** through delocalized valence electrons
 
-**Mechanismus:**
-1. Metallatome geben Valenzelektronen ab
-2. Positive Metallionen (Atomrümpfe) bilden Gitter
-3. Valenzelektronen bewegen sich frei im gesamten Kristall
-4. **Elektronengas** umgibt die Atomrümpfe
-5. Elektrostatische Anziehung zwischen Atomrümpfen und Elektronengas
+**Mechanism:**
+1. Metal atoms donate valence electrons
+2. Positive metal ions (atomic cores) form lattice
+3. Valence electrons move freely throughout the crystal
+4. **Electron gas** surrounds the atomic cores
+5. Electrostatic attraction between atomic cores and electron gas
 
 ![bg right:30% fit](https://upload.wikimedia.org/wikipedia/commons/4/41/Nuvola_di_elettroni.svg)
 
 ---
-## Struktur 
 
-**⊕ = Metallionen (Atomrümpfe)**
-**blaue Punkte = delokalisierte Elektronen (Elektronengas)**
+## Structure
 
-- Elektronen gehören nicht zu einzelnen Atomen
-- Frei beweglich im gesamten Metallgitter
-- Ungerichtete Bindung
+**⊕ = Metal ions (atomic cores)**
+**blue dots = delocalized electrons (electron gas)**
+
+- Electrons don't belong to individual atoms
+- Freely mobile throughout metal lattice
+- Non-directional bond
 
 ---
-## Beispiele metallischer Elemente
 
-**Alkalimetalle (1. Hauptgruppe)**
-- Natrium (Na), Kalium (K), Lithium (Li)
-- 1 Valenzelektron
-- Weich, reaktiv
+## Examples of Metallic Elements
 
-**Erdalkalimetalle (2. Hauptgruppe)**
+**Alkali Metals (1st Main Group)**
+- Sodium (Na), Potassium (K), Lithium (Li)
+- 1 valence electron
+- Soft, reactive
+
+**Alkaline Earth Metals (2nd Main Group)**
 - Magnesium (Mg), Calcium (Ca)
-- 2 Valenzelektronen
-- Mittlere Festigkeit
+- 2 valence electrons
+- Medium strength
 
 ---
 
-**Übergangsmetalle**
-- Eisen (Fe), Kupfer (Cu), Aluminium (Al)
-- Variable Valenzelektronen
-- Hart, gute Leitfähigkeit
+**Transition Metals**
+- Iron (Fe), Copper (Cu), Aluminum (Al)
+- Variable valence electrons
+- Hard, good conductivity
 
 ---
 
-## Triebkraft: Energieabsenkung
+## Driving Force: Energy Reduction
 
-**Warum bilden Metalle diese Bindung?**
+**Why do metals form this bond?**
 
-- Durch Delokalisierung der Elektronen wird Energie freigesetzt
-- Elektronen können sich über viele Atome verteilen
-- Niedrigeres Energieniveau als bei isolierten Atomen
-- Energiegewinn stabilisiert die Struktur
-
----
-
-**Je mehr Valenzelektronen, desto stärker die Bindung**
-
-| Metall | Valenzelektronen | Schmelzpunkt [°C] |
-|--------|------------------|-------------------|
-| Na     | 1                | 98                |
-| Mg     | 2                | 650               |
-| Al     | 3                | 660               |
+- Energy is released through delocalization of electrons
+- Electrons can distribute over many atoms
+- Lower energy level than in isolated atoms
+- Energy gain stabilizes the structure
 
 ---
 
-## Mechanische Eigenschaften
+**More valence electrons, stronger the bond**
 
-**Verformbarkeit**
-- Duktil (verformbar)
-- Schmiedbar, walzbar
-- Atome können aneinander vorbeigleiten
-- Elektronengas bleibt erhalten
-
-**Festigkeit**
-- Mittlere bis hohe Festigkeit
-- Zugfestigkeit: 50-1500 MPa (je nach Metall)
-- Verformungsverfestigung möglich
+| Metal | Valence Electrons | Melting Point [°C] |
+|-------|-------------------|--------------------|
+| Na    | 1                 | 98                 |
+| Mg    | 2                 | 650                |
+| Al    | 3                 | 660                |
 
 ---
 
-**Bruchverhalten**
-- Zäh (nicht spröde)
-- Plastische Verformung vor Bruch
+## Mechanical Properties
 
-**Härte**
-- Variabel je nach Metall
-- Weich: Na, K, Au (< 30 HV)
-- Mittel: Al, Cu, Ag (30-100 HV)
-- Hart: Fe, Cr, W (> 100 HV)
+**Formability**
+- Ductile (deformable)
+- Forgeable, rollable
+- Atoms can slide past each other
+- Electron gas remains intact
 
----
-
-## Mechanische Eigenschaften (2)
-
-
-
-**Verformungsmechanismen**
-- Versetzungsbewegung (Gleitebenen)
-- Zwillingsbildung
-- Ungerichtete Bindung ermöglicht Verformung
-- Im Gegensatz zu Ionenkristallen (spröde)
+**Strength**
+- Medium to high strength
+- Tensile strength: 50-1500 MPa (depending on metal)
+- Work hardening possible
 
 ---
 
-## Thermische Eigenschaften - Schmelzpunkte
+**Fracture Behavior**
+- Tough (not brittle)
+- Plastic deformation before fracture
 
-- Niedrig bis sehr hoch (39°C - 3422°C)
-- Abhängig von Anzahl der Valenzelektronen
-
-| Metall | Schmelzpunkt [°C] |
-|--------|-------------------|
-| Na     | 98                |
-| Al     | 660               |
-| Cu     | 1085              |
-| Fe     | 1538              |
-| W      | 3422              |
-
-**Trend:** Mehr Valenzelektronen → höherer Schmelzpunkt
+**Hardness**
+- Variable depending on metal
+- Soft: Na, K, Au (< 30 HV)
+- Medium: Al, Cu, Ag (30-100 HV)
+- Hard: Fe, Cr, W (> 100 HV)
 
 ---
 
-## Thermische Eigenschaften (2)
+## Mechanical Properties (2)
 
-**Wärmeleitfähigkeit**
-- Sehr gut (10-400 W/(mK))
-- Freie Elektronen transportieren Wärme
-- Beste thermische Leiter: Ag, Cu, Au, Al
-
-**Wärmeausdehnung**
-- Mittlere bis hohe Ausdehnung
-- Typisch: 10-30 · 10⁻⁶ K⁻¹
-- Wichtig für thermische Spannungen
-
-**Wärmekapazität**
-- Relativ hoch
+**Deformation Mechanisms**
+- Dislocation movement (slip planes)
+- Twin formation
+- Non-directional bond enables deformation
+- In contrast to ionic crystals (brittle)
 
 ---
 
-## Elektrische Eigenschaften
+## Thermal Properties - Melting Points
 
-**Elektrische Leitfähigkeit**
-- Ausgezeichnete elektrische Leiter
-- Freie Elektronen transportieren Ladung
-- Spezifischer Widerstand: 10⁻⁸ - 10⁻⁶ Ω·m
+- Low to very high (39°C - 3422°C)
+- Depends on number of valence electrons
 
-| Metall | Leitfähigkeit [MS/m] | Anwendung |
-|--------|----------------------|-----------|
-| Ag     | 63                   | Kontakte  |
-| Cu     | 59                   | Kabel     |
-| Au     | 45                   | Elektronik|
-| Al     | 37                   | Leitungen |
+| Metal | Melting Point [°C] |
+|-------|--------------------|
+| Na    | 98                 |
+| Al    | 660                |
+| Cu    | 1085               |
+| Fe    | 1538               |
+| W     | 3422               |
 
----
-
-
-## Vergleich der Bindungsarten
-
-| Eigenschaft | Ionisch | Kovalent | Metallisch |
-|-------------|---------|----------|------------|
-| Beteiligte | Metall + Nichtmetall | Nichtmetall | Metall |
-| Elektronen | Übertragung | Teilung | Delokalisiert |
-| Struktur | Ionengitter | Moleküle/Netzwerk | Metallgitter |
-| el. Leitfähigkeit | Nur geschmolzen | Nein | Ja, sehr gut |
-| Verformbarkeit | Spröde | Spröde/weich | Duktil |
-| Schmelzpunkt | Hoch | Variabel | Mittel-hoch |
-| Transparenz | Oft ja | Oft ja | Nein |
+**Trend:** More valence electrons → higher melting point
 
 ---
 
-# Sekundärbindungen (Zwischenmolekulare Kräfte)
+## Thermal Properties (2)
+
+**Thermal Conductivity**
+- Very good (10-400 W/(mK))
+- Free electrons transport heat
+- Best thermal conductors: Ag, Cu, Au, Al
+
+**Thermal Expansion**
+- Medium to high expansion
+- Typical: 10-30 · 10⁻⁶ K⁻¹
+- Important for thermal stresses
+
+**Heat Capacity**
+- Relatively high
 
 ---
 
+## Electrical Properties
+
+**Electrical Conductivity**
+- Excellent electrical conductors
+- Free electrons transport charge
+- Specific resistance: 10⁻⁸ - 10⁻⁶ Ω·m
+
+| Metal | Conductivity [MS/m] | Application |
+|-------|---------------------|-------------|
+| Ag    | 63                  | Contacts    |
+| Cu    | 59                  | Cables      |
+| Au    | 45                  | Electronics |
+| Al    | 37                  | Wiring      |
+
+---
+
+## Comparison of Bond Types
+
+| Property | Ionic | Covalent | Metallic |
+|----------|-------|----------|----------|
+| Participants | Metal + non-metal | Non-metal | Metal |
+| Electrons | Transfer | Sharing | Delocalized |
+| Structure | Ionic lattice | Molecules/network | Metal lattice |
+| El. conductivity | Only molten | No | Yes, very good |
+| Formability | Brittle | Brittle/soft | Ductile |
+| Melting point | High | Variable | Medium-high |
+| Transparency | Often yes | Often yes | No |
+
+---
+
+# Secondary Bonds (Intermolecular Forces)
+
+---
 
 **Definition:**
-Schwache Bindungen zwischen **Molekülen** oder **Atomen** durch elektrostatische Wechselwirkungen
+Weak bonds between **molecules** or **atoms** through electrostatic interactions
 
-**Eigenschaften:**
-- Geringe Bindungsenergie (1-50 kJ/mol)
-- **Ein bis zwei Zehnerpotenzen schwächer** als Primärbindungen
-- Keine Elektronenübertragung oder -teilung
-- Kurzreichweitig
+**Properties:**
+- Low binding energy (1-50 kJ/mol)
+- **One to two orders of magnitude weaker** than primary bonds
+- No electron transfer or sharing
+- Short-range
 
-**Hauptarten:**
-1. **Van-der-Waals-Bindungen** (0,5-25 kJ/mol)
-2. **Wasserstoffbrückenbindungen** (10-40 kJ/mol)
-
----
-
-
-| Bindungstyp | Energie [kJ/mol] | Beispiel |
-|-------------|------------------|----------|
-| **Primärbindungen** | | |
-| Ionisch | 400-800 | NaCl |
-| Kovalent | 150-900 | C-C, O=O |
-| Metallisch | 100-850 | Cu, Fe |
-| **Sekundärbindungen** | | |
-| Wasserstoffbrücken | 10-40 | H₂O...H₂O |
-| Van-der-Waals (Dipol) | 5-25 | HCl...HCl |
-| Van-der-Waals (London) | 0,5-10 | Ar...Ar |
-
-**Faktor 10-100 schwächer!**
+**Main Types:**
+1. **Van der Waals bonds** (0.5-25 kJ/mol)
+2. **Hydrogen bonds** (10-40 kJ/mol)
 
 ---
 
-**Sekundärbindungen**
+| Bond Type | Energy [kJ/mol] | Example |
+|-----------|-----------------|---------|
+| **Primary Bonds** | | |
+| Ionic | 400-800 | NaCl |
+| Covalent | 150-900 | C-C, O=O |
+| Metallic | 100-850 | Cu, Fe |
+| **Secondary Bonds** | | |
+| Hydrogen bonds | 10-40 | H₂O...H₂O |
+| Van der Waals (dipole) | 5-25 | HCl...HCl |
+| Van der Waals (London) | 0.5-10 | Ar...Ar |
+
+**Factor 10-100 weaker!**
+
+---
+
+**Secondary Bonds**
 │
-├── Van-der-Waals-Bindungen
-│   ├── London-Kräfte (Dispersionskräfte)
-│   │   └── Alle Moleküle/Atome
+├── Van der Waals Bonds
+│   ├── London Forces (Dispersion Forces)
+│   │   └── All molecules/atoms
 │   │
-│   ├── Dipol-Dipol-Kräfte
-│   │   └── Polare Moleküle
+│   ├── Dipole-Dipole Forces
+│   │   └── Polar molecules
 │   │
-│   └── Dipol-induzierte Dipol
-│       └── Mischung polar/unpolar
+│   └── Dipole-Induced Dipole
+│       └── Polar/nonpolar mixture
 │
-└── Wasserstoffbrückenbindungen
-└── Spezialfall: H an F, O, N
-
+└── Hydrogen Bonds
+└── Special case: H on F, O, N
 
 ---
 
-## Van-der-Waals-Bindungen
+## Van der Waals Bonds
 
 **Definition:**
-Schwache zwischenmolekulare Kräfte aufgrund von Ladungsverteilungen
+Weak intermolecular forces due to charge distributions
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/c/cf/Forze_di_London.png)
 
-**Drei Unterarten**
-1. London-Kräfte (schwächste)
-2. Dipol-Dipol-Kräfte
-3. Dipol-induzierte Dipol
+**Three Subtypes**
+1. London forces (weakest)
+2. Dipole-dipole forces
+3. Dipole-induced dipole
 
 ---
 
-
-**1. London-Kräfte** 
-- Temporäre, fluktuierende Dipole
-- Bei **allen** Atomen/Molekülen
+**1. London Forces**
+- Temporary, fluctuating dipoles
+- In **all** atoms/molecules
 - 0.5-10 kJ/mol
 
-**2. Dipol-Dipol-Kräfte** 
-- Permanente Dipole
-- Nur bei polaren Molekülen
+**2. Dipole-Dipole Forces**
+- Permanent dipoles
+- Only in polar molecules
 - 5-25 kJ/mol
 
-**3. Dipol-induzierte Dipol** 
-- Permanenter Dipol induziert temporären Dipol
-- Mischungen
+**3. Dipole-Induced Dipole**
+- Permanent dipole induces temporary dipole
+- Mixtures
 
 ---
 
-## London-Kräfte (Dispersionskräfte)
+## London Forces (Dispersion Forces)
 
-**Mechanismus:**
-Atom 1:  ⊖ ⊕   →  temporärer Dipol (durch Elektronenbewegung)
-↓ induziert
-Atom 2:  ⊕ ⊖   →  induzierter Dipol
+**Mechanism:**
+Atom 1:  ⊖ ⊕   →  temporary dipole (due to electron movement)
+↓ induces
+Atom 2:  ⊕ ⊖   →  induced dipole
 ↓
-Anziehung
-**Eigenschaften:**
-- Treten bei **allen** Molekülen/Atomen auf (auch unpolar!)
-- Stärke nimmt mit Molekülgröße zu
-- Kurzreichweitig (~ r⁻⁶)
-- Schwächste zwischenmolekulare Kraft
+Attraction
+
+**Properties:**
+- Occur in **all** molecules/atoms (even nonpolar!)
+- Strength increases with molecule size
+- Short-range (~ r⁻⁶)
+- Weakest intermolecular force
 
 ---
 
-## London-Kräfte - Einfluss der Molekülgröße
+## London Forces - Influence of Molecule Size
 
-**Größere Moleküle → mehr Elektronen → stärkere London-Kräfte**
+**Larger molecules → more electrons → stronger London forces**
 
-| Molekül | Molare Masse [g/mol] | Elektronen | Siedepunkt [°C] |
-|---------|----------------------|------------|-----------------|
-| He      | 4                    | 2          | -269            |
-| Ne      | 20                   | 10         | -246            |
-| Ar      | 40                   | 18         | -186            |
-| Kr      | 84                   | 36         | -153            |
-| Xe      | 131                  | 54         | -108            |
+| Molecule | Molar Mass [g/mol] | Electrons | Boiling Point [°C] |
+|----------|--------------------|-----------|--------------------|
+| He       | 4                  | 2         | -269               |
+| Ne       | 20                 | 10        | -246               |
+| Ar       | 40                 | 18        | -186               |
+| Kr       | 84                 | 36        | -153               |
+| Xe       | 131                | 54        | -108               |
 
-**Trend:** Mehr Elektronen → stärkere temporäre Dipole → höherer Siedepunkt
+**Trend:** More electrons → stronger temporary dipoles → higher boiling point
 
-**Relevanz:** Warum Motoröle bei Kälte zähflüssig werden
+**Relevance:** Why motor oils become viscous in cold
 
 ---
 
-## Dipol-Dipol-Kräfte
+## Dipole-Dipole Forces
 
-**Mechanismus:**
+**Mechanism:**
 δ⁺     δ⁻   δ⁺     δ⁻
 H—O ... H—O
 
-**Voraussetzung:**
-- Moleküle müssen **permanent polar** sein
-- Unterschiedliche Elektronegativität
+**Prerequisite:**
+- Molecules must be **permanently polar**
+- Different electronegativity
 
-**Eigenschaften:**
-- Stärker als London-Kräfte
-- Temperaturabhängig 
-- Gerichtet
+**Properties:**
+- Stronger than London forces
+- Temperature dependent
+- Directional
 
 ---
-## 3. Dipol-induzierte Dipol-Kräfte
 
-**Mechanismus:**
+## 3. Dipole-Induced Dipole Forces
+
+**Mechanism:**
 Polar:    δ⁺  δ⁻
-H—Cl        →  induziert Dipol
+H—Cl        →  induces dipole
 ↓
-Unpolar:  ⊕ ⊖
+Nonpolar:  ⊕ ⊖
 
 ---
 
-**Beispiele:**
-- Lösung von O₂ in H₂O
-- Lösung von N₂ in Wasser
-- Mischung von polaren und unpolaren Stoffen
+**Examples:**
+- Solution of O₂ in H₂O
+- Solution of N₂ in water
+- Mixture of polar and nonpolar substances
 
-**Bedeutung:**
-- Erklärt begrenzte Löslichkeit unpolarer Gase in Wasser
-- Wichtig für Gaslöslichkeit (z.B. Sauerstoff im Blut)
+**Significance:**
+- Explains limited solubility of nonpolar gases in water
+- Important for gas solubility (e.g., oxygen in blood)
 
 ---
 
-## Wasserstoffbrückenbindungen
+## Hydrogen Bonds
 
-**Mechanismus:** Besonders starke Dipol-Dipol-Wechselwirkung zwischen H-Atom und elektronegativen Atomen (F, O, N)
+**Mechanism:** Particularly strong dipole-dipole interaction between H atom and electronegative atoms (F, O, N)
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/1a/Acetic_Acid_Hydrogenbridge_V.2.svg)
 
 ---
 
-**Voraussetzungen:**
-1. H gebunden an **F, O oder N** (hohe Elektronegativität)
-2. Freies Elektronenpaar am Akzeptor-Atom
-3. Gerichtet (nicht wie normale Dipol-Dipol)
+**Prerequisites:**
+1. H bonded to **F, O or N** (high electronegativity)
+2. Free electron pair on acceptor atom
+3. Directional (not like normal dipole-dipole)
 
-**Stärke:** 10-40 kJ/mol (stärkste Sekundärbindung!)
-
----
-
-## Eigenschaften von Stoffen mit Sekundärbindungen
-
-**Aggregatzustand**
-- Oft gasförmig oder niedrig siedend
-- Schwache intermolekulare Kräfte
-- Leicht verdampfbar
-
-**Schmelz-/Siedepunkte**
-- Niedrig (oft < 100°C)
-- Ausnahme: H-Brücken erhöhen Werte
-
-**Löslichkeit**
-- London-Kräfte: "Gleiches löst sich in Gleichem"
-- H-Brücken: gut löslich in polaren Lösungsmitteln
-
-**Mechanisch**
-- Weich
-- Leicht verformbar
-- Geringe Festigkeit
-
----
-## Werkstofftechnische Bedeutung
-
-**1. Polymere (Kunststoffe)**
-- Sekundärbindungen zwischen Polymerketten
-- Bestimmen Schmelzpunkt und mechanische Eigenschaften
-- Thermoplaste: **nur** Sekundärbindungen → schmelzbar
-- Duroplaste: kovalente Vernetzung → nicht schmelzbar
-
-**2. Schmierstoffe**
-- Graphit: schwache Van-der-Waals zwischen Schichten
-- Leicht verschiebbar → geringe Reibung
-- MoS₂: ähnliches Prinzip
+**Strength:** 10-40 kJ/mol (strongest secondary bond!)
 
 ---
 
-**3. Dichtungen und Elastomere**
-- Flexibilität durch schwache Bindungen
-- Gummi, Silikone
+## Properties of Substances with Secondary Bonds
+
+**Aggregate State**
+- Often gaseous or low boiling
+- Weak intermolecular forces
+- Easily evaporated
+
+**Melting/Boiling Points**
+- Low (often < 100°C)
+- Exception: H-bonds increase values
+
+**Solubility**
+- London forces: "Like dissolves like"
+- H-bonds: highly soluble in polar solvents
+
+**Mechanical**
+- Soft
+- Easily deformable
+- Low strength
 
 ---
 
-## Thermoplaste vs. Duroplaste
+## Materials Engineering Significance
 
-**Thermoplaste**
-- Nur Sekundärbindungen zwischen Ketten
-- Schmelzbar, recycelbar
-- Niedrige Schmelzpunkte (50-250°C)
-- Beispiele: PE, PP, PS, PVC
+**1. Polymers (Plastics)**
+- Secondary bonds between polymer chains
+- Determine melting point and mechanical properties
+- Thermoplastics: **only** secondary bonds → meltable
+- Thermosets: covalent crosslinking → not meltable
+
+**2. Lubricants**
+- Graphite: weak van der Waals between layers
+- Easily shiftable → low friction
+- MoS₂: similar principle
+
+---
+
+**3. Seals and Elastomers**
+- Flexibility through weak bonds
+- Rubber, silicones
+
+---
+
+## Thermoplastics vs. Thermosets
+
+**Thermoplastics**
+- Only secondary bonds between chains
+- Meltable, recyclable
+- Low melting points (50-250°C)
+- Examples: PE, PP, PS, PVC
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/19/Lego_bricks.jpg)
 
 ---
 
-**Duroplaste**
-- Kovalente Vernetzung (Primärbindung)
-- Nicht schmelzbar
-- Hohe Temperaturbeständigkeit
-- Beispiele: Epoxidharze, Phenolharze
+**Thermosets**
+- Covalent crosslinking (primary bond)
+- Not meltable
+- High temperature resistance
+- Examples: Epoxy resins, phenolic resins
 
 ![bg right:40% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bundesarchiv_Bild_183-P0619-306%2C_Trabant_601.jpg/640px-Bundesarchiv_Bild_183-P0619-306%2C_Trabant_601.jpg)
 
-**Sekundärbindungen ermöglichen Verformbarkeit!**
+**Secondary bonds enable deformability!**
 
 ---
 
-## Graphit - Schichtstruktur
+## Graphite - Layer Structure
 
-- Innerhalb der Schichten: starke kovalente C-C Bindungen
-- Zwischen den Schichten: schwache Van-der-Waals-Kräfte
+- Within layers: strong covalent C-C bonds
+- Between layers: weak van der Waals forces
 
-**Eigenschaften / Anwendungen:**
-- In Schichten: hart, fest
-- Zwischen Schichten: leicht verschiebbar
-- Guter Schmierstoff
-- Elektrisch leitfähig (in Schichtebene)
-- Trockenschmiermittel, Bleistiftminen, Elektroden
+**Properties / Applications:**
+- In layers: hard, strong
+- Between layers: easily shiftable
+- Good lubricant
+- Electrically conductive (in layer plane)
+- Dry lubricant, pencil leads, electrodes
 
 ![bg right:30% fit](https://upload.wikimedia.org/wikipedia/commons/5/5b/Graphene-graphite_relation.svg)
 
 ---
 
-## Adsorption an Oberflächen
+## Adsorption on Surfaces
 
 **Physisorption**
-- Van-der-Waals-Kräfte
-- Schwache Bindung (5-40 kJ/mol)
-- Reversibel
-- Mehrschichtig möglich
+- Van der Waals forces
+- Weak bond (5-40 kJ/mol)
+- Reversible
+- Multiple layers possible
 
-**Anwendungen:**
-- Aktivkohle (Wasserreinigung, Gasmasken)
-- Molekularsiebe (Trocknung)
-- Katalysatoren (Oberflächenvergrößerung)
-- Chromatographie
+**Applications:**
+- Activated carbon (water purification, gas masks)
+- Molecular sieves (drying)
+- Catalysts (surface enlargement)
+- Chromatography
 
 ![bg fit right:35%](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Circular_HEPA_air_filter_%26_activated_carbon_filter_%281%29.jpg/640px-Circular_HEPA_air_filter_%26_activated_carbon_filter_%281%29.jpg)
 
 ---
 
-## Lösungsmittel und Löslichkeit
+## Solvents and Solubility
 
-**"Gleiches löst sich in Gleichem"**
+**"Like dissolves like"**
 
-**Unpolare Lösungsmittel** (London-Kräfte)
-- Hexan, Benzol, Chloroform
-- Lösen: Fette, Öle, Wachse, unpolare Polymere
+**Nonpolar Solvents** (London forces)
+- Hexane, benzene, chloroform
+- Dissolve: fats, oils, waxes, nonpolar polymers
 
-**Polare Lösungsmittel** (Dipol, H-Brücken)
-- Wasser, Ethanol, Aceton
-- Lösen: Salze, Zucker, polare Moleküle
+**Polar Solvents** (dipole, H-bonds)
+- Water, ethanol, acetone
+- Dissolve: salts, sugars, polar molecules
 
-**Prinzip:**
-Lösungsmittel müssen ähnliche intermolekulare Kräfte haben wie gelöster Stoff
+**Principle:**
+Solvents must have similar intermolecular forces as dissolved substance
 
 ---
 
-## Oberflächenspannung
+## Surface Tension
 
-Ungleiche Anziehungskräfte an der Oberfläche
+Unequal attractive forces at the surface
 
-**Hohe Oberflächenspannung:**
-- Starke intermolekulare Kräfte
-- H₂O: 72 mN/m 
+**High Surface Tension:**
+- Strong intermolecular forces
+- H₂O: 72 mN/m
 
-**Niedrige Oberflächenspannung:**
-- Schwache intermolekulare Kräfte
+**Low Surface Tension:**
+- Weak intermolecular forces
 - Ethanol: 22 mN/m
 
-**Anwendung:**
-- Tenside (reduzieren Oberflächenspannung)
-- Benetzung von Oberflächen
+**Application:**
+- Surfactants (reduce surface tension)
+- Wetting of surfaces
 
 ---
 
-## Vergleich: Primär- vs. Sekundärbindungen
+## Comparison: Primary vs. Secondary Bonds
 
-| Eigenschaft | Primärbindung | Sekundärbindung |
-|-------------|---------------|-----------------|
-| Energie | 100-900 kJ/mol | 1-50 kJ/mol |
-| Reichweite | Atomar | Molekular |
-| Schmelzpunkt | Hoch (>500°C) | Niedrig (<200°C) |
-| Elektronen | Beteiligt | Nicht beteiligt |
-| Beispiele | NaCl, Fe, Diamant | H₂O, N₂, Polymere |
-| Festigkeit | Sehr hoch | Niedrig |
-| Verformbarkeit | Variabel | Oft gut |
+| Property | Primary Bond | Secondary Bond |
+|----------|--------------|----------------|
+| Energy | 100-900 kJ/mol | 1-50 kJ/mol |
+| Range | Atomic | Molecular |
+| Melting point | High (>500°C) | Low (<200°C) |
+| Electrons | Involved | Not involved |
+| Examples | NaCl, Fe, diamond | H₂O, N₂, polymers |
+| Strength | Very high | Low |
+| Formability | Variable | Often good |
