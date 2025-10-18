@@ -250,7 +250,7 @@ Sources: <a href="https://www.composites-united.com/">Composites United</a> |
 
 ---
 
-## Cross-Material Manufacturing Challenges
+
 
 | Challenge | Metals | Ceramics | Polymers | Composites |
 |-----------|--------|----------|----------|------------|
@@ -260,7 +260,7 @@ Sources: <a href="https://www.composites-united.com/">Composites United</a> |
 | **Recycling rate** | 85-95% | <30% | 30-40% | <10% |
 | **Defect detection** | Established (NDT) | Difficult | Good (inline) | Expensive |
 | **Supply chain** | Global, volatile | Specialized | Oil-dependent | Limited suppliers |
-
+ ---
 **EU Manufacturing Competitiveness**
 - Labor costs: 3-5× higher than Asia
 - Energy costs: 2-3× higher than USA (2024)
@@ -293,7 +293,7 @@ Sources: <a href="https://ec.europa.eu/eurostat">Eurostat</a> |
 - Digital twins for multi-material optimization
 - AI-driven quality control
 - Flexible manufacturing cells
-- Blockchain for material traceability
+- material traceability
 
 <div style="position: absolute; bottom: 10px; left: 10px; font-size: 12px;">
 Sources: <a href="https://www.hybridmaterials.eu/">EU Hybrid Materials Initiative</a> | 
@@ -378,10 +378,7 @@ Sources: <a href="https://www.bmwk.de/EN/">Federal Ministry for Economic Affairs
 ---
 
 **Education & Training**
-- **Universities**: 50+ materials science programs
-- **Apprenticeships**: 3-year dual system
-- **Retraining programs**: Digital skills focus
-- **Investment**: €2 billion/year in workforce development
+
 
 **Future Requirements**
 - Interdisciplinary thinking
@@ -625,11 +622,10 @@ Sources: <a href="https://www.jec-group.com/en/market">JEC Group Market Insights
 
 ![bg right fit](https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/structure/A350_forward_fuselage.jpg?wid=1920&fit=fit,1&qlt=85,0)
 
----
 
-![bg fit](https://cdn1.vogel.de/unsafe/fit-in/1000x0/images.vogel.de/vogelonline/bdb/320000/320032/original.jpg)
 
 ---
+
 
 ## Composite schematic
 **Symmetries**
@@ -649,134 +645,274 @@ Stiffness and strength
 
 ---
 
-## Manufacturing
-Choice of process depends on
-- The specific application
-- Operating conditions
-- Base material (fiber, matrix)
-- Quantity
-- Cost
-- Operational safety
-- ...
+## Why?
+
+**Energy production ~ Area of the rotor**
+
+The energy production of a wind turbine is proportional to the swept rotor area (A = πr²).
+
+**The scaling advantages:**
+- Doubling the rotor diameter → **4x more swept area**
+- 4x more area → **4x more energy production**
 
 ---
 
-## Manufacturing - Process steps
-- Creation of molds
-- Cutting and laying of intermediate products
-- Curing of resin system
-- Post-processing of component
+**But costs don't scale proportionally:**
+- Only **1x** generator needed
+- Only **1x** tower
+- Only **3x** rotor blades (just longer, not more pieces)
+- Only **1x** foundation (larger, but not 4x more expensive)
+- Only **1x** grid connection
+- Only **1x** maintenance access
 
 ---
 
-## Mold / Fiber placement
 
-- Plaster
-- Plastic
-- Metals
-- Fiber composites
-- Thermal expansion should be compatible
+## The Result
+
+**Cost per megawatt drops dramatically** with turbine size:
+- Material costs grow sub-linearly (approximately with r^2.3 instead of r^3)
+- Installation and maintenance costs spread over more power output
+- Taller towers reach stronger and more consistent winds
+
+**Therefore:** Development continuously moves toward larger turbines
+- 1980s: ~15m rotor diameter
+- 2000s: ~70m
+- Today: >150m (offshore >220m)
+
+---
+
+
+![bg fit](https://cdn1.vogel.de/unsafe/fit-in/1000x0/images.vogel.de/vogelonline/bdb/320000/320032/original.jpg)
+
+---
+## Manufacturing - Process Selection Criteria
+**Key factors determining process choice:**
+- **Application requirements**: Aerospace, automotive, wind energy, marine
+- **Operating conditions**: Temperature range, mechanical loads, environmental exposure
+- **Material system**: 
+  - Fiber type (carbon, glass, aramid, ...)
+  - Matrix type (thermoset vs. thermoplastic)
+- **Production volume**: Prototype, small series, mass production
+---
+- **Cost constraints**: Material cost, tooling investment, cycle time
+- **Quality requirements**: Void content <1%, dimensional tolerance
+- **Safety & environmental**: VOC emissions, worker exposure
+
+*Source: Campbell, F.C. (2010). Structural Composite Materials. ASM International*
+
+---
+
+## Manufacturing - Process Chain Overview
+**1. Tooling preparation**
+- Mold design and fabrication
+- Surface treatment and release agents
+
+**2. Material preparation**
+- Cutting of preforms/prepregs
+- Ply book generation and kitting
+
+**3. Lay-up and consolidation**
+- Manual or automated fiber placement
+- Compaction and debulking
+
+---
+
+**4. Curing**
+- Temperature/pressure cycle optimization
+- Degree of cure monitoring (DSC, dielectric, ...)
+
+**5. Post-processing**
+- Demolding, trimming, drilling, finish
+  - ~50.000 drilling holes per fuselage part of an A350
+  - up to 100 kg additional mass for surface finish of a wind turbine blade
+- Non-destructive testing (ultrasonic, thermography, visual inspection, etc.)
+
+---
+
+## Tooling Technologies
+**Material selection criteria:**
+- **CTE matching**: Critical for dimensional accuracy
+- **Temperature resistance**: Up to 200°C for aerospace applications
+- **Durability**: 100-5000 cycles depending on production volume
+
+---
+
+**Common tooling materials:**
+| Material | Max Temp | Cost | Appli. |
+|----------|----------|------|-------------|
+| Aluminum  | 200°C | $$ | Small series |
+| Steel/Invar | 400°C | $$$ | High volume |
+| CFRP |  180°C | $$$$ | Complex geometry |
+| BMI/Epoxy |  230°C | $$ | Prototype |
+| Card board |  20°C | $ | Research  |
+
 
 ![bg right fit](../assets/Figures/formwerkzeug.png)
 ![bg vertical fit](https://leichtbau.dlr.de/wp-content/uploads/2023/06/Instrumentierung-1-1072x536.jpg)
 
+![bg fit](../assets/Figures/pappe.png)
+
+
 ---
 
-## Semi-finished products
+## Semi-finished Products - Technical Textiles
+**Fabric architectures and properties:**
 
-- Handling
-- Reduction of manufacturing depth
-- Quality improvement
-- Examples:
-  - Woven fabrics
-  - Non-crimp fabrics
-  - Veils, mats
-  - Core materials
-  - Braided sleeves
-  - ...
+**Woven fabrics**
+- Plain, twill, satin weaves
+- Good drapeability, balanced properties
+- Typical: 200-800 g/m²
+
+**Non-crimp fabrics (NCF)**
+- Unidirectional, biaxial, triaxial
+- Higher fiber volume fraction (up to 65%)
+- Reduced crimp → better mechanical properties
+
+**Specialty products**
+- Braided sleeves: Complex 3D shapes
+- Core materials: Honeycomb (Nomex, aluminum), foams (PVC, PET)
+- Veils: Surface quality, electrical conductivity
+
+*Reference: Lomov, S.V. (2011). Non-Crimp Fabric Composites. Woodhead Publishing*
 
 ![bg right 90%](../assets/Figures/gewebearten.png)
 ![bg 80%](../assets/Figures/honeycomb.png)
 
 ---
 
-## Manufacturing
-Manual
-Fiber placement
-Hand laminating
-...
-Winding
-Spraying
-Pultrusion
-Pressing
-RTM (Resin Transfer Moulding) process
-Automated fiber placement processes
-...
+## Manufacturing Processes - Overview
+**Process selection matrix by production volume:**
+
+| Process | Volume | Cycle Time | Fiber Volume | Investment |
+|---------|--------|------------|--------------|------------|
+| Hand Lay-up | 1-100 | Hours | 30-40% | $ |
+| Filament Winding | 100-10k | 1-4 hrs | 55-70% | $$ |
+| RTM/VARTM | 100-50k | 10-120 min | 45-65% | $$$ |
+| Pultrusion | >10k | Continuous | 50-70% | $$$ |
+| AFP/ATL | 10-1000 | 2-8 hrs | 55-65% | $$$$ |
+| Compression Molding | >50k | 1-5 min | 40-60% | $$$$ |
 
 ![bg right 90%](../assets/Figures/manuell_ablage.png)
 
 ---
 
-## Manufacturing
-Manual
-Fiber placement
-Hand laminating
-...
+## Hand Lay-up & Spray-up
+**Hand lay-up characteristics:**
+- **Advantages**: Low tooling cost, large/complex parts possible
+- **Limitations**: Labor intensive, quality operator-dependent
+- **Applications**: Boat hulls, wind turbine blades, prototypes
+- **Fiber volume**: 30-40%
+
+---
+
+**Spray-up process:**
+- Chopped fiber (25-50mm) with resin
+- Fast deposition (5-10 kg/min)
+- Lower mechanical properties
+- Typical thickness: 3-10mm
+
+*Industry note: Still represents ~35% of composite manufacturing globally*
 
 ![bg right 90%](../assets/Figures/manuell_ablage.png)
 
 ---
 
-## Manufacturing
-Manual
-Fiber placement
-Hand laminating
-Winding
-Spraying
-Pultrusion
-Pressing
-...
+## Filament Winding
+**Process parameters:**
+- **Winding patterns**: Hoop, helical, polar
+- **Fiber tension control**: 10-50 N typical
+- **Mandrel types**: Extractable, dissolvable, split
+
+**Key advantages:**
+- High fiber volume (up to 70%)
+- Excellent hoop strength
+- Automated, repeatable process
+
+
+---
+
+**Applications:**
+- Pressure vessels (Type III, IV)
+- Drive shafts
+- Rocket motor cases
+
+**Design equation (netting analysis):**
+$$\frac{\sigma_h}{\sigma_a} = \frac{2}{\tan^2\alpha}$$
 
 ![bg right 90%](../assets/Figures/wickeln.png)
 
 ---
 
-## Manufacturing
+## Autoclave Processing
+**Process optimization parameters:**
+- **Heating rate**: 1-5°C/min (avoid exotherm)
+- **Pressure**: 3-7 bar (void reduction)
+- **Vacuum**: >600 mbar (volatile removal)
+- **Dwell temperature**: Matrix-dependent (120-180°C typical)
 
-Manual
-Fiber placement
-Hand laminating
-Winding
-Spraying
-Pultrusion
-Pressing
-RTM (Resin Transfer Moulding) process
-...
+
+---
+
+**Quality metrics:**
+- Void content: <1% aerospace, <2% automotive
+- Fiber volume fraction: 58-65%
+- Glass transition (Tg): >90% of theoretical
+
+**Cost considerations:**
+- Energy: 50-200 kWh/cycle
+- Capital: $1-10M for production autoclave
+- Cycle time: 4-12 hours total
 
 ![bg right 90%](../assets/Figures/autoklav.png)
 
 ---
 
-## Manufacturing
-Manual
-Fiber placement
-Hand laminating
-Winding
-Spraying
-Pultrusion
-Pressing
-RTM (Resin Transfer Moulding) process
-Automated fiber placement processes
-...
+## Automated Fiber Placement (AFP/ATL)
+**Technology comparison:**
 
-![bg right 90%](../assets/Figures/afp.png)
+| Parameter | AFP | ATL |
+|-----------|-----|-----|
+| Tow width | 3.2-12.7 mm | 75-300 mm |
+| Lay-up rate | 10-50 kg/hr | 50-150 kg/hr |
+| Min. radius | 50-100 mm | >1000 mm |
+| Steering radius | >600 mm | Limited |
 
 ---
 
-# Fundamentals for application
-- Integral construction
-- Differential construction
-- Composite construction
+**Advanced capabilities:**
+- In-situ consolidation (thermoplastic)
+- Variable stiffness designs
+- Integrated inspection systems
+- Digital twin integration
+
+**Applications:** Aerospace fuselages, wing skins, rocket fairings
+
+*Source: Lukaszewicz, D. (2013). Optimization of AFP. Springer*
+
+![bg right 90%](../assets/Figures/afp.png)
+
+
+---
+
+## Design Strategies
+
+---
+
+**Integral construction**
+- Single-piece structures
+- Reduced assembly time/cost
+- Monocoque chassis, wing box
+
+**Differential construction**
+- Modular approach
+- Easier repair/replacement
+- Standard joints and interfaces
+
+**Hybrid construction**
+- Metal-composite joints
+- Selective reinforcement
+- Optimized cost-performance
 
 ![bg right](../assets/Figures/integral.png)
 ![bg vertical](https://leichtbau.dlr.de/wp-content/uploads/2021/06/DSC_5781-edit_web-500x281.jpg)
@@ -784,26 +920,56 @@ Automated fiber placement processes
 
 ---
 
-# Design philosophies
-- Load primarily in tension
-- Utilize geometric stiffnesses (Steiner contribution)
-- Avoid impact damage
-- Bond instead of drill
-- ...
+## Design Principles for Composites
+**Load path optimization:**
+- Align fibers with principal stress directions
+- Minimize out-of-plane loads (weak in z-direction)
+- Quasi-isotropic layups for complex loading
+
+**Structural efficiency:**
+- Maximize second moment of area (sandwich structures)
+- Use geometric stiffening (corrugations, ribs)
+- Topology optimization for minimum weight
 
 ---
 
-# Advantages
-- Load path optimized components
-- Very lightweight components
+**Damage tolerance:**
+- Avoid impact-prone areas
+- Design for barely visible impact damage (BVID)
+- Redundant load paths
 
-# Disadvantages
-- Low throughput in manufacturing
-- No welding or forming possible
-- No plastic zone → poor crash behavior
+**Joint design:**
+- Adhesive > mechanical (no fiber cutting)
+- Scarf joints (1:20 ratio) for repairs
+- Avoid peel loads in bonded joints
+
+*Reference: Niu, M.C.Y. (2010). Composite Airframe Structures. Hong Kong Conmilit Press*
 
 ---
 
+## Advantages vs. Limitations
+
+### **Advantages**
+- **Specific strength/stiffness**: 3-5× better than aluminum
+- **Design flexibility**: Tailored anisotropy
+- **Fatigue resistance**: Superior to metals
+- **Corrosion resistance**: Inherent property
+- **Part consolidation**: 50-90% fewer parts possible
+
+---
+
+### **Limitations**
+- **Manufacturing rate**: 2-10 parts/day typical (autoclave)
+- **Joining challenges**: No welding, limited forming
+- **Impact sensitivity**: Low velocity impact critical
+- **Crash behavior**: Limited plastic deformation
+- **Recycling**: Thermoset recycling challenging
+- **Cost**: 20-100 $/kg for carbon fiber
+
+
+---
+# Research with master students
+_Partner: Institute of lighweigth systems; Department of Structural Mechnanics, German Aerospace Center_
 ## Why H₂
 
 - Steel production
@@ -818,3 +984,10 @@ Automated fiber placement processes
 ![bg fit 70%](../assets/Figures/plot_data_for_deriv.png)
 
 ---
+
+# Questions?
+Feel free to contact me
+christian.willberg@h2.de
+
+PeriLab - Peridynamics Research 
+https://github.com/PeriHub/PeriLab.jl
