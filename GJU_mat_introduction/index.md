@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-header: ''
+header: 'Introduction to IE  - overview about materials in Germany'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
 title: Teacher Training
@@ -23,7 +23,7 @@ img[alt="ORCID"] {
 }
 </style>
 
-## Fiber Composites
+## Introduction to IE  - overview about materials in Germany
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](../assets/Figures/crack.jpg)
@@ -36,11 +36,21 @@ Contact: christian.willberg@h2.de
 
 ---
 
+- Energy transformation
+- circular economy
+
 ![bg right 60% fit](../assets/QR/GJU_mat_introduction.png)
 
 ---
 
 <!--paginate: true-->
+
+![bg 70%](https://assets.weforum.org/editor/O0kfISVKT3B1KgiiJecM2jpNSGbWr4ZEFo8s4huwCFs.png)
+
+
+---
+
+![bg 70%](https://www.eit.edu.au/wp-content/uploads/2023/05/Circular_Economy_Adobe_488598331_Resized-2.jpg)
 
 ---
 
@@ -66,18 +76,15 @@ Contact: christian.willberg@h2.de
 
 ---
 
+![bg 70%](https://leichtbau.dlr.de/wp-content/uploads/2022/11/Abbildung-1_Innovationsbericht_Wasserstofftank_CG06_mlo_korr.jpg)
+
+---
+
 **New Regulatory Framework**
 - Carbon Border Adjustment (CBAM) - Started 2023
 - Ecodesign for Sustainable Products Regulation (ESPR)
 - Critical Raw Materials Act
 - Corporate Sustainability Reporting Directive (CSRD)
-
-![bg right:35% fit](https://ec.europa.eu/info/sites/default/files/european-green-deal-communication_en.png)
-
-<div style="position: absolute; bottom: 10px; left: 10px; font-size: 12px;">
-Sources: <a href="https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en">European Green Deal</a> | 
-<a href="https://www.eurofer.eu/issues/environment/eu-green-deal/">EUROFER Green Deal Impact</a>
-</div>
 
 ---
 
@@ -129,6 +136,28 @@ Sources: <a href="https://ec.europa.eu/info/strategy/priorities-2019-2024/europe
 <a href="https://www.agora-industry.org/">Agora Industry</a>
 </div>
 
+
+---
+
+## Germany
+**Geographic Location:**
+- Central Europe - crossroads of technology and trade
+- Access to European markets and research networks
+- Strong industrial base for materials processing
+
+![bg fit 60% right](https://www.mapsofindia.com/world-map/germany/germany-states-and-capital-map.jpg)
+
+---
+
+**Key Material Resources in Germany:**
+| Resource | Significance | Global Rank |
+|----------|-------------|-------------|
+| **Lignite (Braunkohle)** | Energy & chemicals | #1 Producer worldwide |
+| **Potash (Kali)** | Fertilizers, chemicals | #4 Producer worldwide |
+| **Salt** | Chemical industry | #4 Producer (EU #1) |
+| **Construction materials** | Sand, gravel, limestone | Self-sufficient |
+
+**Limited but importing:** Iron ore, rare earths, lithium, cobalt
 
 ---
 
@@ -393,6 +422,7 @@ Sources: <a href="https://www.bibb.de/en/">Federal Institute for Vocational Educ
 
 
 ---
+My focus today
 # Fibre composites
 
 ---
