@@ -68,6 +68,24 @@ Contact: christian.willberg@h2.de
 
 ---
 
+![bg 80%](https://tse1.mm.bing.net/th/id/OIP.qha1-4OXRbcA46hpvHf1AwHaCx?cb=12&pid=Api)
+
+---
+
+![bg 70%](https://leichtbau.dlr.de/wp-content/uploads/2022/11/Abbildung-1_Innovationsbericht_Wasserstofftank_CG06_mlo_korr.jpg)
+
+---
+
+![bg 60%](https://upload.wikimedia.org/wikipedia/commons/b/bf/High_Speed_Railroad_Map_of_Europe.svg)
+
+---
+
+![bg 80%](https://www.dke.de/image/1902644/stage_md/1023/512/5/airborne-wind-energy-offshore.jpg)
+
+---
+
+
+
 **Paradigm Shift in Materials Selection**
 - ~~Performance only~~ → **Performance + Sustainability**
 - ~~Linear economy~~ → **Circular design**
@@ -76,9 +94,6 @@ Contact: christian.willberg@h2.de
 
 ---
 
-![bg 70%](https://leichtbau.dlr.de/wp-content/uploads/2022/11/Abbildung-1_Innovationsbericht_Wasserstofftank_CG06_mlo_korr.jpg)
-
----
 
 **New Regulatory Framework**
 - Carbon Border Adjustment (CBAM) - Started 2023
@@ -91,9 +106,22 @@ Contact: christian.willberg@h2.de
 ## The Sustainability Imperative - Why Now?
 
 **Climate Reality**
-- Materials production = **11% of global CO₂**
+- Materials production = **11% - 25% of global CO₂**
 - Resource extraction doubled since 2000
 - 2024: Warmest year on record
+
+
+---
+
+| **System Boundary / Definition** | **CO₂ share** | **Key Sources (2022 – 2024)** | **Description** |
+|----------------------------------|-----------------------------------|-------------------------------|-----------------|
+| **Construction materials** (e.g., concrete, steel, glass, bricks) | **≈11%** | [IPCC AR6 WGIII Chapter 11](https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-11/); [UNEP Global Status Report 2022](https://www.unep.org/resources/report/global-status-report-buildings-and-construction) | Includes *energy- and process-related* emissions from producing building and structural materials. |
+| **Cement + Steel** | **≈13 – 16%** | [Nature Communications 2023](https://www.nature.com/articles/s41467-023-43660-x); [WRI Report](https://pdf.wri.org/navigating_numbers.pdf) | Major industrial CO₂ emitters; responsible for the bulk of embodied carbon in infrastructure. |
+| **All industrial materials**  | **≈20 – 25%** | [OSTI Report](https://sc-drcds.osti.gov/-/media/sbir/pdf/Market-Research/2024/FECM-Carbon-Conversion-Market-November-2024-Public.pdf); [McKinsey Global Energy Perspective 2025](https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective-2025) | Includes mining, refining, and chemical production;  full industrial  scope. |
+
+
+
+---
 
 **Economic Drivers**
 - **CO₂ price**: €80-100/ton (2024) → €150+ expected by 2030
@@ -120,7 +148,10 @@ Sources: <a href="https://www.iea.org/">IEA</a> |
 <a href="https://climate.ec.europa.eu/">EU Climate Action</a>
 </div>
 
+
 ---
+
+
 
 ## Materials Transition Roadmap 2024-2050
 
@@ -136,6 +167,11 @@ Sources: <a href="https://ec.europa.eu/info/strategy/priorities-2019-2024/europe
 <a href="https://www.agora-industry.org/">Agora Industry</a>
 </div>
 
+
+---
+# Questions?
+
+![bg fit right 70%](../assets/Figures/fragezeichen.png)
 
 ---
 
@@ -165,14 +201,20 @@ Sources: <a href="https://ec.europa.eu/info/strategy/priorities-2019-2024/europe
 
 **Automotive Applications**
 - **High-strength steels**: Body-in-white (up to 1500 MPa)
-- **Aluminum alloys**: Engine blocks, wheels, chassis
+- **Aluminum alloys**: wheels, chassis
 - **Challenge**: Joining dissimilar metals (Al-Steel)
+
+![bg right fit](https://cleanenergycanada.org/wp-content/uploads/2022/03/EV-Affordability-SocialPostcards-3-scaled.jpg)
+
+---
 
 **Manufacturing Challenges**
 - Energy costs: ~40% of steel production costs
 - CO₂ emissions: 7% of global emissions from steel
 - Hydrogen-based steel production: Still in pilot phase
 - Skilled worker shortage: 200,000+ vacancies in metalworking
+
+![bg right fit](https://c8.alamy.com/comp/2WEWWK0/salzgitter-ag-steelworks-salzgitter-ag-avacon-and-lime-tree-launch-the-operation-of-industrial-hydrogen-production-based-on-electricity-from-wind-2WEWWK0.jpg)
 
 ---
 
@@ -290,18 +332,7 @@ Sources: <a href="https://www.composites-united.com/">Composites United</a> |
 | **Defect detection** | Established (NDT) | Difficult | Good (inline) | Expensive |
 | **Supply chain** | Global, volatile | Specialized | Oil-dependent | Limited suppliers |
  ---
-**EU Manufacturing Competitiveness**
-- Labor costs: 3-5× higher than Asia
-- Energy costs: 2-3× higher than USA (2024)
-- Regulatory burden: REACH, emissions trading
-
-<div style="position: absolute; bottom: 10px; left: 10px; font-size: 12px;">
-Sources: <a href="https://ec.europa.eu/eurostat">Eurostat</a> | 
-<a href="https://www.vdma.org/en/">VDMA</a> |
-<a href="https://www.mckinsey.com/">McKinsey Manufacturing Insights</a>
-</div>
-
----
+ 
 
 ## Multi-Material Design - The Future Challenge
 
@@ -329,64 +360,6 @@ Sources: <a href="https://www.hybridmaterials.eu/">EU Hybrid Materials Initiativ
 <a href="https://www.plattform-i40.de/EN/">Platform Industrie 4.0</a>
 </div>
 
----
-
-## Sustainability & Circular Economy - Manufacturing Reality
-
-**Current State (2024)**
-- **Energy**: 14% of EU energy consumption in materials processing
-- **Emissions**: 20% of EU CO₂ from materials industries
-- **Waste**: 2.2 billion tons/year in EU
-- **Resource dependency**: 80% critical raw materials imported
-
-**Manufacturing Transformation Required**
-- **2030 targets**: 55% CO₂ reduction vs. 1990
-- **2050 vision**: Climate-neutral production
-- **Investment needed**: €350 billion by 2030
-
----
-
-**Key Technologies**
-- Green hydrogen for steel: €5-10/kg H₂ (target: <€2/kg)
-- Chemical recycling: Energy penalty 40-60%
-- Bio-based materials: 2-5× current prices
-- Carbon capture: €50-100/ton CO₂
-
-<div style="position: absolute; bottom: 10px; left: 10px; font-size: 12px;">
-Sources: <a href="https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en">EU Green Deal</a> | 
-<a href="https://www.iea.org/">IEA - International Energy Agency</a> |
-<a href="https://www.systemiq.earth/">SYSTEMIQ - Circular Economy</a>
-</div>
-
----
-**Key Material Production Centers**
-
-**North Rhine-Westphalia**
-- Steel: Duisburg, Dortmund (ThyssenKrupp)
-- Chemicals/Polymers: Leverkusen (Covestro), Cologne (LANXESS)
-- Aluminum: Neuss, Grevenbroich
-
-**Bavaria**
-- Composites: Augsburg (Premium AEROTEC)
-- Ceramics: Selb (Rosenthal), Weiden
-- Specialty metals: Aerospace cluster
-
----
-
-**Baden-Württemberg**
-- Automotive materials: Stuttgart region
-- Technical textiles: Albstadt, Reutlingen
-- Advanced ceramics: Plochingen
-
-**Saxony**
-- Carbon fibers: Dresden region
-- Technical ceramics: Meissen
-- Lightweight construction: Dresden, Chemnitz
-
-<div style="position: absolute; bottom: 10px; left: 10px; font-size: 12px;">
-Sources: <a href="https://www.bmwk.de/EN/">Federal Ministry for Economic Affairs</a> | 
-<a href="https://www.gtai.de/en/">Germany Trade & Invest</a>
-</div>
 
 ---
 
@@ -422,6 +395,12 @@ Sources: <a href="https://www.bibb.de/en/">Federal Institute for Vocational Educ
 
 
 ---
+
+# Questions?
+
+![bg fit right 70%](../assets/Figures/fragezeichen.png)
+
+---
 My focus today
 # Fibre composites
 
@@ -441,6 +420,8 @@ My focus today
 - **Natural fibers**: Increasing importance
   - Flax, hemp, jute (automotive sector)
 - **Aramid fibers**: Special applications
+
+---
 
 **Matrix Systems**
 - **Thermosets**: ≈65% of composites market
@@ -469,6 +450,8 @@ Sources: <a href="https://www.avk-tv.de/files/20210928_avk_ccev_market_report_20
 - Glass fiber rotor blades
 - Carbon fiber for longer blades (>80m)
 - Germany: Leading manufacturer
+
+---
 
 **Aerospace**
 - Carbon fiber composites (Airbus)
