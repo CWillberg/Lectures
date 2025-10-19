@@ -94,6 +94,9 @@ jobs:
           - stream_wst_12
           - composites_01
           - Berufsschule
+          - gju_01
+          - GJU_mat_introduction
+          - gju_01_questions
     steps:
       - uses: actions/checkout@v4
 
