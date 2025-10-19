@@ -5,7 +5,7 @@ theme: default
 header: 'GJU - Lecture on Structures of materials'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Materials-and-Production-Engineering-Lectures on Real Structures and Properties
+title: Structure of materials
 author: Christian Willberg
 ---
 
@@ -30,6 +30,8 @@ img[alt="ORCID"] {
 
 ## GJU - Lecture on Structures of materials
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+
+Magdeburg-Stendal University of Applied Sciences
 
 ![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
 
@@ -214,7 +216,7 @@ Cl + e⁻ → Cl⁻
 
 ---
 
-## More Examples
+## Examples
 
 **Magnesium Oxide (MgO)**
 - Mg → Mg²⁺ + 2e⁻
@@ -225,6 +227,9 @@ Cl + e⁻ → Cl⁻
 - 2 Al → 2 Al³⁺ + 6e⁻
 - 3 O + 6e⁻ → 3 O²⁻
 - **2 Al³⁺ + 3 O²⁻ → Al₂O₃**
+
+![bg right fit](../assets/Figures/ionic_bonds.png)
+
 
 ---
 
@@ -285,8 +290,7 @@ $$F = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
 
 ![bg fit right:50%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
-**Conclusion:**
-Stronger bond with higher charge and smaller distance
+
 
 ---
 
@@ -319,7 +323,7 @@ Stronger bond with higher charge and smaller distance
 
 ---
 
-## Atomic or Homeopolar Bond
+## Covalent bonding
 
 **Definition:**
 Bond between **non-metal atoms** through **shared use** of electron pairs
@@ -377,6 +381,8 @@ H  +  H → H—H
 - O=C=O
 - 2 double bonds, linear
 
+![bg fit right](../assets/Figures/Covalent_bonding.png)
+
 ---
 
 ## Types of Covalent Structures
@@ -410,17 +416,6 @@ H  +  H → H—H
 
 ---
 
-## Bond Types by ΔEN
-
-| ΔEN | Bond Type | Example | Material Type |
-|-----|-----------|---------|---------------|
-| 0 - 0.4 | Nonpolar covalent | H₂, Cl₂ | Gases, nonpolar molecules |
-| 0.4 - 1.7 | Polar covalent | H₂O, polymers | Plastics, biological |
-| > 1.7 | Ionic | NaCl, MgO | Ceramics, salts |
-
-**Transitions are gradual!**
-
----
 
 ## Properties of Molecular Substances
 
@@ -539,19 +534,7 @@ Energy required to break a bond
 
 ---
 
-## Applications of Covalent Materials (2)
 
-**Composite Materials**
-- Fiber-reinforced plastics (CFRP, GFRP)
-- Matrix: polymer (covalent)
-- Reinforcement: carbon fiber, glass fiber
-
-**Glass and Optics**
-- Window glass (SiO₂-based)
-- Optical fibers
-- Special glasses
-
----
 
 ## Metallic Bond
 
@@ -856,7 +839,7 @@ H—O ... H—O
 
 ---
 
-## 3. Dipole-Induced Dipole Forces
+## Dipole-Induced Dipole Forces
 
 **Mechanism:**
 Polar:    δ⁺  δ⁻
@@ -1059,3 +1042,8 @@ Unequal attractive forces at the surface
 - Enable plastic deformation (metals)
 - Create isotropic properties in crystals
 - Permit multiple coordination geometries
+
+---
+
+# Questions 
+![bg right](../assets/Figures/fragezeichen.png)

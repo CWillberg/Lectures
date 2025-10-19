@@ -4,7 +4,7 @@ theme: default
 header: 'Introduction to IE  - overview about materials in Germany'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Teacher Training
+title: Introduction to IE  - overview about materials in Germany
 author: Christian Willberg
 ---
 
@@ -469,62 +469,6 @@ Sources: <a href="https://www.avk-tv.de/files/20210928_avk_ccev_market_report_20
 Sources: <a href="https://www.composites-united.com/">Composites United</a> | 
 <a href="https://compositesuk.co.uk/composite-materials/applications">Composites UK</a>
 </div>
-
----
-
-## Market Trends and Regulations in EU
-
-**Sustainability Focus**
-- EU Green Deal requirements
-- Circular economy regulations
-- Bio-based materials promotion
-
-**Key Regulations**
-- [REACH](https://echa.europa.eu/regulations/reach/understanding-reach) (Registration, Evaluation, Authorization of Chemicals)
-- [End-of-Life Vehicle Directive](https://environment.ec.europa.eu/topics/waste-and-recycling/end-life-vehicles_en)
-- [Waste Framework Directive](https://environment.ec.europa.eu/topics/waste-and-recycling/waste-framework-directive_en)
-- [EU Taxonomy](https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en) for sustainable activities
-
-**Future Outlook**
-- Recycling technologies development
-- Bio-composites growth
-- Automated manufacturing
-- Industry 4.0 integration
-
-**German/EU Market Leaders**
-- [SGL Carbon](https://www.sglcarbon.com/) (carbon fibers)
-- [Covestro](https://www.covestro.com/) (matrix systems)
-- [BASF](https://www.basf.com/) (resins and additives)
-- [Evonik](https://www.evonik.com/) (specialty polymers)
-
-<div style="position: absolute; bottom: 10px; left: 10px; font-size: 12px;">
-Sources: <a href="https://www.jec-group.com/en/market">JEC Group Market Insights</a> | 
-<a href="https://ec.europa.eu/growth/sectors/raw-materials/advanced-materials_en">EU Commission - Advanced Materials</a>
-</div>
-
----
-
-## Additional Resources & References
-
-**Industry Associations**
-- [AVK - German Composites Association](https://www.avk-tv.de/en/)
-- [Composites United e.V.](https://www.composites-united.com/)
-- [EuCIA - European Composites Industry Association](https://eucia.eu/)
-- [Carbon Composites e.V. (CCeV)](https://www.carbon-composites.eu/)
-
-**Research Institutions**
-- [DLR Institute of Composite Structures](https://www.dlr.de/fa/en/)
-- [Fraunhofer IGCV](https://www.igcv.fraunhofer.de/en.html)
-- [Leibniz-Institut für Verbundwerkstoffe](https://www.ivw.uni-kl.de/en/)
-
-**Market Reports & Statistics**
-- [Statista - Composites Market Data](https://www.statista.com/topics/3945/composites-market/)
-- [Grand View Research - European Composites](https://www.grandviewresearch.com/industry-analysis/europe-composites-market)
-- [Lucintel - Composites Market Report](https://www.lucintel.com/composites-market.aspx)
-
-**Regulatory Documents**
-- [European Green Deal](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en)
-- [Circular Economy Action Plan](https://environment.ec.europa.eu/strategy/circular-economy-action-plan_en)
 
 ---
 
