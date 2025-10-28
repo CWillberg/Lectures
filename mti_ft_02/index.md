@@ -282,6 +282,7 @@ Cl + e⁻ → Cl⁻
 
 $$F = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
 
+
 - F = Kraft
 - k = Coulomb-Konstante
 - q₁, q₂ = Ladungen der Ionen

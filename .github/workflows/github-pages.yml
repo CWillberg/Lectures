@@ -28,7 +28,7 @@ jobs:
           - wst_mb_07
           - wst_mb_08
           - wst_mb_09
-          - wst_mb_10
+          #- wst_mb_10
           - wst_mb_11
           - wst_mb_12
           - wst_mb_13
