@@ -71,7 +71,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ---
 
 ## Inhalte
-- Aufbau von Werkstoffen
+- Aufbau von Werkstoffen 
 - Bindungsarten
 
 ![bg right 70%](../assets/QR/wst_mb_02.png)
