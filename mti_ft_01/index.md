@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title:  MIT - Grundlagen 
+title:  MTI - Grundlagen 
 author: Christian Willberg
 ---
 
