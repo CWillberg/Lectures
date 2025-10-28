@@ -717,7 +717,7 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 | Verformbarkeit | Spröde | Spröde/weich | Duktil |
 | Schmelzpunkt | Hoch | Variabel | Mittel-hoch |
 | Transparenz | Oft ja | Oft ja | Nein |
-
+ 
 ---
 
 # Sekundärbindungen (Zwischenmolekulare Kräfte)
