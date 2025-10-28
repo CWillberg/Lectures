@@ -2,10 +2,11 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Struktur der Werkstoffe'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung: Struktur der Werkstoffe
+title:  Vorlesung Werkstofftechnik - Struktur der Werkstoffe
+
 author: Christian Willberg
 ---
 
@@ -136,6 +137,21 @@ Besteht aus
 
 
 ---
+## Bindungsenegie
+
+
+-  Energy required to separate bonded atoms
+```
+A-B → A + B     Energy needed = Bond Energy
+```
+
+**Einheit:** kJ/mol oder eV/atom
+
+Stärkere Bindung = Höhere Bindungsenergie = stabileres Material
+
+![bg right:50% fit](https://wisc.pb.unizin.org/app/uploads/sites/564/2020/06/Unit01Day06-H2MoleculeEvsBondLengthFinal.png)
+
+---
 
 # Bindungen
 
@@ -199,6 +215,8 @@ Cl + e⁻ → Cl⁻
 | Cl      | 7        | +1 e⁻    | Cl⁻ | Argon       |
 | O       | 6        | +2 e⁻    | O²⁻ | Neon        |
 
+
+
 ---
 
 ## Weitere Beispiele
@@ -212,6 +230,7 @@ Cl + e⁻ → Cl⁻
 - 2 Al → 2 Al³⁺ + 6e⁻
 - 3 O + 6e⁻ → 3 O²⁻
 - **2 Al³⁺ + 3 O²⁻ → Al₂O₃**
+![bg right fit](../assets/Figures/ionic_bonds.png)
 
 
 ---
@@ -397,17 +416,6 @@ H  +  H → H—H
 - Teilladungen (δ⁺ und δ⁻)
 - Elektronegativitätsdifferenz 0 < ΔEN < 1,7
 
----
-
-## Bindungsarten nach ΔEN
-
-| ΔEN | Bindungstyp | Beispiel | Werkstofftyp |
-|-----|-------------|----------|--------------|
-| 0 - 0,4 | Unpolar kovalent | H₂, Cl₂ | Gase, unpolare Moleküle |
-| 0,4 - 1,7 | Polar kovalent | H₂O, Polymere | Kunststoffe, biologisch |
-| > 1,7 | Ionisch | NaCl, MgO | Keramiken, Salze |
-
-**Übergänge sind fließend!**
 
 ---
 

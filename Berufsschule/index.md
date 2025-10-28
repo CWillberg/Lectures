@@ -347,6 +347,22 @@ Automatisierte Faserablageverfahren
 
 ---
 
+## Why H2
+
+- steel production
+- chemical industry
+- rockets
+- aircrafts
+
+![bg right fit](../assets/Figures/SN01_Testsetup.png)
+
+
+---
+
+![bg fit 70%](../assets/Figures/plot_data_for_deriv.png)
+
+---
+
 ## Beispiele
 
 [CFK Drucktank](https://rail4earth.nimbus-extern.dlr.de/)

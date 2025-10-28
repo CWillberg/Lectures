@@ -2,7 +2,7 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Non-local structural mechanics and Peridynamics'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
 title:  Non-local structural mechanics and Peridynamics
