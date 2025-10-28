@@ -51,53 +51,53 @@ jobs:
           #- pd_01
           - wst_mb_01
           - wst_mb_02
-          - wst_mb_03
-          - wst_mb_04
-          - wst_mb_05
-          - wst_mb_06
-          - wst_mb_07
-          - wst_mb_08
-          - wst_mb_09
-          - wst_mb_10
-          - wst_mb_11
-          - wst_mb_12
-          - wst_mb_13
-          - wst2_mb_01
-          - wst2_mb_02
-          - wst2_mb_04
+         # - wst_mb_03
+         # - wst_mb_04
+         # - wst_mb_05
+         # - wst_mb_06
+         # - wst_mb_07
+         # - wst_mb_08
+         # - wst_mb_09
+         # - wst_mb_10
+         # - wst_mb_11
+         # - wst_mb_12
+         # - wst_mb_13
+         # - wst2_mb_01
+         # - wst2_mb_02
+         # - wst2_mb_04
           - mti_ft_01
           - mti_ft_02
-          - mti_ft_03
-          - mti_ft_04
-          - mti_ft_05
-          - mti_ft_06
-          - mti_ft_07
-          - mti_ft_08
-          - mti_ft_09
-          - mti_ft_10
-          - mti_ft_11
-          - mti_ft_12
-          - mti_ft_13
-          - mti_ft_14
-          - stream_mech_01
-          - stream_wst_01
-          - stream_wst_02
-          - stream_wst_03
-          - stream_wst_04
-          - stream_wst_05
-          - stream_wst_06
-          - stream_wst_07
-          - stream_wst_08
-          - stream_wst_09
-          - stream_wst_10
-          - stream_wst_11
-          - stream_wst_12
-          - composites_01
-          - Berufsschule
-          - gju_01
-          - gju_mech
-          - GJU_mat_introduction
-          - gju_01_questions
+         # - mti_ft_03
+         # - mti_ft_04
+         # - mti_ft_05
+         # - mti_ft_06
+         # - mti_ft_07
+         # - mti_ft_08
+         # - mti_ft_09
+         # - mti_ft_10
+         # - mti_ft_11
+         # - mti_ft_12
+         # - mti_ft_13
+         # - mti_ft_14
+         # - stream_mech_01
+         # - stream_wst_01
+         # - stream_wst_02
+         # - stream_wst_03
+         # - stream_wst_04
+         # - stream_wst_05
+         # - stream_wst_06
+         # - stream_wst_07
+         # - stream_wst_08
+         # - stream_wst_09
+         # - stream_wst_10
+         # - stream_wst_11
+         # - stream_wst_12
+         # - composites_01
+         # - Berufsschule
+         # - gju_01
+         # - gju_mech
+         # - GJU_mat_introduction
+         # - gju_01_questions
     steps:
       - uses: actions/checkout@v4
 
