@@ -140,7 +140,7 @@ Besteht aus
 ## Bindungsenegie
 
 
--  Energy required to separate bonded atoms
+-  Physikalische Arbeit notwendig um Bindungen zu trennen
 ```
 A-B → A + B     Energy needed = Bond Energy
 ```
@@ -268,8 +268,6 @@ Cl + e⁻ → Cl⁻
 
 ## Bindungsenergie
 
-**Definition:**
-Energie, die benötigt wird, um die Bindung zu trennen
 
 **Ionenbindung:**
 - Stark (400-800 kJ/mol)
@@ -731,13 +729,13 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 Schwache Bindungen zwischen **Molekülen** oder **Atomen** durch elektrostatische Wechselwirkungen
 
 **Eigenschaften:**
-- Geringe Bindungsenergie (1-50 kJ/mol)
+- Geringe Bindungsenergie (0.5-50 kJ/mol)
 - **Ein bis zwei Zehnerpotenzen schwächer** als Primärbindungen
 - Keine Elektronenübertragung oder -teilung
 - Kurzreichweitig
 
 **Hauptarten:**
-1. **Van-der-Waals-Bindungen** (0,5-25 kJ/mol)
+1. **Van-der-Waals-Bindungen** (0.5-25 kJ/mol)
 2. **Wasserstoffbrückenbindungen** (10-40 kJ/mol)
 
 ---
