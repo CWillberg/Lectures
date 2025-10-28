@@ -2,7 +2,7 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Structures of materials'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
 title: Materials-and-Production-Engineering-Lectures on Real Structures and Properties
@@ -36,12 +36,12 @@ Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector
 Contact: christian.willberg@h2.de
 
 
----
-
 - Atomistic structure (type of atomic building blocks)
 - Fine structure (bonds between atomic building blocks and their geometric arrangement)
 - Microstructure (texture – areas of geometric arrangement separated by interfaces within the material)
 - Macrostructure (coarse structure – overall appearance of a material during production and use of a component)
+
+![bg right fit 60%](../assets/QR/gju_01.png)
 
 ---
 
@@ -54,8 +54,29 @@ Contact: christian.willberg@h2.de
 **Atomic Number**
 Number of protons in the nucleus
 **Atomic Mass**
-determines the mass of the element
+determines the mass of the element in atomic mass units $u$
+$u=\frac{1}{12}\times$ mass of Carbon-12 atom
 Material mass is a combination of atomic mass and density
+
+Example:
+- Carbon-12 has atomic mass = 12.00000 u (exactly)
+- Carbon-13 has atomic mass = 13.00335 u
+
+
+
+---
+
+**Atomic weight (Relative Atomic Mass)**
+
+Definition: The weighted average mass of all naturally occurring isotopes of an element
+Calculation: Takes into account the relative abundance of each isotope
+Example for Carbon:
+
+- Carbon-12: 98.93% abundance
+- Carbon-13: 1.07% abundance
+- Atomic weight = (12.00000 × 0.9893) + (13.00335 × 0.0107) = 12.011 u
+
+
 **Electronegativity**
 determines whether atoms are donated or accepted in a bond
 metallic bonds more on the left
@@ -73,12 +94,64 @@ Consists of
 - macroscopically recognizable as elasticity or thermal expansion
 
 ---
+# Bonds
 
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+**Bonds determine everything about materials:**
+- Why is diamond hard but graphite soft?
+- Why do metals conduct electricity but plastics don't?
+- Why does ice float on water?
+- Why can we bend copper but not glass?
 
 ---
 
-# Bonds
+![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+
+--- 
+
+## What is a Bond?
+
+**Definition:** Forces that hold atoms together in materials
+
+**Two competing forces:**
+- **Attractive forces** (FA): Pull atoms together
+- **Repulsive forces** (FR): Push atoms apart
+
+**Equilibrium:** Bond forms where FA + FR = 0 (minimum energy)
+
+![bg right 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+
+---
+
+## Bond Energy - The Key Concept
+
+**Bond Energy (Binding Energy):** Energy required to separate bonded atoms
+```
+A-B → A + B     Energy needed = Bond Energy
+```
+
+**Units:** kJ/mol or eV/atom
+
+**Rule:** Stronger bonds = Higher bond energy = More stable material
+
+![bg right:50% fit](https://wisc.pb.unizin.org/app/uploads/sites/564/2020/06/Unit01Day06-H2MoleculeEvsBondLengthFinal.png)
+
+---
+
+
+## Bond Energy Scales
+
+**Primary Bonds - Strong (100-900 kJ/mol)**
+- Ionic bonds: 400-800 kJ/mol
+- Covalent bonds: 150-900 kJ/mol  
+- Metallic bonds: 100-850 kJ/mol
+
+**Secondary Bonds - Weak (0.5-50 kJ/mol)**
+- Hydrogen bonds: 10-40 kJ/mol
+- Van der Waals: 0.5-25 kJ/mol
+
+**Factor 10-100× difference!**
+
+---
 
 ## Primary Valence Bonds  
 **Primary bonds - high binding energy, strong bond**
@@ -139,7 +212,7 @@ Cl + e⁻ → Cl⁻
 
 ---
 
-## More Examples
+## Examples
 
 **Magnesium Oxide (MgO)**
 - Mg → Mg²⁺ + 2e⁻
@@ -150,6 +223,9 @@ Cl + e⁻ → Cl⁻
 - 2 Al → 2 Al³⁺ + 6e⁻
 - 3 O + 6e⁻ → 3 O²⁻
 - **2 Al³⁺ + 3 O²⁻ → Al₂O₃**
+
+![bg right fit](../assets/Figures/ionic_bonds.png)
+
 
 ---
 
@@ -186,8 +262,6 @@ Cl + e⁻ → Cl⁻
 
 ## Binding Energy
 
-**Definition:**
-Energy required to break the bond
 
 **Ionic bond:**
 - Strong (400-800 kJ/mol)
@@ -210,8 +284,7 @@ $$F = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
 
 ![bg fit right:50%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
-**Conclusion:**
-Stronger bond with higher charge and smaller distance
+
 
 ---
 
@@ -244,7 +317,7 @@ Stronger bond with higher charge and smaller distance
 
 ---
 
-## Atomic or Homeopolar Bond
+## Covalent bonding
 
 **Definition:**
 Bond between **non-metal atoms** through **shared use** of electron pairs
@@ -302,6 +375,8 @@ H  +  H → H—H
 - O=C=O
 - 2 double bonds, linear
 
+![bg fit right](../assets/Figures/Covalent_bonding.png)
+
 ---
 
 ## Types of Covalent Structures
@@ -335,17 +410,6 @@ H  +  H → H—H
 
 ---
 
-## Bond Types by ΔEN
-
-| ΔEN | Bond Type | Example | Material Type |
-|-----|-----------|---------|---------------|
-| 0 - 0.4 | Nonpolar covalent | H₂, Cl₂ | Gases, nonpolar molecules |
-| 0.4 - 1.7 | Polar covalent | H₂O, polymers | Plastics, biological |
-| > 1.7 | Ionic | NaCl, MgO | Ceramics, salts |
-
-**Transitions are gradual!**
-
----
 
 ## Properties of Molecular Substances
 
@@ -464,19 +528,7 @@ Energy required to break a bond
 
 ---
 
-## Applications of Covalent Materials (2)
 
-**Composite Materials**
-- Fiber-reinforced plastics (CFRP, GFRP)
-- Matrix: polymer (covalent)
-- Reinforcement: carbon fiber, glass fiber
-
-**Glass and Optics**
-- Window glass (SiO₂-based)
-- Optical fibers
-- Special glasses
-
----
 
 ## Metallic Bond
 
@@ -656,7 +708,7 @@ Bond between **metal atoms** through delocalized valence electrons
 Weak bonds between **molecules** or **atoms** through electrostatic interactions
 
 **Properties:**
-- Low binding energy (1-50 kJ/mol)
+- Low binding energy (0.5-50 kJ/mol)
 - **One to two orders of magnitude weaker** than primary bonds
 - No electron transfer or sharing
 - Short-range
@@ -781,7 +833,7 @@ H—O ... H—O
 
 ---
 
-## 3. Dipole-Induced Dipole Forces
+## Dipole-Induced Dipole Forces
 
 **Mechanism:**
 Polar:    δ⁺  δ⁻
@@ -966,3 +1018,26 @@ Unequal attractive forces at the surface
 | Examples | NaCl, Fe, diamond | H₂O, N₂, polymers |
 | Strength | Very high | Low |
 | Formability | Variable | Often good |
+
+---
+
+## Directional Bonds vs. Nondirectional Bonds
+
+**Directional Bonds (Covalent, H-bonds):**
+
+- Lead to specific molecular shapes
+- Create materials with anisotropic properties
+- Result in lower density structures (diamond vs metals)
+- Cause brittleness due to specific bond angles
+
+**Nondirectional Bonds (Ionic, Metallic, vdW):**
+
+- Allow for dense packing arrangements
+- Enable plastic deformation (metals)
+- Create isotropic properties in crystals
+- Permit multiple coordination geometries
+
+---
+
+# Questions 
+![bg right](../assets/Figures/fragezeichen.png)
