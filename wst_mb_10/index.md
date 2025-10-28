@@ -2,7 +2,7 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Zerstörende Prüfung'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
 title: Vorlesung Zerstörende Prüfung
