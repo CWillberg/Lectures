@@ -268,7 +268,6 @@ Cl + e⁻ → Cl⁻
 
 ## Bindungsenergie
 
-
 **Ionenbindung:**
 - Stark (400-800 kJ/mol)
 - Abhängig von:
