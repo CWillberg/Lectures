@@ -425,7 +425,7 @@ H  +  H → H—H
 - Schwache Van-der-Waals-Kräfte zwischen Molekülen
 
 **Mechanische Eigenschaften**
-- Weich (bei Feststoffen)
+- geringe Härte (bei Feststoffen)
 - Geringe Festigkeit
 - Oft flexibel/elastisch
 - Beispiel: Kunststoffe, Wachse
@@ -579,7 +579,7 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 **Alkalimetalle (1. Hauptgruppe)**
 - Natrium (Na), Kalium (K), Lithium (Li)
 - 1 Valenzelektron
-- Weich, reaktiv
+- geringe Härte, reaktiv
 
 **Erdalkalimetalle (2. Hauptgruppe)**
 - Magnesium (Mg), Calcium (Ca)
@@ -637,7 +637,7 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 
 **Härte**
 - Variabel je nach Metall
-- Weich: Na, K, Au (< 30 HV)
+- geringe Härte: Na, K, Au (< 30 HV)
 - Mittel: Al, Cu, Ag (30-100 HV)
 - Hart: Fe, Cr, W (> 100 HV)
 
@@ -714,7 +714,7 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 | Elektronen | Übertragung | Teilung | Delokalisiert |
 | Struktur | Ionengitter | Moleküle/Netzwerk | Metallgitter |
 | el. Leitfähigkeit | Nur geschmolzen | Nein | Ja, sehr gut |
-| Verformbarkeit | Spröde | Spröde/weich | Duktil |
+| Verformbarkeit | Spröde | Spröde | Duktil |
 | Schmelzpunkt | Hoch | Variabel | Mittel-hoch |
 | Transparenz | Oft ja | Oft ja | Nein |
  
@@ -909,7 +909,7 @@ Unpolar:  ⊕ ⊖
 - H-Brücken: gut löslich in polaren Lösungsmitteln
 
 **Mechanisch**
-- Weich
+- geringe Härte
 - Leicht verformbar
 - Geringe Festigkeit
 

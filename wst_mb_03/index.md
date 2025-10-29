@@ -67,8 +67,13 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ## Inhalte
 
+- Kristallstrukturen identifizieren und charakterisieren
+- Molekülstrukturen und deren Aufbau verstehen
+- Realstrukturen von Kristallen mit ihren Defekten beschreiben
+- Zusammenhänge zwischen Struktur und mechanischen Eigenschaften erklären
+- Plastische Verformungsmechanismen
 
-![bg right 70%](../assets/QR/wst_mb_03.png)
+![bg right 60%](../assets/QR/wst_mb_03.png)
 
 
 
@@ -81,21 +86,26 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-### Feinstruktur
-- Kristallstrukturen
-- Molekülstrukturen
-- Glasig-amorphe Strukturen
-- Realstruktur
+## Warum ist die Feinstruktur wichtig?
+
+**Struktur bestimmt Eigenschaften**
+
+- Mechanische Eigenschaften (Festigkeit, Duktilität)
+- Elektrische Leitfähigkeit
+- Thermisches Verhalten
+- Optische Eigenschaften
+- Chemische Beständigkeit
 
 ---
+
 ## Raumgitter
 
 - entsteht durch die dreidimensional-periodische Verschiebung seiner Bausteine
 - charakterisiert durch drei Raumachsen x, y und z liegenden Winkel α, β, γ die Abstände auf den Achsen das jeweilige Raumgitter
-- a0, b0 und c0  (Gitterkonstanten) -> Einheitszelle
+- a$_0$, b$_0$ und c$_0$  (Gitterkonstanten) -> Einheitszelle
 
 
-![bg fit right](../assets/Figures/einheitszelle.png)
+![bg fit right 80%](../assets/Figures/einheitszelle.png)
 
 ---
 
@@ -109,7 +119,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 | tetragonal       | a₀ = b₀ ≠ c₀          | α = β = γ = 90°                    | B, CuTi₃, Sn (T > 13,5°)                                   |
 
 
-
 ---
 
 ## Häufigste Gitterformen bei Metallen
@@ -118,40 +127,110 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 |------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
 | kubisch          | a₀ = b₀ = c₀          | α = β = γ = 90°                    | Cu, Al, Ni, Au, Ag; γ-Eisen (kfz); α-Eisen, V, Cr, W (krz); Mn, Po (kp) |
 
+---
+
+## Kristallographische Bezeichnungen
+
+**Packungsdichte** = Volumen der Atome / Volumen der Einheitszelle
+
+**Miller-Indizes**
+- Ebenen: (h k l)
+- Richtungen: [h k l]
+
+![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
+
 
 ---
 
 Kubisch flächenzentriert (kfz)
+- 4 Atome pro Einheitszelle
+- Packungsdichte: 74%
+- Koordinationszahl: 12
 ![bg right 30%](../assets/Figures/kfz.png)
 
 Kubisch raumzentriert (krz)
+- 2 Atome pro Einheitszelle
+- Packungsdichte: 68%
+- Koordinationszahl: 8
 
 ![bg vertical 30%](../assets/Figures/krz.png)
 
+---
+
+
 Hexagonal dichteste Packung (hpd)
+- 2 Atome pro Einheitszelle
+- Packungsdichte: 74%
+- Koordinationszahl: 12
 
-![bg 30%](../assets/Figures/hdp.png)
-
----
-
-## Einflüsse
-
--	Korrosion: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
--	Verformung: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
--	Ultraschall: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
--	Leitfähigkeit:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
--	Magnetisierung: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen ent-lang der Würfelkante [1 0 0]
+![bg right 30%](../assets/Figures/hdp.png)
 
 ---
 
+## Packungsdichte und Eigenschaften
 
+**Packungsdichte** = Volumen der Atome / Volumen der Einheitszelle
+
+| Struktur | Packungsdichte | Typische Eigenschaften |
+|----------|----------------|------------------------|
+| kfz | 74% | Duktil, gut verformbar |
+| hdp | 74% | Anisotrop, begrenzte Duktilität |
+| krz | 68% | Höhere Festigkeit, spröder |
+
+---
+
+## Einflüsse der Kristallstruktur
+
+-	**Korrosion**: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
+-	**Verformung**: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
+-	**Ultraschall**: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
+-	**Leitfähigkeit**:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
+-	**Magnetisierung**: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen entlang der Würfelkante [1 0 0]
+
+---
+
+## Anisotropie in Kristallen
+
+**Anisotropie** = Richtungsabhängigkeit der Eigenschaften
+
+Beispiele:
+- Elastizitätsmodul variiert mit Kristallrichtung
+- Thermische Ausdehnung richtungsabhängig
+- Optische Eigenschaften (Doppelbrechung)
+
+**Praktische Bedeutung:**
+- Texturierte Materialien (Walzrichtung)
+- Einkristall-Turbinenschaufeln
+- Anisotrope Magnetwerkstoffe
+
+![bg right fit](https://www.edelmetallschmiede.ch/wp-content/uploads/2018/05/Gefuege1.jpg)
+
+---
 
 ## Polymorphie bei Metallen
 
-- Polymorphie: ist die Ausbildung von verschiedenen Gitterstrukturen in Abhängigkeit von der Temperatur
-- die verschiedenen Gitterformen sind die allotropen Modifikationen 
+- **Polymorphie**: ist die Ausbildung von verschiedenen Gitterstrukturen in Abhängigkeit von der Temperatur
+- die verschiedenen Gitterformen sind die **allotropen Modifikationen** 
 
-(auch: Polymorphie des Kohlenstoffs: Graphit, Diamant,…).
+(auch: Polymorphie des Kohlenstoffs: Graphit, Diamant, Fulleren, Graphen)
+
+**Technische Bedeutung:**
+- Wärmebehandlung von Stahl
+- Formgedächtnislegierungen
+- Phasenumwandlungshärtung
+
+---
+## Beispiel: Eisen-Polymorphie
+
+| Phase | Struktur | Temperatur | Eigenschaften |
+|-------|----------|------------|---------------|
+| α-Fe | krz | < 911°C | Ferromagnetisch |
+| γ-Fe | kfz | 911-1392°C | Paramagnetisch |
+| δ-Fe | krz | 1392-1538°C | Paramagnetisch |
+
+**Volumänderung bei Umwandlung:**
+- α → γ: Volumenkontraktion (-1%)
+- γ → α: Volumenexpansion (+1%)
 
 ---
 
@@ -159,13 +238,16 @@ Hexagonal dichteste Packung (hpd)
 
 _Dilatometrie_
 - Messung der Längenänderung aufgrund der Gitterumwandlung
+- Präzision: ±0.1 µm
+- Anwendung: Bestimmung kritischer Temperaturen
 
-_Thermische Analyse_
+_Thermische Analyse (DTA/DSC)_
 - Aufzeichnung des Temperaturverlaufs
 - Gitterwandlungen (Phasenänderungen) brauchen Wärmeenergie oder geben sie ab
-- Halte- bzw. Knickpunkte in den Erwärmungs- oder Abkühlungskurven.
-
+- Halte- bzw. Knickpunkte in den Erwärmungs- oder Abkühlungskurven
 - Haltepunkte: bei reinen Metallen
+- Knickpunkte: bei Legierungen
+
 
 
 ---
@@ -177,17 +259,25 @@ _Thermische Analyse_
 
 
 
-## Molekülstrukturen
+# Molekülstrukturen - Einführung
 
 - typisch für nichtmetallisch-organische Werkstoffe
   - natürliche Materialien: Holz, Kautschuk, Leder, Fasern usw.
   - synthetische Kunststoffe: PMMA, Epoxid, usw.
 
+---
 
+
+
+**Unterschied zu Metallen:**
+- Kovalente und Van-der-Waals-Bindungen
+- Kettenmoleküle statt Kristallgitter
+- Temperaturabhängiges Verhalten
 
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
 
 ![bg vertical 80%](https://upload.wikimedia.org/wikipedia/commons/0/03/14-05-28-LEGO-by-RalfR-061.jpg)
+
 
 ---
 
@@ -200,10 +290,51 @@ _Thermische Analyse_
 
 ---
 
+## Aufbau von Polymeren
+
+- entsteht durch Aufbaureaktionen von monomeren Grundbausteine zu Kettenmolekülen
+- **innerhalb der Ketten**: starke Atombindungen (kovalent)
+- **zwischen den Ketten**: schwache Nebenvalenzbindungen und Molekülverhakungen
+
+**Bindungsenergien:**
+- Kovalente C-C Bindung: ~350 kJ/mol
+- Van-der-Waals: ~10 kJ/mol
+- Wasserstoffbrücken: ~20 kJ/mol
+
+![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+
+---
+
+## Polymerklassifikation
+
+**Nach Struktur:**
+1. Linear: Thermoplaste (PE, PP, PS)
+2. Verzweigt: Thermoplaste mit reduzierter Kristallinität
+3. Vernetzt: Duroplaste (Epoxid), Elastomere (Gummi)
+
+**Nach Verhalten:**
+- Thermoplaste: schmelzbar
+- Duroplaste: nicht schmelzbar
+- Elastomere: gummielastisch
+
+---
+
 ## Aufbaureaktion (Polymerisation)
 
 - Es müssen freie Bindungen in den Monomeren erzeugt werden
 - die Monomere "brauchen" neue Partner, um wieder energetisches Minimum zu erreichen
+
+**Polymerisationsgrad (n):**
+- Anzahl der Monomereinheiten
+- Molmasse M = n × M₀
+- Typisch: n = 1.000 - 100.000
+
+---
+
+**Eigenschaften ändern sich mit n:**
+- Festigkeit ↑
+- Schmelztemperatur ↑
+- Löslichkeit ↓
 
 ---
 
@@ -212,37 +343,118 @@ _Thermische Analyse_
   - Aufspalten von C=C-Doppelbindungen im Monomer (katalytischer Prozess durch Druck, Temperatur, Katalysator)
   - Verbindung der aufgespaltenen Monomere zu Makromolekülen
 
+**Phasen:**
+1. Initiierung (Radikalbildung)
+2. Kettenwachstum (Addition)
+3. Kettenabbruch
+
 ![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
+
+**Beispiele:**
+- Polyethylen (PE): n CH₂=CH₂ → (-CH₂-CH₂-)ₙ
+- Polypropylen (PP), Polystyrol (PS), PVC
+
+
 
 ---
 
 ## Stufenwachstumsreaktionen 
 
 **Polykondensation**
-- Abspaltung niedermolekulare (z.B. H2O) Reaktionsprodukte durch eine chemische Reaktion schafft frei Bindungen
+- Abspaltung niedermolekulare (z.B. H₂O) Reaktionsprodukte durch eine chemische Reaktion schafft freie Bindungen
 - schrittweise Reaktion oder Unterbrechung führen zur Bildung von linearen, verzweigten oder vernetzten Polymeren (Thermoplaste, Elastomere oder Duromere)  
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
+
+
+**Beispiele:**
+- Polyester (PET): Flasche, Textilfasern
+- Polyamid (PA, Nylon): Textilfasern, technische Teile
+- Phenolharz (Bakelit): elektrische Isolatoren
+
 
 ---
 
 **Polyaddition**
 - freie Bindungen entstehen durch Umlagerungen von Doppelbindungen zweier unterschiedlicher Monomermoleküle
 - diese bilden dann Molekülketten
+- **Keine Abspaltprodukte** (Unterschied zur Polykondensation)
 
-![](https://upload.wikimedia.org/wikipedia/commons/4/4d/Polyaddition_Polyurethane_V.2.1.png)
+**Wichtigstes Beispiel:**
+- Polyurethan (PU): Schaumstoffe, Lacke, Elastomere
+
+---
+
+## Kristallinität bei Polymeren
+
+**Teilkristallin:**
+- Geordnete (kristalline) und ungeordnete (amorphe) Bereiche
+- Kristallinität: 30-80%
+- Beispiele: PE, PP, PA
+
+**Amorph:**
+- Keine Ordnung
+- Typisch für verzweigte und vernetzte Polymere
+- Beispiele: PS, PMMA, Epoxid
+
+---
+
+**Einfluss auf Eigenschaften:**
+- Höhere Kristallinität → höhere Festigkeit, Steifigkeit
+- Niedrigere Kristallinität → bessere Transparenz, Flexibilität
 
 ---
 
 ## Glasig-amorphe Strukturen
 
-- Gläser sind ein nichtmetallisch-anorganisches, vorzugsweise silikatisches Schmelzprodukte
-- nichtkristallinen, also amorphen Zustand
-- bei Glas, wird die Schmelze zunächst unterkühlt und dann unterhalb der Transformations- temperatur Tg „eingefroren“. 
-
+- Gläser sind ein nichtmetallisch-anorganisches, vorzugsweise silikatisches Schmelzprodukt
+- **nichtkristallinen, also amorphen Zustand**
+- bei Glas wird die Schmelze zunächst unterkühlt und dann unterhalb der Transformationstemperatur Tg „eingefroren"
 ![bg right fit](../assets/Figures/amorph.png)
 
+---
+
+**Glasübergangstemperatur Tg:**
+- Unterhalb: spröde, hart
+- Oberhalb: geringe Härte, verformbar
+![bg right fit](../assets/Figures/amorph.png)
 
 ---
+
+## Glasbildung
+
+**Bedingungen für Glasbildung:**
+1. Schnelle Abkühlung (Unterkühlung)
+2. Hohe Viskosität der Schmelze
+3. Komplexe Molekülstrukturen
+
+**Technische Gläser:**
+- Kalk-Natron-Glas (Fenster)
+- Borosilikatglas (Laborglas)
+- Quarzglas (Optik)
+- Metallische Gläser (amorphe Metalle)
+
+**Eigenschaften:**
+- Isotrop
+- Transparent (oft)
+- Spröde bei Raumtemperatur
+
+---
+
+## Metallische Gläser
+
+**Herstellung:**
+- Extrem schnelle Abkühlung (10⁶ K/s)
+- Verhindert Kristallisation
+
+**Eigenschaften:**
+- Sehr hohe Festigkeit
+- Keine Versetzungen
+- Korrosionsbeständig
+- Weichmagnetisch
+
+**Anwendungen:**
+- Transformatorkerne
+- Sportgeräte (Golf, Tennis)
+- Schmuck
 
 
 ---
@@ -250,45 +462,52 @@ _Thermische Analyse_
 # Realstruktur von Kristallen
 ## Gitterbaudefekte
 
--	Nulldimensionale Fehlstellen (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	Eindimensionale Fehlstellen (Liniendefekte): Versetzungen
--	Zweidimensionale Fehlstellen (Flächendefekte): Stapelfehler, Korngrenzen, Subkorn-grenzen, Phasengrenzen
+-	**Nulldimensionale Fehlstellen** (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
+-	**Eindimensionale Fehlstellen** (Liniendefekte): Versetzungen
+-	**Zweidimensionale Fehlstellen** (Flächendefekte): Stapelfehler, Korngrenzen, Subkorngrenzen, Phasengrenzen
+-	**Dreidimensionale Defekte**: Poren, Einschlüsse, Risse
 
 ---
+
 
 ## Nulldimensionale Fehlstellen
 
 ![bg right 50%](../assets/Figures/ideales_gitter.png)
 
-
-
-<details>
-<summary>Was gibt es für mögliche Varianten?</summary>
-<div>
-
-- Zwischengitteratome
-- Leerstellen
-- Frenkeltyp (Autreten der gleichen Zahl Zwischen-gitteratome und Fehlstellen)
+**Arten:**
+- Leerstellen (Vakanz)
+- Zwischengitteratome (Interstitial)
 - Substitutions-Fremdatom
-- Zwischengitter-Fremdatom 
-</div>
-</details>
+- Zwischengitter-Fremdatom
+- Frenkel-Defekt (Leerstelle + Zwischengitteratom)
+- Schottky-Defekt (Leerstellen-Paar)
+
+
+---
+
+## Leerstellen
+
+**Auswirkungen:**
+- Diffusion ermöglichen
+- Festigkeit reduzieren
+- Leerstellenwanderung
 
 ---
 
 ## Fremdatome
 
-<details>
-<summary>Wie lassen sich Fremdatome nutzen?</summary>
-<div>
-
+**Nutzen:**
 -	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
     - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
 - Zwischengitter und Substitutionsfremdatom
     - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
-</div>
-</details>
+---
 
+
+**Mischkristallverfestigung:**
+- Atomgrößenunterschied erzeugt Gitterverzerrungen
+- Behinderung der Versetzungsbewegung
+- Festigkeitssteigerung proportional zu Wurzel der Konzentration
 
 ---
 
@@ -303,20 +522,94 @@ _Thermische Analyse_
 ![bg right 80%](../assets/Figures/versetzung.png)
 ![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
 
+**Versetzungsdichte:**
+- Geglühter Kristall: 10⁶ - 10⁸ cm⁻²
+- Verformter Kristall: 10¹⁰ - 10¹² cm⁻²
 
 ---
+
 ## Versetzungsarten
 
-- Stufenversetzung
-$E \approx \frac34 G b^2$
+
+**Burgersvektor**
+
+**Definition:**
+- Vektor, der die Gitterverschiebung beschreibt
+- Betrag: meist eine Gitterkonstante
+- Richtung: Gleitrichtung
+
+**Bedeutung:**
+- Charakterisiert die Versetzung
+- Bleibt entlang der Versetzungslinie konstant
+- Mischt Stufen- und Schraubencharakter
+
+---
+
+**Bestimmung:**
+- Burgers-Umlauf im Kristall
+- Schließungsfehler = Burgersvektor
+
+---
+
+**Stufenversetzung**
+- Extra-Halbebene im Kristall
+- Energie: $E \approx \frac{3}{4} G b^2$
+- Burgersvektor ⊥ Versetzungslinie
+
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/9/99/Dislocation_edge_d2.svg)
 
-- Schraubenversetzungen 
-$E \approx \frac12 G b^2$
+**Schraubenversetzungen**
+- Spiralförmige Gitterverzerrung
+- Energie: $E \approx \frac{1}{2} G b^2$
+- Burgersvektor ∥ Versetzungslinie
 
 ![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/52/Dislocation_screw_e.svg)
 
 ---
+
+
+## Versetzungsbewegung
+
+**Gleitbewegung:**
+- Versetzung bewegt sich in Gleitebene
+- Niedrige erforderliche Schubspannung
+- Hauptmechanismus der plastischen Verformung
+
+**Klettern (Climb):**
+- Versetzung verlässt Gleitebene
+- Erfordert Diffusion von Leerstellen
+- Nur bei hohen Temperaturen
+- Wichtig beim Kriechen
+
+---
+
+**Quergleiten (Cross-slip):**
+- Schraubenversetzung wechselt Gleitebene
+- Ermöglicht dreidimensionale Verformung
+
+---
+
+## Versetzungswechselwirkungen
+
+**Versetzungsaufstau:**
+- Versetzungen stauen sich vor Hindernissen
+- Spannungskonzentration
+- Kann zu Rissbildung führen
+
+**Versetzungsverflechtung:**
+- Versetzungen blockieren sich gegenseitig
+- Verfestigungsmechanismus
+- "Wälder" von Versetzungen
+
+---
+
+**Versetzungsreaktionen:**
+- Zwei Versetzungen können verschmelzen
+- Neue Versetzung mit anderem Burgersvektor
+- Frank-Read-Quelle: Versetzungsmultiplikation
+
+---
+
 # [Defektübersicht](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
 
 
