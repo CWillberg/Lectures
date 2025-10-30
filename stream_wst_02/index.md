@@ -35,6 +35,7 @@ Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector
 
 Contact: christian.willberg@h2.de
 
+--- 
 
 - Atomistic structure (type of atomic building blocks)
 - Fine structure (bonds between atomic building blocks and their geometric arrangement)
