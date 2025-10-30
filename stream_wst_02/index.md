@@ -28,7 +28,7 @@ img[alt="ORCID"] {
 </style>
 
 
-## Materials-and-Production-Engineering-Lecture Materials Science - Lecture on Structures of materials
+## Materials-and-Production-Engineering - Lecture on Structures of materials
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right fit](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
