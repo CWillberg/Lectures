@@ -2,7 +2,7 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Reale Strukturen und Eigenschaften'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
 title: Reale Strukturen und Eigenschaften
@@ -83,8 +83,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 <!--paginate: true-->
 
 
-
----
 
 ## Warum ist die Feinstruktur wichtig?
 
@@ -294,12 +292,8 @@ _Thermische Analyse (DTA/DSC)_
 
 - entsteht durch Aufbaureaktionen von monomeren Grundbausteine zu Kettenmolekülen
 - **innerhalb der Ketten**: starke Atombindungen (kovalent)
-- **zwischen den Ketten**: schwache Nebenvalenzbindungen und Molekülverhakungen
+- **zwischen den Ketten**: schwache Nebenvalenzbindungen und Molekülverhakungen (Van-der-Waals und Wasserstoffbrückenbindung)
 
-**Bindungsenergien:**
-- Kovalente C-C Bindung: ~350 kJ/mol
-- Van-der-Waals: ~10 kJ/mol
-- Wasserstoffbrücken: ~20 kJ/mol
 
 ![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
 
@@ -350,15 +344,22 @@ _Thermische Analyse (DTA/DSC)_
 
 ![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
 
+---
+
+
+
 **Beispiele:**
 - Polyethylen (PE): n CH₂=CH₂ → (-CH₂-CH₂-)ₙ
 - Polypropylen (PP), Polystyrol (PS), PVC
 
+![bg right 30% fit](https://upload.wikimedia.org/wikipedia/commons/0/0d/LDPE_bottle.jpg)
 
+
+![bg vertical 30% fit](https://upload.wikimedia.org/wikipedia/commons/c/c7/Mint_box_polypropylene_lid.JPG)
 
 ---
 
-## Stufenwachstumsreaktionen 
+## Weitere Prozesse 
 
 **Polykondensation**
 - Abspaltung niedermolekulare (z.B. H₂O) Reaktionsprodukte durch eine chemische Reaktion schafft freie Bindungen
@@ -394,6 +395,8 @@ _Thermische Analyse (DTA/DSC)_
 - Keine Ordnung
 - Typisch für verzweigte und vernetzte Polymere
 - Beispiele: PS, PMMA, Epoxid
+
+![bg right fit](https://cdn1.slideserve.com/3117708/slide1-l.jpg)
 
 ---
 
@@ -432,6 +435,8 @@ _Thermische Analyse (DTA/DSC)_
 - Quarzglas (Optik)
 - Metallische Gläser (amorphe Metalle)
 
+---
+
 **Eigenschaften:**
 - Isotrop
 - Transparent (oft)
@@ -451,15 +456,13 @@ _Thermische Analyse (DTA/DSC)_
 - Korrosionsbeständig
 - Weichmagnetisch
 
-**Anwendungen:**
-- Transformatorkerne
-- Sportgeräte (Golf, Tennis)
-- Schmuck
-
 
 ---
 
 # Realstruktur von Kristallen
+
+---
+
 ## Gitterbaudefekte
 
 -	**Nulldimensionale Fehlstellen** (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
@@ -499,10 +502,18 @@ _Thermische Analyse (DTA/DSC)_
 **Nutzen:**
 -	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
     - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
-- Zwischengitter und Substitutionsfremdatom
-    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
+
+
+![bg right 40%](https://upload.wikimedia.org/wikipedia/commons/2/22/Schema_-_n-dotiertes_Silicium.svg)
+
+
+![bg vertical 40%](https://upload.wikimedia.org/wikipedia/commons/0/0d/Schema_-_p-dotiertes_Silicium.svg)
+
 ---
 
+- Zwischengitter und Substitutionsfremdatom
+    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
+    - Größe und chemische Ähnlichkeit definiert Substitution oder Zwischengitter
 
 **Mischkristallverfestigung:**
 - Atomgrößenunterschied erzeugt Gitterverzerrungen
@@ -510,7 +521,6 @@ _Thermische Analyse (DTA/DSC)_
 - Festigkeitssteigerung proportional zu Wurzel der Konzentration
 
 ---
-
 
 ## Versetzungen
 
@@ -628,11 +638,115 @@ _Thermische Analyse (DTA/DSC)_
 ---
 
 
+**Korngrenzen:**
+- Großwinkelkorngrenzen (θ > 15°)
+- Kleinwinkelkorngrenzen (θ < 15°)
+- Spezielle Korngrenzen (Zwillingsgrenzen)
+
+**Phasengrenzen:**
+- Kohärente Grenzen (epitaktisch)
+- Semi-kohärente Grenzen (mit Versetzungen)
+- Inkohärente Grenzen (ungeordnet)
+
+**Subkorngrenzen:**
+- Anordnung von Versetzungen
+- Entstehen bei Erholung
+
+
+---
+
+## Korngrenzeneigenschaften
+
+**Strukturelle Merkmale:**
+- Höhere Energie als Kristallinneres
+- Reduzierte Atomdichte
+- Erhöhte chemische Aktivität
+
+**Einfluss auf Eigenschaften:**
+- Diffusion entlang Korngrenzen schneller
+- Bevorzugte Korrosionsangriffsstellen
+- Behinderung der Versetzungsbewegung (Hall-Petch)
+- Ausgangspunkt für Rekristallisation
+
+---
+
+## Große Körner (grobes Gefüge)
+
+
+- **Niedrigere Festigkeit** 
+  - Wenige Korngrenzen als Versetzungsbarrieren
+  - Lange freie Weglängen für Versetzungen
+  
+- **Höhere Duktilität** 
+  - Mehr Raum für Versetzungsbewegung
+  - Bessere Verformbarkeit
+
+---
+
+### Hochtemperaturverhalten
+
+- **Besseres Kriechverhalten** 
+  - Weniger Korngrenzendiffusion
+  - Stabiler bei erhöhten Temperaturen
+
+### Anwendungen
+
+- Turbinenschaufeln (Hochtemperatur)
+- Wenn Duktilität wichtiger als Festigkeit
+- Einkristalle für spezielle Anwendungen
+
+---
+
+## Kleine Körner (feines Gefüge)
+
+- **Höhere Festigkeit** 
+  - Viele Korngrenzen = viele Barrieren
+  - σ_y steigt mit d^(-1/2)
+
+- **Höhere Härte** 
+  - Widerstand gegen lokale Verformung
+
+- **Gute Zähigkeit** 
+  - Rissbremsung an Korngrenzen
+
+---
+
+### Verformungsverhalten
+
+- **Homogenere Verformung**
+  - Viele kleine Bereiche aktiv
+  
+- **Leicht reduzierte Duktilität** 
+  - Aber oft akzeptabel
+
+### Anwendungen
+
+- Hochfeste Stähle (Automobilbau)
+- Strukturbauteile
+- Überall wo Festigkeit + Zähigkeit gefragt ist
+
+---
+
+## Stapelfehler
+
+**Definition:**
+- Fehler in der Stapelfolge dichtest gepackter Ebenen
+- Typisch in kfz-Metallen
+
+**Stapelfolgen:**
+- Kfz: ABC ABC ABC...
+- Hdp: AB AB AB...
+- Stapelfehler: ABC AB ABC... (lokale hdp-Sequenz)
+
+
+---
 ## Plastizität
 
 Gut oder Schlecht
 
 ![bg right 70%](../assets/Figures/fragezeichen.png)
+
+
 
 ---
 
@@ -651,6 +765,21 @@ Gut oder Schlecht
   - Keramik
   - Faserkunstoffverbunde (Epoxid-Glasfaser oder Epoxid-Kohlefaser)
    
+---
+
+
+**Vorteile der Plastizität:**
+- Umformbarkeit (Fertigung)
+- Energieabsorption (Crash)
+- Zähigkeit (keine spontane Rissausbreitung)
+- Spannungsabbau
+
+**Nachteile der Plastizität:**
+- Dimensionsänderung
+- Kriechverformung
+- Bauteilversagen bei Überlast
+- Ermüdung
+
 ---
 
 ## Plastizität - Einkristall
@@ -693,33 +822,65 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 ![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
 
-- $R_m$ - Zugfestigkeit
-- $R_e$ - Streckgrenze
-- Dehngrenze oder Elastizitätsgrenze $R_{p0,2}$
-  - Belastung und dann Entlastung 0.2% Dehung verbleibt
-- Dehngrenze wird als Ersatzstreckgrenze verwendet
 
+**Charakteristische Punkte:**
+- $R_m$ - Zugfestigkeit (Maximum)
+- $R_e$ - Streckgrenze (Elastizitätsgrenze bei linearem Verlauf)
+- $R_{p0,2}$ - Dehngrenze (0.2% bleibende Dehnung)
+- $A$ - Bruchdehnung (in %)
+- $Z$ - Brucheinschnürung (in %)
+
+
+[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
+
+---
+
+
+## Streckgrenze und Dehngrenze
+
+**Streckgrenze Re:**
+- Bei Werkstoffen mit ausgeprägter Streckgrenze
+- Charakteristisch für niedrig legierten Stahl
+- Markiert Übergang elastisch → plastisch
+
+**Dehngrenze Rp0.2:**
+- Ersatzstreckgrenze bei Werkstoffen ohne ausgeprägte Streckgrenze
+- Belastung bis 0.2% bleibende Dehnung, dann Entlastung
+- Standard für Aluminiumlegierungen, hochlegierte Stähle
 
 [Datenblatt Stahl](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
 
 
 ---
 
-## Streckgrenze
+## Streckgrenzenphänomen
 
 ![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
 
-- obere Streckgrenze $R_{eH}$
-- untere Streckgrenze $R_{eL}$
->gezackter Bereich: Lüdersbereich
+**Obere und untere Streckgrenze:**
+- $R_{eH}$ - obere Streckgrenze (Maximum)
+- $R_{eL}$ - untere Streckgrenze (Plateau)
 
-[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
+**Lüdersbereich:**
+- Gezackter Bereich nach Streckgrenze
+- Lüdersbänder wandern durch Probe
+- Ausscheidungen blockieren Versetzungen
+- Nach Losreißen: Versetzungen bewegen sich frei
 
 ---
 
+
 ## Plastizität - Umformen
-- [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
-- [Tiefziehen Real](https://www.youtube.com/watch?v=rHfepOqPVHI)
+
+**Massivumformung:**
+- Schmieden, Pressen, Walzen, [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
+- Große Formänderungen
+- Kornverfeinerung
+
+**Blechumformung:**
+- Biegen, Streckziehen, [Tiefziehen](https://www.youtube.com/watch?v=rHfepOqPVHI)
+- Begrenzte Formänderung
+- Anisotropie wichtig
 
 
 ---
@@ -747,12 +908,45 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 ![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
 
+
+---
+
+1. **Primärkriechen:**
+- Abnehmende Kriechrate
+- Verfestigung dominiert
+   
+2. **Sekundärkriechen:**
+- Konstante Kriechrate (stationär)
+- Gleichgewicht: Verfestigung - Erholung
+   
+3. **Tertiärkriechen:**
+- Zunehmende Kriechrate
+- Schädigung (Poren, Risse)
+- Führt zum Bruch
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
+
 ---
 
 ## Kriechen in Kunststoffen
 - bestehen aus Molekülketten 
 - diese gleiten bzw. entknäueln sich diese unter äußerer 
 - Sekundärbindungne zwischen den Makromolekülen werden neu gebildet und Deformation bleibt erhalten
+
+---
+
+
+## Zusammenfassung
+
+**Kernpunkte:**
+1. Kristallstrukturen bestimmen grundlegende Eigenschaften
+2. Realstrukturen enthalten immer Defekte
+3. Defekte ermöglichen plastische Verformung
+4. Versetzungen sind Träger der Plastizität
+5. Korngröße beeinflusst Festigkeit (Hall-Petch)
+6. Temperatur aktiviert zusätzliche Mechanismen (Kriechen)
+7. Struktur-Eigenschafts-Beziehungen sind fundamental
+
 
 
 

@@ -2,12 +2,13 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Reale Strukturen und Eigenschaften'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: MTI - Physikalische Eigenschaften von Werkstoffen
+title: MTI -  Reale Strukturen und Eigenschaften
 author: Christian Willberg
 ---
+
 
 
 
@@ -27,10 +28,10 @@ img[alt="ORCID"] {
 </style>
 
 
-## MTI - Physikalische Eigenschaften von Werkstoffen
+## Vorlesung Werkstofftechnik - Vorlesung Reale Strukturen und Eigenschaften
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/a/a2/Bochumer_Verein-23-50078.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/d/d7/Gold-crystals.jpg)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -39,7 +40,11 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ---
 
 ## Inhalte
-
+- Kristallstrukturen identifizieren und charakterisieren
+- Molekülstrukturen und deren Aufbau verstehen
+- Realstrukturen von Kristallen mit ihren Defekten beschreiben
+- Zusammenhänge zwischen Struktur und mechanischen Eigenschaften erklären
+- Plastische Verformungsmechanismen
 
 ![bg right 70%](../assets/QR/mti_ft_03.png)
 
@@ -52,614 +57,874 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 
 
-## Werkstoffeigenschaften
+---
 
-<details>
-<summary>Was sind Werkstoffeigenschaften?</summary>
+<!--paginate: true-->
 
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    <pre align="center" class="mermaid">
-    %%{init: {'theme': 'forest'}}%%
-    mindmap
-      root((Eigenschaften))
-        Physikalisch
-          Mechanisch
-          Elektrisch
-          Thermisch
-          ...
-        Chemisch
-            Löslichkeit
-            Elektronegativität
-            ...
-        Biologisch / Physiologisch
-            Umweltwirkung
-            Verwitterbarkeit
-            Toxidität
-            ...
-        Sozial / Gesellschaftlich
-            Wert
-            Akzeptanz
-            Arbeitsbedingungen
-            Herkunft
-            ...
-    </pre>
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    </script>
-  </body>
-</html>
-</details>
 
-<!DOCTYPE html>
+
+## Warum ist die Feinstruktur wichtig?
+
+**Struktur bestimmt Eigenschaften**
+
+- Mechanische Eigenschaften (Festigkeit, Duktilität)
+- Elektrische Leitfähigkeit
+- Thermisches Verhalten
+- Optische Eigenschaften
+- Chemische Beständigkeit
+
+---
+
+## Raumgitter
+
+- entsteht durch die dreidimensional-periodische Verschiebung seiner Bausteine
+- charakterisiert durch drei Raumachsen x, y und z liegenden Winkel α, β, γ die Abstände auf den Achsen das jeweilige Raumgitter
+- a$_0$, b$_0$ und c$_0$  (Gitterkonstanten) -> Einheitszelle
+
+
+![bg fit right 80%](../assets/Figures/einheitszelle.png)
+
+---
+
+| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
+|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
+| triklin          | a₀ ≠ b₀ ≠ c₀          | α ≠ β ≠ γ ≠ 90°                    | Silikat-Minerale                                           |
+| monoklin         | a₀ ≠ b₀ ≠ c₀          | α = γ = 90°; β ≠ 90°               | Mo₂S₃; β-Pu                                                |
+| (ortho)rhombisch | a₀ ≠ b₀ ≠ c₀          | α = β = γ = 90°                    | U, S, P, Ga, γ-Sn                                          |
+| rhomboedrisch    | a₀ = b₀ = c₀          | α = β = γ ≠ 90°                    | As, Hg, Sb                                                 |
+| hexagonal        | a₀ = b₀ ≠ c₀          | α = β = 90°; γ = 120°              | α-Ti, Mg, Zn                                               |
+| tetragonal       | a₀ = b₀ ≠ c₀          | α = β = γ = 90°                    | B, CuTi₃, Sn (T > 13,5°)                                   |
+
+
+---
+
+## Häufigste Gitterformen bei Metallen
+
+| Kristallsystem   | Gitterkonstanten      | Winkel        | Beispiele                                                 |
+|------------------|-----------------------|------------------------------------|-----------------------------------------------------------|
+| kubisch          | a₀ = b₀ = c₀          | α = β = γ = 90°                    | Cu, Al, Ni, Au, Ag; γ-Eisen (kfz); α-Eisen, V, Cr, W (krz); Mn, Po (kp) |
+
+---
+
+## Kristallographische Bezeichnungen
+
+**Packungsdichte** = Volumen der Atome / Volumen der Einheitszelle
+
+**Miller-Indizes**
+- Ebenen: (h k l)
+- Richtungen: [h k l]
+
+![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
+
+
+---
+
+Kubisch flächenzentriert (kfz)
+- 4 Atome pro Einheitszelle
+- Packungsdichte: 74%
+- Koordinationszahl: 12
+![bg right 30%](../assets/Figures/kfz.png)
+
+Kubisch raumzentriert (krz)
+- 2 Atome pro Einheitszelle
+- Packungsdichte: 68%
+- Koordinationszahl: 8
+
+![bg vertical 30%](../assets/Figures/krz.png)
+
+---
+
+
+Hexagonal dichteste Packung (hpd)
+- 2 Atome pro Einheitszelle
+- Packungsdichte: 74%
+- Koordinationszahl: 12
+
+![bg right 30%](../assets/Figures/hdp.png)
+
+---
+
+## Packungsdichte und Eigenschaften
+
+**Packungsdichte** = Volumen der Atome / Volumen der Einheitszelle
+
+| Struktur | Packungsdichte | Typische Eigenschaften |
+|----------|----------------|------------------------|
+| kfz | 74% | Duktil, gut verformbar |
+| hdp | 74% | Anisotrop, begrenzte Duktilität |
+| krz | 68% | Höhere Festigkeit, spröder |
+
+---
+
+## Einflüsse der Kristallstruktur
+
+-	**Korrosion**: Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
+-	**Verformung**: Plastische Verformung erfolgt entlang bevorzugter kristallografischer Ebenen und Richtungen → Gleitsysteme
+-	**Ultraschall**: Verwendung von Schwingquarzen mit speziellen kristallografischen Begrenzungsflächen
+-	**Leitfähigkeit**:	Verwendung von Germanium- oder Silizium-Wafern in (1 1 1)- oder (1 0 0) - Orientierung für Halbleiterelemente
+-	**Magnetisierung**: leichteste Magnetisierung von Eisen-Silizium-Transformatorenblechen entlang der Würfelkante [1 0 0]
+
+---
+
+## Anisotropie in Kristallen
+
+**Anisotropie** = Richtungsabhängigkeit der Eigenschaften
+
+Beispiele:
+- Elastizitätsmodul variiert mit Kristallrichtung
+- Thermische Ausdehnung richtungsabhängig
+- Optische Eigenschaften (Doppelbrechung)
+
+**Praktische Bedeutung:**
+- Texturierte Materialien (Walzrichtung)
+- Einkristall-Turbinenschaufeln
+- Anisotrope Magnetwerkstoffe
+
+![bg right fit](https://www.edelmetallschmiede.ch/wp-content/uploads/2018/05/Gefuege1.jpg)
+
+---
+
+## Polymorphie bei Metallen
+
+- **Polymorphie**: ist die Ausbildung von verschiedenen Gitterstrukturen in Abhängigkeit von der Temperatur
+- die verschiedenen Gitterformen sind die **allotropen Modifikationen** 
+
+(auch: Polymorphie des Kohlenstoffs: Graphit, Diamant, Fulleren, Graphen)
+
+**Technische Bedeutung:**
+- Wärmebehandlung von Stahl
+- Formgedächtnislegierungen
+- Phasenumwandlungshärtung
+
+---
+## Beispiel: Eisen-Polymorphie
+
+| Phase | Struktur | Temperatur | Eigenschaften |
+|-------|----------|------------|---------------|
+| α-Fe | krz | < 911°C | Ferromagnetisch |
+| γ-Fe | kfz | 911-1392°C | Paramagnetisch |
+| δ-Fe | krz | 1392-1538°C | Paramagnetisch |
+
+**Volumänderung bei Umwandlung:**
+- α → γ: Volumenkontraktion (-1%)
+- γ → α: Volumenexpansion (+1%)
+
+---
+
+## Bestimmung der Umwandlungspunkte
+
+_Dilatometrie_
+- Messung der Längenänderung aufgrund der Gitterumwandlung
+- Präzision: ±0.1 µm
+- Anwendung: Bestimmung kritischer Temperaturen
+
+_Thermische Analyse (DTA/DSC)_
+- Aufzeichnung des Temperaturverlaufs
+- Gitterwandlungen (Phasenänderungen) brauchen Wärmeenergie oder geben sie ab
+- Halte- bzw. Knickpunkte in den Erwärmungs- oder Abkühlungskurven
+- Haltepunkte: bei reinen Metallen
+- Knickpunkte: bei Legierungen
 
 
 
 ---
 
-## Symmetrien
-- isotropie
-- transversale isotropie
-- orthotropie
-- ...
-- anisotropie
-![bg right 80%](../assets/Figures/xyz.png)
-
-<!---
-- Diskussion; Eigenschaften können richtungsabhängig sein
-- Praxisbeispiele
--->
-
----
-
-## Mechanische Eigenschaften
-<a id="Mechanik"></a>
-
-- die **reversible** Verformung, bei der sofort bzw. eine bestimmte Zeit nach dem Einwirken der äußeren Belastung der verformte Werkstoff seine ursprüngliche Form zurückerhält: elastische und viskoelastische Verformung;
-
-- die **irreversible (bleibende)** Verformung, bei der die Formänderung auch nach dem Einwirken der äußeren Belastung erhalten bleibt: plastische und viskose Verformung;
-
-- der Bruch, d.h. eine durch Entstehen und Ausbreiten von Rissen bewirkte Trennung des Werkstoffes.
-
-
----
-
-## Elastizität
-- reversibel, energieerhaltend
-- Hooksches Gesetz 1D
-Normalspannung $\sigma = E\varepsilon$
-Schubspannung $\tau = G\gamma$
-
----
-
-## Grundlagen
-
-- Normaldehnung [-]
-$\varepsilon_{mechanisch} = \frac{l - l_0}{l_0}$
-
-- Normalspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\sigma = \frac{F}{A}=E\varepsilon$
-E - Elastizitätsmodul, Young's modulus $\left[\frac{N}{m^2}\right]$\
-
-
-![bg right:25%](../assets/Figures/Normalspannung.gif)
-
----
-
-## Grundlagen
-
-- Schubdehnungen [-]
-$\varepsilon = \frac12(\frac{u_x}{l_0}+\frac{u_y}{b_0})=\frac{\gamma}{2}$
-
-- Schubspannung $\left[\frac{N}{m^2}\right]$, $[Pa]$
-$\tau = \frac{F_s}{A}= G\gamma$
-
-- Normal- und Schubspannungen sind nicht kompatibel; daher die Vergleichsspannungen -> Technische Mechnanik
-
-- G - Schub-, Gleitmodul, Shear modulus $\left[\frac{N}{m^2}\right]$
-
-![bg right:25%](../assets/Figures/Schubspannung.gif)
-
-
----
-
-## Grundlagen
-
-- Querkontraktionszahl [-]
-- $\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
-für homogene Werkstoffe $0\leq\nu\leq 0.5$
-für heterogene Werkstoffe sind anderen Konstellationen denkbar
-
-- [Kompressionsmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{3(1-2\nu)}$
-- [Schubmodul](https://de.wikipedia.org/wiki/Kompressionsmodul#Umrechnung_zwischen_den_elastischen_Konstanten_isotroper_Festk%C3%B6rper) $K = \frac{E}{2(1+\nu)}$
-
-![bg right:25%](../assets/Figures/Kompression.gif)
-
----
-
-## Werkstoffbeispiele
-
-| Werkstoff                         | E [GPa]   | G [GPa] | $\nu [-]$     |
-|:----------------------------------|:----------|:--------|:----------|
-| Stahl unlegiert                   | 200       | 77      | 0.30      |
-| Titan                             | 110       | 40      | 0.36      |
-| Kupfer                            | 120       | 45      | 0.35      |
-| Aluminium                         | 70        | 26      | 0.34      |
-| Magnesium                         | 45        | 17      | 0.27      |
-| Wolfram                           | 360       | 130     | 0.35      |
-| Gusseisen mit lamellarem Graphit  | 120       | 60      | 0.25      |
-| Messing                           | 100       | 35      | 0.35      |
-| Thermoplaste/Duromere             | 2 … 5     | 1 … 2   | ~0.35   |
-| Elastomere                        | 0.1       | 0.03    | 0.45 - 0.49|
-| Sperrholz                         | 4 … 16    | -       | -         |
-| Beton                             | 40 … 45   | -       | -         |
+![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
 
 
 ---
 
 
-## Steifigkeiten
-<details>
-<summary>Wie Materialeigenschaften den Steifigkeiten zusammen?</summary>
 
-- Material $\cdot$ Querschnitte = Steifigkeit
-- Dehn-, Normalsteifigkeit = $EA$
-- Biegesteifigkeit = $EI$
-- Torsionssteifigkeit = $GI_P$
+# Molekülstrukturen - Einführung
 
-</details>
-
-![bg fit right:50%](../assets/Figures/IWES_test.jpg)
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Bildreferenz</a>
-</div>
-
-
----
-
-## Festigkeit
-
-[Die Festigkeit eines Werkstoffes beschreibt die Beanspruchbarkeit durch mechanische Belastungen, bevor es zu einem Versagen kommt, und wird angegeben als mechanische Spannung $\left[N/m^2\right]$. Das Versagen kann eine **unzulässige Verformung** sein, insbesondere eine **plastische (bleibende) Verformung** oder auch ein **Bruch**.](https://de.wikipedia.org/wiki/Festigkeit)
-
-
->Wichtig: Festigkeit $\neq$ Steifigkeit
+- typisch für nichtmetallisch-organische Werkstoffe
+  - natürliche Materialien: Holz, Kautschuk, Leder, Fasern usw.
+  - synthetische Kunststoffe: PMMA, Epoxid, usw.
 
 ---
 
 
-## Plastische Versagen 
 
-![bg fit right:50%](../assets/Figures/Stress_strain_ductile.svg)
+**Unterschied zu Metallen:**
+- Kovalente und Van-der-Waals-Bindungen
+- Kettenmoleküle statt Kristallgitter
+- Temperaturabhängiges Verhalten
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
+
+![bg vertical 80%](https://upload.wikimedia.org/wikipedia/commons/0/03/14-05-28-LEGO-by-RalfR-061.jpg)
 
 
+---
+
+- entsteht durch Aufbaureaktionen von monomeren Grundbausteine zu Kettenmolekülen
+- innerhalb der Ketten treten Atombindungen auf
+- zwischen den Ketten existieren Nebenvalenzbindungen und Molekülverhakungen
+
+
+![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+
+---
+
+## Aufbau von Polymeren
+
+- entsteht durch Aufbaureaktionen von monomeren Grundbausteine zu Kettenmolekülen
+- **innerhalb der Ketten**: starke Atombindungen (kovalent)
+- **zwischen den Ketten**: schwache Nebenvalenzbindungen und Molekülverhakungen (Van-der-Waals und Wasserstoffbrückenbindung)
+
+
+![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+
+---
+
+## Polymerklassifikation
+
+**Nach Struktur:**
+1. Linear: Thermoplaste (PE, PP, PS)
+2. Verzweigt: Thermoplaste mit reduzierter Kristallinität
+3. Vernetzt: Duroplaste (Epoxid), Elastomere (Gummi)
+
+**Nach Verhalten:**
+- Thermoplaste: schmelzbar
+- Duroplaste: nicht schmelzbar
+- Elastomere: gummielastisch
+
+---
+
+## Aufbaureaktion (Polymerisation)
+
+- Es müssen freie Bindungen in den Monomeren erzeugt werden
+- die Monomere "brauchen" neue Partner, um wieder energetisches Minimum zu erreichen
+
+**Polymerisationsgrad (n):**
+- Anzahl der Monomereinheiten
+- Molmasse M = n × M₀
+- Typisch: n = 1.000 - 100.000
+
+---
+
+**Eigenschaften ändern sich mit n:**
+- Festigkeit ↑
+- Schmelztemperatur ↑
+- Löslichkeit ↓
+
+---
+
+## Kettenpolymerisationen
+
+  - Aufspalten von C=C-Doppelbindungen im Monomer (katalytischer Prozess durch Druck, Temperatur, Katalysator)
+  - Verbindung der aufgespaltenen Monomere zu Makromolekülen
+
+**Phasen:**
+1. Initiierung (Radikalbildung)
+2. Kettenwachstum (Addition)
+3. Kettenabbruch
+
+![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
+
+---
+
+
+
+**Beispiele:**
+- Polyethylen (PE): n CH₂=CH₂ → (-CH₂-CH₂-)ₙ
+- Polypropylen (PP), Polystyrol (PS), PVC
+
+![bg right 30% fit](https://upload.wikimedia.org/wikipedia/commons/0/0d/LDPE_bottle.jpg)
+
+
+![bg vertical 30% fit](https://upload.wikimedia.org/wikipedia/commons/c/c7/Mint_box_polypropylene_lid.JPG)
+
+---
+
+## Weitere Prozesse 
+
+**Polykondensation**
+- Abspaltung niedermolekulare (z.B. H₂O) Reaktionsprodukte durch eine chemische Reaktion schafft freie Bindungen
+- schrittweise Reaktion oder Unterbrechung führen zur Bildung von linearen, verzweigten oder vernetzten Polymeren (Thermoplaste, Elastomere oder Duromere)  
+
+
+**Beispiele:**
+- Polyester (PET): Flasche, Textilfasern
+- Polyamid (PA, Nylon): Textilfasern, technische Teile
+- Phenolharz (Bakelit): elektrische Isolatoren
+
+
+---
+
+**Polyaddition**
+- freie Bindungen entstehen durch Umlagerungen von Doppelbindungen zweier unterschiedlicher Monomermoleküle
+- diese bilden dann Molekülketten
+- **Keine Abspaltprodukte** (Unterschied zur Polykondensation)
+
+**Wichtigstes Beispiel:**
+- Polyurethan (PU): Schaumstoffe, Lacke, Elastomere
+
+---
+
+## Kristallinität bei Polymeren
+
+**Teilkristallin:**
+- Geordnete (kristalline) und ungeordnete (amorphe) Bereiche
+- Kristallinität: 30-80%
+- Beispiele: PE, PP, PA
+
+**Amorph:**
+- Keine Ordnung
+- Typisch für verzweigte und vernetzte Polymere
+- Beispiele: PS, PMMA, Epoxid
+
+![bg right fit](https://cdn1.slideserve.com/3117708/slide1-l.jpg)
+
+---
+
+**Einfluss auf Eigenschaften:**
+- Höhere Kristallinität → höhere Festigkeit, Steifigkeit
+- Niedrigere Kristallinität → bessere Transparenz, Flexibilität
+
+---
+
+## Glasig-amorphe Strukturen
+
+- Gläser sind ein nichtmetallisch-anorganisches, vorzugsweise silikatisches Schmelzprodukt
+- **nichtkristallinen, also amorphen Zustand**
+- bei Glas wird die Schmelze zunächst unterkühlt und dann unterhalb der Transformationstemperatur Tg „eingefroren"
+![bg right fit](../assets/Figures/amorph.png)
+
+---
+
+**Glasübergangstemperatur Tg:**
+- Unterhalb: spröde, hart
+- Oberhalb: geringe Härte, verformbar
+![bg right fit](../assets/Figures/amorph.png)
+
+---
+
+## Glasbildung
+
+**Bedingungen für Glasbildung:**
+1. Schnelle Abkühlung (Unterkühlung)
+2. Hohe Viskosität der Schmelze
+3. Komplexe Molekülstrukturen
+
+**Technische Gläser:**
+- Kalk-Natron-Glas (Fenster)
+- Borosilikatglas (Laborglas)
+- Quarzglas (Optik)
+- Metallische Gläser (amorphe Metalle)
+
+---
+
+**Eigenschaften:**
+- Isotrop
+- Transparent (oft)
+- Spröde bei Raumtemperatur
+
+---
+
+## Metallische Gläser
+
+**Herstellung:**
+- Extrem schnelle Abkühlung (10⁶ K/s)
+- Verhindert Kristallisation
+
+**Eigenschaften:**
+- Sehr hohe Festigkeit
+- Keine Versetzungen
+- Korrosionsbeständig
+- Weichmagnetisch
+
+
+---
+
+# Realstruktur von Kristallen
+
+---
+
+## Gitterbaudefekte
+
+-	**Nulldimensionale Fehlstellen** (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
+-	**Eindimensionale Fehlstellen** (Liniendefekte): Versetzungen
+-	**Zweidimensionale Fehlstellen** (Flächendefekte): Stapelfehler, Korngrenzen, Subkorngrenzen, Phasengrenzen
+-	**Dreidimensionale Defekte**: Poren, Einschlüsse, Risse
+
+---
+
+
+## Nulldimensionale Fehlstellen
+
+![bg right 50%](../assets/Figures/ideales_gitter.png)
+
+**Arten:**
+- Leerstellen (Vakanz)
+- Zwischengitteratome (Interstitial)
+- Substitutions-Fremdatom
+- Zwischengitter-Fremdatom
+- Frenkel-Defekt (Leerstelle + Zwischengitteratom)
+- Schottky-Defekt (Leerstellen-Paar)
+
+
+---
+
+## Leerstellen
+
+**Auswirkungen:**
+- Diffusion ermöglichen
+- Festigkeit reduzieren
+- Leerstellenwanderung
+
+---
+
+## Fremdatome
+
+**Nutzen:**
+-	[Dotierung](https://de.wikipedia.org/wiki/Dotierung) im Halbleiter
+    - gezielte Manipulation der elektrischen Leitfähigkeit durch Einbringung zusätzlicher Atome
+
+
+![bg right 40%](https://upload.wikimedia.org/wikipedia/commons/2/22/Schema_-_n-dotiertes_Silicium.svg)
+
+
+![bg vertical 40%](https://upload.wikimedia.org/wikipedia/commons/0/0d/Schema_-_p-dotiertes_Silicium.svg)
+
+---
+
+- Zwischengitter und Substitutionsfremdatom
+    - Erhöhung der Festigkeit durch natürlichen "Rissstopp" oder lokal einfacheren Versatz und lokale Reduktion der Spannungen
+    - Größe und chemische Ähnlichkeit definiert Substitution oder Zwischengitter
+
+**Mischkristallverfestigung:**
+- Atomgrößenunterschied erzeugt Gitterverzerrungen
+- Behinderung der Versetzungsbewegung
+- Festigkeitssteigerung proportional zu Wurzel der Konzentration
+
+---
+
+## Versetzungen
+
+[Versetzungen](https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)) enstehen
+- beim Kristallwachstum
+- aufgrund von Eigenspannungen
+- durch plastische Verformungen
+
+![bg right 80%](../assets/Figures/versetzung.png)
+![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
+
+**Versetzungsdichte:**
+- Geglühter Kristall: 10⁶ - 10⁸ cm⁻²
+- Verformter Kristall: 10¹⁰ - 10¹² cm⁻²
+
+---
+
+## Versetzungsarten
+
+
+**Burgersvektor**
+
+**Definition:**
+- Vektor, der die Gitterverschiebung beschreibt
+- Betrag: meist eine Gitterkonstante
+- Richtung: Gleitrichtung
+
+**Bedeutung:**
+- Charakterisiert die Versetzung
+- Bleibt entlang der Versetzungslinie konstant
+- Mischt Stufen- und Schraubencharakter
+
+---
+
+**Bestimmung:**
+- Burgers-Umlauf im Kristall
+- Schließungsfehler = Burgersvektor
+
+---
+
+**Stufenversetzung**
+- Extra-Halbebene im Kristall
+- Energie: $E \approx \frac{3}{4} G b^2$
+- Burgersvektor ⊥ Versetzungslinie
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/9/99/Dislocation_edge_d2.svg)
+
+**Schraubenversetzungen**
+- Spiralförmige Gitterverzerrung
+- Energie: $E \approx \frac{1}{2} G b^2$
+- Burgersvektor ∥ Versetzungslinie
+
+![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/52/Dislocation_screw_e.svg)
+
+---
+
+
+## Versetzungsbewegung
+
+**Gleitbewegung:**
+- Versetzung bewegt sich in Gleitebene
+- Niedrige erforderliche Schubspannung
+- Hauptmechanismus der plastischen Verformung
+
+**Klettern (Climb):**
+- Versetzung verlässt Gleitebene
+- Erfordert Diffusion von Leerstellen
+- Nur bei hohen Temperaturen
+- Wichtig beim Kriechen
+
+---
+
+**Quergleiten (Cross-slip):**
+- Schraubenversetzung wechselt Gleitebene
+- Ermöglicht dreidimensionale Verformung
+
+---
+
+## Versetzungswechselwirkungen
+
+**Versetzungsaufstau:**
+- Versetzungen stauen sich vor Hindernissen
+- Spannungskonzentration
+- Kann zu Rissbildung führen
+
+**Versetzungsverflechtung:**
+- Versetzungen blockieren sich gegenseitig
+- Verfestigungsmechanismus
+- "Wälder" von Versetzungen
+
+---
+
+**Versetzungsreaktionen:**
+- Zwei Versetzungen können verschmelzen
+- Neue Versetzung mit anderem Burgersvektor
+- Frank-Read-Quelle: Versetzungsmultiplikation
+
+---
+
+# [Defektübersicht](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
+
+
+---
+
+## Zweidimensionale Fehlstellen - Korngrenzen
+- Korngrenzen
+- Phasengrenzen
+- Subkorngrenzen
+
+![bg right fit](https://www.struers.com/-/media/Struers-media-library/Knowledge/Materials/Grain-structures/FIg-0A-974x732-px.jpg?lm=20191009T054854Z&h=732&w=974&hash=4504C0AA9A9B6DEB6BDF91CC93EDF46ED9AADF75)
+
+[Skript](https://cwillberg.github.io/Werkstofftechnik/dev/Skript/svw/gitterbaudefekte/)
+
+
+---
+
+
+**Korngrenzen:**
+- Großwinkelkorngrenzen (θ > 15°)
+- Kleinwinkelkorngrenzen (θ < 15°)
+- Spezielle Korngrenzen (Zwillingsgrenzen)
+
+**Phasengrenzen:**
+- Kohärente Grenzen (epitaktisch)
+- Semi-kohärente Grenzen (mit Versetzungen)
+- Inkohärente Grenzen (ungeordnet)
+
+**Subkorngrenzen:**
+- Anordnung von Versetzungen
+- Entstehen bei Erholung
+
+
+---
+
+## Korngrenzeneigenschaften
+
+**Strukturelle Merkmale:**
+- Höhere Energie als Kristallinneres
+- Reduzierte Atomdichte
+- Erhöhte chemische Aktivität
+
+**Einfluss auf Eigenschaften:**
+- Diffusion entlang Korngrenzen schneller
+- Bevorzugte Korrosionsangriffsstellen
+- Behinderung der Versetzungsbewegung (Hall-Petch)
+- Ausgangspunkt für Rekristallisation
+
+---
+
+## Große Körner (grobes Gefüge)
+
+
+- **Niedrigere Festigkeit** 
+  - Wenige Korngrenzen als Versetzungsbarrieren
+  - Lange freie Weglängen für Versetzungen
+  
+- **Höhere Duktilität** 
+  - Mehr Raum für Versetzungsbewegung
+  - Bessere Verformbarkeit
+
+---
+
+### Hochtemperaturverhalten
+
+- **Besseres Kriechverhalten** 
+  - Weniger Korngrenzendiffusion
+  - Stabiler bei erhöhten Temperaturen
+
+### Anwendungen
+
+- Turbinenschaufeln (Hochtemperatur)
+- Wenn Duktilität wichtiger als Festigkeit
+- Einkristalle für spezielle Anwendungen
+
+---
+
+## Kleine Körner (feines Gefüge)
+
+- **Höhere Festigkeit** 
+  - Viele Korngrenzen = viele Barrieren
+  - σ_y steigt mit d^(-1/2)
+
+- **Höhere Härte** 
+  - Widerstand gegen lokale Verformung
+
+- **Gute Zähigkeit** 
+  - Rissbremsung an Korngrenzen
+
+---
+
+### Verformungsverhalten
+
+- **Homogenere Verformung**
+  - Viele kleine Bereiche aktiv
+  
+- **Leicht reduzierte Duktilität** 
+  - Aber oft akzeptabel
+
+### Anwendungen
+
+- Hochfeste Stähle (Automobilbau)
+- Strukturbauteile
+- Überall wo Festigkeit + Zähigkeit gefragt ist
+
+---
+
+## Stapelfehler
+
+**Definition:**
+- Fehler in der Stapelfolge dichtest gepackter Ebenen
+- Typisch in kfz-Metallen
+
+**Stapelfolgen:**
+- Kfz: ABC ABC ABC...
+- Hdp: AB AB AB...
+- Stapelfehler: ABC AB ABC... (lokale hdp-Sequenz)
+
+
+---
+## Plastizität
+
+Gut oder Schlecht
+
+![bg right 70%](../assets/Figures/fragezeichen.png)
+
+
+
+---
+
+## Beispiele
+
+**Hohe Plastizität**:
+
+- Knete
+- feuchter Ton
+- Metalle und Metalllegierungen mit geeignetem Atomgitter:
+  - glühender Stahl beim Schmieden
+  - Kaltumformung von Blechen 
+
+**Geringe Plastizität**:
+  - Gummi
+  - Keramik
+  - Faserkunstoffverbunde (Epoxid-Glasfaser oder Epoxid-Kohlefaser)
+   
+---
+
+
+**Vorteile der Plastizität:**
+- Umformbarkeit (Fertigung)
+- Energieabsorption (Crash)
+- Zähigkeit (keine spontane Rissausbreitung)
+- Spannungsabbau
+
+**Nachteile der Plastizität:**
+- Dimensionsänderung
+- Kriechverformung
+- Bauteilversagen bei Überlast
+- Ermüdung
+
+---
+
+## Plastizität - Einkristall
+
+Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch Abgleiten von Atomschichten entlang bestimmter kristallographischer Ebenen und Richtungen unter Einwirken von Schubspannungen.
+
+- Gleitsystem besteht aus Gleitebene und Gleitrichtung
+- kritische Schubspannung ($\tau_{Kr}\approx G/10$ - Abschätzung oder theoretische Schubfestigkeit)
+- Realtität um Faktor ~100 niedriger durch Versetzungen
+---
+
+## Bild
+
+![](../assets/Figures/Beispiel_plast.bmp)
+  
+---
+
+## Plastische Verformung des polykristallinen Werkstoffs
+
+- Mikro- und Makroplastizität
+  - Plastische Verformung beginnt bei "ungünstigen" Orientierungen
+- Korngrenzen
+  - Barriere für Versetzungsbewegung
+  - bei hohen Temperaturen können Korngrenzen gleiten (Kriechen)
+  - gezielte Fertigung kann durch Korngrenzen Zähigkeit erhöhen
+- Heterogenität
+  - Mehrphasigkeit
+  - inhomogene Verteilung der Spannungen und Verformungen
+- Anisotropie
+
+---
+
+## Polykristall Plastizität
+[Beispiel aus einer Simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
+
+
+---
+
+## Streckgrenze
+
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
+
+
+**Charakteristische Punkte:**
+- $R_m$ - Zugfestigkeit (Maximum)
+- $R_e$ - Streckgrenze (Elastizitätsgrenze bei linearem Verlauf)
+- $R_{p0,2}$ - Dehngrenze (0.2% bleibende Dehnung)
+- $A$ - Bruchdehnung (in %)
+- $Z$ - Brucheinschnürung (in %)
+
+
+[Beispielvideo](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
+
+---
+
+
+## Streckgrenze und Dehngrenze
+
+**Streckgrenze Re:**
+- Bei Werkstoffen mit ausgeprägter Streckgrenze
+- Charakteristisch für niedrig legierten Stahl
+- Markiert Übergang elastisch → plastisch
+
+**Dehngrenze Rp0.2:**
+- Ersatzstreckgrenze bei Werkstoffen ohne ausgeprägte Streckgrenze
+- Belastung bis 0.2% bleibende Dehnung, dann Entlastung
+- Standard für Aluminiumlegierungen, hochlegierte Stähle
 
 [Datenblatt Stahl](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
 
-<div style="position: absolute; bottom: 10px; right: 0px; color: blue; font-size: 20px;"> 
-    <a href="https://commons.wikimedia.org/w/index.php?curid=89891144" style="color: blue;">By Nicoguaro - Own work, CC BY 4.0</a>
-</div>
 
 ---
 
-## Viskoses Verhalten
-
-- reversibel
-- zeitabhängig
-
-Federmodel $\sigma = E\epsilon$ 
- - Elastischer Anteil
- - Dargestellt durch Federlemente
-<div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-<div style="position: absolute; bottom: -150px; left: 500px; color: blue; font-size: 20px;"> 
-    <img src="../assets/Figures/damper.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
-</div>
-
-
-Dämpfer  $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$ 
-- Viskoser Anteil
-- Dargestellt durch Dämpferelemente
-
-
----
-
-## 
-
-![bg fit](../assets/Figures/Spannung-Dehnung.png)
-![bg fit](../assets/Figures/Spannung-Dehnrate.png)
-
----
-
-## 
-
-![bg fit](../assets/Figures/Spannung-Zeit.png)
-![bg fit](../assets/Figures/Hysteresis.png)
-
-
----
-# Thermische Eigenschaften 
-
----
-
-## Wärmedehnung
-
-
-$\boldsymbol{\varepsilon}_{thermisch}=-\boldsymbol{\alpha}\Delta T$
-
-_Wärmeausdehnungskoeffizientenmatrix_
-
-$\boldsymbol{\alpha} = 
-\begin{bmatrix}
-\alpha_{11} & \alpha_{12} & \alpha_{13} \\
-\alpha_{12} & \alpha_{22} & \alpha_{23} \\
-\alpha_{13} & \alpha_{23} & \alpha_{33}
-\end{bmatrix}
-$
-
-**1D oder isotrop**
-$\varepsilon_{thermisch}=-\alpha\Delta T$
-
->Beispiel -> Paraview
-
----
-
-| Symmetrie | Modell | Beispiele |
-|---|---|---|
-| Isotropie | $\alpha_{11}=\alpha_{22}=\alpha_{33}$ und $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$ | Metalle, Kunststoffe|
-| transversale Isotropie | $\alpha_{22}=\alpha_{33}$ und $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$| Einzellage Faserverbund |
-| Orthotropie Isotropie | $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$| Mehrlagiger Faserverbund |
-| Anisotropie | beliebige $\alpha_{ij}$ | homogenisierte Betrachtung eines unysmmetrischen Mehrlagen-Verbunds |
-
----
-
-## Anwendungen 
-- Bi-Metall Streifen
-- Brücken
-- Schienen
-- Hochpräzisionsmessgeräten
-- Schweißen, Löten, etc.
-- ...
-
-Kann u.a. zu thermischen Eigenspannungen, Verzug führen. 
-
-
----
-
-## Beispiel: Thermische Spannungen 1D
-
-$\sigma = E \varepsilon = E (\varepsilon_{mechanisch}+\varepsilon_{thermisch})= E (\varepsilon_{mechanisch}-\alpha\Delta T)$
-
->Durch eine Vordehung kann die Belastung auf ein Bauteil reduziert werden
-
-## Beispiel: Thermische Längenänderung 1D
-$\Delta l = l_0 \varepsilon_{mechanisch}$
->Für freie eine Dehnung, d.h. es wirken keine Spannungen
-
-$0 = E \varepsilon = E (\varepsilon_{mechanisch}+\varepsilon_{thermisch})= E (\varepsilon_{mechanisch}-\alpha\Delta T)$
-$\varepsilon_{mechanisch}=\alpha\Delta T$
-$\Delta l = l_0 \varepsilon_{thermisch} = l_0\alpha\Delta T$
-
-
-
----
-## Wärmeleitung
-- auch Konduktion und Wärmediffusion
-- $T_{hoch}\rightarrow T_{niedrig}$ (2. Hauptsatz der Thermodynamik). 
-- es geht keine Wärme aufgrund der Energieerhaltung (1. Hauptsatz) verloren.
-
-**Wärmestrom $[W]$**
-$\dot{\mathbf{q}}=-\boldsymbol{\lambda}\text{grad}(T)$
-
-- $\text{grad}(T)$ ist der Gradient der Temperaturänderung $\frac{\partial T}{\partial dx_i}$; 
-- im linearen Fall $\text{grad}(T)=\Delta T / d = \frac{T_2-T_1}{d}$
-
-![bg right:30% fit](../assets/Figures/Temperaturgradient.png)
-
----
-
-$\dot{\mathbf{q}}=-\boldsymbol{\lambda}\text{grad}(T)$
-
-$\dot{\mathbf{q}} = \frac{\partial \mathbf{q}}{\partial t}$
-- zeigt an das sich etwas ändert -> $dt$
-
-$\boldsymbol{\lambda}=\begin{bmatrix}
-\lambda_{11} & 0 & 0 \\
-0 & \lambda_{22} & 0 \\
-0 & 0 & \lambda_{33}
-\end{bmatrix}$
-ist die Matrix der Wärmeleitfähigkeit.
-**Sonderfälle**
-- wenn $T_1$ = $T_2$ gibt es keine Leitung
-- wenn $\boldsymbol{\lambda}=0$; perfekte Isolation und keine Wärmeleitung
-
----
-
-| Symmetrie | Modell | Beispiele |
-|---|---|---|
-| Isotropie | $\lambda_{11}=\lambda_{22}=\lambda_{33}$ | Metalle, Kunststoffe|
-| transversale Isotropie  | $\lambda_{22}=\lambda_{33}$ | Einzellage Faserverbund |
-| Anisotropie | beliebige $\lambda_{ij}$ | Mehrlagen Faserverbund |
-
->Beispiel -> Paraview
-
----
-
-## Wärmeübergang
-
-Übertragung der Wärme von einem Festkörper in ein Fluid oder Gas. 
-
->Wichtig, wenn Maschinen gekühlt oder erwärmt werden sollen. 
-
-Wird durch den Wärmeübergangskoeffizient beschrieben $\alpha_{Übergang}$. Er hängt unter anderem  von der spezifischen Wärmekapazität, der Dichte und dem Wärmeleitkoeffizienten des wärmeabführenden sowie des wärmeliefernden Mediums ab.
-
-$\dot{q}=\alpha_{Übergang}A\Delta T$
-
->Beispiel Wärmepumpe und Fußbodenheizung
-
----
-
-## Spezifische Wärmekapazität
-
-sagt aus wieviel Energie in Form von Wärme in einen Stoff "stecken" muss, um die Temperatur zu erhöhen.
-
-$C_p=\frac{\Delta q}{m \Delta T}$
-
----
-
-## Wärmestrahlung
-
-$\dot{q}=\epsilon_{Emissionsgrad}\sigma_{Stefan-Boltzmann}AT^4$
-
-Emissiongrad $\epsilon_{Emissionsgrad}$ liegt zwischen 0 (perfekter Spiegel) und 1 (idealer Schwarzer Körper) und ist in Teilen materialabhängig.
-
->nutzbar für Spektralanalysen, um die Zusammensetzung von Werkstoffen zu bestimmen. 
-
-![bg right:50% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg/1920px-McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg.png)
-
----
-
-# Spezielle Temperaturen
-
-## Phasenübergangstemperatur
-Temperatur wo ein Phasenübergang in einer Kristallstruktur stattfindet (siehe [Phasendiagramme](@ref "Phasendiagamme")). Wird maßgeblich durch beigesetzte Stoffe beeinflusst (siehe [Legierungen](@ref "Legierungen"))
-
-## Schmelztemperatur
-Als Schmelztemperatur bezeichnet man die Temperatur, bei der ein Stoff vom festen in den flüssigen Aggregatzustand übergeht. 
-
----
-
-## Siedetemperatur
-
-Temperatur des Phasenübergangs von flüssig zu gasförmig. Für Schmierstoffe ggf. relevant.
-
-## Curie Temperatur
-Nach Piere Curie benannt. [Bezeichnet](https://de.wikipedia.org/wiki/Curie-Temperatur) die Temperatur, bei deren Erreichen ferromagnetische bzw. ferroelektrische Eigenschaften eines Materials vollständig verschwunden sind, so dass sie oberhalb nur noch paramagnetisch bzw. paraelektrisch sind. 
+## Streckgrenzenphänomen
+
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
+
+**Obere und untere Streckgrenze:**
+- $R_{eH}$ - obere Streckgrenze (Maximum)
+- $R_{eL}$ - untere Streckgrenze (Plateau)
+
+**Lüdersbereich:**
+- Gezackter Bereich nach Streckgrenze
+- Lüdersbänder wandern durch Probe
+- Ausscheidungen blockieren Versetzungen
+- Nach Losreißen: Versetzungen bewegen sich frei
 
 ---
 
 
-## Eigenspannungen
-- Thermisch
-- Verformung
-- Gefügeumwandlung
-- Chemisch
+## Plastizität - Umformen
 
-> Positive Beispiele: ??
-> Negative Beispiele: ??
+**Massivumformung:**
+- Schmieden, Pressen, Walzen, [Tiefziehen Prinzip](https://www.youtube.com/watch?v=Zbfld_851z0)
+- Große Formänderungen
+- Kornverfeinerung
 
----
-
-# Elektrische und magnetische Eigenschaften
-
-Die elektrischen und magnetischen Eigeschaften hängen in der Regel eng zusammen und beeinflussen sich gegenseitig. 
-
----
-
-## Permittivität
-
-
-- beschreibt wie stark die innere Struktur der äußeren Ladung entgegenwirkt
-
-![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/1/13/Dipole_im_elektrischen_Feld.svg)
+**Blechumformung:**
+- Biegen, Streckziehen, [Tiefziehen](https://www.youtube.com/watch?v=rHfepOqPVHI)
+- Begrenzte Formänderung
+- Anisotropie wichtig
 
 
 ---
 
-- mathematisch Verhältnis zwischen der elektrischen Flussdichte und dem elektrischen Feld. 
+## Kriechen
+- Zeitabhängige Verformung bei konstanter Belastung
+![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2022/03/boom_blank_be.png)
 
-$\varepsilon_0$ ist dabei die Permitivität im Vakuum.
-
-$\mathbf{D}=\varepsilon_0 \boldsymbol{\varepsilon}_{Permitivität}\mathbf{E}$
-
-
-$\boldsymbol{\varepsilon}_{Permitivität} = \begin{bmatrix}
-\varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
-\varepsilon_{12} & \varepsilon_{22} & \varepsilon_{23} \\
-\varepsilon_{13} & \varepsilon_{23} & \varepsilon_{33}
-\end{bmatrix}$
+- Beispiel [entfalltbare Raumfahrtstrukturen](https://youtu.be/vMMc7-VUUtM?si=5uYx40b4eWGl7j0G&t=77)
 
 ---
 
+- findet bei Metallen oberhalb einer Übergangstemperatur statt ($~0.3-0.4 \cdot T_S$)
 
+- auch bei geringen mechanischen Spannungen unterhalb der Streckgrenze $R_e$ findet eine irreversible plastische Verformung, die langsam, aber stetig voranschreitet statt 
 
-Je nach Mikrostruktur ist die Permittivität richtungsabhängig.
-| Symmetrie | Modell | 
-|---|---|
-| Isotropie | $\varepsilon_{11}=\varepsilon_{22}=\varepsilon_{33}$ und $\varepsilon_{12}=\varepsilon_{13}=\varepsilon_{23}=0$ |
-| transversale Isotropie | $\varepsilon_{22}=\varepsilon_{33}$ und $\varepsilon_{12}=\varepsilon_{13}=\varepsilon_{23}=0$| 
-| Orthotropie Isotropie | $\varepsilon_{12}=\varepsilon_{13}=\varepsilon_{23}=0$| 
-| Anisotropie | beliebige $\varepsilon_{ij}$ |
-
-
-Oft angeben als relative Permittivität
-
-$\varepsilon_r=\frac{\varepsilon_{Permittivität}}{\varepsilon_0}$
-
----
-
-- Kapazität eines Plattenkondensatorsn
-
-![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/9/92/Verschiedene_Kondensatoren_2.JPG)
-
-$C=\varepsilon_0 \varepsilon_{r}\frac{A}{d}$
-
-- Eine hohe Permittivität erlaubt stärkere Kondensatoren
-
----
-
-## Elektrische Leitfähigkeit
-
-- Die Leitfähigkeit eines Stoffes oder Stoffgemisches hängt von der Verfügbarkeit und Dichte beweglicher Ladungsträger ab. 
-
-- In Metallen sind diese in Form von Elektronen sehr locker gebunden. Jedes Material ist in einem Gewissen Maß leitfähig.
-
----
-
-Einheit $\left[\frac{S}{m}\right.$, $\left.\frac{\Omega}{m}\right]$
-
-$$\mathbf{J}=\sigma_{elektrische\,Leitfähigkeit}\mathbf{E}$$
-
-- Supraleiter besitzt unendliche Leitfähigkeit. 
-
----
-
-## Elektrischer Widerstand
-
-- Spezialfall konstanter elektrischer Leitfähigkeit entspricht dies dem Ohmschen Gesetz
-
-
-**Ohmschen Gesetzes**
-
-$$R=\frac{U}{I}=\rho_{spezifisch}\frac{l}{A}$$
-
-- Der spezifische Widerstand $\rho_{spezifisch}$ ist ein Materialkennwert. Er ist temperaturabhängig.
--  wird für Thermoelemente genutzt
----
-
-Leiter - Metalle (Kupfer, Silber, ...), Graphit
-
-$\rho_{spezifisch} < 100 \frac{\Omega mm^2}{m}$
-
-Halbleiter - Silizium, Bor, Selen, ...
-
-$100<\rho_{spezifisch} < 10^{12} \frac{\Omega mm^2}{m}$
-
-
-Isolator - Aluminiumoxidkeramik, Epoxidharze
-
-$\rho_{spezifisch} > 10^{12} \frac{\Omega mm^2}{m}$
-
-
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
 
 
 ---
 
-## Dotierungen
+- temperatur-, spannungs-, zeit- und werkstoffabhängig
 
-- Durch Dotierung lässt sich die Leitfähigkeit von Halbleitern stark beeinflussen, oft um mehrere Zehnerpotenzen. 
-- hochreines Material ist erforderlich 
+- **Ursache**: Versetzungsbewegungen, Leerstellendiffusion, Korngrenzengleiten, Korngrenzendiffusion
 
-n-Dotierung - Zugabe von Elektronendonatoren (überzählige Elektronen)
-p-Dotierung - Zugabe von Elektronenakzeptoren
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
 
----
-- durch p-Dotierung entstehen Elektronenfehlstellen, auch Löcher oder Defektelektronen genannt
--  diese ermöglichen die Leitung des elektrischen Stroms 
-- Die Leitfähigkeit entsteht dadurch, dass die Löcher bzw. Elektronen beweglich sind – wenn auch nicht so beweglich wie die Elektronen in Metallen.
 
 ---
 
+1. **Primärkriechen:**
+- Abnehmende Kriechrate
+- Verfestigung dominiert
+   
+2. **Sekundärkriechen:**
+- Konstante Kriechrate (stationär)
+- Gleichgewicht: Verfestigung - Erholung
+   
+3. **Tertiärkriechen:**
+- Zunehmende Kriechrate
+- Schädigung (Poren, Risse)
+- Führt zum Bruch
 
-![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/n-dotieren.gif)
-![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/p-dotieren.gif)
-
----
-
-# Magnetismus
-## Arten des Magnetismus
-**Diamagnetismus**  
-Führt zu einer Abschwächung des Magnetfeldes durch die Wirkung der Lenzschen Regel in der Atomhülle (lokal induziertes Magnetfeld wirkt dem äußeren entgegen).  
-*Beispiele:* Alle Materialien
-
----
-
-**Paramagnetismus**  
-- Atome, Ionen oder Moleküle besitzen ein magnetisches Moment, das sich nach dem äußeren Magnetfeld ausrichtet und das Magnetfeld verstärkt
-- Höhere Temperaturen verringern den Effekt, da sich die Atome, Ionen oder Moleküle stärker bewegen
-
-*Beispiele:* Lithium, Natrium, Metalle der Seltenen Erden (Scandium, Neodym, Holmium)
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/0d/Paramagnetism_with_and_without_field.svg)
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
 
 ---
 
-**Ferromagnetismus**  
-- die magnetischen Momente  richten sich spontan parallel aus
--  kleinste kristalline Einheit wird als **weissscher Bezirk** bezeichnet
-- der Effekt kann durch die Curie-Temperatur zerstört werden
-
-*Beispiele:* Eisen, Nickel, Alnico (Eisen-, Aluminium-, Nickel-, Kobalt-, Kupferlegierungen)
-
-
-![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/0/0a/Growing-magnetic-domains.svg)
-
----
-
-**Ferrimagnetismus**  
-- die magnetischen Momente der Atome mikroskopisch wechselweise antiparallel ausgerichtet und löschen sich nicht vollständig aus
--  wirkt wie eine abgeschwächte Form des Ferromagnetismus
-
-*Beispiele:* Nickel, Kupfer, Magnesium
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/b/bc/Ferrimagnetic_ordering_illustration.svg)
-
----
-
-**Antiferromagnetismus**  
-- ähnlich dem Ferrimagnetismus, jedoch löschen sich die antiparallelen magnetischen Pole vollständig gegenseitig aus
--  idealer Antiferromagnet zeigt nach außen kein magnetisches Verhalten
-- bei Erhitzung über die Néel-Temperatur wird das Material paramagnetisch
-
-*Beispiele:* Einige Nickelverbindungen, Chrom
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/29/AntiferromagnetischerWerkstoff.png)
-
----
-
-## Permeabilität
-
-Ist das Verhältnis zwischen magnetischer Flussdichte und magnetischer Feldstärke.
-
-$\mathbf{B}=\mu_0 \boldsymbol{\mu}\mathbf{H}$
-
-Ähnelt der Permittivität. Auch hier gibt es eine Konstante, die magnetische Feldkonstante $\mu_0$, welche die Permeabilität im Vakuum beschreibt.
-
-Im Allgemeinen gilt
-
-$\boldsymbol{\mu} = \begin{bmatrix}
-\mu_{11} & \mu_{12} & \mu_{13} \\
-\mu_{12} & \mu_{22} & \mu_{23} \\
-\mu_{13} & \mu_{23} & \mu_{33}
-\end{bmatrix}$
-
-Die relative Permeabilität 
-
-$\mu_r=\frac{\mu}{\mu_0}$
+## Kriechen in Kunststoffen
+- bestehen aus Molekülketten 
+- diese gleiten bzw. entknäueln sich diese unter äußerer 
+- Sekundärbindungne zwischen den Makromolekülen werden neu gebildet und Deformation bleibt erhalten
 
 ---
 
 
-Diamagnetische Stoffe  $0\leq \mu_{r}<1$
+## Zusammenfassung
 
-Paramagnetische Stoffe $\mu_{r}>1$
-
-Superparamagnetische Stoffe  $\mu_{r}\gg 1$
-
-Ferrimagnetische Stoffe $ 20\lessapprox \mu_{r} \lessapprox 15000$
-
-Ferromagnetische Stoffe  $\mu_{r}\gg 1$; $40 \lessapprox \mu_r \lessapprox 10^6$
-
-Supraleiter 1. Art $\mu_{r} = 0$. 
+**Kernpunkte:**
+1. Kristallstrukturen bestimmen grundlegende Eigenschaften
+2. Realstrukturen enthalten immer Defekte
+3. Defekte ermöglichen plastische Verformung
+4. Versetzungen sind Träger der Plastizität
+5. Korngröße beeinflusst Festigkeit (Hall-Petch)
+6. Temperatur aktiviert zusätzliche Mechanismen (Kriechen)
+7. Struktur-Eigenschafts-Beziehungen sind fundamental
 
 
 
