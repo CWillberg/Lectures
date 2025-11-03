@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung Zustandsdiagramme
+title: Korrosion
 author: Christian Willberg
 ---
 
@@ -58,13 +58,14 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung Werkstofftechnik - Zustandsdiagramme
+## Korrosion
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
 
 Kontakt: christian.willberg@h2.de
-
+Teile des Skripts sind von \
+Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 
 
@@ -72,253 +73,219 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
-![bg right 70%](../assets/QR/wst_mb_07.png)
+# Inhalte
 
-# Zustandsdiagramme
-
-- auch Phasendiagramm -phase diagram-
-- stellt den Zustand von Legierungen und Stoffgemischen in Abhängigkeit von der chemischen Zusammensetzung, Temperatur und ggf. dem Druck dar
-- Zustand meint die auftretenden Phasen (alle festen, flüssige, gasförmige)
-
-
----
-## Achtung!
-
-Zustandsdiagramme sind Gleichgewichtsdiagramme. 
-Sie haben nur Gültigkeit bei einer sehr langsamen 
-Abkühlung aus dem schmelzflüssigen Zustand bis hin zur 
-Raumtemperatur, bei der sich das Gleichgewicht zwischen 
-den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann. 
+![bg right 70%](../assets/QR/wst_mb_05.png)
 
 ---
 
-
-![bg fit 70%](../assets/Figures/Zustandsdiagramm.png)
-![bg fit 70%](../assets/Figures/Zustandsdiagramm_3.png)
-
----
-
-## Löslichkeiten
+# Korrosion
 
 
-Unlöslich
+- unterteilt in chemische, elektrochemische oder physikalische Reaktion von Metallen mit der Umgebung
+- die Werkstoffeigenschaften beeinträchtigt werden
+- die meisten Korrosionsschäden sind elektrochemische
 
-- zu große Unterschiede bei den Atomdurchmessern
-- Kristallgitter weichen voneinander ab
-- Komponenten sind chemisch sehr unterschiedlich
+![bg 100% fit](https://s3.amazonaws.com/static.wd7.us/5/55/Rust03102006.JPG)
 
+![bg right 80% fit](https://upload.wikimedia.org/wikipedia/commons/8/88/County_Fire_Office_roof.jpg)
 
-
-
-Löslich
-- kaum Unterschiede bei den Atomdurchmessern
-- Kristallgitter sind identisch
-- Komponenten sind chemisch sehr nah beieinander
+[Vertiefung](https://www.fh-muenster.de/bau/downloads/personen/muero/intern/bau/4.1Stahlkorrosion.pdf)
 
 ---
 
-## Beispiel aus der eigenen Erfahrung
-- Ölfilm auf Wasser ist nicht löslich und es findet eine Trennung aufgrund der unterschiedlichen Dichte statt
-- Salz- / Zuckerkristalle in Wasser werden vollständig gelöst und ist nicht mehr sichtbar
+## Chemische Korrosion
 
-
----
-
-![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
-
-
----
-
-## Beispiel für Unlöslichkeit
-
-![bg right 100%](../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
+- unmittelbare Reaktion von Metallen mit der Umgebung
+- es erfolgt ein direkter Elektronenaustausch
+- Reaktionspartner ist meist Sauerstoff $\text{O}_2$
+Bsp.:
+ $\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
+ 
+- findet meist bei höheren Temperaturen statt (Vorgang: Zundern)
 
 ---
 
-## Beispiel für vollständige Löslichkeit
-
-![bg right 100%](../assets/Figures/Zustandsdiagramm_Kupfer_Nickel.png)
-
-
-
----
-
-
-![bg fit](../assets/Figures/binaeresSystem.png)
-
----
-
-
-## Gibbsche Phasenregel
-
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
-
-
----
-# Zusammenfassung
-
-- Die Phasen bzw. Phasengrenzlinien können als ein Zustandsdiagramm dargestellt werden
-- Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel
-- Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern (Bewegung in T oder der Konzentration)
-- Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
-
-
----
-
-## Hebelgesetz
-
-- In Punkt 2 hat die Schmelze einen kleineren Nickelgehalt als der $\alpha$-MK
-- D.h. die Konzentration im Mischkristall muss steigen, damit die Zahl der Nickelatome plastischer
-- Schmelze und Mischkristall müssen nicht die gleiche chemische Zusammensetzung haben
-
-
----
-
-$\frac{m_s}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}$
-
-
-![bg right 90%](../assets/Figures/Konstituionelle_abkuehlung.png)
-
-
----
-
-## Rechenbeispiel
-
--> Annahme Konzentrationen in Punkt 2
-
-$c_S=20\%$, $c_{\alpha}=40\%$, $c_L=25\%$
-
----
-
-## Lösung
-
-$\frac{m_s}{m_{\alpha}}={c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25\%-20\%}=\frac{15}{5}=\frac{3}{1}$
-- im Punkt 2 liegt 3 mal soviel Schmelze wie Mischkristall vor
-
-
----
-
-## Praktische Bedeutung
-
-- Kupfer Nickel Legierungen haben gegenüber reinem Kupfer eine höhere Festigkeit bei guter Korrosionsbeständigkeit
-
-
----
-
-# Völlige Löslichkeit im flüssigen und teilweise Löslichkeit im festen Zustand
-
-- Metallschmelzen der Elemente A und B lösen sich in beliebigen Mischungsverhältnissen (Konzentrationen)
-- die Mischkristalle bilden sich nur noch in bestimmten Maße
-
----
-
-## Wann tritt das auf?
-
-
-
-- Atomdurchmesser weichen voneinander ab
-- Kristallgitter der Komponenten unterscheiden sich
-- Komponenten sich chemisch verschieden
-
-Die Komponenten sich sich weder sehr ähnlich, noch sehr verschieden
-
-Es können folgende ZSDs auftauchen
-- Eutektikum
-- Peritektikum
-
-
----
-
-![bg 70%](../assets/Figures/Eutektikum.png)
-
----
-
-## Hinweis
-
-- Löslichkeitslücke meist als Mischungslücke bekannt
-- $\alpha_1$ ist ein A reicher Kristall
-- $\alpha_2$ ist ein B reicher Kristall
-
-- Durchmesser irgendwann so groß, dass die Löslichkeitslücke in den Schmelzbereich ragt
--> Eutektikum
-
-- Komponenten sind **löslich** im flüssigen Zustand
-- Komponenten sind **begrenzt löslich** im festen Zustand
-
----
-
-## Eutektische Reaktion
-
--  bei einer Konzentration erstarren aus der Schmelze S bei konstanter Temperatur (Eutektikale) A- und B-Kristalle zu einem feinkristallinen Kristallgemisch (Eutektikum)
-- eutektische Gefüge besitzt oft eine schicht- oder lamellenartige Struktur
-- Legierungen anderer Konzentrationen scheiden vor Erreichen der Eutektikale (Haltepunkt bei der Eutektischen Reaktion) die überwiegende Komponente aus (A- oder B-Kristalle), so dass sich die Konzentration der verbleibenden Schmelze der eutektischen Zusammensetzung annähert. 
-- die **Eutektikale** bildet die Soliduslinie des gesamten Systems
-
----
-
-## Eutektischer Entmischung
-
-
-![](../assets/Figures/eutektischerPunkt.png)
-
+## Elektrochemische Reaktion
+- die meisten Korrosionsschäden sind elektrochemische
+- zwei Teilreaktionen und meist örtlich getrennt
+- beide Teilreaktionen erfordern einen Austausch an Ladungsträgern
+    - Metalle ermöglichen das durch ihre Leitfähigkeit
+    - außerhalb des Metalls wird der Stromkreis durch ein Elektrolyt geschlossen
+    
+**Elektrolyt**
+- ein Medium in dem sich Ionen bewegen können (_Ionenleitung_)
+- meist wässrige Lösungen 
+- auch Erdboden, Salzschmelzen oder Feststoffen (genutzt in Brennstoffzellen)
 
 ---
 
 
 
-
-_Löslichkeits- oder Sättigungslinien_
-- Linien, die die Einphasengebiete ($\alpha$, $\beta$) von dem Gebiet der Kristallgemische aus Mischkristal-len ($\alpha+\beta$) abgrenzen
-Sonderfall:
-- ein System von Mischkristallen bilden Einlagerungsmischkristalle 
-- Die Konzentrationsachse endet dann mit der Konzentration der Sättigung der Komponente B im Gitter der Komponente A
-- Das Einphasengebiet der Komponente B kann dann nicht existieren.
-
----
-
-
-## Systeme mit Peritektikum (mit peritektischer Entmischung) 
-
-
--  weit auseinander liegende Schmelz-/Erstarrungstemperaturen der beteiligten Komponenten sind charakteristisch.
-- Bei Abkühlung aus der Schmelze bildet sich ein Mischkristall $\alpha$
-- bildet bei konstanter Temperatur (entsprechend der **Eutektikalen**) mit der Schmelze reagierend eine zweite Mischkristallart $\beta$ bildet. 
-- bei einer peritektischen Reak-tion entstehen aus der Schmelze und bereits ausgeschiedenen $\alpha$-Mischkristallen bei gleich bleibender Temperatur neue $\beta$-Mischkristalle.
+**_Dissoziationsgrad_**
+- bestimmt die Aggressivität des Elektrolyts
+- je mehr die Konzentration der Ionen von der Konzentration im Wasser abweicht, desto aggressiver ist das Elektrolyt
+- kann im pH-Wert dargestellt werden. 
+pH < 7 sauer
+pH = 7 ist neutral
+pH > 7 basisch (alkalisch)
 
 ---
 
+## Prinzipbild Galvanische Zelle
 
+- Anionen - negative Ionen
+- Katinionen - postive Ionen
+- unter Gleichstrom wandern die negativ geladenen Ionen zur Anode
+- Örtlich Trennung (Anode, Kathode)
 
-![bg fit](https://www.giessereilexikon.com/uploads/tx_d3ency/687-02.png)
-
-
-
----
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Peritektikum.svg)
-
----
-
-# Fragen
+![bg fit right 80%](https://upload.wikimedia.org/wikipedia/commons/c/c7/Galvanische_Zelle_2009-02-08.svg)
 
 ---
 
+## Galvanisierung
+
+![bg right:40% fit](https://kluthe.com/magazin/wp-content/uploads/2023/02/Galvanisierung-850x448.jpg)
+
+- die Kathodenreaktion ist eine Reduktion
+
+$\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
+
+- es bildet an der Oberfläche einen Niederschlag
+- Prinzip der galvanischen Beschichtung
+- an der Anode findet eine Oxidation statt (Abgabe von Elektronen)
+---
+
+## Prinzipbild Korrosionselement
+- zwei Bestandteile
+- leitend verbundene Bereiche
+  - zwei Metalle
+  - gleiche Metalle mit unterschiedlichen elektrischen Potentialen
+- Benetzung mit Elektrolyt
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
 
 ---
 
+- edlere wird zu Kathode
+- unedlere Elektrode wird zur Anode
+  - wie bei der Galvanisierung gibt die Anode Elektronen ab
+  $\text{Metall} \rightarrow \text{Metall}^{++} + 2\text{e}^{-}$
+  - sie löst sich auf und korrodiert
+- An der Kathode kann keine Meatall-Metallionen Reaktion stattfinden
+  - es findet daher eine Redoxreaktion statt
+  - Wasserstoffkorrosion oder Sauerstoffkorrosion
+---
 
-## Referencen
-<a id="Referenzen"></a>
+| Metall    | Potential | Korrosionsverhalten       |
+|-----------|-----------|-----------------|
+| Gold      | +1.50 V   | edel      |
+| Platin    | +1.18 V   |       |
+| Silber    | +0.80 V   |       |
+| Kupfer    | +0.34 V   |       |
+| Wasserstoff | +0.00 V  | neutral  |
+| Zinn      | -0.14 V   |   |
+| Eisen     | -0.41 V   |   |
+| Zink      | -0.76 V   |   |
+| Titan     | -1.75 V   |   |
+| Aluminium | -1.66 V   | unedel  |
 
-Rainer Schwab: Werkstoffkunde und Werkstoffprüfung für Dummies, 2019; ISBN-10 352771538X
-[Grundlagen der Metallkunde](https://wiki.arnold-horsch.de/index.php/Grundlagen_der_Metallkunde)
+---
+
+## Wasserstoffkorrosion
+- nur un sehr sauren Elektrolyten möglich
+- tritt in Anwesenheit von Wasser aber in Abwesenheit von Sauerstoff auf
+>Säurekorrosion
+
+---
+
+## Sauerstoffkorrosion
+- die freien Elektronen reagieren mit dem Wasser zu Hydroxid-Ionen
+$\text{H}_2\text{O} + \frac12\text{O}_2 + 2\text{e}^{-} \rightarrow 2\text{OH}^-$
+$2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \rightarrow 2\text{Fe(OH)}_3$
+- kann noch weiter zerfallen
+![bg vertical](../assets/Figures/whitespace.png)
+![bg fit](../assets/Figures/whitespace.png)
+![bg  fit](https://upload.wikimedia.org/wikipedia/commons/9/97/Korrosion.svg)
+
+---
+
+## Physikalische Korrosion
+
+- Aufgrund von Belastungen enstehen Mikrorisse oder Versetzungen an denen Korrosion beginnen kann
+- Korrision findet in Kombination mit einer mechanischen Belastung (statische oder dynamische - schwingend) auf
+
+
+---
+
+## Korrosionsarten
+- es gibt 36 Korrosionsarten laut [DIN EN ISO 8044](https://cdn.standards.iteh.ai/samples/71134/642505f174ad4feeb2eef113b494d4e4/ISO-8044-2020.pdf)
+
+**Flächenkorrosion**
+- großflächige Korrosion
+- gut sichtbar und eher ungefährlich
+- die Deckschicht sorgt für einen Korrosionsschutz
+![bg fit right 80%](https://www.hausjournal.net/wp-content/uploads/Was-ist-Korrosion-720x480.jpg)
+
+---
+
+## Korrosionsarten
+**Lochfraßkorrosion**
+- bleibt lange unbemerkt
+- können sich in der Tiefe trogförmig ausdehnen
+![bg vertical right 1%](../assets/Figures/whitespace.png)
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/8/84/Pitting_corrosion-scheme.png)
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b3/Corrosion.Pit.jpg)
+
+---
+
+## Korrosionsarten
+**Spaltkorrosion**
+- tritt an Metallteilen  in engen, nicht abgeschlossenen Spalten wie Überlappungen, aufgesetzten Stegen und bei nicht durchgeschweißten Schweißnähten auf
+- schlecht sichtbar
+- sollte in kritische Bereichen konstruktiv vermieden werden
+
+
+---
+
+## Korrosionsarten
+**Interkristaline Korrosion**
+- auch Kornzerfall genannt
+- tritt an den Korngrenzen auf
+- Reminder: Einfluss des Raumgitters - Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/28/Intergranular_corrosion.JPG)
+
+---
+
+## Sonstige Korrosionsarten
+
+- [mirkobakterielle](https://en.wikipedia.org/wiki/Microbial_corrosion) Korrosion
+  - Abwässern
+  - Flugzeugtreibstoff
+  - Pilzbefall
+- Unterwanderungskorrosion
+- Hochtemperaturkorrosion
+- Spannungsrisskorrosion
+    - die korrosionshemdende Schicht wird durchbrochen und es kommt zur Korrosion
+- ...
+---
+
+## Korrosionsschutz 
+
+- unterscheidbar zwischen passivem und aktivem Schutz
+- passiv: Trennung von Metall und Elektrolyt / korrosivem Medium
+- aktiv: vollständige Trennung ist nicht notwendig
+
+---
+
+## Korrosionsschutz
+
+- Erarbeiten in Kleingruppen 10 Minuten - 15 Minuten Recherche
+- 2 Gruppen
+  - 3 passive Verfahren
+  - 3 aktive Verfahren 
+- kurze Vorstellung der Ergebnisse (Ruhig Tafel nutzen)
+  - wesentliches "take away"
+
+
+

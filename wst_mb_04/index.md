@@ -5,330 +5,465 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Ermüdung und Verschleiß
+title: Vorlesung Legierungsbildung
 author: Christian Willberg
 ---
 
+
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
 <style>
-.container {
+.container{
   display: flex;
-}
-.col {
+  }
+.col{
   flex: 1;
-}
+  }
 </style>
 
 <style scoped>
 .column-container {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .column {
-  flex: 1;
-  padding: 0 20px;
+    flex: 1;
+    padding: 0 20px; /* Platzierung der Spalten */
 }
 
 .centered-image {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 </style>
 
 <style>
 footer {
-  font-size: 14px;
-  color: #888;
-  text-align: right;
+    font-size: 14px; /* Ändere die Schriftgröße des Footers */
+    color: #888; /* Ändere die Farbe des Footers */
+    text-align: right; /* Ändere die Ausrichtung des Footers */
+}
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
 }
 </style>
 
-## Ermüdung und Verschleiß
-Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-Hochschule Magdeburg-Stendal
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
+## Vorlesung Werkstofftechnik - Legierungsbildung
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-Kontakt: christian.willberg@h2.de  
-Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen  
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-  <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
+![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+
+Kontakt: christian.willberg@h2.de
+Teile des Skripts sind von \
+Prof. Dr.-Ing. Jürgen Häberle übernommen
+
+
 
 ---
 
 <!--paginate: true-->
 
-
-
-
-![bg right 50%](../assets/QR/wst_mb_04.png)
+# Inhalte
+- Grundbegriffe
+- Kristallbildung
+- Zustandsdiagramme
+![bg right 70%](../assets/QR/wst_mb_06.png)
 
 ---
 
-# Ermüdung
+# Begriffe
+
+## Legierung
+- von "ligare" - zusammenbinden, verbinden, vereinigen
+- Gemisch aus mehreren Atomsorten (_Komponenten_) mit _metallischem Charakter_
+- Komponenten
+  - meist metallisch (Cu, Ni)
+  - nicht metallisch (C, P, S, N, O)
+- Variationen
+  - welche Komponenten
+  - Zahl der Komponenten
+  - Konzentration der Komponenten
+---
+
+## Chemische Zusammensetzung oder Konzentration
+**Massenanteil, Gewichtsanteil, Massenprozent (Synonym)**
+$\frac{m_1}{\sum_i m_{i}}\cdot 100 = m_{1-rel}$ in [%]
+Bsp. $m_{Cu-rel}=\frac{m_{Cu}}{m_{Cu}+m_{Fe}}\cdot 100$
+
+Massen $m$ von Komponenten sind unterschiedlich
+
+**Atomanteil**
+
+$\frac{n_1}{\sum_i n_{i}}\cdot 100 = n_{1-rel}$ in [%]
+Bsp. $n_{Cu-rel}=\frac{n_{Cu}}{n_{Cu}+n_{Fe}}\cdot 100$
+
+Wenn Massen $m$ von Komponenten ähnlich sind, dann sind $n_{rel}$ und $m_{rel}$ gleich. 
+
+---
+
+## Übung
+
+1 kg Legierung 25% Ni - 75% Cu.
+
+Wieviel Masse hat Cu und Ni für den Massenanteil und den Atomanteil?
+
+---
+## Lösung
 
 <details>
-<summary>Was ist Ermüdung?</summary>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Sleeping_students.jpg" alt="Alternative text" width="500">
-
-</details>
-
----
-
-- Tritt typischerweise bei zyklischer Belastung auf
-  - Isotherme mechanische Ermüdung
-    - [Oszillierende Last](https://www.youtube.com/watch?v=_qVXkAWtH60)
-    - Flugzeugrümpfe (Druckaufbau und -abfall)
-  - Thermische Ermüdung
-    - Öfen, Heizelemente
-  - Thermomechanische Ermüdung
-    - Hochdruckbehälter
-  - Elektrothermische Ermüdung
-    - Stromleiter (Glühfäden)
-
----
-
-![bg 60%](https://leichtbau.dlr.de/wp-content/uploads/2021/11/Abbildung-2_Innovationsbericht_Wasserstofftank_CG06.png)
-
----
-
-## Ermüdung
-- Die Belastung liegt unterhalb der Streckgrenze $R_{p0,2}$
-  - > _Erinnerung: Was bedeutet $R_{p0,2}$?_
-- Spannungs-Konzentrationen entstehen an Materialfehlern (Poren, Mikrorisse) oder im Kristall (Versetzungen, Fehlstellen)
-- Zunächst bilden sich unter wechselnder Last lokal zufällige Bereiche plastischer Verformung
-- Diese Punkte repräsentieren Spannungs-Konzentrationsbereiche, die sich mit der Zeit vergrößern und zu Bruch führen können
-
-[Erklärvideo](https://www.youtube.com/watch?v=o-6V_JoRX1g)
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/1/1c/Woehlerlinie.png)
-![bg fit 80%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
-
----
-## Spannungsverhältnis
-$R = \frac{\sigma_u}{\sigma_o}$
-## Mittelspannung
-$\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
-
-$\sigma_o$ - Oberspannung
-$\sigma_u$ - Unterspannung
-
-![bg right 90%](../assets/Figures/sinuskurven_mit_offset.png)
-
----
-
-![bg](https://www.ing-hanke.de/wp-content/uploads/2022/05/Fatigue_Bereiche.jpg)
-
----
-
-## Dauerfestigkeitsschaubilder
-- Haigh-Diagramm und Smith-Diagramm empfohlen nach DIN 50100
-
----
-
-## Haigh-Diagramm
-
-![](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-erstellung.jpg)
-
-
-
----
-
-![](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-spannungsverhaeltnis.jpg)
-
----
-
-## Smith-Diagramm
-
-- Winkelhalbierende eintragen
-- Oben und unten (paralle Linien) -> statische Druck- und Zugfestigkeit
-- Kurven werden aus Wöhlerexperiment mit verschiedenen R bestimmt
-
-![bg right 80%](https://www.ing-hanke.de/wp-content/uploads/2020/03/Dauerfestigkeitsschaulbild_Smith-Diagramm.jpg)
-
----
-
-## Begriffe
-
-- Lebensdauer
-- Ermüdungsriss
-- Ermüdungsbruch
-- Kurzzeitfestigkeit (K) $<10^5$ (Low Cycle Fatigue (LCF))
-- Zeitfestigkeit (Z) $10^4<10^6$ (High Cycle Fatigue (HCF))
-- Dauerfestigkeit (D) $>10^6$ (Very High Cycle Fatigue (VHCF))
-
-
-![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
-![bg vertical  60%](https://farm6.staticflickr.com/5522/12140479094_6f746014ab_z.jpg)
-
-
-
----
-
-## Gegenmaßnahmen
-
-- Kerbwirkung verringern
-- Materialanpassung
-- Konstruktion anpassen, damit lokale Spannung zulässige Grenzen nicht überschreitet
-- Regelmäßige Inspektionen 
-- Oberfläche
-
-![bg right 100%](https://www.ing-hanke.de/wp-content/uploads/2020/03/Abminderungsfaktoren_Dauerfestigkeit_Rauheit_Sproedheit_Stahl.jpg)
-
----
-
-
-
-
-# Verschleiß
-
----
-
-
-- infolge Reibung eintretende bleibende Form- und Stoffveränderung an der Oberfläche von Festkörpern
-- ist technologisch nicht beabsichtigt und eine Form des funktionellen Versagens darstellt bzw. darstellen kann
-- Beeinflusst durch
-  - Reibkörperpaarung
-  - Beschaffenheit der Grenzschichten und des Zwischenstoffes
-  - Art des Bewegungsablaufes
-  - Höhe der Belastung 
-
----
-
-- **Adhäsiver Verschleiß**
-- **Abrasiver Verschleiß**
-- **Oberflächenzerrüttung**
-- **Tribooxidation**
-
----
-
-## Adhäsiver Verschleiß
- - Adhäsiver Verschleiß tritt bei mangelnder Schmierung auf
- - bei hoher Flächenpressung haften Flächen aneinander
- - tritt Gleiten ein, werden Randschichtteilchen
- - es entstehen Löcher und schuppenartige Materialteilchen, die oft an der Gleitfläche des härteren Partners haften bleiben. 
-
----
-
-![bg 50%](https://upload.wikimedia.org/wikipedia/commons/3/31/Rt%2BRv%2BRp.gif)
-
----
-
-## Abrasiver Verschleiß
-
-- harte Teilchen eines Schmierstoffs oder Rauheitsspitzen eines Reibungspartners dringen in Randschicht ein
-  -> es kommt es zu Ritzung und Mikrozerspanen
-  - Furchverschleiß oder Erosionsverschleiß 
-
-- richtige Wahl der Werkstoffpaarung; Metall-Kunststoff- oder Metall-Keramik-Paarungen
-
----
-
-Beispiel Windenergie:
-- Sand im Wind "schmirgelt" die Oberfläche ab
-- Wirkungsgrad sinkt
-![bg right 100%](https://encyclopedia.pub/media/item_content/202209/6333de2d03ef5energies-15-05672-g008.png)
-
----
-
-## Oberflächenzerrüttung
-
-- wechselnde oder schwellende mechanische Spannungen an der Oberfläche
-- Ermüdung oder Kriechen des Materials an der Oberfläche
-
----
-
-## Tribooxidation
-- Tribooxidation (Passungsrost) an einer Welle aus Stahl
--  Bildung von Zwischenschichten, z. B. Oxidschichten, infolge chemischer Reaktion und ihre mechanische Zerstörung durch Bewegung der Bauteile 
-- tritt fast immer zusammen mit adhäsivem Verschleiß auf
-
-
----
-
-| Verschleißart            | Erscheinung                                                        | Primäres Vorkommen                                         |
-|--------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
-| Gleitverschleiß          | Rillen oder Riefen durch Abrieb, Materialübertragung oder lokales Schmelzen | Un-geschmierte Lager, Kupplungen, Bremsen                  |
-| Rollverschleiß           | Abblättern durch Ermüdungsrisse                                     | Rad/Schiene, Wälzlager                                     |
-| Pittings                 | Grübchenbildung: Pitting                                           | Wälzkörper, speziell Zahnräder                             |
-
-
-
-
----
-
-| Verschleißart            | Erscheinung                                                        | Primäres Vorkommen                                         |
-|--------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
-| Abrasivverschleiß         | Plastische Verformung, Erosion                                    | Bagger, Schüttguttransport, Partikelaufprall               |
-| Kavitation               | Oberflächenschädigung durch Aufprall von Dampfblasen              | Wasserturbinen, Pumpen                                     |
-| Tribooxidation (Reibkorrosion) | Loses Oxidationsprodukt                                      | Maschinenelemente mit form- oder kraftschlüssigen Verbindungen |
-
-
----
-
-## Gleitverschleiß
-
-- Beeinflusst [durch](https://download.basf.com/p1/8a8081c57fd4b609017fd66047f138c3/de/Reibung_und_Verschlei%25C3%259F%250Abei_Polymerwerkstoffen)
-  - Die mittlere Rauheitstiefe $R_z$
-  - Anpressdruck
-  - Verschleißpfadverhältnis $W=k\frac{F_N}{A}10^6$
-  - $k$ in $\left[\frac{mm^3}{Nm}\right]$ spezifischer Verschleißkoeffizient (lastunabhängig)
-
-![bg right fit 90%](https://media.springernature.com/original/springer-static/image/chp:10.1007%2F978-3-658-17851-2_4/MediaObjects/299062_3_De_4_Fig17_HTML.gif)
-
----
-
-
-## Wälzverschleiß
-- [Wälzen](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) ist eine Beanspruchungsart, bei der Gleitanteile (Schlupf) den reinen Rollvorgang überlagern
-- kleine Kontaktfläche; hohe Flächenpressung
-- Oberflächenzerrüttung (plastische Verformung, Gefügeänderungen, usw.)
-- durch Schmierung deutlich reduzierbar $\rightarrow$ spezifische Schmierfilmdicke $\lambda$
-
-![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
-
-![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
-
----
-
-## Kavitation
-
-[Video](https://www.youtube.com/watch?v=J0H0Nw44oA4)
-
-<details>
-<summary>Physikalische Ursache?</summary>
+<summary>Massenanteil</summary>
 <div>
 
-- statischer Druck ist abhängig von der Geschwindigkeit eines Fluids
-- bei Unterschreitung des Verdampfungsdrucks bilden sich Dampfblasen
-- diese Blasen laufen in Bereiche mit höherem Druck und kondensieren schlagartig
-- Druck- und Temperaturspitzen treten auf
+$m_{Ni}=0.75\cdot 1kg = 0.75 kg$
+$m_{Cu}=0.25\cdot 1kg = 0.25 kg$
+</div>
+</details>
+
+<details>
+<summary>Atomanteil</summary>
+<div>
+
+$A_{Cu}= 63.54 u$ - Atomare Masseneinheit $u = 1.66\cdot 10^{-27}kg$
+$A_{Ni}= 58.69 u$
+$m = n_{Cu}A_{Cu}+n_{Ni}A_{Ni}$
+$n_{Cu} = 0.25n$, $n_{Ni} = 0.75n$
+$m=(0.25A_{Cu}+0.75A_{Ni})n$
+$n = \frac{m}{0.25A_{Cu}+0.75A_{Ni}}=1.00565E+25$
+$m_{Cu}=n_{Cu}A_{Cu}=0.2449kg$
+$m_{Ni}=n_{Ni}A_{Ni}=0.7551kg$
 </div>
 </details>
 
 ---
 
-- lokale Belastungen an der Oberfläche
-- diese Bereiche ermüden und platzen ab
-- Beeinträchtigt die Oberfläche
-  - Wirkungsgradreduktion
-  - Korrosion
-  - Bereiche wo Risse initiieren können
+## Phase
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cavitation.jpg)
+Bekannt im Bezug auf den Aggregatzustand (fest, flüssig, gasförmig, plasmaförmig)
+
+**Allgemeine Definition**
+Unter Phase versteht man einen chemisch und physikalisch gleichartigen homogenen Bestandteil einer Legierung oder von Materie überhaupt.
 
 ---
 
-## Reibkorrosion
+Phasenänderungen sind unterteilbar in 
+- Umwandlungen
+- Ausscheidungen
 
-- Gleitbewegungen zwischen zwei hochbelasteten Bauteilen
-- meist bei zu geringem Übermaß $\rightarrow$ Passungen
+---
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+## Umwandlungen
+
+- instabile Gittermodifikationen wandeln sich in stabile um
+- unterhalb einer Gleichgewichtstemperatur (bspw. $\gamma-FE$ in $\alpha-FE$)
+- bei Legierungen kann sich die Mischkristallkonfiguration ändern. Dann ändert sich die Konzentration (bspw. $\gamma-MK$ in $\alpha-MK$)
+
+---
+
+## Auscheidungen
+- Löslichkeit nimmt ab (Änderung der Temperatur)
+- Phasen (eine oder mehre) scheiden aus dem Mischkritall aus
+- Erfordert einen Massentransport (Diffusion) -> phys. Arbeit nötig (Wärme) und Zeit
+
+---
+
+## Diffusion
+
+- Diffusion allgemein ist temperatur- und zeitabhängig
+- es findet ein Massentransport statt
+Beschrieben durch das 1. Ficksche Gesetz
+$dm_A=-D\frac{dc_A}{dx}Sdt$
+mit 
+$D=D_0exp(-\frac{Q_A}{RT})$
+- $D_0$ - Diffusionskonstante
+- $Q_A$ - Aktivierungsenergie / Wärme
+
+_Modell kann auch verwendet werden, um Diffusion von Gasen aus Tanks zu beschreiben_
+
+---
+
+
+
+
+<summary>Einphasigkeit</summary>
+
+- reines Aluminium
+- reines Eisen
+- Wasser
+
+
+
+
+<summary>Zweiphasigkeit</summary>
+
+- Nebel
+- übersättigte Lösungen
+
+<summary>Mischkristall</summary>
+
+- Ein Mischkristall ist ein chemisch homogener, gleichartiger Kritall, der aus mehreren Atomsorten aufgebaut ist.
+
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a8/114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P_%28cropped%29.jpg)
+
+![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/4/4e/Nuclear_Power_Plant_Cattenom.jpg)
+
+
+---
+# Mischkristalle
+
+- mindestens 2 Atomsorten
+- Heterogenität wird erst im Bereich atomarer Abmessungen sichtbar
+- die meisten Metalle können in ihrem Gitterverband eine bestimmte Menge andere Atome aufnehmen
+- dies führt zu "Verspannungen" im Gitter
+
+- "solid solution" (fest Lösung)
+
+
+
+---
+
+## Mischkristalle - Arten
+
+![bg right fit](../assets/Figures/mischkristalle.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Bildquelle</a>
+</div>
+
+Subsitutionsmischkristall
+- ähnlicher chemischer Charakter
+- ähnlicher Durchmesser
+- gleiches Kritallgitter
+
+
+
+---
+
+
+## Mischkristalle - Arten
+
+![bg right fit](../assets/Figures/mischkristalle.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Bildquelle</a>
+</div>
+
+
+
+Einlagerungsmischkristall
+- kleinere Atome
+- in Lücken des Kristallgitters eingelagert (Einlagerungs- oder Zwischengitteratome) 
+- zweite Komponente ist gelöst
+- Durchmesserverhältnis $f=\frac{d}{D}\leq 0.41$
+_Beide Arten sind einphasig._
+
+
+---
+
+## Intermetallische Phase / intermediäre Kristalle
+
+-	meist komplizierter Gitteraufbau, unabhängig von Ausgangsgittern (mehrere hundert Atome)
+- zwischen den Atomsorten gibt es starke Anziehungskräfte
+- neben der metallischen Bindung wirken die kovalenten und Ionenbindungen
+-> Bindungsform zwischen chemisch und metallisch -> intermediate
+
+---
+
+- sie sind sehr hart und spröde
+- technische Legierungen enthalten in der Regel weniger als 10%
+- wichtige Untergruppe -> interstitiellen Phasen (Einlagerungsstrukturen)
+  - Carbide, Boride, Nitride
+  - wird in Werkzeugstählen und hitzebeständigen Stählen eingesetzt
+
+---
+
+
+
+# Gefüge der Werkstoffe
+
+- durch Art, Größe, Form und Orientierung und Anordnung der einzelnen Bestandteile (Phasen), wie Kristallite (Körner), amorphe Bereiche, Verstärkungs- bzw. Füllstoffe, charakterisiert
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a7/Vanadium-bar.jpg)
+![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/5e/AlubronzeCuAl20v500.png)
+
+---
+
+## Entstehung des Gefüges
+
+Schmelze  → Abkühlung / Unterkühlung
+↓
+Keimbildung (homogen + heterogen)
+↓
+Keimwachstum → Kristallisation
+↓
+Kristallitbildung (Kornbildung mit Korngrenzen)
+↓
+∑ aller Körner und Korngrenzen 	=>    Gefüge
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
+
+---
+
+## Keimbildung
+- Erstarren findet nicht gleichmäßig statt -> Bildung von Keimen
+- homogen (arteigenen) oder heterogen (artfremden) 
+- Wachstum der Keime (Kristallwachstum)  bis gesamte Schmelze erstarrt ist
+- Es bestehen Zusammenhänge zwischen der Keimzahl (KZ) und der Kristallisationsgeschwindigkeit (KG) einer-seits und der Unterkühlung ΔT andererseits.
+
+---
+## Einflussparameter auf die Ausbildung der Korngröße
+![](../assets/Figures/Korngroesse.png)
+a) → feinkörniges Gefüge  $\qquad$	b)  → grobkörniges Gefüge
+
+
+- große Zahl von Keimen -> feinkörniges Gefüge
+- schnelles Kristallwachstum und geringe KZ -> grobkörniges Gefüge
+
+---
+## Begriffe
+Korn 
+- Keime haben Wachstum abgeschlossen und stoßen aneinander
+- Kristallorientierung zwischen benachbarten Körnern ist in der Regel unterschiedlich
+- Form und Größe wird durch den Wärmfluss bestimmt
+  - gleichmäßig in alle Richtungen - _globulistisch_
+  - Vorzugsrichtung des Wärmeflusses - _transkristalline Erstarrung_
+
+Korngrenze 
+- Übergangsflächen zwischen Körnern
+
+
+---
+
+## Gießen oder Stranggießen
+
+- Beim Gießen oder Stranggießen in eine Metallform (Kokille) bildet sich eine Gussstruktur in drei Zonen, meist mit einer deutlichen Abgrenzung zueinander:
+
+---
+
+1.	Feinkörnige globulare Randzone
+
+- starke Unterkühlung der Schmelze an der Kokillenwand
+- Ausbildung von zahlreichen Kristallkeime -> kleine, gleichmäßige Kristallite
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+
+2.	Transkristallisationszone mit stängelförmigen, sehr groben Kristalliten
+
+- gerichtetes Wachstum von Kristallite (Stängelkristalle), bei denen die kristallografische Orientierung mit der Richtung des Wärmegefälles übereinstimmt;
+- die dadurch aufgetretene Orientierung => Gusstextur 
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+
+3.	Globulare Kernzone
+- Verunreinigungen, werden von den Stängelkristallen vor sich her geschoben und reichern sich  im Kern an
+- hohen Anzahl von artfremden Keimen 
+- globulare feinkörnige Kernzone 
+- Bei sehr reinen Metallen liegt in der dritten Zone allerdings ein grobkörniges Gefüge vor
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+
+## Schweißen
+
+![bg right](https://cdn.schuetz-licht.com/image/Wissen/Schweissnahtpruefung/A-Mass/Schweissnaht-Analyse.JPG)
+
+---
+ 
+# Gefügenachweise
+
+- Im Allgemeinen sind die einzelnen Kristallite (Körner) in einem Werkstoff nicht ohne weiteres sichtbar. 
+- Für werkstoffwissenschaftliche Untersuchungen ist es jedoch notwendig, die vorhandene Mikrostruktur zu analysieren. 
+- Arbeitsschritte:
+  - gezielte Probenentnahme 
+  - Schleifen und Polieren der Probe
+  - Ätzen der Oberfläche
+
+---
+
+## Mikroschliffe
+- sorgfältig präparierte Schlifffläche kann mittels eines Licht- oder Elektronenrastermikroskops betrachtet werden. 
+- Das Elektronenrastermikroskop weist neben der wesentlich stärkeren Auflösung auch eine höhere Schärfentiefe auf.
+
+
+---
+
+## Ätzungen
+Das Ätzen zur Gefügeentwicklung kann auch als ein Korrosionsvorgang bezeichnet werden.
+
+Korngrenzenätzung
+- bevorzugtes auflösen von Korngrenzen
+
+![bg right 50%](../assets/Figures/Korngrenzenaetzung.png)
+
+---
+
+Kornflächenätzung
+- nebeneinander liegende Kornschnittflächen werden unterschiedlich  stark aufgeraut bzw. mit Oxidschichten bedeckt
+- Körner reflektieren das Licht unterschiedlich 
+
+
+![bg right 60%](../assets/Figures/Kornflaechenaetzung.png)
+
+---
+
+## Makroschliffe
+
+Mit Hilfe der Makroätzungen können nur Gefügeerscheinungen untersucht werden, die mit bloßem Auge oder einer Lupe zu erkennen sind. 
+Folgende Nachweise sind möglich:
+-	Seigerungen und deren Lokalisierung: Ätzungen nach Heyn und Oberhoffer oder Baumannabdruck
+-	Güte von Schweißverbindungen: Adlerätzung
+-	Entwicklung von Kraftwirkungslinien nach plastischer Verformung: Ätzung nach Fry
+
+---
+
+## Begriffe für die qualitative und quantitative Beschreibung von Gefügen
+
+Metallographie - Metalle
+Keramographie - Keramiken
+Plastographie - Polymerwerkstoffe
+
+---
+
+## Korngrenzen
+[Video zum Kritallwachstum](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
+- nichtlösbare und/oder Verunreinigungen werden von der Kristallfronten vor sich hergeschoben -> **Korngrenzensubstanzen**
+
+![bg right](https://wiki.arnold-horsch.de/images/a/a5/16MnCrS5-CRIDA_Gr%C3%BCn.jpg)
+
+---
+
+## Korngrenzensubstanzen
+Fall 1:
+Korngrenzensubstanz ist verformbar -> Materialverhalten wird durch Körner dominiert
+
+Fall 2: 
+Korngrenzensubstanz sind spröde -> Materialverhalten wird durch Korngrenzen dominiert -> Versprödung
+
+
+---
+
+## Referencen
+<a id="Referenzen"></a>
+
+Rainer Schwab: Werkstoffkunde und Werkstoffprüfung für Dummies, 2019; ISBN-10 352771538X
+[Grundlagen der Metallkunde](https://wiki.arnold-horsch.de/index.php/Grundlagen_der_Metallkunde)
+
 
 
 

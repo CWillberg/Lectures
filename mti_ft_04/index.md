@@ -5,260 +5,968 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: MTI - Ermüdung und Verschleiß
+title: MTI - Fertigungstechnik
 author: Christian Willberg
 ---
 
 <style>
 footer {
-  font-size: 14px;
-  color: #888;
-  text-align: right;
+    font-size: 14px; /* Ändere die Schriftgröße des Footers */
+    color: #888; /* Ändere die Farbe des Footers */
+    text-align: right; /* Ändere die Ausrichtung des Footers */
+}
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
 }
 </style>
 
-## Ermüdung und Verschleiß
-Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-Hochschule Magdeburg-Stendal
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
+## Vorlesung MTI - Fertigungtechnik
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-Kontakt: christian.willberg@h2.de  
-Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen  
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-  <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
+![bg right](https://upload.wikimedia.org/wikipedia/commons/1/1d/SchmelzofenArbeiter.jpg)
+
+Kontakt: christian.willberg@h2.de
+
+---
+
+# Inhalte
+
+![bg right 70%](../assets/QR/mti_ft_04.png)
 
 ---
 
 <!--paginate: true-->
 
+# Hauptgruppen nach DIN 8580
 
-
-
-![bg right 50%](../assets/QR/mti_ft_04.png)
-
----
-
-# Ermüdung
-
-<details>
-<summary>Was ist Ermüdung?</summary>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Sleeping_students.jpg" alt="Alternative text" width="500">
-
-</details>
-
----
-
-- Tritt typischerweise bei zyklischer Belastung auf
-  - Isotherme mechanische Ermüdung
-    - [Oszillierende Last](https://www.youtube.com/watch?v=_qVXkAWtH60)
-    - Flugzeugrümpfe (Druckaufbau und -abfall)
-  - Thermische Ermüdung
-    - Öfen, Heizelemente
-  - Thermomechanische Ermüdung
-    - Hochdruckbehälter
-  - Elektrothermische Ermüdung
-    - Stromleiter (Glühfäden)
-
----
-
-![bg 60%](https://leichtbau.dlr.de/wp-content/uploads/2021/11/Abbildung-2_Innovationsbericht_Wasserstofftank_CG06.png)
-
----
-
-## Ermüdung
-- Die Belastung liegt unterhalb der Streckgrenze $R_{p0,2}$
-  - > _Erinnerung: Was bedeutet $R_{p0,2}$?_
-- Spannungs-Konzentrationen entstehen an Materialfehlern (Poren, Mikrorisse) oder im Kristall (Versetzungen, Fehlstellen)
-- Zunächst bilden sich unter wechselnder Last lokal zufällige Bereiche plastischer Verformung
-- Diese Punkte repräsentieren Spannungs-Konzentrationsbereiche, die sich mit der Zeit vergrößern und zu Bruch führen können
-
-[Erklärvideo](https://www.youtube.com/watch?v=o-6V_JoRX1g)
-
----
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/1/1c/Woehlerlinie.png)
-![bg fit 80%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
-
----
-## Spannungsverhältnis
-$R = \frac{\sigma_u}{\sigma_o}$
-## Mittelspannung
-$\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
-
-$\sigma_o$ - Oberspannung
-$\sigma_u$ - Unterspannung
-
-![bg right 90%](../assets/Figures/sinuskurven_mit_offset.png)
-
----
-
-
-## Begriffe
-
-- Lebensdauer
-- Ermüdungsriss
-- Ermüdungsbruch
-- Kurzzeitfestigkeit (K) $<10^5$ (Low Cycle Fatigue (LCF))
-- Zeitfestigkeit (Z) $10^4<10^6$ (High Cycle Fatigue (HCF))
-- Dauerfestigkeit (D) $>10^6$ (Very High Cycle Fatigue (VHCF))
-
-
-![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
-![bg vertical  60%](https://farm6.staticflickr.com/5522/12140479094_6f746014ab_z.jpg)
-
+- Urformen (Formgebung, Zusammenhalt schaffen)
+- Umformen (Formänderung ohne Materialabtrag, Zusammenhalt beibehalten)
+- Trennen (Formänderung durch Zerteilen oder Materialabtrag, Zusammenhalt vermindern)
+- Fügen (Verbinden von Werkstücken, Zusammenhalt vermehren)
+- Beschichten (Auftrag dünner Schichten)
+- Stoffeigenschaften ändern (z. B. durch Beeinflussung der Kristallstruktur)
 
 
 ---
 
-## Gegenmaßnahmen
 
-- Kerbwirkung verringern
-- Materialanpassung
-- Konstruktion anpassen, damit lokale Spannung zulässige Grenzen nicht überschreitet
-- Regelmäßige Inspektionen 
+## Urformen
+
+- Einteilung nach [DIN 8580](https://de.wikipedia.org/wiki/Urformen)
+- die wesentlichen Klassen:
+  - Urformen aus dem flüssigen Zustand
+  - Urformen aus dem breiigen Zustand 
+    - z. B. Gießen von Gips oder Beton
+  - Urformen aus dem plastischen Zustand 
+    - z.B. Spritzgießen, Strangpressen
+  - Urformen aus dem körnigen oder pulverförmigen Zustand 
+    - z.B. Metall- oder Keramikpulver die gepresst, und anschließend in einem Sinterprozesses erhitzt und dadurch miteinander zu einem festen Körper verbunden
+
+---
+- Einteilung nach [DIN 8580](https://de.wikipedia.org/wiki/Urformen)
+  - Urformen aus dem span- oder faserförmigen Zustand
+    - Papierherstellung oder die Produktion von Spanplatten
+  - Urformen aus dem gas- oder dampfförmigen Zustand
+    -  Gas oder Dampf wird in eine geometrisch definierte Form überführt, z. B. durch Kondensation metallischer Dämpfe.
+  - Urformen aus dem ionisierten Zustand
+    - z.B. Abscheiden von Material mittels Elektrolyse im Rahmen der Galvanoformung
+  - Additive Fertigung
 
 ---
 
 
-# Verschleiß
 
----
-
-
-- infolge Reibung eintretende bleibende Form- und Stoffveränderung an der Oberfläche von Festkörpern
-- ist technologisch nicht beabsichtigt und eine Form des funktionellen Versagens darstellt bzw. darstellen kann
-- Beeinflusst durch
-  - Reibkörperpaarung
-  - Beschaffenheit der Grenzschichten und des Zwischenstoffes
-  - Art des Bewegungsablaufes
-  - Höhe der Belastung 
-
----
-
-- **Adhäsiver Verschleiß**
-- **Abrasiver Verschleiß**
-- **Oberflächenzerrüttung**
-- **Tribooxidation**
-
----
-
-## Adhäsiver Verschleiß
- - Adhäsiver Verschleiß tritt bei mangelnder Schmierung auf
- - bei hoher Flächenpressung haften Flächen aneinander
- - tritt Gleiten ein, werden Randschichtteilchen
- - es entstehen Löcher und schuppenartige Materialteilchen, die oft an der Gleitfläche des härteren Partners haften bleiben. 
-
----
-
-![bg 50%](https://upload.wikimedia.org/wikipedia/commons/3/31/Rt%2BRv%2BRp.gif)
-
----
-
-## Abrasiver Verschleiß
-
-- harte Teilchen eines Schmierstoffs oder Rauheitsspitzen eines Reibungspartners dringen in Randschicht ein
-  -> es kommt es zu Ritzung und Mikrozerspanen
-  - Furchverschleiß oder Erosionsverschleiß 
-
-- richtige Wahl der Werkstoffpaarung; Metall-Kunststoff- oder Metall-Keramik-Paarungen
-
----
-
-Beispiel Windenergie:
-- Sand im Wind "schmirgelt" die Oberfläche ab
-- Wirkungsgrad sinkt
-![bg right 100%](https://encyclopedia.pub/media/item_content/202209/6333de2d03ef5energies-15-05672-g008.png)
-
----
-
-## Oberflächenzerrüttung
-
-- wechselnde oder schwellende mechanische Spannungen an der Oberfläche
-- Ermüdung oder Kriechen des Materials an der Oberfläche
-
----
-
-## Tribooxidation
-- Tribooxidation (Passungsrost) an einer Welle aus Stahl
--  Bildung von Zwischenschichten, z. B. Oxidschichten, infolge chemischer Reaktion und ihre mechanische Zerstörung durch Bewegung der Bauteile 
-- tritt fast immer zusammen mit adhäsivem Verschleiß auf
+## Urformen - Verbindung zur Werkstofftechnik / Materialeigenschaften?
 
 
 ---
 
-| Verschleißart            | Erscheinung                                                        | Primäres Vorkommen                                         |
-|--------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
-| Gleitverschleiß          | Rillen oder Riefen durch Abrieb, Materialübertragung oder lokales Schmelzen | Un-geschmierte Lager, Kupplungen, Bremsen                  |
-| Rollverschleiß           | Abblättern durch Ermüdungsrisse                                     | Rad/Schiene, Wälzlager                                     |
-| Pittings                 | Grübchenbildung: Pitting                                           | Wälzkörper, speziell Zahnräder                             |
-| Abrasivverschleiß         | Plastische Verformung, Erosion                                    | Bagger, Schüttguttransport, Partikelaufprall               |
-| Kavitation               | Oberflächenschädigung durch Aufprall von Dampfblasen              | Wasserturbinen, Pumpen                                     |
-| Tribooxidation (Reibkorrosion) | Loses Oxidationsprodukt                                      | Maschinenelemente mit form- oder kraftschlüssigen Verbindungen |
+- Schmelzpunkt
+- Zustandsdiagramme
+- Schmelzbarkeit
+- elektrische Leitfähigkeit
+- Viskosität der Schmelze
+- Erstarrungsverhalten
+- Wärmeleitfähigkeit
+- Thermische Ausdehnung / Schrumpfung
+- Gießbarkeit
 
 ---
 
-## Gleitverschleiß
+# Folgende Schritte sind notwendig
 
-- Beeinflusst [durch](https://download.basf.com/p1/8a8081c57fd4b609017fd66047f138c3/de/Reibung_und_Verschlei%25C3%259F%250Abei_Polymerwerkstoffen)
-  - Die mittlere Rauheitstiefe $R_z$
-  - Anpressdruck
-  - Verschleißpfadverhältnis $W=k\frac{F_N}{A}10^6$
-  - $k$ in $\left[\frac{mm^3}{Nm}\right]$ spezifischer Verschleißkoeffizient (lastunabhängig)
-
-![bg right fit 90%](https://media.springernature.com/original/springer-static/image/chp:10.1007%2F978-3-658-17851-2_4/MediaObjects/299062_3_De_4_Fig17_HTML.gif)
 
 ---
 
-
-## Wälzverschleiß
-- [Wälzen](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) ist eine Beanspruchungsart, bei der Gleitanteile (Schlupf) den reinen Rollvorgang überlagern
-- kleine Kontaktfläche; hohe Flächenpressung
-- Oberflächenzerrüttung (plastische Verformung, Gefügeänderungen, usw.)
-- durch Schmierung deutlich reduzierbar $\rightarrow$ spezifische Schmierfilmdicke $\lambda$
-
-![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
-
-![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
+- Bereitstellung des Werkstoffs
+- Erzeugung eines urformfähigen Werkstoffzustand
+- Füllen des Urformwerkzeugs mit urformfähigem Werkstoff
+- Übergang des Werkstoffs in den formbaren Zustand im Urformwerkzeug
+- Entnahme des geformten Ergebnisses
 
 ---
 
-## Kavitation
-
-[Video](https://www.youtube.com/watch?v=J0H0Nw44oA4)
-
-<details>
-<summary>Physikalische Ursache?</summary>
-<div>
-
-- statischer Druck ist abhängig von der Geschwindigkeit eines Fluids
-- bei Unterschreitung des Verdampfungsdrucks bilden sich Dampfblasen
-- diese Blasen laufen in Bereiche mit höherem Druck und kondensieren schlagartig
-- Druck- und Temperaturspitzen treten auf
-</div>
-</details>
+![bg](https://upload.wikimedia.org/wikipedia/commons/5/5f/Black-band_ironstone_%28aka%29.jpg)
 
 ---
 
-- lokale Belastungen an der Oberfläche
-- diese Bereiche ermüden und platzen ab
-- Beeinträchtigt die Oberfläche
-  - Wirkungsgradreduktion
-  - Korrosion
-  - Bereiche wo Risse initiieren können
+![bg](https://upload.wikimedia.org/wikipedia/commons/b/b0/Casting.jpg)
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cavitation.jpg)
+---
+[Beispiel Video](https://www.youtube.com/watch?v=oGlUJX_e1Vc)
+---
+
+## Urformen aus dem flüssigen Zustand
+
+- Schwerkraftgießen
+- Druckgießen
+- Niederdruckgießen
+- Schleudergießen
+- Feingießen / Wachsausschmelzverfahren
 
 ---
 
-## Reibkorrosion
+## Gießen
+Die Prozesskette beim Gießen besteht aus
+- der Vorbereitung mit der Herstellung der Formen und dem Schmelzen der Werkstoffe,
+- dem Abguss, wozu das Füllen der Form und das Erstarren der Schmelze zählt, sowie
+- der Nachbehandlung: dem Entformen, dem Gussputzen und der Wärmebehandlung.
 
-- Gleitbewegungen zwischen zwei hochbelasteten Bauteilen
-- meist bei zu geringem Übermaß $\rightarrow$ Passungen
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/1/1d/SchmelzofenArbeiter.jpg)
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+---
+
+## Sandguss
+
+**Merkmale:**
+- Verlorene Form aus Sand und Bindemittel
+- Wirtschaftlich für kleine bis mittlere Stückzahlen
+- Komplexe Geometrien möglich
+- Geringere Maßgenauigkeit
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/2/2b/Haandform-e.png)
+
+---
+
+**Anwendungen:**
+- Motorblöcke
+- Pumpengehäuse
+- Großteile (mehrere Tonnen möglich)
+
+![bg right 80%](https://smp-prototypen.de/wp-content/uploads/2022/09/DSC_9916-scaled.jpg)
 
 
+---
 
+## Kokillengießverfahren
+
+
+---
+
+**Dauerform aus Metall:**
+- Höhere Maßgenauigkeit
+- Bessere Oberfläche
+- Schnellere Abkühlung → feineres Gefüge
+- Wirtschaftlich ab mittleren Stückzahlen
+
+**Typische Werkstoffe:**
+- Aluminium- und Magnesiumlegierungen
+- Kupferlegierungen
+- Gusseisen
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/6/63/Low_pressure_permanent_mold_casting_schematic-de.svg)
+
+---
+
+## Druckgießen
+
+**Hochdruckgießen:**
+- Schmelze wird mit hohem Druck (100-1000 bar) in Form gepresst
+- Sehr hohe Produktivität
+- Ausgezeichnete Maßhaltigkeit
+- Dünne Wandstärken möglich (< 1 mm)
+
+**Vorteile:**
+- Hohe Oberflächengüte
+- Komplexe Formen
+- Geringe Nacharbeit
+
+---
+
+**Nachteile:**
+- Hohe Werkzeugkosten
+- Gaseinschlüsse möglich
+- Begrenzte Wärmebehandlung
+
+---
+
+## Druckguss - Anwendungen
+
+**Typische Bauteile:**
+- Getriebegehäuse
+- Motorkomponenten
+- Elektronikgehäuse
+- Beschläge und Armaturen
+
+---
+
+**Werkstoffe:**
+- Aluminiumlegierungen (häufigste)
+- Zinklegierungen
+- Magnesiumlegierungen
+- Kupferlegierungen
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/e/e0/Druckgie%C3%9Fmaschine.jpg)
+
+---
+
+## Niederdruckgießen
+
+**Prinzip:**
+- Schmelze wird mit geringem Überdruck (0.2-1 bar) von unten in Form gedrückt
+- Ruhiger Formfüllvorgang
+- Weniger Oxideinschlüsse
+
+**Vorteile:**
+- Höhere Qualität als Schwerkraftguss
+- Geringere Porosität
+- Bessere mechanische Eigenschaften
+- Geringerer Materialverlust
+
+**Anwendungen:**
+- Leichtmetallräder
+- Zylinderköpfe
+
+---
+
+## Stranggießen
+
+**Kontinuierliches Gießverfahren:**
+- Endlosprodukt wird kontinuierlich erzeugt
+- Sehr wirtschaftlich für große Mengen
+- Gleichmäßige Qualität
+
+**Produkte:**
+- Halbzeuge (Brammen, Knüppel)
+- Profile
+- Rohre
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/9/9d/Continuous_casting_%28Tundish_and_Mold%29-2_NT.PNG)
+
+---
+
+## Feingießen (Wachsausschmelzverfahren)
+
+**Verfahrensprinzip:**
+1. Modell aus Wachs herstellen
+2. Keramische Schale aufbauen
+3. Wachs ausschmelzen
+4. Metall eingießen
+5. Schale zerstören
+
+**Vorteile:**
+- Höchste Genauigkeit
+- Komplexeste Geometrien
+- Sehr gute Oberfläche
+- Minimale Nacharbeit
+
+**Anwendungen:**
+- Turbinenschaufeln
+- Dentalprothetik
+- Schmuck
+
+---
+
+## Lunker
+- Übergang vom flüssigen zum festen Zustand führt oft zum Schrumpfen → Phasenänderungen 
+- es entstehen Zwischenräume - Lunker
+- **Arten:**
+  - Primärlunker (offene Hohlräume)
+  - Sekundärlunker (innere Hohlräume)
+  - Mikrolunker (verteilte Porosität)
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/7/71/Lutetium_1cm3_cube.jpg)
+
+--- 
+## Erstarrung und Gefügebildung
+
+1. **Feinkörnige globulare Randzone**
+   - Schnelle Abkühlung
+   - Viele Kristallisationskeime
+
+2. **Transkristallisationszone mit stängelförmigen, sehr groben Kristalliten**
+   - Gerichtetes Wachstum
+   - Längliche Kristalle
+
+3. **Globulare Kernzone**
+   - Langsame Abkühlung
+   - Große Körner
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
+
+## Vermeidung von Lunkern
+
+**Konstruktive Maßnahmen:**
+- Große Radien
+- Gleichmäßige Wandstärken
+- Vermeidung von Masseanhäufungen
+- Speiser (Steiger) vorsehen
+
+**Prozessmaßnahmen:**
+- Gerichtete Erstarrung
+- Kühlung optimieren
+- Druck während Erstarrung
+
+![bg right 100%](https://www.inggo.com/fileadmin/_migrated/pics/1t_2_2_2_4_i01.gif)
+
+---
+
+## Zu berücksichtigen
+
+**Thermische Effekte:**
+- Thermische Verformung
+- Eigenspannungen
+- Thermischer Schrumpf (1-2% typisch)
+- Verzug
+
+**Gegenmaßnahmen:**
+- Konstruktive Aufmaße einplanen
+- Symmetrische Gestaltung
+- Wärmebehandlung zur Spannungsminderung
+
+---
+
+## Gießbarkeit von Werkstoffen
+
+**Wichtige Parameter:**
+- Schmelztemperatur
+- Fließvermögen (Viskosität)
+- Erstarrungsverhalten
+- Schwindung
+- Neigung zu Gasaufnahme
+- Oxidationsneigung
+
+**Gut gießbar:**
+- Gusseisen (niedrige Schmelztemperatur, gutes Fließvermögen)
+- Al-Legierungen
+
+**Schwer gießbar:**
+- Hochschmelzende Legierungen
+- Reaktive Metalle (Ti, Mg)
+
+---
+
+## Gusseisen 
+
+- Massenanteil über 2.06 % Kohlenstoff
+- gute Gießbarkeit (geringer Schmelzpunkt, dünnflüssige Schmelze)
+- hart und spröde
+- Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
+  - bei Gusseisen mit Lamellengraphit – der häufigsten Sorte – ist sie gut
+  - Festigkeit ist geringer als die von Stahlguss, die Dämpfung ist höher
+- Viele Sorten enthalten zusätzlich noch Silicium, das die Gießbarkeit verbessert, sowie weitere Legierungsanteile wie Mangan, Chrom oder Nickel
+
+---
+
+![bg fit](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+
+---
+
+## Einteilung Gusseisen
+
+Es wird unterschieden zwischen:
+
+- **Grauem Gusseisen (Grauguss)**: Kohlenstoff in Form von Graphit vorkommt
+  - Die Bruchflächen erscheinen grau
+  - Verschiedene Graphitformen möglich
+
+- **Weißem Gusseisen**: Kohlenstoff als Carbid in Form von Zementit (Fe₃C) vorkommt
+  - Die Bruchflächen sind weiß
+  - Sehr hart und spröde
+  - Meist für Verschleißteile
+
+![bg right 100%](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
+
+---
+
+## Vergleich Gusseisen und Stahl 
+
+[Qualitativ zum Lesen](https://capablemachining.com/de/Blog/Stahl-vs.-Gusseisen-ein-umfassender-Vergleich/)
+
+**Gusseisen:**
+- Dichte: 7.2 g/cm³
+- Schmelztemperatur: ~1150 °C
+- Korrosionsbeständiger
+- Spröder
+- Bessere Dämpfung
+- Bessere Gießbarkeit
+
+**Stahl:**
+- Dichte: 7.85 g/cm³
+- Schmelztemperatur: ~1500 °C
+- Duktiler
+- Höhere Festigkeit
+- Schweißbar
+
+[Quantitativ](https://www.schweizer-fn.de/festigkeit/festigkeitswerte/guss/stahlguss_start.php)
+
+---
+
+## Mechanisches Verhalten
+
+| Eigenschaft | Grauguss | Stahlguss |
+|-------------|----------|-----------|
+| Zugfestigkeit | 100-400 MPa | 400-800 MPa |
+| Druckfestigkeit | 400-1200 MPa | ~Zugfestigkeit |
+| Bruchdehnung | < 1% | 5-25% |
+| E-Modul | 80-140 GPa | 210 GPa |
+
+**Besonderheit Grauguss:**
+- Druckfestigkeit >> Zugfestigkeit (Faktor 3-4)
+- Nur für Druckbeanspruchung geeignet
+
+---
+
+![bg](https://www.tec-science.com/wp-content/uploads/2021/03/de-druckversuch-druckspannung-stauchungs-diagramm.jpg)
+
+---
+
+# Einteilung und Eigenschaften von Gusseisen
+
+---
+
+## Gusseisen mit Lamellengraphit (GJL)
+
+**Mikrostruktur:**
+- Graphit liegt in Form von dünnen, unregelmäßig geformten Lamellen vor
+- Lamellen wirken als Kerben bei Zugbelastung
+
+**Eigenschaften:**
+- Zugfestigkeit: 100-300 MPa (gering wegen Kerbwirkung)
+- Druckfestigkeit: 400-1200 MPa (Faktor 4 höher)
+- Spröder Werkstoff (< 1% Dehnung)
+- Gute Wärmeleitfähigkeit
+- Exzellente Dämpfung
+
+![bg right fit](https://www.giessereilexikon.com/uploads/tx_d3ency/189-01.png)
+
+---
+
+## GJL - Eigenschaften und Anwendungen
+
+**Vorteilhafte Eigenschaften:**
+- Gute Zerspanbarkeit
+- Selbstschmiereigenschaften
+  - Graphitlamellen wirken als Schmierstoffreservoir
+- Kostengünstig
+- Gute Gießbarkeit
+
+**Typische Anwendungen:**
+- Motorblöcke
+- Bremsscheiben
+- Maschinenbetten
+- Getriebegehäuse
+
+![bg right 70%](https://www.gsl-metallhandel.de/images/gusseisen-mit-lamellengraphit-maschinengeformt.jpg)
+
+---
+
+## Gusseisen mit Kugelgraphit (GJS)
+
+**Mikrostruktur:**
+- Graphit liegt in kugelförmiger Form vor
+- Erreicht durch Zugabe von Magnesium zur Schmelze
+- Keine Kerbwirkung
+
+**Eigenschaften:**
+- Deutlich bessere mechanische Eigenschaften als GJL
+- Zugfestigkeit: 370-800 MPa
+- Bruchdehnung: 2-18% (duktil!)
+- Zähigkeit ähnlich Stahl
+
+**Anwendungen:**
+- Kurbelwellen
+- Windkraftkomponenten
+- Hochbelastete Bauteile
+
+![bg right 80%](https://matdania.com/wp-content/uploads/2017/04/Nodular_Iron.jpg)
+
+---
+
+## Vergleich Graphitformen
+
+| Eigenschaft | Lamellengraphit (GJL) | Kugelgraphit (GJS) | Vermiculargraphit (GJV) |
+|-------------|----------------------|-------------------|------------------------|
+| Zugfestigkeit | 100-300 MPa | 370-800 MPa | 300-500 MPa |
+| Bruchdehnung | < 1% | 2-18% | 1-6% |
+| Duktilität | Spröde | Duktil | Eingeschränkt duktil |
+| Wärmeleitfähigkeit | Sehr gut | Mäßig | Gut |
+| Dämpfung | Exzellent | Gering | Gut |
+| Kosten | Niedrig | Mittel | Mittel-Hoch |
+
+---
+
+## Gusseisen mit Vermiculargraphit (GJV)
+
+**Mikrostruktur:**
+- Graphit in wurmförmiger (vermicularer) Form
+- Zwischenform zwischen Lamellen- und Kugelgraphit
+- Schwierige Herstellung (enge Toleranzen)
+
+**Eigenschaften - Vorteile gegenüber GJL:**
+- Höhere Festigkeit und Bruchdehnung
+- Höhere Bruchzähigkeit
+- Geringere Wanddickenabhängigkeit
+
+![bg right 80%](https://www.giessereilexikon.com/uploads/tx_d3ency/190-07.png)
+
+---
+
+## GJV - Vorteile gegenüber GJS
+
+**Thermische Eigenschaften:**
+- Niedrigerer thermischer Ausdehnungskoeffizient
+- Höhere Wärmeleitfähigkeit
+- Niedrigerer E-Modul
+- Geringeres thermisch induziertes Eigenspannungsniveau
+- Bessere Temperaturwechselbeständigkeit
+
+**Fertigungstechnisch:**
+- Besseres Dämpfungsvermögen
+- Bessere gießtechnische Eigenschaften
+- Geringere Lunkerneigung
+- Besseres Formfüllungs- und Fließvermögen
+
+**Anwendung:** Motorblöcke (Diesel), Zylinderköpfe
+
+---
+
+## Urformen aus dem plastischen Zustand
+
+**Spritzgießen von Kunststoffen:**
+- Kunststoffgranulat wird aufgeschmolzen
+- Unter hohem Druck in Form gespritzt
+- Schnelle Abkühlung und Erstarrung
+- Hohe Taktzeiten möglich
+
+**Werkstoffe:**
+- Thermoplaste (PE, PP, ABS, PC, PA, etc.)
+- Duroplaste (selten, Reaktionsspritzgießen)
+
+**Anwendungen:**
+- Gehäuse
+- Verpackungen
+- Technische Bauteile
+
+---
+
+## Spritzgießprozess
+
+**Prozessschritte:**
+1. Plastifizierung (Aufschmelzen)
+2. Einspritzen
+3. Nachdruckphase
+4. Abkühlung
+5. Entformen
+
+**Wichtige Parameter:**
+- Massetemperatur
+- Werkzeugtemperatur
+- Einspritzdruck und -geschwindigkeit
+- Nachdruckzeit
+- Kühlzeit
+
+---
+
+## Strangpressen (Extrusion)
+
+**Prinzip:**
+- Material wird durch formgebende Düse gepresst
+- Kontinuierliches Verfahren
+- Konstanter Querschnitt
+
+**Anwendungen:**
+- Profile (Fensterrahmen, Rohre)
+- Folien und Platten
+- Kabel und Schläuche
+
+**Werkstoffe:**
+- Kunststoffe (Thermoplaste)
+- Aluminiumlegierungen
+- Kupferlegierungen
+
+---
+
+## Urformen aus dem pulverförmigen Zustand
+
+**Pulvermetallurgie / Sintern:**
+
+1. **Pulverherstellung**
+   - Verdüsung
+   - Mechanisches Zerkleinern
+   - Chemische Verfahren
+
+2. **Formgebung**
+   - Pressen (uniaxial, isostatisch)
+   - Spritzgießen (MIM - Metal Injection Molding)
+
+3. **Sintern**
+   - Erwärmung unterhalb Schmelztemperatur
+   - Diffusion verbindet Partikel
+
+---
+
+## Sintern - Vorteile und Anwendungen
+
+**Vorteile:**
+- Komplexe Geometrien ohne Nacharbeit
+- Minimaler Materialverlust
+- Kontrolle von Porosität
+- Spezielle Materialkombinationen möglich
+- Reproduzierbare Eigenschaften
+
+**Anwendungen:**
+- Zahnräder, Lager
+- Hartmetallwerkzeuge
+- Keramische Bauteile
+- Poröse Filter
+- Medizinische Implantate
+
+---
+
+## Urformen - Additive Fertigung
+
+**Prinzip:**
+- Schichtweiser Aufbau eines dreidimensionalen Bauteils
+- CAD-Daten werden direkt umgesetzt
+- Keine Werkzeuge erforderlich
+
+**Vorteile:**
+- Geometrische Freiheit
+- Schnelle Prototypenfertigung
+- Individualisierung
+- Leichtbaustrukturen (Topologieoptimierung)
+- Funktionsintegration
+
+[Grundlagen](https://www.youtube.com/watch?v=d_YUk4vcFCE)
+
+---
+
+## Additive Fertigungsverfahren - Übersicht
+
+**Nach Verfahrensprinzip:**
+- Pulverbettverfahren (SLM, DMLS, SLS)
+- Materialextrusion (FDM/FFF)
+- Materialstrahl (Binder Jetting, Material Jetting)
+- Drahtbasiert (WAAM)
+- Stereolithographie (SLA, DLP)
+- Laminierverfahren (LOM)
+
+---
+
+## Pulverbettverfahren
+
+**Selective Laser Melting (SLM) / Direct Metal Laser Sintering (DMLS):**
+- Metallpulver wird schichtweise aufgetragen
+- Laser schmilzt Pulver selektiv auf
+- Vollständiges Aufschmelzen
+- Dichte Bauteile (> 99%)
+
+**Werkstoffe:**
+- Edelstähle
+- Titan-Legierungen
+- Aluminium-Legierungen
+- Nickel-Legierungen
+- Werkzeugstähle
+
+**Anwendungen:**
+- Luft- und Raumfahrt
+- Medizintechnik
+- Werkzeugbau
+- Individuelle Implantate
+
+---
+
+## Selective Laser Sintering (SLS)
+
+**Kunststoff-Pulverbettverfahren:**
+- Kunststoffpulver wird mit Laser aufgeschmolzen
+- Keine Stützstrukturen nötig (Pulver stützt)
+- Funktionsfähige Bauteile
+
+**Werkstoffe:**
+- Polyamid (PA12, PA11)
+- Thermoplastisches Polyurethan (TPU)
+- Polypropylen (PP)
+
+**Eigenschaften:**
+- Gute mechanische Eigenschaften
+- Hitzebeständig
+- Chemisch beständig
+
+---
+
+## Fused Deposition Modeling (FDM/FFF)
+
+**Prinzip:**
+- Thermoplastisches Filament wird aufgeschmolzen
+- Material wird durch Düse extrudiert
+- Schichtweiser Aufbau
+
+**Werkstoffe:**
+- PLA (einfach, biologisch abbaubar)
+- ABS (stabil, hitzebeständig)
+- PETG (zäh, chemisch beständig)
+- Nylon (sehr fest)
+- Spezialfilamente (mit Fasern verstärkt)
+
+**Vorteile:**
+- Kostengünstig
+- Einfache Handhabung
+- Große Materialauswahl
+
+---
+
+## Stereolithographie (SLA)
+
+**Prinzip:**
+- Flüssiges Photopolymer (Harz)
+- UV-Laser härtet Harz schichtweise aus
+- Sehr hohe Auflösung möglich
+
+**Eigenschaften:**
+- Exzellente Oberflächengüte
+- Hohe Detailgenauigkeit
+- Transparente Bauteile möglich
+
+**Anwendungen:**
+- Prototypen mit feinen Details
+- Dentalmodelle
+- Schmuckguss-Modelle
+- Optische Bauteile
+
+---
+
+## Wire Arc Additive Manufacturing (WAAM)
+
+**Prinzip:**
+- Draht wird als Ausgangsmaterial verwendet
+- Lichtbogen schmilzt Draht auf
+- Schichtweiser Aufbau großer Bauteile
+
+**Vorteile:**
+- Große Bauteile möglich (mehrere Meter)
+- Hohe Aufbaurate
+- Niedrige Materialkosten
+- Flexible Materialwahl
+
+**Anwendungen:**
+- Großstrukturen (Schiffbau, Aerospace)
+- Reparatur großer Bauteile
+- Hybride Fertigung
+
+---
+
+## Metal Binder Jetting
+
+**Prinzip:**
+- Metallpulver wird schichtweise aufgetragen
+- Bindemittel wird selektiv aufgetragen
+- Anschließendes Sintern im Ofen
+- Entbindern + Verdichten
+
+**Vorteile:**
+- Keine thermischen Spannungen während Druck
+- Große Bauräume möglich
+- Mehrere Bauteile parallel
+- Vollfarbig möglich (Keramik)
+
+**Nachteil:**
+- Nachbehandlung erforderlich
+- Schwindung beim Sintern
+
+---
+
+## Vergleich Additiver Fertigungsverfahren
+
+| Verfahren | Werkstoffe | Auflösung | Geschwindigkeit | Kosten |
+|-----------|------------|-----------|-----------------|--------|
+| SLM/DMLS | Metalle | Hoch | Mittel | Hoch |
+| SLS | Kunststoffe | Mittel | Mittel | Mittel |
+| FDM/FFF | Thermoplaste | Mittel | Langsam | Niedrig |
+| SLA | Photopolymere | Sehr hoch | Mittel | Mittel |
+| WAAM | Metalle | Niedrig | Schnell | Mittel |
+| Binder Jetting | Metalle, Keramik | Mittel | Schnell | Mittel-Hoch |
+
+---
+
+## Herausforderungen Additive Fertigung
+
+**Technische Herausforderungen:**
+- Anisotropie der Eigenschaften (schichtweise Bauweise)
+- Oberflächenrauheit
+- Innere Spannungen
+- Porosität (bei Metallverfahren)
+- Supportstrukturen erforderlich
+
+**Prozessbedingt:**
+- Lange Bauzeiten für große Bauteile
+- Qualitätssicherung komplex
+- Nachbearbeitung oft nötig
+- Begrenzte Bauraumgröße
+
+---
+
+## Post-Processing bei Additiver Fertigung
+
+**Mechanische Nachbearbeitung:**
+- Entfernen von Supportstrukturen
+- Schleifen, Polieren
+- Fräsen für Funktionsflächen
+
+**Thermische Nachbehandlung:**
+- Spannungsarmglühen
+- Hot Isostatic Pressing (HIP) - Verdichtung
+
+**Oberflächenbehandlung:**
+- Sandstrahlen
+- Gleitschleifen
+- Beschichtungen
+
+---
+
+## Anwendungsbeispiele Additive Fertigung
+
+**Luft- und Raumfahrt:**
+- Treibstoffdüsen (GE Aviation)
+- Leichtbaustrukturen
+- Konsolidierte Baugruppen
+
+**Medizintechnik:**
+- Patientenspezifische Implantate
+- Chirurgische Planungsmodelle
+- Zahnersatz
+
+**Automobilbau:**
+- Prototypen
+- Werkzeuge und Vorrichtungen
+- Individualisierte Bauteile (Oldtimer)
+- Leichtbau-Komponenten
+
+---
+
+## Hybride Fertigung
+
+**Kombination konventionell + additiv:**
+- Additiver Aufbau auf bestehendem Bauteil
+- Anschließende spanende Bearbeitung
+- Reparatur verschlissener Bauteile
+
+**Vorteile:**
+- Beste Eigenschaften beider Verfahren
+- Wirtschaftlichkeit
+- Materialeffizienz
+
+**Anwendungen:**
+- Turbinenschaufel-Reparatur
+- Werkzeugbau (konturnahe Kühlung)
+- Funktionalisierung von Standardbauteilen
+
+---
+
+## Wirtschaftlichkeit Urformverfahren
+
+**Stückzahlabhängigkeit:**
+- Geringe Stückzahl (< 100): Additive Fertigung, Sandguss
+- Mittlere Stückzahl (100-10.000): Kokillenguss, Feinguss
+- Große Stückzahl (> 10.000): Druckguss, Spritzguss
+
+**Kostenfaktoren:**
+- Werkzeugkosten
+- Materialkosten
+- Taktzeit
+- Nachbearbeitung
+- Ausschuss
+
+---
+
+## Qualitätssicherung beim Urformen
+
+**Zerstörungsfreie Prüfung:**
+- Röntgen / Computertomographie
+- Ultraschallprüfung
+- Magnetpulverprüfung
+- Eindringprüfung
+
+**Zerstörende Prüfung:**
+- Zugversuch
+- Härteprüfung
+- Metallographie
+
+**Prozessüberwachung:**
+- Temperaturkontrolle
+- Druckmessung
+- Füllsimulation (CAE)
+
+---
+
+## Simulation beim Urformen
+
+**Gießsimulation (CAE):**
+- Formfüllung visualisieren
+- Erstarrungsverhalten vorhersagen
+- Lunker- und Porenbildung prognostizieren
+- Eigenspannungen berechnen
+
+**Vorteile:**
+- Werkzeugoptimierung vor Fertigung
+- Reduzierung von Prototypen
+- Kosteneinsparung
+- Qualitätsverbesserung
+
+**Software-Beispiele:**
+- MAGMASOFT
+- ProCAST
+- Flow-3D
+
+---
+
+## Zusammenfassung Urformen
+
+**Kernpunkte:**
+1. Urformen = Zusammenhalt schaffen aus formlosem Material
+2. Vielfältige Verfahren für unterschiedliche Anforderungen
+3. Werkstoffeigenschaften entscheidend für Verfahrensauswahl
+4. Konstruktion muss fertigungsgerecht sein
+5. Gusseisen: vielseitiger Konstruktionswerkstoff
+6. Additive Fertigung: Revolution für komplexe Geometrien
+7. Wirtschaftlichkeit stark stückzahlabhängig
+8. Simulation zur Prozessoptimierung essentiell
+
+---
+
+## Ausblick
+
+**Trends in der Urformtechnik:**
+- Digitalisierung und Industrie 4.0
+- Künstliche Intelligenz für Prozessoptimierung
+- Hybride Fertigungsverfahren
+- Nachhaltige Produktion (Recycling, Energieeffizienz)
+- Neue Werkstoffe (Hochentropielegierungen, MMCs)
+- Multi-Material-Additive-Fertigung
+- In-situ Qualitätsüberwachung
+
+---
+
+**Referenzen**
+Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
+Spur, G.; Stöferle, T. (1985) "Handbuch der Fertigungstechnik"
+Gebhardt, A. (2016) "Additive Fertigungsverfahren"
+VDI-Richtlinien zur Fertigungstechnik

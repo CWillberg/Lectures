@@ -5,313 +5,260 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: MTI - Fertigungstechnik
+title: MTI - Ermüdung und Verschleiß
 author: Christian Willberg
 ---
 
 <style>
 footer {
-    font-size: 14px; /* Ändere die Schriftgröße des Footers */
-    color: #888; /* Ändere die Farbe des Footers */
-    text-align: right; /* Ändere die Ausrichtung des Footers */
-}
-img[alt="ORCID"] {
-    height: 15px !important;
-    width: auto !important;
-    vertical-align: top !important;
-    display: inline !important;
-    margin: 0 !important;
+  font-size: 14px;
+  color: #888;
+  text-align: right;
 }
 </style>
 
+## Ermüdung und Verschleiß
+Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Hochschule Magdeburg-Stendal
 
-## Vorlesung MTI - Fertigungtechnik
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/1/1d/SchmelzofenArbeiter.jpg)
-
-Kontakt: christian.willberg@h2.de
-
----
-
-# Inhalte
-
-![bg right 70%](../assets/QR/mti_ft_07.png)
+Kontakt: christian.willberg@h2.de  
+Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen  
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+  <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
+</div>
 
 ---
 
 <!--paginate: true-->
 
-# Hauptgruppen nach DIN 8580
 
-- Urformen (Formgebung, Zusammenhalt schaffen)
-- Umformen (Formänderung ohne Materialabtrag, Zusammenhalt beibehalten)
-- Trennen (Formänderung durch Zerteilen oder Materialabtrag, Zusammenhalt vermindern)
-- Fügen (Verbinden von Werkstücken, Zusammenhalt vermehren)
-- Beschichten (Auftrag dünner Schichten)
-- Stoffeigenschaften ändern (z. B. durch Beeinflussung der Kristallstruktur)
 
+
+![bg right 50%](../assets/QR/mti_ft_04.png)
+
+---
+
+# Ermüdung
+
+<details>
+<summary>Was ist Ermüdung?</summary>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Sleeping_students.jpg" alt="Alternative text" width="500">
+
+</details>
+
+---
+
+- Tritt typischerweise bei zyklischer Belastung auf
+  - Isotherme mechanische Ermüdung
+    - [Oszillierende Last](https://www.youtube.com/watch?v=_qVXkAWtH60)
+    - Flugzeugrümpfe (Druckaufbau und -abfall)
+  - Thermische Ermüdung
+    - Öfen, Heizelemente
+  - Thermomechanische Ermüdung
+    - Hochdruckbehälter
+  - Elektrothermische Ermüdung
+    - Stromleiter (Glühfäden)
+
+---
+
+![bg 60%](https://leichtbau.dlr.de/wp-content/uploads/2021/11/Abbildung-2_Innovationsbericht_Wasserstofftank_CG06.png)
+
+---
+
+## Ermüdung
+- Die Belastung liegt unterhalb der Streckgrenze $R_{p0,2}$
+  - > _Erinnerung: Was bedeutet $R_{p0,2}$?_
+- Spannungs-Konzentrationen entstehen an Materialfehlern (Poren, Mikrorisse) oder im Kristall (Versetzungen, Fehlstellen)
+- Zunächst bilden sich unter wechselnder Last lokal zufällige Bereiche plastischer Verformung
+- Diese Punkte repräsentieren Spannungs-Konzentrationsbereiche, die sich mit der Zeit vergrößern und zu Bruch führen können
+
+[Erklärvideo](https://www.youtube.com/watch?v=o-6V_JoRX1g)
+
+---
+
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/1/1c/Woehlerlinie.png)
+![bg fit 80%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
+
+---
+## Spannungsverhältnis
+$R = \frac{\sigma_u}{\sigma_o}$
+## Mittelspannung
+$\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
+
+$\sigma_o$ - Oberspannung
+$\sigma_u$ - Unterspannung
+
+![bg right 90%](../assets/Figures/sinuskurven_mit_offset.png)
 
 ---
 
 
-## Urformen
+## Begriffe
 
-- Einteilung nach [DIN 8580](https://de.wikipedia.org/wiki/Urformen)
-- die wesentlichen Klassen:
-  - Urformen aus dem flüssigen Zustand
-  - Urformen aus dem breiigen Zustand 
-    - z. B. Gießen von Gips oder Beton
-  - Urformen aus dem plastischen Zustand 
-    - z.B. Spritzgießen, Strangpressen
-  - Urformen aus dem körnigen oder pulverförmigen Zustand 
-    - z.B. Metall- oder Keramikpulver die gepresst, und anschließend in einem Sinterprozesses erhitzt und dadurch miteinander zu einem festen Körper verbunden
-
----
-- Einteilung nach [DIN 8580](https://de.wikipedia.org/wiki/Urformen)
-  - Urformen aus dem span- oder faserförmigen Zustand
-    - Papierherstellung oder die Produktion von Spanplatten
-  - Urformen aus dem gas- oder dampfförmigen Zustand
-    -  Gas oder Dampf wird in eine geometrisch definierte Form überführt, z. B. durch Kondensation metallischer Dämpfe.
-  - Urformen aus dem ionisierten Zustand
-    - z.B. Abscheiden von Material mittels Elektrolyse im Rahmen der Galvanoformung
-  - Additive Fertigung
-
----
+- Lebensdauer
+- Ermüdungsriss
+- Ermüdungsbruch
+- Kurzzeitfestigkeit (K) $<10^5$ (Low Cycle Fatigue (LCF))
+- Zeitfestigkeit (Z) $10^4<10^6$ (High Cycle Fatigue (HCF))
+- Dauerfestigkeit (D) $>10^6$ (Very High Cycle Fatigue (VHCF))
 
 
+![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
+![bg vertical  60%](https://farm6.staticflickr.com/5522/12140479094_6f746014ab_z.jpg)
 
-## Urformen - Verbindung zur Werkstofftechnik / Materialeigenschaften?
 
 
 ---
 
-- Schmelzpunkt
-- Zustandsdiagramme
-- Schmelzbarkeit
-- elektrische Leitfähigkeit
-- ...
+## Gegenmaßnahmen
 
-
----
-
-# Folgende Schritte sind notwendig
-
-
----
-
-- Bereitstellung des Werkstoffs
-- Erzeugung eines urformfähigen Werkstoffzustand
-- Füllen des Urformwerkzeugs mit urformfähigmen Werkstoff
-- Übergang des Werkstoffs in den formbaren Zustand im Urformwerkzeug
-- Entnahme des geformten Ergebnisses
-
----
-
-![bg](https://upload.wikimedia.org/wikipedia/commons/5/5f/Black-band_ironstone_%28aka%29.jpg)
-
----
-
-![bg](https://upload.wikimedia.org/wikipedia/commons/b/b0/Casting.jpg)
-
----
-[Beispiel Video](https://www.youtube.com/watch?v=oGlUJX_e1Vc)
----
-
-## Urformen aus dem flüssigen Zustand
-
-- Schwerkraftgießen
-- Druckgießen
-- Niederdruckgießen
-
----
-
-## Gießen
-Die Prozesskette beim Gießen besteht aus
-- der Vorbereitung mit der Herstellung der Formen und dem Schmelzen der Werkstoffe,
-- dem Abguss, wozu das Füllen der Form und das Erstarren der Schmelze zählt, sowie
-- der Nachbehandlung: dem Entformen, dem Gussputzen und der Wärmebehandlung.
-
-![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/1/1d/SchmelzofenArbeiter.jpg)
-
----
-## Kokillengießverfahren
-
-![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/6/63/Low_pressure_permanent_mold_casting_schematic-de.svg)
-
----
-
-## Stranggießen
-
-![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/9/9d/Continuous_casting_%28Tundish_and_Mold%29-2_NT.PNG)
-
----
-## Lunker
-- Übergang vom flüssigen zum festen Zustand führt oft zum Schrumpfen -> Phasenänderungen 
-- es entstehen Zwischenräume - Lunker
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/7/71/Lutetium_1cm3_cube.jpg)
-
---- 
-## weitere Ursachen
-
-1.	Feinkörnige globulare Randzone
-
-
-
-2.	Transkristallisationszone mit stängelförmigen, sehr groben Kristalliten
-
-
-
-3.	Globulare Kernzone
-
-![bg right 80%](../assets/Figures/Kokille.png)
-
----
-
-## Vermeidung von Lunkern
-
-- große Radien
-- geometrische Anpassungen
-
-![bg right 100%](https://www.inggo.com/fileadmin/_migrated/pics/1t_2_2_2_4_i01.gif)
-
----
-
-## zu Berücksichtigen
-
-- Thermische Verformung
-- Eigenspannungen
-- Thermischer Schrumpf
-
----
-
-## Gusseisen 
-
-- Massenanteil über 2.06 % Kohlenstoff
-- gute Gießbarkeit auf (geringer Schmelzpunkt, dünnflüssige Schmelze, …)
-- hart und spröde ist
-- Die Zerspanbarkeit von Gusseisen hängt von der genauen Sorte ab; 
-  - bei Gusseisen mit Lamellengraphit – der häufigsten Sorte – ist sie gut
-  - Festigkeit ist geringer als die von Stahlguss, die Dämpfung ist höher
-- Viele Sorten enthalten zusätzlich noch Silicium, das die Gießbarkeit verbessert, sowie weitere Legierungsanteile wie Mangan, Chrom oder Nickel
----
-
-![bg fit](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
-
----
-
-Es wird unterschieden zwischen:
-
-- grauem Gusseisen (Grauguss), in dem der Kohlenstoff in Form von Graphit vorkommt. _Die Bruchflächen erscheinen grau_
-- weißem Gusseisen, in dem der Kohlenstoff als Carbid in Form von Zementit (Fe3C) vorkommt. _Die Bruchflächen sind weiß_
-
-![bg right 100%](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
-
----
-
-## Vergleich Gusseisen und Stahl 
-
-[Qualitativ zum Lesen](https://capablemachining.com/de/Blog/Stahl-vs.-Gusseisen-ein-umfassender-Vergleich/)
-
-- Dichte $7.2\frac{g}{cm^3}$ vs. $7.85\frac{g}{cm^3}$ 
-- Schmelztemperatur $1150 °C$
-- korrosionsbeständiger als Stahl
-- spröder als Stahl
-
-[Quantitativ](https://www.schweizer-fn.de/festigkeit/festigkeitswerte/guss/stahlguss_start.php)
+- Kerbwirkung verringern
+- Materialanpassung
+- Konstruktion anpassen, damit lokale Spannung zulässige Grenzen nicht überschreitet
+- Regelmäßige Inspektionen 
 
 ---
 
 
-![bg ](https://www.tec-science.com/wp-content/uploads/2021/03/de-druckversuch-druckspannung-stauchungs-diagramm.jpg)
-
----
-
-# Einteilung und Eigenschaften
-
----
-
-## Gusseisen mit Lamellengraphit
-
-- einfachste und häufigste Gusseisen-Sorte ist Gusseisen mit Lamellengraphit 
-![bg right fit](https://www.giessereilexikon.com/uploads/tx_d3ency/189-01.png)
-- Graphit liegt in Form von dünnen, unregelmäßig geformten Lamellen vor
-
+# Verschleiß
 
 ---
 
 
-## Gusseisen mit Lamellengraphit
-
-![bg right fit](https://www.giessereilexikon.com/uploads/tx_d3ency/189-01.png)
--  Lamellen wirken bei Zugbelastung als Kerben, daher ist die Zugfestigkeit infolge der Kerbwirkung relativ gering
--  Druckfestigkeit liegt etwa um den Faktor 4 höher als die Zugfestigkeit
-
----
-
-![bg right 70%](https://www.gsl-metallhandel.de/images/gusseisen-mit-lamellengraphit-maschinengeformt.jpg)
-
-- spröder Werkstoff
-- gute Wärmeleitfähigkeit
--  vorteilhafte Selbstschmiereigenschaften
-  - wenn durch Bearbeitung die Lamellen angeschnitten und der Graphit selbst oder an dessen Stelle andere Schmiermittel in den Hohlräumen „bevorratet“ werden können. 
+- infolge Reibung eintretende bleibende Form- und Stoffveränderung an der Oberfläche von Festkörpern
+- ist technologisch nicht beabsichtigt und eine Form des funktionellen Versagens darstellt bzw. darstellen kann
+- Beeinflusst durch
+  - Reibkörperpaarung
+  - Beschaffenheit der Grenzschichten und des Zwischenstoffes
+  - Art des Bewegungsablaufes
+  - Höhe der Belastung 
 
 ---
 
-## Gusseisen mit Kugelgraphit
+- **Adhäsiver Verschleiß**
+- **Abrasiver Verschleiß**
+- **Oberflächenzerrüttung**
+- **Tribooxidation**
 
-- Bessere mechanische Eigenschaften als Gusseisen mit Lamellengraphit
-- zeigt duktiles Verhalten 
+---
 
-![bg right 80%](https://matdania.com/wp-content/uploads/2017/04/Nodular_Iron.jpg)
+## Adhäsiver Verschleiß
+ - Adhäsiver Verschleiß tritt bei mangelnder Schmierung auf
+ - bei hoher Flächenpressung haften Flächen aneinander
+ - tritt Gleiten ein, werden Randschichtteilchen
+ - es entstehen Löcher und schuppenartige Materialteilchen, die oft an der Gleitfläche des härteren Partners haften bleiben. 
+
+---
+
+![bg 50%](https://upload.wikimedia.org/wikipedia/commons/3/31/Rt%2BRv%2BRp.gif)
+
+---
+
+## Abrasiver Verschleiß
+
+- harte Teilchen eines Schmierstoffs oder Rauheitsspitzen eines Reibungspartners dringen in Randschicht ein
+  -> es kommt es zu Ritzung und Mikrozerspanen
+  - Furchverschleiß oder Erosionsverschleiß 
+
+- richtige Wahl der Werkstoffpaarung; Metall-Kunststoff- oder Metall-Keramik-Paarungen
+
+---
+
+Beispiel Windenergie:
+- Sand im Wind "schmirgelt" die Oberfläche ab
+- Wirkungsgrad sinkt
+![bg right 100%](https://encyclopedia.pub/media/item_content/202209/6333de2d03ef5energies-15-05672-g008.png)
+
+---
+
+## Oberflächenzerrüttung
+
+- wechselnde oder schwellende mechanische Spannungen an der Oberfläche
+- Ermüdung oder Kriechen des Materials an der Oberfläche
+
+---
+
+## Tribooxidation
+- Tribooxidation (Passungsrost) an einer Welle aus Stahl
+-  Bildung von Zwischenschichten, z. B. Oxidschichten, infolge chemischer Reaktion und ihre mechanische Zerstörung durch Bewegung der Bauteile 
+- tritt fast immer zusammen mit adhäsivem Verschleiß auf
+
+
+---
+
+| Verschleißart            | Erscheinung                                                        | Primäres Vorkommen                                         |
+|--------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
+| Gleitverschleiß          | Rillen oder Riefen durch Abrieb, Materialübertragung oder lokales Schmelzen | Un-geschmierte Lager, Kupplungen, Bremsen                  |
+| Rollverschleiß           | Abblättern durch Ermüdungsrisse                                     | Rad/Schiene, Wälzlager                                     |
+| Pittings                 | Grübchenbildung: Pitting                                           | Wälzkörper, speziell Zahnräder                             |
+| Abrasivverschleiß         | Plastische Verformung, Erosion                                    | Bagger, Schüttguttransport, Partikelaufprall               |
+| Kavitation               | Oberflächenschädigung durch Aufprall von Dampfblasen              | Wasserturbinen, Pumpen                                     |
+| Tribooxidation (Reibkorrosion) | Loses Oxidationsprodukt                                      | Maschinenelemente mit form- oder kraftschlüssigen Verbindungen |
+
+---
+
+## Gleitverschleiß
+
+- Beeinflusst [durch](https://download.basf.com/p1/8a8081c57fd4b609017fd66047f138c3/de/Reibung_und_Verschlei%25C3%259F%250Abei_Polymerwerkstoffen)
+  - Die mittlere Rauheitstiefe $R_z$
+  - Anpressdruck
+  - Verschleißpfadverhältnis $W=k\frac{F_N}{A}10^6$
+  - $k$ in $\left[\frac{mm^3}{Nm}\right]$ spezifischer Verschleißkoeffizient (lastunabhängig)
+
+![bg right fit 90%](https://media.springernature.com/original/springer-static/image/chp:10.1007%2F978-3-658-17851-2_4/MediaObjects/299062_3_De_4_Fig17_HTML.gif)
 
 ---
 
 
+## Wälzverschleiß
+- [Wälzen](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) ist eine Beanspruchungsart, bei der Gleitanteile (Schlupf) den reinen Rollvorgang überlagern
+- kleine Kontaktfläche; hohe Flächenpressung
+- Oberflächenzerrüttung (plastische Verformung, Gefügeänderungen, usw.)
+- durch Schmierung deutlich reduzierbar $\rightarrow$ spezifische Schmierfilmdicke $\lambda$
 
-## Gusseisen mit [Vermiculargraphit](https://www.giessereilexikon.com/giesserei-lexikon/Encyclopedia/show/gusseisen-mit-vermiculargrafit-190/?cHash=57ba0f0209983c2de8ccc8e299b07616)
-![bg right 80%](https://www.giessereilexikon.com/uploads/tx_d3ency/190-07.png)
-- Eigenschaften zwischen Gusseisen mit Lamellengraphit und denen des Gusseisens mit Kugelgraphit
--  Herstellung ist jedoch schwieriger und erfordert eine in engen Toleranzen geführte Schmelzbehandlung
+![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
 
----
-
-- höhere Festigkeit und Bruchdehnung und Bruchzähigkeit
-- geringere Wanddickenabhängigkeit der Eigenschaften
-Gusseisen mit Vermiculargrafit zeichnet sich gegenüber Gusseisen mit Lamellengrafit durch folgende Eigenschaften aus:
-
-- höhere Festigkeit und Bruchdehnung
-- höhere Bruchzähigkeit
-- geringere Wanddickenabhängigkeit der Eigenschaften
+![bg fit vertical 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
 
 ---
 
-Gegenüber Gusseisen mit Kugelgrafit bietet Gusseisen mit Vermiculargrafit folgende Vorteile:
+## Kavitation
 
-- niedrigerer thermischer Ausdehnungskoeffizient
-- höhere Wärmeleitfähigkeit
-- niedrigerer E-Modul
-- geringeres thermisch induziertes Eigenspannungsniveau
-- bessere Temperaturwechselbeständigkeit und geringere Verzugsneigung aufgrund der zuvor genannten Eigenschaften
-- besseres Dämpfungsvermögen
-- bessere gießtechnische Eigenschaften (geringere Lunkerneigung, besseres Formfüllungs- und Fließvermögen)
+[Video](https://www.youtube.com/watch?v=J0H0Nw44oA4)
 
----
+<details>
+<summary>Physikalische Ursache?</summary>
+<div>
 
-## Urformen - Additive Fertigung
-
-- schichtweiser Aufbau eines dreidimensionalen Bautils
-- Verfahrensarten
-  - Tropfen
-  - Filament
-  - Draht
-  - Pulverauftrag
-  - ...
-
-[Grundlagen](https://www.youtube.com/watch?v=d_YUk4vcFCE)
+- statischer Druck ist abhängig von der Geschwindigkeit eines Fluids
+- bei Unterschreitung des Verdampfungsdrucks bilden sich Dampfblasen
+- diese Blasen laufen in Bereiche mit höherem Druck und kondensieren schlagartig
+- Druck- und Temperaturspitzen treten auf
+</div>
+</details>
 
 ---
 
-**Referenzen**
-Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
+- lokale Belastungen an der Oberfläche
+- diese Bereiche ermüden und platzen ab
+- Beeinträchtigt die Oberfläche
+  - Wirkungsgradreduktion
+  - Korrosion
+  - Bereiche wo Risse initiieren können
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cavitation.jpg)
+
+---
+
+## Reibkorrosion
+
+- Gleitbewegungen zwischen zwei hochbelasteten Bauteilen
+- meist bei zu geringem Übermaß $\rightarrow$ Passungen
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+
+
 
