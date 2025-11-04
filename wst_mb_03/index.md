@@ -135,7 +135,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Ebenen: (h k l)
 - Richtungen: [h k l]
 
-![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
+
 
 
 ---
@@ -174,6 +174,11 @@ Hexagonal dichteste Packung (hpd)
 | kfz | 74% | Duktil, gut verformbar |
 | hdp | 74% | Anisotrop, begrenzte Duktilität |
 | krz | 68% | Höhere Festigkeit, spröder |
+
+---
+## Kristallebenen
+
+![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
 
 ---
 
@@ -467,15 +472,15 @@ _Thermische Analyse (DTA/DSC)_
 
 ## Gitterbaudefekte
 
--	**Nulldimensionale Fehlstellen** (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	**Eindimensionale Fehlstellen** (Liniendefekte): Versetzungen
--	**Zweidimensionale Fehlstellen** (Flächendefekte): Stapelfehler, Korngrenzen, Subkorngrenzen, Phasengrenzen
+-	**Nulldimensionale Defekte** (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
+-	**Eindimensionale Defekte** (Liniendefekte): Versetzungen
+-	**Zweidimensionale Defekte** (Flächendefekte): Stapelfehler, Korngrenzen, Subkorngrenzen, Phasengrenzen
 -	**Dreidimensionale Defekte**: Poren, Einschlüsse, Risse
 
 ---
 
 
-## Nulldimensionale Fehlstellen
+## Nulldimensionale Defekte
 
 ![bg right 50%](../assets/Figures/ideales_gitter.png)
 
@@ -540,28 +545,6 @@ _Thermische Analyse (DTA/DSC)_
 
 ---
 
-## Versetzungsarten
-
-
-**Burgersvektor**
-
-**Definition:**
-- Vektor, der die Gitterverschiebung beschreibt
-- Betrag: meist eine Gitterkonstante
-- Richtung: Gleitrichtung
-
-**Bedeutung:**
-- Charakterisiert die Versetzung
-- Bleibt entlang der Versetzungslinie konstant
-- Mischt Stufen- und Schraubencharakter
-
----
-
-**Bestimmung:**
-- Burgers-Umlauf im Kristall
-- Schließungsfehler = Burgersvektor
-
----
 
 **Stufenversetzung**
 - Extra-Halbebene im Kristall
@@ -703,7 +686,6 @@ _Thermische Analyse (DTA/DSC)_
 
 - **Höhere Festigkeit** 
   - Viele Korngrenzen = viele Barrieren
-  - σ_y steigt mit d^(-1/2)
 
 - **Höhere Härte** 
   - Widerstand gegen lokale Verformung
@@ -729,19 +711,7 @@ _Thermische Analyse (DTA/DSC)_
 
 ---
 
-## Stapelfehler
 
-**Definition:**
-- Fehler in der Stapelfolge dichtest gepackter Ebenen
-- Typisch in kfz-Metallen
-
-**Stapelfolgen:**
-- Kfz: ABC ABC ABC...
-- Hdp: AB AB AB...
-- Stapelfehler: ABC AB ABC... (lokale hdp-Sequenz)
-
-
----
 ## Plastizität
 
 Gut oder Schlecht

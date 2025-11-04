@@ -62,7 +62,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 <!--paginate: true-->
 
 
-
 ## Warum ist die Feinstruktur wichtig?
 
 **Struktur bestimmt Eigenschaften**
@@ -114,7 +113,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Ebenen: (h k l)
 - Richtungen: [h k l]
 
-![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
+
 
 
 ---
@@ -153,6 +152,11 @@ Hexagonal dichteste Packung (hpd)
 | kfz | 74% | Duktil, gut verformbar |
 | hdp | 74% | Anisotrop, begrenzte Duktilität |
 | krz | 68% | Höhere Festigkeit, spröder |
+
+---
+## Kristallebenen
+
+![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
 
 ---
 
@@ -278,19 +282,6 @@ _Thermische Analyse (DTA/DSC)_
 
 ---
 
-## Polymerklassifikation
-
-**Nach Struktur:**
-1. Linear: Thermoplaste (PE, PP, PS)
-2. Verzweigt: Thermoplaste mit reduzierter Kristallinität
-3. Vernetzt: Duroplaste (Epoxid), Elastomere (Gummi)
-
-**Nach Verhalten:**
-- Thermoplaste: schmelzbar
-- Duroplaste: nicht schmelzbar
-- Elastomere: gummielastisch
-
----
 
 ## Aufbaureaktion (Polymerisation)
 
@@ -302,6 +293,10 @@ _Thermische Analyse (DTA/DSC)_
 - Molmasse M = n × M₀
 - Typisch: n = 1.000 - 100.000
 
+**Beispiele:**
+- Polyethylen (PE): n CH₂=CH₂ → (-CH₂-CH₂-)ₙ
+- Polypropylen (PP), Polystyrol (PS), PVC
+
 ---
 
 **Eigenschaften ändern sich mit n:**
@@ -311,57 +306,6 @@ _Thermische Analyse (DTA/DSC)_
 
 ---
 
-## Kettenpolymerisationen
-
-  - Aufspalten von C=C-Doppelbindungen im Monomer (katalytischer Prozess durch Druck, Temperatur, Katalysator)
-  - Verbindung der aufgespaltenen Monomere zu Makromolekülen
-
-**Phasen:**
-1. Initiierung (Radikalbildung)
-2. Kettenwachstum (Addition)
-3. Kettenabbruch
-
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
-
----
-
-
-
-**Beispiele:**
-- Polyethylen (PE): n CH₂=CH₂ → (-CH₂-CH₂-)ₙ
-- Polypropylen (PP), Polystyrol (PS), PVC
-
-![bg right 30% fit](https://upload.wikimedia.org/wikipedia/commons/0/0d/LDPE_bottle.jpg)
-
-
-![bg vertical 30% fit](https://upload.wikimedia.org/wikipedia/commons/c/c7/Mint_box_polypropylene_lid.JPG)
-
----
-
-## Weitere Prozesse 
-
-**Polykondensation**
-- Abspaltung niedermolekulare (z.B. H₂O) Reaktionsprodukte durch eine chemische Reaktion schafft freie Bindungen
-- schrittweise Reaktion oder Unterbrechung führen zur Bildung von linearen, verzweigten oder vernetzten Polymeren (Thermoplaste, Elastomere oder Duromere)  
-
-
-**Beispiele:**
-- Polyester (PET): Flasche, Textilfasern
-- Polyamid (PA, Nylon): Textilfasern, technische Teile
-- Phenolharz (Bakelit): elektrische Isolatoren
-
-
----
-
-**Polyaddition**
-- freie Bindungen entstehen durch Umlagerungen von Doppelbindungen zweier unterschiedlicher Monomermoleküle
-- diese bilden dann Molekülketten
-- **Keine Abspaltprodukte** (Unterschied zur Polykondensation)
-
-**Wichtigstes Beispiel:**
-- Polyurethan (PU): Schaumstoffe, Lacke, Elastomere
-
----
 
 ## Kristallinität bei Polymeren
 
@@ -446,15 +390,15 @@ _Thermische Analyse (DTA/DSC)_
 
 ## Gitterbaudefekte
 
--	**Nulldimensionale Fehlstellen** (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
--	**Eindimensionale Fehlstellen** (Liniendefekte): Versetzungen
--	**Zweidimensionale Fehlstellen** (Flächendefekte): Stapelfehler, Korngrenzen, Subkorngrenzen, Phasengrenzen
+-	**Nulldimensionale Defekte** (Punktdefekte): Leerstellen, Zwischengitteratom, Zwischengitter-Fremdatome, Substitutions-Fremdatom
+-	**Eindimensionale Defekte** (Liniendefekte): Versetzungen
+-	**Zweidimensionale Defekte** (Flächendefekte): Stapelfehler, Korngrenzen, Subkorngrenzen, Phasengrenzen
 -	**Dreidimensionale Defekte**: Poren, Einschlüsse, Risse
 
 ---
 
 
-## Nulldimensionale Fehlstellen
+## Nulldimensionale Defekte
 
 ![bg right 50%](../assets/Figures/ideales_gitter.png)
 
@@ -519,28 +463,6 @@ _Thermische Analyse (DTA/DSC)_
 
 ---
 
-## Versetzungsarten
-
-
-**Burgersvektor**
-
-**Definition:**
-- Vektor, der die Gitterverschiebung beschreibt
-- Betrag: meist eine Gitterkonstante
-- Richtung: Gleitrichtung
-
-**Bedeutung:**
-- Charakterisiert die Versetzung
-- Bleibt entlang der Versetzungslinie konstant
-- Mischt Stufen- und Schraubencharakter
-
----
-
-**Bestimmung:**
-- Burgers-Umlauf im Kristall
-- Schließungsfehler = Burgersvektor
-
----
 
 **Stufenversetzung**
 - Extra-Halbebene im Kristall
@@ -682,7 +604,6 @@ _Thermische Analyse (DTA/DSC)_
 
 - **Höhere Festigkeit** 
   - Viele Korngrenzen = viele Barrieren
-  - σ_y steigt mit d^(-1/2)
 
 - **Höhere Härte** 
   - Widerstand gegen lokale Verformung
@@ -708,19 +629,7 @@ _Thermische Analyse (DTA/DSC)_
 
 ---
 
-## Stapelfehler
 
-**Definition:**
-- Fehler in der Stapelfolge dichtest gepackter Ebenen
-- Typisch in kfz-Metallen
-
-**Stapelfolgen:**
-- Kfz: ABC ABC ABC...
-- Hdp: AB AB AB...
-- Stapelfehler: ABC AB ABC... (lokale hdp-Sequenz)
-
-
----
 ## Plastizität
 
 Gut oder Schlecht
@@ -927,9 +836,6 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 5. Korngröße beeinflusst Festigkeit (Hall-Petch)
 6. Temperatur aktiviert zusätzliche Mechanismen (Kriechen)
 7. Struktur-Eigenschafts-Beziehungen sind fundamental
-
-
-
 
 
 
