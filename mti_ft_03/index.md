@@ -421,6 +421,8 @@ _Thermische Analyse (DTA/DSC)_
 - Transparent (oft)
 - Spröde bei Raumtemperatur
 
+![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/4/4b/Silica.svg)
+
 ---
 
 ## Metallische Gläser

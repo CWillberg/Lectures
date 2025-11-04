@@ -442,6 +442,8 @@ _Thermal Analysis (DTA/DSC)_
 - Transparent (often)
 - Brittle at room temperature
 
+![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/4/4b/Silica.svg)
+
 ---
 
 ## Metallic Glasses
