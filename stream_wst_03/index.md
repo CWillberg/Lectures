@@ -131,12 +131,6 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 **Packing Density** = Volume of atoms / Volume of unit cell
 
-**Miller Indices**
-- Planes: (h k l)
-- Directions: [h k l]
-
-![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
-
 
 ---
 
@@ -175,7 +169,22 @@ Hexagonal Close-Packed (hcp)
 | hcp | 74% | Anisotropic, limited ductility |
 | bcc | 68% | Higher strength, more brittle |
 
+
+
 ---
+
+## Crystal planes
+
+**Miller Indices**
+- Planes: (h k l)
+- Directions: [h k l]
+
+![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
+
+
+
+---
+
 
 ## Influences of Crystal Structure
 
@@ -322,7 +331,7 @@ _Thermal Analysis (DTA/DSC)_
 - Number of monomer units
 - Molar mass M = n × M₀
 - Typical: n = 1,000 - 100,000
-
+- e.g. Polyethylene (PE): n CH₂=CH₂ → (-CH₂-CH₂-)ₙ
 ---
 
 **Properties change with n:**
@@ -332,57 +341,7 @@ _Thermal Analysis (DTA/DSC)_
 
 ---
 
-## Chain Polymerizations
 
-- Splitting of C=C double bonds in the monomer (catalytic process by pressure, temperature, catalyst)
-- Connection of split monomers into macromolecules
-
-**Phases:**
-1. Initiation (radical formation)
-2. Chain growth (addition)
-3. Chain termination
-
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/7e/Kettenwachstum.svg)
-
----
-
-
-
-**Examples:**
-- Polyethylene (PE): n CH₂=CH₂ → (-CH₂-CH₂-)ₙ
-- Polypropylene (PP), Polystyrene (PS), PVC
-
-![bg right 30% fit](https://upload.wikimedia.org/wikipedia/commons/0/0d/LDPE_bottle.jpg)
-
-
-![bg vertical 30% fit](https://upload.wikimedia.org/wikipedia/commons/c/c7/Mint_box_polypropylene_lid.JPG)
-
----
-
-## Other Processes
-
-**Polycondensation**
-- Elimination of low molecular weight reaction products (e.g., H₂O) through a chemical reaction creates free bonds
-- Stepwise reaction or interruption leads to formation of linear, branched, or cross-linked polymers (thermoplastics, elastomers, or thermosets)
-
-
-**Examples:**
-- Polyester (PET): bottles, textile fibers
-- Polyamide (PA, Nylon): textile fibers, technical parts
-- Phenolic resin (Bakelite): electrical insulators
-
-
----
-
-**Polyaddition**
-- Free bonds are created by rearrangements of double bonds of two different monomer molecules
-- These then form molecular chains
-- **No elimination products** (difference from polycondensation)
-
-**Most Important Example:**
-- Polyurethane (PU): foams, coatings, elastomers
-
----
 
 ## Crystallinity in Polymers
 
