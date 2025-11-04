@@ -56,12 +56,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 <!--paginate: true-->
 
 
-
----
-
-<!--paginate: true-->
-
-
 ## Warum ist die Feinstruktur wichtig?
 
 **Struktur bestimmt Eigenschaften**
