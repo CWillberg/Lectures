@@ -630,9 +630,252 @@ _Thermal Analysis (DTA/DSC)_
 - Starting point for recrystallization
 
 ---
-
 ## Large Grains (Coarse Microstructure)
 
+- **Lower Strength** 
+  - Fewer grain boundaries as dislocation barriers
+  - Long free paths for dislocations
+  
+- **Higher Ductility** 
+  - More space for dislocation movement
+  - Better formability
 
-- **Lower Strength**
-  - Few grain boundaries as dislocation barriers
+---
+
+### High Temperature Behavior
+
+- **Better Creep Resistance** 
+  - Less grain boundary diffusion
+  - More stable at elevated temperatures
+
+### Applications
+
+- Turbine blades (high temperature)
+- When ductility is more important than strength
+- Single crystals for special applications
+
+---
+
+## Small Grains (Fine Microstructure)
+
+- **Higher Strength** 
+  - Many grain boundaries = many barriers
+
+- **Higher Hardness** 
+  - Resistance to local deformation
+
+- **Good Toughness** 
+  - Crack arrest at grain boundaries
+
+---
+
+### Deformation Behavior
+
+- **More Homogeneous Deformation**
+  - Many small regions active
+  
+- **Slightly Reduced Ductility** 
+  - But often acceptable
+
+### Applications
+
+- High-strength steels (automotive)
+- Structural components
+- Wherever strength + toughness is required
+
+---
+
+## Plasticity
+
+Good or Bad
+
+![bg right 70%](../assets/Figures/fragezeichen.png)
+
+---
+
+## Examples
+
+**High Plasticity**:
+
+- Modeling clay
+- Wet clay
+- Metals and metal alloys with suitable atomic lattice:
+  - Glowing steel during forging
+  - Cold forming of sheet metal 
+
+**Low Plasticity**:
+  - Rubber
+  - Ceramics
+  - Fiber-reinforced composites (epoxy-glass fiber or epoxy-carbon fiber)
+   
+---
+
+**Advantages of Plasticity:**
+- Formability (manufacturing)
+- Energy absorption (crash)
+- Toughness (no spontaneous crack propagation)
+- Stress relief
+
+**Disadvantages of Plasticity:**
+- Dimensional change
+- Creep deformation
+- Component failure under overload
+- Fatigue
+
+---
+
+## Plasticity - Single Crystal
+
+The plastic deformation of a crystal occurs essentially through sliding of atomic planes along certain crystallographic planes and directions under the action of shear stresses.
+
+- Slip system consists of slip plane and slip direction
+- Critical shear stress ($\tau_{Kr}\approx G/10$ - estimation or theoretical shear strength)
+- Reality lower by factor ~100 due to dislocations
+
+---
+
+## Image
+
+![](../assets/Figures/Beispiel_plast.bmp)
+  
+---
+
+## Plastic Deformation of Polycrystalline Materials
+
+- Micro- and Macroplasticity
+  - Plastic deformation begins at "unfavorable" orientations
+- Grain Boundaries
+  - Barrier for dislocation movement
+  - At high temperatures grain boundaries can slide (creep)
+  - Targeted manufacturing can increase toughness through grain boundaries
+- Heterogeneity
+  - Multiphase nature
+  - Inhomogeneous distribution of stresses and strains
+- Anisotropy
+
+---
+
+## Polycrystal Plasticity
+[Example from a simulation](https://www.youtube.com/watch?v=mWanREXKLO4)
+
+---
+
+## Yield Strength
+
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
+
+**Characteristic Points:**
+- $R_m$ - Tensile strength (maximum)
+- $R_e$ - Yield strength (elastic limit at linear curve)
+- $R_{p0,2}$ - Proof stress (0.2% permanent strain)
+- $A$ - Elongation at fracture (in %)
+- $Z$ - Reduction of area (in %)
+
+[Example video](https://youtu.be/E80yUNniESU?si=pqGRAWamxFQedWqw&t=95)
+
+---
+
+## Yield Strength and Proof Stress
+
+**Yield Strength Re:**
+- For materials with pronounced yield point
+- Characteristic for low-alloy steel
+- Marks transition elastic → plastic
+
+**Proof Stress Rp0.2:**
+- Substitute yield strength for materials without pronounced yield point
+- Loading up to 0.2% permanent strain, then unloading
+- Standard for aluminum alloys, high-alloy steels
+
+[Steel datasheet](https://www.stauberstahl.com/fileadmin/Downloads/werkstoffe/Werkstoff-1.2842-Datenblatt.pdf)
+
+---
+
+## Yield Point Phenomenon
+
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
+
+**Upper and Lower Yield Point:**
+- $R_{eH}$ - Upper yield point (maximum)
+- $R_{eL}$ - Lower yield point (plateau)
+
+**Lüders Region:**
+- Serrated region after yield point
+- Lüders bands migrate through specimen
+- Precipitates block dislocations
+- After breaking free: dislocations move freely
+
+---
+
+## Plasticity - Forming
+
+**Bulk Forming:**
+- Forging, pressing, rolling, [deep drawing principle](https://www.youtube.com/watch?v=Zbfld_851z0)
+- Large shape changes
+- Grain refinement
+
+**Sheet Metal Forming:**
+- Bending, stretch forming, [deep drawing](https://www.youtube.com/watch?v=rHfepOqPVHI)
+- Limited shape change
+- Anisotropy important
+
+---
+
+## Creep
+- Time-dependent deformation under constant load
+![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2022/03/boom_blank_be.png)
+
+- Example [deployable space structures](https://youtu.be/vMMc7-VUUtM?si=5uYx40b4eWGl7j0G&t=77)
+
+---
+
+- Occurs in metals above a transition temperature ($~0.3-0.4 \cdot T_S$)
+
+- Even at low mechanical stresses below the yield strength $R_e$, irreversible plastic deformation occurs, progressing slowly but steadily 
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
+
+---
+
+- Temperature-, stress-, time- and material-dependent
+
+- **Cause**: Dislocation movements, vacancy diffusion, grain boundary sliding, grain boundary diffusion
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
+
+---
+
+1. **Primary Creep:**
+- Decreasing creep rate
+- Hardening dominates
+   
+2. **Secondary Creep:**
+- Constant creep rate (steady-state)
+- Equilibrium: hardening - recovery
+   
+3. **Tertiary Creep:**
+- Increasing creep rate
+- Damage (pores, cracks)
+- Leads to fracture
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/26/Kriechen-Werkstoffvorgaenge.jpg)
+
+---
+
+## Creep in Polymers
+- Consist of molecular chains 
+- These slide or uncoil under external load
+- Secondary bonds between macromolecules are reformed and deformation remains
+
+---
+
+## Summary
+
+**Key Points:**
+1. Crystal structures determine fundamental properties
+2. Real structures always contain defects
+3. Defects enable plastic deformation
+4. Dislocations are carriers of plasticity
+5. Grain size influences strength (Hall-Petch)
+6. Temperature activates additional mechanisms (creep)
+7. Structure-property relationships are fundamental
