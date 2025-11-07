@@ -169,14 +169,18 @@ Hexagonal dichteste Packung (hpd)
 
 **Packungsdichte** = Volumen der Atome / Volumen der Einheitszelle
 
-| Struktur | Packungsdichte | Typische Eigenschaften |
-|----------|----------------|------------------------|
-| kfz | 74% | Duktil, gut verformbar |
-| hdp | 74% | Anisotrop, begrenzte Duktilität |
-| krz | 68% | Höhere Festigkeit, spröder |
+| Struktur | Packungsdichte |
+|----------|----------------|
+| kfz | 74% | 
+| hdp | 74% | 
+| krz | 68% | 
+
+![bg right fit 80%](https://www.tec-science.com/wp-content/uploads/2021/02/en-deformation-lattice-structure-ductility.jpg)
 
 ---
 ## Kristallebenen
+
+![](en-deformation-lattice-planes.jpg)
 
 ![bg right fit 40%](https://upload.wikimedia.org/wikipedia/commons/d/d5/Miller_Indices_Felix_Kling.svg)
 
