@@ -70,7 +70,7 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ## Ermüdung
 - Die Belastung liegt unterhalb der Streckgrenze $R_{p0,2}$
-  - > _Erinnerung: Was bedeutet $R_{p0,2}$?_
+  - _Erinnerung: Was bedeutet $R_{p0,2}$?_
 - Spannungs-Konzentrationen entstehen an Materialfehlern (Poren, Mikrorisse) oder im Kristall (Versetzungen, Fehlstellen)
 - Zunächst bilden sich unter wechselnder Last lokal zufällige Bereiche plastischer Verformung
 - Diese Punkte repräsentieren Spannungs-Konzentrationsbereiche, die sich mit der Zeit vergrößern und zu Bruch führen können
