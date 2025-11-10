@@ -41,7 +41,7 @@ jobs:
           - mti_ft_04
           - mti_ft_05
           - mti_ft_06
-          - mti_ft_07
+          #- mti_ft_07
           - mti_ft_08
           - mti_ft_09
           - mti_ft_10
