@@ -250,20 +250,40 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 ---
 
 ## Diffusion - Die Grundlage
-
 **Definition:** Temperatur- und zeitabhängiger Massentransport
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+
+<div>
+
 
 **1. Ficksches Gesetz:**
 $$dm_A = -D \frac{dc_A}{dx} S \, dt$$
 $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
-
 **Parameter:**
+- $dm_A$ = diffundierte Stoffmenge der Komponente A
+- $D$ = Diffusionskoeffizient
+
+</div>
+
+<div>
+
+
+- $c_A$ = Konzentration der Komponente A
+- $x$ = Ortskoordinate
+- $S$ = Querschnittsfläche
+- $t$ = Zeit
 - $D_0$ = Diffusionskonstante
 - $Q_A$ = Aktivierungsenergie
 - $R$ = Gaskonstante
 - $T$ = absolute Temperatur
 
+</div>
+
+</div>
+
 ---
+
 
 # Diffusion 
 **Wichtig für:**
