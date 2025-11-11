@@ -425,7 +425,6 @@ graph TD
     D --> E[Kristallisation]
     E --> F[Kristallitbildung<br/>Körner + Korngrenzen]
     F --> G[Gefüge]
-    style G fill:#90EE90
 ```
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
