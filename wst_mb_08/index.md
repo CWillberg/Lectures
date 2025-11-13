@@ -62,7 +62,7 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 
 
-![bg right 50%](../assets/QR/wst_mb_04.png)
+![bg right 50%](../assets/QR/wst_mb_08.png)
 
 ---
 

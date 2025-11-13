@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Korrosion
+title: Vorlesung Wärmebehandlung
 author: Christian Willberg
 ---
 
@@ -58,10 +58,15 @@ img[alt="ORCID"] {
 </style>
 
 
-## Korrosion
+## Vorlesung Werkstofftechnik - Wärmebehandlung
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
+![bg right](../assets/Figures/Flamm-1.png)
+
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="https://wiki.arnold-horsch.de/images/3/36/Flamm-1.png" style="color: blue;">Bildreferenz</a>
+</div>
+
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -73,219 +78,279 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 <!--paginate: true-->
 
-# Inhalte
+## Wärmebehandlung
 
-![bg right 70%](../assets/QR/wst_mb_05.png)
+- Glühverfahren
+- Härteverfahren
 
----
+Charakterisierung:
+- Art des Erwärmens
+- Haltetemperatur
+- Haltedauer
+- Art des Abkühlens (Ofen-, Luft-, Öl-, Wasserabkühlung)
 
-# Korrosion
 
-
-- unterteilt in chemische, elektrochemische oder physikalische Reaktion von Metallen mit der Umgebung
-- die Werkstoffeigenschaften beeinträchtigt werden
-- die meisten Korrosionsschäden sind elektrochemische
-
-![bg 100% fit](https://s3.amazonaws.com/static.wd7.us/5/55/Rust03102006.JPG)
-
-![bg right 80% fit](https://upload.wikimedia.org/wikipedia/commons/8/88/County_Fire_Office_roof.jpg)
-
-[Vertiefung](https://www.fh-muenster.de/bau/downloads/personen/muero/intern/bau/4.1Stahlkorrosion.pdf)
-
----
-
-## Chemische Korrosion
-
-- unmittelbare Reaktion von Metallen mit der Umgebung
-- es erfolgt ein direkter Elektronenaustausch
-- Reaktionspartner ist meist Sauerstoff $\text{O}_2$
-Bsp.:
- $\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
- 
-- findet meist bei höheren Temperaturen statt (Vorgang: Zundern)
-
----
-
-## Elektrochemische Reaktion
-- die meisten Korrosionsschäden sind elektrochemische
-- zwei Teilreaktionen und meist örtlich getrennt
-- beide Teilreaktionen erfordern einen Austausch an Ladungsträgern
-    - Metalle ermöglichen das durch ihre Leitfähigkeit
-    - außerhalb des Metalls wird der Stromkreis durch ein Elektrolyt geschlossen
-    
-**Elektrolyt**
-- ein Medium in dem sich Ionen bewegen können (_Ionenleitung_)
-- meist wässrige Lösungen 
-- auch Erdboden, Salzschmelzen oder Feststoffen (genutzt in Brennstoffzellen)
+![bg right 70%](../assets/QR/wst_mb_07.png)
 
 ---
 
 
-
-**_Dissoziationsgrad_**
-- bestimmt die Aggressivität des Elektrolyts
-- je mehr die Konzentration der Ionen von der Konzentration im Wasser abweicht, desto aggressiver ist das Elektrolyt
-- kann im pH-Wert dargestellt werden. 
-pH < 7 sauer
-pH = 7 ist neutral
-pH > 7 basisch (alkalisch)
+# Warum?
 
 ---
 
-## Prinzipbild Galvanische Zelle
-
-- Anionen - negative Ionen
-- Katinionen - postive Ionen
-- unter Gleichstrom wandern die negativ geladenen Ionen zur Anode
-- Örtlich Trennung (Anode, Kathode)
-
-![bg fit right 80%](https://upload.wikimedia.org/wikipedia/commons/c/c7/Galvanische_Zelle_2009-02-08.svg)
-
----
-
-## Galvanisierung
-
-![bg right:40% fit](https://kluthe.com/magazin/wp-content/uploads/2023/02/Galvanisierung-850x448.jpg)
-
-- die Kathodenreaktion ist eine Reduktion
-
-$\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
-
-- es bildet an der Oberfläche einen Niederschlag
-- Prinzip der galvanischen Beschichtung
-- an der Anode findet eine Oxidation statt (Abgabe von Elektronen)
----
-
-## Prinzipbild Korrosionselement
-- zwei Bestandteile
-- leitend verbundene Bereiche
-  - zwei Metalle
-  - gleiche Metalle mit unterschiedlichen elektrischen Potentialen
-- Benetzung mit Elektrolyt
-
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
-
----
-
-- edlere wird zu Kathode
-- unedlere Elektrode wird zur Anode
-  - wie bei der Galvanisierung gibt die Anode Elektronen ab
-  $\text{Metall} \rightarrow \text{Metall}^{++} + 2\text{e}^{-}$
-  - sie löst sich auf und korrodiert
-- An der Kathode kann keine Meatall-Metallionen Reaktion stattfinden
-  - es findet daher eine Redoxreaktion statt
-  - Wasserstoffkorrosion oder Sauerstoffkorrosion
----
-
-| Metall    | Potential | Korrosionsverhalten       |
-|-----------|-----------|-----------------|
-| Gold      | +1.50 V   | edel      |
-| Platin    | +1.18 V   |       |
-| Silber    | +0.80 V   |       |
-| Kupfer    | +0.34 V   |       |
-| Wasserstoff | +0.00 V  | neutral  |
-| Zinn      | -0.14 V   |   |
-| Eisen     | -0.41 V   |   |
-| Zink      | -0.76 V   |   |
-| Titan     | -1.75 V   |   |
-| Aluminium | -1.66 V   | unedel  |
-
----
-
-## Wasserstoffkorrosion
-- nur un sehr sauren Elektrolyten möglich
-- tritt in Anwesenheit von Wasser aber in Abwesenheit von Sauerstoff auf
->Säurekorrosion
-
----
-
-## Sauerstoffkorrosion
-- die freien Elektronen reagieren mit dem Wasser zu Hydroxid-Ionen
-$\text{H}_2\text{O} + \frac12\text{O}_2 + 2\text{e}^{-} \rightarrow 2\text{OH}^-$
-$2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \rightarrow 2\text{Fe(OH)}_3$
-- kann noch weiter zerfallen
-![bg vertical](../assets/Figures/whitespace.png)
-![bg fit](../assets/Figures/whitespace.png)
-![bg  fit](https://upload.wikimedia.org/wikipedia/commons/9/97/Korrosion.svg)
-
----
-
-## Physikalische Korrosion
-
-- Aufgrund von Belastungen enstehen Mikrorisse oder Versetzungen an denen Korrosion beginnen kann
-- Korrision findet in Kombination mit einer mechanischen Belastung (statische oder dynamische - schwingend) auf
+- Verbesserung der Bearbeitbarkeit (Weichglühen)
+- Arbeitsgang der Erzeugung (Härten von Werkzeugen)
+- Verbesserung der mechanischen Eigenschaften (Vergüten von Stahl, Aushärten von Al-Legierungen)
+- Verminderung des Verschleißes (Randschichthärten von Zahnrädern)
+- Beseitigung von Kaltverfestigung (Rekristallisationsglühen)
+- Abbau von Guss- oder Schweißspannungen (Spannungsarmglühen)
 
 
 ---
 
-## Korrosionsarten
-- es gibt 36 Korrosionsarten laut [DIN EN ISO 8044](https://cdn.standards.iteh.ai/samples/71134/642505f174ad4feeb2eef113b494d4e4/ISO-8044-2020.pdf)
-
-**Flächenkorrosion**
-- großflächige Korrosion
-- gut sichtbar und eher ungefährlich
-- die Deckschicht sorgt für einen Korrosionsschutz
-![bg fit right 80%](https://www.hausjournal.net/wp-content/uploads/Was-ist-Korrosion-720x480.jpg)
+![bg 70% fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
-## Korrosionsarten
-**Lochfraßkorrosion**
-- bleibt lange unbemerkt
-- können sich in der Tiefe trogförmig ausdehnen
-![bg vertical right 1%](../assets/Figures/whitespace.png)
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/8/84/Pitting_corrosion-scheme.png)
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b3/Corrosion.Pit.jpg)
+![bg 43% fit](../assets/Figures/EKD_farbe.png)
+
+---
+## Glühen
+- langsames Kühlen. Versuch nahe dem Gleichgewichtszustand zu kommen
+
+Ziele ausabeiten für
+- Spannungsarmglühen
+- Rekristallisationsglühen
+- Weichglühen
+- Normalglühen
+- Grobkornglühen
+- Diffusionsglühen
 
 ---
 
-## Korrosionsarten
-**Spaltkorrosion**
-- tritt an Metallteilen  in engen, nicht abgeschlossenen Spalten wie Überlappungen, aufgesetzten Stegen und bei nicht durchgeschweißten Schweißnähten auf
-- schlecht sichtbar
-- sollte in kritische Bereichen konstruktiv vermieden werden
+## Spannungsarmglühen
+- Langsames Erwärmen auf 550 - 650 °C (unterhalb $\text{A}_{c1}$)
+- Haltedauer 2 - 4 h, langsame Abkühlung (Ofenabkühlung)
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+Ziel:
+Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonstigen Eigenschaften
 
 
 ---
 
-## Korrosionsarten
-**Interkristaline Korrosion**
-- auch Kornzerfall genannt
-- tritt an den Korngrenzen auf
-- Reminder: Einfluss des Raumgitters - Angriff aggressiver Medien erfolgt an bevorzugten Ebenen
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/28/Intergranular_corrosion.JPG)
+## Spannungsarmglühen
+- Langsames Erwärmen auf 550 - 650 °C (unterhalb $\text{A}_{c1}$)
+- Haltedauer 2 - 4 h, langsame Abkühlung (Ofenabkühlung)
+
+![bg right 90% fit](../assets/Figures/spannungsarmgluehen.svg)
+
+Ziel:
+Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonstigen Eigenschaften
 
 ---
 
-## Sonstige Korrosionsarten
+## Rekristallisationsglühen
 
-- [mirkobakterielle](https://en.wikipedia.org/wiki/Microbial_corrosion) Korrosion
-  - Abwässern
-  - Flugzeugtreibstoff
-  - Pilzbefall
-- Unterwanderungskorrosion
-- Hochtemperaturkorrosion
-- Spannungsrisskorrosion
-    - die korrosionshemdende Schicht wird durchbrochen und es kommt zur Korrosion
-- ...
----
+![bg fit right](../assets/Figures/EKD_farbe.png)
 
-## Korrosionsschutz 
 
-- unterscheidbar zwischen passivem und aktivem Schutz
-- passiv: Trennung von Metall und Elektrolyt / korrosivem Medium
-- aktiv: vollständige Trennung ist nicht notwendig
+- Rückgängigmachen von Eigenschaftsänderungen (Verfestigung) durch Kaltumformung; 
+- Gefügeumbildung bzw. -neubildung im festen Zustand;
+- Spannungsabbau
+- Erhöhung der Bruchdehnung
 
 ---
 
-## Korrosionsschutz
-
-- Erarbeiten in Kleingruppen 10 Minuten - 15 Minuten Recherche
-- 2 Gruppen
-  - 3 passive Verfahren
-  - 3 aktive Verfahren 
-- kurze Vorstellung der Ergebnisse (Ruhig Tafel nutzen)
-  - wesentliches "take away"
 
 
 
+## Rekristallisationsglühen
+- Rekristallisationstemperatur bei Stahl: 500 - 600°C
+- halten, langsame Abkühlung
+- bei zu langer Haltezeit: Grobkornbildung
+![bg right 90% fit](../assets/Figures/rekristallisationsgluehen.svg)
+
+
+---
+
+
+
+
+## Weichglühen
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+- Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands
+- Zementitteilchen werde kugelig eingeformt (GKZ-Glühen).
+
+---
+
+## Weichglühen
+- Temperaturen um  $\text{A}_{C1}$ (unterhalb, oberhalb oder pendelnd um  $\text{A}_{C1}$)
+- langsame Abkühlung.
+
+![bg fit right 90%](../assets/Figures/weichgluehen.svg)
+.
+
+---
+
+
+## Normalglühen
+
+- Temperatur 30 - 50°C über Umwandlungstempertur im Austenitgebiet. 
+- Erwärmung zwischen $\text{A}_{C1}$ und Glühtemperatur rasch, kurze Haltedauer
+- rasche Abkühlung durch Zweiphasen-Intervall, dann langsam abkühlen
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+---
+
+## Normalglühen
+
+![bg fit right 90%](../assets/Figures/normalgluehen.svg)
+
+
+- Herstellung eines gleichmäßigen und feinkörnigen Gefüges mit Perlitanteilen
+- Annäherung an den Gleichgewichtszustand durch zweifaches Umkörnen (bei Erwärmung und Abkühlung)
+- häufig eingesetztes Verfahren
+
+---
+
+## Grobkornglühen
+
+
+- Erzielung eines groben Korns
+- Verbesserung der Spanbarkeit
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+
+
+---
+
+
+## Grobkornglühen
+
+
+- Temperatur deutlich über $\text{A}_{C3}$ (950 - 1100°C)
+- Haltezeit 1 bis 2 h
+- langsame Ofenabkühlung
+- dann raschere Luftabkühlung
+
+![bg fit right 90%](../assets/Figures/grobkorngluehen.svg)
+
+
+
+---
+
+## Diffusionsglühen
+
+- Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion
+
+![bg fit right](../assets/Figures/EKD_farbe.png)
+
+---
+
+## Diffusionsglühen
+
+- Temperatur hoch im Austenitbereich
+- lange Haltezeit (bis 50 h)
+- langsame Abkühlung
+
+![bg fit right 90%](../assets/Figures/diffussionsgluehen.svg)
+
+
+
+---
+
+![bg 60%](../assets/Figures/Diffusion_Kohlenstoff_in_Eisen.png)
+
+---
+
+
+
+## ZTU-Schaubilder
+- Zeit Temperatur Umwandlungs Schaubilder
+- werden für verschiedene Materialien und Legierungen bereitgestellt
+- auf dieser Basis werden die Wärmebehandlungsprozesse geplant
+- Unterscheidung in Abkühlung bei
+  - konstanter Temperatur (isotherme Umwandlung)
+  - kontinuierliche Abkühlung
+---
+## isotherme Umwandlung
+
+- Probe wird abgeschreckt
+- bei konstanter Temperatur gehalten, bis Umwandlung abgeschlossen
+
+![bg right fit](../assets/Figures/ztisotherm.png)
+
+---
+## Kontinuierliche Abkühlung
+- ausgehend von der Austenitiseriungsbedingung verschieden schnell abgekühlt
+- die Umwandlung in Ferrit, Perlit, Bainit (Zwischenstufe) oder Martensit bei verschiedenen Temperaturen findet in unterschiedlichem Ausmaß statt
+- am Ende der Abkühlkurve wird meist die erreichbare Härte eingetragen
+
+![bg right fit](../assets/Figures/ztukontinuierlich.png)
+
+---
+
+# Härteverfahren
+
+---
+
+## Härten
+
+- erfolgt das Abkühlen von einer Temperatur oberhalb der Umwandlungslinie GOSK mit einer Geschwindigkeit, die größer ist als die kritische („Abschrecken“)
+- Ziel ist ein Ungleichgewichtszustand durch Umwandlung des Austenits in Martensit (gegebenenfalls auch Bainit)
+
+![bg right 100%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+---
+
+## Verfahren
+- Härten nach Volumenerwärmung
+- Anlassen
+- Vergüten
+- Randschichthärten
+- Thermochemische Verfahren
+  - Aufkohlen / Einsatzhärten
+  - Nitrieren
+- Thermomechanische Verfahren
+- Aushärten
+---
+
+## Härten nach Volumenerwärmung
+
+- Kohlenstoffgehalt von mindestens 0.3% (sonst Vorbehandlung nötig)
+- bei kleinen Abmessungen kann eine vollständige Martensitbildung über den gesamten Querschnitt erfolgen (Durchhärtung). Bei großen Abmessungen wird die kritische Abkühlgeschwindigkeit nur bis zu einer bestimmten Tiefe erreicht (Einhärtung). 
+- Höchsthärte ist allein vom Kohlenstoffgehalt abhängig
+
+---
+
+## Randschichthärten
+
+- wird angewendet bei niedrig- und unlegierten Stählen mit 0.3 - 0.7% Kohlenstoff (obere Grenze zur Vermeidung von Härterissen)
+- insbesondere bei Kurbelwellen, Zapfen, Walzen, Zahnrädern u.a.. Ziel dieses Verfahrens ist eine harte und verschleißbeständige Oberfläche bei zähem Kern. 
+- Randschicht des Werkstückes auf Härtetemperatur erhitzt und durch Abschrecken gehärtet. 
+
+---
+
+## Verfahren
+
+Das [Randschichthärten](http://wiki.arnold-horsch.de/index.php/Oberfl%C3%A4chenh%C3%A4rteverfahren) ist mit folgenden Verfahren möglich:
+
+- Flammhärten
+- Induktionshärten
+- Strahlhärten (Elektronenstrahl- und Laserhärten)
+- Tauchhärten 
+
+![bg right fit 55%](http://wiki.arnold-horsch.de/images/3/36/Flamm-1.png)
+
+![bg vertical fit 55%](http://wiki.arnold-horsch.de/images/c/c8/Induktion-1.png)
+
+---
+
+# Fragen?

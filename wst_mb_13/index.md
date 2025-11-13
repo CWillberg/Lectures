@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung Faserverbundwerkstoffe
+title: Reale Strukturen und Eigenschaften
 author: Christian Willberg
 ---
 
@@ -58,455 +58,497 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung Werkstofftechnik - Faserverbundwerkstoffe
+## Nicht-mechanische Eigenschaften
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](../assets/Figures/FKV_struktur.png)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/a/a2/Bochumer_Verein-23-50078.jpg)
 
 Kontakt: christian.willberg@h2.de
-
+Teile des Skripts sind von \
+Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-![bg fit](../assets/Figures/FKV_Beispiele.png)
+## Inhalte
+
+
+![bg right 70%](../assets/QR/wst_mb_03.png)
+
+
+
+
+---
 
 <!--paginate: true-->
 
----
 
 
-## Was ist ein Faserkunstoffverbund (FKV)
+## Werkstoffeigenschaften
 
-- Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
-- Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
-- Material und seine Eigenschaften entstehen in der Fertigung 
-![bg right 70%](../assets/QR/wst_mb_13.png)
+<details>
+<summary>Was sind Werkstoffeigenschaften?</summary>
 
----
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <pre align="center" class="mermaid">
+    %%{init: {'theme': 'forest'}}%%
+    mindmap
+      root((Eigenschaften))
+        Physikalisch
+          Mechanisch
+          Elektrisch
+          Thermisch
+          ...
+        Chemisch
+            Löslichkeit
+            Elektronegativität
+            ...
+        Biologisch / Physiologisch
+            Umweltwirkung
+            Verwitterbarkeit
+            Toxidität
+            ...
+        Sozial / Gesellschaftlich
+            Wert
+            Akzeptanz
+            Arbeitsbedingungen
+            Herkunft
+            ...
+    </pre>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    </script>
+  </body>
+</html>
+</details>
 
-## Fokus von Industrien
-
-- Luft- und Raumfahrt
-  - Gutes Festigkeits/Steifigkeits – Gewichtsverhältnis
-  - Schaden-, Korrosionsstoleranz 
-  - Wartbarkeit / Reparierbarkeit
-- Bauwesen
-  - Widerstand gegen Umwelteinflüsse und Korrosion
-  - Langlebigkeit
-
----
-
-- Schifffahrt
-  - Salzwasser
-  - Schlagschäden
-  - Lange Lebendauer
-- Landtransportsysteme
-  - Kosten
-  - Einfache Fertigbarkeit
-- Weitere Anwendungen
-  - Dichtheit
-  - …
+<!DOCTYPE html>
 
 
-
-
----
-
-## Komponenten von Faserkunstoffverbunde 
-
-**Matrix – bindende Komponente**
-Formgebend
-Schutz und Stabilisierung der Fasern
-Spannungen an die Fasern übertragen
-![bg right 75%](../assets/Figures/FKV_struktur.png)
-
----
-
-## Komponenten von Faserkunstoffverbunde 
-
-**Faser – verstärkende Komponente**
-Lasttragend da hohe Steifigkeit und/oder Festigkeit bei geringem Gewicht
-Begrenzte thermische Dehnung
-Weitere Bestandteile (optional)
-Faserbeschichtungen
-Füllstoffe
-Beimischung anderer Fasertypen
-
-![bg right 75%](../assets/Figures/FKV_struktur.png)
 
 ---
 
-## Ausgangswerkstoffe - Faser
+## Symmetrien
+- isotropie
+- transversale isotropie
+- orthotropie
+- ...
+- anisotropie
+![bg right 80%](../assets/Figures/xyz.png)
 
-- Kurzfasern
-  - Wirre Anordnung (geringe Anistropie)
-  - Oft recyclete Fasern
-- Langfasern
-  - Mehrere Millimeter - einige Centimeter Länge
-  - Geringere Anforderung bei Verarbeitung und Lagerung
-
-
-
-![bg right 35%](https://balticcarbon.de/wp-content/uploads/1-4.jpg)
-![bg vertical 35%](https://shop.flachs.de/wp-content/uploads/sites/2/2013/05/LangflachsGebleichZopfShop.jpg)
-![bg vertical 35%](https://img.directindustry.de/images_di/photo-mg/193131-12102231.jpg)
+<!---
+- Diskussion; Eigenschaften können richtungsabhängig sein
+- Praxisbeispiele
+-->
 
 ---
 
+## Mechanische Eigenschaften
+<a id="Mechanik"></a>
 
+- die **reversible** Verformung, bei der sofort bzw. eine bestimmte Zeit nach dem Einwirken der äußeren Belastung der verformte Werkstoff seine ursprüngliche Form zurückerhält: elastische und viskoelastische Verformung;
 
-## Ausgangswerkstoffe - Faser
+- die **irreversible (bleibende)** Verformung, bei der die Formänderung auch nach dem Einwirken der äußeren Belastung erhalten bleibt: plastische und viskose Verformung;
 
+- der Bruch, d.h. eine durch Entstehen und Ausbreiten von Rissen bewirkte Trennung des Werkstoffes.
 
-- Endlosfasern
-  - Hohe Festigkeiten und Steifigkeiten
-  - Höhere Anforderung bei Verarbeitung und Lagerung
-
-
-![bg right 35%](https://balticcarbon.de/wp-content/uploads/1-4.jpg)
-![bg vertical 35%](https://shop.flachs.de/wp-content/uploads/sites/2/2013/05/LangflachsGebleichZopfShop.jpg)
-![bg vertical 35%](https://img.directindustry.de/images_di/photo-mg/193131-12102231.jpg)
 
 ---
 
-## Ausgangswerkstoffe - Faser
+## Elastizität
+- reversibel, energieerhaltend
+- Hooksches Gesetz 1D
+Normalspannung $\sigma = E\varepsilon$
+Schubspannung $\tau = G\gamma$
 
-- Naturfasern: Haare, Wolle, Seide, Baumwolle, Flachs, Sisal, Hanf, Jute, Ramie, Bananenfasern ...
-- Organische Fasern: Polyethylen (PE), Polypropylen (PP), Polyamid (PA), Polyester (PES), Polyacrylnitril (PAN), Aramid, Kohlenstoff ...
-- Anorganische Fasern: Glas, Basalt, Quarz, SiC, Al2O3, Bor, ...
-- Metallfasern aus: Stahl, Aluminium, Kupfer, Nickel, Beryllium, Wolfram ... 
 
-![](../assets/Figures/faservergleich.png)
+
+---
+# Thermische Eigenschaften 
 
 ---
 
-## Glasfaser
-
-**Vorteile**
-hohe Längs-Zug- sowie die hohe Längs-Druckfestigkeit
-Eine hohe Bruchdehnung
-aufgrund der niedrigen Fasersteifigkeit gute Drapierbarkeit, auch um enge Radien
-die vollkommene Unbrennbarkeit
-die sehr geringe Feuchtigkeitsaufnahme
+## Wärmedehnung
 
 
-![bg right fit](https://plasticker.de/images/news/11441_f.03.jpg)
+$\boldsymbol{\varepsilon}_{thermisch}=-\boldsymbol{\alpha}\Delta T$
 
----
+_Wärmeausdehnungskoeffizientenmatrix_
 
-## Glasfaser
+$\boldsymbol{\alpha} = 
+\begin{bmatrix}
+\alpha_{11} & \alpha_{12} & \alpha_{13} \\
+\alpha_{12} & \alpha_{22} & \alpha_{23} \\
+\alpha_{13} & \alpha_{23} & \alpha_{33}
+\end{bmatrix}
+$
 
-**Vorteile**
+**1D oder isotrop**
+$\varepsilon_{thermisch}=-\alpha\Delta T$
 
-die gute chemische und mikrobiologische Widerstandsfähigkeit. 
-Kosten
-**Nachteile**
-der für viele Strukturbauteile zu niedrige Elastizitätsmodul der Glasfaser
-Glasfasern sind unverrottbar (Vor- und Nachteil)
-
-![bg right fit](https://plasticker.de/images/news/11441_f.03.jpg)
+>Beispiel -> Paraview
 
 ---
 
-## Kohlefaser (C-Faser)
-
-**Vorteil**
-C-Fasern sind sehr leicht, ihre Dichte ($\rho_𝑓 \approx 1.8 g/cm^3$) liegt deutlich unter derjenigen von Glasfasern ($\rho_𝑓 \approx 2.54 g/cm^3$). 
-extrem hohe Festigkeiten und sehr hohe Elastizitätsmoduln
-beide mechanischen Größen sind zudem in weiten Bereichen bei der Herstellung der Fasern einstellbar
-Exzellente Ermüdungsfestigkeit
-
-![bg right fit](https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/structure/A350_forward_fuselage.jpg?wid=1920&fit=fit,1&qlt=85,0)
+| Symmetrie | Modell | Beispiele |
+|---|---|---|
+| Isotropie | $\alpha_{11}=\alpha_{22}=\alpha_{33}$ und $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$ | Metalle, Kunststoffe|
+| transversale Isotropie | $\alpha_{22}=\alpha_{33}$ und $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$| Einzellage Faserverbund |
+| Orthotropie Isotropie | $\alpha_{12}=\alpha_{13}=\alpha_{23}=0$| Mehrlagiger Faserverbund |
+| Anisotropie | beliebige $\alpha_{ij}$ | homogenisierte Betrachtung eines unysmmetrischen Mehrlagen-Verbunds |
 
 ---
 
-**Nachteile**
-Geringere Druckfestigkeit in Faserrichtung
-Schlechtere Drapierbarkeit
-Kosten
-Elastizitätsmoduln in Faserlängs- und Querrichtung unterscheiden sich um eine Größenordnung (Vor- und Nachteil)
+## Anwendungen 
+- Bi-Metall Streifen
+- Brücken
+- Schienen
+- Hochpräzisionsmessgeräten
+- Schweißen, Löten, etc.
+- ...
 
-![bg right fit](https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/structure/A350_forward_fuselage.jpg?wid=1920&fit=fit,1&qlt=85,0)
+Kann u.a. zu thermischen Eigenspannungen, Verzug führen. 
+
 
 ---
 
-![bg fit](https://cdn1.vogel.de/unsafe/fit-in/1000x0/images.vogel.de/vogelonline/bdb/320000/320032/original.jpg)
+## Beispiel: Thermische Spannungen 1D
+
+$\sigma = E \varepsilon = E (\varepsilon_{mechanisch}+\varepsilon_{thermisch})= E (\varepsilon_{mechanisch}-\alpha\Delta T)$
+
+>Durch eine Vordehung kann die Belastung auf ein Bauteil reduziert werden
+
+## Beispiel: Thermische Längenänderung 1D
+$\Delta l = l_0 \varepsilon_{mechanisch}$
+>Für freie eine Dehnung, d.h. es wirken keine Spannungen
+
+$0 = E \varepsilon = E (\varepsilon_{mechanisch}+\varepsilon_{thermisch})= E (\varepsilon_{mechanisch}-\alpha\Delta T)$
+$\varepsilon_{mechanisch}=\alpha\Delta T$
+$\Delta l = l_0 \varepsilon_{thermisch} = l_0\alpha\Delta T$
+
+
+
+---
+## Wärmeleitung
+- auch Konduktion und Wärmediffusion
+- $T_{hoch}\rightarrow T_{niedrig}$ (2. Hauptsatz der Thermodynamik). 
+- es geht keine Wärme aufgrund der Energieerhaltung (1. Hauptsatz) verloren.
+
+**Wärmestrom $[W]$**
+$\dot{\mathbf{q}}=-\boldsymbol{\lambda}\text{grad}(T)$
+
+- $\text{grad}(T)$ ist der Gradient der Temperaturänderung $\frac{\partial T}{\partial dx_i}$; 
+- im linearen Fall $\text{grad}(T)=\Delta T / d = \frac{T_2-T_1}{d}$
+
+![bg right:30% fit](../assets/Figures/Temperaturgradient.png)
 
 ---
 
-## Matrixmaterialien
-- Faserverbundwerkstoffe können als Matrix auch Metalle, Beton, usw. haben
-![](https://www.bau-linke.de/wp-content/uploads/2019/02/AdobeStock_195047858-870x436.jpeg)
----
+$\dot{\mathbf{q}}=-\boldsymbol{\lambda}\text{grad}(T)$
 
+$\dot{\mathbf{q}} = \frac{\partial \mathbf{q}}{\partial t}$
+- zeigt an das sich etwas ändert -> $dt$
 
-## Ausgangswerkstoffe FKV - Matrix
-
-**Duroplastische Reaktionsharze**
-- Epoxidharze, Phenolharze, Polyesterharze, Vinylesterharze, …
-- Werden mit Reaktionsmittel für die Aushärtung gemischt
-- Vorimprägnierte Fasern -> Prepregs
-- Exotherm und volumenändernd beim Aushärten
-**Thermoplaste**
-- Polypropylen, Polyamid, Polyarylensulfide, …
-- Schmelzen bei einer bestimmten Temperatur (55 °C – 155 °C)
-- Teuer aber Recyclebar
-- Schwieriger zu handhaben
+$\boldsymbol{\lambda}=\begin{bmatrix}
+\lambda_{11} & 0 & 0 \\
+0 & \lambda_{22} & 0 \\
+0 & 0 & \lambda_{33}
+\end{bmatrix}$
+ist die Matrix der Wärmeleitfähigkeit.
+**Sonderfälle**
+- wenn $T_1$ = $T_2$ gibt es keine Leitung
+- wenn $\boldsymbol{\lambda}=0$; perfekte Isolation und keine Wärmeleitung
 
 ---
 
-## Verbund schematisch
-**Symmetrien**
-- Transversale Isotropie (Eigenschaften in 2 und 3 Richtung sind gleich)
-- Orthotropie
-- Anisotropie
-**Faservolumenanteil $𝜑$**
-Errechnet sich aus Mischungsregel
-$𝜌= 𝜑𝜌_𝑓+(1- 𝜑) 𝜌_𝑚$
-Steifigkeiten und Festigkeiten
+| Symmetrie | Modell | Beispiele |
+|---|---|---|
+| Isotropie | $\lambda_{11}=\lambda_{22}=\lambda_{33}$ | Metalle, Kunststoffe|
+| transversale Isotropie  | $\lambda_{22}=\lambda_{33}$ | Einzellage Faserverbund |
+| Anisotropie | beliebige $\lambda_{ij}$ | Mehrlagen Faserverbund |
 
-![bg right fit](../assets/Figures/FKV_eigenschaften.png)
+>Beispiel -> Paraview
 
 ---
 
-![bg fit](../assets/Figures/spezifische_Eigenschaften.png)
+## Wärmeübergang
+
+Übertragung der Wärme von einem Festkörper in ein Fluid oder Gas. 
+
+>Wichtig, wenn Maschinen gekühlt oder erwärmt werden sollen. 
+
+Wird durch den Wärmeübergangskoeffizient beschrieben $\alpha_{Übergang}$. Er hängt unter anderem  von der spezifischen Wärmekapazität, der Dichte und dem Wärmeleitkoeffizienten des wärmeabführenden sowie des wärmeliefernden Mediums ab.
+
+$\dot{q}=\alpha_{Übergang}A\Delta T$
+
+>Beispiel Wärmepumpe und Fußbodenheizung
 
 ---
 
-## Fertigung
-Wahl des Verfahrens hängt ab von
-- Der konkreten Anwendung
-- Einsatzbedingungen
-- Grundmaterial (Faser, Matrix)
-- Stückzahl
-- Kosten
-- Betriebsicherheit
-- …
+## Spezifische Wärmekapazität
+
+sagt aus wieviel Energie in Form von Wärme in einen Stoff "stecken" muss, um die Temperatur zu erhöhen.
+
+$C_p=\frac{\Delta q}{m \Delta T}$
 
 ---
 
-## Fertigung - Verfahrensschritte
-- Erstellen von Formwerkzeugen
-- Zuschnitt und Ablage von Vorprodukten
-- Aushärtung des Harzsystems
-- Nachbearbeitung des Bauteils
+## Wärmestrahlung
+
+$\dot{q}=\epsilon_{Emissionsgrad}\sigma_{Stefan-Boltzmann}AT^4$
+
+Emissiongrad $\epsilon_{Emissionsgrad}$ liegt zwischen 0 (perfekter Spiegel) und 1 (idealer Schwarzer Körper) und ist in Teilen materialabhängig.
+
+>nutzbar für Spektralanalysen, um die Zusammensetzung von Werkstoffen zu bestimmen. 
+
+![bg right:50% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg/1920px-McCree-Kurve_Keramik-Metallhalogenid-Lampe_DE.svg.png)
 
 ---
 
-## Formwerkzeug / Faserablage
+# Spezielle Temperaturen
 
-- Gips
-- Kunststoff
-- Metallen
-- Faserverbunden
-- Thermaldehnung sollte kompatibel
+## Phasenübergangstemperatur
+Temperatur wo ein Phasenübergang in einer Kristallstruktur stattfindet (siehe [Phasendiagramme](@ref "Phasendiagamme")). Wird maßgeblich durch beigesetzte Stoffe beeinflusst (siehe [Legierungen](@ref "Legierungen"))
 
-![bg  right fit](../assets/Figures/formwerkzeug.png)
-![bg  vertical fit](https://leichtbau.dlr.de/wp-content/uploads/2023/06/Instrumentierung-1-1072x536.jpg)
-
----
-## Halbzeuge
-
-- Handhabbarkeit
-- Verringerung der Fertigungstiefe
-- Erhöhung der Qualität
-- Beispiele:
-  - Gewebe
-  - Gelege
-  - Fliese, Matten
-  - Kernmaterialien
-  - Flechtschläuche
-  - …
-
-![bg right 90%](../assets/Figures/gewebearten.png)
-![bg  80%](../assets/Figures/honeycomb.png)
+## Schmelztemperatur
+Als Schmelztemperatur bezeichnet man die Temperatur, bei der ein Stoff vom festen in den flüssigen Aggregatzustand übergeht. 
 
 ---
 
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-…
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-RTM (Resin Transfer Moulding) Verfahren
-Automatisierte Faserablageverfahren
-…
+## Siedetemperatur
 
-![bg right 90%](../assets/Figures/manuell_ablage.png)
+Temperatur des Phasenübergangs von flüssig zu gasförmig. Für Schmierstoffe ggf. relevant.
+
+## Curie Temperatur
+Nach Piere Curie benannt. [Bezeichnet](https://de.wikipedia.org/wiki/Curie-Temperatur) die Temperatur, bei deren Erreichen ferromagnetische bzw. ferroelektrische Eigenschaften eines Materials vollständig verschwunden sind, so dass sie oberhalb nur noch paramagnetisch bzw. paraelektrisch sind. 
 
 ---
 
 
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-…
+## Eigenspannungen
+- Thermisch
+- Verformung
+- Gefügeumwandlung
+- Chemisch
+
+> Positive Beispiele: ??
+> Negative Beispiele: ??
+
+---
+
+# Elektrische und magnetische Eigenschaften
+
+Die elektrischen und magnetischen Eigeschaften hängen in der Regel eng zusammen und beeinflussen sich gegenseitig. 
+
+---
+
+## Permittivität
 
 
-![bg right 90%](../assets/Figures/manuell_ablage.png)
+- beschreibt wie stark die innere Struktur der äußeren Ladung entgegenwirkt
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/1/13/Dipole_im_elektrischen_Feld.svg)
+
+
+---
+
+- mathematisch Verhältnis zwischen der elektrischen Flussdichte und dem elektrischen Feld. 
+
+$\varepsilon_0$ ist dabei die Permitivität im Vakuum.
+
+$\mathbf{D}=\varepsilon_0 \boldsymbol{\varepsilon}_{Permitivität}\mathbf{E}$
+
+
+$\boldsymbol{\varepsilon}_{Permitivität} = \begin{bmatrix}
+\varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
+\varepsilon_{12} & \varepsilon_{22} & \varepsilon_{23} \\
+\varepsilon_{13} & \varepsilon_{23} & \varepsilon_{33}
+\end{bmatrix}$
 
 ---
 
 
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-...
 
-![bg right 90%](../assets/Figures/wickeln.png)
+Je nach Mikrostruktur ist die Permittivität richtungsabhängig.
+| Symmetrie | Modell | 
+|---|---|
+| Isotropie | $\varepsilon_{11}=\varepsilon_{22}=\varepsilon_{33}$ und $\varepsilon_{12}=\varepsilon_{13}=\varepsilon_{23}=0$ |
+| transversale Isotropie | $\varepsilon_{22}=\varepsilon_{33}$ und $\varepsilon_{12}=\varepsilon_{13}=\varepsilon_{23}=0$| 
+| Orthotropie Isotropie | $\varepsilon_{12}=\varepsilon_{13}=\varepsilon_{23}=0$| 
+| Anisotropie | beliebige $\varepsilon_{ij}$ |
+
+
+Oft angeben als relative Permittivität
+
+$\varepsilon_r=\frac{\varepsilon_{Permittivität}}{\varepsilon_0}$
+
+---
+
+- Kapazität eines Plattenkondensatorsn
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/9/92/Verschiedene_Kondensatoren_2.JPG)
+
+$C=\varepsilon_0 \varepsilon_{r}\frac{A}{d}$
+
+- Eine hohe Permittivität erlaubt stärkere Kondensatoren
+
+---
+
+## Elektrische Leitfähigkeit
+
+- Die Leitfähigkeit eines Stoffes oder Stoffgemisches hängt von der Verfügbarkeit und Dichte beweglicher Ladungsträger ab. 
+
+- In Metallen sind diese in Form von Elektronen sehr locker gebunden. Jedes Material ist in einem Gewissen Maß leitfähig.
+
+---
+
+Einheit $\left[\frac{S}{m}\right.$, $\left.\frac{\Omega}{m}\right]$
+
+$$\mathbf{J}=\sigma_{elektrische\,Leitfähigkeit}\mathbf{E}$$
+
+- Supraleiter besitzt unendliche Leitfähigkeit. 
+
+---
+
+## Elektrischer Widerstand
+
+- Spezialfall konstanter elektrischer Leitfähigkeit entspricht dies dem Ohmschen Gesetz
+
+
+**Ohmschen Gesetzes**
+
+$$R=\frac{U}{I}=\rho_{spezifisch}\frac{l}{A}$$
+
+- Der spezifische Widerstand $\rho_{spezifisch}$ ist ein Materialkennwert. Er ist temperaturabhängig.
+-  wird für Thermoelemente genutzt
+---
+
+Leiter - Metalle (Kupfer, Silber, ...), Graphit
+
+$\rho_{spezifisch} < 100 \frac{\Omega mm^2}{m}$
+
+Halbleiter - Silizium, Bor, Selen, ...
+
+$100<\rho_{spezifisch} < 10^{12} \frac{\Omega mm^2}{m}$
+
+
+Isolator - Aluminiumoxidkeramik, Epoxidharze
+
+$\rho_{spezifisch} > 10^{12} \frac{\Omega mm^2}{m}$
+
+
+
+
+---
+
+## Dotierungen
+
+- Durch Dotierung lässt sich die Leitfähigkeit von Halbleitern stark beeinflussen, oft um mehrere Zehnerpotenzen. 
+- hochreines Material ist erforderlich 
+
+n-Dotierung - Zugabe von Elektronendonatoren (überzählige Elektronen)
+p-Dotierung - Zugabe von Elektronenakzeptoren
+
+---
+- durch p-Dotierung entstehen Elektronenfehlstellen, auch Löcher oder Defektelektronen genannt
+-  diese ermöglichen die Leitung des elektrischen Stroms 
+- Die Leitfähigkeit entsteht dadurch, dass die Löcher bzw. Elektronen beweglich sind – wenn auch nicht so beweglich wie die Elektronen in Metallen.
 
 ---
 
 
-## Fertigung
+![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/n-dotieren.gif)
+![bg 80%](https://www.halbleiter.org/images/fundamentals/doping/p-dotieren.gif)
 
-Manuell
-Faserablage
-Handlaminieren
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-RTM (Resin Transfer Moulding) Verfahren
-...
+---
+
+# Magnetismus
+## Arten des Magnetismus
+**Diamagnetismus**  
+Führt zu einer Abschwächung des Magnetfeldes durch die Wirkung der Lenzschen Regel in der Atomhülle (lokal induziertes Magnetfeld wirkt dem äußeren entgegen).  
+*Beispiele:* Alle Materialien
+
+---
+
+**Paramagnetismus**  
+- Atome, Ionen oder Moleküle besitzen ein magnetisches Moment, das sich nach dem äußeren Magnetfeld ausrichtet und das Magnetfeld verstärkt
+- Höhere Temperaturen verringern den Effekt, da sich die Atome, Ionen oder Moleküle stärker bewegen
+
+*Beispiele:* Lithium, Natrium, Metalle der Seltenen Erden (Scandium, Neodym, Holmium)
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/0d/Paramagnetism_with_and_without_field.svg)
+
+---
+
+**Ferromagnetismus**  
+- die magnetischen Momente  richten sich spontan parallel aus
+-  kleinste kristalline Einheit wird als **weissscher Bezirk** bezeichnet
+- der Effekt kann durch die Curie-Temperatur zerstört werden
+
+*Beispiele:* Eisen, Nickel, Alnico (Eisen-, Aluminium-, Nickel-, Kobalt-, Kupferlegierungen)
 
 
-![bg right 90%](../assets/Figures/autoklav.png)
+![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/0/0a/Growing-magnetic-domains.svg)
+
+---
+
+**Ferrimagnetismus**  
+- die magnetischen Momente der Atome mikroskopisch wechselweise antiparallel ausgerichtet und löschen sich nicht vollständig aus
+-  wirkt wie eine abgeschwächte Form des Ferromagnetismus
+
+*Beispiele:* Nickel, Kupfer, Magnesium
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/b/bc/Ferrimagnetic_ordering_illustration.svg)
+
+---
+
+**Antiferromagnetismus**  
+- ähnlich dem Ferrimagnetismus, jedoch löschen sich die antiparallelen magnetischen Pole vollständig gegenseitig aus
+-  idealer Antiferromagnet zeigt nach außen kein magnetisches Verhalten
+- bei Erhitzung über die Néel-Temperatur wird das Material paramagnetisch
+
+*Beispiele:* Einige Nickelverbindungen, Chrom
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/2/29/AntiferromagnetischerWerkstoff.png)
+
+---
+
+## Permeabilität
+
+Ist das Verhältnis zwischen magnetischer Flussdichte und magnetischer Feldstärke.
+
+$\mathbf{B}=\mu_0 \boldsymbol{\mu}\mathbf{H}$
+
+Ähnelt der Permittivität. Auch hier gibt es eine Konstante, die magnetische Feldkonstante $\mu_0$, welche die Permeabilität im Vakuum beschreibt.
+
+Im Allgemeinen gilt
+
+$\boldsymbol{\mu} = \begin{bmatrix}
+\mu_{11} & \mu_{12} & \mu_{13} \\
+\mu_{12} & \mu_{22} & \mu_{23} \\
+\mu_{13} & \mu_{23} & \mu_{33}
+\end{bmatrix}$
+
+Die relative Permeabilität 
+
+$\mu_r=\frac{\mu}{\mu_0}$
 
 ---
 
 
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-RTM (Resin Transfer Moulding) Verfahren
-Automatisierte Faserablageverfahren
-…
+Diamagnetische Stoffe  $0\leq \mu_{r}<1$
 
-![bg right 90%](../assets/Figures/afp.png)
+Paramagnetische Stoffe $\mu_{r}>1$
 
----
+Superparamagnetische Stoffe  $\mu_{r}\gg 1$
 
-## Schäden in Faserverbunden
-Nach Heslehurst können 52 Fehlertypen kategorisiert werden 
-  - Einteilung nach Auftreten im Lebenszyklus
-        - Materialprozess – Fehler die bei der Bereitstellung der Teilbestandteile auftreten
-        - Komponentenfertigung – Fehler während der Kompositfertigung, welche während der Ablage, Aushärtung, Bearbeitung oder der Assemblierung auftreten
-        - In-service Nutzung – im Betrieb auftretende Schäden
-  - Einteilung nach Größe
-      - Mikroskopisch 
-      - Makroskopisch
+Ferrimagnetische Stoffe $20\lessapprox \mu_{r} \lessapprox 15000$
 
----
+Ferromagnetische Stoffe  $\mu_{r}\gg 1$; $40 \lessapprox \mu_r \lessapprox 10^6$
 
-## Delaminationen
-- eine der häufigsten Schädigungen
-- hohe interlaminare Spannungen durch 
-- Querkontraktionseffekte
-- Unterschiedliche Wärmedehnungen
-- Kanten (Geometrie, Mikrorisse, Poren)
-- Trennfolien
-
-
-![bg right fit](../assets/Figures/delamination.png)
-
----
-
-## Delaminationen
-
-- Verschmutzungen
-- Trennung zwischen zwei Lagen – interlaminarer Riss
-- Feuchteeintritt
-- Lebensdauerreduktion
-- Stabilität
-
-![bg right fit](../assets/Figures/delamination.png)
-
----
-
-## Ablösungen
-
-- Schlechte Prozesskontrolle
-- Schlechte Passung
-- Durch eintretenden Trennfilm
-- Schlechte Oberflächenbehandlung (Verschmutzung, etc.)
-- Relevant bei Kernanbindung und Verklebung von Komponenten
-
-![bg right fit](../assets/Figures/abloesung_klebung.png)
-
----
-
-
-## Fehler an Verbindungsbohrungen
-
-- Zu starkes Anziehen von Schrauben 
-Oberflächenschädigung
-- Lokale Beschädigung der ersten Lage
-- Austrittsschäden bei Bohrungen
-- Meist Splitterungen und lokale Delaminationen
-- Splitter können bei Bohrungen zwischen zwei Komponenten verbleiben
-
-![bg right fit](../assets/Figures/Bohrungen.png)
-
----
-
-## Porosität
-
-
-- Schlechte Material- und Prozesskontrolle
-- Überaltertes Material
-- Feuchtigkeit im Prepreg 
-- Fehlfunktion im Autoklav
+Supraleiter 1. Art $\mu_{r} = 0$. 
 
 
 
-![bg right fit](../assets/Figures/Poren.png)
-
----
-
-## Porosität
 
 
 
-- Verschlechtert die Lageneigenschaften
-- Auswirkung auf die Ermüdungslebens-dauer
-- Konzentrationen von Poren wichtiger als Größe
-- Wirkt sich auf die Dichtheit aus
-
-
-![bg right fit](../assets/Figures/Poren.png)
-
----
-
-## Vor- und Nachteile 
-**Vorteile**
-- Spezifische Materialeigenschaften
-- Weitgehend elastisches Verhalten
-- Hohe Festigkeiten und Steifigkeiten in Faserrichtung
-- „maßgeschneidertes“ Material
-- Alterung- und Korrosionsbeständigkeit
-
----
-## Vor- und Nachteile
-**Nachteile**
-- Variantenreichtum
-- Geringe Zugfestigkeit senkrecht zur Faser
-- Schwierige Prüfung
-- Recyclebarkeit
-- Spezifische Materialeigenschaften und Verarbeitungsverfahren
 
