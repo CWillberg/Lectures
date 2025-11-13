@@ -181,6 +181,55 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 
 ---
 
+
+
+## Diffusion - The Foundation
+**Definition:** Temperature and time-dependent mass transport
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+
+<div>
+
+**1st Fick's Law:**
+$$dm_A = -D \frac{dc_A}{dx} S \, dt$$
+$$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
+**Parameters:**
+- $dm_A$ = diffused amount of component A
+- $D$ = diffusion coefficient
+
+</div>
+
+<div>
+
+- $c_A$ = concentration of component A
+- $x$ = spatial coordinate
+- $S$ = cross-sectional area
+- $t$ = time
+- $D_0$ = diffusion constant
+- $Q_A$ = activation energy
+- $R$ = gas constant
+- $T$ = absolute temperature
+
+</div>
+
+</div>
+
+---
+
+# Diffusion
+**Important for:**
+- Steel hardening (case hardening, nitriding)
+- Galvanizing
+- Annealing
+- Welding
+- Soldering
+
+**Also outside metallurgy:**
+- Gas diffusion from tanks
+- Diffusion of gases through membranes
+- Corrosion
+---
+
 # What is a Phase?
 
 **General definition:**
@@ -239,53 +288,6 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 - Requires **mass transport** (diffusion)
 - Needs **heat** and **time**
 
----
-
-## Diffusion - The Foundation
-**Definition:** Temperature and time-dependent mass transport
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-
-<div>
-
-**1st Fick's Law:**
-$$dm_A = -D \frac{dc_A}{dx} S \, dt$$
-$$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
-**Parameters:**
-- $dm_A$ = diffused amount of component A
-- $D$ = diffusion coefficient
-
-</div>
-
-<div>
-
-- $c_A$ = concentration of component A
-- $x$ = spatial coordinate
-- $S$ = cross-sectional area
-- $t$ = time
-- $D_0$ = diffusion constant
-- $Q_A$ = activation energy
-- $R$ = gas constant
-- $T$ = absolute temperature
-
-</div>
-
-</div>
-
----
-
-# Diffusion
-**Important for:**
-- Steel hardening (case hardening, nitriding)
-- Galvanizing
-- Annealing
-- Welding
-- Soldering
-
-**Also outside metallurgy:**
-- Gas diffusion from tanks
-- Diffusion of gases through membranes
-- Corrosion
 
 ---
 
@@ -385,6 +387,10 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 ---
 
+![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
+
+---
+
 # Microstructure of Materials
 
 **Definition:**
@@ -407,6 +413,8 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
     D --> E[Crystallization]
     E --> F[Crystallite formationGrains + grain boundaries]
     F --> G[Microstructure]
+
+[🎬 Video on crystal growth](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
 
@@ -706,7 +714,6 @@ When casting into a metal mold (chill), **three characteristic zones** form:
 
 # Grain Boundaries in Detail
 
-[🎬 Video on crystal growth](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
 **Important effect:**
 - Insoluble constituents and impurities are **pushed ahead** by crystal fronts

@@ -398,7 +398,10 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 - Hitzebeständige Stähle
 - Verschleißfeste Beschichtungen
 
+---
 
+
+![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
 
 ---
 
@@ -413,6 +416,8 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a7/Vanadium-bar.jpg)
 ![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/5e/AlubronzeCuAl20v500.png)
+
+[🎬 Video zum Kristallwachstum](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
 ---
 
@@ -633,15 +638,12 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
    - Schonende Trennung (Vermeidung von Gefügebeeinflussung)
 
 2. **Schleifen**
-   - Verschiedene Körnungen (grob → fein)
-   - Plane Oberfläche herstellen
+
 
 3. **Polieren**
-   - Diamantsuspension oder Oxidpolieren
-   - Spiegelglatte Oberfläche
 
 4. **Ätzen**
-   - Chemisches Anätzen zur Kontrastbildung
+
 
 ---
 
@@ -726,7 +728,6 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 
 # Korngrenzen im Detail
 
-[🎬 Video zum Kristallwachstum](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
 **Wichtiger Effekt:**
 - Unlösbare Bestandteile und Verunreinigungen werden von Kristallfronten **vorgeschoben**
