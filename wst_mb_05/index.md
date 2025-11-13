@@ -160,6 +160,11 @@ den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann.
 
 ---
 
+
+![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
+
+---
+
 ## Hume-Rothery-Regeln für vollständige Löslichkeit
 
 **Alle 4 Bedingungen müssen erfüllt sein:**
@@ -183,11 +188,6 @@ Beispiel: Cu-Ni erfüllt alle Bedingungen ✓
 
 ---
 
-
-![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
-
-
----
 
 ## Beispiel für Unlöslichkeit
 
@@ -264,31 +264,6 @@ Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlu
 F = 0		ein Haltepunkt und
 F = 1		ein Knickpunkt.
 
-
----
-
-## Gibbsche Phasenregel - Beispiele
-
-**Beispiel 1: Reines Metall beim Schmelzen**
-- n = 1 (eine Komponente), P = 2 (fest + flüssig)
-- F = 1 - 2 + 1 = 0 → Haltepunkt bei konstanter Temperatur
-
-**Beispiel 2: Cu-Ni Legierung im Zweiphasengebiet**
-- n = 2 (Cu und Ni), P = 2 (α + Schmelze)
-- F = 2 - 2 + 1 = 1 → Ein Freiheitsgrad (T oder c veränderbar)
-
-**Beispiel 3: Einphasengebiet (nur α)**
-- n = 2, P = 1
-- F = 2 - 1 + 1 = 2 → Zwei Freiheitsgrade (T und c frei wählbar)
-
----
-
-# Zusammenfassung
-
-- Die Phasen bzw. Phasengrenzlinien können als ein Zustandsdiagramm dargestellt werden
-- Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel
-- Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern (Bewegung in T oder der Konzentration)
-- Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
 
 
 ---
@@ -407,6 +382,32 @@ Es können folgende ZSDs auftauchen:
 ---
 
 ![bg 70%](../assets/Figures/Eutektikum.png)
+
+---
+
+
+## Gibbsche Phasenregel - Beispiele
+
+**Beispiel 1: Reines Metall beim Schmelzen**
+- n = 1 (eine Komponente), P = 2 (fest + flüssig)
+- F = 1 - 2 + 1 = 0 → Haltepunkt bei konstanter Temperatur
+
+**Beispiel 2: Cu-Ni Legierung im Zweiphasengebiet**
+- n = 2 (Cu und Ni), P = 2 (α + Schmelze)
+- F = 2 - 2 + 1 = 1 → Ein Freiheitsgrad (T oder c veränderbar)
+
+**Beispiel 3: Einphasengebiet (nur α)**
+- n = 2, P = 1
+- F = 2 - 1 + 1 = 2 → Zwei Freiheitsgrade (T und c frei wählbar)
+
+---
+
+# Zusammenfassung
+
+- Die Phasen bzw. Phasengrenzlinien können als ein Zustandsdiagramm dargestellt werden
+- Die Anzahl der miteinander im Gleichgewicht stehenden Phasen ist gesetzmäßig verknüpft mit der Zahl der an der Legierungsbildung beteiligten Komponenten und der Zahl der Freiheitsgrade über die Gibbsche Phasenregel
+- Ein Freiheitsgrad beinhaltet die mögliche Veränderung von Zustandsvariablen, ohne das Gleichgewicht, d.h. die Anzahl der Phasen, zu ändern (Bewegung in T oder der Konzentration)
+- Die Anzahl der frei wählbaren Zustandsvariablen wird  nach der Phasenregel bestimmt
 
 ---
 

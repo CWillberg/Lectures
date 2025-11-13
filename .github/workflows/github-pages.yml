@@ -63,6 +63,7 @@ jobs:
           - stream_wst_11
           - stream_wst_12
           - composites_01
+          - composites_02
           - Berufsschule
           - gju_01
           - gju_mech

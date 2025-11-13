@@ -417,15 +417,15 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 ---
 
 # Entstehung des Gefüges - Ablauf
-```mermaid
-graph TD
+
+
     A[Schmelze] --> B[Abkühlung / Unterkühlung]
-    B --> C[Keimbildung<br/>homogen + heterogen]
+    B --> C[Keimbildung homogen + heterogen]
     C --> D[Keimwachstum]
     D --> E[Kristallisation]
-    E --> F[Kristallitbildung<br/>Körner + Korngrenzen]
+    E --> F[KristallitbildungKörner + Korngrenzen]
     F --> G[Gefüge]
-```
+
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
 

@@ -5,247 +5,248 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Corrosion
+title: Materials-and-Production-Engineering-Lecture Alloy Formation
 author: Christian Willberg
 ---
 
+<style>
+.column {
+    flex: 1;
+    padding: 0 20px; /* Placement of the columns */
+}
 
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+</style>
 
 <style>
 footer {
-    font-size: 14px; /* Footer font size */
-    color: #888; /* Footer color */
-    text-align: right; /* Footer alignment */
+    font-size: 14px; /* Change footer font size */
+    color: #888; /* Change footer color */
+    text-align: right; /* Change footer alignment */
 }
 </style>
 
 
-## Corrosion
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-Magdeburg-Stendal University of Applied Sciences 
+## Lecture on Materials Science -  Alloy (2/3)
+Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Magdeburg-Stendal University of Applied Sciences
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
+![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
 Contact: christian.willberg@h2.de
-Parts of the script are taken from \
+Parts of the script are adopted from \
 Prof. Dr.-Ing. Jürgen Häberle
-
 
 
 ---
 
 <!--paginate: true-->
 
-# Contents
-
-![bg right 70%](../assets/QR/wst_mb_05.png)
-
----
-
-# Corrosion
+## Contents
 
 
-- divided into chemical, electrochemical, or physical reactions of metals with the environment
-- affects the material properties
-- most corrosion damages are electrochemical
 
-![bg 100% fit](https://s3.amazonaws.com/static.wd7.us/5/55/Rust03102006.JPG)
-
-![bg right 80% fit](https://upload.wikimedia.org/wikipedia/commons/8/88/County_Fire_Office_roof.jpg)
-
-[Further Reading](https://www.fh-muenster.de/bau/downloads/personen/muero/intern/bau/4.1Stahlkorrosion.pdf)
+![bg right 70%](../assets/QR/stream_wst_07.png)
 
 ---
 
-## Chemical Corrosion
+# Phase Diagrams
 
-- immediate reaction of metals with the environment
-- involves direct electron exchange
-- reaction partner is usually oxygen $\text{O}_2$
-Example:
- $\text{Mg}+\text{O}_2\rightarrow \text{MgO}_2$
- 
-- mostly occurs at higher temperatures (process: scaling)
+- Also known as phase diagrams.
+- Represent the state of alloys and mixtures of substances as a function of chemical composition, temperature, and possibly pressure.
+- The "state" refers to the occurring phases (solid, liquid, gaseous).
 
 ---
 
-## Electrochemical Reaction
-- most corrosion damages are electrochemical
-- two partial reactions, often spatially separated
-- both reactions require an exchange of charge carriers
-    - metals enable this through their conductivity
-    - outside the metal, the circuit is closed by an electrolyte
-    
-**Electrolyte**
-- a medium in which ions can move (_ion conduction_)
-- mostly aqueous solutions 
-- also includes soil, molten salts, or solids (used in fuel cells)
+## Caution!
+
+Phase diagrams are equilibrium diagrams.  
+They are only valid for very slow cooling from the molten state to room temperature, allowing equilibrium between the phases (at or between phase boundaries) to be established.
 
 ---
 
-
-
-**_Degree of Dissociation_**
-- determines the aggressiveness of the electrolyte
-- the further the ion concentration deviates from the concentration in water, the more aggressive the electrolyte
-- can be represented by pH value. 
-pH < 7 acidic
-pH = 7 neutral
-pH > 7 basic (alkaline)
+![bg fit 70%](../assets/Figures/Zustandsdiagramm.png)
+![bg fit 70%](../assets/Figures/Zustandsdiagramm_3.png)
 
 ---
 
-## Schematic of a Galvanic Cell
+## Solubility
 
-- Anions - negative ions
-- Cations - positive ions
-- under direct current, negatively charged ions migrate to the anode
-- Spatial separation (Anode, Cathode)
+**Insoluble**
+- Significant differences in atomic diameters.
+- Crystal lattice structures differ.
+- Components are chemically very different.
 
-![bg fit right 80%](https://upload.wikimedia.org/wikipedia/commons/c/c7/Galvanische_Zelle_2009-02-08.svg)
-
----
-
-## Galvanization
-
-![bg right:40% fit](https://kluthe.com/magazin/wp-content/uploads/2023/02/Galvanisierung-850x448.jpg)
-
-- the cathode reaction is a reduction
-
-$\text{Metal ion} + \text{Electron} \rightarrow \text{Metal atom}$
-
-- a deposit forms on the surface
-- principle of electroplating
-- at the anode, oxidation occurs (release of electrons)
----
-
-## Schematic of Corrosion Element
-- two components
-- conductively connected areas
-  - two metals
-  - identical metals with different electrical potentials
-- Electrolyte wetting
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
+**Soluble**
+- Minimal differences in atomic diameters.
+- Crystal lattice structures are identical.
+- Components are chemically very similar.
 
 ---
 
-- the nobler material becomes the cathode
-- the less noble electrode becomes the anode
-  - as in galvanization, the anode releases electrons
-  $\text{Metal} \rightarrow \text{Metal}^{++} + 2\text{e}^{-}$
-  - it dissolves and corrodes
-- At the cathode, a metal-metal ion reaction cannot occur
-  - a redox reaction takes place
-  - hydrogen corrosion or oxygen corrosion
----
-
-| Metal    | Potential | Corrosion behavior       |
-|-----------|-----------|-----------------|
-| Gold      | +1.50 V   | noble      |
-| Platinum  | +1.18 V   |       |
-| Silver    | +0.80 V   |       |
-| Copper    | +0.34 V   |       |
-| Hydrogen  | +0.00 V  | neutral  |
-| Tin       | -0.14 V   |   |
-| Iron      | -0.41 V   |   |
-| Zinc      | -0.76 V   |   |
-| Titanium  | -1.75 V   |   |
-| Aluminum  | -1.66 V   | non-noble  |
+## Example from Personal Experience
+- Oil film on water is insoluble, separating due to different densities.
+- Salt or sugar crystals in water dissolve completely and are no longer visible.
 
 ---
 
-## Hydrogen Corrosion
-- only possible in very acidic electrolytes
-- occurs in the presence of water but in the absence of oxygen
->Acid corrosion
+![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
 
 ---
 
-## Oxygen Corrosion
-- free electrons react with water to form hydroxide ions
-$\text{H}_2\text{O} + \frac12\text{O}_2 + 2\text{e}^{-} \rightarrow 2\text{OH}^-$
-$2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \rightarrow 2\text{Fe(OH)}_3$
-- can decompose further
-![bg vertical](../assets/Figures/whitespace.png)
-![bg fit](../assets/Figures/whitespace.png)
-![bg  fit](https://upload.wikimedia.org/wikipedia/commons/9/97/Korrosion.svg)
+## Example of Insolubility
+
+![bg right 100%](../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
 
 ---
 
-## Physical Corrosion
+## Example of Complete Solubility
 
-- Microcracks or dislocations form due to stress, where corrosion can begin
-- Corrosion occurs in combination with a mechanical load (static or dynamic - oscillating)
-
+![bg right 100%](../assets/Figures/Zustandsdiagramm_Kupfer_Nickel.png)
 
 ---
 
-## Types of Corrosion
-- 36 types of corrosion according to [DIN EN ISO 8044](https://cdn.standards.iteh.ai/samples/71134/642505f174ad4feeb2eef113b494d4e4/ISO-8044-2020.pdf)
-
-**Surface Corrosion**
-- large area corrosion
-- easily visible and relatively harmless
-- the coating layer provides corrosion protection
-![bg fit right 80%](https://www.hausjournal.net/wp-content/uploads/Was-ist-Korrosion-720x480.jpg)
+![bg fit](../assets/Figures/binaeresSystem.png)
 
 ---
 
-## Types of Corrosion
-**Pitting Corrosion**
-- often goes unnoticed for a long time
-- can expand in a trough shape in depth
-![bg vertical right 1%](../assets/Figures/whitespace.png)
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/8/84/Pitting_corrosion-scheme.png)
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b3/Corrosion.Pit.jpg)
+## Gibbs Phase Rule
+
+$F = n - P + 2$
+(for gases and liquids)  
+F: Degrees of freedom, n: Number of components, P: Number of phases.
+
+For constant pressure (solids):  
+$F = n - P + 1$
+
+From this, we derive the following for cooling and heating curves in metallic systems:  
+- $F = 0$: A holding point.
+- $F = 1$: A kink point.
 
 ---
 
-## Types of Corrosion
-**Crevice Corrosion**
-- occurs on metal parts in narrow, non-closed crevices like overlaps, applied ridges, and in non-continuously welded seams
-- difficult to detect
-- should be structurally avoided in critical areas
+# Summary
 
-
----
-
-## Types of Corrosion
-**Intergranular Corrosion**
-- also known as grain boundary corrosion
-- occurs at grain boundaries
-- Reminder: Influence of the crystal lattice - aggressive media attack preferential planes
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/28/Intergranular_corrosion.JPG)
+- Phases and phase boundaries can be represented as a phase diagram.
+- The number of phases in equilibrium is systematically related to the number of components involved in the alloy and the degrees of freedom via the Gibbs phase rule.
+- A degree of freedom involves changing state variables without altering equilibrium (e.g., changing temperature or concentration).
+- The number of selectable state variables is determined by the phase rule.
 
 ---
 
-## Other Types of Corrosion
+## Lever Rule
 
-- [Microbial](https://en.wikipedia.org/wiki/Microbial_corrosion) Corrosion
-  - Sewage
-  - Aviation fuel
-  - Fungal infestation
-- Undermining Corrosion
-- High-Temperature Corrosion
-- Stress Corrosion Cracking
-    - the protective layer is breached, leading to corrosion
-- ...
+- At point 2, the melt has a lower nickel content than the $\alpha$-solid solution.
+- The concentration in the solid solution must increase to balance the nickel atom number.
+- Melt and solid solution do not share the same chemical composition.
 
----
+$\frac{m_s}{m_{\alpha}} = \frac{c_{\alpha} - c_L}{c_L - c_S}$
 
-## Corrosion Protection
 
-- Distinguishable between passive and active protection
-- Passive: Separation of metal and electrolyte / corrosive medium
-- Active: Complete separation is not necessary
+![bg right 90%](../assets/Figures/Konstituionelle_abkuehlung.png)
 
 ---
 
-## Corrosion Protection 
+## Calculation Example
 
-- Work in small groups, 10–15 minutes of research
--  group work:
-  - Identify 3 passive methods
-  - Identify 3 active methods 
-- Brief presentation of results (use the board if needed)
-  - Highlight the main takeaways
+Assume concentrations at point 2:  
+$c_S = 20\%$, $c_{\alpha} = 40\%$, $c_L = 25\%$
+
+---
+
+## Solution
+
+$\frac{m_s}{m_{\alpha}} = \frac{c_{\alpha} - c_L}{c_L - c_S} = \frac{40\% - 25\%}{25\% - 20\%} = \frac{15}{5} = 3$
+
+- At point 2, there is three times more melt than solid solution.
+
+---
+
+## Practical Significance
+
+- Copper-nickel alloys have higher strength than pure copper while maintaining good corrosion resistance.
+
+---
+
+# Complete Solubility in Liquid and Partial Solubility in Solid State
+
+- Metal melts of elements A and B dissolve in any ratio (concentration).
+- Solid solutions only form to a certain extent.
+
+---
+
+## When Does This Occur?
+
+- Atomic diameters differ.
+- Crystal lattices of the components vary.
+- Components are chemically distinct.
+
+Components are neither too similar nor too different.  
+Possible phase diagrams:  
+- Eutectic
+- Peritectic
+
+---
+
+![bg 70%](../assets/Figures/Eutektikum.png)
+
+---
+
+## Note
+
+- Solubility gap often called miscibility gap.
+- $\alpha_1$ is a crystal rich in A.
+- $\alpha_2$ is a crystal rich in B.
+
+If the difference grows too large, the solubility gap extends into the melting range, resulting in a eutectic system.  
+- Components are **soluble** in the liquid state.
+- Components are **partially soluble** in the solid state.
+
+---
+
+## Eutectic Reaction
+
+- At a specific concentration, melt $S$ solidifies at constant temperature (eutectic temperature) into fine-grained crystals (eutectic).
+- Eutectic microstructures often have a layered or lamellar appearance.
+- Alloys of other concentrations release the dominant component (A- or B-crystals) before reaching the eutectic point, approaching the eutectic composition.
+- The **eutectic line** forms the solidus of the system.
+
+---
+
+## Eutectic Phase Separation
+
+![](../assets/Figures/eutektischerPunkt.png)
+
+---
+
+_Solubility or saturation lines_:  
+- Boundaries separating single-phase regions ($\alpha$, $\beta$) from regions of crystal mixtures ($\alpha + \beta$).  
+
+**Special case:**  
+Systems forming interstitial solid solutions.  
+The concentration axis ends with the saturation concentration of component B in the lattice of A.  
+Single-phase regions for component B may not exist.
+
+---
+
+## Systems with Peritectic Reactions (Peritectic Separation)
+
+- Characterized by widely differing melting/solidification temperatures.
+- Upon cooling, a solid solution $\alpha$ forms.  
+- Reacts with the melt at constant temperature (peritectic line) to form a second solid solution $\beta$.  
+- In a peritectic reaction, the melt and already separated $\alpha$-crystals form new $\beta$-crystals at constant temperature.
+
+---
+
+![bg fit](https://www.giessereilexikon.com/uploads/tx_d3ency/687-02.png)
+
+---
+
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Peritektikum.svg)
+
+---
+
+# Questions
