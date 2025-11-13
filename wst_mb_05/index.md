@@ -58,7 +58,7 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung Werkstofftechnik - Zustandsdiagramme
+## Vorlesung Werkstofftechnik - Legierungsbildung - Zustandsdiagramme
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
@@ -249,25 +249,6 @@ Beispiel: Cu-Ni erfüllt alle Bedingungen ✓
 ---
 
 
-## Gibbsche Phasenregel
-
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
-F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
-
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
-
-
-
----
-
 ## Hebelgesetz
 
 - In Punkt 2 hat die Schmelze einen kleineren Nickelgehalt als der $\alpha$-MK
@@ -385,6 +366,24 @@ Es können folgende ZSDs auftauchen:
 
 ---
 
+
+
+## Gibbsche Phasenregel
+
+$F = n  - P + 2$
+(für Gase und Flüssigkeiten)
+F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
+
+bei konstantem Druck (feste Stoffe) 	
+        
+$F = n  - P + 1$
+        
+Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
+
+F = 0		ein Haltepunkt und
+F = 1		ein Knickpunkt.
+
+---
 
 ## Gibbsche Phasenregel - Beispiele
 

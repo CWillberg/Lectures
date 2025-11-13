@@ -54,7 +54,7 @@ img[alt="ORCID"] {
 }
 </style>
 
-## Vorlesung Werkstofftechnik - Legierungsbildung
+## Vorlesung Werkstofftechnik - Legierungsbildung - Grundlagen
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
