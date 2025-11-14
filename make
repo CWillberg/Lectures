@@ -4,3 +4,5 @@ marp wst_mb_05/index.md --pdf --allow-local-file s --browser chrome -o wst_mb_05
 marp stream_wst_03/index.md --pdf --allow-local-file s --browser chrome -o stream_wst_03.pdf
 marp stream_wst_04/index.md --pdf --allow-local-file s --browser chrome -o stream_wst_04.pdf
 marp stream_wst_05/index.md --pdf --allow-local-file s --browser chrome -o stream_wst_05.pdf
+
+npx @marp-team/marp-cli@latest wst_mb_05/index.md -o wst_mb_05.pdf
