@@ -366,7 +366,9 @@ Es können folgende ZSDs auftauchen:
 
 ---
 
+![bg](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
 
+---
 
 ## Gibbsche Phasenregel
 
