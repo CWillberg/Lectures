@@ -5,7 +5,7 @@ theme: default
 header: 'Iron-Carbon Diagram'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Lecture Cast Iron and Steel
+title: Lecture Phases and Microstructure in the Iron-Carbon System
 author: Christian Willberg
 ---
 
