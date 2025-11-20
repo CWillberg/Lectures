@@ -477,3 +477,103 @@ $$[\bar{Q}] = \begin{bmatrix}
 **Kopplung:**
 - $\bar{Q}_{16}, \bar{Q}_{26} \neq 0$: Kopplung Normal-Schub
 - Normalspannungen erzeugen Schubverzerrungen und umgekehrt
+
+---
+
+# Rotation
+- Transformation ist nicht mittels der Rotationsmatrix direkt möglich
+- Voigt Matrix hat keine orthonormale Basis
+- 2 Wege
+  - Transformation über den Steifikeitstensor
+  - Transpormation über Spannungen und Dehnungen
+
+
+---
+
+- Nach der Rotation des Dehnungstensors (2x2) wird dann die Voigtform für die Multiplikation genutzt
+
+$\mathbf{\sigma}'= \mathbf{C}\mathbf{R} \mathbf{\varepsilon} \mathbf{R}^T$
+
+$\mathbf{\sigma}=\mathbf{R}^T \mathbf{\sigma}' \mathbf{R}$
+
+-> wird in FEM angewandt
+
+---
+
+## Klassische Laminattheorie
+
+- Einzelschichten ist ideal linear elastisch
+- Das Laminat ist dünn (Dicke $t$ ist klein gegenüber den restlichen Abmessungen)
+- Die Laminatdicke $t$ ist konstant
+- Die Theorie I. Ordnung ist gültig (kleine Verformungen)
+- Die Bernoullische Annahmen sind gültig (ebene Querschnitte, schubstarr in Dickenrichtung)
+- Der Spannungszustand ist aufgrund der Dünnwandigkeit eben $σ_3 = τ_{13} = τ_{23} = 0$
+- Die Schichten sind ideal miteinander verklebt.
+- Das Laminat liegt in der 1 , 2 -Ebene.
+
+---
+
+$\mathbf{Q}=\mathbf{C}_{Voigt}^{2D}$
+
+$\mathbf{\sigma}= \mathbf{Q} \mathbf{\varepsilon}=
+\begin{bmatrix}Q_{11}  & Q_{12} & Q_{16}\\
+Q_{12}  & Q_{22} & Q_{26}\\
+Q_{16}  & Q_{26} & Q_{66}
+\end{bmatrix}\begin{bmatrix}
+\varepsilon_1 \\
+\varepsilon_2 \\
+\gamma_{12}
+\end{bmatrix}$
+
+$\mathbf{Q}^{0°}=\begin{bmatrix}
+\frac{E_1}{1-\nu_{12}\nu_{21}} & \frac{\nu_{21}E_1}{1-\nu_{12}\nu_{21}} & 0 \\
+\frac{\nu_{12}E_2}{1-\nu_{12}\nu_{21}} & \frac{E_2}{1-\nu_{12}\nu_{21}} & 0 \\
+0 & 0 & G_{12}
+\end{bmatrix}$
+
+
+---
+## Rotierte Matrixeinträge nach Schürmann
+![](../assets/Figures/glg922.png)
+
+---
+
+![](../assets/Figures/glg927.png)
+
+---
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/de/8/82/Dehnung-Schiebungs-Kopplung.png)
+
+$A_{ij} = \sum_{k=1}^{N} \hat Q_{ij,k} \cdot t_k$
+
+---
+
+$D_{ij} = \sum_{k=1}^{N} \hat Q_{ij,k} \cdot \left(   \underbrace{\frac {t^3_{k}} {12}}_\text{Biegesteifigkeit}  + t_k \underbrace{ \left( z_k-\frac {t_k} {2} \right)^2}_\text{Steiner Anteil} \right)$
+
+![](https://upload.wikimedia.org/wikipedia/de/b/bc/Biege-Drill-Kopplung.png)
+
+---
+
+$B_{ij} = -\sum_{k=1}^{N} \hat Q_{ij,k} \cdot t_k \cdot \underbrace{  \left(  z_k - \frac{t_{k}}{2}   \right)}_\text{stat. Moment}$
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/b/bb/Dehnung-Kr%C3%BCmmungs-Kopplung.png)
+
+---
+
+
+
+$
+\begin{bmatrix} 
+\mathbf{N}\\
+\mathbf{M}
+\end{bmatrix}=
+\begin{bmatrix}
+\mathbf{A} & \mathbf{B} \\
+\mathbf{B} & \mathbf{D}
+\end{bmatrix}\begin{bmatrix} 
+\boldsymbol{\varepsilon}\\
+\boldsymbol{\kappa}
+\end{bmatrix}$
+
+## Grenzen
+- durch Kirchhoffsche Schalentheorie gegeben (Dünnwandigkeit)
