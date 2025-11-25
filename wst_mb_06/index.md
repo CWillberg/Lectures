@@ -620,25 +620,9 @@ $$Schmelze_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 - gute Kombination aus Festigkeit und Zähigkeit
 - besser als Perlit, zäher als Martensit
 
-**Bildung**: isotherme Umwandlung im ZTU-Diagramm
 
 ![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/00/522OB80Si10_450.jpg)
 
----
-
-## Zeit-Temperatur-Umwandlungsdiagramm (ZTU)
-
-**Zweck**: 
-- Vorhersage der Gefügebildung bei verschiedenen Abkühlgeschwindigkeiten
-- wichtig für Wärmebehandlung
-
-**Bestandteile**:
-- Perlitstufe (oben)
-- Bainitstufe (Mitte)
-- Martensitbildung (unten)
-- Ms- und Mf-Linien
-
-**Anwendung**: Festlegung von Abkühlraten für gewünschtes Gefüge
 
 ---
 
@@ -658,72 +642,6 @@ $$Schmelze_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 
 ---
 
-# Praktische Anwendung: Ablesen im EKD
-
----
-
-## Beispiel 1: Stahl mit 0.4% C
-
-**Aufgabe**: Welche Phasen und Gefüge liegen bei 900°C und bei 20°C vor?
-
-**Bei 900°C** (oberhalb A3):
-- rein austenitisch (γ-MK)
-
-**Bei 20°C** (langsame Abkühlung):
-- untereutektoid (< 0.8% C)
-- Gefüge: Ferrit + Perlit
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
-
----
-
-## Beispiel 1 - Mengenanteile berechnen
-
-**Ferrit-Anteil** bei 723°C (Hebelgesetz):
-$$w_\alpha = \frac{0.8 - 0.4}{0.8 - 0.02} = \frac{0.4}{0.78} \approx 51\%$$
-
-**Perlit-Anteil**:
-$$w_{Perlit} = 100\% - 51\% = 49\%$$
-
-**Interpretation**: Fast gleiches Verhältnis Ferrit/Perlit
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
-
----
-
-## Beispiel 2: Stahl mit 1.2% C
-
-**Aufgabe**: Welche Phasen und Gefüge bei Raumtemperatur?
-
-**Analyse**:
-- übereutektoid (> 0.8% C)
-- oberhalb von 723°C: Austenit + Sekundärzementit
-- unterhalb von 723°C: Perlit + Sekundärzementit
-
-**Sekundärzementit-Anteil** (bei 723°C):
-$$w_{Fe_3C} = \frac{1.2 - 0.8}{6.67 - 0.8} = \frac{0.4}{5.87} \approx 6.8\%$$
-
-**Perlit-Anteil**:
-$$w_{Perlit} = 100\% - 6.8\% = 93.2\%$$
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
-
----
-
-## Übungsaufgabe: Gusseisen mit 3.5% C
-
-**Aufgabe**: 
-1. Welche Phase liegt bei 1200°C vor?
-2. Welche Gefügebestandteile entstehen bei langsamer Abkühlung auf RT?
-3. Ist es unter- oder übereutektisch?
-
-**Lösung**: 
-- selbst erarbeiten mit dem EKD
-- Tipp: Punkt C liegt bei 4.3% C
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
-
----
 
 # Eisen-Kohlenstoff-Legierungsbezeichnungen
 
@@ -739,38 +657,6 @@ $$w_{Perlit} = 100\% - 6.8\% = 93.2\%$$
 ---
 
 ![bg fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
-
----
-
-# Wärmebehandlung von Stahl
-
----
-
-## Grundprinzip der Wärmebehandlung
-
-**Ziel**: Gezielte Veränderung der Werkstoffeigenschaften
-
-**Grundschritte**:
-1. Erwärmen (meist über A₃ oder A₁)
-2. Halten bei Zieltemperatur (Homogenisierung)
-3. Abkühlen (kontrollierte Geschwindigkeit)
-
-**Wichtige Parameter**:
-- Austenitisierungstemperatur
-- Haltezeit
-- Abkühlmedium (Luft, Öl, Wasser)
-
----
-
-## Übersicht Wärmebehandlungsverfahren
-
-| Verfahren | Erwärmung | Abkühlung | Ziel |
-|-----------|-----------|-----------|------|
-| Glühen | über A₁/A₃ | langsam (Ofen) | weich, gut formbar |
-| Härten | über A₃ | schnell (Wasser/Öl) | hart, verschleißfest |
-| Anlassen | 150-650°C | Luft | Zähigkeit erhöhen |
-| Vergüten | Härten + Anlassen | kombiniert | Festigkeit + Zähigkeit |
-| Normalisieren | über A₃ | Luft | Gefügeverbesserung |
 
 ---
 
