@@ -412,6 +412,9 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 ![bg right fit](https://upload.wikimedia.org/wikipedia/de/c/c8/Perlit.png)
 
 ---
+![bg fit](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
+
+---
 
 - lamellenartiger Aufbau (Schichten von $\alpha$-Mk und Fe$_3$C-Kristallen) .
 - häufig spricht man von einer "Perlitstufe", die - gemessen am Lamellenabstand - in Perlit, fein-streifigen  und feinststreifigen Perlit unterteilt wird. 
@@ -468,6 +471,12 @@ $$\gamma_{0.8\%C} \rightarrow \alpha_{0.02\%C} + Fe_3C_{6.67\%C}$$
   -  Der Perlit entsteht durch den eutektoiden Zerfall des Austenits aus dem Ledeburit I bei 723 °C. 
 
 ---
+
+![bg fit](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
+
+---
+
+
 
 - bei schnellerer Abkühlung kann anstelle des Perlit auch Bainit bzw. bei sehr schneller Abkühlung Martensit vorliegen. 
 - Ledeburit ist schlecht umformbar, hat sehr geringe Duktilität. 
@@ -840,11 +849,9 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphit}$$
 - schwer zerspanbar
 
 **Graues Gusseisen**:
-- langsame Abkühlung
-- Si-Zusatz (> 2%)
+- langsame Abkühlung + Si-Zusatz (> 2%)
 - Kohlenstoff als Graphit
-- gut zerspanbar
-- gute Dämpfung
+- gut zerspanbar; gute Dämpfung
 
 ---
 
@@ -936,7 +943,7 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphit}$$
 - 400 = Mindestzugfestigkeit in MPa
 - 18 = Mindestbruchdehnung in %
 
-**Anwendungen**: Kurbelwellen, Turbinenräder, Windkraftanlagen
+**Anwendungen**: Kurbelwellen, Turbinenräder
 
 ---
 
@@ -1083,11 +1090,10 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphit-Flocken}$$
 - Kosten niedrig halten
 
 **Stahl wählen**, wenn:
-- hohe Zugfestigkeit erforderlich
-- Schweißbarkeit wichtig
-- plastische Verformung erwünscht
-- hohe Zähigkeit bei Stoßbelastung
-- gute Umformbarkeit benötigt
+- hohe Zugfestigkeit und Zähigkeit
+- Schweißbarkeit wichtig; 
+- gute Umformbarkeit benötigt;  plastische Verformung erwünscht
+
 
 ---
 
@@ -1137,8 +1143,4 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphit-Flocken}$$
 
 Kontakt: christian.willberg@h2.de
 
-**Nächste Vorlesung**: 
-Legierungsstähle und deren Wärmebehandlung
 
-**Übungen**: 
-Moodle - Aufgaben zum EKD und Gefügebestimmung
