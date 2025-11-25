@@ -269,6 +269,8 @@ Die Prozesskette beim Gießen besteht aus
 4. Metall eingießen
 5. Schale zerstören
 
+---
+
 **Vorteile:**
 - Höchste Genauigkeit
 - Komplexeste Geometrien
@@ -285,6 +287,11 @@ Die Prozesskette beim Gießen besteht aus
 ## Lunker
 - Übergang vom flüssigen zum festen Zustand führt oft zum Schrumpfen → Phasenänderungen 
 - es entstehen Zwischenräume - Lunker
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/7/71/Lutetium_1cm3_cube.jpg)
+
+---
+
 - **Arten:**
   - Primärlunker (offene Hohlräume)
   - Sekundärlunker (innere Hohlräume)
@@ -302,6 +309,10 @@ Die Prozesskette beim Gießen besteht aus
 2. **Transkristallisationszone mit stängelförmigen, sehr groben Kristalliten**
    - Gerichtetes Wachstum
    - Längliche Kristalle
+
+![bg right 80%](../assets/Figures/Kokille.png)
+
+---
 
 3. **Globulare Kernzone**
    - Langsame Abkühlung
@@ -353,6 +364,8 @@ Die Prozesskette beim Gießen besteht aus
 - Neigung zu Gasaufnahme
 - Oxidationsneigung
 
+---
+
 **Gut gießbar:**
 - Gusseisen (niedrige Schmelztemperatur, gutes Fließvermögen)
 - Al-Legierungen
@@ -387,6 +400,8 @@ Es wird unterschieden zwischen:
   - Die Bruchflächen erscheinen grau
   - Verschiedene Graphitformen möglich
 
+---
+
 - **Weißem Gusseisen**: Kohlenstoff als Carbid in Form von Zementit (Fe₃C) vorkommt
   - Die Bruchflächen sind weiß
   - Sehr hart und spröde
@@ -407,6 +422,8 @@ Es wird unterschieden zwischen:
 - Spröder
 - Bessere Dämpfung
 - Bessere Gießbarkeit
+
+---
 
 **Stahl:**
 - Dichte: 7.85 g/cm³
@@ -513,40 +530,7 @@ Es wird unterschieden zwischen:
 
 ---
 
-## Gusseisen mit Vermiculargraphit (GJV)
 
-**Mikrostruktur:**
-- Graphit in wurmförmiger (vermicularer) Form
-- Zwischenform zwischen Lamellen- und Kugelgraphit
-- Schwierige Herstellung (enge Toleranzen)
-
-**Eigenschaften - Vorteile gegenüber GJL:**
-- Höhere Festigkeit und Bruchdehnung
-- Höhere Bruchzähigkeit
-- Geringere Wanddickenabhängigkeit
-
-![bg right 80%](https://www.giessereilexikon.com/uploads/tx_d3ency/190-07.png)
-
----
-
-## GJV - Vorteile gegenüber GJS
-
-**Thermische Eigenschaften:**
-- Niedrigerer thermischer Ausdehnungskoeffizient
-- Höhere Wärmeleitfähigkeit
-- Niedrigerer E-Modul
-- Geringeres thermisch induziertes Eigenspannungsniveau
-- Bessere Temperaturwechselbeständigkeit
-
-**Fertigungstechnisch:**
-- Besseres Dämpfungsvermögen
-- Bessere gießtechnische Eigenschaften
-- Geringere Lunkerneigung
-- Besseres Formfüllungs- und Fließvermögen
-
-**Anwendung:** Motorblöcke (Diesel), Zylinderköpfe
-
----
 
 ## Urformen aus dem plastischen Zustand
 
@@ -596,6 +580,8 @@ Es wird unterschieden zwischen:
 - Profile (Fensterrahmen, Rohre)
 - Folien und Platten
 - Kabel und Schläuche
+
+---
 
 **Werkstoffe:**
 - Kunststoffe (Thermoplaste)
@@ -648,6 +634,8 @@ Es wird unterschieden zwischen:
 - CAD-Daten werden direkt umgesetzt
 - Keine Werkzeuge erforderlich
 
+---
+
 **Vorteile:**
 - Geometrische Freiheit
 - Schnelle Prototypenfertigung
@@ -680,11 +668,12 @@ Es wird unterschieden zwischen:
 - Dichte Bauteile (> 99%)
 
 **Werkstoffe:**
-- Edelstähle
+- Edelstähle, Werkzeugstähle
 - Titan-Legierungen
 - Aluminium-Legierungen
 - Nickel-Legierungen
-- Werkzeugstähle
+
+---
 
 **Anwendungen:**
 - Luft- und Raumfahrt
@@ -727,6 +716,8 @@ Es wird unterschieden zwischen:
 - Nylon (sehr fest)
 - Spezialfilamente (mit Fasern verstärkt)
 
+---
+
 **Vorteile:**
 - Kostengünstig
 - Einfache Handhabung
@@ -766,6 +757,8 @@ Es wird unterschieden zwischen:
 - Hohe Aufbaurate
 - Niedrige Materialkosten
 - Flexible Materialwahl
+
+---
 
 **Anwendungen:**
 - Großstrukturen (Schiffbau, Aerospace)
@@ -816,6 +809,8 @@ Es wird unterschieden zwischen:
 - Porosität (bei Metallverfahren)
 - Supportstrukturen erforderlich
 
+---
+
 **Prozessbedingt:**
 - Lange Bauzeiten für große Bauteile
 - Qualitätssicherung komplex
@@ -854,6 +849,8 @@ Es wird unterschieden zwischen:
 - Chirurgische Planungsmodelle
 - Zahnersatz
 
+---
+
 **Automobilbau:**
 - Prototypen
 - Werkzeuge und Vorrichtungen
@@ -873,6 +870,8 @@ Es wird unterschieden zwischen:
 - Beste Eigenschaften beider Verfahren
 - Wirtschaftlichkeit
 - Materialeffizienz
+
+---
 
 **Anwendungen:**
 - Turbinenschaufel-Reparatur
@@ -910,6 +909,8 @@ Es wird unterschieden zwischen:
 - Härteprüfung
 - Metallographie
 
+---
+
 **Prozessüberwachung:**
 - Temperaturkontrolle
 - Druckmessung
@@ -931,10 +932,6 @@ Es wird unterschieden zwischen:
 - Kosteneinsparung
 - Qualitätsverbesserung
 
-**Software-Beispiele:**
-- MAGMASOFT
-- ProCAST
-- Flow-3D
 
 ---
 
@@ -949,19 +946,6 @@ Es wird unterschieden zwischen:
 6. Additive Fertigung: Revolution für komplexe Geometrien
 7. Wirtschaftlichkeit stark stückzahlabhängig
 8. Simulation zur Prozessoptimierung essentiell
-
----
-
-## Ausblick
-
-**Trends in der Urformtechnik:**
-- Digitalisierung und Industrie 4.0
-- Künstliche Intelligenz für Prozessoptimierung
-- Hybride Fertigungsverfahren
-- Nachhaltige Produktion (Recycling, Energieeffizienz)
-- Neue Werkstoffe (Hochentropielegierungen, MMCs)
-- Multi-Material-Additive-Fertigung
-- In-situ Qualitätsüberwachung
 
 ---
 
