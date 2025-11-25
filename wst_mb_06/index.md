@@ -1134,7 +1134,6 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphit-Flocken}$$
 - GJS: duktil, hochfest, vielseitig
 - GJV: Kompromiss, Spezialanwendungen
 
-
 ---
 
 ## Vielen Dank für Ihre Aufmerksamkeit!
