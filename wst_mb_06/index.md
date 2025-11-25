@@ -5,7 +5,7 @@ theme: default
 header: 'Eisen-Kohlenstoff-Diagramm'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Vorlesung Gusseisen und Stahl
+title: Eisen-Kohlenstoff Diagramm
 author: Christian Willberg
 ---
 
