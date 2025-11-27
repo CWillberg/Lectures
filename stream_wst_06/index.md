@@ -675,19 +675,6 @@ $$Melt_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 
 ![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
----
-
-## Example 1 - Calculate Phase Fractions
-
-**Ferrite fraction** at 723°C (lever rule):
-$$w_\alpha = \frac{0.8 - 0.4}{0.8 - 0.02} = \frac{0.4}{0.78} \approx 51\%$$
-
-**Pearlite fraction**:
-$$w_{Pearlite} = 100\% - 51\% = 49\%$$
-
-**Interpretation**: Nearly equal ratio of ferrite/pearlite
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -700,6 +687,12 @@ $$w_{Pearlite} = 100\% - 51\% = 49\%$$
 - above 723°C: Austenite + secondary cementite
 - below 723°C: Pearlite + secondary cementite
 
+![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+
+---
+**Applying the leaver rule**
+
 **Secondary cementite fraction** (at 723°C):
 $$w_{Fe_3C} = \frac{1.2 - 0.8}{6.67 - 0.8} = \frac{0.4}{5.87} \approx 6.8\%$$
 
@@ -708,20 +701,7 @@ $$w_{Pearlite} = 100\% - 6.8\% = 93.2\%$$
 
 ![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
----
 
-## Exercise: Cast Iron with 3.5% C
-
-**Task**: 
-1. Which phase is present at 1200°C?
-2. Which microstructural constituents form during slow cooling to RT?
-3. Is it hypo- or hypereutectic?
-
-**Solution**: 
-- work out yourself with the ICD
-- Hint: Point C is at 4.3% C
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -741,39 +721,6 @@ $$w_{Pearlite} = 100\% - 6.8\% = 93.2\%$$
 ![bg fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
 
 ---
-
-# Heat Treatment of Steel
-
----
-
-## Basic Principle of Heat Treatment
-
-**Goal**: Targeted modification of material properties
-
-**Basic steps**:
-1. Heating (usually above A₃ or A₁)
-2. Holding at target temperature (homogenization)
-3. Cooling (controlled rate)
-
-**Important parameters**:
-- Austenitizing temperature
-- Holding time
-- Cooling medium (air, oil, water)
-
----
-
-## Overview of Heat Treatment Processes
-
-| Process | Heating | Cooling | Goal |
-|-----------|-----------|-----------|------|
-| Annealing | above A₁/A₃ | slow (furnace) | soft, formable |
-| Hardening | above A₃ | fast (water/oil) | hard, wear-resistant |
-| Tempering | 150-650°C | air | increase toughness |
-| Quenching & Tempering | Hardening + Tempering | combined | strength + toughness |
-| Normalizing | above A₃ | air | microstructure improvement |
-
----
-
 
 # Steel
 
@@ -947,15 +894,13 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphite}$$
 ## White vs. Gray Cast Iron
 
 **White Cast Iron**:
-- rapid cooling
-- little/no Si
+- rapid cooling and little/no Si
 - Carbon as Fe₃C
 - very hard and brittle
 - difficult to machine
 
 **Gray Cast Iron**:
-- slow cooling
-- Si addition (> 2%)
+- slow cooling and Si addition (> 2%)
 - Carbon as graphite
 - easily machinable
 - good damping
@@ -1068,86 +1013,6 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphite}$$
 
 ---
 
-## Cast Iron with [Vermicular Graphite](https://www.giessereilexikon.com/giesserei-lexikon/Encyclopedia/show/gusseisen-mit-vermiculargrafit-190/?cHash=57ba0f0209983c2de8ccc8e299b07616) (GJV)
-![bg right 80%](https://www.giessereilexikon.com/uploads/tx_d3ency/190-07.png)
-- Properties between cast iron with lamellar graphite and cast iron with spheroidal graphite
-- Production is more difficult and requires melt treatment within tight tolerances
-
----
-
-- higher strength, elongation and fracture toughness
-- lower wall thickness dependence of properties
-Cast iron with vermicular graphite is characterized by the following properties compared to cast iron with lamellar graphite:
-
-- higher strength and elongation
-- higher fracture toughness
-- lower wall thickness dependence of properties
-
----
-
-Compared to cast iron with spheroidal graphite, cast iron with vermicular graphite offers the following advantages:
-
-- lower thermal expansion coefficient
-- higher thermal conductivity
-- lower Young's modulus
-- lower thermally induced residual stress level
-- better thermal shock resistance and lower distortion tendency due to the aforementioned properties
-- better damping capacity
-- better casting properties (lower shrinkage tendency, better mold filling and flow properties)
-
----
-
-## GJV - Application Example
-
-**Main application**: Engine blocks for diesel engines
-
-**Advantages over GJL**:
-- higher strength → thinner wall thicknesses
-- better thermal conductivity → lower temperature gradients
-- better thermal shock resistance
-
-**Advantages over GJS**:
-- higher thermal conductivity
-- lower Young's modulus → lower thermal stresses
-
-**Example**: Volkswagen V6-TDI engine block
-
----
-
-## Malleable Cast Iron
-
-**Starting material**: white cast iron (Fe₃C)
-
-**Process**: Annealing treatment at 900-1000°C
-$$Fe_3C \rightarrow 3Fe + C_{Graphite\ flakes}$$
-
-**Types**:
-1. Blackheart malleable iron (GTS): annealing in neutral atmosphere
-2. Whiteheart malleable iron (GTW): annealing in oxidizing atmosphere (decarburized)
-
-**Properties**: good toughness, easily machinable
-
-**Application**: Fittings, hardware, pipe connections
-
----
-
-## Chilled Cast Iron
-
-**Definition**: Cast iron with deliberately hardened regions
-
-**Production**:
-- local rapid cooling (chill mold)
-- → white microstructure (ledeburite) in surface region
-- → gray microstructure (graphite) in core
-
-**Properties**:
-- very wear-resistant surface (up to 600 HB)
-- tough core
-
-**Applications**: Crusher jaws, grinding balls, rolls
-
----
-
 ## Comparison of Cast Iron and Steel 
 
 [Qualitative reading](https://capablemachining.com/de/Blog/Stahl-vs.-Gusseisen-ein-umfassender-Vergleich/)
@@ -1197,11 +1062,10 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphite\ flakes}$$
 - keeping costs low
 
 **Choose steel** when:
-- high tensile strength required
+- high tensile strength and toughness required
 - weldability important
 - plastic deformation desired
-- high toughness under impact loading
-- good formability needed
+
 
 ---
 
@@ -1250,9 +1114,3 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphite\ flakes}$$
 **Questions?**
 
 Contact: christian.willberg@h2.de
-
-**Next Lecture**: 
-Alloy steels and their heat treatment
-
-**Exercises**: 
-Moodle - ICD and microstructure determination tasks
