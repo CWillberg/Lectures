@@ -110,6 +110,18 @@ Nach dieser Vorlesung können Sie:
 
 ---
 
+
+# Hauptgruppen nach DIN 8580
+
+- Urformen (Formgebung, Zusammenhalt schaffen)
+- Umformen (Formänderung ohne Materialabtrag, Zusammenhalt beibehalten)
+- Trennen (Formänderung durch Zerteilen oder Materialabtrag, Zusammenhalt vermindern)
+- Fügen (Verbinden von Werkstücken, Zusammenhalt vermehren)
+- Beschichten (Auftrag dünner Schichten)
+- **Stoffeigenschaften ändern (z. B. durch Beeinflussung der Kristallstruktur)**
+
+---
+
 ## Grundprinzip der Wärmebehandlung
 ```mermaid
 graph LR
@@ -159,6 +171,70 @@ graph LR
 - Ermöglicht Leichtbau durch höhere Festigkeiten
 
 **Beispiel**: Ein vergütetes Zahnrad ist 3-5× belastbarer als ein unbehandeltes!
+
+---
+# Eigenspannungen
+## Definition und Entstehung
+- **Eigenspannungen**: Spannungen ohne äußere Belastung
+- Selbstausgleichende Spannungszustände im Material
+- **Ursachen**:
+  - Thermische Prozesse (Schweißen, Härten, ungleichmäßige Abkühlung)
+  - Mechanische Bearbeitung (Umformen, Schleifen, Walzen)
+  - Phasenumwandlungen (z.B. Martensitbildung mit Volumenänderung)
+  - Plastische Verformung mit Gradienten
+
+---
+
+
+## Auswirkungen
+- **Positiv**: Druckeigenspannungen erhöhen Ermüdungsfestigkeit
+- **Negativ**: Zugeigenspannungen fördern Rissbildung und -wachstum
+- Beeinflussen Verzug, Maßhaltigkeit und Korrosionsverhalten
+
+## Klassifizierung nach Reichweite
+- **1. Art**: Über mehrere Körner (makroskopisch)
+- **2. Art**: Über ein Korn (zwischen Phasen/Körnern)
+- **3. Art**: Über wenige Atomabstände (mikroskopisch)
+
+---
+# Verfestigungen
+
+## Grundprinzip
+- Verfestigung = Behinderung der Versetzungsbewegung
+- Höhere Festigkeit durch Erhöhung der kritischen Schubspannung
+- Verschiedene Mechanismen wirken gleichzeitig
+
+---
+
+# Hauptverfestigungsmechanismen (1)
+
+**Kaltverfestigung**
+- Vermehrung von Versetzungen durch plastische Verformung
+- Versetzungen behindern sich gegenseitig
+- Erhöht Festigkeit, reduziert Duktilität
+
+**Mischkristallverfestigung**
+- Fremdatome (C, Mn, Si) verzerren das Gitter
+- Gitterverzerrungen als Hindernisse für Versetzungen
+- Zwischengitter- oder Substitutionsplätze
+
+---
+
+# Hauptverfestigungsmechanismen (2)
+
+**Korngrenzenverfestigung (Hall-Petch)**
+- Korngrenzen als Versetzungsbarrieren
+- Feineres Korn → höhere Festigkeit + Zähigkeit
+- Einziger Mechanismus, der beides verbessert
+
+**Ausscheidungshärtung**
+- Kleine Teilchen (Karbide, Nitride) als Hindernisse
+- Versetzungen müssen schneiden oder umgehen
+
+**Martensitische Härtung**
+- Übersättigte, verspannte Gitterstruktur
+- Sehr hohe Festigkeit durch Kohlenstoff-Zwangslösung
+
 
 ---
 
@@ -283,9 +359,10 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 **Wann notwendig?**
 - vor weiterer Umformung
 - wenn Duktilität wichtig ist
-- bei zu stark verfestigten Bauteilen
+- zu stark verfestigte Bauteile
 
 ![bg fit right](../assets/Figures/EKD_farbe.png)
+
 
 ---
 
@@ -308,14 +385,34 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 
 **Ablauf in 3 Schritten**:
 
-1. **Erholung**: Abbau von Versetzungen
-2. **Rekristallisation**: Bildung neuer, unverformter Körner
-3. **Kornwachstum**: Wachstum der neuen Körner
+1. **Erholung**: Versetzungsabbau, Neuanordnung zu energieärmeren Konfigurationen
+2. **Rekristallisation**: Keimbildung neuer Körner, Wachstum auf Kosten verformter Bereiche
+3. **Kornwachstum**: Vergrößerung der neuen Körner
 
 **Ergebnis**:
 - weiches, gut verformbares Gefüge
 - verformungsfreie Körner
 - Abbau von Eigenspannungen
+
+---
+
+## Mechanismus der Festkörper-Rekristallisation
+
+## Wie funktioniert Neuanordnung ohne Schmelze?
+- **Diffusion im festen Zustand** ermöglicht Atombewegung
+- Erhöhte Temperatur (0,4-0,6 × Schmelztemperatur) aktiviert Diffusion
+- Treibende Kraft: **Energieunterschied** zwischen verformtem und unverformtem Material
+
+---
+
+## Keimbildung und Wachstum
+- Keime entstehen bevorzugt:
+  - An Korngrenzen der alten Körner
+  - An Bereichen mit hoher Versetzungsdichte
+  - An Zwillingsgrenzen oder Subkorngrenzen
+- Neue Körner wachsen durch Wanderung der Korngrenzen
+- Korngrenze verschiebt sich in Richtung des höher verformten Materials
+-  neue Körner können innerhalb alter Körner entstehen (besonders bei starker lokaler Verformung)
 
 ---
 
@@ -381,6 +478,21 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 
 ---
 
+
+## Umwandlungsprozess
+- Lamellarer Perlit ist **nicht thermodynamisch stabil**
+- Hohe Grenzflächenenergie zwischen vielen Ferrit/Zementit-Lamellen
+- **Diffusion von Kohlenstoff** bei erhöhter Temperatur
+- Zementit-Lamellen "kugeln ein" → **Kugeliger Zementit (Globulit)**
+- Ferrit bildet kontinuierliche Matrix
+
+## Ergebnis
+- Minimale Grenzfläche (Kugel hat kleinstes Oberfläche/Volumen-Verhältnis)
+- Deutlich weicher und besser zerspanbar
+- **Keine Phasenumwandlung** - bleiben in α+Fe₃C, nur Morphologie ändert sich!
+
+---
+
 ## Normalglühen
 
 **Ziel**:
@@ -430,6 +542,34 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - feines, gleichmäßiges Gefüge
 - verbesserte mechanische Eigenschaften
 - häufig eingesetztes Standardverfahren
+
+---
+
+## Rekristallisationsglühen vs. Normalglühen
+
+## Rekristallisationsglühen
+- **Temperatur**: Unterhalb A1 (~723°C), typisch 550-650°C
+- **Ausgangszustand**: Kaltverformtes Material (viele Versetzungen)
+- **Mechanismus**: Festkörperdiffusion im Ferrit/bestehenden Phasen
+- **Triebkraft**: Verformungsenergie (Versetzungen)
+- **Ergebnis**: Neue, versetzungsarme Körner in gleicher Phase
+- **Ziel**: Beseitigung der Kaltverfestigung
+
+---
+
+## Rekristallisationsglühen vs. Normalglühen
+
+## Normalglühen
+- **Temperatur**: Oberhalb A3 (~900°C), im Austenitgebiet
+- **Ausgangszustand**: Beliebig (verformt oder unverformt)
+- **Mechanismus**: Phasenumwandlung α-Ferrit → γ-Austenit → α-Ferrit
+- **Triebkraft**: Thermodynamisches Gleichgewicht der Phasen
+- **Ergebnis**: Komplett neue Kornstruktur durch Umklappung
+- **Ziel**: Homogenes, feinkörniges Gefüge, Spannungsabbau
+
+**Hauptunterschied**
+**Rekristallisation** = Neubildung in bestehender Phase
+**Normalglühen** = Neubildung durch Phasenumwandlung
 
 ---
 
@@ -526,23 +666,6 @@ $$x \approx \sqrt{D \cdot t}$$
 
 ---
 
-## Praktisches Beispiel: Schmiedestück
-
-**Ausgangszustand nach Schmieden**:
-- inhomogenes Gefüge
-- Grobkorn
-- Eigenspannungen
-- schlechte Zerspanbarkeit
-
-**Wärmebehandlung**: Normalglühen
-- 880°C, 30 min, Luftabkühlung
-
-**Resultat**:
-- feines, gleichmäßiges Gefüge
-- verbesserte Eigenschaften und bereit für weitere Bearbeitung
-
-
----
 
 # Zeit-Temperatur-Umwandlungs-Diagramme (ZTU)
 
@@ -1000,7 +1123,7 @@ Härten + Anlassen bei hohen Temperaturen (550-650°C)
 
 ## Induktionshärten
 
-**Prinzip**:
+[**Prinzip**](https://www.youtube.com/watch?v=ew48WuuQIVg):
 - hochfrequenter Wechselstrom in Induktor
 - induzierte Wirbelströme erwärmen Oberfläche
 - Eindringtiefe abhängig von Frequenz
