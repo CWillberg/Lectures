@@ -413,6 +413,9 @@ precipitation from ferrite (line PQ)
 ![bg right fit](https://upload.wikimedia.org/wikipedia/de/c/c8/Perlit.png)
 
 ---
+![bg  100%](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
+
+---
 
 - lamellar structure (layers of $\alpha$-solid solution and Fe$_3$C-crystals)
 - often referred to as "pearlite stage", which - measured by lamellar spacing - is divided into pearlite, fine-striped and very fine-striped pearlite
@@ -474,6 +477,10 @@ $$\gamma_{0.8\%C} \rightarrow \alpha_{0.02\%C} + Fe_3C_{6.67\%C}$$
 - at room temperature fine mixture of Fe$_3$C-crystallites and pearlite regions visible in reflected light microscope as characteristic panther skin structure
 
 ![bg right](../assets/Figures/ledeburit_gefuege.png)
+
+---
+
+![bg 100%](https://www.tec-science.com/wp-content/uploads/2021/02/de-eisen-kohlenstoff-diagramm-anteile-vollstaendig.jpg)
 
 ---
 
