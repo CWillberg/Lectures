@@ -785,47 +785,19 @@ Minimale Abkühlrate für vollständige Martensitbildung
 
 ---
 
-## Einfluss von Legierungselementen auf ZTU
-
-**Legierungselemente verschieben Kurven nach rechts**:
-
-- **Cr, Mo, Mn**: starker Einfluss
-  - → langsamer abkühlen möglich
-  - → größere Querschnitte härtbar
-
-- **Ni**: mäßiger Einfluss
-  - → verbessert Zähigkeit
-
-**Praktisch**: 
-- unlegiert: nur in Wasser härtbar
-- legiert: in Öl oder Luft härtbar
-
----
-
-## Praxisbeispiel: ZTU-Diagramm anwenden
-
-**Aufgabe**: C45-Stahl härten (Ø 20 mm)
-
-**Vorgehen**:
-1. ZTU-K-Diagramm für C45 holen
-2. Abkühlkurve für Ø 20 mm in Öl suchen
-3. Prüfen: Schneidet sie Perlitstufe?
-4. Erwartetes Gefüge ablesen
-5. Härte am Kurvenende ablesen
-
-**Ergebnis** (typisch): 
-- Gefüge: 80% Martensit, 20% Bainit
-- Härte: ca. 550 HV
-
----
 
 # Härteverfahren
 
 ---
 
+[Härte](https://de.wikipedia.org/wiki/H%C3%A4rte) ist der mechanische Widerstand, den ein Werkstoff der mechanischen Eindringung eines anderen Körpers entgegensetzt
+
+HV - Vickers Härte
+
+---
+
 ## Härten - Grundprinzip
 
-**Definition**: 
 Schnelles Abkühlen von Austenitisierungstemperatur zur Bildung von Martensit
 
 **Voraussetzungen**:
@@ -988,7 +960,7 @@ Schnelles Abkühlen von Austenitisierungstemperatur zur Bildung von Martensit
 
 ## Anlassen
 
-**Zweck**:
+
 - Reduzierung der Sprödigkeit von Martensit
 - Abbau von Eigenspannungen
 - Einstellung gewünschter Zähigkeit
@@ -1113,6 +1085,10 @@ Härten + Anlassen bei hohen Temperaturen (550-650°C)
 - geringe Investitionskosten
 - für große Bauteile geeignet
 
+![bg right 55% fit](http://wiki.arnold-horsch.de/images/3/36/Flamm-1.png)
+
+---
+
 **Nachteile**:
 - schwer automatisierbar
 - ungleichmäßige Erwärmung möglich
@@ -1170,6 +1146,8 @@ Härten + Anlassen bei hohen Temperaturen (550-650°C)
 - geringe Verzüge
 - komplexe Geometrien möglich
 - kein Abschreckmedium nötig
+
+---
 
 **Nachteile**:
 - hohe Investitionskosten
@@ -1300,6 +1278,8 @@ $$x = k \cdot \sqrt{t}$$
 - Gefüge: Martensit + Bainit
 - Härte nimmt ab
 
+---
+
 **Kern**:
 - 0.15% C
 - Gefüge: Ferrit + Perlit
@@ -1386,22 +1366,6 @@ $$x = k \cdot \sqrt{t}$$
 | Nitrocarburieren | 550-580 | 0.5-4 h | 0.1-0.3 | 600-900 | minimal |
 | Carbonitrieren | 820-880 | 2-6 h | 0.1-0.8 | 700-900 | mittel |
 
----
-
-## Auswahl des Verfahrens
-
-**Einsatzhärten**, wenn:
-- große Einhärtetiefe erforderlich (> 1 mm)
-- hohe Kern- und Randfestigkeit
-- niedrig legierte Stähle verfügbar
-- Verzug akzeptabel
-
-**Nitrieren**, wenn:
-- maximale Härte gefordert
-- kein Verzug tolerierbar
-- Endmaße müssen bleiben
-- Warmfestigkeit wichtig
-- Budget vorhanden
 
 ---
 
@@ -1420,7 +1384,7 @@ $$x = k \cdot \sqrt{t}$$
 
 ---
 
-## Härterei-Fehler und Vermeidung
+## Fehler und Vermeidung
 
 **Härteverzug**:
 - Ursache: ungleichmäßige Erwärmung/Abkühlung
@@ -1446,26 +1410,6 @@ $$x = k \cdot \sqrt{t}$$
 4. **Sofort anlassen**: nach Härten (< 1 h)
 5. **Konstruktion**: scharfe Kanten, Bohrungen vermeiden
 6. **Warmbad**: isothermes Abschrecken
-
----
-
-## Qualitätskontrolle in der Härterei
-
-**Prüfungen**:
-
-1. **Härteprüfung**:
-   - Vickers, Rockwell
-   - Härteverlauf (Härteprofil)
-
-2. **Gefügeuntersuchung**:
-   - Metallographie
-   - Martensitanteil, Restaustenit
-
-3. **Einhärtetiefe**:
-   - Schliff + Härtemessung
-
-4. **Verzug**:
-   - Vermessung vor/nach
 
 ---
 
