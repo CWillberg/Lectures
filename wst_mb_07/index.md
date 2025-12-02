@@ -84,9 +84,7 @@ Nach dieser Vorlesung können Sie:
 - die wichtigsten Wärmebehandlungsverfahren benennen und erklären
 - Glüh- und Härteverfahren unterscheiden
 - ZTU-Diagramme lesen und interpretieren
-- geeignete Verfahren für bestimmte Anwendungen auswählen
-- die Auswirkungen auf Gefüge und Eigenschaften vorhersagen
-- praktische Wärmebehandlungsprozesse planen
+
 
 ---
 
