@@ -12,10 +12,6 @@ author: Christian Willberg
 
 
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
 
 <style>
 .container{
@@ -197,34 +193,6 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 
 ## Software
 
-
-<div style="display: flex; justify-content: space-between;">
-
-<div style="flex: 1; margin-right: 0px;">
-
-##
-
-  <div class="mermaid">
-  %%{init: { 'theme':'forest','quadrantChart': { 'pointLabelFontSize': '130%'} } }%%
-  quadrantChart
-      x-axis Low Functionalty --> High Functionalty
-      y-axis Hard to use --> Simple to use
-      Peridigm: [0.85, 0.2]
-      PeriLab.jl: [0.7, 0.8]
-      Peridynamics.jl: [0.5, 0.7]
-      EMU: [0.95, 0.1]
-      PeriPy: [0.2, 0.7]
-      PeriPyDIC: [0.2, 0.6]
-      LAMMPS: [0.3, 0.3]
-      PeriFlakes: [0.35, 0.4]
-      Relation-Based Software: [0.4, 0.25]
-      BB_PD: [0.2, 0.50]
-      PeriDEM: [0.13, 0.3]
-    </div>
-
-</div>
-
-<div style="flex: 1; margin-right: -300px;">
 
 ---
 

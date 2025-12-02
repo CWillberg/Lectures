@@ -5,38 +5,11 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Korrosion
+title: MTI - Korrosion
 author: Christian Willberg
 ---
 
 
-
-
-<style>
-.container{
-  display: flex;
-  }
-.col{
-  flex: 1;
-  }
-</style>
-
-<style scoped>
-.column-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.column {
-    flex: 1;
-    padding: 0 20px; /* Platzierung der Spalten */
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto;
-}
-</style>
 
 <style>
 footer {
@@ -54,7 +27,7 @@ img[alt="ORCID"] {
 </style>
 
 
-## Korrosion
+## Vorlesung MTI - Korrosion
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
@@ -71,7 +44,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 # Inhalte
 
-![bg right 70%](../assets/QR/wst_mb_05.png)
+![bg right 70%](../assets/QR/mti_ft_06.png)
 
 ---
 
@@ -159,7 +132,7 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
   - gleiche Metalle mit unterschiedlichen elektrischen Potentialen
 - Benetzung mit Elektrolyt
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
+![bg right 100%](https://upload.wikimedia.org/wikipedia/commons/4/4f/Korrosionselement2.png)
 
 ---
 
@@ -283,5 +256,5 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 - kurze Vorstellung der Ergebnisse (Ruhig Tafel nutzen)
   - wesentliches "take away"
 
-
+Übertragen in Moodle 
 

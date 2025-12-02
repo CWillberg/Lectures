@@ -11,10 +11,6 @@ author: Christian Willberg
 
 
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
 
 <style>
 .container{
@@ -123,7 +119,7 @@ Nach dieser Vorlesung können Sie:
 ---
 
 ## Grundprinzip der Wärmebehandlung
-```mermaid
+```
 graph LR
     A[Ausgangszustand] --> B[Erwärmen]
     B --> C[Halten bei T]
