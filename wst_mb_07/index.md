@@ -959,9 +959,6 @@ Schnelles Abkühlen von Austenitisierungstemperatur zur Bildung von Martensit
 - Abbau von Eigenspannungen
 - Einstellung gewünschter Zähigkeit
 
-**Wichtig**: 
-- **IMMER** nach dem Härten durchführen!
-- sonst: Rissgefahr durch Sprödigkeit
 
 **Verfahren**:
 - Erwärmen auf 150-650°C
@@ -1415,7 +1412,6 @@ $$x = k \cdot \sqrt{t}$$
   - Höchsthärte vom C-Gehalt abhängig
   
 - **Anlassen**: Reduzierung der Sprödigkeit
-  - IMMER nach Härten!
   - 250-400°C vermeiden (Anlassversprödung)
 
 - **Vergüten**: Härten + Hochanlassen
