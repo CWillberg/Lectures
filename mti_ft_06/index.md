@@ -5,7 +5,7 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: MTI - Legierungsbildung
+title: Legierungsbildung
 author: Christian Willberg
 ---
 
@@ -503,6 +503,7 @@ Charakterisierung:
 - Haltedauer
 - Art des Abkühlens (Ofen-, Luft-, Öl-, Wasserabkühlung)
 
+![bg right fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -519,14 +520,9 @@ Charakterisierung:
 </div>
 </details>
 
-
 ---
-![bg 70% fit](Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
----
-![bg 43% fit](Figures/EKD_farbe.png)
 
----
 ## Glühen
 - langsames Kühlen. Versuch nahe dem Gleichgewichtszustand zu kommen
 
@@ -537,6 +533,8 @@ Ziele ausabeiten für
 - Normalglühen
 - Grobkornglühen
 - Diffusionsglühen
+
+![bg right fit](../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -653,12 +651,105 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 
 ---
 
-## Härten
-
-- erfolgt das Abkühlen von einer Temperatur oberhalb der Umwandlungslinie GOSK mit einer Geschwindigkeit, die größer ist als die kritische („Abschrecken“)
-- Ziel ist ein Ungleichgewichtszustand durch Umwandlung des Austenits in Martensit (gegebenenfalls auch Bainit)
+![bg fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
+
+## Härteverfahren - Übersicht
+
+- **Härten nach Volumenerwärmung**
+  - Durchhärten
+  - Einhärten
+- **Anlassen**
+- **Vergüten** (Härten + Anlassen)
+- **Randschichthärten**
+  - Flammhärten, Induktionshärten, Laserhärten
+- **Thermochemische Verfahren**
+  - Aufkohlen / Einsatzhärten
+  - Nitrieren / Nitrocarburieren
+
+---
+
+## Härten - Verfahrensschritte
+
+**1. Austenitisieren**:
+- Erwärmen auf 30-50°C über Ac₃ (untereutektoid)
+- bzw. 30-50°C über Ac₁ (übereutektoid)
+- Haltezeit: vollständige Austenitbildung
+
+**2. Abschrecken**:
+- schnelle Abkühlung (über kritischer Rate)
+- in Wasser, Öl, Polymer, Gas
+
+**3. Optional: Anlassen**:
+- Reduzierung der Sprödigkeit
+- Spannungsabbau
+
+---
+
+## Austenitisieren - Details
+
+**Temperaturwahl**:
+
+| Stahltyp | T-Bereich | Typisch |
+|----------|-----------|---------|
+| untereutektoid | Ac₃ + 30-50°C | 850-900°C |
+| übereutektoid | Ac₁ + 30-50°C | 780-820°C |
+
+**Haltezeit**:
+- Faustregel: 1 min pro mm Wanddicke
+- Minimum: 15 min
+- zu kurz: unvollständiges Austenitisieren
+- zu lang: Kornvergröberung
+
+---
+
+## Warum unterschiedliche Temperaturen?
+
+**Untereutektoide Stähle (< 0.8% C)**:
+- über Ac₃ → vollständig austenitisch
+- keine Ferritreste
+
+**Übereutektoide Stähle (> 0.8% C)**:
+- nur über Ac₁ → Austenit + Restauszementit
+- Restauszementit erhöht Verschleißfestigkeit
+- über Acm würde zu Grobkorn führen
+
+---
+
+## Härtbarkeit vs. Aufhärtbarkeit
+
+**Härtbarkeit** (Hardenability):
+- Fähigkeit, bei Abkühlung Martensit zu bilden
+- abhängig von: C-Gehalt, Legierung, Korngröße
+- gemessen als: Einhärtungstiefe
+
+**Aufhärtbarkeit** (Hardness):
+- maximal erreichbare Härte
+- hauptsächlich vom C-Gehalt abhängig
+- Formel (Näherung): HV ≈ 1000 × (% C) + 200
+
+**Merke**: Legieren erhöht Härtbarkeit, nicht Aufhärtbarkeit!
+
+---
+
+## Härtbarkeit - Einflussfaktoren
+
+**1. Chemische Zusammensetzung**:
+- C-Gehalt: Grundvoraussetzung
+- Legierungselemente: verschieben ZTU-Kurven
+
+**2. Austenitkorngröße**:
+- feines Korn → geringere Härtbarkeit
+- grobes Korn → höhere Härtbarkeit (aber spröder!)
+
+**3. Austenitisierungsbedingungen**:
+- Temperatur
+- Haltezeit
+- Homogenität
+
+---
+
 
 ## Verfahren
 - Härten nach Volumenerwärmung
