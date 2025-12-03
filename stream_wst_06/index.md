@@ -68,7 +68,7 @@ Contact: christian.willberg@h2.de
 
 <!--paginate: true-->
 
-![bg right 70%](../assets/QR/stream_wst_07.png)
+![bg right 70%](../assets/QR/stream_wst_06.png)
 
 ---
 

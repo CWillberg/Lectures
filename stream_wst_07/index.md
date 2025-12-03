@@ -65,16 +65,13 @@ Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector
 
 
 Contact: christian.willberg@h2.de
-Parts of the script are taken from \
-Prof. Dr.-Ing. Jürgen Häberle
-
 
 
 ---
 
 <!--paginate: true-->
 
-![bg right 70%](../assets/QR/wst_mb_07.png)
+![bg right 70%](../assets/QR/stream_wst_07.png)
 
 ---
 
