@@ -117,15 +117,12 @@ Nach dieser Vorlesung können Sie:
 ---
 
 ## Grundprinzip der Wärmebehandlung
-```
-graph LR
-    A[Ausgangszustand] --> B[Erwärmen]
-    B --> C[Halten bei T]
-    C --> D[Abkühlen]
-    D --> E[Endzustand]
-    style A fill:#f9f,stroke:#333
-    style E fill:#9f9,stroke:#333
-```
+--> Ausgangszustand 
+--> Erwärmen 
+--> Halten bei T
+--> Abkühlen  
+--> Endzustand
+
 
 **Wichtig**: Die Abkühlgeschwindigkeit bestimmt maßgeblich das resultierende Gefüge!
 

@@ -620,33 +620,6 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 
 ---
 
-
-
-## ZTU-Schaubilder
-- Zeit Temperatur Umwandlungs Schaubilder
-- werden für verschiedene Materialien und Legierungen bereitgestellt
-- auf dieser Basis werden die Wärmebehandlungsprozesse geplant
-- Unterscheidung in Abkühlung bei
-  - konstanter Temperatur (isotherme Umwandlung)
-  - kontinuierliche Abkühlung
----
-## isotherme Umwandlung
-
-- Probe wird abgeschreckt
-- bei konstanter Temperatur gehalten, bis Umwandlung abgeschlossen
-
-![bg right fit](../assets/Figures/ztisotherm.png)
-
----
-## Kontinuierliche Abkühlung
-- ausgehend von der Austenitiseriungsbedingung verschieden schnell abgekühlt
-- die Umwandlung in Ferrit, Perlit, Bainit (Zwischenstufe) oder Martensit bei verschiedenen Temperaturen findet in unterschiedlichem Ausmaß statt
-- am Ende der Abkühlkurve wird meist die erreichbare Härte eingetragen
-
-![bg right fit](../assets/Figures/ztukontinuierlich.png)
-
----
-
 # Härten
 
 ---
@@ -679,7 +652,7 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 
 **2. Abschrecken**:
 - schnelle Abkühlung (über kritischer Rate)
-- in Wasser, Öl, Polymer, Gas
+- in Wasser, Öl, Gas
 
 **3. Optional: Anlassen**:
 - Reduzierung der Sprödigkeit
