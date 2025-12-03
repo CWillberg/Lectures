@@ -117,7 +117,7 @@ Nach dieser Vorlesung können Sie:
 ---
 
 ## Grundprinzip der Wärmebehandlung
---> Ausgangszustand 
+Ausgangszustand 
 --> Erwärmen 
 --> Halten bei T
 --> Abkühlen  
