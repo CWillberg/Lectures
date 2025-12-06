@@ -565,11 +565,11 @@ Reduction of internal stresses (residual stresses) without significant change in
 
 **Objective**:
 - Achieving a coarse grain
-- Improving machinability (short chips!)
+- Improving machinability 
 
 **Why does this work?**
 - Large grains → fewer grain boundaries
-- Chips break more easily at grain boundaries
+- Material break more easily at grain boundaries
 - Better surface quality
 
 **Caution**: Deteriorates mechanical properties!
