@@ -560,6 +560,8 @@ Wobei:
 - $F_N$ = Normalkraft
 - $A$ = tragende Fläche
 
+---
+
 Beeinflusst durch:
 - Mittlere Rauheitstiefe $R_z$
 - Anpressdruck

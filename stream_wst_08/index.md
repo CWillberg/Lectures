@@ -2,492 +2,816 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Fatigue and Wear'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: Materials-and-Production-Engineering-Lecture Alloy Formation
+title: Fatigue and Wear
 author: Christian Willberg
 ---
 
 <style>
-footer {
-    font-size: 14px; /* Change footer font size */
-    color: #888; /* Change footer color */
-    text-align: right; /* Change footer alignment */
+.container {
+  display: flex;
+}
+.col {
+  flex: 1;
 }
 </style>
 
+<style scoped>
+.column-container {
+  display: flex;
+  flex-direction: row;
+}
 
-## Lecture on Materials Science -  Alloy (3/3)
-Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+.column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+<style>
+footer {
+  font-size: 14px;
+  color: #888;
+  text-align: right;
+}
+</style>
+
+## Fatigue and Wear
+Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right 60%](../assets/QR/stream_wst_08.png)
 
-Contact: christian.willberg@h2.de
-Parts of the script are adopted from \
-Prof. Dr.-Ing. Jürgen Häberle
-
+Contact: christian.willberg@h2.de  
+Parts of the script are adopted from Prof. Dr.-Ing. Jürgen Häberle  
 
 ---
 
 <!--paginate: true-->
 
-## Contents
 
 
 
-![bg right 70%](../assets/QR/stream_wst_08.png)
+# Learning Objectives
 
----
-# Real Diagrams
+After this lecture, you will be able to:
 
----
-
-## Real Diagrams
-- The diagrams discussed so far are ideal diagrams and do not represent reality.
-- The Iron-Carbon Diagram (ICD) is the most important real diagram.
-- The base metal is iron, forming steel or cast iron.
-- The ICD is composed of ideal diagrams: peritectic, eutectic, and eutectoid sub-diagrams.
+- Recognize and explain fatigue mechanisms
+- Read and interpret Wöhler diagrams
+- Distinguish different types of wear
+- Name countermeasures to prevent fatigue and wear
 
 ---
 
-- Depending on the carbon appearance, we can distinguish between:
-  - **Stable system Fe-C**: Carbon exists as graphite.
-  - **Metastable system Fe-Fe₃C**: Carbon is bound in Fe₃C (intermediate phase cementite).
-- Stable means the carbon in graphite form cannot decompose further, while Fe₃C decomposes into iron and temper carbon upon prolonged annealing.
-- The metastable system represents a relative minimum of the system's total energy. For technical purposes, it is considered "sufficiently stable."
+# Part 1: Fatigue
 
 ---
 
-# Iron-Carbon Diagram (ICD)
+# Fatigue
 
-- Most important phase diagram.
-- Iron is the key material in mechanical engineering.
+<details>
+<summary>What is fatigue?</summary>
 
-### Reasons:
-- Low cost
-- High strength and elastic stiffness
-- Variety of possible alloys
-- Availability
-- Castability, weldability, etc.
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Sleeping_students.jpg" alt="Alternative text" width="500">
 
-[Explanation video for the Iron-Carbon Diagram](https://www.youtube.com/watch?v=oJqvnKhnsg0&t=1s)
+</details>
 
 ---
 
-![bg fit](../assets/Figures/EKD_farbe.png)
+## Definition: Fatigue
+
+**Fatigue** is the progressive failure of a material under cyclic (repeated) loading.
+
+**Important:**
+- Load is **below** the tensile strength
+- Failure occurs after many load cycles
+- Begins with microscopically small cracks
+
+**Everyday example:** Bending a paper clip back and forth repeatedly
 
 ---
 
-## Important Equilibrium Lines
+## Types of Fatigue
 
-
-ABCD   - Liquidus line                
-AHIECF - Solidus line                 
-ECF    - Eutectic line                
-PSK    - Eutectoid line               
-ES, PQ - Saturation lines             
-MOSK   - Curie line                   
-QPSECD - Formation/Dissolution of Fe₃C
-
-![bg right fit](../assets/Figures/EKD_farbe.png)
-
----
-
-## Points in the Phase Diagram
-
-- **S**: Eutectoid point
-- **C**: Eutectic point
-- **G**: $\alpha$ / $\gamma$ - Transformation point of pure iron
-- **E**: Maximum C-solubility in $\alpha$-matrix
-- **P**: Maximum C-solubility in $\gamma$-matrix
-
-![bg right fit](../assets/Figures/EKD_farbe.png)
+- Typically occurs under cyclic loading
+  - **Isothermal mechanical fatigue**
+    - [Oscillating load](https://www.youtube.com/watch?v=_qVXkAWtH60)
+    - Aircraft fuselages (pressure build-up and release)
+  - **Thermal fatigue**
+    - Furnaces, heating elements
+  - **Thermomechanical fatigue**
+    - High-pressure vessels
+  - **Electrothermal fatigue**
+    - Electrical conductors (filaments)
 
 ---
 
-# Phases and Microstructures in the Iron-Carbon System
-# Solid Solutions
+
+
+![bg 60%](https://leichtbau.dlr.de/wp-content/uploads/2021/11/Abbildung-2_Innovationsbericht_Wasserstofftank_CG06.png)
 
 ---
 
-![bg fit](../assets/Figures/umwandlungen.png)
+## Fatigue Mechanism
 
-![bg fit](../assets/Figures/EKD_farbe.png)
+- The load is below the yield strength $R_{p0.2}$
+  - > _Reminder: What does $R_{p0.2}$ mean?_
+  - $R_{p0.2}$ = 0.2% proof stress (stress at 0.2% plastic strain)
+- Stress concentrations occur at:
+  - Material defects (pores, microcracks)
+  - In the crystal (dislocations, defects)
+- Initially, random regions of plastic deformation form locally under alternating load
+- These points represent stress concentration areas that grow over time and can lead to fracture
 
----
-
-## $\alpha$-Solid Solution (BCC)
-- Microstructure designation: Ferrite ($\alpha$-Ferrite).  
-- Pure ferritic microstructure has low hardness/strength but high ductility.  
-- Maximum C solubility: 0.02%
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
-
-
----
-
-- high ductility
-
-![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/b/be/Ductility.svg)
+[Explanatory video](https://www.youtube.com/watch?v=o-6V_JoRX1g)
 
 ---
 
-## Hardness / Strength
+## Three Phases of Fatigue
 
-**Strength**  
-- Measure of maximum load-bearing capacity before failure.  
-- Force per cross-sectional area.  
+1. **Crack initiation** (approx. 90% of lifetime)
+   - Formation of microcracks at defect sites
 
-**Hardness**  
-- Mechanical resistance to penetration by another material.  
-- Measure of wear resistance.  
+2. **Crack propagation** (approx. 10% of lifetime)
+   - Slow growth of the crack
+   - Visible as "beach marks" on the fracture surface
 
----
-
-## $\delta$-Solid Solution (BCC)
-- $\delta$-Ferrite is stable only above 1392°C.  
-- Technically of minor importance.  
-- Maximum C solubility: 0.12%.  
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+3. **Final fracture**
+   - Spontaneous failure when remaining cross-section is too small
 
 ---
 
-## $\gamma$-Solid Solution (FCC)
-
-- Microstructure designation: Austenite.  
-- Forms above the G-S-E line.  
-- Can remain stable at room temperature with alloying additions (e.g., Ni, Mn) and quenching (austenitic steels).  
-
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/1/1c/Woehlerlinie.png)
+![bg fit 80%](https://upload.wikimedia.org/wikipedia/commons/6/64/Spgs-Dehnungs-Kurve_Dehngrenze.svg)
 
 ---
 
-- Non-magnetic, tough, and hardenable through cold working (manganese, nickel, chromium-nickel steels).  
-- High heat resistance, good corrosion and oxidation resistance.  
-- Maximum C solubility: 2.06%.  
+## The Wöhler Diagram - Basics
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+**What does the Wöhler diagram show?**
+- X-axis: Number of load cycles N (logarithmic)
+- Y-axis: Stress amplitude σ (often logarithmic)
 
----
-
-## Austenite
-
-- Refers to the face-centered cubic (FCC) modification (phase) of pure iron and its solid solutions.  
-- Exhibits high solubility for carbon atoms.  
-
+**Three important regions:**
+- **Low cycle fatigue (LCF):** N < 10⁴
+- **Finite life (FL):** 10⁴ < N < 10⁶
+- **Fatigue limit (FL):** N > 10⁶
 
 ---
 
-## Intermediate Phase: Cementite (Iron Carbide Fe₃C)
-- C content: 6.67 wt%.  
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+## Wöhler Diagram - Interpretation
+
+**What does the curve mean?**
+- Higher stress → shorter lifetime
+- Below the fatigue limit: theoretically infinite lifetime
+- **Caution:** Only valid for the tested material under defined conditions!
+
+**Practical application:**
+- Component dimensioning
+- Lifetime prediction
+- Material selection
 
 ---
 
-## Meta stable systems
+## Stress Ratio and Mean Stress
 
-![](../assets/Figures/meta-stabil.png)
+**Stress ratio:**
+$$R = \frac{\sigma_u}{\sigma_o}$$
 
----
+**Mean stress:**
+$$\sigma_m=\frac{\sigma_u+\sigma_o}{2}$$
 
-**Types:**  
-- **Primary Cementite:**  
-  - Crystallizes directly from the melt (line CD).  
-- **Secondary Cementite:**  
-  - Precipitates from austenite (line ES).  
-- **Tertiary Cementite:**  
-  - Precipitates from ferrite (line PQ).  
+**Stress amplitude:**
+$$\sigma_a=\frac{\sigma_o-\sigma_u}{2}$$
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+$\sigma_o$ - Upper stress
+$\sigma_u$ - Lower stress
 
----
-
-## Crystal Structure
-
-![bg right 80%](../assets/Figures/Zementit.png)
-
-- Orthorhombic unit cell:  
-  - 12 iron and 4 carbon atoms.  
-  - Carbon atoms are irregularly surrounded by 8 iron atoms.  
+![bg right 90%](../assets/Figures/sinuskurven_mit_offset.png)
 
 ---
 
-- Cementite is hard and brittle.  
-- Most technical iron-carbon alloys solidify with cementite formation.  
+## Different Loading Cases
 
-![bg right 80%](../assets/Figures/Zementit.png)
+| Loading case | R-ratio | Example |
+|----------------|--------------|----------|
+| Fully reversed | R = -1 | Bending shaft |
+| Pulsating | 0 < R < 1 | Tension spring |
+| Tension pulsating | R = 0 | Cable with self-weight |
+| Compression pulsating | R = ∞ | Compression spring |
 
----
-
-![bg 60%](https://upload.wikimedia.org/wikipedia/commons/a/ac/Primaerzementit.jpg)
-
----
-
-# Phase Mixtures / Solid Solution Mixtures
+**Note:** The higher the mean stress, the lower the tolerable amplitude!
 
 ---
 
-## Pearlite (Eutectoid)
-- Microstructure of cementite and ferrite (= phase mixture).  
-- Forms through the "eutectoid" decomposition of austenite ($\gamma$-solid solution) with 0.8% C at 723°C.  
-- Point S: 100% pearlite.  
-- Relatively high hardness and strength, low ductility.  
+## Calculation Example: Stress Calculation
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/de/c/c8/Perlit.png)
+**Given:**
+- Upper stress: $\sigma_o = 200$ MPa
+- Lower stress: $\sigma_u = -100$ MPa
 
----
-
-- Lamellar structure (layers of $\alpha$-ferrite and Fe₃C crystals).  
-- Categorized into coarse, fine, and very fine pearlite based on lamellar spacing.  
-
-![bg right](../assets/Figures/perilitisches_gefuege.png)
+**Find:**
+- Stress ratio R
+- Mean stress $\sigma_m$
+- Stress amplitude $\sigma_a$
 
 ---
 
-## Ledeburite
+## Solution
 
-- Microstructure of austenite and cementite or their decomposition products (pearlite and secondary cementite).  
-- C content: 4.3%, melting temperature: 1147°C.  
-- Point C: 100% ledeburite.  
+$$R = \frac{\sigma_u}{\sigma_o} = \frac{-100}{200} = -0.5$$
 
-![bg right](../assets/Figures/ledeburit_gefuege.png)
+$$\sigma_m = \frac{\sigma_u + \sigma_o}{2} = \frac{-100 + 200}{2} = 50 \text{ MPa}$$
 
----
+$$\sigma_a = \frac{\sigma_o - \sigma_u}{2} = \frac{200-(-100)}{2} = 150 \text{ MPa}$$
 
-- **Ledeburite I**: Austenite and cementite (above 723°C).  
-- **Ledeburite II**: Pearlite, primary cementite, and secondary cementite (at room temperature).  
-- Faster cooling may form bainite or martensite instead.  
-- Properties: Very low ductility, characteristic "panther skin" pattern.  
+**Interpretation:** Fully reversed loading with tensile mean stress
 
 ---
 
-The properties of the alloy (e.g., steel, cast iron) depend on the involved phases, their relative amounts, and their distribution in the microstructure.  
+![bg](https://www.ing-hanke.de/wp-content/uploads/2022/05/Fatigue_Bereiche.jpg)
 
 ---
 
-# Phases and Microstructures in Non-Equilibrium States
+## Constant Life Diagrams
 
+**Purpose:** Representation of allowable stresses as a function of mean stress and amplitude
 
+**Two main types:**
+- Haigh diagram
+- Smith diagram
 
-- Equilibrium states are dominated by diffusion processes.  
-- Rapid temperature changes hinder the carbon diffusion required for the segregation of austenite.  
-- This leads to the formation of novel microstructural components that deviate from the equilibrium state.  
-- Results in "supersaturated" carbon.  
-
-## NOT IN THE PHASE DIAGRAM!
-
----
-
-## Martensite
-
-- Body-centered tetragonal (BCT) lattice structure ("strained ferritic lattice").  
-- Typically features a fine, needle-like, very hard, and brittle microstructure.  
-- The carbon, trapped in the BCC lattice of $\alpha$-Fe, distorts and expands the lattice tetragonally through a "diffusionless transformation."  
-
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/fa/Steel_035_water_quenched.png)
-
+Both recommended according to DIN 50100
 
 ---
 
-- is formed in carbon steels by the rapid cooling (quenching) of the austenite 
-- carbon atoms do not have time to diffuse out of the crystal structure in large enough quantities to form cementite (Fe3C). 
+## Haigh Diagram
 
-![bg right 80%](../assets/Figures/Structure-of-the-austenite-fcc-and-martensite-fct-crystal-phases.png)
+**Axes:**
+- X-axis: Mean stress $\sigma_m$
+- Y-axis: Stress amplitude $\sigma_a$
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://artpictures.club/autumn-2023.html" style="color: blue;">Image Reference</a>
+**Interpretation:**
+- Each curve represents a number of load cycles
+- Area inside the curve: safe
+- Area outside: failure
+
+![bg right 90%](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-erstellung.jpg)
+
+---
+
+## Haigh Diagram - Application
+
+![](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-spannungsverhaeltnis.jpg)
+
+**Lines of constant R-ratio** run as straight lines through the origin
+
+---
+
+## Smith Diagram
+
+- X-axis: Mean stress $\sigma_m$
+- Y-axis: Upper and lower stress $\sigma_o$, $\sigma_u$
+
+**Construction:**
+- Draw angle bisector
+- Top and bottom (parallel lines) → static compression and tensile strength
+- Curves are determined from Wöhler experiments with different R
+
+![bg right 80%](https://www.ing-hanke.de/wp-content/uploads/2020/03/Dauerfestigkeitsschaulbild_Smith-Diagramm.jpg)
+
+---
+
+## Smith vs. Haigh - Comparison
+
+| Property | Smith Diagram | Haigh Diagram |
+|-------------|----------------|----------------|
+| Y-axis | $\sigma_o$, $\sigma_u$ | $\sigma_a$ |
+| Clarity | Better for practitioners | Better for calculation |
+| Representation R | Lines through intersection with angle bisector | Lines through origin |
+| Usage | Construction | Science |
+
+---
+
+## Term Definitions
+
+- **Lifetime:** Number of cycles until failure
+- **Fatigue crack:** Crack formed by repeated loading
+- **Fatigue fracture:** Final failure
+- **Low Cycle Fatigue (LCF):** N < 10⁴
+- **High Cycle Fatigue (HCF):** 10⁴ < N < 10⁶
+- **Very High Cycle Fatigue (VHCF):** N > 10⁶
+
+![bg right fit 60%](https://upload.wikimedia.org/wikipedia/commons/9/96/Pedalarm_Bruch.jpg)
+![bg vertical 60%](https://farm6.staticflickr.com/5522/12140479094_6f746014ab_z.jpg)
+
+---
+
+## Factors Influencing Fatigue Strength
+
+1. **Material**
+   - Strength, toughness, microstructure
+
+2. **Component geometry**
+   - Notches, transitions, cross-section changes
+
+3. **Surface**
+   - Roughness, residual stresses, work hardening
+
+4. **Environment**
+   - Temperature, corrosion, frequency
+
+---
+
+## Notch Effect
+
+**Form factor:** $\alpha_k = \frac{\sigma_{max}}{\sigma_{nom}}$
+
+**Notch sensitivity factor:** $\beta_k = \frac{\sigma_{D,smooth}}{\sigma_{D,notch}}$
+
+**Important:**
+- Notches concentrate stresses
+- $\beta_k$ is always < $\alpha_k$ (material can deform plastically locally)
+- Avoid sharp transitions in design!
+
+![bg right 90%](https://www.maschinenbau-wissen.de/bilder/skripte/mechanik/kerbspannung-01.PNG)
+
+---
+
+## Countermeasures Against Fatigue
+
+**Design:**
+- Reduce notch effect (increase radii)
+- Avoid stress concentrations
+- Adapt design so local stress does not exceed allowable limits
+
+**Material technology:**
+- Material adaptation (higher strength)
+- Heat treatment
+
+---
+
+**Surface treatment:**
+- Smooth surface (polishing)
+- Introduce compressive residual stresses (e.g., shot peening)
+
+**Operation:**
+- Regular inspections
+
+
+![bg fit right](https://www.ing-hanke.de/wp-content/uploads/2020/03/Abminderungsfaktoren_Dauerfestigkeit_Rauheit_Sproedigkeit_Stahl.jpg)
+
+---
+
+## Calculation Example: Lifetime Estimation
+
+**Given:**
+- Steel component with fatigue limit $\sigma_D = 300$ MPa at N = 10⁷
+- Wöhler curve: $\sigma_a \cdot N^k = C$ with k = 0.1
+- Operating stress: $\sigma_a = 400$ MPa
+
+**Find:** Expected lifetime N
+
+---
+
+## Solution
+
+**From fatigue limit point:**
+$$C = \sigma_D \cdot N^k = 300 \cdot (10^7)^{0.1} = 300 \cdot 10^{0.7} = 1505$$
+
+**For operating stress:**
+$$N = \left(\frac{C}{\sigma_a}\right)^{1/k} = \left(\frac{1505}{400}\right)^{10} = 3.76^{10} \approx 4.1 \cdot 10^5 \text{ cycles}$$
+
+**Interpretation:** The component is expected to fail after approximately 410,000 cycles
+
+---
+
+## Summary Part 1: Fatigue
+
+- Fatigue = failure under cyclic loading below yield strength
+- Wöhler diagram describes stress vs. number of load cycles
+- Constant life diagrams (Smith/Haigh) consider mean stress
+- Three phases: initiation, propagation, final fracture
+- Countermeasures: design, material, surface, inspection
+
+---
+
+# Part 2: Wear
+
+---
+
+## Definition: Wear
+
+**Wear** is a permanent change in form and material at the surface of solids as a result of friction
+
+**Important:**
+- Technologically unintended
+- Represents functional failure
+- Leads to dimensional changes and loss of function
+
+---
+
+## Factors Influencing Wear
+
+Influenced by:
+- **Friction pair** (e.g., metal-metal, metal-plastic)
+- **Condition of boundary layers** and intermediate material (lubricant)
+- **Type of motion** (sliding, rolling, impact)
+- **Load level** (surface pressure, velocity)
+
+---
+
+## Four Main Types of Wear
+
+**Adhesive wear**
+**Abrasive wear**
+**Surface fatigue**
+**Tribooxidation**
+
+Often several mechanisms occur simultaneously!
+
+---
+
+## Adhesive Wear (Scuffing)
+
+**Mechanism:**
+- Occurs with insufficient lubrication
+- At high surface pressure, surfaces adhere to each other (cold welding)
+- When sliding occurs, surface layer particles are torn out
+- Holes and flake-like material particles form
+- These often adhere to the sliding surface of the harder partner
+
+**Typical damage:** Scuffing, material transfer, "welding"
+
+---
+
+## Surface Parameters / Surface Roughness
+
+**Important parameters:**
+- **$R_a$:** Arithmetic mean roughness
+- **$R_z$:** Mean roughness depth
+- **$R_t$:** Total height of profile
+
+**Rule:** The smoother the surface, the lower the wear (with adequate lubrication!)
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/3/31/Rt%2BRv%2BRp.gif)
+
+
+---
+
+## Abrasive Wear (Grooving)
+
+**Mechanism:**
+- Hard particles in a lubricant or
+- Roughness peaks of a friction partner
+- penetrate into the surface layer
+- → scratching and micro-machining occur
+- Also: grooving wear or erosive wear
+
+**Countermeasures:**
+- Correct choice of material pairing
+- Metal-plastic or metal-ceramic pairings
+- Filter lubrication
+
+---
+
+## Practical Example: Wind Energy
+
+- Sand in the wind "sands down" the rotor blades
+- Surface becomes rough
+- Aerodynamic efficiency decreases
+- Energy losses of up to 20%!
+
+**Solution:**
+- Coatings
+- Regular maintenance
+
+![bg right 100%](https://encyclopedia.pub/media/item_content/202209/6333de2d03ef5energies-15-05672-g008.png)
+
+---
+
+## Surface Fatigue
+
+**Mechanism:**
+- Alternating or pulsating mechanical stresses at the surface
+- Similar to fatigue (cyclic loading)
+- Leads to fatigue or creep of the material
+- Material "fatigues" and flakes off
+
+**Typical for:**
+- Rolling bearings
+- Gears
+- Wheel-rail contact
+
+---
+
+## Tribooxidation (Fretting Corrosion)
+
+- Formation of intermediate layers (e.g., oxide layers)
+- Through chemical reaction
+- Mechanical destruction by movement of components
+- Loose, abrasive oxidation product forms
+
+---
+## Tribooxidation (Fretting Corrosion)
+**Special feature:**
+- Almost always occurs together with adhesive wear
+- Also called "fretting rust"
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+
+---
+
+## Overview of Wear Types by Loading
+
+| Wear type | Appearance | Primary occurrence |
+|---------------|-------------|-------------------|
+| **Sliding wear** | Grooves or scoring from abrasion, material transfer, or local melting | Unlubricated bearings, clutches, brakes |
+| **Rolling wear** | Flaking from fatigue cracks | Wheel/rail, rolling bearings |
+| **Pitting** | Pit formation | Rolling elements, especially gears |
+
+---
+
+## Overview of Wear Types (Continued)
+
+| Wear type | Appearance | Primary occurrence |
+|---------------|-------------|-------------------|
+| **Abrasive wear** | Plastic deformation, erosion | Excavators, bulk material transport, particle impact |
+| **Cavitation** | Surface damage from vapor bubble impact | Water turbines, pumps |
+| **Tribooxidation** | Loose oxidation product | Machine elements with form-fit or force-fit connections |
+
+---
+
+## Sliding Wear - Quantification
+
+**Wear path ratio:**
+$$W = k \cdot \frac{F_N}{A} \cdot 10^6$$
+
+Where:
+- $k$ = specific wear coefficient in $\left[\frac{mm^3}{Nm}\right]$ (load-independent, material-specific)
+- $F_N$ = normal force
+- $A$ = bearing surface
+
+---
+
+Influenced by:
+- Mean roughness depth $R_z$
+- Contact pressure
+- Sliding velocity
+
+![bg right fit 90%](https://media.springernature.com/original/springer-static/image/chp:10.1007%2F978-3-658-17851-2_4/MediaObjects/299062_3_De_4_Fig17_HTML.gif)
+
+---
+
+## Calculation Example: Wear Calculation
+
+**Given:**
+- Plain bearing with $k = 2 \cdot 10^{-6}$ mm³/(Nm)
+- Normal force: $F_N = 1000$ N
+- Bearing surface: $A = 10$ cm² = 1000 mm²
+- Sliding distance: $s = 1000$ m
+
+**Find:** Volume wear $V$
+
+---
+
+## Solution
+
+**Wear intensity:**
+$$W = k \cdot \frac{F_N}{A} \cdot 10^6 = 2 \cdot 10^{-6} \cdot \frac{1000}{1000} \cdot 10^6 = 2 \text{ mm}^3/\text{m}$$
+
+**Volume wear:**
+$$V = W \cdot s = 2 \cdot 1000 = 2000 \text{ mm}^3 = 2 \text{ cm}^3$$
+
+**Interpretation:** After 1000 m sliding distance, 2 cm³ of material has been removed
+
+---
+
+## Rolling Wear
+
+**Special feature:**
+- [Rolling](https://link.springer.com/chapter/10.1007/978-3-658-17851-2_6) combines rolling and sliding (slip)
+- Small contact area → high surface pressure (Hertzian pressure)
+- Leads to surface fatigue
+
+**Damage mechanisms:**
+- Plastic deformation
+- Microstructural changes
+- Crack formation and propagation
+
+![bg right fit 70%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig1_HTML.gif?as=webp)
+
+---
+
+## Lubrication in Rolling Wear
+
+**Specific lubricant film thickness:**
+$$\lambda = \frac{h_{min}}{R_q}$$
+
+Where:
+- $h_{min}$ = minimum lubricant film thickness
+- $R_q$ = root mean square roughness
+
+![bg right fit 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
+
+
+---
+
+**Lubrication states:**
+- $\lambda < 1$: Boundary lubrication (solid contact)
+- $1 < \lambda < 3$: Mixed lubrication
+- $\lambda > 3$: Hydrodynamic lubrication (ideal)
+
+![bg right fit 60%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-658-17851-2_6/MediaObjects/299062_3_De_6_Fig10_HTML.gif?as=webp)
+
+---
+
+## Cavitation - Physical Background
+
+[Video](https://www.youtube.com/watch?v=J0H0Nw44oA4)
+
+<details>
+<summary>Physical cause?</summary>
+<div>
+
+**Bernoulli principle:**
+- Static pressure depends on the velocity of a fluid
+- When falling below vapor pressure, vapor bubbles form
+- These bubbles move into areas with higher pressure
+- Bubbles condense abruptly
+- → Pressure and temperature peaks occur (up to 1000 bar!)
 </div>
+</details>
+
+---
+
+## Cavitation Damage
+
+- Local loads on the surface (microjet at high velocity)
+- Areas fatigue and break off ("pitting")
+
+**Impairment:**
+- Efficiency reduction
+- Corrosion (on roughened surface)
+- Areas where cracks can initiate
+- Noise and vibrations
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cavitation.jpg)
+
+---
+
+## Cavitation - Countermeasures
+
+1. **Design:**
+   - Avoid areas of low pressure
+   - Flow optimization
+
+2. **Material:**
+   - Cavitation-resistant materials
+   - Coatings
+
+3. **Operating mode:**
+   - Increase pressure
+   - Lower temperature
+   - Adjust speed
+
+---
+
+## Fretting Corrosion (Fretting Rust)
+
+**Mechanism:**
+- Small sliding movements between two highly loaded components
+- Mostly with insufficient interference → loose fits
+- Oxidation product acts abrasively
+- Intensifies wear
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+
+---
+
+**Recognition features:**
+- Rust-colored powder (for steel: Fe₃O₄)
+- At fit surfaces (shafts, hubs)
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/27/Corrosion_de_contact_sur_un_bout_d%27arbre_01.jpg)
+
+---
+
+## Countermeasures for Fretting Corrosion
+
+1. **Fit adjustment:**
+   - Sufficient interference
+   - Tight press fit
+
+2. **Material selection:**
+   - Stainless steels
+   - Coatings
+
+3. **Design:**
+   - Avoid relative movements
+   - Shrink fits instead of adhesive bonds
+
+---
+
+4. **Assembly:**
+   - Clean, dry surfaces
+   - Use assembly paste
+
+---
+
+## Material Pairings
+
+**Basic principle:** "Hard against soft"
+
+| Pairing | Wear behavior | Application |
+|---------|---------------------|-----------|
+| Steel-steel | Unfavorable (adhesion) | With lubrication |
+| Steel-bronze | Good | Plain bearings |
+| Steel-plastic | Very good | Dry running possible |
+| Ceramic-steel | Good at high temperatures | High performance |
+
+---
+
+## Comparison: Fatigue vs. Wear
+
+| Property | Fatigue | Wear |
+|-------------|----------|------------|
+| Cause | Cyclic loading | Friction/contact |
+| Location | Volume and surface | Surface only |
+| Damage | Crack formation | Material removal |
+| Failure | Sudden (fracture) | Gradual (dimensional change) |
+| Prediction | With Wöhler diagram | With wear rates |
+
+---
+
+## Summary Part 2: Wear
+
+- Wear = surface damage through friction
+- Four main types: adhesive, abrasive, surface fatigue, tribooxidation
+- Quantification possible via wear coefficient
+- Countermeasures: material selection, lubrication, design
+- Cavitation as special case in flows
+
+---
+
+## Practical Application: Wear Protection
+
+**Design measures:**
+- Make wear parts replaceable
+- Provide lubrication system
+- Optimize surface roughness
+
+**Operating measures:**
+- Regular lubrication
+- Monitoring (condition monitoring)
+- Timely replacement
+
+**Economics:** Prevention is cheaper than repair!
+
+---
+
+## Comprehension Questions
+
+1. Why does a material fail in fatigue below the yield strength?
+2. What is the difference between fatigue limit and finite life?
+3. Which type of wear occurs in an unlubricated bearing?
+4. How can cavitation in pumps be prevented?
+5. Why is surface roughness important for wear?
 
 
 ---
 
-## Bainite  
+## Summary Overall Lecture
 
-- Unlike martensite formation, bainite involves both lattice transformations and diffusion processes.  
-- Forms in the temperature range between the pearlite and martensite stages during cooling at rates that are too slow for martensite and too fast for pearlite.  
+**Fatigue:**
+- Failure through cyclic loading
+- Wöhler diagram as central tool
+- Three phases: initiation, propagation, fracture
 
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/00/522OB80Si10_450.jpg)
+**Wear:**
+- Undesired surface damage through friction
+
+
+**Together:** Both lead to component failure and are avoidable or minimizable through appropriate measures
+
 
 ---
 
-## Bainite Formation  
+## Questions?
 
-- Pure bainite can only be achieved through isothermal cooling, such as during austempering.  
-- Preferred in cases where quenching and tempering could lead to cracking risks.  
-- Offers excellent strength and toughness properties.  
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Question_mark_alternate.svg/1200px-Question_mark_alternate.svg.png)
 
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/0/00/522OB80Si10_450.jpg)
+**Contact:**
+christian.willberg@h2.de
 
----
-
-## Iron-Carbon Alloy Designations  
-
-| Carbon Content (mass-%) | Designation               | Type                                 |
-|-------------------------|---------------------------|-------------------------------------|
-| 0.02 < C < 0.8          | (Carbon) Steel            | Hypoeutectoid Steel                |
-| C = 0.8                 | (Carbon) Steel            | Eutectoid Steel                    |
-| 0.8 < C < 2.06          | (Carbon) Steel            | Hypereutectoid Steel               |
-| 2.06 < C < 4.3          | Cast Iron                 | Hypoeutectic Cast Iron             |
-| C = 4.3                 | Cast Iron                 | Eutectic Cast Iron                 |
-| 4.3 < C < 6.67          | Cast Iron                 | Hypereutectic Cast Iron            |
-
----
-
-## Steel Properties  
-
-- Carbon content less than 2.06%.  
-- High tensile strength.  
-- More expensive than cast iron.  
-- More ductile and tougher than cast iron.  
-- Weldable.  
-- Higher melting point than cast iron.  
-
----
-
-## Cast Iron  
-
-- Carbon content above 2.06%.  
-- Excellent castability (low melting point, good fluidity, etc.).  
-- Hard and brittle.  
-- Machinability depends on the specific type:  
-  - Grey cast iron with graphite lamellae is highly machinable.  
-- Strength is lower than steel, but damping properties are superior.  
-- Commonly contains silicon for improved castability and other alloying elements like manganese, chromium, or nickel.  
-
----
-
-## Grey Cast Iron  
-
-- Carbon is present as graphite, giving it a gray fracture surface.  
-- Good thermal conductivity and damping properties.  
-- Brittle but self-lubricating due to exposed graphite.  
-
-![bg right fit](https://www.gsl-metallhandel.de/images/gusseisen-mit-lamellengraphit-maschinengeformt.jpg)
-
----
-
-## Nodular Cast Iron  
-
-- Features better mechanical properties than grey cast iron.  
-- Exhibits ductile behavior due to spherical graphite inclusions.  
-
-![bg right 80%](https://matdania.com/wp-content/uploads/2017/04/Nodular_Iron.jpg)
-
----
-
-## Vermicular Cast Iron  
-
-- Intermediate properties between grey and nodular cast iron.  
-- Challenging production due to narrow processing tolerances.  
-- Higher strength, toughness, and reduced sensitivity to wall thickness compared to grey cast iron.  
-
-![bg right 80%](https://www.giessereilexikon.com/uploads/tx_d3ency/190-07.png)
-
----
-
-![bg ](https://www.tec-science.com/wp-content/uploads/2021/03/de-druckversuch-druckspannung-stauchungs-diagramm.jpg)
-
----
-
-### Comparison: Steel vs. Cast Iron  
-
-| Property                | Steel               | Cast Iron          |
-|-------------------------|---------------------|--------------------|
-| Density                | $7.85 \frac{g}{cm^3}$ | $7.2 \frac{g}{cm^3}$ |
-| Melting Point          | High (approx. $1500 °C$) | Low ($1150 °C$)       |
-| Toughness              | High                | Low                |
-| Corrosion Resistance   | Similar             | Slightly better    |
-| Shrinkage Factor       | Low                 | Very low (1%)      |
-
----
+**Office hours:** By appointment
 
 
-## Comparison of Cast Iron Types
-
----
-
-- **Grey Cast Iron**:  
-  - The most common and simplest type of cast iron.  
-  - Graphite is present in the form of thin, irregularly shaped lamellae.  
-  - The graphite lamellae act as notches under tensile stress, which significantly reduces the tensile strength.  
-  - However, it has high compressive strength and excellent damping properties.
-
-![bg right fit](https://www.giessereilexikon.com/uploads/tx_d3ency/189-01.png)
-
----
-
-- **Grey Cast Iron with Lamellar Graphite**  
-  - Ductility and toughness are lower compared to other types of cast iron, but the material exhibits excellent heat conductivity.  
-  - It has favorable self-lubricating properties when the graphite is exposed or when other lubricants are used in the cavities of the graphite.
-
----
-
-### Nodular Cast Iron
-
-- **Nodular (Ductile) Cast Iron**:  
-  - This type features graphite in the form of spherical nodules, resulting in superior mechanical properties compared to grey cast iron.  
-  - It behaves in a ductile manner and has enhanced tensile strength and toughness.  
-  - This form of cast iron is also weldable and can be machined to a high degree.
-
-![bg right 80%](https://matdania.com/wp-content/uploads/2017/04/Nodular_Iron.jpg)
-
----
-
-### Vermicular Cast Iron
-
-- **Vermicular Cast Iron**:  
-  - Has properties between those of grey and nodular cast iron.  
-  - Production is more difficult due to the specific requirements for melt treatment and controlled solidification.  
-  - Benefits include higher strength and toughness, along with lower thermal expansion.  
-
-![bg right 80%](https://www.giessereilexikon.com/uploads/tx_d3ency/190-07.png)
-
----
-
-## General Characteristics of Cast Iron Types:
-
-| Type                   | Characteristics                       | Benefits                   |
-|------------------------|---------------------------------------|----------------------------|
-| **Grey Cast Iron**      | Graphite in lamellar form; brittle    | Good machinability, heat conductivity |
-| **Nodular Cast Iron**   | Graphite in spherical nodules; ductile | High tensile strength, impact resistance |
-| **Vermicular Cast Iron**| Intermediate properties; controlled graphite structure | Higher toughness, better casting properties |
-
----
-
-## Properties of Cast Iron and Steel
-
-| Property               | Cast Iron                            | Steel                     |
-|------------------------|--------------------------------------|---------------------------|
-| **Damping Capacity**    | High                                 | Low                       |
-| **Compressive Strength**| High                                 | Moderate                  |
-| **Tensile Strength**    | Low                                  | High                      |
-| **Thermal Conductivity**| Good                                 | Lower than cast iron       |
-| **Machinability**       | Good (in specific forms)             | Excellent in most forms    |
-| **Weldability**         | Limited (except in nodular types)    | Excellent                 |
-
----
-
-### Material Selection
-
-- **Grey Cast Iron** is ideal for applications where damping capacity and castability are important, such as engine blocks and brake rotors.  
-- **Nodular Cast Iron** is used where higher mechanical properties and toughness are required, for example in automotive and industrial applications like crankshafts and gear wheels.  
-- **Vermicular Cast Iron** is often selected when a balance between strength and castability is necessary, often used in specific automotive and machinery components.
-
----  
-
-## Stability of Carbon Systems in Iron Alloys
-
-- **Stable Systems**: When the carbon is present in the form of graphite crystals, these systems are more likely to occur under the following conditions:  
-  - Higher carbon content.  
-  - Higher silicon content.  
-  - Slower cooling rates.  
-  - These systems typically occur in cast irons.
-
-- **Metastable Systems**: These systems are characterized by cementite (Fe₃C) crystals, where the carbon is not in a free state and is instead chemically bound in the iron lattice.
-
-
-
-
+![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
