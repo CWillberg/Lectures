@@ -19,6 +19,7 @@ jobs:
     strategy:
       matrix:
         folder:
+          - Faserverbund_02
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03

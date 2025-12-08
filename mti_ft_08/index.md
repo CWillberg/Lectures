@@ -5,11 +5,9 @@ theme: default
 header: ''
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: MTI - Prüfverfahren
+title: MTI - Fertigungstechnik - Trennen
 author: Christian Willberg
 ---
-
-
 
 
 <style>
@@ -28,514 +26,656 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung MTI - Prüfverfahren
+## Vorlesung MTI - Trennen
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://leichtbau.dlr.de/wp-content/uploads/2023/11/Strukturversuch-scaled-2560x1280.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/9/90/SchlichtenDrehen.jpg)
 
 Kontakt: christian.willberg@h2.de
 
 ---
 
-# Prüfung
-
-## Charakterisierung
-## Sensoren
-## Datenanalyse - Grundlagen
-
-## Zerstörende Prüfung
-## Zerstörungsfreie Prüfung
-
+Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeugen durch Formänderunge und Stoffverminderung. Geometrisch bestimmte feste Köper sind Halbzeuge, montagefähige Einzelteile oder Werkzeuge.
 
 ![bg right 70%](../assets/QR/mti_ft_08.png)
 
 ---
 
-<!--paginate: true-->
 
+## Unterteilung
+- Spanen
+- Abstragen
+- Zerteilen
+- Zerlegen
+- Reinigen
 
-## Charakterisierung
-Mathematische Modelle werden im Ingenieurswesen genutzt, um Vorhersagen über das Verhalten von Bauteilen und Strukturen zu machen. Die Bestimmung der für das Modell notwendingen Parameter nennt man Charakterisierung.
-
----
-
-## Modelle
-
-
-Was sind Modelle und wozu braucht man sie?
+[Video](https://www.youtube.com/watch?v=IU7ehp13Z_g)
 
 ---
 
+# Spanen
 
-![bg fit 60%](https://upload.wikimedia.org/wikipedia/commons/6/62/Ratte-Vache.jpeg)
-
----
-
-![bg fit 45%](https://upload.wikimedia.org/wikipedia/commons/c/cb/Paramecium.jpg)
-
----
-
-![bg fit 70%](https://espirituracer.com/archivos/2018/06/crash-test-volvo-855x463.jpg)
+- hohe Fertigungsgenauigkeit
+- hohe Reproduzierbarkeit der Qualität
+- hohe Flexibilität bei den geometrischen Bearbeitungsmöglichkeite
+- hohe stückzahl- und auftragbezogene Fertigungsflexibilität
 
 ---
 
-![bg fit 60%](../assets/Figures/KIC.png)
+## Klassifierung
+- Automatisierunggrad
+  - maschinell - automatisiert
+  - manuell - unbestimmte Relativbewegung zwiwechen Werzeug und Werkstück
+- geometrische Art der Schneide
+  - geometrisch bestimmt
+  - geometrisch unbestimmt
 
 ---
 
-[Simulationsbeispiel]("https://perilab-results.nimbus-extern.dlr.de/models/ForgedCT?step=65&variable=von%20Mises%20Stress&displFactor=20")
-
-
-
-
----
-
-![bg fit 60%](../assets/Figures/FEM.png)
+![bg 80%](https://upload.wikimedia.org/wikipedia/commons/1/1e/L%C3%A4ngs-Rund-Drehen.jpg)
+![bg 90%](https://upload.wikimedia.org/wikipedia/commons/4/43/Fraisage_surfacage.svg)
+![bg 95%](https://upload.wikimedia.org/wikipedia/commons/c/cc/Unbestimmte_Schneide.svg)
 
 ---
 
-## 
+- nach Art der zu erzeugenden Flächen (Formelement)
+  - Plandrehen
+  - Planfräsen
+  - Runddrehen
+  - Schrauben-/Gewindedrehen
+  - Profildrehen
+  - Freiformflächen
 
-
-![bg fit 60%](../assets/Figures/Testpyramide.png)
-
-
----
-
-## Beispiele
-
-- Bestimmung $E$ und $\nu$ in einem isotropen Material
-- Verschiedene Wege skizzieren
-- Probleme diskutieren
-
-## Hinweis
-- Es gibt Beziehungen zwischen dem Schubmodul $G$ und $E$ und $\nu$
+Prozesse sind verschaltbar
 
 ---
 
-# Messdatenerfassung
-Typische Sensoren
-- Dehnungssensoren
-  - Dehnungsmessstreifen (DMS)
-  - Fibre Bragg
-  - Kamerasysteme
-- Wegsensoren
-  - Lasertriangulation
-  - Maßband
-  - Laufzeitmessung
-- Kraftaufnehmer
+# Basisgrößen
 
----
-## DMS
-- Funktionsweise
-
-![bg right fit 50%](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Strain_gauge_-.jpg/1024px-Strain_gauge_-.jpg)
-
-- elektrischer Widerstand
-$R=\rho\frac{l}{A} = \frac{U}{I}$
-$\frac{\Delta R}{R}=k\varepsilon$
----
-
-## Kompensation
-
-
-- Temperaturkompensation
-  - auf einem lastfreien Bauteil messen
-  - Ausnutzen einer Brückenschaltung von DMS
-- Normaldehnungskompensation
-  - Ausnutzen einer Brückenschaltung von DMS
-
-![bg right 80%](https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_442/https://clm-engineering.com/wp-content/uploads/2020/06/Unbenannt2.jpg)
-
-$\frac{U_m}{U_B}=\frac k4 (\varepsilon_1-\varepsilon_2+\varepsilon_3-\varepsilon_4)$
-
+- Bewegungen / Richtungsvektoren
+- Spanungsgrößen
+- Vorschubgrößen
+- Geschwindigkeiten
+- Eingriffsgrößen / Wirkpaarung - Werkzeug - Werkstück
+- Geometrie der Schneide
+- Hilfsgrößen 
+  - Arbeitsebene
+  - Wirkrichtungswinkel
+  - Vorschubsrichtungswinkel
 
 ---
 
-## Analog-Digital
-
-- Analogssignale
-- Digitale Signale
-- A-D-Wandler
-
-$dt<\frac{1}{2f_{max}}$
-
-- wenn nicht eingehalten, dann kommt es zu Informationsverlusten
-
-[Beispiel](https://www.youtube.com/watch?v=ByTsISFXUoY)
-
+Alle Basisgrößen sind beeinflusst durch das Material was bearbeitet wird.
 
 ---
 
-# Datenanalyse - Grundlagen
+## Schneidstoffe
+
+- hohe Schnittgeschwindigkeit wird angestrebt
+  - hohe Temperatur
+  - höherer Verschleiß
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/4/4f/Einsatzgebiete_schneidstoffe.svg)
 
 ---
 
-## Streuungen
-- Messunsicherheiten
-- Materialunsicherheiten
-- Fertigungsunsicherheiten
+## Komponenten
 
-Sonderfall
-- Modellunsicherheiten -> werden nicht durch mehr Messungen kleiner
+![](https://tse1.mm.bing.net/th?id=OIP.3Xd2TBDPSplRRDvXl6ctnAHaFM&pid=Api)
 
 ---
 
-## Umgang mit Streuungen
+![bg 80%](https://upload.wikimedia.org/wikipedia/commons/d/db/Spanbildung.png)
 
-_Mittelwert_
-$sample_{mean}=\sum_{i=1}^{n}\frac{samples_i}{n}$
-
-_Median_
-50% der Werte liegen oberhalb und 50% unterhalb dieses Werts; Robuster gegen Ausreißer
-
-_Standardabweichung_
-Ist ein Maß für die Streuung der Daten
-$s=\sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(samples_i-sample_{mean})^2}$
-
-_Korrelationskoeffizient_
-Beschreibt wie gut zwischen Daten ein linearer Zusammenhang besteht (zwischen -1 und +1)
-
----
-
-## Fitting
-Methode der kleinsten Fehlerquadrate
-
-$\text{min}||\mathbf{y}_m(\mathbf{x}) - \mathbf{y} ||$
-
-um eine beliebige fitting Funktion zu bestimmen.
-
-Wahl der Funktion:
-Polynome - können bei hohen Polynograde zu Überschwingen führen
-Splines, B-Splines - komplexer
-
----
-
-## Fourier Transformation
-
-- Jede Signal / Funktion kann in eine Summe aus Sinus Kurven zusammengesetzt werden
-- Zeitfunktionen -> in Frequenzdarstellungen
-
-![](https://de.mathworks.com/discovery/fft/_jcr_content/mainParsys/image.adapt.full.medium.jpg/1680761244598.jpg)
-
----
-
-## Filter
-- Tiefpass
-  - Signale unterhalb eine definierten Frequenz werden erlaubt
-- Hochpass  
-  - Signale oberhalb eine definierten Frequenz werden erlaubt 
-- Bandpass
-  - Signale zwischen zwei definierten Frequenzen werden erlaubt 
-- Bandstopfilter
-  - Signale außerhalb zweier definierten Frequenzen werden erlaubt 
-
----
-
-![bg 70%](../assets/Figures/filter.png)
-
-
----
-
-# Zerstörende Prüfung
-
-Bestimmte Kennwerte oder Aussagen über ein Material oder ein Bauteil können nur getroffen werden, wenn bis zum Versagen belastet wird.
-
----
-
-## Exkurs Bruchmechanik
-
-- Brüche lassen sich in diese Moden unterteilen
-- Es gibt spezifische Energiefreisetzungraten
-
-![](https://wiki.polymerservice-merseburg.de/images/thumb/d/df/Rissoeffnungsmoden.jpg/600px-Rissoeffnungsmoden.jpg)
-
-[Liste von Experimente zur Bestimmung dieser Energien](https://wiki.polymerservice-merseburg.de/index.php/Pr%C3%BCfk%C3%B6rper_f%C3%BCr_bruchmechanische_Pr%C3%BCfungen)
+![bg 80%](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-642-19772-7_2/MediaObjects/978-3-642-19772-7_2_Fig3_HTML.jpg?as=webp)
 
 ---
 
 
-## Bestimmung der Zähigkeit
+## Spanarten
+Reißspan
+- spröde Werkstoffe
+- schlechte Oberflächenqualität
+- niedrige Schnittgeschwindigkeit und kleine Spanwinkel
+- sollte durch Wärmebehandlung vermieden werden
 
-- Widerstand eines Werkstoffs gegen Bruch oder Rissausbreitung
-- Fähigkeit zur Absorption von mechanischer Energie bei plastischer Verformung
+![bg right fit](https://d2wg98g6yh9seo.cloudfront.net/users/274851/274851_NicudaRomaFeziRi5386415885862914.jpg)
 
-$Z = \int_0^{\varepsilon_{B}}\sigma d \varepsilon$ 
+---
 
-- Energiefreisetzungrate $G = \frac{Z}{A_{Bruch}}$
-- Einfluss der Belastungs-geschwindigkeit 
+Scherspan
+- zäher Werkstoff, mittlerer Spanwinkel, niedrige Schnittgeschwindgkeit
+- schuppenförmige Spanteile die teilweise wieder miteinander Verschweißen
 
-![bg right 90%](../assets/Figures/varying_storedElastic_energy.svg)
+![bg right fit](https://d2wg98g6yh9seo.cloudfront.net/users/274851/274851_NicudaRomaFeziRi5386415885862914.jpg)
+
+---
+
+Fließspan
+- große Spanwinkel und hohe Schnittgeschwindigkeit
+- sehr gute Oberflächengüte
+- Spanlänge kann zu Störungen im Arbeitsablauf führen
+
+![bg right fit](https://d2wg98g6yh9seo.cloudfront.net/users/274851/274851_NicudaRomaFeziRi5386415885862914.jpg)
+
+---
+
+## Drehen
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/1/1e/L%C3%A4ngs-Rund-Drehen.jpg)
+
+Beispiele:
+- [Plandrehen](https://youtu.be/wgAtc0SO6w4?si=r3dGA3LIZFiTZL20&t=21)
+- [Runddrehen](https://youtu.be/fdmUd8COMMg?si=b2viuz3RjqYitQ78&t=235)
+- [Schrauben-/Gewindedrehen](https://www.youtube.com/watch?v=zjk7yxzr738)
+
+---
+
+## Fräsen
+
+  - [Planfräsen](https://youtu.be/BwHmSzoK1Dw?si=2Q-QyCl42fkCI7Rq&t=98)
+![bg 90%](https://upload.wikimedia.org/wikipedia/commons/4/43/Fraisage_surfacage.svg)
+
+## Bohren
+
+![bg right](http://www.matthiashertel.de/Technologien/Bohren/Bohren.jpg)
+
+[Bohren](https://youtu.be/JMKbxZoRUf8?si=JKnEgIw14P_bB168&t=77)
+[Gewindebohren](https://youtu.be/JMKbxZoRUf8?si=JQ27gWtdkdEEwh0j&t=293)
+
+---
+
+## Schleifen
+- Schleifmittel
+  - Korund - AL$_2$O$_3$
+    - am häufigsten eingesetzt
+    - Härte steigt mit Reinheitsgrad
+  - Siliciumcarbid, Bornitrid, Diamant
+- Matrix
+  - keramisch, Kunstharze, Metall
+
+![bg right 95%](http://www.fachlexika.de/technik/mechatronik/schleifverfahren.jpg)
+
+---
+
+- Körnung beschreibt die größe des Schleifmittelkörner
+- kleinere Körner -> geringere Oberflächenrauheit
+
+Schleifmittelgefüge
+- dicht
+- porös
+- hochporös
+
+[Bezeichnung von Schleifscheiben](http://www.fachlexika.de/technik/mechatronik/schleifen.html)
+
+---
+Weiche Schleifwerkzeuge für
+- harte Werkstoffe
+- goße Berührungsflächen zwischen Schleifwerkstoff und Werkstück
+- kleiner Vorschub
+
+Harte Schleifwerkzeuge für
+- weiche Werkstoffe
+- kleinere Berührungsflächen
+- größerer Vorschub
 
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s00466-021-02017-1" style="color: blue;">Bildreferenz</a>
+---
+
+[Trennprozesse sind verschaltbar](https://www.youtube.com/watch?v=hmmXmKqP7B4)
+
+
+
+
+---
+
+## Zerteilen
+
+- [Scheren](https://youtu.be/W_iKKt6783g?si=lG34eXCpV_DtqExP)
+- Brechen
+- Reißen
+- Schneiden
+
+---
+
+## Schneiden
+[Mechanisch](https://youtube.com/shorts/Vi95Z8rNX_w?si=D-YV7W6XYi-twAUZ)
+[Wasserstrahl](https://youtu.be/DEUZLEmFUgA?si=wEJjnorsuSDoExKF)
+[Laserschneiden](https://youtu.be/3lLfXX9Xu-0?si=3XjMP1VHTGPKUuhY)
+
+---
+
+
+
+![bg 80%](https://upload.wikimedia.org/wikipedia/commons/c/cc/Laserschema.svg)
+
+---
+## Vorteile von Lasern
+- hohe Bearbeitungsgeschwindigkeit
+- hohe Präzision
+- hohe Bearbeitungsqualität
+- es werden keine mechanischen Kräfte ausgeübt
+- geringe Wärmebelastung
+- hohe, präzise, definierte Energiedichte
+- Automatisierbarkeit
+- hohe Flexibilität
+- Verschleißfreies Werkzeug
+
+---
+
+## Abtragen
+chemisch, elektrochemisch
+- ätzen
+
+thermisch
+- Funkenerosion
+- Elektronenstrahlbearbeitung
+- Laserstrahlbearbeitungen
+- Plasmastrahlbearbeitung
+
+mechanisch
+- Wasserstrahlbearbeitung
+
+---
+
+## Zerlegen
+
+- Auseinandernehmen (Demontieren im engeren Sinne)
+- Entleeren
+- Lösen kraftschlüssiger Verbindungen
+- Zerlegen von durch Urformen gefügten Teilen
+- Ablöten
+- Lösen von Klebeverbindungen
+- Zerlegen textiler Verbindungen
+
+
+---
+
+# Fügen
+
+![bg right](https://www.home-of-welding.com/storage/media/images/6246/conversions/bild6-full.jpg)
+
+
+---
+
+## Definition
+Fügen ist das Zusammenbringen von verschiedenen Werkstücken (Bauelementen) geometrisch bestimmter fester Form oder von ebensolchen Werkstücken mit formlosem Stoff- oder Verbindungselementen. Dabei wird der Zusammenhalt zwischen den Elementen jeweils örtlich geschaffen oder vermehrt.
+
+![bg right 70%](../assets/QR/mti_ft_12.png)
+
+---
+
+- gefügt werden können alle Arten von Werkstoffkombinationen
+- nicht alle Fügeverfahren sind für alle Werkstoffe geeignet
+
+---
+## Verfahrensgruppen
+- Zusammensetzen
+- Füllen
+- An- und Einpressen
+- Fügen durch Urformen
+- Fügen durch Umformen
+- Fügen durch Schweißen
+  - Pressschweißen
+  - Schmelzschweißen
+
+---
+
+- Fügen durch Löten
+  - Weichlöten
+  - Hartlöten
+  - Hochtemperaturlöten
+- Kleben
+  - mit physikalisch abbindenden Klebstoffen
+  - mit chemisch anbindenden Klebstoffen
+
+---
+## Verbindungsarten
+Stoffschluss
+- Schweißen, Löten, Kleben
+
+Formschluss 
+- Nieten, Falzen, Umpressen
+
+Kraftschluss
+- Schrumpfen, Schrauben, Keilen
+
+---
+
+## Kraftschluss
+
+![](http://www.iew.eu/wp-content/uploads/2017/03/Schrumpfen_05.jpg)
+
+---
+## Schraubenverbindungen
+
+![](https://examio-mediafiles1.s3.eu-west-1.amazonaws.com/abb36-schraubenverbindungen-print.png)
+
+
+---
+| Durchsteckschraube                         | Einziehschraube,Sechskantschraube, Zylinderschraube                                                                 | Stiftschraube                                   |
+|-------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------------|
+| Die Verbindung wird erzeugt durch Verspannen mit einer Mutter.                  |  Hier wird das Verspannen realisiert durch den Einzug in ein Gewinde, welches in einem zu verbindenden Objekt enthalten ist.    | Bei einer Stiftschraube wird der Schraubenkopf durch eine Mutter ersetzt.   | 
+| In den Bohrungen ist kein Gewinde enthalten (Durchgangsbohrungen). | Der Schraubenkopf kann zusätzlich versenkt werden oder aufliegen (siehe Durchsteckschraube). |  |
+
+[Quelle](https://www.ingenieurkurse.de/technische-darstellungen-maschienenbau/normgerechtes-bemassen-in-einer-technischen-zeichnung/hinweise-zu-speziellen-schrauben-und-gewindebedingungen.html)
+
+
+---
+
+## Formschluss
+
+- Verzahnungen
+- Nuten und Federn
+- Dübel in der Holzbearbeitung:
+Dübel, die in entsprechend gebohrte Löcher eingefügt werden, um zwei Holzstücke miteinander zu verbinden.
+
+![bg right 70%](https://cdn.shopify.com/s/files/1/0570/8706/6261/files/ladungssicherung-formschluessig.jpg?v=1703969772)
+![bg vertical 90%](https://i0.wp.com/gisstec.de/wp-content/uploads/2017/08/Nutenstossen-Passfedernut-Keilwelle.jpg)
+
+---
+
+# Stoffschluss
+## Schweißen
+## Löten
+## Kleben
+
+---
+## Schweißen
+**Schmelzschweißverfahren**
+- Wärme
+- Stoffschluss durch Schmlzfluss der Fügeteile znd des Zusatzwerkstoffs
+
+**Pressschweißverfahren**
+- Druck oder Wärme und Druck
+- Plastifizierung und örtliches Verformen der Fügeteile
+
+
+
+![bg right 80%](https://cdn.schuetz-licht.com/image/Wissen/Schweissnahtpruefung/A-Mass/Schweissnaht-Analyse.JPG)
+
+---
+## Schweißbarkeit
+- Schweißeignung (Werkstoff <-> Verfahren)
+- Schweißsicherheit (Werkstoff <-> Konstruktion)
+- Schweißmöglichkeit (Konstruktion <-> Verfahren)
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/2/24/Schwei%C3%9Fbarkeit.png)
+
+---
+
+
+## Schweißeignung von Stählen
+
+Abschätzung 
+- unlegiert $C\leq 0.22\%$ -> schweißbar
+- unlegiert bedingt schweißbar $0.22\%\leq C\leq 0.4\%$
+Für Legierungen wird das sogenannte Kohlenstoffäquivalent bestimmt
+
+$CE=C+\frac{Mn}{6}+\frac{Cr+Mo+V}{5}+\frac{Ni+Cu}{15}$
+- $CE\leq 0.4\%$ Schweißeignung
+
+---
+
+
+## Schweißsicherheit
+- Konstruktive Gestaltung
+  - Kraftflüsse im Bauteil
+  - Anordnung von Schweißnähten
+  - Werkstückdicke,
+  - Kerbwirkung
+  - Steifigkeitsunterschiede
+
+
+---
+
+Sicherheit wird verbessert, wenn
+- keine Umlenkung des Kraftflusses
+- ein- oder zweiachsiger Spannungszustand
+- Kerben sind zu vermeiden
+- kontinuierliche Übergänge bei Querschnitten
+
+_Belastungen wie Temperaturen, Schwingungen, etc. sind zu berücksichtigen._
+
+
+---
+
+## Schweißmöglichkeit
+- unter den vorhandenen Bedingungen muss die Schweißung fachgerecht durchgeführt werden können
+- Vorbereiten (Fugenform, Stoßart, Vorwärmen, Schweißverfahren, etc.)
+- Ausführen (Wärmeeinbringung, Wärmeführung, Schweißfolge)
+- Nachbereiten/Nachbehandeln (Richten, Schleifen, Wärmebehandlung, etc.)
+
+---
+## Fugen
+
+![bg right fit](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-3-642-39501-7_8/MediaObjects/9393_9_De_8_Fig9_HTML.gif)
+
+- Schweißquerschnitte unterscheiden sich je nach Verfahren
+
+---
+
+![bg 80%](../assets/Figures/schweissnaehte.png)
+<div style="position: absolute; bottom: 10px; left: 1020px; color: blue; font-size: 20px;"> 
+    <a href="https://www.schuetz-licht.de/wissen-normen-seminare/metallographie-metallografie/schweissnahtpruefung" style="color: blue;">Bildreferenz</a>
 </div>
 
----
-
-## Zugversuch
-- Bestimmung von 
-  - elastischen Steifigkeiten
-  - Festigkeiten
-  - Streckgrenze
-  - in einer Richtung
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tensile_testing_on_a_coir_composite.jpg/800px-Tensile_testing_on_a_coir_composite.jpg)
-
-- es wird von konstaten Spannungen im Querschnitt ausgegangen
-$\sigma = \frac{F}{A} = E\varepsilon = E\frac{\Delta l}{l}$
-$F = \frac{\Delta l E A }{l}$
-
-
 
 ---
 
-## Probengeometrie
+# Verfahren
+- [Lichtbogenschweißen](https://youtu.be/DccNuexANYU?si=dfJZ-JXxicJaEArz&t=33)
+- [Schutzgasschweißen](https://youtu.be/tQocMx5o6dE?si=rAnZihwb7wa5iW4K&t=160)
+- [Unterpulverschweißen](https://youtu.be/N7R_7pM3L98?si=j8tyVHzNHpr66SiM&t=14)
+[Gasschmelzschweißen](https://youtu.be/6SiwQfuhxa8?si=F9w9mjIDH6XixRLT&t=584)
+---
+## Lichtbogenschweißen
+- Lichtbogen brennt zwischen einer abschmelzenden Metallelektrode und dem Werkstück
+- die Elektrode ist gleichzeitig der Schweißzusatz
+- kann mit und ohne Schutzgas (Argon, Helium, oder Gemische) durchgeführt werden
 
-![](https://www.zwickroell.com/fileadmin/_processed_/2/7/csm_ASTME8_Probenkoerper_mit_Massen_a69594facc.jpg)
+---
+## Schutzgasschweißen
 
-[Video 1](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/5%3A_Mechanical_Testing_of_Metals/5.5%3A_Tensile_Testing_-_Practical_Basics)
+MSG - Metall Schutzgasschweißen
+- unterteilt in MIG (Aluminium, Kupfer, Nickel, ..)
+- MAG unlegierte und niedrig legierte und hoch legierte Stähle
+- Elektrode wird abgeschmolzen
 
-![bg right fit ](https://upload.wikimedia.org/wikipedia/commons/0/09/Cruciform.png)
+WIG - Wofram Internet Schweißen
+- Lichtbogen brennt zwischen nicht abschmelzender Wolfram Elektrode und dem Werkstück
+- Zusatzstab sorgt Schweißzusatz
 
 ---
 
-## Parameter Zug
+## Gasschmelzschweißen / Autogenschweißen
+- wird nur noch selten genutzt
+- hohe Betriebskosten und geringe Produktivität
+- im Handwerk oder auf Baustellen aufgrund der geringen Anschaffungskosten im Einsatz
 
-Bruchdehnung
-  - bleibende Verlängerung der Zugprobe nach Bruch
-
-Bruchdehnung A11
-
-Streckgrenze
-  - Grenze bis zu der ein Werkstoff elastisch verformbar ist
-
-technische Elastiztätsgrenze
-  - $R_{0.2}$ bei Werkstoffen wo die Streckgrenze nicht ausgeprägt ist
-
-E Modul
-  - Proportialnalitätsfaktor zwischen Spannung und Dehnung
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/e/e3/Oxyfuel_gas_welding_operation-de.svg)
 
 ---
 
-Gleichmaßdehnung
-  - Probe dehnt sich gleichmäßig bis zur Maximalkraft
 
-Brucheinschnürrung $Z=\frac{\Delta A}{A_0}$
-  - ein Maß für die Duktilität eines Werkstoffs 
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Deroulement_rupture_ductile.svg/1920px-Deroulement_rupture_ductile.svg.png)
+## Widerstandspressschweißen
 
-Einschnürdehnung
-  - Probe dehnt sich nur noch in der Einschnürung
+- nutzt den elktrischen Widerstand zum heizen
+
+$Q= \int_0^{t_s} I^2 R dt = W_{elektrisch}$
+
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/5/5d/Spot_welding_1anim.gif)
+
+- oft bei Dünnblechen im Einsatz
+
+---
+## Besonderheiten des Verfahrens
+
+|Vorteile|  Nachteile |
+|---|---|
+|keine Nahtvorbereitung|  große Kerwirkung in einem Punkt |
+|kurze Schweißzeiten|  geringe Dauerfestigkeit |
+|gute Automatisierbarkeit| Kraftumlenkung infolge der Überlappungsverbindung  |
+|kleine Wärmeflusszonen| schlechte Prüfbarkeit  |
 
 ---
 
-## Parameter Druck
+## Reibschweißen
+- notwendige Wärme wird durch Reibung erzeugt
+- [rotierende](https://youtu.be/oO2xxweFl6A?si=UqGV7MPkqnBa7YEF&t=17) oder oszillierende Bewegung ([Ultraschallschweißen](https://youtu.be/Z4szktVnMLA?si=mta4acZfD2Q66tdt&t=13))
 
-Quetschgrenze
-  - Oberhalb der Grenze setzt plastische Verformung ein (duktiles Material)
-  - bei sprödem Material entstehen Risse und dann [Bruch](https://youtu.be/Fjgpvi8igbE?si=ptlpAR_vQfDV_qYW&t=36)
-
-Stabilität 
-  - Knicken
-  - [Beulen](https://www.youtube.com/watch?v=ZYfLLozCNbw)
-Verformungszonen einer gestauchten Probe (Abb3.16)
+- sehr gute Festigkeitseigenschaften
+- es bildet sich ein feinkristalines Gefüge aus
+- Ermüdungsverhalten ist gut
+- die konstruktive Gestaltung spielt bei Reibschweißbauteilen eine große Rolle
 
 ---
 
-## Druckverformung
+# Löten
+- ein Material wird aufgeschmolzen und verbindet die Werkstücke
 
-![bg left 80%](../assets/Figures/Verformungszonen_Druck.svg)
+Vorteile
+- Verbinden von verschiedenartigen Werkstoffen
+- Verbinden von Nichtmetallen
+- geringer Verzug und Wärmeeintrag
+- kein Aufschmelzen des Grundwerkstoffs
+- gute elektrische und Wärmeleitfähigkeit der Lötstellen
 
-I - geringe Verformung (Reibbehinderung)
-II - mäßige Zugverformung
-III - hohe Schubverformung
+---
+Nachteile
+- Korrosionsgefahr aufgrund der Potentialunterschiede zwischen Lot und Grundwerkstoff
+- Festigkeitseinbußen bei steigender Temperatur
 
 ---
 
-## Anisotrope Messungen
-Anisotropie
-- Messungen unter verschiedenen Winkeln
-
-Einflussgrößen
-  - Schlupf bei der Einspannung
-  - Temperatur
-  - Geometrie
-  - Probeneinspannung
----
-
-## Biegeversuch
-
-- in der Regel Flachproben mit einem Rechteckprofil 
-- meist besser für sprödes Material
-- Annahmen der Bernoulli Balkentheorie müssen gelten 
-- eher für spröde Werkstoffe
-
-$l>20*h$.
-
-$F$ - Prüfkraft
-
-$u$ - resultierende Verschiebung
-
-$a$ - Höhe des rechteckigen Profils
-
-$b$ - Breite des rechteckigen Profils
-
-$l_b$ - Länge der Probe
+- bis 450 °C: Weichlöten
+- ab 450 °C: Hartlöten
+- über 900 °C: Hochtemperaturlöten
+![bg right 80%](https://tse1.mm.bing.net/th?id=OIP.5afDTb3Ps_6IZ4dBOnbBbAHaE8&pid=Api)
 
 ---
 
-## 2 Punkt Biegeversuch
-![](../assets/Figures/kragbalken.svg)
-
-$E=\frac{4l_b^2 F}{ubh^3}$
-
----
-
-## 3 Punkt Biegeversuch
-
-![](../assets/Figures/3Punktbiege.svg)
-
-$E=\frac{l_b^3 F}{4ubh^3}$
+## Lote 
+- meist Legierungen und selten reine Metalle
+- Aufgabe die Grundwerkstoffe zu verbinden
+- Lotschmelztemperatur muss niedriger sein als vom Grundwerkstoff
+- wenigstens ein Legierungselement des Lots muss mit dem Grundwerkstoff einen Mischkristall bilden
+- das Lot muss in der Lage sein den Grundwerkstoff zu benetzen
 
 ---
 
-## 4 Punkt Biegeversuch
+## Verfahren
+[Kolbenlöten](https://youtu.be/Zyuvy_rMXcY?si=ZVhBF8cbG9LATCn-&t=5)
+[Induktionslöten](https://www.youtube.com/watch?v=ToJfdgbvodc)
+[Widerstandslöten](https://youtu.be/739HFTSdWT4?si=rWB0490lCOUIu5NQ)
+  - direkt: Strom fließt über die Lötstelle
+  - indirekt: Strom fließt nicht über die Lötstelle
 
-![](../assets/Figures/4Punktbiege.svg)
-
-Ziel ist ein querkraftfreier Bereich und daraus resultierend ein konstantes Biegemoment
-
-$E=\frac{l_a^2(2l_a+3l_b) F}{ubh^3}$; 
-
-$l_a$ Abstand zwischen Auflagepunkt und näher gelegenem Druckpunkt des Prüfstempels
-
+...
 
 ---
 
-## Spannungsverläufe
+# Kleben
+Kohäsion - Klebstoff muss genug Festigkeit haben
+Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 
-[Video](https://www.tec-science.com/wp-content/uploads/2021/03/de-animation-biegeversuch-spannungsverlauf-mit-verfestigung.mp4)
+![bg right 60%](https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/3/2/3/1/5/4/7/zersa_gte_rotorbla_tter_wea_recycling_c.jpg-c83f0d5959c06ce3.jpeg?org_if_sml=1&q=75&width=1600)
+![bg vertical 60%](https://sika.scene7.com/is/image/sika/glo-robot-adhesive-application-metal-profile?wid=1280&crop=0%2C1843%2C3735%2C3637)
 
+---
+## Vorteile
+- nahezu alle Werkstoffkombinationen können gefügt  werden;
+- flächigen Kraftübertragung erzeugt eine gleichmäßige Verteilung der Kräfte 
+- große Klebefläche => relativ hohe Kräfte können zwischen dünnen Fügeteile übertragen werden $\sigma = \frac{F}{A}$
+- elastischen Klebstoffe erlauben kleine Relativbewegungen der Fügepartner, z. B. können Fügeteildehnungen bei Temperaturschwankungen ausgeglichen und Schwingungen effektiv gedämpft werden
+- geringe oder keine Wärmebelastung
+- Fügetoleranzen können ausgeglichen werden
+- ...
 
-- Biegespannung 
-  - $\sigma_b = \frac{M_b}{I_{xx}y}$
-  - Spannungsnullinie
+---
+## Nachteile
+- in der Regel wird eine Sofortfestigkeit nicht erreicht
+-  je nach chemischer Basis eingeschränkte thermische und chemische Belastbarkeit/Beständigkeit
+- die mechanischen Eigenschaften sind temperaturabhängig;
+- z. T. eine gewisse Neigung zum Kriechen;
+- Klebungen altern
+- eine Wiederlösbarkeit der Verbindung ist häufig nicht ohne Beschädigung mindestens eines der Fügeteile möglich
+    
+---
 
-- ENF (End-Notched Flexure) Versuch nutzt die Spannungsnulllinie gezielt aus
+# Oberflächenbehandlung
 
-
-![](../assets/Figures/ENF.svg)
+- Oberfläche hat oft Verunreinigungen wie
+  - Staub, Metallabieb ~$10^4-10^5$nm
+  - Öle Fette ~$3$nm
+  - Reaktionsschichte  ~$1-10$nm
+  - Grundwerkstoff mit verändertem Gefüge
+- Reinigen erfolgt
+  - chemisch
+  - mechanisch
+  - entfetten
 
 ---
 
-## Dauerschwingversuch nach Wöhler
-- Versuchsaufbau
-  - Biegeversuch
-  - Torsionsversuch
-  - Zug-/Druckversuch
-
-![](../assets/Figures/Whoehlerversuch.svg)
-
----
-
-## Dauerschwingversuch nach Wöhler
-Einflussgrößen
-- Temperatur
-- Korossive Medien
-- Kerben
-- Oberflächenbeschaffenheit
-  - glatte Oberflächen sind günstiger
-- Wärmebehandlung
-
----
-
-## Strukturermüdungsversuch
-
-[Video](https://youtu.be/BOpBzKanX9k?si=icWRiGPNs-8H9qXo)
-
-
-<details>
-<summary>Herausforderungen?</summary>
-<div>
-
-- repräsentative Lasten
-- Erwärmung durch zu schnelle Belastung
-- die Reihenfolge der Lasten beeinflusst die Lebensdauer
-
-</div>
-</details>
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Wichtige%2C_bei_der_Klebstoffauswahl_zu_ber%C3%BCcksichtigende_Kriterien.jpg)
 
 
 ---
 
-## Kerbschlagbiegeversuch
+## Prüfung
 
-- Bestimmung der Kerbschlagenergie und  Kerbschlagzähigkeit $\frac{E}{A_{Nenn}}$
-  - hat keine technische Bedeutung mehr
-- Energie ist ausreichend für die Bestimmung der Werkstoffgüte
-- Aufteilung in Hochlage (Verformugsbrüche, duktile), Tieflage (Trennbrüche, Sprödbruch) und Bereich des Steilabfalls (Mischbrüche)
-- Kennwerte zur Bestimmung der Festigkeit nicht geeignet
+- Kleben ist ein sogenannter „spezieller Prozess“, d. h. eine Prüfung ist nicht vollständig durch zerstörungsfreie Methoden realisierbar
+- Sicherheit durch robusten und reproduzierbaren Klebprozess
 
-
-[Versuch](https://youtu.be/mpUdV2WHiEE?si=5jwBppXbsEsnqHsc&t=86)
-
-[Erklärvideo](https://www.youtube.com/watch?v=Ll69bzegoNY)
+- Kissing Bonds
 
 ---
 
-## Weitere Versuche
+- Reaktionsauslösung ist abhängig vom Klebstoff
+  - Temperatur, Zugabe eines Härters, Feuchtigkeit, Strahlung, ...
+- Automatisierung über [Roboter](https://youtu.be/bUEh0yOhT4Q?si=oU1Cp_FsMz--FWND) möglich
 
-- Berstversuche
-- Scherversuche
-- Ausziehversuch
-- Korrosionsversuche
-- Brennproben
+---
+# Fügen durch Umformen
+- Vorteile
+  - kein Wärmeeintrag
+  - große Vielfallt bei den Werkstoffen/-kombinationen
+  - gute ökologische Vertrgälichkeit
+  - einfache Qualitätskontrolle
+  - hohe Wirtschaftlichkeit
+
+- Nachteile
+  - kaum Normungen 
+  - punktförmige Verbindung
+
+---
+## Verfahren
+- Bördeln
+- Falzen
+- Verlappen
+![](https://upload.wikimedia.org/wikipedia/commons/1/1a/Verlappen.jpg)
 
 ---
 
-## Härteprüfung
-
-- Probe oder Bauteil wird nicht vollständig zerstört
-- Bedingt zerstörungsfreie Werkstoffprüfung
-- am verbreitesten Rockwell (HR), Brinell, Vickers und Shore
-- Härteeigschaften der Bauteiloberfläche beeinflussen die Ermüdung und den Verschleiß
-
----
-
-## Rockwell
-
-- die Eindringtiefe $t$ mit verschiedenen normierten Prüfkörpern vermessen
-- Ablauf der Messung ist vorgeben
-
-$\text{Rockwellh\"arte}=a-\frac{t}{d}$
-- Skalen A, C, D; $a=100$, $d=0.002mm$
-- Skalen B, E-H, K; $a=130$, $d=0.002mm$
-- Skalen N, T; $a=100$, $d=0.001mm$
-
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Duret%C3%A9_rockwell.svg/1920px-Duret%C3%A9_rockwell.svg.png)
-
----
-
-## Brinell
-
-- mit einer Hartmetallkugel wird mit einer festgelegten Kraft auf die Oberfläche gedrückt
-
-- wird ein mittlere Durchmesser bestimmt 
-
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/BrinellHardness.svg/1024px-BrinellHardness.svg.png)
-
-$\text{Brinellh\"arte}=\frac{0.204F}{\pi D \sqrt{D-\sqrt{D^2-d^2}}}$
-mit $d=\frac{d_1+d_2}{2}$
+# Durchsetzfügen
+![](https://upload.wikimedia.org/wikipedia/commons/a/ae/Durchsetzf%C3%BCgen_zweier_Bleche_als_2D-Animation_und_Stufensetzfolge.gif)
 
 
 ---
+## Stanznieten / Niet
 
-## Vickers
-- ähnlich zu Brinell, aber es wird statt einer Kugel eine gleichseitige Diamantpyramide verwendet
-- kleinere Fläche nötig gegenüber Brinell
-![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Vickers-path-2.svg/1024px-Vickers-path-2.svg.png)
 
-$\text{Vickersh\"arte}=\frac{0.204F\cos 22°}{d^2}$
+![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/f/f4/Rivet.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/d/d8/Popnagel.gif)
 
-mit $d=\frac{d_1+d_2}{2}$
+---
+![bg 95%](https://p0.pikist.com/photos/541/785/industry-technology-airplane-transportation-system-vehicle-rivets.jpg)
+
+![bg 60%](https://upload.wikimedia.org/wikipedia/commons/0/09/Nieten_Hohenzollernbr%C3%BCcke_K%C3%B6ln_03.jpg)
+
+---
+
+
+**Referenzen**
+Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
+
