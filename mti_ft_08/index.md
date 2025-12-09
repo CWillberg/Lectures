@@ -2,10 +2,10 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Trennen & Fügen'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: MTI - Fertigungstechnik - Trennen
+title: MTI - Fertigungstechnik - Trennen & Fügen
 author: Christian Willberg
 ---
 
@@ -26,7 +26,7 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung MTI - Trennen
+## Vorlesung MTI - Trennen & Fügen
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/9/90/SchlichtenDrehen.jpg)

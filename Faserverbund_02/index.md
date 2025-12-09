@@ -27,7 +27,7 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung Faserverbunde - Plattenlösung
+## Vorlesung Faserverbunde - Kirchhoffsche Plattentheorie
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](../assets/Figures/crack.jpg)
@@ -39,10 +39,57 @@ Kontakt: christian.willberg@h2.de
 </div>
 
 ---
+# Kirchhoffsche Plattentheorie
+## [Annahmen](https://link.springer.com/chapter/10.1007/978-3-662-65613-6_7)
 
+Wir nehmen linear-elastisches Materialverhalten an und unterstellen, dass das Hookesche Gesetz uneingeschränkt gültig ist. Wir wollen in allen weiteren Ausführungen von orthotropen Platten ausgehen, wobei die Materialhauptrichtungen mit den Bezugsachsen x, y und z zusammenfallen. Der betrachtete Werkstoff sei homogen.
+
+---
+## Annahmen
+
+Wir wollen annehmen, dass der Querschnitt der Platte auch im verformten Zustand eben bleibt und damit keinerlei Querschnittsverwölbungen auftreten. Dies entspricht der Hypothese vom Ebenbleiben der Querschnitte, wie sie auch beim Euler-Bernoulli-Balken verwendet wird.
+
+---
+## Annahmen
+
+Wir nehmen darüber hinaus an, dass der Querschnitt auch im verformten Zustand senkrecht zur Mittelebene der Platte steht. Dies wird als sog. Normalenhypothese bezeichnet.
+
+---
+## Annahmen
+
+Wir unterstellen geometrische Linearität und nehmen daher an, dass die Verformungen klein sind gegenüber den Abmessungen der Platte.
+
+
+---
+
+## Annahmen
+
+Die Normalspannung $\sigma_{zz}$ in Dickenrichtung der Platte wird als vernachlässigbar klein angenommen. Es gilt somit ein ebener Spannungszustand in der Platte, die beiden transversalen Schubspannungen $\tau_{xz}$ und $\tau_{yz}$ lassen sich nicht aus konstitutiven Beziehungen bestimmen, sondern müssen in einer Nachlaufrechnung aus Gleichgewichtsbetrachtungen ermittelt werden.
+
+---
+
+## Annahmen
+
+Die Dicke der Platte ändere sich auch im verformten Zustand nicht.
+
+
+![bg right fit](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-662-65613-6_7/MediaObjects/531511_1_De_7_Fig2_HTML.png?as=webp)
+
+---
+
+![bg fit](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-662-65613-6_7/MediaObjects/531511_1_De_7_Fig3_HTML.png?as=webp)
+
+---
 
 # Plattenlösung
 ## Fest-Los-Frei-Frei Platte
+
+
+---
+
+## Koordinaten 
+
+![bg right fit](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-662-65613-6_7/MediaObjects/531511_1_De_7_Fig1_HTML.png?as=webp)
 
 ---
 

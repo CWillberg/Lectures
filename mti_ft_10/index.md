@@ -2,10 +2,10 @@
 marp: true
 
 theme: default
-header: ''
+header: 'Korrosion & Beschichtung'
 footer: ''
 backgroundImage: url('../assets/styles/background.png')
-title: MTI - Korrosion
+title: MTI - Korrosion & Beschichtung'
 author: Christian Willberg
 ---
 
@@ -44,7 +44,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 # Inhalte
 
-![bg right 70%](../assets/QR/mti_ft_06.png)
+![bg right 70%](../assets/QR/mti_ft_10.png)
 
 ---
 
@@ -239,14 +239,6 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 - ...
 ---
 
-## Korrosionsschutz 
-
-- unterscheidbar zwischen passivem und aktivem Schutz
-- passiv: Trennung von Metall und Elektrolyt / korrosivem Medium
-- aktiv: vollständige Trennung ist nicht notwendig
-
----
-
 ## Korrosionsschutz
 
 - Erarbeiten in Kleingruppen 10 Minuten - 15 Minuten Recherche
@@ -256,5 +248,62 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 - kurze Vorstellung der Ergebnisse (Ruhig Tafel nutzen)
   - wesentliches "take away"
 
-Übertragen in Moodle 
+---
+
+# Beschichten
+
+---
+
+# Definition
+Unter [Beschichten](https://de.wikipedia.org/wiki/Beschichten) (englisch coating) ist das Aufbringen einer festhaftenden Schicht aus formlosem Stoff auf die Oberfläche eines Werkstückes. 
+
+
+---
+## Ziele?
+
+
+---
+
+- Abnutzung reduzieren
+- fehlenden Werkstoff ergänzen
+- Erzeugen bestimmter Oberflächeneigenschaften
+
+---
+
+## Verfahrensgruppen
+
+Unterscheidbar nahc Ausgangszustand des Beschichtungsmaterials
+
+
+| Zustand   | Verfahren                             |
+|-----------|---------------------------------------|
+| Gasförmig | Chemische Gasphasenabscheidung, ...   |
+| Flüssig   | Lackieren, Bemalen, Emailieren, ...   |
+| Gelöst    | Galvanisieren, Verzinken, Chromatieren, ... |
+| Fest      | Plasma-Pulver-Auftragsschweißen, Pulverbeschichten, ... |
+
+---
+# Lackieren
+- mit Pinseln, Walzen oder Spritzen aufgetragen
+
+[Video](https://youtu.be/LHXEeSr0KAE?si=TTXSMoCSz_0ZH8a7&t=18)
+
+---
+
+## Auftragsschweißen
+- Schweißraupe wird auf der Oberfläche angebunden 
+
+Auftragsfläche
+
+
+$\gamma = \frac{A_E}{A_E+A_A}100\%$
+$\gamma$ sollte möglichst klein sein -> Einbrandtiefe $t$ und Einbrandfläche $A_E$ sind klein
+
+[Video](https://youtu.be/a4WS1jHU6Ro?si=MCKOjTt7vIibOec6&t=30)
+
+
+---
+
+**Referenzen**
+Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
 
