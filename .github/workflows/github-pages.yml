@@ -101,7 +101,7 @@ jobs:
       - name: Build Marp slide deck
         run: CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') FOLDER=${{ matrix.folder }} npm run build
         env:
-          PUPPETEER_TIMEOUT: 160000
+          PUPPETEER_TIMEOUT: 16000000
       
       - run: ls -R public
       

@@ -1,5 +1,5 @@
 allowLocalFiles: true
-puppeteerTimeout: 1420000
+puppeteerTimeout: 142000000
 puppeteerLaunchArgs:
   - "--no-sandbox"
   - "--disable-setuid-sandbox"
