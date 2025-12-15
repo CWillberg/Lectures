@@ -57,6 +57,7 @@ Kontakt: christian.willberg@h2.de
 - V7 Elasto-Statik des Mehrschichtenverbunds 
     - Klassische Laminattheorie
     - Darstellung und Auswahl von Laminaten
+- S3 / S4 / V16 Ableitung von Profilkennwerten und Ersatzsteifigkeiten für Balken
 - V8/S2 Modellierung in FEM
 - V9 Festigkeitsnalayse
 - V10 Bruchanalyse
