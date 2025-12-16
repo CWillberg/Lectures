@@ -260,8 +260,13 @@ $l_a$ Abstand zwischen Auflagepunkt und näher gelegenem Druckpunkt des Prüfste
 
 ## Spannungsverläufe
 
+
+<br/>
+<iframe width="1150" height="500" src="https://www.tec-science.com/wp-content/uploads/2021/03/de-animation-biegeversuch-spannungsverlauf-mit-verfestigung.mp4)" title="Spannungsverlauf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 [Video](https://www.tec-science.com/wp-content/uploads/2021/03/de-animation-biegeversuch-spannungsverlauf-mit-verfestigung.mp4)
 
+---
 
 - Biegespannung 
   - $\sigma_b = \frac{M_b}{I_{xx}y}$
@@ -297,7 +302,11 @@ Einflussgrößen
 
 ## Strukturermüdungsversuch
 
-[Video](https://youtu.be/BOpBzKanX9k?si=icWRiGPNs-8H9qXo)
+<br/>
+<iframe width="1150" height="500" src="https://youtu.be/BOpBzKanX9k?si=icWRiGPNs-8H9qXo)" title="Schwingversuch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+---
 
 
 <details>
