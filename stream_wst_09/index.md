@@ -81,7 +81,7 @@ Certain characteristic values or statements about a material or component can on
 ---
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/Bgsi3AK1ju4?si=fo49oLmLtqpfctKC&t=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/Bgsi3AK1ju4?si=fo49oLmLtqpfctKC&start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -227,10 +227,9 @@ $l_b$ - length of specimen
 ## Stress Distributions
 
 <br/>
-<iframe width="1150" height="500" src="https://www.tec-science.com/wp-content/uploads/2021/03/de-animation-biegeversuch-spannungsverlauf-mit-verfestigung.mp4)" title="Stress distribution" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.tec-science.com/wp-content/uploads/2021/03/de-animation-biegeversuch-spannungsverlauf-mit-verfestigung.mp4" title="Stress distribution" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [Video](https://www.tec-science.com/wp-content/uploads/2021/03/de-animation-biegeversuch-spannungsverlauf-mit-verfestigung.mp4)
-
 
 ---
 
@@ -248,7 +247,6 @@ $E=\frac{4l_b^2 F}{ubh^3}$
 $E=\frac{l_b^3 F}{4ubh^3}$
 
 ---
-
 
 - Bending stress
   - $\sigma_b = \frac{M_b}{I_{xx}y}$
@@ -270,15 +268,12 @@ $E=\frac{l_a^2(2l_a+3l_b) F}{ubh^3}$
 
 $l_a$ distance between support point and closer loading point of test stamp
 
-
 ---
 
 ## 4-Point Bending Test
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/dbawcyjAhSI?si=xmV3UskSfoAtHWHr&t=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/dbawcyjAhSI?si=xmV3UskSfoAtHWHr&start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -306,7 +301,7 @@ Influencing factors
 ## Structural Fatigue Test
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/BOpBzKanX9k?si=icWRiGPNs-8H9qXo)" title="Fatigue test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/BOpBzKanX9k?si=icWRiGPNs-8H9qXo" title="Fatigue test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -331,13 +326,12 @@ Influencing factors
 - division into upper shelf (ductile fractures), lower shelf (brittle fractures) and transition region (mixed fractures)
 - characteristic values not suitable for strength determination
 
-
 [Explanatory video](https://www.youtube.com/watch?v=Ll69bzegoNY)
 
 ---
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/mpUdV2WHiEE?si=awHiYewGCgCgebhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/https://youtu.be/mpUdV2WHiEE?si=mKX8pxU3yLiWXwyp&start=86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
