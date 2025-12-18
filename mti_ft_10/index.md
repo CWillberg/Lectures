@@ -27,10 +27,10 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung MTI - Korrosion
+## Vorlesung MTI - Korrosion & Beschichtung
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+![bg right 70%](../assets/QR/mti_ft_10.png)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -44,7 +44,10 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 # Inhalte
 
-![bg right 70%](../assets/QR/mti_ft_10.png)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rost.jpg/1920px-Rost.jpg)
+
+- physikalische Prinzipien
+- Umgang mit Korrosion
 
 ---
 
@@ -251,10 +254,9 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 ---
 
 # Beschichten
+## Definition
+![bg right](https://quantec-industrieboden.de/wp-content/themes/emk_publisher/img_system/quantec/beschichtung_hover.png)
 
----
-
-# Definition
 Unter [Beschichten](https://de.wikipedia.org/wiki/Beschichten) (englisch coating) ist das Aufbringen einer festhaftenden Schicht aus formlosem Stoff auf die Oberfläche eines Werkstückes. 
 
 
@@ -265,6 +267,7 @@ Unter [Beschichten](https://de.wikipedia.org/wiki/Beschichten) (englisch coating
 ---
 
 - Abnutzung reduzieren
+- Korrosionsschutz
 - fehlenden Werkstoff ergänzen
 - Erzeugen bestimmter Oberflächeneigenschaften
 
@@ -284,9 +287,12 @@ Unterscheidbar nahc Ausgangszustand des Beschichtungsmaterials
 
 ---
 # Lackieren
-- mit Pinseln, Walzen oder Spritzen aufgetragen
 
-[Video](https://youtu.be/LHXEeSr0KAE?si=TTXSMoCSz_0ZH8a7&t=18)
+
+<br/>
+<iframe width="1150" height="500" src="https://youtu.be/GF6CwvIX1h8?si=rpJH6JIlg0eboSeh&t=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- mit Pinseln, Walzen oder Spritzen aufgetragen
 
 ---
 
@@ -299,8 +305,12 @@ Auftragsfläche
 $\gamma = \frac{A_E}{A_E+A_A}100\%$
 $\gamma$ sollte möglichst klein sein -> Einbrandtiefe $t$ und Einbrandfläche $A_E$ sind klein
 
-[Video](https://youtu.be/a4WS1jHU6Ro?si=MCKOjTt7vIibOec6&t=30)
 
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://youtu.be/a4WS1jHU6Ro?si=MCKOjTt7vIibOec6&t=30 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 

@@ -49,7 +49,11 @@ Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeu
 - Zerlegen
 - Reinigen
 
-[Video](https://www.youtube.com/watch?v=IU7ehp13Z_g)
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=IU7ehp13Z_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -164,24 +168,55 @@ Fließspan
 
 ![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/1/1e/L%C3%A4ngs-Rund-Drehen.jpg)
 
-Beispiele:
-- [Plandrehen](https://youtu.be/wgAtc0SO6w4?si=r3dGA3LIZFiTZL20&t=21)
-- [Runddrehen](https://youtu.be/fdmUd8COMMg?si=b2viuz3RjqYitQ78&t=235)
-- [Schrauben-/Gewindedrehen](https://www.youtube.com/watch?v=zjk7yxzr738)
+---
+
+
+
+## Plandrehen
+
+<br/>
+<iframe width="1150" height="500" src="https://youtu.be/GF6CwvIX1h8?si=rpJH6JIlg0eboSeh&t=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## Runddrehen
+
+<br/>
+<iframe width="1150" height="500" src="https://youtu.be/19HyuH1zD8s?si=hKrbkAnHk4nspFZA&t=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## Schrauben-/Gewindedrehen
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=D9lYGt-nL4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## Fräsen
 
-  - [Planfräsen](https://youtu.be/BwHmSzoK1Dw?si=2Q-QyCl42fkCI7Rq&t=98)
-![bg 90%](https://upload.wikimedia.org/wikipedia/commons/4/43/Fraisage_surfacage.svg)
+<br/>
+<iframe width="350" height="500" src="https://youtube.com/shorts/6rbNRCL8myM?si=RGg3pBinUqBhCVWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+![bg 90% right](https://upload.wikimedia.org/wikipedia/commons/4/43/Fraisage_surfacage.svg)
+
+
+---
 
 ## Bohren
 
+<br/>
+<iframe width="350" height="500" src="https://www.youtube.com/shorts/dZ4zmaVDW48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ![bg right](http://www.matthiashertel.de/Technologien/Bohren/Bohren.jpg)
 
-[Bohren](https://youtu.be/JMKbxZoRUf8?si=JKnEgIw14P_bB168&t=77)
-[Gewindebohren](https://youtu.be/JMKbxZoRUf8?si=JQ27gWtdkdEEwh0j&t=293)
+---
+
+## Gewindebohren
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/shorts/L6-CiLS45NY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -222,9 +257,10 @@ Harte Schleifwerkzeuge für
 
 ---
 
-[Trennprozesse sind verschaltbar](https://www.youtube.com/watch?v=hmmXmKqP7B4)
+## Trennprozesse sind verschaltbar
 
-
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=hmmXmKqP7B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ---
@@ -300,8 +336,6 @@ mechanisch
 
 ## Definition
 Fügen ist das Zusammenbringen von verschiedenen Werkstücken (Bauelementen) geometrisch bestimmter fester Form oder von ebensolchen Werkstücken mit formlosem Stoff- oder Verbindungselementen. Dabei wird der Zusammenhalt zwischen den Elementen jeweils örtlich geschaffen oder vermehrt.
-
-![bg right 70%](../assets/QR/mti_ft_12.png)
 
 ---
 
