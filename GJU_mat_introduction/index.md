@@ -1,9 +1,9 @@
 ---
 marp: true
-theme: default
+theme: h2
 header: 'Introduction to IE  - overview about materials in Germany'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Introduction to IE  - overview about materials in Germany
 author: Christian Willberg
 ---

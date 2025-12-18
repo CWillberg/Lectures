@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Struktur der Werkstoffe'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title:  Vorlesung Werkstofftechnik - Struktur der Werkstoffe
 
 author: Christian Willberg

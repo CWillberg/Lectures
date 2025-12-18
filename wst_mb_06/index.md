@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Eisen-Kohlenstoff-Diagramm'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Eisen-Kohlenstoff Diagramm
 author: Christian Willberg
 ---

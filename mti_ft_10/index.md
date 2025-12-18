@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Korrosion & Beschichtung'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: MTI - Korrosion & Beschichtung'
 author: Christian Willberg
 ---

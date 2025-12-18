@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: default
+theme: h2
 paginate: true
 math: katex
 ---

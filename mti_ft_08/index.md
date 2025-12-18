@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Trennen & Fügen'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: MTI - Fertigungstechnik - Trennen & Fügen
 author: Christian Willberg
 ---

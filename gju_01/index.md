@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'GJU - Lecture on Structures of materials'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Structure of materials
 author: Christian Willberg
 ---

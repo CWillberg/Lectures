@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Peridynamics Research'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title:  Non-local structural mechanics and Peridynamics
 
 author: Christian Willberg

@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Werkstoffprüfung'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: MTI - Werkstoffprüfung
 author: Christian Willberg
 ---

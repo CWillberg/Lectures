@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: ''
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Materials-and-Production-Engineering-Lecture Material Testing
 author: Christian Willberg
 ---
@@ -66,13 +66,6 @@ What are models, and why do we need them?
 
 ![bg fit 60%](../assets/Figures/KIC.png)
 
----
-
-![forged part](https://perilab-results.nimbus-extern.dlr.de/models/ForgedCT?step=65&variable=von%20Mises%20Stress&displFactor=20)
-
----
-
-![bg fit 60%](../assets/Figures/FEM.png)
 
 ---
 

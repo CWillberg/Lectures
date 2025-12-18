@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: ''
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Materials-and-Production-Engineering-Lecture  Non-iron materials
 author: Christian Willberg
 ---

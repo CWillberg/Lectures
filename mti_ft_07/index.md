@@ -1,21 +1,14 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: ''
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
 title: MTI - Ermüdung und Verschleiß
 author: Christian Willberg
+
 ---
 
-<style>
-footer {
-  font-size: 14px;
-  color: #888;
-  text-align: right;
-}
-</style>
 
 ## Ermüdung und Verschleiß
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>

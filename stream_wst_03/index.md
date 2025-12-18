@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Real Structures and Properties'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Real Structures and Properties
 author: Christian Willberg
 ---

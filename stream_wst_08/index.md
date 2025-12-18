@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Fatigue and Wear'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Fatigue and Wear
 author: Christian Willberg
 ---
@@ -102,7 +102,7 @@ After this lecture, you will be able to:
 
 - Typically occurs under cyclic loading
   - **Isothermal mechanical fatigue**
-    - [Oscillating load](https://www.youtube.com/watch?v=_qVXkAWtH60)
+    - Oscillating load
     - Aircraft fuselages (pressure build-up and release)
   - **Thermal fatigue**
     - Furnaces, heating elements
@@ -113,6 +113,14 @@ After this lecture, you will be able to:
 
 ---
 
+
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=_qVXkAWtH60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+---
 
 
 ![bg 60%](https://leichtbau.dlr.de/wp-content/uploads/2021/11/Abbildung-2_Innovationsbericht_Wasserstofftank_CG06.png)
@@ -633,9 +641,8 @@ Where:
 
 ---
 
-## Cavitation - Physical Background
+# Cavitation - Physical Background
 
-[Video](https://www.youtube.com/watch?v=J0H0Nw44oA4)
 
 <details>
 <summary>Physical cause?</summary>
@@ -649,6 +656,16 @@ Where:
 - → Pressure and temperature peaks occur (up to 1000 bar!)
 </div>
 </details>
+
+
+---
+
+
+# Cavitation - Physical Background
+
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=J0H0Nw44oA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -811,7 +828,6 @@ Where:
 **Contact:**
 christian.willberg@h2.de
 
-**Office hours:** By appointment
 
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)

@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Umformen'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: MTI - Fertigungstechnik
 author: Christian Willberg
 ---

@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: ''
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Vorlesung Grundlagen Maschinenbau - Werkstofftechnik
 author: Christian Willberg
 ---

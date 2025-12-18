@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Nicht Eisen Werkstoffe'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: MTI - Fertigungstechnik - Nicht Eisen Werkstoffe
 author: Christian Willberg
 ---

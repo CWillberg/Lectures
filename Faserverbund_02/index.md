@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Einleitung'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Vorlesung Faserverbunde
 author: Christian Willberg
 ---

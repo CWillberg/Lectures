@@ -1,9 +1,9 @@
 ---
 marp: true
-theme: default
+theme: h2
 header: ''
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Lecture Alloy Formation
 author: Christian Willberg
 ---

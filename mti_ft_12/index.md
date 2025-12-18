@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Wiederholung'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: MTI - Wiederholung
 author: Christian Willberg
 ---

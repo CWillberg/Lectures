@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Iron-Carbon Diagram'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Lecture Phases and Microstructure in the Iron-Carbon System
 author: Christian Willberg
 ---

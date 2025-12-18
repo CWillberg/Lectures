@@ -1,10 +1,10 @@
 ---
 marp: true
 
-theme: default
+theme: h2
 header: 'Ermüdung und Verschleiß'
 footer: ''
-backgroundImage: url('../assets/styles/background.png')
+
 title: Ermüdung und Verschleiß
 author: Christian Willberg
 ---
