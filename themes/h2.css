@@ -195,3 +195,10 @@ img[alt~="center"] {
   margin: 0 auto;
   background-color: transparent !important;
 }
+.katex {
+  font-size: 1.0em;
+}
+
+.katex-display {
+  font-size: 1.0em;
+}
