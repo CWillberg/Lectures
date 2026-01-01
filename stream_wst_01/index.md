@@ -326,6 +326,7 @@ $\varepsilon_v = \frac{\Delta V}{V_0} = \varepsilon_1 + \varepsilon_2 + \varepsi
     <a href="https://doi.org/10.3390/en14092451" style="color: blue;">Image reference</a>
 </div>
 
+
 ---
 
 ## Viscous Behavior
@@ -336,6 +337,7 @@ $\varepsilon_v = \frac{\Delta V}{V_0} = \varepsilon_1 + \varepsilon_2 + \varepsi
 Spring model $\sigma = E\epsilon$
  - Elastic component
  - Represented by spring elements
+
 <div style="position: absolute; bottom: -10px; left: 500px; color: blue; font-size: 20px;"> 
     <img src="../assets/Figures/spring.svg" alt="Presentation link" style="height:550px;width:auto;vertical-align: top;background-color:transparent;">
 </div>
@@ -348,13 +350,23 @@ Damper $\sigma = \eta\dot{\epsilon}=\eta\frac{\partial \epsilon}{\partial t}$
 - Viscous component
 - Represented by damper elements
 
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/4/44/Viscosities.gif)
+
+
 ---
+
+## Resulting properties
 
 - Fast loading -> behavior is elastic
 - Slow loading -> material flows
 - [Fast loading](https://en.wikipedia.org/wiki/File:Sillyputty.ogv)
 
 ![bg right:30% fit](https://upload.wikimedia.org/wikipedia/commons/f/f3/Silly_putty_dripping.jpg)
+
+
+
+<br/>
+<iframe width="150" height="150" src="https://en.wikipedia.org/wiki/File:Sillyputty.ogv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 

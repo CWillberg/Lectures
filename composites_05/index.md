@@ -324,4 +324,227 @@ Faserkunststoffverbunde", Dissertation, 2020
 ---
 
 # Homogenisierung von Steifigkeiten
+- Steifigkeiten von Fasern und Matrix sind extrem unterschiedlich
+- für die BErechnung komplexer Strukturen ist die Berücksichtigung einzelner Fasern zu aufwändig $\rightarrow$ Einzelschicht wird als homogenes Kontinuum modelliert
+- globales Verhalten soll hinreichend genau beschrieben werden
+- Modellierung örtlicher (lokaler) Aspekte wird vernachlässigt, z.B Verwölbung am freien Rand
 
+---
+## Allgemeine Regeln
+- E Modul in Faserrichtung $E_L$ und Querkontraktionszahl $\nu_{LT}$: parallel geschaltete Feder 
+$\rightarrow$ Mischungsregel für Steifigkeiten
+
+- E Modul in Querrichtung $E_T$, Schubmodul $G_{LT}$ und Querkontraktionszahl $\nu_{TT}$: in Reihe geschaltete Feder 
+$\rightarrow$ Mischungsregel für Nachgiebigkeiten
+
+
+
+![bg right 70%](../assets/Figures/FKV/homogenisierung.png)
+
+---
+
+Korrektur erforderlich, weil Steifigkeit der Faser unter Belastung in Querrichtung nur zum Teil wirksam ist
+
+![bg right 70%](../assets/Figures/FKV/homogenisierung.png)
+
+---
+
+# Formeln für isotrope Fasern
+
+
+$\begin{array}{ll}
+\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
+E_f & E_m\\
+\nu_f & \nu_m\\
+\text{\textbf{Faservolumengehalt}} &\phi\\
+\\
+\text{\textbf{E-Modul in Faserrichtung}}\\
+E_L=\phi E_f+(1-\phi)E_m & \text{Mischungsregel}\\
+\text{\textbf{Querkontraktionszahl}}\\
+\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m &\text{Mischungsregel}\\
+\text{\textbf{E-Modul in Querrichtung}}\\
+1/E_T\approx \phi/E_f + (1-\phi)/E_m &\text{Mischungsregel für Nachgiebigkeit}
+\end{array}
+$
+Korrektur erforderlich; entsprechend auch für $G_{LT} und Qerkontraktionszahl $\nu_{TT}$
+
+---
+
+# Korrigierte $E_T$ Werte für isotrope Fasern
+Es existieren viele verschiedene Ansätze - keiner mit Anspruch auf Allgemeingültigkeit
+**Beispiele**
+$\begin{array}{ll}
+\text{\textbf{Puck}}    & E_T = \frac{(1+0.85\phi^2)E_m}{\phi E_m/E_f+(1-\phi)^{1.25}}\\
+\text{\textbf{Tsai, Hahn, Wu}} & E_T=\frac{\phi+0.5(1-\phi)}{\phi/E_f+0.5(1-\phi)/E_m}\\
+\text{\textbf{Geier}} & E_T=\frac{E_fE_m}{\phi/E_m+(1-\overline{\phi}E_f)}\qquad\text{mit}\qquad \overline{\phi}=\phi+\zeta\phi(1-\phi);\zeta\approx 0.6\\
+\text{\textbf{Chamis}} & E_T=E_m/[1-\sqrt\phi(1-E_m/E_f)]
+\end{array}
+$
+
+
+
+---
+
+# Korrigierte $G_{LT}$ Werte für isotrope Fasern
+
+Ansätz entsprechen dem Vorgehen bei der Bestimmung von $E_T$
+
+**Beispiele**
+$\begin{array}{ll}
+\text{\textbf{Puck}}    & G_{LT} = \frac{(1+0.6\sqrt\phi)G_m}{\phi G_m/G_f+(1-\phi)^{1.25}}\\
+\text{\textbf{Tsai, Hahn, Wu}} & G_{LT}=\frac{\phi+0.5(1-\phi)}{\phi/G_f+0.5(1-\phi)/G_m}\\
+\text{\textbf{Geier}} & G_{LT}=\frac{G_fG_m}{\phi/G_m+(1-\overline{\phi}G_f)}\qquad\text{mit}\qquad \overline{\phi}?\phi+\zeta\phi(1-\phi);\zeta\approx 0.6\\
+\text{\textbf{Chamis}} & G_{LT}=G_m/[1-\sqrt\phi(1-G_m/G_f)]
+\end{array}
+$
+
+---
+
+# Anwendung der Homogenisierungsformeln
+**Problem der Kennwertbestimmung**
+- nur wenige Faserkennwerte können direkt im Versuch bestimmt werden
+- insbesondere in Querrichtung und unter Schubbelastung lassen sich Einzelfasern kaum testen
+- die Formeln zur Homogenisierung der Steifigkeiten sind für zwei unterschiedliche Aufgaben sinnvoll:
+   - Bestimmung der Faserwerte aus Messungen an UD_Schichten und Reinharzproben (Inverse Anwendung)
+   - Umrechnung der Laminateigenschaften bei geändertem Faservolumenanteil
+
+---
+
+# Beispiel zur Anwendung der Homogenisierungsformeln
+E_Glasfasern als UD-Verstärkungen in Epoxidharzmatrix eingebettet
+Messungen am Verbund und am Reinharz durchgeführt
+
+$\begin{array}{ll}
+\text{\textbf{Verbundwerte}}    & \text{\textbf{Reinharzwerte}} \\
+E_L=45GPA & E_m=3.3GPa\\
+E_T=12GPa&\nu_m=0.3\\
+G_{LT}=4.4GPa & G_m=\frac{E_m}{2(1+\nu_m)}=1.27GPa\\
+\nu_{LT}=0.25\\
+\nu_{TT}=0.25\\
+\phi=0.6
+\end{array}
+$
+
+---
+
+## Inverse Anwendung
+
+$E_L=\phi E_f+(1-\phi)E_m$
+
+$E_f=(E_l-(1-\phi)E_m)/\phi=72.8GPa$
+
+$\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m$
+
+$\nu_{LT}=0.217$$
+
+da isotrope Faser
+$G_f=\frac{E_f}{2(1+\nu_f)}$
+$G_f=29.91GPa$
+
+---
+## Umrechnung der Laminatwerte
+
+$\phi = 0.6 \rightarrow \phi = 0.5 ?$
+
+mit den bestimmten Werten für die Fasern $E_f$ und $\nu_f$ in den folgenden Gleichungen $\phi=0.5$ einsetzen
+
+$E_L=\phi E_f+(1-\phi)E_m=38GPa$
+
+$\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m=0.258$
+
+---
+## Umrechnung der Laminatwerte
+**In Querrichtung sind Laminatwerte nicht eindeutig**
+
+aus Puck
+$E_T = \frac{(1+0.85\phi^2)E_m}{\phi E_m/E_f+(1-\phi)^{1.25}}$
+
+$E_T = 9.03GPa$
+
+aus Geier
+$E_T=\frac{E_fE_m}{\phi/E_m+(1-\overline{\phi}E_f)}\qquad\text{mit}\qquad \overline{\phi}=\phi+\zeta\phi(1-\phi);\zeta\approx 0.6$
+$E_T = 8.7GPa$
+
+
+---
+
+## Umrechnung der Laminatwerte
+aus Tsai, Hahn, Wu
+$E_T=\frac{\phi+0.5(1-\phi)}{\phi/E_f+0.5(1-\phi)/E_m}$
+$E_T=9.08GPa$
+
+aus Chamis
+$E_T=E_m/[1-\sqrt\phi(1-E_m/E_f)]$
+$E_T=10.16GPa$
+
+Mittelwert ist $E_T=9.24GPa$ mit Abweichungen in einer Größenordnung von 10\%
+
+---
+## Umrechnung der Laminatwerte
+**Schubmodul $G_{LT}$**
+
+aus Puck
+$G_{LT} = 3.35GPa$
+
+aus Geier
+$G_{LT} = 3.31GPa$
+
+aus Tsai, Hahn, Wu
+$G_{LT}=3.51GPa$
+
+aus Chamis
+$G_{LT}=3.93GPa$
+Mittelwert ist $G_{LT}=3.52GPa$ mit Abweichungen in einer Größenordnung von 10\%
+
+---
+
+
+# Formeln für transversal-isotrope Fasern
+
+
+$\begin{array}{ll}
+\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
+E_{Lf} & E_m\\
+\nu_{LTf} & \nu_m\\
+G_{LTf}\\
+E_{Lf}\\
+G_{TTf}\\
+\text{\textbf{Faservolumengehalt}} &\phi\\
+\text{\textbf{Formeln}}\\
+E_L=\phi E_f+(1-\phi)E_m & \text{Mischungsregel}\\
+\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m &\text{Mischungsregel}\\
+E_T=E_M/\left[1-\sqrt\phi(1-E_m/E_{Tf})\right]&\text{Chamis}\\
+G_{LT}=G_m/\left[1-\sqrt\phi(1-G_m/G_{LTf})\right]&\text{Chamis}\\
+G_{TT}=G_m/\left[1-\sqrt\phi(1-G_m/G_{TTf})\right]&\text{Chamis}\\
+\nu_{TT=\frac{E_T}{2G_{TT}}-1}&\text{Chamis}
+\end{array}
+$
+
+---
+# Berücksichtung von Faserondulation
+
+- repräsentatives Element mit FEM zu berechnen
+- Modelle können enorm komplex sein
+- Gewebe können so abgebildet werden
+
+
+![bg 22%](../assets/Figures/FKV/gewebe_FEM.png)
+
+
+![bg right 80%](../assets/Figures/FKV/mikroskop_gewebe.png)
+
+![bg vertical fit](../assets/Figures/FKV/ondulation_RVE.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 1+2 entmommen aus Lin, H; et al. "A finite element approach to the modelling of fabric mechanics and its application to virtual fabric design and testing", 10.1080/00405000.2012.660755
+    Bild 3 aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+
+---
+
+![bg 70%](../assets/Figures/FKV/ondulation_ergebnisse.png)
+
+
+---

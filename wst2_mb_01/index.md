@@ -85,17 +85,39 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ---
 ## Inhalte
 
-- Kristalle + Kristallplastizität
-- Bindungen und Auswirkung auf Kennwerte
-- Materialmodellierung (Spannungen und Dehnungen)
-- Spannungs - Dehnungsdiagramm
-- Kriechen
-- Gewaltbruch
-- Ermüdung
-- Thermische und elektrische Eigenschaften
-- Gefügevermessung
-- Modale Analyse
-- Keramiken, Gläser und Polymere (Herstellungsprozesse, Eigenschaften, usw.)
+
+
+| Woche | Termin I | Termin II |
+| -- | -- | -- |
+| 1 | Vorlesung I Wiederholung | Vorlesung  Physikalische Eigenschaften von Werkstoffen |
+| 2 | Seminar:  Berechnung Wärmedehnung, etc. | Vorlesung  Messung von Kenngrößen |
+| 3 | Seminar: CAD Modellierung | Ermüdung (Riss, Temperatur, etc.) |
+| 4 | Seminar: 3D Druck Einführung und Durchführung | Vorlesung Nicht-Eisen Werkstoffe |
+| 5 | Seminar: Zugversuche | Vorlesung Keramik |
+| 6 | Seminar: Mikroskopanalyse | Polymere |
+| 7 | Seminar: Aufbereitung der Daten | d |
+| 8 | Seminar: Vorstellung der Ergebnisse | d |
+| 9 | b | Vorlesung Grundlagen der Materialmodellierung |
+| 10 | Seminar: Hooksches Gesetz | d |
+| 11 | b | Vorlesung Legierung |
+| 12 | Seminar: Normen anwenden | Faserverbunde |
+| 13 | Seminar: Vortrag zum Material | Faserverbunde |
+| 14 | Puffer | Seminar: Prüfungsvorbereitung |
+
+Vorlesung I Wiederholung
+Vorlesung II Physikalische Eigenschaften von Werkstoffen
+Seminar I Berechnung Wärmedehnung, etc.
+Vorlesung III Messung von Kenngrößen
+Seminar II CAD Modellierung
+
+
+
+
+
+
+Seminar V Mikroskopanalyse
+
+Seminar VI Vorstellung der Ergebnisse
 
 
 ---

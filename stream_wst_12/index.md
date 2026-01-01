@@ -5,7 +5,7 @@ theme: h2
 header: ''
 footer: ''
 
-title: Materials-and-Production-Engineering-Lecture  Non-iron materials
+title: Materials-and-Production-Engineering-Lecture  Non-destructive Testing
 author: Christian Willberg
 ---
 
@@ -45,603 +45,517 @@ footer {
 </style>
 
 
-## Lecture on Materials Science - Non-iron materials
+## Lecture on Materials Science - Non-destructive Testing
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences
-![bg right](../assets/Figures/crack.jpg)
 
-Contact: christian.willberg@h2.de
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/UT_principe.svg/660px-UT_principe.svg.png)
+
+
+
 
 ---
 
 <!--paginate: true-->
 
-# Non-Ferrous Materials
 
-- Non-ferrous metals
-- Plastics
-- Glasses
-- Ceramics
-- Metamaterials
-- Multifunctional materials
-- Fiber-reinforced plastics
-- Lightweight construction excursion
+# Non-Destructive Testing
 
-![bg right 70%](../assets/QR/stream_wst_12.png)
+Objectives of Non-Destructive Testing (NDT)
+
+![bg right 70%](../assets/QR/stream_wst_11.png)
 
 ---
 
-## Comparison of Materials
+## Development Stages
 
-- Specific properties
-
----
-
-Specific properties = $\frac{\text{Property}}{\text{Reference value}}$
-Examples:
-
-Specific mass (density) - $\rho = \frac{m}{V}$  
-Specific strength - $R_{spec} = \frac{R_{m}}{\rho}$
+NDT 1.0 – Tools (to sharpen the senses)  
+NDT 2.0 – Analog systems (for inspection within components)  
+NDT 3.0 – Digital processing and automation  
+NDT 4.0 – Transparency of information, technical & digital tools, autonomous and decentralized decision-making  
 
 ---
 
-# Non-Ferrous Metals
+## Methods
 
-Steel has an annual production of ~1900 million tons.
-
----
-
-## Aluminum
-
-Good [overview](https://www.maschinenbau-wissen.de/skript3/werkstofftechnik/aluminium) of properties, manufacturing, etc.
-
-The specific strength of aluminum and steel is very similar.
-
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg)
+- Any measurable physical property can, in principle, be used:  
+  - mechanical  
+  - optical  
+  - electromagnetic  
+  - electrical  
+  - thermal  
+  - magnetic  
 
 ---
 
-### Advantages:
-- Low density, significantly lighter weight compared to similar steel components and structures.
-- Aluminum materials can be excellently formed both hot and cold.
-- Good castability.
-- Hardenable.
-- Good machinability.
-- Due to a passivating oxide layer on the surface, aluminum materials are generally very corrosion-resistant against numerous aqueous media.
+## Probability of Detection (PoD)
+
+- A metric that indicates the probability of detecting a defect of a specific size  
+
+![bg right 80%](https://sentin.ai/wp-content/uploads/2020/08/POD-Curve-768x768.jpg)
+
+- The permissible defect size is known.  
+- With 95% confidence, 90% of the defects are detected.  
 
 ---
 
-### Disadvantages:
-- Higher cost compared to steel.
+## Damage Size
 
-**Applications**:
-- Automotive industry
-- Aerospace technology
-- Bicycles
-- Aluminum foil
+- The detectable defect size varies depending on the method.  
+- Smaller damage size does not always mean better:  
+  - Minimum damage size: $l = \frac{\lambda}{2}$ → Sampling theorem  
+  - $c = \lambda f$  
+  - $c$ is the speed of light or sound  
 
-![bg right fit](https://www.chalcoaluminum.com/upload/image/20230316145542_41805.jpg)
+$$
+\lambda = \frac{c}{f} = \frac{6000 \, \text{m/s}}{10^6 \, \text{s}^{-1}} = 6 \, \text{mm}
+$$  
 
----
-
-## Production
-- Aluminum is obtained from $\text{AL}_2\text{O}_3$.
-- The melting point of bauxite is very high, at 2060 °C.
-- Hence, smelting electrolysis is used.
-- Electrolyte: A solution of aluminum oxide in molten, artificially produced cryolite (a mineral composed of sodium, aluminum, and fluorine).
-![bg right fit](https://www.maschinenbau-wissen.de/bilder/skripte/werkstofftechnik/aluminium-herstellung-05.PNG)
+![bg right fit](../assets/Figures/sandwichvarianten.png)  
+![bg vertical fit](https://upload.wikimedia.org/wikipedia/commons/4/44/Kohlenstofffasermatte.jpg)  
 
 ---
 
-- High energy demand.
-- Recycling requires only 5% of the energy needed for primary aluminum production.
+## Trade-Off
 
-[Approximately 60-70 million tons production](https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Aluminiumproduzenten)
+- Small wavelength = higher resolution = greater interaction = smaller range  
+- Large wavelength = lower resolution = less interaction = greater range  
 
----
-
-## Copper
-
-- Copper is an excellent electrical and thermal conductor.
-
-![bg right 75%](https://images-of-elements.com/copper.jpg)
+Examples: 5G vs. 4G, FM radio vs. longwave radio, etc.  
 
 ---
 
-- Common alloys:
-  - Bronzes (copper-tin)
-    - Good strength.
-    - Corrosion resistance.
-    - Easy to process.
-  - Brass (copper-zinc)
-    - Single-phase brass up to 37% zinc.
-    - Two-phase brass between 37-44% zinc.
-    - Good machinability.
-  - Copper-nickel alloys.
+## Visual Inspection
+
+- Can be conducted with various tools and is widely used:  
+
+**Direct visual inspection**  
+- Eye  
+- Boroscopes (e.g., elastoscopes, endoscopes, mirror tubes)  
+
+**Indirect visual inspection**  
+- Cameras  
+- Drones  
 
 ---
 
-## Production
+## Penetrant Testing  
 
-- From copper matte.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ressuage_principe_2.svg/330px-Ressuage_principe_2.svg.png)  
 
-$6CuFe S_2 10 O_2\rightarrow
-3 Cu_2 S+2 Fe S$ $+ 2Fe_2 O_3 + 7 SO_2$
+1. Cleaning  
+2. Applying penetrant and allowing it to penetrate  
+3. Surface cleaning  
+4. Applying developer  
 
-In several steps, reactions occur:
-$Cu_2 S+ 2Cu_2 O\rightarrow 6Cu+SO_2$
-
-[17 million tons (2006) - 28 million tons (2025*)](https://de.statista.com/statistik/daten/studie/156043/umfrage/weltweite-kupfernachfrage-seit-2006/)
-
----
-
-## Others
-
-- Magnesium is used in lightweight construction.
-- Titanium and titanium alloys:
-  - High strength and heat resistance.
-  - Corrosion-resistant.
-- Nickel:
-  - Corrosion-resistant.
-  - High heat resistance.
-
-![bg right 30%](https://images-of-elements.com/magnesium.jpg)
-![bg right 30% vertical](https://images-of-elements.com/titanium-crystal.jpg)
-![bg right 30%](https://images-of-elements.com/nickel.jpg)
+- Can be performed in daylight or darkness  
 
 ---
 
-- Zinc:
-  - Corrosion-protective coatings.
-  - Weather-resistant sheets.
-- Lead:
-  - Easily castable.
-  - Chemically resistant.
-  - Batteries, bearings, and solders.
+## Radiographic Testing
 
-![bg right fit](https://images-of-elements.com/zinc.jpg)
-![bg right fit vertical](https://images-of-elements.com/lead.jpg)
+- X-rays, microwaves, gamma rays  
+- Synchrotron radiation (special cases, less common)  
+- Also usable for computed tomography (CT)  
+
+![bg right fit](https://www.researchgate.net/profile/Christian-Willberg/publication/258207141/figure/fig1/AS:297342013067264@1447903268377/Plate-and-actuator_W640.jpg)  
+![bg vertical fit](https://www.researchgate.net/profile/Christian-Willberg/publication/258207141/figure/fig3/AS:297342013067266@1447903268956/The-continues-debonding-region-A-shown-by-C-T-images-in-several-frames-see-Fig-2_W640.jpg)  
 
 ---
 
-- Tungsten:
-  - Highest melting temperature of all metals.
-  - Filaments, welding electrodes, and special components.
+## Thermography
 
-![bg right fit](https://images-of-elements.com/tungsten-rod.jpg)
+**Active**  
+- The component is warm and measured.  
+- Temperature distribution differences can identify defects.  
+- Process adjustments are possible.  
 
----
-
-![bg fit](../assets/Figures/spezifische_Eigenschaften.png)
-
----
-
-# Plastics
-
-- Plastics are primarily composed of macromolecules.
-- Depending on the manufacturing process and added additives, they have a very wide property spectrum.
-- Polymers can be derived from natural substances or fully synthesized.
-
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+**Passive**  
+- The component is stimulated, and its response is measured.  
+- Example: Inductive heating in carbon-fiber-reinforced components.  
 
 ---
 
-## Applications
-- Packaging industry
-- Insulation
-- Toys
-- Pipes
-- Cladding
-- Insulation
-- Circuit boards
-- And more
+## Modal Analysis
+
+$\mathbf{M}\ddot{\mathbf{u}}+\mathbf{Ku}=\mathbf{0}$
+
+- Eigenmodes
+- Eigenfrequencies
+
+$(\mathbf{K}-\omega^2\mathbf{M})\hat{\mathbf{x}}=\mathbf{0}$
+
+**Spring-Mass System**  
+$m\ddot{u}+cu=0$
+
+$c-\omega^2 m = 0$
+
+$\omega = 2\pi f = \sqrt{\frac{c}{m}}$
 
 ---
 
-## Environmental Issues
+## Modal Analysis
 
-- Over 70% of plastics are stored in landfills, 9% are recycled, and the rest is incinerated.
-- Microplastics:
-  - Intentionally used (e.g., in toothpaste) or created through mechanical destruction of plastics in the environment.
-  - Accumulate in food, animals, and plants.
-  - Can have negative effects (not yet proven in humans).
+- Excitation using a shaker or impulse hammer  
+- Measurement points with accelerometers or lasers  
+- One excitation point → multiple measurement points  
+- Multiple excitation points → one measurement point  
 
----
+![bg right 50%](https://www.researchgate.net/profile/Andrzej-Rysak/publication/291827506/figure/fig4/AS:322054793515011@1453795254691/Modal-analysis-of-the-vibrating-beam-in-the-fixed-mass-case-The-corresponding-bending_W640.jpg)
 
-## Classification
-
-Thermoplastics:
-- Made of non-crosslinked polymers.
-- Often have a semi-crystalline structure.
-- Can be melted and have a glass transition temperature.
-- Recyclable in principle.
-
-![](https://upload.wikimedia.org/wikipedia/commons/2/27/Polymerstruktur-teilkristallin.svg)
+![bg vertical 50%](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Modal_testing-detail.tif/lossy-page1-489px-Modal_testing-detail.tif.jpg)
 
 ---
 
-Thermosets:
-- Densely crosslinked polymers (crosslinking points shown as red dots).
+## Ultrasonic Testing
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/02/Polymerstruktur-engmaschig_vernetzt.svg)
-
----
-
-Elastomers:
-- Loosely crosslinked polymers.
-- Loose crosslinking allows for high elongation (e.g., rubber bands).
-
-![](https://upload.wikimedia.org/wikipedia/commons/b/b7/Polymerstruktur-weitmaschig_vernetzt.svg)
-
----
-
-## Glass Transition Temperature
-
-$T_g$ is the temperature at which an amorphous solid (e.g., glass or an amorphous polymer) transitions from a rigid, glass-like state to a soft, rubber-like state.
+**Wave Types**  
+- Longitudinal waves (P-waves)  
+- Transverse waves (S-waves)  
+- Love waves  
+- Rayleigh waves  
+- Lamb waves, or guided ultrasonic waves  
+  - Symmetric, asymmetric, and shear modes  
+- Torsional waves  
+- Shear waves  
 
 ---
 
-## Thermoplastics
-**States of Aggregation**
-
-At different temperatures, thermoplastics take on various states of aggregation, which can be used to shape the material:
-- Solid
-- Thermoelastic
-- Thermoplastic
-- Flowable
+![](https://upload.wikimedia.org/wikipedia/commons/0/07/Overview_Seismic_Waves.jpg)
 
 ---
 
-**Common Manufacturing Processes**
-- Injection molding
-- Extrusion
-- Additive manufacturing
-- Blow molding
-- Film blowing
+## Symmetric Modes (Longitudinal Waves)
+
+<video controls="controls" width="600" src=".../assets/Videos/sym.avi"></video>
 
 ---
 
-_Applications_
-- Automotive industry: Used in interior and exterior cladding, bumpers, and headlight housings.
-- Aerospace: Components for airplane and satellite interiors due to low weight.
-- Medical technology: Production of disposable syringes, catheters, and other medical consumables.
-- Construction: Pipes, insulation materials, and window frames.
-- 3D printing
+## Asymmetric Modes (Transverse Waves)
+
+<video controls="controls" width="600" src=".../assets/Videos/asym.avi"></video>
 
 ---
 
-Examples:
-- Polyethylene (PE)
-- Polypropylene (PP)
-- Polystyrene (PS)
-- Polycarbonate (PC)
+## Sound Velocities
+
+$c_{l}=\sqrt{\frac{E(1-\nu)}{\rho(1-\nu-\nu^2)}}$
+
+$c_{t}=\sqrt{\frac{G}{\rho}}$
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/e/e7/Sym_asym_sigma0.27_und_0.34_edited2.svg)
+
+Guided ultrasonic waves are dispersive, having both group and phase velocities.  
 
 ---
 
-## Thermosets
+## Dispersion
 
-- Due to their high degree of crosslinking, thermosets cannot be remelted.
-- High temperatures above the decomposition temperature destroy the bonds (pyrolysis).
-- Produced through polycondensation.
-- Occurs in stages: Intermediate products (oligomers) are stable but still reactive. These oligomers ultimately form macromolecules.
+- **Group velocity**: The speed of the wave envelope's propagation  
+- **Phase velocity**: The speed of the phase (individual frequency) propagation  
 
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
+For a single frequency, group and phase velocities are identical.  
 
----
+![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif)
 
-_Applications_
-
-- Brake pads
-- Fiber-reinforced composites
-- Cable trays
-- Car body parts
-- Safety helmets
+- For frequency-dependent phase velocities, the wave envelope broadens → Dispersion  
 
 ---
 
-Examples:
-- Epoxy resins
-- Crosslinkable polyurethanes
-- Unsaturated polyester resins
+## Piezoelectric Effect
+
+- Actuator effect  
+- Sensor effect  
+
+- $d_{31}$: Electrical voltage in the 3-direction and deformation in the 1 or 2 direction  
+- $d_{33}$: Electrical voltage in the 3-direction and deformation in the 3 direction  
+
+![bg right 70%](../assets/Figures/piezo.png)
+
+![bg vertical 100%](../assets/Figures/polarization_2.png)
 
 ---
 
-## Elastomers
+## Reflections at Interfaces
 
-- The glass transition temperature is below the application range (becoming glass-like at low temperatures).
-- Elastomers can deform elastically and return to their original shape.
-- Many elastomers are now synthetically produced. However, there is still a significant market for natural rubber, primarily harvested from the rubber tree. Initial applications also use rubber derived from [dandelion](https://en.wikipedia.org/wiki/Russian_dandelion).
+- Acoustic impedance $W = c_L\rho$
 
----
+**Reflected Sound**  
+$\frac{p_{a,r}}{p_{a,e}}=\frac{W_2-W_1}{W_2+W_1}$  
 
-_Applications_
-- Sealing rings
-- Tires
-- Rubber bands
+**Transmitted Sound**  
+$\frac{p_{a,d}}{p_{a,e}}=\frac{2W_2}{W_2+W_1}$  
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/7/71/Polymer_picture.svg)
-
-- Vulcanization influences the number of crosslinks (dots on the right).
-
----
-
-Examples:
-- Natural rubber
-- Rubber
-- Chloroprene
-- Epichlorohydrin
-
----
-
-**Vulcanization**
-Describes the process to transform thermoplastic natural or synthetic rubber into an elastomer:
-- Creates covalent bonds (red dots) between molecular chains.
-- Sulfur or sulfur-donating substances are used.
-- Covalent bonds form as sulfur bridges.
-- Aging involves the replacement of sulfur bridges with oxygen bridges.
-
----
-
-## Additives
-Used to modify specific properties of plastics:
-
-- Plasticizers
-- Stabilizers
-- Pigments
-- Fillers
-- Reinforcing agents
-
----
-
-## Glass
-
-- Glass is a frozen state of an undercooled liquid.
-- Amorphous structure:
-  - Stochastically distributed.
-  - Isotropic.
-- Glass transition temperature.
-- Crystals change their properties abruptly at the melting temperature (phase change).
-- This is not the case with glass (no phase change).
-
-![bg 60% right](https://upload.wikimedia.org/wikipedia/commons/6/62/Kalk-Natron-Glas_2D.svg)
-
----
-
-**Properties**
-- Vary widely depending on the type of glass.
-- Generally very resilient to chemicals.
-- Typically brittle (low tensile strength).
-- Non-metallic glasses are poor conductors and can be used as insulators.
-
-**Applications**
-
-- Windows
-- Containers
-- Insulators
-- Optics
-
----
-
-# Ceramics
-
-The raw material is in powder form
-
-- Preparation and mixing of powders
-- Manufacturing of formed parts
-- Sintering
-
----
-
-- Very high compressive strength (10 times higher than tensile strength)
-- Behaves like an ideally brittle body.
-- Low impact bending strength.
-- High notch sensitivity.
-
-![bg right fit](../assets/Figures/Gefuege_Kermaik.png)
-
-[Source](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_PuZaGavilaboseVe7493644773946427.png)
-
----
-
-- The cause of high strength and elasticity lies in the primary covalent bonds between atoms.
-- Hence, no dislocation glide like in metals → no plastic properties.
-
-![bg right 90%](../assets/Figures/Eigenschaften_Keramiken.png)
-
-[Source](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_waVatuLaxuyiroRu6233471439296793.png)
+![bg right fit](../assets/Figures/reflexion.png)
 
 ---
 
 
+## Signal-to-Noise Ratio
 
-![bg fit](../assets/Figures/haerte_Keramik.png)
+$SNR = \frac{P_{\text{Signal}}}{P_{\text{Noise}}}$
 
-[Source](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_SifuZeYuvegeWori5372538488744336.png)
-
----
-
-Clay Ceramics:
-- Contain at least 20% clay minerals.
-- Porcelain has significant technical importance.
-
-Glass-Ceramics:
-- A mix of glass and ceramics.
-- Partial crystallization through the addition of crystallites.
-- Cast like glass and then heat-treated.
-- Very low (sometimes negative) thermal expansion coefficients.
+- Multiple measurements reduce the noise component.
 
 ---
 
-## Properties
+## Experimental Setup
 
-**Electrical**
-- High creep resistance.
-- High resistance to current flow.
-- High dielectric strength.
+- 1–2 transducers
+- Amplifier
+- Sensor
 
-Unaffected by environmental factors (e.g., salt mist, industrial gases, sunlight, heat):
-- Used in plugs, terminal blocks, switches, etc.
+![bg right 95%](../assets/Figures/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
 
-![bg right fit](../assets/Figures/isolator.jpg)
-
-[Source](https://pixnio.com/free-images/2017/12/11/2017-12-11-16-38-22-1536x1024.jpg)
+<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
+    <a href="http://std-partners.de/fileadmin/_processed_/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)" style="color: blue;">Image Reference</a>
+</div>
 
 ---
 
-## Technical Ceramics and Their Applications
+## Coupling of the Probe to the Surface
 
-Technical ceramics can exhibit a wide range of properties, making them suitable for numerous applications:
+**Water**  
+- Low cost  
+- Easily automated  
 
-- Medical technology: Bone or dental replacements.
-- Electrical engineering: Power capacitors.
-- High-temperature applications: Burner systems, heating elements, bearings.
-- Bearing and sealing technology: Mechanical seals, sliding bearings.
+**Motor oil, grease**  
+- Already present in the component  
+- Not optimized for testing  
 
-Ceramic composites also exist to compensate for low tensile strength.
+**Glycerin, gel**  
+- High viscosity and acoustic impedance advantageous  
+- Suitable for rough surfaces and highly damping materials (e.g., weld seam inspection)  
 
----
-
-# Metamaterials
-
-The goal of metamaterials is to "engineer" properties through tailored microstructures.
-
-[Example](https://en.wikipedia.org/wiki/File:Negative_refraction.ogv)
-
-![bg right](https://upload.wikimedia.org/wikipedia/commons/a/ab/Pentamode.png)
-
-[Source](https://doi.org/10.1002/adem.201800864)
+**Air**  
+- No coupling medium required  
+- High noise level  
 
 ---
 
-![bg fit](../assets/Figures/metamaterial.png)
+## Pulse-Echo Method
+
+- **Dead zone**  
+  - Transition time from transmitter to receiver.  
+
+- **Dual-sensor system**  
+  - Measurements on both sides of the material.  
+  - Challenges in accessibility and effort.  
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/UT_principe.svg/660px-UT_principe.svg.png)
 
 ---
 
-![bg fit](../assets/Figures/poisson.png)
+## Measurement Image
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/08/Swing_shaft_spline_cracking.png)
 
 ---
 
-# Smart Materials
+## Weld Seam Inspection
 
-Piezoelectric Materials:
-- Deform under electrical voltage and vice versa.
+- Angled ultrasound due to challenging coupling conditions.  
 
-[Shape Memory Materials](https://www.youtube.com/watch?v=231O7jlgwxI):
-- Drastic shape changes due to temperature variations.
-- Good [explanation](https://en.wikipedia.org/wiki/Shape-memory_alloy).
+![bg right fit](https://www.karldeutsch.de/wp-content/uploads/2018/12/UT-2-2-DE.png)
 
 ---
 
-Photovoltaic Materials:
-- Generate electrical voltage under light exposure.
+## Adhesive Layers
 
-Thermoelectric Materials:
-- Generate electrical voltage due to temperature differences.
-
-Photomechanical Materials:
-- Change shape under light exposure.
-
-Thermochromic Materials:
-- Change color with temperature changes.
-
-And more.
+- Tested similarly to other materials.  
+- Potential presence of "kissing bonds."
 
 ---
 
-## Natural Materials
+## Wall Thickness Measurement
 
-Divided into living (organic) and non-living (inorganic) substances.
-
-- Organic:
-  - Animal-based or plant-based.
-  - Fats, oils, starch.
-- Inorganic:
-  - Silicates, carbonates.
+![](https://www.karldeutsch.de/wp-content/uploads/2018/12/UT-2-1-DE.png)
 
 ---
 
-| Plant-Based Material | Applications |
-| ---| --- |
-| Lignocellulose/ Wood | Wood-based materials |
-| Oils | Lubricants, fuels, surfactants |
-| Fibers | Textiles, composites |
-| Starch | Packaging materials |
-| Special contents | Pharmaceuticals, dyes, luxury goods |
+## Imaging Techniques
+
+- Measurement data can be visualized in various ways.  
 
 ---
 
-| Animal-Based Material | Applications |
-| ---| --- |
-| Bones, shells | Glue, fertilizers, materials |
-| Fats | Lubricants, fuels, surfactants |
-| Fibers | Textiles, composites |
-| Proteins | Cosmetics |
-| Special contents | Pharmaceuticals (e.g., insulin, vaccines, estrogens) |
+## A-Scan (Amplitude)
+
+- Time vs. Amplitude  
+- For a constant velocity, flaws in the signal can be detected at a specific point.  
+
+![bg right fit](https://wiki.polymerservice-merseburg.de/images/4/40/A_bild.JPG)
 
 ---
 
-## Wood and Wood-Based Materials
+## B-Scan (Brightness)
 
-- Veneer:
-  - Made from untreated solid wood with a thickness ≤ 5 mm and a width ≥ 80 mm, produced by slicing or planing raw wood.
-- Plywood:
-  - At least three glued wood layers.
-- Particle board.
-- Fiberboard:
-  - Fiber insulation board.
-  - Hardboard.
-  - MDF board.
+- A single point is another representation of the A-scan (echo intensity shown by brightness).  
+- Using sound direction, 2D or 3D images can be created.  
+
+![bg right 70%](https://www.spektrum.de/lexika/images/physik/fff925_w.jpg)
 
 ---
 
-![bg 70%](https://upload.wikimedia.org/wikipedia/commons/8/86/Furniererzeugung.png)
+## C-Scan
+
+- A projection of the sizes of detected flaws.  
+
+![](https://upload.wikimedia.org/wikipedia/de/1/1f/C-bild-2.jpg)
 
 ---
 
-![bg 40%](https://upload.wikimedia.org/wikipedia/commons/0/09/Particle_board_close_up-vertical-f22_PNr%C2%B00100.jpg)
+## D-Scan
+
+- Area scan for larger regions.  
+
+![bg right 80%](https://wiki.polymerservice-merseburg.de/images/a/a7/D_Bild_Technik-4.JPG)
+
+![](https://wiki.polymerservice-merseburg.de/images/a/af/D_Bild_Technik-1.JPG)
 
 ---
 
-![bg 80%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
+## Thickness Measurement Using Guided Ultrasonic Waves
+
+![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/e/e7/Sym_asym_sigma0.27_und_0.34_edited2.svg)
 
 ---
 
-![bg 80%](https://upload.wikimedia.org/wikipedia/commons/7/74/STEICO_flex_Natural_Wood_Fibre_Insulation.jpg)
+## Eddy Current Testing
+- surface inspection of cracks
+  - aerospace industry
+  - petrochemical industry
+
+![bg fit right](https://upload.wikimedia.org/wikipedia/commons/c/c6/Eddy_currents_due_to_magnet.svg)
+
+![bg fit vertical](https://upload.wikimedia.org/wikipedia/commons/5/52/LET.png)
 
 ---
 
-## Properties
+## Structural Health Monitoring
 
-- Strongly dependent on the type of wood:
-  - Bamboo, spruce, oak, Lophira alata.
-- Veneer ($E=10000-17000\ \text{N/mm}^2, R_{11}=180-80\ \text{N/mm}^2$).
-- Particle boards have properties similar to plastics ($E=2000-4500\ \text{N/mm}^2$).
-- Strength perpendicular to the grain ~50%.
+- Monitoring a structure during operation.  
+- Related to condition monitoring (e.g., gearbox monitoring to detect bearing damage).  
+
+---
+### Objectives:
+- Reduce maintenance costs:
+  - Fewer repairs.  
+  - Easier inspections.  
+  - Timely maintenance.  
+- Load adaptation in case of damage.  
+- Extend service life.  
+- Increase safety.  
 
 ---
 
-## Natural Fibers
+### Four Levels of SHM:
 
-Examples: Glass, hemp, flax, kenaf, jute, cotton.
-
-As renewable resources, hemp ($E=90000\ \text{N/mm}^2$, $R=1110\ \text{N/mm}^2$) and flax ($E=93000\ \text{N/mm}^2$, $R=930\ \text{N/mm}^2$) are interesting from an ecological perspective.
-
----
-
-![](../assets/Figures/Natur_Materialeigenschaften.png)
-
-Polypropylene (PP), PP with talc (PP-T), PP with wood fibers (WPC), PP with bast fibers (e.g., hemp, flax, jute, kenaf), and PP with glass fibers (PP-GF).
+1. Detect an event.  
+2. Detect and localize the event.  
+3. Detect, localize, and identify the event.  
+4. Assess damage severity and its impact on the structure.
 
 ---
 
-Natural fibers make up approximately 15% of the composite market in the EU (as of 2015).
+## Methods
 
-![bg right fit](../assets/Figures/Einatz_naturfasern.png)
+- Modal analysis  
+- Guided ultrasonic waves  
+- Acoustic emissions  
+- Load path analyses (e.g., parallel springs)  
+- Strain measurements  
+- Model-based approaches  
+
+---
+
+## Technical Applications
+
+### Bridges
+- Example: Second Penang Bridge, Penang, Malaysia  
+
+![](https://www.geosig.com/images/page_image_111.png)
+
+---
+
+### Pipelines
+
+![](https://journals.sagepub.com/cms/10.1177/1475921719837718/asset/images/large/10.1177_1475921719837718-fig17.jpeg)
+
+---
+
+### Aircraft
+- Load path analysis  
+- Monitoring of connections  
+- Focus on efficiency rather than safety  
+
+![bg right fit](https://journals.sagepub.com/cms/10.1177/1475921720919678/asset/images/large/10.1177_1475921720919678-fig5.jpeg)
+
+---
+
+### Wind Energy
+
+![](https://onlinelibrary.wiley.com/cms/asset/7f3901c5-5735-4b5f-8ce1-655b4e3fcfe7/mfig001.jpg)
 
 ---
 
 ## Challenges
 
-- Standardization:
-  - Exists only partially.
-- Competition with established processes.
+- Temperature effects  
+- Humidity  
+- Material internal structure  
+- Mode conversion  
+- Stresses in the structure  
+- Aging  
+
+---
+
+## Potentials
+
+**Example: Aircraft**  
+- Barely visible impact (BVI): damage size defined by visibility.  
+- SHM systems allow for smaller damage considerations during design.  
+- Estimated **1–5% reduction** in structural mass ([Source](https://elib.dlr.de/123946/1/1475921718813279.pdf)).  
+
+---
+
+## Microscopy
+
+- Analysis of material microstructure.  
+- Local analysis of composition or grain structure.  
+- Sample preparation (e.g., grinding, surface treatment).  
+- Light sources significantly influence contrast.  
+
+![bg right fit](https://www.ikts.fraunhofer.de/de/abteilungen/werkstoff_prozesscharakterisierung/korrelative_mikroskopie_und_materialdaten/fa_multiskalige-3D-analytik_datenkorrelation_und_praeparation_in_der_halbleiterentwicklung/jcr:content/contentPar/sectioncomponent_cop/sectionParsys/imagerow/imageComponent1/image.img.4col.jpg/1683533051397/39-4-3d-detailansicht-eines-cpu-chips.jpg)
+
+---
+
+## Light Microscopy
+
+- Grain size analysis for metals and alloys.  
+- Area counting and line intercept methods.  
+
+![bg right fit](https://static1.olympus-ims.com/data/Image/appnotes/GrainSizeAnalysis_AppNote_img4_rev.jpg?rev=9463)
+
+---
+
+## Scanning Electron Microscopy
+
+- Uses electron beams for scanning.  
+- Significantly higher resolution ($1nm - 2nm$).  
+- ~500x better magnification compared to light microscopy.  
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/e/ef/Funktionsprinzip_REM.gif)
+
+---
+
+## Scanning Probe Microscopy
+
+- Structures scanned using a needle.  
+- Interaction varies based on the microscope type:
+  - Tunneling current.  
+  - Van der Waals forces.  
+  - Magnetic forces.  
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/0/0f/AFM_%28used%29_cantilever_in_Scanning_Electron_Microscope%2C_magnification_1000x.GIF)
+

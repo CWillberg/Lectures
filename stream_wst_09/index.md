@@ -27,7 +27,7 @@ img[alt="ORCID"] {
 ## Lecture - Materials Testing
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right 70%](../assets/QR/strean_wst_09.png)
+![bg right 70%](../assets/QR/stream_wst_09.png)
 
 Contact: christian.willberg@h2.de
 
