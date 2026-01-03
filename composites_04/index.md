@@ -92,7 +92,7 @@ $$\Psi \approx 7°$$
 
 # Auslegung nach Hauptspannungen
 ## Materialauswahl
-- CFK UD Gelege mit Faservolumenanteil $\phi = 60\%$
+- CFK UD Gelege mit Faservolumenanteil $\varphi = 60\%$
 - Schichtdicke $d=0.125 mm$
 - Zugfestigkeit $R_L^{(+)}=1300 N / mm^2$
 - Sicherheit gegen Bruch $S_B = 2.0$
@@ -249,7 +249,7 @@ $
 # Auslegung nach Netztheorie
 
 ## Materialauswahl
-- CFK UD Gelege mit Faservolumenanteil $\phi = 60\%$
+- CFK UD Gelege mit Faservolumenanteil $\varphi = 60\%$
 - Schichtdicke $d=0.125 mm$
 - Zugfestigkeit $R_L^{(+)}=1300 N / mm^2$
 - Sicherheit gegen Bruch $S_B = 2.0$
@@ -295,7 +295,7 @@ $\begin{array}{lll}
 
 
 ## Materialauswahl
-- CFK UD Gelege mit Faservolumenanteil $\phi = 60\%$
+- CFK UD Gelege mit Faservolumenanteil $\varphi = 60\%$
 - Schichtdicke $d=0.125 mm$
 - $E_L=150000 N / mm^2$
 - $E_T = 8000 N/mm^2$
@@ -452,7 +452,7 @@ n_{-45} \text{ Schichten in -45°-Richtung}&\text{1 Schicht in -45°-Richtung}
 \end{array}$
 
 ---
-- Wenn das Laminat aus n Schichten besteht und r Schichtrichtungen möglich sind, muss gelten $n=\sum_r n_{\phi_r}$
+- Wenn das Laminat aus n Schichten besteht und r Schichtrichtungen möglich sind, muss gelten $n=\sum_r n_{\varphi_r}$
 - gesucht sind die Schichtzahlen für jede Richtung r
 
 ---

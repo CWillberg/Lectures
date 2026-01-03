@@ -120,10 +120,10 @@ UD-Schicht mit regelmäßiger Anordnung
 
 - Quadratische Anordnung
    - max. Faservolumengehalt
-   $\phi = \pi/4 \approx 0.785$
+   $\varphi = \pi/4 \approx 0.785$
 - Hexagonale Anordnung
    - max. Faservolumengehalt
-   $\phi = \pi\sqrt3/6 \approx 0.907$
+   $\varphi = \pi\sqrt3/6 \approx 0.907$
 
 
 ![bg vertical 40%](../assets/Figures/FKV/quadratische_anordnung.png)
@@ -356,14 +356,14 @@ $\begin{array}{ll}
 \text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
 E_f & E_m\\
 \nu_f & \nu_m\\
-\text{\textbf{Faservolumengehalt}} &\phi\\
+\text{\textbf{Faservolumengehalt}} &\varphi\\
 \\
 \text{\textbf{E-Modul in Faserrichtung}}\\
-E_L=\phi E_f+(1-\phi)E_m & \text{Mischungsregel}\\
+E_L=\varphi E_f+(1-\varphi)E_m & \text{Mischungsregel}\\
 \text{\textbf{Querkontraktionszahl}}\\
-\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m &\text{Mischungsregel}\\
+\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m &\text{Mischungsregel}\\
 \text{\textbf{E-Modul in Querrichtung}}\\
-1/E_T\approx \phi/E_f + (1-\phi)/E_m &\text{Mischungsregel für Nachgiebigkeit}
+1/E_T\approx \varphi/E_f + (1-\varphi)/E_m &\text{Mischungsregel für Nachgiebigkeit}
 \end{array}
 $
 Korrektur erforderlich; entsprechend auch für $G_{LT} und Qerkontraktionszahl $\nu_{TT}$
@@ -374,10 +374,10 @@ Korrektur erforderlich; entsprechend auch für $G_{LT} und Qerkontraktionszahl $
 Es existieren viele verschiedene Ansätze - keiner mit Anspruch auf Allgemeingültigkeit
 **Beispiele**
 $\begin{array}{ll}
-\text{\textbf{Puck}}    & E_T = \frac{(1+0.85\phi^2)E_m}{\phi E_m/E_f+(1-\phi)^{1.25}}\\
-\text{\textbf{Tsai, Hahn, Wu}} & E_T=\frac{\phi+0.5(1-\phi)}{\phi/E_f+0.5(1-\phi)/E_m}\\
-\text{\textbf{Geier}} & E_T=\frac{E_fE_m}{\phi/E_m+(1-\overline{\phi}E_f)}\qquad\text{mit}\qquad \overline{\phi}=\phi+\zeta\phi(1-\phi);\zeta\approx 0.6\\
-\text{\textbf{Chamis}} & E_T=E_m/[1-\sqrt\phi(1-E_m/E_f)]
+\text{\textbf{Puck}}    & E_T = \frac{(1+0.85\varphi^2)E_m}{\varphi E_m/E_f+(1-\varphi)^{1.25}}\\
+\text{\textbf{Tsai, Hahn, Wu}} & E_T=\frac{\varphi+0.5(1-\varphi)}{\varphi/E_f+0.5(1-\varphi)/E_m}\\
+\text{\textbf{Geier}} & E_T=\frac{E_fE_m}{\varphi/E_m+(1-\overline{\varphi}E_f)}\qquad\text{mit}\qquad \overline{\varphi}=\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6\\
+\text{\textbf{Chamis}} & E_T=E_m/[1-\sqrt\varphi(1-E_m/E_f)]
 \end{array}
 $
 
@@ -391,10 +391,10 @@ Ansätz entsprechen dem Vorgehen bei der Bestimmung von $E_T$
 
 **Beispiele**
 $\begin{array}{ll}
-\text{\textbf{Puck}}    & G_{LT} = \frac{(1+0.6\sqrt\phi)G_m}{\phi G_m/G_f+(1-\phi)^{1.25}}\\
-\text{\textbf{Tsai, Hahn, Wu}} & G_{LT}=\frac{\phi+0.5(1-\phi)}{\phi/G_f+0.5(1-\phi)/G_m}\\
-\text{\textbf{Geier}} & G_{LT}=\frac{G_fG_m}{\phi/G_m+(1-\overline{\phi}G_f)}\qquad\text{mit}\qquad \overline{\phi}?\phi+\zeta\phi(1-\phi);\zeta\approx 0.6\\
-\text{\textbf{Chamis}} & G_{LT}=G_m/[1-\sqrt\phi(1-G_m/G_f)]
+\text{\textbf{Puck}}    & G_{LT} = \frac{(1+0.6\sqrt\varphi)G_m}{\varphi G_m/G_f+(1-\varphi)^{1.25}}\\
+\text{\textbf{Tsai, Hahn, Wu}} & G_{LT}=\frac{\varphi+0.5(1-\varphi)}{\varphi/G_f+0.5(1-\varphi)/G_m}\\
+\text{\textbf{Geier}} & G_{LT}=\frac{G_fG_m}{\varphi/G_m+(1-\overline{\varphi}G_f)}\qquad\text{mit}\qquad \overline{\varphi}?\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6\\
+\text{\textbf{Chamis}} & G_{LT}=G_m/[1-\sqrt\varphi(1-G_m/G_f)]
 \end{array}
 $
 
@@ -421,7 +421,7 @@ E_T=12GPa&\nu_m=0.3\\
 G_{LT}=4.4GPa & G_m=\frac{E_m}{2(1+\nu_m)}=1.27GPa\\
 \nu_{LT}=0.25\\
 \nu_{TT}=0.25\\
-\phi=0.6
+\varphi=0.6
 \end{array}
 $
 
@@ -429,11 +429,11 @@ $
 
 ## Inverse Anwendung
 
-$E_L=\phi E_f+(1-\phi)E_m$
+$E_L=\varphi E_f+(1-\varphi)E_m$
 
-$E_f=(E_l-(1-\phi)E_m)/\phi=72.8GPa$
+$E_f=(E_l-(1-\varphi)E_m)/\varphi=72.8GPa$
 
-$\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m$
+$\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m$
 
 $\nu_{LT}=0.217$$
 
@@ -444,25 +444,25 @@ $G_f=29.91GPa$
 ---
 ## Umrechnung der Laminatwerte
 
-$\phi = 0.6 \rightarrow \phi = 0.5 ?$
+$\varphi = 0.6 \rightarrow \varphi = 0.5 ?$
 
-mit den bestimmten Werten für die Fasern $E_f$ und $\nu_f$ in den folgenden Gleichungen $\phi=0.5$ einsetzen
+mit den bestimmten Werten für die Fasern $E_f$ und $\nu_f$ in den folgenden Gleichungen $\varphi=0.5$ einsetzen
 
-$E_L=\phi E_f+(1-\phi)E_m=38GPa$
+$E_L=\varphi E_f+(1-\varphi)E_m=38GPa$
 
-$\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m=0.258$
+$\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m=0.258$
 
 ---
 ## Umrechnung der Laminatwerte
 **In Querrichtung sind Laminatwerte nicht eindeutig**
 
 aus Puck
-$E_T = \frac{(1+0.85\phi^2)E_m}{\phi E_m/E_f+(1-\phi)^{1.25}}$
+$E_T = \frac{(1+0.85\varphi^2)E_m}{\varphi E_m/E_f+(1-\varphi)^{1.25}}$
 
 $E_T = 9.03GPa$
 
 aus Geier
-$E_T=\frac{E_fE_m}{\phi/E_m+(1-\overline{\phi}E_f)}\qquad\text{mit}\qquad \overline{\phi}=\phi+\zeta\phi(1-\phi);\zeta\approx 0.6$
+$E_T=\frac{E_fE_m}{\varphi/E_m+(1-\overline{\varphi}E_f)}\qquad\text{mit}\qquad \overline{\varphi}=\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6$
 $E_T = 8.7GPa$
 
 
@@ -470,11 +470,11 @@ $E_T = 8.7GPa$
 
 ## Umrechnung der Laminatwerte
 aus Tsai, Hahn, Wu
-$E_T=\frac{\phi+0.5(1-\phi)}{\phi/E_f+0.5(1-\phi)/E_m}$
+$E_T=\frac{\varphi+0.5(1-\varphi)}{\varphi/E_f+0.5(1-\varphi)/E_m}$
 $E_T=9.08GPa$
 
 aus Chamis
-$E_T=E_m/[1-\sqrt\phi(1-E_m/E_f)]$
+$E_T=E_m/[1-\sqrt\varphi(1-E_m/E_f)]$
 $E_T=10.16GPa$
 
 Mittelwert ist $E_T=9.24GPa$ mit Abweichungen in einer Größenordnung von 10\%
@@ -509,13 +509,13 @@ E_{Lf} & E_m\\
 G_{LTf}\\
 E_{Lf}\\
 G_{TTf}\\
-\text{\textbf{Faservolumengehalt}} &\phi\\
+\text{\textbf{Faservolumengehalt}} &\varphi\\
 \text{\textbf{Formeln}}\\
-E_L=\phi E_f+(1-\phi)E_m & \text{Mischungsregel}\\
-\nu_{LT}=\phi \nu_f+(1-\phi)\nu_m &\text{Mischungsregel}\\
-E_T=E_M/\left[1-\sqrt\phi(1-E_m/E_{Tf})\right]&\text{Chamis}\\
-G_{LT}=G_m/\left[1-\sqrt\phi(1-G_m/G_{LTf})\right]&\text{Chamis}\\
-G_{TT}=G_m/\left[1-\sqrt\phi(1-G_m/G_{TTf})\right]&\text{Chamis}\\
+E_L=\varphi E_f+(1-\varphi)E_m & \text{Mischungsregel}\\
+\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m &\text{Mischungsregel}\\
+E_T=E_M/\left[1-\sqrt\varphi(1-E_m/E_{Tf})\right]&\text{Chamis}\\
+G_{LT}=G_m/\left[1-\sqrt\varphi(1-G_m/G_{LTf})\right]&\text{Chamis}\\
+G_{TT}=G_m/\left[1-\sqrt\varphi(1-G_m/G_{TTf})\right]&\text{Chamis}\\
 \nu_{TT=\frac{E_T}{2G_{TT}}-1}&\text{Chamis}
 \end{array}
 $
@@ -548,3 +548,264 @@ $
 
 
 ---
+# Homogenisierung von Wärmeausdehnungskoeffizienten
+## Ziel
+- Wärmeausdehnungskoeffizienten von Faser und Matrix können sehr unterschiedlich sein (C-Faser in Kunstharzmatrix)
+- für die Berechnung komplexer Strukturen ist die Berücksichtigung dieses Unterschiedes viel zu aufwändig
+    Die Einelschicht muss als Kontinuum mit einheitlichem Wärmeausdehnungskoeffizienten modelliert werden
+- Kombination der Faser- und Matrixwerte deart, dass das globale Verhalten des Verbundes hinreichend genau beschrieben wird
+- örtliche (lokale) Betrachtung wird vernachlässigt
+
+---
+# Homogenisierung für thermisch transversalisotrope Fasern
+
+
+$\begin{array}{ll}
+\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
+E_{Lf} & E_m\\
+\nu_{LTf} & \nu_m\\
+\alpha_{Lf} & \alpha_m\\
+\alpha_{Tf} & \\
+\text{\textbf{Faservolumengehalt}} &\varphi\\
+\text{\textbf{Formeln}}\\
+\alpha_L = \frac{\varphi E_{Lf}\alpha_{Lf}+(1-\varphi)E_m\alpha_m}{\varphi E_{Lf}+(1-\varphi)E_m}\\
+\alpha_T = \overline{\varphi}\alpha_{Tf}+(1-\overline{\varphi})\alpha_m-(\alpha_m-\alpha_{Lf})\frac{\overline{\varphi}(1-\varphi)\nu_{LTf}E_m+\varphi(1-\overline{\varphi})\nu_mE_{Lf}}{\varphi E_{Lf}+(1-\varphi)E_m}\\
+\text{mit}\qquad \overline{\varphi}=\varphi + \zeta\varphi(1-\varphi); \zeta\approx 0.6
+\end{array}
+$
+
+---
+
+# Bestimmung des Wärmeausdehnungskoeffizienten (CTE) von Fasern
+- direkte Messung an Faserbündeln
+- Rückrechnung aus Messungen an Verbunden
+- Untersuchungen an Einzelfasern
+    - mit Raser-Elektronenmikroskop (SME)
+    - mit Tansmissions-Elektronenmikroskopie (TME)
+
+---
+
+# Homogenisierung von Feuchtequellkoeffizienten
+## Ziel
+- Feuchtequellkoeffizienten von Faser und Matrix sind meist sehr unterschiedlich
+- häufig nimmt die Matrix die Feuchte aus der Umgebung auf und quillt dabei
+- viele Verstärkungsfasern nehmen keine Feuchte auf (Ausnahme: Aramid, Biofasern)
+- für die Berechnung der Feuchtequellung in komplexen Strukturen ist die Berücksichtigung der Unterschiede viel zu aufwändig
+- die Einzelschicht soll das globale Verhalten unter Nutzung einer einheitlichen Feuchtequellzahl beschreiben
+- örtliche (lokale) Effekte werden vernachlässigt
+
+---
+
+
+# Homogenisierung der Feuchtequellkoeffizienten für Fasern transversalisotroper Quellung
+
+
+$\begin{array}{ll}
+\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
+E_{Lf} & E_m\\
+\nu_{LTf} & \nu_m\\
+\rho_{f} & \rho_m\\
+\beta_{Tf} &\beta_m\\
+\beta_{Tf}\\
+\Delta c_f \text{ Änderung der rel. Feuchte} & \Delta c_m\\
+\text{Quellung: }\varepsilon = \Delta c \beta\\
+\text{\textbf{Faservolumengehalt}} &\varphi\\
+\end{array}
+$
+
+---
+
+# Homogenisierung der Feuchtequellkoeffizienten für Fasern transversalisotroper Quellung
+
+
+$\begin{array}{ll}
+\Delta c=\frac{\varphi\rho_f \Delta c_f+(1-\varphi)\rho_m \Delta c_m}{\varphi\rho_f+(1-\varphi)\rho_m}\\
+\beta_L = \frac{1}{\Delta c}\frac{\varphi E_{Lf}\Delta c_f \beta_{Lf}+(1-\varphi)E_m\Delta c_m\beta_m}{\varphi E_{Lf}+(1-\varphi)E_m}\\
+\beta_T = \frac{1}{\Delta c}\left[\overline{\varphi}\Delta c_f \beta_{Lf}+(1-\overline{\varphi})\Delta c_m \beta_{m} - (c_m \beta_{m}-\Delta c_f \beta_{Lf})\frac{\overline{\varphi}(1-\varphi)\nu_{LTf}E_m+\varphi(1-\overline{\varphi})\nu_mE_{Lf}}{\varphi E_{Lf}+(1-\varphi)E_m}\right]
+\\
+\text{mit}\qquad \overline{\varphi}=\varphi + \zeta\varphi(1-\varphi); \zeta\approx 0.6 
+\end{array}
+$
+
+---
+# Homogenisierung von Wärmleitfähigkeitskoeffizienten
+
+
+
+- Wärmleitfähigkeitskoeffizienten von Faser und Matrix sind zum Teil sehr unterschiedlich
+    - Polymere im Allgemeinen gering
+    - Glas-, und Aramidfasern gering
+    - Kohlenstofffasern +- hoch in Faserrichtung- gering in Querrichtung
+- für die Berechnung der Wärmeleitung in komplexen Strukturen ist die Berücksichtigung der Unterschiede viel zu aufwändig
+- die Einzelschicht soll das globale Verhalten unter Nutzung einer einheitlichen Wärmeleitung beschreiben
+- örtliche (lokale) Effekte werden vernachlässigt
+- **Lufteinschlüsse** haben einen Effekt
+
+---
+
+
+
+
+$\begin{array}{ll}
+\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
+k_{Lf} & k_m\\
+k_{Tf} & \\
+\text{\textbf{Faservolumengehalt}} &\varphi\\
+\end{array}
+$
+Wärmeleitung in der UD-Schicht in Faserrichtung
+$k_l=\varphi k_{Lf}+(1-\varphi)k_m$
+senkrecht zur Faserrichtung gibt es viele Näherungsformeln
+$k_l=\varphi k_{Lf}+(1-\varphi)k_m$
+$k_l=\varphi k_{Lf}+(1-\varphi)k_m$
+
+$\begin{array}{ll}
+\text{\textbf{Lord Rayleigh (1882)}}   & k_t=k_m\left[1-2\frac{\varphi}{\nu'+\phi+3\phi^4S_4^2/(\nu'\pi^4)}\right]\\
+&\nu'=(1+k_{Tf})/(1-k_{Tf}/k_m)\\
+& s_4=0.0323502\pi^4\\
+\text{\textbf{Selbskonsistentes Modell}} & k_t=k_m[k_{Tf}(1+\phi)+k_m(1-\phi)]/[k_{Tf}(1-\phi)+k_m(1+\phi)]\\
+\end{array}
+$
+
+
+---
+![bg 80%](../assets/Figures/FKV/waermeleitfaehigkeit_quadratisch.png)
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+
+![bg 80%](../assets/Figures/FKV/waermeleitfaehigkeit_hexagonal.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+# Messungen der Wärmeleitfähigkeiten von Faserverbunden - Transient Hot-Strip Verfahren
+
+![bg 50%](../assets/Figures/FKV/Messung_Waermeleitfaehigkeit.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+
+
+
+![bg 75%](../assets/Figures/FKV/Vergleich_messung_homogenisierung_Waermeleitfaehigkeit.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+----
+
+# Homogenisierung von Festigkeiten
+- Faserfestigkeiten kaum direkt messbar
+- Messbar
+    - Zug- und Druckfestigkeiten in Faserrichtung 
+    - Festigkeiten in Gewebe-Verbunden
+
+
+
+![bg vertical fit](../assets/Figures/FKV/Faserkerben.png)
+
+![bg right 90%](../assets/Figures/FKV/Faserfestigkeit_glas.png)
+
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+
+# Homogenisierung von Festigkeiten
+
+
+- Erkenntnisse
+    - Abschätzung der Festigkeiten bei geändertem Faservolumengehalt
+    - besseres Verstehen des Verbundversagens
+    - sinnbolle Auslegung von Fasern und Matrix
+
+![bg vertical fit](../assets/Figures/FKV/Faserkerben.png)
+
+![bg right 90%](../assets/Figures/FKV/Faserfestigkeit_glas.png)
+
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Zugfestigkeit von UD-Verbunden
+**Annahmen:**
+Lineare Elastizität von Fasern und Matrix bis zum Bruch
+Gleiche Festigkeit aller Fasern, kosntant über die gesamte Länge
+
+**Festigkeiten unter Zugbeanspruchung (t) in Faserrichtung**
+$\begin{array}{lll}
+& \text{Fasern} &\text{Matrix}\\
+\text{Bruchdehnungen}    &  \varepsilon_{ft} & \varepsilon_{mt}\\
+\text{Bruchspannungen} 
+ &  \sigma_{ft} & \sigma_{mt}\\
+\end{array}
+$
+Übliche Auslegung : $\varepsilon_{mt}>\varepsilon_{ft}$
+Faserkontrolliertes Versagen bedeutet: $\varepsilon_{t}=\varepsilon_{ft}$
+Bei Faserbruch: 
+Matrixdehnung = Bruchdehnung der Faser $\varepsilon_{ft}$
+Matrixsapnnung = $\sigma_m(\varepsilon_{ft})$
+
+---
+## Bruchspannung des Verbundes nach Mischungsregel
+$$\sigma_t=\sigma_{ft}\varphi+\sigma_m(\varepsilon_{ft})(1-\varphi)$$
+Der Verbund versagt natürlich nur dann, wenn auch die Bruchspannung der Matrix überschritten ist
+$$\sigma_t\geq\sigma_{mt}(1-\varphi)$$
+Sonst trägt die Matrix trotz der gerissenen Fasern.
+Nur bei sehr kleinen Faservolumengehalten möglich.
+
+---
+# Zugfestigkeiten von UD-Verbunden
+![bg 50%](../assets/Figures/FKV/Zugfestigkeit_vs_phi.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+## Kritik an der Mischungsregel
+- in einem Laminat ist die Zugfestigkeit von Faser zu Faser veschieden
+- über die Faserlänge ist die Zugfestigkeit nicht konstant; lange Fasern haben eine geringere Festigkeit als kurze
+- diese Tatsachen werden in der Mischungsregel nicht berücksichtigt
+- aus diesem Grund wurden verbesserte Versagenshypothesen aufgestellt
+
+---
+
+# Versagenshypothese "Weakest Link Failure"
+
+- berücksichtig eine statistische Verteilung der Faserfestigkeiten, abhängig von der Faserlänge $L$
+
+Weibull-Verteilung $f(\sigma_t)=L\alpha\beta\sigma_t^{\beta-1}e^{-L\alpha\sigma_t^{\beta}}$
+$\alpha$, $\beta$: Parameter zur Anpassung der Versuchsergebnisse
+
+**Hypothese: Bruch der schwächsten Faser führt zum Versagen**
+- Bruchspannung der schwächsten Fasern:
+$$\sigma_{tw}=\left(\frac{\beta-1}{NL\alpha\beta}\right)$$
+$N$ - Anzahl der Fasern im Verbund
+
+---
+
+## Kritik an der "Weakest Link Failure" Hypothese
+- Realistische Versagensspannungen ergeben sich nur bei einer geringen Anzahl von Fasern und einer geringen Streubreite
+- für praktisch relevante Faserverbunde werden zu geringe Festigkeiten prognostiziert
