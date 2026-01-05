@@ -22,12 +22,6 @@ Hochschule Magdeburg-Stendal
 <!-- _class: lead -->
 
 
-## Aufgabenstellung
-
-
-
----
-
 # Annahmen für die Berechnung
 - Fasern
    - homogen
@@ -809,3 +803,102 @@ $N$ - Anzahl der Fasern im Verbund
 ## Kritik an der "Weakest Link Failure" Hypothese
 - Realistische Versagensspannungen ergeben sich nur bei einer geringen Anzahl von Fasern und einer geringen Streubreite
 - für praktisch relevante Faserverbunde werden zu geringe Festigkeiten prognostiziert
+
+--- 
+
+# Versagenshypothese "Cumulative Weakening Failure"
+
+Bruch einer Faser beansprucht die Matrix in der Umgebung der Bruchstelle durch hohe Störspannungen $\rightarrow$ werden berücksichtigt
+
+Annahmen:
+- linear elastische Fasern, Faserdurchmesser $d_f$
+- ideal plastische Matrix, Fließspannung $\tau_{mt}$
+- Länge des Strörbereichs: $\delta=\frac{\sigma_{ft}}{4\tau_{mt}}d_f$
+- Berücksichtigt werden
+    - dieVersagenswahrscheinlichkeit einer Faser der Länge $\delta$
+    - eine statistische Verteilung der Faserfestigkeiten
+- Verbundfestigkeit $\sigma_t^*=(\alpha\delta\beta e)^{-1/\beta}$
+
+---
+
+## Kritik
+- die Störungen infolge einer gebrochenen Faser wirkt sich nicht nur auf die umgebenene Matrix aus, sondern auch auf die angrenzenden Fasern
+- Spannungserhöhungen in den Nachbarfasern bleiben unberücksichtigt
+
+---
+
+# Versagenshypothese "Fiber Break Propagation Failure"
+- die Lastverteilung von der gebrochenen auf die benachbarte Fasern erhöht die Wahrscheinlichtkeit, dass diese ebenfalls versagen
+
+![bg right 80%](../assets/Figures/FKV/Spannungsverteilung_gebrochene_faser.png)
+
+---
+**Hypothese**: Das erste Auftreten von Brüchen in den Nachbarfasern definiert die Festigkeitsgrenze
+
+## Kritik
+- ist brauchbar für kleine Teststücke, liefert aber zu gerninge Festigkeiten für große Bauteile
+
+---
+# Versagenshypothese "Cumulative Group Mode FAilure"
+- Ungeliehcmäßigkeotem der Faserfestgkeiten führt zu räumlich verteilten Faserbrüchen, die schon weit vor dem entgültigen Versagen auftreten
+- Spannungskonzentrationen in den Nachbarfasern wird bei diesen zu früherem Versagen führen
+- Höhere Schubbeanspruchung von Matrix und Interface in der Nähe der Faserbrüche kann zu Längsrissen führen, die den Versagensfortschritt senkrecht zur Faser aufhalten
+- so können sich Gruppen von gerissenen Fasern bilden
+
+---
+
+## Kritik
+- Das Modell ist kompliziert, weil jede Gruppe unterschiedlich viele gerissene Fasern enthalten kann
+- die Kennwerte sind schwer zu beschaffen
+- für praktische Anwendungen zu aufwändig
+
+---
+# Druckfestigkeiten von UD-Verbunden
+- nur wenige Ansätze zu Bestimmung der Druckfestigkeiten von UD-Verbunden in Faserrichtung auf Basis der Mikromechanik
+- Wesentlicher Aspekt ist die Stabilität der Faser
+- bei geringem Faservolumengehalt symmetrische Stauchungsform 
+![](../assets/Figures/FKV/symm_stauch.png)
+- Festigkeitsfrenze als Knicklast der gebetten Fasern $\sigma_c=2\varphi\sqrt{\frac{\varphi E_m E_f}{3(1-\varphi)}}$
+
+---
+- bei höherem Fasernvolumengehalt ($\varphi>0.2$) 
+    Antisymmetrische Schubformen
+![](../assets/Figures/FKV/antisym_schubform.png)
+- für ideal elastische Matrix und isotrope Fasern
+$\sigma_c=\frac{G_m}{1-\varphi}$
+Verbesserung mit 3D Einfluss
+$\sigma_c=\frac{(1+\varphi)G_m}{1-\varphi}$
+
+nach Rosen und Hashin
+
+---
+
+Für anisotrope Fasern
+
+$\sigma_c=\frac{G_m}{1-\varphi(1-G_m/G_{LTf})}$
+
+![bg right 70%](../assets/Figures/FKV/Druckfestigkeit_UDVerbund.png)
+Bei höherem Faservolumengehalt wird die Matrix sich nicht mehr elastisch verformen
+
+Annahme: ideal plastische Matrix mit Fließspannung $\tau_{mt}$ und Sekantenmodul $E_m$
+
+$\sigma_c=\sqrt{\frac{\varphi\tau_{mt}E_m}{3(1-\varphi)}}$
+
+---
+
+Alternative Ansätze bspw. 
+"Longitudinal Compressive Strength of Continuous fiber Composites" C.K.H. Dharan and Chun-Liang Lin doi: 10.1177/002199830606807
+
+$\sigma_c = \frac{G_m}{1-\varphi+2(h_i/h_f)(G_m/G_i)\varphi}$
+
+![bg right fit](../assets/Figures/FKV/bild_dharam.png)
+
+---
+# Kritik an Formeln zur Druckfestigkeit
+- Faserondulation nicht erfasst
+- 2-3° sind typisch und reduzieren die Druckgestigkeit erheblich
+- Einfluss der Faserdicke nicht erfasst
+    dickere Fasern sind besser ausgerichtet und haben eine höhere Druckfestigkeit
+
+
+
