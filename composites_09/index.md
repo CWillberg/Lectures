@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Einführung'
+header: 'Faserverbunde - Fügeverbindungen'
 theme: h2
 paginate: true
 math: katex
@@ -8,7 +8,7 @@ math: katex
 
 <!-- _class: lead -->
 
-# Einführung
+# Fügeverbindungen
 
 
 
