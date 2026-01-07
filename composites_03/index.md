@@ -446,7 +446,7 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 
 ---
 
-## 4.3.6 Belastbarkeit T > T$_{g}$
+## Belastbarkeit T > T$_{g}$
 
 **Zugbelastung:** Auch oberhalb T$_{g}$ tragfähig
 - Höhere Bruchdehnungen als bei 23°C

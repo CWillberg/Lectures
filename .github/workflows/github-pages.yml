@@ -5,18 +5,26 @@ on:
       - main
     paths:
       - "**.md"
+      - "themes/**" # ✅ Theme-Änderungen triggern Build
+      - ".github/workflows/**"
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-22.04
+    timeout-minutes: 30 # ✅ Job-Timeout erhöhen
     strategy:
+      max-parallel: 8 # ✅ Nicht zu viele parallel (Standard: unbegrenzt)
+      fail-fast: false # ✅ Ein Fehler stoppt nicht alles
       matrix:
         folder:
           - Faserverbund_02
@@ -105,10 +113,38 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # ✅ Chrome Installation cachen
+      - name: Cache Chrome
+        id: cache-chrome
+        uses: actions/cache@v4
+        with:
+          path: ./tmp
+          key: chrome-${{ runner.os }}-${{ hashFiles('.nvmrc') }}
+
+      - name: Install Chrome
+        if: steps.cache-chrome.outputs.cache-hit != 'true'
+        run: |
+          npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp)
+
+      # ✅ Retry-Mechanik bei Timeout
       - name: Build Marp slide deck
-        run: CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') FOLDER=${{ matrix.folder }} npm run build
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          retry_wait_seconds: 30
+          command: |
+            CHROME_PATH=$(find ./tmp -name chrome -type f | head -1)
+            FOLDER=${{ matrix.folder }}
+            npx @marp-team/marp-cli@latest ${FOLDER}/index.md \
+              --theme-set themes/ \
+              --pdf \
+              --allow-local-files \
+              --html \
+              -o public/${FOLDER}.pdf
         env:
-          PUPPETEER_TIMEOUT: 160000000
+          PUPPETEER_TIMEOUT: 300000 # ✅ 5 Minuten (realistischer)
+          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage --disable-gpu"
 
       - run: ls -R public
 
@@ -120,21 +156,27 @@ jobs:
 
   deploy:
     needs: build
+    if: always() # ✅ Deploy auch bei partial success
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Download page artifacts
         uses: actions/download-artifact@v4
         with:
           path: public
           merge-multiple: true
+
       - name: Copy assets
         run: cp -r assets public/assets
+
       - run: ls -R public
+
       - name: Upload page artifacts
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
