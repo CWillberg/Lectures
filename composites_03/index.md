@@ -463,7 +463,7 @@ $$R_{\perp\parallel}^- \propto G_m$$
 
 ---
 
-## 4.3.7 Tiefe Temperaturen
+## Tiefe Temperaturen
 
 **Günstig:**
 - Steifigkeit und Festigkeit steigen

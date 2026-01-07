@@ -10,8 +10,12 @@ www.h2.de
 Um einen Foliensatz in pdf umzuwandeln, nutze folgenden Befehl in WSL.
 
 ```
-marp mti_ft_02/index.md --pdf --allow-local-file
-s --browser chrome -o mti_ft_02.pdf
+marp composites_06/index.md \
+--pdf \
+--theme-set themes/h2.css \
+--allow-local-files \
+--html \
+-o composites_06.pdf
 ```
 - videos mittels embed einbauen
 - youtu.be → youtube.com/embed für alle problematischen URLs
