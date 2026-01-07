@@ -40,7 +40,7 @@ Für die Auslegungsphase in der Regel zu aufwändig
    - Faser und Matrixmaterial und Faservolumengehalt sind vorab festgelegt
    - Anzahl, Dicke und Faserrichtung der Schichten werden bestimmt
 
-- 5 Verfahren
+- 4 Verfahren
    - Auslegung nach Hauptspannungen
    - Auslegung nach der Netztheorie
    - Auslegung nach Steifigkeit
@@ -360,8 +360,8 @@ $\begin{array}{lll}
 # Auslegung mittels Ranking
 ## Vorgehen
 - Schichtzahl und mögliche Faserrichtung wählen
-- Ausleungswert (Beullast, Reservefaktor, ...) für alle möglichen Anteilskombinationen ausrechnen
-- **Rangfolge** aufstellen und Anteilskombination mit dem günstisten Auslegungswert feststellen
+- Auslegungswert (Beullast, Reservefaktor, ...) für alle möglichen Anteilskombinationen ausrechnen
+- **Rangfolge** aufstellen und Anteilskombination mit dem günstigsten Auslegungswert feststellen
 - Schichtdicke proportional so verändern, dass geforderte Sicherheit gerade eingehalten wird
 
 ---
@@ -371,14 +371,14 @@ $\begin{array}{lll}
 $\begin{array}{lll}
 \text{n: Schichten}   \\
 \text{r: Schichtausrichtungen} \\
-\text{r}^{\text{n}}: \text{Lagenausbauten müssen untersucht werden}
+\text{r}^{\text{n}}: \text{Lagenaufbauten müssen untersucht werden}
 \end{array}$
 
 **Beispiel**
 
 $$ n = 16$$
 $$r = 4$$
-$$r^n = 4^16 = 4294967296$$
+$$r^n = 4^{16} = 4294967296$$
 
 - Festigkeiten oder Beullasten für über 4 Milliarden Laminate auszurechnen ist kein vertretbarer Aufwand
 - Ranking ohne Einschränkung ist nicht praktikabel
@@ -391,7 +391,7 @@ $$r^n = 4^16 = 4294967296$$
 - so wenig Zusatzbedingungen wir möglich, so viele wie nötig
 - symmetrischer Lagenaufbau
 
-$$ n = 16 -> 8$$
+$$ n = 16 \rightarrow 8$$
 $$r = 4$$
 $$r^n = 4^8 = 65536$$
 
@@ -533,7 +533,7 @@ $$
    - so einfach wie möglich
    - so genau wie nötig; gegenüber der Festigkeitsnachweise müssen Forderungen an die Genauigkeit mitunter erheblich reduziert werden, um die Rechenzeiten in Grenzen zu halten
 - **Optimierungsmodell**
-   - Festlegung vaiabler und vorgebener Paramater
+   - Festlegung variabler und vorgebener Parameter
    - Formulierung der Zielfunktion
    - Bestimmung der Restriktionen
 
