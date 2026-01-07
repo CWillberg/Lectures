@@ -11,7 +11,6 @@ math: katex
 # Fertigungsverfahren
 
 
-
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
