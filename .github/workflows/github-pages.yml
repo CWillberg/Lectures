@@ -5,90 +5,78 @@ on:
       - main
     paths:
       - "**.md"
-      - "themes/**" # ✅ Theme-Änderungen triggern auch Build
-      - ".github/workflows/**"
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: pages
   cancel-in-progress: true
-
 jobs:
-  detect-changes:
-    runs-on: ubuntu-latest
-    outputs:
-      folders: ${{ steps.filter.outputs.folders }}
-      any_changed: ${{ steps.filter.outputs.any_changed }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Get changed folders
-        id: filter
-        run: |
-          ALL_FOLDERS='["composites_01", "composites_02", "composites_04", "composites_05", "composites_06","Faserverbund_02","wst_mb_01","wst_mb_02","wst_mb_03","wst_mb_04","wst_mb_05","wst_mb_06","wst_mb_07","wst_mb_08","wst_mb_09","wst_mb_10","wst_mb_11","wst_mb_12","wst_mb_13","wst2_mb_01","wst2_mb_02","wst2_mb_04","mti_ft_01","mti_ft_02","mti_ft_03","mti_ft_04","mti_ft_05","mti_ft_06","mti_ft_07","mti_ft_08","mti_ft_09","mti_ft_10","mti_ft_11","mti_ft_12","mti_ft_13","mti_ft_14","stream_mech_01","stream_wst_01","stream_wst_02","stream_wst_03","stream_wst_04","stream_wst_05","stream_wst_06","stream_wst_07","stream_wst_08","stream_wst_09","stream_wst_10","stream_wst_11","stream_wst_12","composites_01","composites_02","Berufsschule","gju_01","gju_mech","GJU_mat_introduction","gju_01_questions"]'
-
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            echo "folders=$ALL_FOLDERS" >> $GITHUB_OUTPUT
-            echo "any_changed=true" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-
-          if [ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]; then
-            CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }})
-          else
-            CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
-          fi
-
-          echo "Changed files:"
-          echo "$CHANGED_FILES"
-
-          # ✅ Wenn Theme geändert wurde, alle Ordner bauen
-          if echo "$CHANGED_FILES" | grep -q "^themes/"; then
-            echo "Theme changed - rebuilding all folders"
-            echo "folders=$ALL_FOLDERS" >> $GITHUB_OUTPUT
-            echo "any_changed=true" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-
-          CHANGED_FOLDERS=$(echo "$CHANGED_FILES" | grep -E '^[^/]+/' | cut -d'/' -f1 | sort -u)
-
-          FOLDERS_JSON="["
-          FIRST=true
-          for folder in $CHANGED_FOLDERS; do
-            if echo "$ALL_FOLDERS" | grep -q "\"$folder\""; then
-              if [ "$FIRST" = true ]; then
-                FOLDERS_JSON="$FOLDERS_JSON\"$folder\""
-                FIRST=false
-              else
-                FOLDERS_JSON="$FOLDERS_JSON,\"$folder\""
-              fi
-            fi
-          done
-          FOLDERS_JSON="$FOLDERS_JSON]"
-
-          echo "Folders to build: $FOLDERS_JSON"
-          echo "folders=$FOLDERS_JSON" >> $GITHUB_OUTPUT
-
-          if [ "$FOLDERS_JSON" == "[]" ]; then
-            echo "any_changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "any_changed=true" >> $GITHUB_OUTPUT
-          fi
-
   build:
-    needs: detect-changes
-    if: needs.detect-changes.outputs.any_changed == 'true'
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        folder: ${{ fromJson(needs.detect-changes.outputs.folders) }}
+        folder:
+          - Faserverbund_02
+          - wst_mb_01
+          - wst_mb_02
+          - wst_mb_03
+          - wst_mb_04
+          - wst_mb_05
+          - wst_mb_06
+          - wst_mb_07
+          - wst_mb_08
+          - wst_mb_09
+          - wst_mb_10
+          - wst_mb_11
+          - wst_mb_12
+          - wst_mb_13
+          - wst2_mb_01
+          - wst2_mb_02
+          - wst2_mb_04
+          - mti_ft_01
+          - mti_ft_02
+          - mti_ft_03
+          - mti_ft_04
+          - mti_ft_05
+          - mti_ft_06
+          - mti_ft_07
+          - mti_ft_08
+          - mti_ft_09
+          - mti_ft_10
+          - mti_ft_11
+          - mti_ft_12
+          - mti_ft_13
+          - mti_ft_14
+          - stream_mech_01
+          - stream_wst_01
+          - stream_wst_02
+          - stream_wst_03
+          - stream_wst_04
+          - stream_wst_05
+          - stream_wst_06
+          - stream_wst_07
+          - stream_wst_08
+          - stream_wst_09
+          - stream_wst_10
+          - stream_wst_11
+          - stream_wst_12
+          - composites_01
+          - composites_02
+          - composites_03
+          - composites_04
+          - composites_05
+          - composites_06
+          - composites_07
+          - composites_08
+          - composites_09
+          - Berufsschule
+          - gju_01
+          - gju_mech
+          - GJU_mat_introduction
+          - gju_01_questions
     steps:
       - uses: actions/checkout@v4
 
@@ -118,10 +106,7 @@ jobs:
         run: npm ci
 
       - name: Build Marp slide deck
-        run: |
-          CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}')
-          # ✅ Theme beim Build einbinden
-          FOLDER=${{ matrix.folder }} THEME_SET=themes npm run build
+        run: CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') FOLDER=${{ matrix.folder }} npm run build
         env:
           PUPPETEER_TIMEOUT: 160000000
 
@@ -135,42 +120,21 @@ jobs:
 
   deploy:
     needs: build
-    if: always() && needs.detect-changes.outputs.any_changed == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Download page artifacts
         uses: actions/download-artifact@v4
         with:
           path: public
           merge-multiple: true
-
       - name: Copy assets
         run: cp -r assets public/assets
-
       - run: ls -R public
-
       - name: Upload page artifacts
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      # ✅ Test ob Deployment erfolgreich war
-      - name: Test deployment
-        run: |
-          sleep 10  # Warte auf Propagierung
-          URL="${{ steps.deployment.outputs.page_url }}"
-          echo "Testing deployment at: $URL"
-
-          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
-          if [ "$HTTP_CODE" -eq 200 ]; then
-            echo "✅ Deployment successful! Site is accessible."
-          else
-            echo "❌ Deployment failed! HTTP status: $HTTP_CODE"
-            exit 1
-          fi
