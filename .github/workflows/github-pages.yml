@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - "**.md"
-      - "themes/**" # ✅ Theme-Änderungen triggern Build
+      - "themes/**"
       - ".github/workflows/**"
   workflow_dispatch:
 
@@ -19,11 +19,33 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  # ✅ Setup-Job: Chrome nur 1× installieren
+  setup:
     runs-on: ubuntu-22.04
-    timeout-minutes: 30 # ✅ Job-Timeout erhöhen
+    outputs:
+      cache-key: ${{ steps.cache-chrome.outputs.cache-hit }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache Chrome
+        id: cache-chrome
+        uses: actions/cache@v4
+        with:
+          path: ./tmp/chrome
+          key: chrome-stable-${{ runner.os }}-v2
+
+      - name: Install Chrome
+        if: steps.cache-chrome.outputs.cache-hit != 'true'
+        run: |
+          npx -y @puppeteer/browsers@latest install chrome@stable --path $(pwd)/tmp
+
+  build:
+    needs: setup
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
     strategy:
-      fail-fast: false # ✅ Ein Fehler stoppt nicht alles
+      max-parallel: 20 # ✅ Maximum für Public Repos
+      fail-fast: false
       matrix:
         folder:
           - Faserverbund_02
@@ -84,83 +106,56 @@ jobs:
           - gju_mech
           - GJU_mat_introduction
           - gju_01_questions
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Chrome dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 \
-            libatk-bridge2.0-0 \
-            libdrm2 \
-            libxkbcommon0 \
-            libgbm1 \
-            libasound2 \
-            libxrandr2 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libcups2
+      # ✅ Chrome aus Cache laden (statt installieren!)
+      - name: Restore Chrome Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ./tmp/chrome
+          key: chrome-stable-${{ runner.os }}-v2
 
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          cache: npm
           node-version-file: ".nvmrc"
+          cache: "npm"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --prefer-offline --no-audit
 
-      # ✅ Chrome Installation cachen
-      - name: Cache Chrome
-        id: cache-chrome
-        uses: actions/cache@v4
-        with:
-          path: ./tmp
-          key: chrome-${{ runner.os }}-${{ hashFiles('.nvmrc') }}
-
-      - name: Install Chrome
-        if: steps.cache-chrome.outputs.cache-hit != 'true'
+      - name: Build PDF
         run: |
-          npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp)
-
-      # ✅ Retry-Mechanik bei Timeout
-      - name: Build Marp slide deck
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          max_attempts: 3
-          retry_wait_seconds: 30
-          command: |
-            CHROME_PATH=$(find ./tmp -name chrome -type f | head -1)
-            FOLDER=${{ matrix.folder }}
-            npx @marp-team/marp-cli@latest ${FOLDER}/index.md \
-              --theme-set themes/ \
-              --pdf \
-              --allow-local-files \
-              --html \
-              -o public/${FOLDER}.pdf
+          CHROME_PATH=$(find ./tmp -name chrome -type f | head -1)
+          export CHROME_PATH
+          npx @marp-team/marp-cli@latest ${{ matrix.folder }}/index.md \
+            --theme-set themes/ \
+            --pdf \
+            --allow-local-files \
+            --html \
+            -o public/${{ matrix.folder }}.pdf
+        timeout-minutes: 5
         env:
-          PUPPETEER_TIMEOUT: 300000 # ✅ 5 Minuten (realistischer)
-          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage --disable-gpu"
+          PUPPETEER_SKIP_DOWNLOAD: "true"
+          PUPPETEER_EXECUTABLE_PATH: ${{ env.CHROME_PATH }}
 
-      - run: ls -R public
-
-      - name: Upload artifacts
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           path: public
           name: ${{ matrix.folder }}
+          retention-days: 1
 
   deploy:
     needs: build
-    if: always() # ✅ Deploy auch bei partial success
+    if: always()
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download page artifacts
+      - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
           path: public
@@ -169,13 +164,10 @@ jobs:
       - name: Copy assets
         run: cp -r assets public/assets
 
-      - run: ls -R public
-
-      - name: Upload page artifacts
+      - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
