@@ -177,8 +177,8 @@ Umformbarkeit beschreibt die Fähigkeit eines Werkstoffes unter bestimmten Bedin
 
 **Umformgrad**
 - entspricht der Dehung in Prozent
-- für kleine Deformationen $\phi=\frac{\Delta l}{l_0}\cdot100\%$
-- für große Deformationen $\phi=ln\frac{l_1}{l_0}\cdot100\%$ -> logarithmisches Dehnungsmaß
+- für kleine Deformationen $\varphi=\frac{\Delta l}{l_0}\cdot100\%$
+- für große Deformationen $\varphi=ln\frac{l_1}{l_0}\cdot100\%$ -> logarithmisches Dehnungsmaß
 - Richtungsabhängig (3 Umformgrade)
 
 - Schiebungen

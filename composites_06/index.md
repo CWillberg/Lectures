@@ -547,7 +547,28 @@ $$
    - Erfahrungen mit dem Probelm können Hinweise geben
 
 ---
-DLRK Beispiel bringen
+# Praxisbeipiel
+![bg 60%](../assets/Figures/FKV/design_workflow.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Folgende Bilder entmommen aus der M. Rädel; C. Willberg; A. Schröder; S. Froese; M. Hanke; "FFS: CONCEPTS & PRELIMINARY DESIGN OF A FRP LIGHTWEIGHT AEROSPACE STRUCTURE UNDER CONSIDERATION OF SECONDARY BONDING MANUFACTURING"
+</div>
+
+---
+
+![bg 60%](../assets/Figures/FKV/airbrake_lastfall.png)
+
+---
+![bg 60%](../assets/Figures/FKV/components.png)
+
+---
+
+![bg 80%](../assets/Figures/FKV/design_crit.png)
+
+![bg 80%](../assets/Figures/FKV/failure_modes.png)
+
+
+
 
 ---
 

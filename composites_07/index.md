@@ -655,10 +655,10 @@ $k_l=\varphi k_{Lf}+(1-\varphi)k_m$
 $k_l=\varphi k_{Lf}+(1-\varphi)k_m$
 
 $\begin{array}{ll}
-\text{\textbf{Lord Rayleigh (1882)}}   & k_t=k_m\left[1-2\frac{\varphi}{\nu'+\phi+3\phi^4S_4^2/(\nu'\pi^4)}\right]\\
+\text{\textbf{Lord Rayleigh (1882)}}   & k_t=k_m\left[1-2\frac{\varphi}{\nu'+\varphi+3\varphi^4S_4^2/(\nu'\pi^4)}\right]\\
 &\nu'=(1+k_{Tf})/(1-k_{Tf}/k_m)\\
 & s_4=0.0323502\pi^4\\
-\text{\textbf{Selbskonsistentes Modell}} & k_t=k_m[k_{Tf}(1+\phi)+k_m(1-\phi)]/[k_{Tf}(1-\phi)+k_m(1+\phi)]\\
+\text{\textbf{Selbskonsistentes Modell}} & k_t=k_m[k_{Tf}(1+\varphi)+k_m(1-\varphi)]/[k_{Tf}(1-\varphi)+k_m(1+\varphi)]\\
 \end{array}
 $
 
