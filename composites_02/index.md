@@ -499,7 +499,7 @@ C = Chemical resistant, D = Dielectric
 **2. Chemieschutzschichten (CSS):**
 - C-Glas oder ECR-Glas Vliese/Matten
 - Chemikalienbeständige Matrix (hohe Bruchdehnung)
-- Redundanz: Zweischaliger Aufbau
+- Redundanz: Zweischaliger Aufbau 
 </div>
 <div class=bdiv>
 

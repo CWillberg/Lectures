@@ -23,7 +23,6 @@ jobs:
     runs-on: ubuntu-22.04
     timeout-minutes: 30 # ✅ Job-Timeout erhöhen
     strategy:
-      max-parallel: 8 # ✅ Nicht zu viele parallel (Standard: unbegrenzt)
       fail-fast: false # ✅ Ein Fehler stoppt nicht alles
       matrix:
         folder:
