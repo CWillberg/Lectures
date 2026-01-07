@@ -11,7 +11,6 @@ math: katex
 # Auslegung von Faserverbunden
 
 
-
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
