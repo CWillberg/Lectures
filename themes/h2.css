@@ -35,10 +35,10 @@ header {
 
 section {
   font-family: Frutiger;
-  background-image: url('../assets/styles/background.png');
+  background-image: url("../assets/styles/background.png");
 }
 section.title-slide {
-  background-image: url('../assets/styles/background.png');
+  background-image: url("../assets/styles/background.png");
   color: var(--title-slide-text-color);
 }
 
@@ -181,7 +181,7 @@ section.cols-2-1 .rimg {
 
 section.cols-2-1 .bdiv {
   grid-area: slidefooter;
-  margin-top: -10%;
+  margin-top: -30%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,9 +196,9 @@ img[alt~="center"] {
   background-color: transparent !important;
 }
 .katex {
-  font-size: 1.0em;
+  font-size: 1em;
 }
 
 .katex-display {
-  font-size: 1.0em;
+  font-size: 1em;
 }

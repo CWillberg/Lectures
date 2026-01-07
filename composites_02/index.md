@@ -43,7 +43,7 @@ Hochschule Magdeburg-Stendal
 - ### Elemente: B, C, Si (erste Reihen des Periodensystems)
 
 
-![](../assets/Figures/FKV/faserformen.png)
+![bg right fit](../assets/Figures/FKV/faserformen.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -118,6 +118,9 @@ Hochschule Magdeburg-Stendal
 
 # Verminderung von Fehlstellen und Kerben
 
+<!-- _class: cols-2 -->
+<div class=ldiv>
+
 ### Problem:
 - Fehlstellen statistisch verteilt und orientiert
 - Kerbwirkung kritischer als Querschnittsreduktion
@@ -127,8 +130,14 @@ Hochschule Magdeburg-Stendal
 - Ausrichtung der Fehlstellen in Faserlängsrichtung
 - Längung und Abplattung der Defekte
 - Reduzierte Spannungsüberhöhung
+</div>
+
+
+<div class=rimg>
 
 ![](../assets/Figures/FKV/Faserkerben.png)
+
+</div>
 
 ---
 
@@ -268,6 +277,9 @@ Stahl, Aluminium, Kupfer, Nickel, Beryllium, Wolfram
 - Aramidfaser
 
 Pflanzenfasern: Innenverkleidungen (Pkw)
+
+---
+# Glasfasern
 
 ---
 
@@ -415,8 +427,8 @@ Pflanzenfasern: Innenverkleidungen (Pkw)
 |-------------|--------|--------|--------|--------|--------|
 | E-Modul [N/mm²] | 73.000 | 86.000 | 86.810 | 71.000 | 55.000 |
 | Zugfestigkeit [N/mm²] | 2.400 | 3.600 | 4.500 | 2.400 | 1.650 |
-| Dichte [g/cm³] | 2,54 | 2,55 | 2,49 | 2,51 | 2,14 |
-| α_T [10⁻⁶/°C] | 5,1 | 4,1 | 5,58 | 7,2 | 3,5 |
+| Dichte [g/cm³] | 2.54 | 2.55 | 2.49 | 2.51 | 2.14 |
+| α_T [10⁻⁶/°C] | 5.1 | 4.1 | 5.58 | 4.2 | 3.5 |
 | Verluste ab | 300°C | 350°C | - | - | - |
 
 E = Electrical (Standard), R = Resistance, S = Strength
@@ -469,23 +481,34 @@ C = Chemical resistant, D = Dielectric
 
 ---
 
+
 # Schutzmaßnahmen gegen Korrosion
+
+<!-- _class: cols-2-1 -->
+
+<div class=ldiv>
 
 **1. Liner:**
 - PVC, PE, PP, PVDF
 - Dichtigkeit garantiert
 - Problem: Verklebung (außer PVC)
 - Lösung: Aufgeschmolzene Oberfläche + Gewebe
+</div>
+<div class=rdiv>
 
 **2. Chemieschutzschichten (CSS):**
 - C-Glas oder ECR-Glas Vliese/Matten
 - Chemikalienbeständige Matrix (hohe Bruchdehnung)
 - Redundanz: Zweischaliger Aufbau
+</div>
+<div class=bdiv>
 
-**Achtung:** CSS bei hohen Temperaturen (160-200°C) vermeiden
-→ Delaminationsgefahr durch thermische Dehnung
+**Achtung:** CSS bei hohen Temperaturen (160-200°C) vermeiden  → Delaminationsgefahr durch thermische Dehnung
+</div>
 
 ---
+
+
 
 # Glasfaser - Korrosionsresistenz
 
@@ -552,7 +575,7 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 ---
 
 **Hohlfasern:**
-- ~30% niedrigere Dichte (1,8 vs. 2,54 g/cm³)
+- ~30% niedrigere Dichte (1.8 vs. 2.54 g/cm³)
 - Stabilitätsgefährdete Bauteile
 - Wanddickenerhöhung ohne Gewichtszunahme
 - Matrix darf Hohlraum nicht füllen!
@@ -608,11 +631,11 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 
 ---
 
-# 3.4.1 Herstellung - Ausgangsmaterialien
+# Herstellung C-Fasern
 
 **Verfahren:**
 1. Chemisches Abscheiden auf Trägerdrähten
-2. Abbau vorgeformter organischer Fasern ✓
+2. Abbau vorgeformter organischer Fasern
 
 **Durchbruch 1961: Polyacrylnitril (PAN)**
 - >90% Marktanteil
@@ -621,13 +644,15 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Hohe Festigkeiten (≈7.000 N/mm²)
 - Bruchdehnungen bis 3%
 
+---
+# Herstellung C-Fasern
 **Alternative: Pech (Petroleum/Steinkohle)**
 - Mesophase durch thermische Behandlung
 - Hohe Orientierung beim Schmelzspinnen
 
 ---
 
-# Herstellungsprozess C-Fasern
+
 
 **Stufe 1: Stabilisieren (180-350°C)**
 - PAN → unschmelzbare Struktur
@@ -639,11 +664,9 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Nicht-Kohlenstoff-Atome abspalten
 - Kohlenstoffringe bilden
 - Masseverlust ~50%
-- Schrumpfung: ~0,01%/°C
+- Schrumpfung: ~0.01%/°C
 
 ---
-
-# Herstellungsprozess - Fortsetzung
 
 **Stufe 3: Graphitierung (2000-3000°C)**
 - Je nach gewünschtem E-Modul
@@ -653,12 +676,14 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - bis 3000°C: Ultrahochmodul
 - Dichte steigt mit E-Modul
 
-![](abb3.9)
-![](abb3.10)
+![bg right fit](../assets/Figures/FKV/EModul_herstellung_C_faser.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
-# Oberflächenbehandlung und Schlichte
 
 **Stufe 4: Oberflächenbehandlung**
 - Stabile Oberflächenoxide erzeugen
@@ -671,8 +696,6 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Meist modifizierte Epoxidharze
 - Hochtemperaturbeständige Schlichten für PEEK, PSU, PA 6.6
 - Auch ungeschlichtete Fasern erhältlich
-
-![](abb3.9)
 
 ---
 
@@ -688,111 +711,127 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 **Realität:**
 - Defekte verhindern Erreichen theoretischer Werte
 
-![](abb3.11)
+![bg right fit](../assets/Figures/FKV/Elementarzelle_Graphit.png)
+![bg vertical fit](../assets/Figures/FKV/OrientierungCFaser.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
 # Mikrostruktur C-Faser
 
 **Faser als Faser-Matrix-Verbund:**
-- Fibrillen in amorphem Kohlenstoff
+- Fibrillen eingelagert in amorphem Kohlenstoff
 - Fibrillenanteil: 35-63%
 - Unregelmäßige Verteilung → niedrigere Festigkeit
 - Zusammengeklumpte Fibrillen → niedrigere Festigkeit
 
-**Defektquellen:**
-- Fehler in Ausgangsfaser
-- Beschädigung bei C-Faser-Fertigung
-- Beschädigung bei Laminatherstellung
-
-**Verbesserung:**
-- Reinere PAN-Ausgangsfasern
-- Ätzen zur Festigkeitssteigerung
-
 ---
 
-# 3.4.2 Vorteile Kohlenstofffaser
+# Vorteile Kohlenstofffaser
 
-- ✓ Sehr leicht (ρ ≈ 1,8 g/cm³ << 2,54 g/cm³ Glas)
-- ✓ Extrem hohe Festigkeiten
-- ✓ Sehr hohe E-Module
-- ✓ E-Modul einstellbar bei Herstellung
-- ✓ Auswahlmöglichkeit für Konstrukteur
-- ✓ Exzellente Ermüdungsfestigkeit
-- ✓ Statisch und dynamisch hochfest
-- ✓ Entscheidend für Flugzeugbau
-- ✓ Progressives σ-ε-Diagramm (~10% Steifigkeitszunahme)
-- ✓ Orientierung bei hohen Spannungen
+- Sehr leicht (ρ ≈ 1.8 g/cm³ << 2.54 g/cm³ Glas)
+- Extrem hohe Festigkeiten
+- Sehr hohe E-Module
+- E-Modul einstellbar bei Herstellung
+- Auswahlmöglichkeit für Konstrukteur
+- Exzellente Ermüdungsfestigkeit
+- Statisch und dynamisch hochfest
+- Entscheidend für Flugzeugbau
+- Progressives σ-ε-Diagramm (~10% Steifigkeitszunahme) durch Orientierung der kovalenten Bindungen der Graphikristallen bei hohen Spannungen
 
 ---
 
 # C-Faser - Weitere Vorteile
 
 **Anisotropie:**
-- E_parallel >> E_quer (Faktor 10)
+- $E_{parallel} >> $E_{quer}$ (Faktor 10)
 - Konstruktiv nutzbar
 
 **Konstruktionsfreundlich:**
 - Hohe Steifigkeit zieht Lasten an
 - Matrix und Grenzfläche entlastet
-- Risse später als bei GFK
+- Risse an Grenzflächen treten später auf als bei GFK
+
+---
+
+# C-Faser - Weitere Vorteile
 
 **Thermische Ausdehnung:**
 - Quer: positiv
 - Parallel: negativ (besonders bei HM)
 - α = 0 einstellbar für Präzisionsbauteile!
 
----
-
-# C-Faser - Chemische Eigenschaften
-
 **Beständigkeit:**
-- ✓ Gegen meiste Säuren und Alkalien
-- ✓ Verträglichkeit mit synthetischen Polymeren
-- ✓ Biokompatibel (menschliches Gewebe, Knochen)
-- ✓ Durchlässig für Röntgenstrahlung (Medizintechnik)
+- Gegen meiste Säuren und Alkalien
+- Verträglichkeit mit synthetischen Polymeren
+- Biokompatibel (menschliches Gewebe, Knochen)
+- Durchlässig für Röntgenstrahlung (Medizintechnik)
 
 ---
 
-# 3.4.2 Nachteile Kohlenstofffaser
+# Nachteile Kohlenstofffaser
 
 **Mechanisch:**
-- ✗ Sprödes Bruchverhalten (geringe Bruchdehnung)
-- ✗ Aber: Fasern mit höherer Bruchdehnung verfügbar
-- ✗ Schlagschäden schlecht sichtbar (undurchsichtig)
-- ✗ Delaminationen innen → Ultraschallprüfung nötig
-- ✗ CAI-Test (compression after impact) erforderlich
-- ✗ Druckfestigkeit < Zugfestigkeit (limitierend)
+- Sprödes Bruchverhalten (geringe Bruchdehnung)
+- Aber: Fasern mit höherer Bruchdehnung verfügbar
+- Schlagschäden schlecht sichtbar (undurchsichtig)
+- Delaminationen innen → Ultraschallprüfung nötig
+- CAI-Test (compression after impact) erforderlich
+- Druckfestigkeit < Zugfestigkeit (limitierend)
+
+
+
+---
+
+![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2019/10/Garbade_Illu_IB19-1-2000x1158.jpg)
 
 **Verarbeitung:**
-- ✗ Benetzungskontrolle schwierig → Harzüberschuss
-- ✗ Größere Eckradien nötig (hohe Fasersteifigkeit)
+- Benetzungskontrolle schwierig → Harzüberschuss
+- Größere Eckradien nötig (hohe Fasersteifigkeit)
 
 **Kosten:**
-- ✗ Hoher Faserpreis (Hauptnachteil!)
-- ✗ Steigt mit E-Modul und Garnfeinheit
+- Hoher Faserpreis (Hauptnachteil!)
+- Steigt mit E-Modul und Garnfeinheit
+
 
 ---
 
 # C-Faserklassen
 
+<!-- _class: cols-2-1 -->
+
+<div class=ldiv>
+
 **HT = High Tenacity (Standard, hochfest)**
 **ST = Super Tenacity (höhere Festigkeit)**
 **IM = Intermediate Modulus**
+
+</div>
+
+<div class=rdiv>
+
 **HM = High Modulus (Hochmodul)**
 **UHM = Ultra High Modulus**
+</div>
+
+<div class=bdiv>
 
 | Typ | E-Modul [N/mm²] | Zugfestigkeit [N/mm²] | Dichte [g/cm³] |
 |-----|-----------------|----------------------|----------------|
-| HT | 230.000 | 3.430 | 1,74 |
-| ST | 245.000 | 4.510 | 1,80 |
-| IM | 294.000 | 4.210 | 1,74 |
-| HM | 392.000 | 2.450 | 1,81 |
-| UHM | 450.000 | 2.150 | 1,90 |
+| HT | 230.000 | 3.430 | 1.74 |
+| ST | 245.000 | 4.510 | 1.80 |
+| IM | 294.000 | 4.210 | 1.74 |
+| HM | 392.000 | 2.450 | 1.81 |
+| UHM | 450.000 | 2.150 | 1.90 |
+</div>
+
+
 
 ---
 
-# 3.4.3 Temperatureinfluss C-Faser
+# Temperatureinfluss C-Faser
 
 **Steifigkeit:**
 - Temperaturinvariant
@@ -805,33 +844,33 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Mit Luftzutritt: bis ~400°C
 - HM-Fasern: noch höhere Einsatztemperatur (weniger Oxidation)
 
+---
+
 **Weitere Eigenschaften:**
 - Sehr niedriger thermischer Ausdehnungskoeffizient
 - Gute Wärmeleitfähigkeit
 - >90% Kohlenstoff
 
----
-
-# 3.4.4 Elektrische Eigenschaften C-Faser
-
 **Leitfähigkeit:**
 - ρ = 8 (HM) bis 20 (HT) Ωmm²/m
 - Gut elektrisch leitend
 
-**Auswirkungen:**
-- ✗ Nicht als Isolator geeignet
-- ✓ Widerstandsheizung möglich
-- ✓ Induktionserwärmung (viele Kontaktpunkte nötig)
-- ✓ Schweißen von Thermoplasten
-- ✓ EMV-Abschirmung
-- ✗ Galvanische Korrosion mit Metallen (Elektrolyt)
+---
+
+
+-  Nicht als Isolator geeignet
+-  Widerstandsheizung möglich
+-  Induktionserwärmung (viele Kontaktpunkte nötig)
+-  Schweißen von Thermoplasten
+-  EMV-Abschirmung
+-  Galvanische Korrosion mit Metallen (Elektrolyt)
   - OK: Titan, Edelstahl
   - Problematisch: Aluminium (Isolationsmaßnahmen!)
-- ✗ Kurzschlussgefahr (Bruchstücke, Abrieb)
+- Kurzschlussgefahr (Bruchstücke, Abrieb)
 
 ---
 
-# 3.4.5 Lieferformen C-Faser
+# Lieferformen C-Faser
 
 **Filamentdurchmesser:** 5-10 μm
 
@@ -842,11 +881,13 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Heavy tows: 45k, 400k
 
 **Technische Lieferbedingungen:**
-- DIN 29965, DIN 65184
+- DIN 29965. DIN 65184
 
 ---
 
-# 3.5 Aramidfasern
+# Aramidfasern
+
+---
 
 **Handelsnamen:** Kevlar®, Twaron®, Technora®
 
@@ -864,23 +905,20 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 
 ---
 
-# 3.5.2 Vorteile Aramidfaser
+# Vorteile Aramidfaser
 
-- ✓ Niedrigste Dichte (1,45 g/cm³)
-- ✓ Leichteste Verstärkungsfaser
-- ✓ Verschiedene Steifigkeiten verfügbar
-- ✓ Zugfestigkeit > Glasfaser
-- ✓ E-Modul ≈ 2× Glasfaser
-- ✓ Sehr gute Ermüdungsfestigkeit
-- ✓ Stark anisotrop
-- ✓ Stark negative α_T in Faserrichtung
-- ✓ Dämpfung >> Glas und C-Faser (Faktor 10)
+- Niedrige Dichte (1.45 g/cm³)
+- Leichteste Verstärkungsfaser
+- Verschiedene Steifigkeiten verfügbar
+- Zugfestigkeit > Glasfaser
+- E-Modul ≈ 2× Glasfaser
+- Sehr gute Ermüdungsfestigkeit
+- Stark anisotrop
+- Stark negative α_T in Faserrichtung
+- Dämpfung >> Glas und C-Faser (Faktor 10)
 
 ---
 
-# Aramidfaser - Zähigkeit
-
-**Herausragende Eigenschaft:**
 - Sehr hohe Zähigkeit
 - Hoher Widerstand gegen Rissausbreitung
 - Schlagbeanspruchte Laminate
@@ -888,52 +926,54 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 **Mischgewebe C-Aramid:**
 - Verbesserung CFK-Schlagzähigkeit
 - Verhindert völliges Auseinanderbrechen
-- Anwendungen: Flugzeugrümpfe, Monocoques, Rennwagen
-
-**Weitere Anwendungen:**
-- Arbeitsschutzbekleidung, Schutzhandschuhe
-- Sportbekleidung (Schürfschutz)
-- Ballistischer Schutz (Westen, Helme)
-- Mit Polyurethan-Matrix für Platten
-
----
-
-# Aramidfaser - Anwendungen
 
 **Rissstopper:**
 - Einfügen dünner Aramidgewebe
 - Verhindert Rissfortschritt in Nachbarschichten
 - Niedrigmodulfaser besonders geeignet (hohe Bruchdehnung)
 
+---
+
+# Anwendungen
+
+
+- Flugzeugrümpfe, Monocoques, Rennwagen
+- Arbeitsschutzbekleidung, Schutzhandschuhe
+- Sportbekleidung (Schürfschutz)
+- Ballistischer Schutz (Westen, Helme)
+- Mit Polyurethan-Matrix für Platten
+
+
 **Technische Textilien:**
 - Reifen, Keil- und Zahnriemen
 - Hydraulikschläuche
 - Taue
-- Größter Teil der Weltproduktion
 
 ---
 
-# 3.5.2 Nachteile Aramidfaser
+# Nachteile
 
 **Mechanisch:**
-- ✗ Geringe Druckfestigkeit parallel (R⁻ = 20% R⁺)
-- ✗ Wiederholte Stauchung >0,8% reduziert Zugfestigkeit
-- ✗ Stabilitätsversagen in Mikrostruktur
+- Geringe Druckfestigkeit parallel (R⁻ = 20% R⁺)
+- Wiederholte Stauchung >0.8% reduziert Zugfestigkeit
+- Stabilitätsversagen in Mikrostruktur
 
 **Material:**
-- ✗ Wasseraufnahme (Haftungsprobleme)
-- ✗ Trocknung vor Tränkung erforderlich
-- ✗ UV-Abbau (lichtgeschützte Lagerung)
-- ✗ Geringes Kriechen bei Langzeitbelastung
+- Wasseraufnahme (Haftungsprobleme)
+- Trocknung vor Tränkung erforderlich
+- UV-Abbau (lichtgeschützte Lagerung)
+- Geringes Kriechen bei Langzeitbelastung
 
+---
+# Nachteile
 **Verarbeitung:**
-- ✗ Hohe Zähigkeit → schwer mechanisch bearbeitbar
-- ✗ Spezialwerkzeuge (Scheren, Bohrer) nötig
-- ✗ Optimal: lederartiger Zustand nach Anhärten
-- ✗ Alternative: Wasserstrahltrennung
+- Hohe Zähigkeit → schwer mechanisch bearbeitbar
+- Spezialwerkzeuge (Scheren, Bohrer) nötig
+- Optimal: lederartiger Zustand nach Anhärten
+- Alternative: Wasserstrahltrennung
 
 **Kosten:**
-- ✗ Zwischen Glas und Kohlenstoff
+- Zwischen Glas und Kohlenstoff
 
 ---
 
@@ -958,15 +998,15 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 |-------------|--------------------|-----------------------|
 | E-Modul parallel [N/mm²] | 67.000 | 130.000 |
 | Therm. Ausdehnung parallel [10⁻⁶/°C] | -2 | -2 |
-| Therm. Ausdehnung quer [10⁻⁶/°C] | 12,5 | 17 |
+| Therm. Ausdehnung quer [10⁻⁶/°C] | 12.5 | 17 |
 | Zugfestigkeit [N/mm²] | 2.800 | 2.800 |
-| Dichte [g/cm³] | 1,44 | 1,45 |
+| Dichte [g/cm³] | 1.44 | 1.45 |
 
 ---
 
-# 3.5.3/4 Temperatur und Chemikalien
+## Temperatureinfluss 
 
-**Temperatureinfluss:**
+
 - Niedrige T: Festigkeit steigt
 - Hohe T: Festigkeit sinkt
 - Keine Versprödung bei -196°C
@@ -974,20 +1014,23 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Zersetzungstemperatur: 550°C
 - Einsatz bis ~150°C (meist Matrix limitierend)
 
-![](abb3.12)
-![](abb3.13)
+![bg right fit](../assets/Figures/FKV/festigkeitTempAramid.png)
 
-**Chemikalienbeständigkeit:**
+
+---
+
+## Chemikalienbeständigkeit
 - Sehr gut allgemein
 - 4 Gew.% Wasseraufnahme (20°C, 65% r.F.)
 - Extreme pH-Werte kritisch
 - pH 5-7: hervorragend
 
-![](abb3.14)
+![bg right fit](../assets/Figures/FKV/chemikalienbestAramid.png)
+
 
 ---
 
-# 3.5.5 Elektrische Eigenschaften
+# Elektrische Eigenschaften
 
 **Isolation:**
 - Ausgezeichnete Isolatoren (wie Polymere)
@@ -1002,13 +1045,15 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 
 # Weitere Polymerfasern
 
+---
+
 **PBO-Faser (Zylon®):**
 - E-Modul und Festigkeit ≈ 2× Aramid
 - Zersetzung: 650°C (100°C > Aramid)
 - Extrem niedrige Druckfestigkeit
 
 **PE-Faser (Dyneema®, Spectra®):**
-- Niedrigste Dichte (0,97 g/cm³)
+- Niedrigste Dichte (0.97 g/cm³)
 - Herausragende Zähigkeit
 - Fasern schwimmen in Wasser
 - Extrem niedrige Druckfestigkeit
@@ -1018,7 +1063,6 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 
 # Naturfasern
 
-**Typen:**
 - Bastfasern: Flachs, Hanf, Jute, Ramie
 - Blattfasern: Sisal, Banane
 - Samenfasern: Baumwolle
@@ -1030,36 +1074,32 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Keine Hautreizung
 - Kompostierbar/verbrennbar
 
+---
+
 **Nachteile:**
-- Große Streuung
+- Große Streuung bei den Parametern
 - Temperaturempfindlich
 - Geringer Brandwiderstand
 - Hygroskopisch
+---
+
+| Eigenschaft | Flachs | Hanf | Jute | Ramie | Sisal | Faserbanane | Baumwolle |
+|-------------|--------|------|------|-------|-------|-------------|-----------|
+| **E-Modul E<sub>f‖</sub>** (kN/mm²) | 60-80 | 70 | 10-30 | 44 | 38 | 25 | 12 |
+| **Zugfestigkeit f<sub>R+</sub>** (N/mm²) | 800-1500 | 550-900 | 400-800 | 500 | 600-700 | 980 | 400 |
+| **Bruchdehnung ε<sub>f‖</sub>** (%) | 1,2-1,6 | 1,6 | 1,8 | 2 | 2-3 | 3-10 | - |
+| **rel. Feuchteaufnahme** (%) | 7 | 8 | 12 | 12-17 | 11 | - | 8-25 |
+| **Dichte ρ<sub>f</sub>** (g/cm³) | 1,4 | 1,48 | 1,46 | 1,5 | 1,33 | 1,5 | 1,51 |
+
+
 
 ---
 
-# Basaltfasern
-
-**Herstellung:**
-- Vulkanisches Gestein bei ~1500°C geschmolzen
-- Platin-Rhodium Düsen
-- Direkt ohne Mischen
-
-**Eigenschaften:**
-- Kristalline Struktur (nicht amorph)
-- Ähnlich S-Glasfaser
-- Preis: zwischen E- und S-Glas
-- Temperaturgrenze: 700°C (E-Glas: 460°C)
-- Praktisch keine Wasseraufnahme
-- Sehr gute chemische Beständigkeit
-- UV-beständig
-
----
 
 # Spezialfasern
 
 **Quarzfasern (Quartzel®):**
-- 99,99% SiO₂
+- 99.99% SiO₂
 - α_T ≈ 0 (thermischer Schock unempfindlich)
 - Ausgezeichnete chemische Beständigkeit
 - Sehr guter Isolator
@@ -1070,35 +1110,50 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Geringe Kriechneigung
 - Turbinen-, Motor-, Raketenbau
 
+---
+
 **SiC-Fasern (Nicalon®):**
 - Bis 1000°C (oxidative Atmosphäre)
 - Eigenschaften ähnlich Standard-C-Faser
 
 ---
 
-# 3.9 Faser-Matrix-Grenzfläche
+| Eigenschaft | Quarz 9μm | Quarz 14μm | 62% Al₂O₃ + 24% SiO₂ + 14% B₂O₃ | Al₂O₃ |
+|-------------|-----------|------------|----------------------------------|-------|
+| **E-Modul E<sub>f‖</sub>** (N/mm²) | 77.000 | 79.000 | 150.000 | 380.000 |
+| **Zugfestigkeit f<sub>R+</sub>** (N/mm²) | 3.700 | 3.300 | 1.700 | 3.100 |
+| **Therm. Ausdehnungskoeff. α<sub>Tf‖</sub>** (10⁻⁶/°C) | 0,54 | 0,54 | 3 | 8 |
+| **Dichte ρ<sub>f</sub>** (g/cm³) | 2,2 | 2,2 | 2,7 | 3,9 |
 
-**Schlichte - Aufgaben:**
+
+
+
+---
+
+# Faser-Matrix-Grenzfläche
+Grenzfläche hat bedsondere Bedeutung und kann faserseitig und matrixseitig beeinflusst werden
+**Faserüberzug (bei fast allen Fasern) - Schlichte:**
 1. Fixierung Filamente zu Bündel
 2. Oberflächenschutz (Abrasion)
 3. Verarbeitbarkeit (Reibung, Elektrostatik)
 4. Benetzbarkeit/Tränkbarkeit
 5. **Haftvermittler** (coupling agent)
 
+---
+# Schlichte - Faserspezifisch
 **Glasfaser - Textilschlichte:**
 - Weichmacher, Filmbildner, Gleitmittel
 - Schutz vor Wasseraufnahme
 - Thermisch entschlichten (400-600°C)
 - Finish: 5-10% Additive, 80-90% Filmbildner, 5-10% Haftvermittler
 
----
-
-# Schlichte - Faserspezifisch
 
 **Glasfaser - Haftvermittler:**
 - Meist Silanbasis
 - Chemische Verbindung zu Glas
 - Reaktionsfähige Gruppen für Matrix-Copolymerisation
+
+---
 
 **C-Faser:**
 - Oxidation am Ende der Fertigungslinie
@@ -1126,11 +1181,21 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Erniedrigte Temperatur-Einsatzgrenzen
 - Farbveränderungen möglich
 
+---
+
 **Sonstiges:**
 - Schlichte bestimmt Lagerstabilität
 - Nicht mit Lösungsmitteln behandeln
 - Zuviel Haftvermittler lagert in Matrix ab → schlechter
 - Grenzschicht ~200 nm (trotzdem 8% der Matrix!)
+
+---
+# Faser-Halbzeuge
+
+- der Herstellungsprozess lässt sich durch passende Halbzeuge erheblich vereinfachen
+- die eigene Fertigungstiefe lässt sich verringern
+- es müssen keine eigenen Kompetenzen aufgebaut werden; stattdessen wird die spezielle Kompetenz des Halbzeugherstellers genutzt
+- die Qualität der Laminate wird durch speziell abgestimmte Halbzeuge verbessert
 
 ---
 
@@ -1145,15 +1210,14 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Flächengewicht: 25-1300 g/m²
 - Faservolumenanteil: 35-50 Vol.% (UD: bis 70%)
 
-**Hauptbindungen:**
 
-![](abb3.16)
+
+![bg right 90%](../assets/Figures/FKV/gewebearten.png)
 
 ---
 
-# Gewebe - Leinwandbindung
+## Gewebe - Leinwandbindung
 
-**Eigenschaften:**
 - Enge Bindung (1-über-1)
 - Kleine Flottierung
 - Schiebefest
@@ -1163,14 +1227,12 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Sichere Faserpositionierung
 
 **Nachteile:**
-- Nur über abwickelbare Flächen
-- Sphärisch: Einschnitte nötig
 - Starke Faserkrümmung
 - Schlechtere Druck- und Ermüdungsfestigkeit
 
 ---
 
-# Gewebe - Köper und Atlas
+## Gewebe - Köper und Atlas
 
 **Köperbindung:**
 - Über 2 (Doppelköper) oder 3 (Kreuzköper) Kettfäden
@@ -1182,6 +1244,8 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Nahe an zwei getrennten UD-Schichten
 - Höhere Ermüdungsfestigkeit als Leinwand
 
+---
+
 **Eigenschaften:**
 - Größere Flottierung
 - Nicht schiebefest
@@ -1189,42 +1253,22 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Scherverformung möglich
 - Sorgfalt bei Orientierung nötig
 
-![](abb3.17)
+![bg right fit](../assets/Figures/FKV/scherungGewebe.png)
 
 ---
 
-# Gewebe - Spezialformen
 
-**Kettstarke Gewebe:**
-- ~90% Fasern unidirektional
-- Wenige Schussfäden oder Klebstreifen
-- Nahe am UD-Ideal
-
-**Dreiachsiale Gewebe:**
-- Drei Faserorientierungen in Ebene
-- Meist 60° Winkeldifferenz
-
-**Spiralgewebe:**
-- Für kreisberandete Strukturen
-- Quasi endloses Spiralband
-
-**Mischgewebe:**
-- Verschiedene Fasertypen in Kette/Schuss
-- Z.B. C-Faser + Glas (kostengünstig)
-
-**Hybridgewebe:**
-- Verschiedene Typen in Kette UND Schuss
-- Z.B. C-Aramid für Zähigkeit
-
----
-
-# 3.10.2 Multiaxialgelege (NCF)
+# Multiaxialgelege (NCF)
 
 **Prinzip:**
 - UD-Schichten wellenfrei
 - Fixierung durch Wirkmaschen
 - Faserorientierungen: 22-90° einstellbar
 - Optional: Matten/Vliese eingewirkt
+
+![bg right fit](../assets/Figures/FKV/gelege.png)
+
+---
 
 **Vorteile:**
 - Maximale Faserfestigkeit (5-20% > Gewebe)
@@ -1237,13 +1281,13 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 **Nachteil:**
 - Evtl. zu grob für feinschichtige Laminate
 
-![](abb3.19)
+
 
 ---
 
-# 3.10.3 Matten und Vliese
+# Matten und Vliese
 
-**Matten:**
+
 - Endlosmatte oder Schnittmatte (25-50 mm)
 - Regellos verteilt (random) → isotrop in Ebene
 - Meist Glasfaser, selten C-Faser
@@ -1251,26 +1295,27 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Verklebt mit Binder (lösbar oder thermoplastisch)
 - Alternative: Vernadeln
 
-![](abb3.20)
-![](abb3.21)
+![bg right fit](../assets/Figures/FKV/vliesematten.png)
 
-**Faservolumenanteil:**
-- Nur 15-35 Vol.% (je nach Pressdruck)
-- Niedrigere Eigenschaften als Gewebe
 
 ---
 
-# Matten - Vorteile
+**Faservolumenanteil:**
+- 15-35 % (je nach Pressdruck)
+- schlechtere Eigenschaften als Gewebe
 
-- ✓ Kostengünstig
-- ✓ "Beweglich" - füllt auch Rippen
-- ✓ Schnell tränkbar
-- ✓ Fließhilfe bei Injektion
-- ✓ Wanddicke einfach anpassbar
-- ✓ Erhöht Schälfestigkeit (zwischen Schichten)
-- ✓ Reduziert Delaminationsgefahr
+**Vorteile**
+- Kostengünstig
+- "Beweglich" - füllt auch Rippen
+- Schnell tränkbar
+- Fließhilfe bei Injektion
+- Wanddicke einfach anpassbar
+- Erhöht Schälfestigkeit
+- Reduziert Delaminationsgefahr
 
-![](abb3.22)
+![bg right fit](../assets/Figures/FKV/fliesshilfe.png)
+
+---
 
 **Sandwichmatten:**
 - Kern (z.B. PP-Vlies) + beidseitig Schnittmatte
@@ -1290,6 +1335,8 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Polymerfasern (PES, PAN)
 - C-Faser, Aramidfaser
 
+---
+
 **Hauptverwendung:**
 - Oberflächenverbesserung (surfacing veil)
 - Abdeckung grober Gewebestrukturen
@@ -1300,12 +1347,16 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 
 ---
 
-# 3.10.5 3D-Gewebe und Gelege
+# 3D-Gewebe und Gelege
 
 **Zweck:**
 - Verstärkung in Dickenrichtung
 - Nicht Lastaufnahme, sondern Schälfestigkeit
-- Gegen Delamination
+- Delaminationsverstärkung
+
+![](../assets/Figures/FKV/3Dgelege.png)
+
+---
 
 **Konstruktion:**
 - 2-10% Verstärkung in Dickenrichtung
@@ -1317,11 +1368,10 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Schneller tränkbar (Fließkanäle)
 - Einbußen bei Steifigkeit/Festigkeit vs. 2D
 
-![](abb3.23)
 
 ---
 
-# 3.10.11 Abreißgewebe (Peel Ply)
+# Abreißgewebe (Peel Ply)
 
 **Kein Verstärkungshalbzeug!**
 Fertigungs-Hilfsmittel
@@ -1332,13 +1382,15 @@ Fertigungs-Hilfsmittel
 - Ersetzt aufwändiges Anschleifen
 - Entfernt Schmutz
 
+---
+
 **Material:**
 - Polyamid oder Polyester
 - Farbig markiert (gegen Verwechslung)
 - Temperatureinsatz bis ~200°C
 - Darüber: PTFE-beschichtetes Glasgewebe
 
-![](abb3.28)
+![](../assets/Figures/FKV/abreisgewebe.png)
 
 ---
 
@@ -1360,11 +1412,9 @@ Fertigungs-Hilfsmittel
 
 ---
 
-# 3.10.12 Blitzschutz
+# Blitzschutz
 
-**Nur bei CFK nötig! (nicht GFK)**
 
-**Maßnahmen:**
 1. Cu- oder Al-Netze einlaminiert
 2. Mischgewebe (C + AlMg5)
 3. Metallisierte Fasern (Ni-Überzug)
@@ -1373,7 +1423,7 @@ Fertigungs-Hilfsmittel
 **EMV-Abschirmung:**
 - Gesetzliche Pflicht (Störfestigkeit + Abstrahlungsminimierung)
 - CFK allein: geringe Abschirmung
-- Metallisierte PAN-Vliese (1,8-3,4% Metall)
+- Metallisierte PAN-Vliese (1.8-3.4% Metall)
 - Zwei Vliese 90° verdreht
 
 ---
@@ -1386,6 +1436,8 @@ Fertigungs-Hilfsmittel
 - Abgedeckt (Staub und Schmutz)
 - Aramidfaser: Lichtgeschützt (UV-Abbau)
 - Lagerzeiten beachten (Schlichte altert)
+
+---
 
 **Trocknung:**
 - Unbedingt vor Verarbeitung!
@@ -1406,6 +1458,8 @@ Fertigungs-Hilfsmittel
 - Baumwoll-Handschuhe (keine Hautabsonderungen!)
 - Nicht mit Lösungsmitteln benetzen
 
+---
+
 **C-Faser spezial:**
 - Führungen kapseln (Abrieb)
 - Regelmäßig absaugen
@@ -1416,6 +1470,8 @@ Fertigungs-Hilfsmittel
 ---
 
 # Faserauswahl - Methodik
+
+---
 
 **Wenn mechanische Eigenschaften dominieren:**
 
@@ -1433,8 +1489,6 @@ Fertigungs-Hilfsmittel
 
 ---
 
-# Faserauswahl - Fortsetzung
-
 3. **Aramidfaser** wenn:
    - Besonders leicht gewünscht
    - Glasfaser substituieren (25-30% Gewichtseinsparung)
@@ -1446,98 +1500,15 @@ Fertigungs-Hilfsmittel
    - Mischgewebe mit C-Faser
    - Aufgabenteilung: C (steif/fest), Aramid/PE (zäh)
 
+---
+
 **Spezialanforderungen:**
 - Hohe Temperatur: C-, SiC-, Al₂O₃-Fasern
 - Beratung durch Hersteller empfohlen!
 
 ---
 
-# Schlichteauswahl
-
-**Überprüfung Haftvermittler:**
-
-1. **Querzugfestigkeit-Test**
-   - Empfindlichster Indikator
-   - UD-Schicht quer zur Faser belasten
-
-2. **Kochtest (Nassfestigkeit)**
-   - Feuchte + Temperatur
-   - Schnelle, harte Methode
-   - Besonders wichtig: Schwimmbad, Bootsbau
-
-3. **Aufbrechen der Schlichte**
-   - Alle Filamente müssen vereinzelt sein
-   - Schwach über Bolzen umlenken
-   - Test: Roving über Ecke ziehen
-
-![](abb3.29)
-
----
-
-# Schlichteauswahl - Weitere Kriterien
-
-4. **Schmiegsamkeit**
-   - Wichtig für Handauflegen
-   - Enge Radien verlegbar
-   - Keine Lufteinschlüsse
-
-5. **Temperaturbeständigkeit**
-   - Bei Nachhärtung >200°C prüfen
-   - Schlichte muss standhalten
-
-**⚠️ Wichtig:**
-- Schlichte auf Matrix abstimmen
-- Herstellerberatung nutzen
-- Für Sicherheitsbauteile: eigene Tests
-
----
-
-# Datenbeschaffung
-
-**Herausforderungen:**
-- Mühselige Zusammenstellung
-- Verschiedene Quellen
-- Unterschiedliche Messmethoden
-- Oft nur Mittelwerte (keine Verteilung)
-- Quereigenschaften schwer messbar an Einzelfaser
-- Prospektwerte vs. Laminatwerte
-
-**Empfohlene Vorgehensweise:**
-
-1. **Häufig genutzte Systeme / Sicherheitsbauteile:**
-   - Eigene Messungen am Verbund
-   - An UD-Schicht (nicht Einzelfaser)
-   - Erfasst Haftung, Schädigung, Temperatur
-   - Statistiche Verteilung ermitteln
-   - Evtl. jede Charge prüfen
-
----
-
-# Datenbeschaffung - Strategien
-
-2. **Bewährte Systeme nutzen:**
-   - Weit verbreitete Faser-Matrix-Kombinationen
-   - Vorteile:
-     - Bereits bewährt
-     - Umfangreiche Daten verfügbar
-     - Bei Zulassungsstellen bekannt (GL, LBA, EASA, TÜV)
-     - Qualifizierungsversuche gespart
-
-3. **Artverwandte Fasern:**
-   - Für Vorauslegungen
-   - Daten übertragbar
-
-4. **Prospektdaten:**
-   - Nur für Vorauslegungen
-   - Einzelfilament ≠ Bündel
-   - Faserbündel: ungleichmäßiges Tragen
-   - Meist niedrigere Realfestigkeit
-
----
-
 # Zusammenfassung
-
-**Fasern sind entscheidend für FKV-Eigenschaften**
 
 **Hauptfasertypen:**
 - Glasfaser: kostengünstig, universell
@@ -1560,7 +1531,5 @@ Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
 **Literaturhinweise:**
-- Siehe Kapitelliteratur
-- DIN-Normen
-- Herstellerdokumentationen
+- Helmut Schürrman "Konstruieren mit Faserverbundwerkstoffen"
 
