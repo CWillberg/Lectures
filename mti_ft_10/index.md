@@ -604,7 +604,7 @@ Unterscheidbar nahc Ausgangszustand des Beschichtungsmaterials
 - mit Pinseln, Walzen oder Spritzen aufgetragen
 
 <br/>
-<iframe width="550" height="300" src="https://www.youtube.com/embed/GF6CwvIX1h8?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="550" height="300" src="https://www.youtube.com/embed/LHXEeSr0KAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
