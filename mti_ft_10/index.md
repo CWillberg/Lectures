@@ -242,14 +242,327 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 - ...
 ---
 
-## Korrosionsschutz
 
-- Erarbeiten in Kleingruppen 10 Minuten - 15 Minuten Recherche
-- 2 Gruppen
-  - 3 passive Verfahren
-  - 3 aktive Verfahren 
-- kurze Vorstellung der Ergebnisse (Ruhig Tafel nutzen)
-  - wesentliches "take away"
+# Korrosionsschutz 
+
+## Übersicht
+
+- Grundlagen der Korrosion
+- Passiver Korrosionsschutz
+  - Beschichtungen
+  - Überzüge
+- Aktiver Korrosionsschutz
+  - Kathodischer Schutz
+  - Anodischer Schutz
+
+---
+
+## Korrosion - Grundlagen
+
+**Definition:** Reaktion eines metallischen Werkstoffs mit seiner Umgebung, die eine messbare Veränderung des Werkstoffs bewirkt
+
+**Elektrochemische Korrosion:**
+- Anodische Reaktion: $\text{Me} \rightarrow \text{Me}^{n+} + n\text{e}^-$ (Oxidation)
+- Kathodische Reaktion: Elektronenaufnahme (Reduktion)
+
+**Voraussetzungen:**
+- Elektrochemisches Potenzial (Anode und Kathode)
+- Elektrolyt (z.B. Feuchtigkeit)
+- Leitende Verbindung
+
+---
+
+## Passiver Korrosionsschutz
+
+**Prinzip:** Trennung des Werkstoffs von der korrosiven Umgebung
+
+**Methoden:**
+1. Metallische Überzüge
+2. Organische Beschichtungen
+3. Anorganische Beschichtungen
+4. Chemische Umwandlung
+
+➔ **Keine elektrochemische Reaktion während des Schutzes**
+
+---
+
+## Passiver Schutz - Metallische Überzüge
+
+**Verzinken (Zn auf Fe):**
+- Feuerverzinken: Eintauchen in Zinkschmelze (≈450°C)
+- Galvanisches Verzinken: Elektrolytische Abscheidung
+- Schichtdicke: 5-150 µm
+
+**Verchromen (Cr auf Fe):**
+- Hartverchromen: 25-250 µm, hohe Härte
+- Glanzverchromen: 0.25-2 µm, dekorativ
+
+**Funktion:** Mechanische Barriere + ggf. kathodischer Schutz
+
+---
+
+## Passiver Schutz - Organische Beschichtungen
+
+**Lacke und Farben:**
+- Primärschicht: Haftgrund mit Korrosionsinhibitoren
+- Deckschicht: Schutz gegen Umwelteinflüsse
+
+**Kunststoffbeschichtungen:**
+- Pulverbeschichtung (Polyester, Epoxid)
+- Tauchbeschichtung
+- Schichtdicke: 60-300 µm
+
+**Funktionsprinzip:** 
+- Diffusionsbarriere gegen O₂, H₂O, Ionen
+- Keine elektrische Leitfähigkeit
+
+---
+
+## Passiver Schutz - Anorganische Beschichtungen
+
+**Phosphatieren:**
+- Bildung von Eisenphosphat-Schicht
+- Vorbereitung für Lackierung
+- Schichtdicke: 1-5 µm
+
+**Chromatieren:**
+- Chrom(VI)-oxidschicht
+- Heute oft ersetzt durch Passivierung
+
+**Emaillieren:**
+- Glasartige Schmelzschicht auf Stahl, Hohe chemische Beständigkeit
+- Temperaturbeständig
+
+---
+
+## Aktiver Korrosionsschutz - Prinzip
+
+**Grundidee:** Elektrochemische Beeinflussung des zu schützenden Metalls
+
+**Zwei Verfahren:**
+
+1. **Kathodischer Schutz:** 
+   Werkstück wird zur Kathode gemacht
+   
+2. **Anodischer Schutz:** 
+   Werkstück wird in passiven Bereich verschoben
+
+➔ **Aktive elektrochemische Prozesse**
+
+---
+
+## Kathodischer Schutz - Fremdstrom
+
+**Prinzip:** Externe Gleichstromquelle
+
+```
+    (+) ───────────────── (-)
+    │                      │
+    │                      │
+Fremd-                  Werkstück
+anode                   (Kathode)
+    │                      │
+    └──────────┬───────────┘
+            Elektrolyt
+```
+
+**Funktionsweise:**
+- Elektronenzufuhr zum Werkstück
+- Reduktion statt Oxidation: $\text{Me}^{n+} + n\text{e}^- \rightarrow \text{Me}$
+- Potential wird unter Ruhepotential gesenkt
+
+---
+
+## Kathodischer Schutz - Fremdstrom 
+
+
+
+<!-- _class: cols-2-1 -->
+
+<div class=ldiv>
+
+**Vorteile:**
+- Potential einstellbar
+- Große Flächen schützbar
+- Überwachung möglich
+
+**Nachteile:**
+- Energiequelle notwendig
+- Wartungsaufwand
+- Kosten
+
+</div>
+
+<div class=rdiv>
+
+**Anwendungen:**
+- Pipelines
+- Schiffe (Rumpf)
+- Stahlbetonbauwerke
+- Erdverlegte Tanks
+</div>
+
+
+
+
+---
+
+## Kathodischer Schutz - Opferanode
+
+**Prinzip:** Galvanisches Element mit unedlerem Metall
+
+```
+        Werkstück (Fe)    Opferanode (Zn)
+        (Kathode, edler)  (Anode, unedler)
+              │                  │
+              │   e⁻ ──────>     │
+              │                  │
+              └────────┬─────────┘
+                   Elektrolyt
+                   
+Zn → Zn²⁺ + 2e⁻  (Opferanode löst sich auf)
+```
+
+**Spannungsreihe:** Zn (-0.76 V) < Fe (-0.44 V)
+
+---
+
+## Kathodischer Schutz - Opferanode (Details)
+
+<!-- _class: cols-2-1 -->
+
+<div class=ldiv>
+
+**Anodenmaterialien:**
+- Zink: Für Stahl in Süßwasser, Boden
+- Magnesium: Für Stahl in Süßwasser (stärkere Wirkung)
+- Aluminium: Für Stahl in Meerwasser
+
+**Funktionsweise:**
+- Unedles Metall wird bevorzugt oxidiert
+- Werkstück erhält Elektronen → Kathode
+- Keine externe Stromquelle nötig
+
+
+</div>
+
+<div class=rdiv>
+
+**Anwendungen:**
+- Warmwasserspeicher (Mg-Anode)
+- Schiffsrümpfe (Zn-Platten)
+- Offshore-Plattformen
+
+</div>
+
+
+---
+
+## Kathodischer Schutz - Vergleich
+
+| Eigenschaft | Fremdstrom | Opferanode |
+|-------------|------------|------------|
+| Energiequelle | Extern (Netzteil) | Galvanisch (selbst) |
+| Schutzbereich | Sehr groß (km) | Begrenzt (m) |
+| Potential | Einstellbar | Fest (Material) |
+| Wartung | Anode + Stromquelle | Anode ersetzen |
+| Kosten | Hohe Betriebskosten | Niedrige Betriebskosten |
+| Überwachung | Einfach | Schwierig |
+
+---
+
+## Anodischer Schutz
+
+**Prinzip:** Werkstück wird in den passiven Bereich verschoben
+
+**Passivierung:**
+- Bildung einer dünnen Oxidschicht
+- Nur bei passivierbaren Metallen (Cr, Ti, Al, rostfreier Stahl)
+- Externe Stromquelle: Werkstück = Anode (+)
+
+**Anwendung:** 
+- Rostfreie Stähle in aggressiven Säuren
+- Chemische Industrie (Tanks, Reaktoren)
+- Selten im Vergleich zu kathodischem Schutz
+
+---
+
+## Anodischer vs. Kathodischer Schutz
+
+**Anodischer Schutz:**
+- Werkstück = Anode (positive Polarisation)
+- Passive Oxidschicht wird stabilisiert
+- Nur für passivierbare Metalle
+
+**Kathodischer Schutz:**
+- Werkstück = Kathode (negative Polarisation)
+- Korrosionsreaktion wird verhindert
+- Für alle Metalle anwendbar
+
+---
+
+## Aktiv vs. Passiv - Unterschiede
+
+| Merkmal | Passiver Schutz | Aktiver Schutz |
+|---------|-----------------|----------------|
+| Prinzip | Barriere | Elektrochemische Beeinflussung |
+| Beschädigung | Lokale Korrosion möglich | Gesamtschutz erhalten |
+| Energiebedarf | Keiner | Fremdstrom: ja, Opferanode: nein |
+| Wartung | Bei Beschädigung | Regelmäßig (Anoden) |
+| Anwendung | Atmosphäre, allgemein | Elektrolytisch (Wasser, Boden) |
+
+**Oft kombiniert:** Beschichtung + kathodischer Schutz
+
+---
+
+## Beispiel: Pipeline-Schutz
+
+**Kombination von passiv und aktiv:**
+
+1. **Passiv:** Kunststoff-Ummantelung (PE)
+   - Hauptschutz gegen Korrosion
+   - Mechanischer Schutz
+
+2. **Aktiv:** Kathodischer Schutz (Fremdstrom)
+   - Schutz bei Beschädigung der Ummantelung
+   - Gleichrichterstationen alle 10-50 km
+   - Überwachung des Potentials
+
+➔ **Redundantes Schutzsystem**
+
+---
+
+## Beispiel: Schiffsrumpf
+
+**Mehrschichtiger Schutz:**
+
+1. **Passiv:** Beschichtungssystem
+   - Grundierung (Epoxid)
+   - Antifouling-Farbe
+
+2. **Aktiv:** Opferanoden (Zink, Aluminium)
+   - An Rumpf, Ruder, Welle
+   - Schutz empfindlicher Bereiche
+
+3. **Optional:** Fremdstrom-Anlage (ICCP)
+   - Bei großen Schiffen
+   - Automatische Potentialregelung
+
+---
+
+## Zusammenfassung
+
+**Passiver Korrosionsschutz:**
+- Trennung von Umgebung durch Beschichtungen/Überzüge
+- Keine Energiezufuhr
+- Wirksam in allen Umgebungen
+
+**Aktiver Korrosionsschutz:**
+- Elektrochemische Beeinflussung
+- Kathodisch (häufig) oder anodisch (selten)
+- Elektrolyt erforderlich
+- Kombination mit passivem Schutz üblich
+
 
 ---
 
@@ -288,11 +601,15 @@ Unterscheidbar nahc Ausgangszustand des Beschichtungsmaterials
 ---
 # Lackieren
 
+- mit Pinseln, Walzen oder Spritzen aufgetragen
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/GF6CwvIX1h8?si=rpJH6JIlg0eboSeh&t=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="550" height="300" src="https://www.youtube.com/embed/GF6CwvIX1h8?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- mit Pinseln, Walzen oder Spritzen aufgetragen
+
+
+
+![bg right](https://www.hst-oberflaechenschutz.de/images/resource/HST_Antihaft_Beispiel_6agr.jpg)
 
 ---
 
@@ -310,7 +627,7 @@ $\gamma$ sollte möglichst klein sein -> Einbrandtiefe $t$ und Einbrandfläche $
 ---
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/a4WS1jHU6Ro?si=MCKOjTt7vIibOec6&t=30 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/a4WS1jHU6Ro?start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 

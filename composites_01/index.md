@@ -21,3 +21,6 @@ Hochschule Magdeburg-Stendal
 
 <!-- _class: lead -->
 
+
+
+Wichtige Kenngrößen der Einzelschichten und des Laminats

@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Fertigungsverfahren'
+header: 'Faserverbunde - Fügeverbindungen'
 theme: h2
 paginate: true
 math: katex
@@ -8,13 +8,14 @@ math: katex
 
 <!-- _class: lead -->
 
-# Fertigungsverfahren
+# Fügeverbindungen
+
 
 
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
-
+ 
 
 ---
 

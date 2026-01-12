@@ -828,14 +828,22 @@ Ein System kann feststellen, dass ein Event passiert ist, wo es stattfand, was s
 
 ## Technische Anwendungen
 
-Brücken
+### Brücken
 - Second Penang Bridge - Penang, Malaysia
   ![](https://www.geosig.com/images/page_image_111.png)
 
 ---
-Pipelines
 
-![](https://journals.sagepub.com/cms/10.1177/1475921719837718/asset/images/large/10.1177_1475921719837718-fig17.jpeg)
+### Pipelines / Rohrleitungen
+- Nutzung von Torsionswellen
+- in der chemischen Industrie existieren Rohrleitungslängen > 40000 km pro Standort
+
+![bg right fit](../assets/Figures/Smart%20structural%20health%20monitoring%20(SHM)%20system%20for%20on-board%20localization%20of%20defects%20in%20pipes%20using%20torsional%20ultrasonic%20guided%20waves.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus S. Patil et al. "Smart structural health monitoring (SHM) system for on-board localization of defects in pipes using torsional ultrasonic guided waves"; arXiv:2403.11110v1
+</div>
+
 
 --- 
 
@@ -889,7 +897,6 @@ $MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\
 
 ---
 ![](../assets/Figures/sensornetzwerke.png)
-[Schadensinteraktion](.../assetsVideos/flachbodenbohrung.avi)
 
 
 ---
@@ -959,5 +966,9 @@ Beispiel Flugzeug
 
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/0/0f/AFM_%28used%29_cantilever_in_Scanning_Electron_Microscope%2C_magnification_1000x.GIF)
+
+---
+
+## Vielen Dank für die Aufmerksamkeit
 
 

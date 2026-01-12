@@ -89,13 +89,16 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 | Woche | Termin I | Termin II |
 | -- | -- | -- |
-| 1 | Vorlesung I Wiederholung | Vorlesung  Physikalische Eigenschaften von Werkstoffen |
-| 2 | Seminar:  Berechnung Wärmedehnung, etc. | Vorlesung  Messung von Kenngrößen |
-| 3 | Seminar: CAD Modellierung | Ermüdung (Riss, Temperatur, etc.) |
+| 1 | Vorlesung I Wiederholung | Vorlesung  Physikalische Eigenschaften von Werkstoffen (thermisch)|
+| 2 | Seminar:  Berechnung Wärmedehnung, etc. | Vorlesung  Physikalische Eigenschaften von Werkstoffen (elektrisch)|
+| 3 | Seminar:  Berechnung elektrische Kenngrößen | Ermüdung (Riss, Temperatur, etc.) |
+| 4 | Seminar: Ermüdungsberechnung  | | Vorlesung  Messung von Kenngrößen (DOE) |
+| Seminar: Anwendung DOE | Vorlesung: Ableitung von Kenngrößen nach Normen |
+| 3 | Seminar: CAD Modellierung | Vorlesung Grundlagen der Materialmodellierung  |
 | 4 | Seminar: 3D Druck Einführung und Durchführung | Vorlesung Nicht-Eisen Werkstoffe |
-| 5 | Seminar: Zugversuche | Vorlesung Keramik |
+| 5 | Seminar: Zugversuche | Nicht Eisen Legierungen |
 | 6 | Seminar: Mikroskopanalyse | Polymere |
-| 7 | Seminar: Aufbereitung der Daten | d |
+| 7 | Seminar: Aufbereitung der Daten | Vorlesung Keramik  |
 | 8 | Seminar: Vorstellung der Ergebnisse | d |
 | 9 | b | Vorlesung Grundlagen der Materialmodellierung |
 | 10 | Seminar: Hooksches Gesetz | d |

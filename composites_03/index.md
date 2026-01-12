@@ -415,9 +415,16 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 - 1-30 mg Probenmenge
 - Schnell und einfach
 
+
 **2. Dilatometer:**
 - Thermischer Ausdehnungskoeffizient α
 - Problem: Überlagerung durch Quellung/Schrumpf
+
+![bg right fit](../assets/Figures/FKV/dcs_analyse.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
@@ -426,9 +433,14 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 - G-T-Kurve und Dämpfung
 - **Wichtigstes Verfahren!**
 
+![bg right fit](../assets/Figures/FKV/DMA_analyse.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
 ---
 
-## Weitere Temperaturprüfungen
 
 **Wärmeformbeständigkeit:**
 - Martens-Temperatur
@@ -437,12 +449,13 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 
 **Prinzip:** Beschleunigte Kriechversuche
 
-**Siehe:** Abb. 4.15 - Prüfverfahren
 
-**Wichtig:** Übertragung nur bei ähnlichen:
-- Temperaturhöhen
-- Einwirkdauern
-- Spannungen
+**Wichtig:** Übertragung der Ergebnisse nur bei ähnlichen Temperaturhöhen, Einwirkdauern und Spannungen
+
+![bg right fit](../assets/Figures/FKV/kriechversuche.png)
+<div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
@@ -450,16 +463,15 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 
 **Zugbelastung:** Auch oberhalb T$_{g}$ tragfähig
 - Höhere Bruchdehnungen als bei 23°C
-- Modellierung als reines Fasernetz (Netztheorie)
+- Modellierung als reines Fasernetz (Netztheorie $\rightarrow$ Vorlesung Auslegung von Faserverbunden)
 
 **Druckbelastung:** Kritisch!
 - Niedrige Matrixsteifigkeit
 - Unzureichende Faserstützung
 - Frühzeitiges Faserknicken
 
-**Siehe:** Abb. 4.16 - Schubfestigkeit vs. Temperatur
-
 $$R_{\perp\parallel}^- \propto G_m$$
+![bg right fit](../assets/Figures/FKV/Schub_temp.png)
 
 ---
 
@@ -471,33 +483,15 @@ $$R_{\perp\parallel}^- \propto G_m$$
 - Bei faserverstärkten Laminaten: quasi-plastisch
 
 **Ungünstig:**
+- Bei Thermoplasten: Verlust der Duktilität
 - Versprödung
 - Schlagzähigkeit sinkt
-- Bei Thermoplasten: Verlust der Duktilität
 
 **Für Flugzeuge:** Nachweis bei tiefen Temperaturen notwendig
 
 ---
 
-## 4.4 Chemische Beständigkeiten
-
-**Im Pflichtenheft klären:**
-- Typ des angreifenden Mediums
-- Konzentration
-- Temperatur
-- Dauer des Angriffs
-- Gleichzeitige mechanische Lasten
-
-**FKV-Vorteile:**
-- Sehr gute Korrosionsbeständigkeit
-- Hohe Steifigkeit und Festigkeit
-- Ideal für Anlagenbau
-
-**Wichtig:** Herstellerlisten konsultieren!
-
----
-
-## 4.5 Fertigungsanforderungen
+# Fertigungsanforderungen
 
 **Wichtige Eigenschaften:**
 
@@ -509,9 +503,8 @@ $$R_{\perp\parallel}^- \propto G_m$$
 
 ---
 
-## 4.5.1 Fasertränkung
+## Fasertränkung
 
-**Nach Darcy (1856):**
 Entscheidend ist die **Viskosität**
 
 **Für schnelle Tränkung:**
@@ -519,12 +512,22 @@ Entscheidend ist die **Viskosität**
 - Niedrige Tränkdrücke möglich
 - Weite Tränkwege möglich
 - Höherer Faservolumengehalt
+    - kleinere Zwischenräume können befüllt werden
+    - Widerstand gegen fließen ist geringer, d.h. die Aushärtung findet nicht ''auf dem Weg'' statt
+
+---
+
 
 **Viskositätssenkung:**
 - Temperaturerhöhung (typisch)
 - Maschinelle Verfahren
 
-**Siehe:** Abb. 4.17 - Viskosität vs. Temperatur
+
+![bg right fit](../assets/Figures/FKV/viskositaet.png)
+
+<div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
@@ -539,12 +542,12 @@ Entscheidend ist die **Viskosität**
 
 **Maßnahmen:**
 - Vakuum ziehen
-- Mikroskopische Kontrolle
-- Querzugversuche
+- Fließhilfen
+- richtige Planung der Harzeinleitung
 
 ---
 
-## 4.5.2 Lagerung
+##  Lagerung
 
 **Reaktionsharze:**
 - Lagerzeit ca. 6 Monate
@@ -554,6 +557,8 @@ Entscheidend ist die **Viskosität**
 - Temperatur 15-25°C einhalten
 - Typenvielfalt begrenzen!
 
+---
+
 **Thermoplaste:**
 - Nahezu unbegrenzt lagerbar
 - Sauber und trocken
@@ -561,7 +566,7 @@ Entscheidend ist die **Viskosität**
 
 ---
 
-## 4.5.3 Topfzeit und Gelierzeit
+## Topfzeit und Gelierzeit
 
 **Topfzeit:**
 - Verarbeitungszeit nach Härterzugabe
@@ -572,19 +577,26 @@ Entscheidend ist die **Viskosität**
 **Gelierzeit:**
 - Viskosität steigt schlagartig
 - Weiches Gel entsteht
-- **Nicht identisch mit Topfzeit!**
+
 
 **Wichtig:** Keine Bewegung während Gelierung!
 
 ---
 
-## 4.5.4 Nachhärten/Tempern
+## Nachhärten/Tempern
 
 **Ziele:**
 - Maximaler Vernetzungsgrad
 - Maximale T$_{g}$
 - Beste Chemikalienbeständigkeit
 - Beste Alterungsbeständigkeit
+- T$_{Lagerung}$ = 20 °C ; Nachhärtung T = 60−80 °C
+![bg right fit](../assets/Figures/FKV/nachaerten.png)
+<div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
 
 **Regeln:**
 - Nach abgeschlossener Gelierung
@@ -593,32 +605,18 @@ Entscheidend ist die **Viskosität**
 - Zeitnahe Temperung empfohlen
 - Bei Sandwich: Thermoelement-Kontrolle
 
-**Siehe:** Abb. 4.19 - Einfluss des Temperzeitpunkts
+![bg right fit](../assets/Figures/FKV/nachaerten.png)
+<div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
-## 4.5.5 Kontrolle Härtungsgrad
 
-**Methoden:**
-
-1. **DSC-Analyse** (bevorzugt)
-   - Eindeutige Information
-   - Nachhärtereaktionen erkennbar
-   
-2. **Biegeversuch**
-   - Weich → ungenügend
-   - Spröder Bruch → OK
-
-3. **Bearbeitung**
-   - Fasern biegen sich → ungenügend
-   - Matrix schmiert → ungenügend
-
----
-
-## 4.5.6 Arbeitsschutz
+## Arbeitsschutz
 
 **Fasern:**
-- Durchmesser 5-27 μm: nicht lungengängig
+- Durchmesser 5-27 μm: nicht lungengängig; **außer wenn FKV gesägt werden**
 - Mechanische Hautreizung möglich
 - Einfache Schutzmaßnahmen ausreichend
 - Keine erhöhte Krebshäufigkeit (Studien)
@@ -650,25 +648,29 @@ Entscheidend ist die **Viskosität**
 
 **Mindestregeln:**
 
-- ✓ Schutzbrille tragen
-- ✓ Orale Aufnahme vermeiden
-- ✓ Hautkontakt vermeiden (Handschuhe!)
-- ✓ Dämpfe nicht einatmen (Absaugung!)
-- ✓ Staubschutzmaske bei Füllstoffen
-- ✓ Nassbearbeitung bevorzugen
-- ✓ Rauchen verboten
-- ✓ Peroxide nie mit Beschleunigern mischen!
+- Schutzbrille tragen
+- Orale Aufnahme vermeiden
+- Hautkontakt vermeiden (Handschuhe!)
+- Dämpfe nicht einatmen (Absaugung!)
+- Staubschutzmaske bei Füllstoffen
+- Nassbearbeitung bevorzugen
+- Rauchen verboten
+- Peroxide nie mit Beschleunigern mischen!
 
 ---
 
-## 4.6 Ungesättigte Polyesterharze
+# Harzsysteme
+## Ungesättigte Polyesterharze (UP)
+## Epoxidharze (EP)
+
+
+---
 
 **UP-Harze - Allgemeines:**
-- Mengenmäßig am häufigsten in FKV
-- Seit 1939 großtechnisch produziert
+- Mengenmäßig am häufigsten in FKV angewendet
 - Polykondensation aus Dicarbonsäuren + Alkoholen
 - Lösung in Monostyrol (~35-43%)
-- Volumenschrumpf: 5-8%
+- Volumenschrumpf: 5-8% $\rightarrow$ ''Spring in''  + Verzug des Bauteils
 
 **Anwendungen:**
 - Boots- und Flugzeugbau
@@ -688,8 +690,10 @@ Entscheidend ist die **Viskosität**
 - Geringe Wasseraufnahme
 - Breite Typenvielfalt
 
+---
+
 **Nachteile:**
-- Mechanik schlechter als EP
+- Mechanische Eigenschaften schlechter als EP
 - Höherer Schrumpf als EP
 - Greift PS- und PVC-Schäume an
 - Oft inkompatibel mit C-Faser-Schlichte
@@ -699,7 +703,7 @@ Entscheidend ist die **Viskosität**
 ## UP-Härte: Heißhärtung
 
 **Peroxide als Härter:**
-- Anspringtemperaturen (Tab. 4.3):
+- Anspringtemperaturen:
   - Benzoylperoxid (BP): 70°C
   - MEKP: 80°C
   - CHP: 90°C
@@ -740,6 +744,8 @@ Entscheidend ist die **Viskosität**
 - Für Deckschichten bevorzugt
 - T > 16°C erforderlich
 
+---
+
 **Benzoylperoxid/Amin:**
 - Reaktiver
 - Härtung bis 0°C
@@ -747,7 +753,6 @@ Entscheidend ist die **Viskosität**
 - Neigung zum Vergilben
 - Geringerer Endhärtungsgrad
 
-**Siehe:** Abb. 4.18 - Härtungsgrad vs. Zeit
 
 ---
 
@@ -766,6 +771,12 @@ Entscheidend ist die **Viskosität**
 
 **Lichthärtung:** Alternative Methode mit UV-Initiatoren
 
+
+---
+
+- UV-Initiatoren kann genutzt werden, in Fibre Placement Anlagen
+- Härtung findet teilweise bei der Ablage der Fasern statt
+
 ---
 
 ## UP-Harze - Nachhärtung
@@ -781,11 +792,10 @@ Entscheidend ist die **Viskosität**
 
 **Kontrolle:** Rest-Styrolgehalt oder DSC
 
-**Siehe:** Abb. 4.19 - Optimale Temperstrategie
 
 ---
 
-## 4.7 Epoxidharze
+## Epoxidharze
 
 **EP-Harze - Allgemeines:**
 - Standard für Hochleistungs-FKV
@@ -794,6 +804,8 @@ Entscheidend ist die **Viskosität**
 - Polyaddition (Härter eingebaut)
 - Gelierung ab 50-70% Umsatz
 - Volumenschrumpf: 2-5%
+
+---
 
 **Härtermechanismus:**
 - Gelierung spät → Schrumpf in flüssiger Phase
@@ -831,14 +843,12 @@ Entscheidend ist die **Viskosität**
 **Nachteile:**
 - Teurer als UP-Harze
 - Oft längere Härtungszeiten
-- Hautsensibilisierung möglich
 - Stöchiometrisches Mischen erforderlich
 
 ---
 
 ## EP-Harze - Verarbeitung
 
-**Wichtig:**
 - Stöchiometrisches Harz-Härter-Verhältnis!
 - Sorgfältiges, langes Mischen
 - Maschineller Rührer empfohlen
@@ -854,7 +864,7 @@ Entscheidend ist die **Viskosität**
 
 ---
 
-## 4.8 Vinylesterharze
+## Vinylesterharze
 
 **VE-Harze - Position:**
 - Zwischen UP und EP
@@ -866,6 +876,8 @@ Entscheidend ist die **Viskosität**
 - Bessere Faser-Matrix-Haftung als UP
 - Ausgezeichnete Chemikalienbeständigkeit
 
+---
+
 **Anwendungen:**
 - Schwingend/schlagbeanspruchte Bauteile
 - Rohr- und Chemieanlagenbau
@@ -873,7 +885,7 @@ Entscheidend ist die **Viskosität**
 
 ---
 
-## 4.10 Thermoplastische Matrices
+## Thermoplastische Matrices
 
 **Probleme:**
 - Hohe Schmelzviskosität (Faktor 100-200 vs. Duroplaste)
@@ -903,14 +915,13 @@ Hochtemperatur: PPS, PEEK, PSU, PEI
 
 ## Thermoplaste - Daten Übersicht
 
-**Aus Tab. 4.4 - Mechanik:**
 | Polymer | E [N/mm²] | Rm [N/mm²] | ε [-] |
 |---------|-----------|------------|-------|
 | PP | 1140-1550 | 31-40 | 1-6 |
 | PA 6.6 | 1600-3700 | 75-94 | 0,15-0,6 |
 | PEEK | 3100-3800 | 92-103 | 0,11-0,5 |
 
-**Aus Tab. 4.5 - Temperatur:**
+
 | Polymer | T$_{g}$ [°C] | Ts [°C] | HDT [°C] |
 |---------|---------|---------|----------|
 | PP | -27 | 163-176 | 45-120 |
@@ -919,47 +930,16 @@ Hochtemperatur: PPS, PEEK, PSU, PEI
 
 ---
 
-## 4.11 Matrix-Daten
 
-**Tab. 4.6 - Standard-Thermoplaste:**
-Vollständige Eigenschaftsprofile für PP, PBT, PA 6.6
-(E, Rm, ε, ν, α, ρ, T$_{g}$, Ts)
+# Vielen Dank für Ihre Aufmerksamkeit!
 
-**Tab. 4.7 - Duroplaste:**
-Charakteristische Daten für:
-- UP-Harz (hochreaktiv)
-- VE-Harz (mittelreaktiv)
-- EP-Harz (Kalthärter, Segelflugzeuge)
-- EP-Harz (Warmhärter, Wickelharz)
+**Kontakt:**
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
 
----
+**Literaturhinweise:**
+- Helmut Schürrman "Konstruieren mit Faserverbundwerkstoffen"
 
-## Zusammenfassung - Matrixauswahl
 
-**Entscheidungskriterien:**
-1. Preis
-2. Mechanische Eigenschaften
-3. Temperatureinsatzgrenzen
-4. Chemische Beständigkeit
-5. Fertigungseigenschaften
-6. Arbeitssicherheit
 
-**Empfehlung:**
-- Bewährte Systeme bevorzugen
-- Interdisziplinäre Zusammenarbeit
-- Harzhersteller konsultieren
-- Ausgewogenes Eigenschaftsprofil
 
----
-
-## Ende Kapitel 4
-
-**Wichtigste Erkenntnisse:**
-- Matrix ist entscheidend für Verbundeigenschaften
-- Duroplaste: Standard in FKV
-- Thermoplaste: Zukunftspotenzial (Recycling)
-- Glasübergangstemperatur T$_{g}$ ist Schlüsselparameter
-- Nachhärtung essentiell für optimale Eigenschaften
-- Arbeitsschutz und Qualitätskontrolle wichtig
-
-**Nächstes Kapitel:** Halbzeuge und Verarbeitung
