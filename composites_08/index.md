@@ -361,7 +361,7 @@ E_L=\varphi E_f+(1-\varphi)E_m & \text{Mischungsregel}\\
 1/E_T\approx \varphi/E_f + (1-\varphi)/E_m &\text{Mischungsregel für Nachgiebigkeit}
 \end{array}
 $
-Korrektur erforderlich; entsprechend auch für $G_{LT} und Qerkontraktionszahl $\nu_{TT}$
+Korrektur erforderlich; entsprechend auch für $G_{LT}$ und Qerkontraktionszahl $\nu_{TT}$
 
 ---
 
@@ -388,7 +388,7 @@ Ansätz entsprechen dem Vorgehen bei der Bestimmung von $E_T$
 $\begin{array}{ll}
 \text{\textbf{Puck}}    & G_{LT} = \frac{(1+0.6\sqrt\varphi)G_m}{\varphi G_m/G_f+(1-\varphi)^{1.25}}\\
 \text{\textbf{Tsai, Hahn, Wu}} & G_{LT}=\frac{\varphi+0.5(1-\varphi)}{\varphi/G_f+0.5(1-\varphi)/G_m}\\
-\text{\textbf{Geier}} & G_{LT}=\frac{G_fG_m}{\varphi/G_m+(1-\overline{\varphi}G_f)}\qquad\text{mit}\qquad \overline{\varphi}?\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6\\
+\text{\textbf{Geier}} & G_{LT}=\frac{G_fG_m}{\varphi/G_m+(1-\overline{\varphi}G_f)}\qquad\text{mit}\qquad \overline{\varphi}=\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6\\
 \text{\textbf{Chamis}} & G_{LT}=G_m/[1-\sqrt\varphi(1-G_m/G_f)]
 \end{array}
 $
@@ -400,13 +400,13 @@ $
 - nur wenige Faserkennwerte können direkt im Versuch bestimmt werden
 - insbesondere in Querrichtung und unter Schubbelastung lassen sich Einzelfasern kaum testen
 - die Formeln zur Homogenisierung der Steifigkeiten sind für zwei unterschiedliche Aufgaben sinnvoll:
-   - Bestimmung der Faserwerte aus Messungen an UD_Schichten und Reinharzproben (Inverse Anwendung)
+   - Bestimmung der Faserwerte aus Messungen an UD Schichten und Reinharzproben (Inverse Anwendung)
    - Umrechnung der Laminateigenschaften bei geändertem Faservolumenanteil
 
 ---
 
 # Beispiel zur Anwendung der Homogenisierungsformeln
-E_Glasfasern als UD-Verstärkungen in Epoxidharzmatrix eingebettet
+E-Glasfasern als UD-Verstärkungen in Epoxidharzmatrix eingebettet
 Messungen am Verbund und am Reinharz durchgeführt
 
 $\begin{array}{ll}
@@ -728,7 +728,7 @@ $
 - Erkenntnisse
     - Abschätzung der Festigkeiten bei geändertem Faservolumengehalt
     - besseres Verstehen des Verbundversagens
-    - sinnbolle Auslegung von Fasern und Matrix
+    - sinnvolle Auslegung von Fasern und Matrix
 
 ![bg vertical fit](../assets/Figures/FKV/Faserkerben.png)
 
