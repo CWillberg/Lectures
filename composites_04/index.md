@@ -37,7 +37,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# 5.2 SMC/BMC - Allgemeines
+## SMC/BMC - Allgemeines
 
 **SMC = Sheet Molding Compound**
 **BMC = Bulk Molding Compound**
@@ -53,7 +53,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# SMC/BMC - Aufbau
+## SMC/BMC - Aufbau
 
 **Bestandteile:**
 
@@ -68,7 +68,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# Thixotropierung
+## Thixotropierung
 
 **Problem:** Niedrigviskoses Harz fließt aus Fasern
 
@@ -85,7 +85,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# Schrumpfkompensation
+## Schrumpfkompensation
 
 **Problem:** Härteschrumpf (~8%)
 → Einfallstellen, Porösität, Verzug
@@ -139,7 +139,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# 5.2.2 SMC-Herstellung
+# SMC-Herstellung
 
 **Prozessschritte:**
 
@@ -176,7 +176,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# 5.2.3 SMC-Verarbeitung
+#  SMC-Verarbeitung
 
 **Fließpressverfahren:**
 
@@ -1038,7 +1038,7 @@ Aufbau:
 
 ---
 
-# 5.8 Garngemische und Hybridgarne
+# Garngemische und Hybridgarne
 
 **Problem:** Tränkung hochviskoser Thermoplaste schwierig
 
@@ -1078,7 +1078,7 @@ Prozess:
 
 ---
 
-# Hybridgarn-Vorteile
+## Hybridgarn-Vorteile
 
 **Besondere Vorteile:**
 - Ungetränkt → flexibel
@@ -1095,7 +1095,7 @@ Prozess:
 
 ---
 
-# Zusammenfassung
+## Zusammenfassung
 
 **Duroplastische Halbzeuge:**
 - SMC/BMC: Großserie, wirtschaftlich
@@ -1108,8 +1108,7 @@ Prozess:
 - Thermoplast-Prepregs: Hochwertig
 - Hybridgarne: Flexible Lösung
 
-**Auswahl abhängig von:**
-- Anforderungen, Stückzahl, Kosten
+
 
 ---
 
