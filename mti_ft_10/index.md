@@ -139,7 +139,8 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
 
 ---
 
-- edlere wird zu Kathode
+- edlere wird zu Kathode 
+   - elektrochemische Spannungsreihe
 - unedlere Elektrode wird zur Anode
   - wie bei der Galvanisierung gibt die Anode Elektronen ab
   $\text{Metall} \rightarrow \text{Metall}^{++} + 2\text{e}^{-}$
@@ -147,6 +148,8 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
 - An der Kathode kann keine Meatall-Metallionen Reaktion stattfinden
   - es findet daher eine Redoxreaktion statt
   - Wasserstoffkorrosion oder Sauerstoffkorrosion
+
+  
 ---
 
 | Metall    | Potential | Korrosionsverhalten       |
@@ -161,6 +164,7 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
 | Zink      | -0.76 V   |   |
 | Titan     | -1.75 V   |   |
 | Aluminium | -1.66 V   | unedel  |
+
 
 ---
 
@@ -468,50 +472,6 @@ Zn → Zn²⁺ + 2e⁻  (Opferanode löst sich auf)
 | Wartung | Anode + Stromquelle | Anode ersetzen |
 | Kosten | Hohe Betriebskosten | Niedrige Betriebskosten |
 | Überwachung | Einfach | Schwierig |
-
----
-
-## Anodischer Schutz
-
-**Prinzip:** Werkstück wird in den passiven Bereich verschoben
-
-**Passivierung:**
-- Bildung einer dünnen Oxidschicht
-- Nur bei passivierbaren Metallen (Cr, Ti, Al, rostfreier Stahl)
-- Externe Stromquelle: Werkstück = Anode (+)
-
-**Anwendung:** 
-- Rostfreie Stähle in aggressiven Säuren
-- Chemische Industrie (Tanks, Reaktoren)
-- Selten im Vergleich zu kathodischem Schutz
-
----
-
-## Anodischer vs. Kathodischer Schutz
-
-**Anodischer Schutz:**
-- Werkstück = Anode (positive Polarisation)
-- Passive Oxidschicht wird stabilisiert
-- Nur für passivierbare Metalle
-
-**Kathodischer Schutz:**
-- Werkstück = Kathode (negative Polarisation)
-- Korrosionsreaktion wird verhindert
-- Für alle Metalle anwendbar
-
----
-
-## Aktiv vs. Passiv - Unterschiede
-
-| Merkmal | Passiver Schutz | Aktiver Schutz |
-|---------|-----------------|----------------|
-| Prinzip | Barriere | Elektrochemische Beeinflussung |
-| Beschädigung | Lokale Korrosion möglich | Gesamtschutz erhalten |
-| Energiebedarf | Keiner | Fremdstrom: ja, Opferanode: nein |
-| Wartung | Bei Beschädigung | Regelmäßig (Anoden) |
-| Anwendung | Atmosphäre, allgemein | Elektrolytisch (Wasser, Boden) |
-
-**Oft kombiniert:** Beschichtung + kathodischer Schutz
 
 ---
 
