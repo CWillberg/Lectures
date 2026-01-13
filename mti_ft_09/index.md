@@ -299,8 +299,10 @@ Einflussgrößen
 
 ## Strukturermüdungsversuch
 
-[Video](https://youtu.be/BOpBzKanX9k?si=icWRiGPNs-8H9qXo)
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/BOpBzKanX9k" title="Schwingversuch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
 
 <details>
 <summary>Herausforderungen?</summary>

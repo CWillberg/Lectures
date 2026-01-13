@@ -303,7 +303,7 @@ Einflussgrößen
 ## Strukturermüdungsversuch
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/BOpBzKanX9k?si=icWRiGPNs-8H9qXo)" title="Schwingversuch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/BOpBzKanX9k" title="Schwingversuch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ---
@@ -623,17 +623,6 @@ $\frac{p_{a,d}}{p_{a,e}}=\frac{2W_2}{W_2+W_1}$
 
 ---
 
-## Rechenaufgabe
-
--> Wasser - Stahl
--> Luft - Stahl
--> Wasser - Aluminium
--> Luft - Aluminium
--> Wasser - PMMA
--> Luft - PMMA
-
-
----
 
 ## Signal - Rausch Verhältnis
 
