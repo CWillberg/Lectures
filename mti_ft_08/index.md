@@ -35,7 +35,7 @@ Kontakt: christian.willberg@h2.de
 
 ---
 
-Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeugen durch Formänderunge und Stoffverminderung. Geometrisch bestimmte feste Köper sind Halbzeuge, montagefähige Einzelteile oder Werkzeuge.
+Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeugen durch Formänderung und Stoffverminderung. Geometrisch bestimmte feste Körper sind Halbzeuge, montagefähige Einzelteile oder Werkzeuge.
 
 ![bg right 70%](../assets/QR/mti_ft_08.png)
 
@@ -44,7 +44,7 @@ Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeu
 
 ## Unterteilung
 - Spanen
-- Abstragen
+- Abtragen
 - Zerteilen
 - Zerlegen
 - Reinigen
@@ -53,7 +53,7 @@ Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeu
 ---
 
 <br/>
-<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=IU7ehp13Z_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/IU7ehp13Z_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -61,15 +61,15 @@ Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeu
 
 - hohe Fertigungsgenauigkeit
 - hohe Reproduzierbarkeit der Qualität
-- hohe Flexibilität bei den geometrischen Bearbeitungsmöglichkeite
-- hohe stückzahl- und auftragbezogene Fertigungsflexibilität
+- hohe Flexibilität bei den geometrischen Bearbeitungsmöglichkeiten
+- hohe stückzahl- und auftragsbezogene Fertigungsflexibilität
 
 ---
 
-## Klassifierung
-- Automatisierunggrad
+## Klassifizierung
+- Automatisierungsgrad
   - maschinell - automatisiert
-  - manuell - unbestimmte Relativbewegung zwiwechen Werzeug und Werkstück
+  - manuell - unbestimmte Relativbewegung zwischen Werkzeug und Werkstück
 - geometrische Art der Schneide
   - geometrisch bestimmt
   - geometrisch unbestimmt
@@ -105,11 +105,11 @@ Prozesse sind verschaltbar
 - Hilfsgrößen 
   - Arbeitsebene
   - Wirkrichtungswinkel
-  - Vorschubsrichtungswinkel
+  - Vorschubrichtungswinkel
 
 ---
 
-Alle Basisgrößen sind beeinflusst durch das Material was bearbeitet wird.
+Alle Basisgrößen sind beeinflusst durch das Material, was bearbeitet wird.
 
 ---
 
@@ -148,8 +148,8 @@ Reißspan
 ---
 
 Scherspan
-- zäher Werkstoff, mittlerer Spanwinkel, niedrige Schnittgeschwindgkeit
-- schuppenförmige Spanteile die teilweise wieder miteinander Verschweißen
+- zäher Werkstoff, mittlerer Spanwinkel, niedrige Schnittgeschwindigkeit
+- schuppenförmige Spanteile, die teilweise wieder miteinander verschweißen
 
 ![bg right fit](https://d2wg98g6yh9seo.cloudfront.net/users/274851/274851_NicudaRomaFeziRi5386415885862914.jpg)
 
@@ -175,28 +175,28 @@ Fließspan
 ## Plandrehen
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/GF6CwvIX1h8?si=rpJH6JIlg0eboSeh&t=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/GF6CwvIX1h8?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## Runddrehen
 
 <br/>
-<iframe width="1150" height="500" src="https://youtu.be/19HyuH1zD8s?si=hKrbkAnHk4nspFZA&t=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/19HyuH1zD8s?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## Schrauben-/Gewindedrehen
 
 <br/>
-<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=D9lYGt-nL4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/D9lYGt-nL4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## Fräsen
 
 <br/>
-<iframe width="350" height="500" src="https://youtube.com/shorts/6rbNRCL8myM?si=RGg3pBinUqBhCVWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="350" height="500" src="https://www.youtube.com/embed/6rbNRCL8myM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ![bg 90% right](https://upload.wikimedia.org/wikipedia/commons/4/43/Fraisage_surfacage.svg)
@@ -207,7 +207,7 @@ Fließspan
 ## Bohren
 
 <br/>
-<iframe width="350" height="500" src="https://www.youtube.com/shorts/dZ4zmaVDW48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="350" height="500" src="https://www.youtube.com/embed/dZ4zmaVDW48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ![bg right](http://www.matthiashertel.de/Technologien/Bohren/Bohren.jpg)
@@ -216,13 +216,13 @@ Fließspan
 
 ## Gewindebohren
 <br/>
-<iframe width="1150" height="500" src="https://www.youtube.com/shorts/L6-CiLS45NY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/L6-CiLS45NY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## Schleifen
 - Schleifmittel
-  - Korund - AL$_2$O$_3$
+  - Korund - Al$_2$O$_3$
     - am häufigsten eingesetzt
     - Härte steigt mit Reinheitsgrad
   - Siliciumcarbid, Bornitrid, Diamant
@@ -233,7 +233,7 @@ Fließspan
 
 ---
 
-- Körnung beschreibt die größe des Schleifmittelkörner
+- Körnung beschreibt die Größe der Schleifmittelkörner
 - kleinere Körner -> geringere Oberflächenrauheit
 
 Schleifmittelgefüge
@@ -246,7 +246,7 @@ Schleifmittelgefüge
 ---
 Weiche Schleifwerkzeuge für
 - harte Werkstoffe
-- goße Berührungsflächen zwischen Schleifwerkstoff und Werkstück
+- große Berührungsflächen zwischen Schleifwerkstoff und Werkstück
 - kleiner Vorschub
 
 Harte Schleifwerkzeuge für
@@ -260,14 +260,17 @@ Harte Schleifwerkzeuge für
 ## Trennprozesse sind verschaltbar
 
 <br/>
-<iframe width="1150" height="500" src="https://www.youtube.com/watch?v=hmmXmKqP7B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/hmmXmKqP7B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ---
 
 ## Zerteilen
 
-- [Scheren](https://youtu.be/W_iKKt6783g?si=lG34eXCpV_DtqExP)
+<br/>
+<iframe width="350" height="500" src="https://www.youtube.com/embed/W_iKKt6783g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Scheren
 - Brechen
 - Reißen
 - Schneiden
@@ -275,9 +278,25 @@ Harte Schleifwerkzeuge für
 ---
 
 ## Schneiden
-[Mechanisch](https://youtube.com/shorts/Vi95Z8rNX_w?si=D-YV7W6XYi-twAUZ)
-[Wasserstrahl](https://youtu.be/DEUZLEmFUgA?si=wEJjnorsuSDoExKF)
-[Laserschneiden](https://youtu.be/3lLfXX9Xu-0?si=3XjMP1VHTGPKUuhY)
+
+<br/>
+<iframe width="350" height="500" src="https://www.youtube.com/embed/Vi95Z8rNX_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Mechanisch
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/DEUZLEmFUgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Wasserstrahl
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/3lLfXX9Xu-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Laserschneiden
 
 ---
 
@@ -295,7 +314,7 @@ Harte Schleifwerkzeuge für
 - hohe, präzise, definierte Energiedichte
 - Automatisierbarkeit
 - hohe Flexibilität
-- Verschleißfreies Werkzeug
+- verschleißfreies Werkzeug
 
 ---
 
@@ -335,7 +354,7 @@ mechanisch
 ---
 
 ## Definition
-Fügen ist das Zusammenbringen von verschiedenen Werkstücken (Bauelementen) geometrisch bestimmter fester Form oder von ebensolchen Werkstücken mit formlosem Stoff- oder Verbindungselementen. Dabei wird der Zusammenhalt zwischen den Elementen jeweils örtlich geschaffen oder vermehrt.
+Fügen ist das Zusammenbringen von verschiedenen Werkstücken (Bauelementen) geometrisch bestimmter fester Form oder von ebensolchen Werkstücken mit formlosem Stoff oder Verbindungselementen. Dabei wird der Zusammenhalt zwischen den Elementen jeweils örtlich geschaffen oder vermehrt.
 
 ---
 
@@ -361,7 +380,7 @@ Fügen ist das Zusammenbringen von verschiedenen Werkstücken (Bauelementen) geo
   - Hochtemperaturlöten
 - Kleben
   - mit physikalisch abbindenden Klebstoffen
-  - mit chemisch anbindenden Klebstoffen
+  - mit chemisch abbindenden Klebstoffen
 
 ---
 ## Verbindungsarten
@@ -387,7 +406,7 @@ Kraftschluss
 
 
 ---
-| Durchsteckschraube                         | Einziehschraube,Sechskantschraube, Zylinderschraube                                                                 | Stiftschraube                                   |
+| Durchsteckschraube                         | Einziehschraube, Sechskantschraube, Zylinderschraube                                                                 | Stiftschraube                                   |
 |-------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------------|
 | Die Verbindung wird erzeugt durch Verspannen mit einer Mutter.                  |  Hier wird das Verspannen realisiert durch den Einzug in ein Gewinde, welches in einem zu verbindenden Objekt enthalten ist.    | Bei einer Stiftschraube wird der Schraubenkopf durch eine Mutter ersetzt.   | 
 | In den Bohrungen ist kein Gewinde enthalten (Durchgangsbohrungen). | Der Schraubenkopf kann zusätzlich versenkt werden oder aufliegen (siehe Durchsteckschraube). |  |
@@ -418,7 +437,7 @@ Dübel, die in entsprechend gebohrte Löcher eingefügt werden, um zwei Holzstü
 ## Schweißen
 **Schmelzschweißverfahren**
 - Wärme
-- Stoffschluss durch Schmlzfluss der Fügeteile znd des Zusatzwerkstoffs
+- Stoffschluss durch Schmelzfluss der Fügeteile und des Zusatzwerkstoffs
 
 **Pressschweißverfahren**
 - Druck oder Wärme und Druck
@@ -455,7 +474,7 @@ $CE=C+\frac{Mn}{6}+\frac{Cr+Mo+V}{5}+\frac{Ni+Cu}{15}$
 - Konstruktive Gestaltung
   - Kraftflüsse im Bauteil
   - Anordnung von Schweißnähten
-  - Werkstückdicke,
+  - Werkstückdicke
   - Kerbwirkung
   - Steifigkeitsunterschiede
 
@@ -497,27 +516,50 @@ _Belastungen wie Temperaturen, Schwingungen, etc. sind zu berücksichtigen._
 ---
 
 # Verfahren
-- [Lichtbogenschweißen](https://youtu.be/DccNuexANYU?si=dfJZ-JXxicJaEArz&t=33)
-- [Schutzgasschweißen](https://youtu.be/tQocMx5o6dE?si=rAnZihwb7wa5iW4K&t=160)
-- [Unterpulverschweißen](https://youtu.be/N7R_7pM3L98?si=j8tyVHzNHpr66SiM&t=14)
-[Gasschmelzschweißen](https://youtu.be/6SiwQfuhxa8?si=F9w9mjIDH6XixRLT&t=584)
+
+<br/>
+<iframe width="350" height="500" src="https://www.youtube.com/embed/DccNuexANYU?start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Lichtbogenschweißen
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/tQocMx5o6dE?start=160" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Schutzgasschweißen
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/N7R_7pM3L98?start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Unterpulverschweißen
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/6SiwQfuhxa8?start=584" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Gasschmelzschweißen
+
 ---
 ## Lichtbogenschweißen
 - Lichtbogen brennt zwischen einer abschmelzenden Metallelektrode und dem Werkstück
 - die Elektrode ist gleichzeitig der Schweißzusatz
-- kann mit und ohne Schutzgas (Argon, Helium, oder Gemische) durchgeführt werden
+- kann mit und ohne Schutzgas (Argon, Helium oder Gemische) durchgeführt werden
 
 ---
 ## Schutzgasschweißen
 
-MSG - Metall Schutzgasschweißen
+MSG - Metall-Schutzgasschweißen
 - unterteilt in MIG (Aluminium, Kupfer, Nickel, ..)
 - MAG unlegierte und niedrig legierte und hoch legierte Stähle
 - Elektrode wird abgeschmolzen
 
-WIG - Wofram Internet Schweißen
-- Lichtbogen brennt zwischen nicht abschmelzender Wolfram Elektrode und dem Werkstück
-- Zusatzstab sorgt Schweißzusatz
+WIG - Wolfram-Inertgas-Schweißen
+- Lichtbogen brennt zwischen nicht abschmelzender Wolfram-Elektrode und dem Werkstück
+- Zusatzstab sorgt für Schweißzusatz
 
 ---
 
@@ -533,7 +575,7 @@ WIG - Wofram Internet Schweißen
 
 ## Widerstandspressschweißen
 
-- nutzt den elktrischen Widerstand zum heizen
+- nutzt den elektrischen Widerstand zum Heizen
 
 $Q= \int_0^{t_s} I^2 R dt = W_{elektrisch}$
 
@@ -547,7 +589,7 @@ $Q= \int_0^{t_s} I^2 R dt = W_{elektrisch}$
 
 |Vorteile|  Nachteile |
 |---|---|
-|keine Nahtvorbereitung|  große Kerwirkung in einem Punkt |
+|keine Nahtvorbereitung|  große Kerbwirkung in einem Punkt |
 |kurze Schweißzeiten|  geringe Dauerfestigkeit |
 |gute Automatisierbarkeit| Kraftumlenkung infolge der Überlappungsverbindung  |
 |kleine Wärmeflusszonen| schlechte Prüfbarkeit  |
@@ -556,10 +598,23 @@ $Q= \int_0^{t_s} I^2 R dt = W_{elektrisch}$
 
 ## Reibschweißen
 - notwendige Wärme wird durch Reibung erzeugt
-- [rotierende](https://youtu.be/oO2xxweFl6A?si=UqGV7MPkqnBa7YEF&t=17) oder oszillierende Bewegung ([Ultraschallschweißen](https://youtu.be/Z4szktVnMLA?si=mta4acZfD2Q66tdt&t=13))
+
+<br/>
+<iframe width="350" height="500" src="https://www.youtube.com/embed/oO2xxweFl6A?start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+rotierende Bewegung
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/Z4szktVnMLA?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+oszillierende Bewegung (Ultraschallschweißen)
+
+---
 
 - sehr gute Festigkeitseigenschaften
-- es bildet sich ein feinkristalines Gefüge aus
+- es bildet sich ein feinkristallines Gefüge aus
 - Ermüdungsverhalten ist gut
 - die konstruktive Gestaltung spielt bei Reibschweißbauteilen eine große Rolle
 
@@ -591,21 +646,35 @@ Nachteile
 
 ## Lote 
 - meist Legierungen und selten reine Metalle
-- Aufgabe die Grundwerkstoffe zu verbinden
+- Aufgabe: die Grundwerkstoffe zu verbinden
 - Lotschmelztemperatur muss niedriger sein als vom Grundwerkstoff
 - wenigstens ein Legierungselement des Lots muss mit dem Grundwerkstoff einen Mischkristall bilden
-- das Lot muss in der Lage sein den Grundwerkstoff zu benetzen
+- das Lot muss in der Lage sein, den Grundwerkstoff zu benetzen
 
 ---
 
 ## Verfahren
-[Kolbenlöten](https://youtu.be/Zyuvy_rMXcY?si=ZVhBF8cbG9LATCn-&t=5)
-[Induktionslöten](https://www.youtube.com/watch?v=ToJfdgbvodc)
-[Widerstandslöten](https://youtu.be/739HFTSdWT4?si=rWB0490lCOUIu5NQ)
+
+<br/>
+<iframe width="350" height="500" src="https://www.youtube.com/embed/Zyuvy_rMXcY?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Kolbenlöten
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/ToJfdgbvodc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Induktionslöten
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/739HFTSdWT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Widerstandslöten
   - direkt: Strom fließt über die Lötstelle
   - indirekt: Strom fließt nicht über die Lötstelle
-
-...
 
 ---
 
@@ -618,10 +687,10 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 
 ---
 ## Vorteile
-- nahezu alle Werkstoffkombinationen können gefügt  werden;
-- flächigen Kraftübertragung erzeugt eine gleichmäßige Verteilung der Kräfte 
-- große Klebefläche => relativ hohe Kräfte können zwischen dünnen Fügeteile übertragen werden $\sigma = \frac{F}{A}$
-- elastischen Klebstoffe erlauben kleine Relativbewegungen der Fügepartner, z. B. können Fügeteildehnungen bei Temperaturschwankungen ausgeglichen und Schwingungen effektiv gedämpft werden
+- nahezu alle Werkstoffkombinationen können gefügt werden
+- flächige Kraftübertragung erzeugt eine gleichmäßige Verteilung der Kräfte 
+- große Klebefläche => relativ hohe Kräfte können zwischen dünnen Fügeteilen übertragen werden $\sigma = \frac{F}{A}$
+- elastische Klebstoffe erlauben kleine Relativbewegungen der Fügepartner, z. B. können Fügeteildehnungen bei Temperaturschwankungen ausgeglichen und Schwingungen effektiv gedämpft werden
 - geringe oder keine Wärmebelastung
 - Fügetoleranzen können ausgeglichen werden
 - ...
@@ -629,9 +698,9 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 ---
 ## Nachteile
 - in der Regel wird eine Sofortfestigkeit nicht erreicht
--  je nach chemischer Basis eingeschränkte thermische und chemische Belastbarkeit/Beständigkeit
-- die mechanischen Eigenschaften sind temperaturabhängig;
-- z. T. eine gewisse Neigung zum Kriechen;
+- je nach chemischer Basis eingeschränkte thermische und chemische Belastbarkeit/Beständigkeit
+- die mechanischen Eigenschaften sind temperaturabhängig
+- z. T. eine gewisse Neigung zum Kriechen
 - Klebungen altern
 - eine Wiederlösbarkeit der Verbindung ist häufig nicht ohne Beschädigung mindestens eines der Fügeteile möglich
     
@@ -640,9 +709,9 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 # Oberflächenbehandlung
 
 - Oberfläche hat oft Verunreinigungen wie
-  - Staub, Metallabieb ~$10^4-10^5$nm
-  - Öle Fette ~$3$nm
-  - Reaktionsschichte  ~$1-10$nm
+  - Staub, Metallabrieb ~$10^4-10^5$nm
+  - Öle, Fette ~$3$nm
+  - Reaktionsschichten ~$1-10$nm
   - Grundwerkstoff mit verändertem Gefüge
 - Reinigen erfolgt
   - chemisch
@@ -658,7 +727,7 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 
 ## Prüfung
 
-- Kleben ist ein sogenannter „spezieller Prozess“, d. h. eine Prüfung ist nicht vollständig durch zerstörungsfreie Methoden realisierbar
+- Kleben ist ein sogenannter „spezieller Prozess", d. h. eine Prüfung ist nicht vollständig durch zerstörungsfreie Methoden realisierbar
 - Sicherheit durch robusten und reproduzierbaren Klebprozess
 
 - Kissing Bonds
@@ -667,14 +736,18 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 
 - Reaktionsauslösung ist abhängig vom Klebstoff
   - Temperatur, Zugabe eines Härters, Feuchtigkeit, Strahlung, ...
-- Automatisierung über [Roboter](https://youtu.be/bUEh0yOhT4Q?si=oU1Cp_FsMz--FWND) möglich
+
+<br/>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/bUEh0yOhT4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Automatisierung über Roboter möglich
 
 ---
 # Fügen durch Umformen
 - Vorteile
   - kein Wärmeeintrag
-  - große Vielfallt bei den Werkstoffen/-kombinationen
-  - gute ökologische Vertrgälichkeit
+  - große Vielfalt bei den Werkstoffen/-kombinationen
+  - gute ökologische Verträglichkeit
   - einfache Qualitätskontrolle
   - hohe Wirtschaftlichkeit
 
@@ -712,4 +785,3 @@ Adhäsion - Klebstoff muss mit genügend Festigkeit am Fügeteil angebunden sein
 
 **Referenzen**
 Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
-
