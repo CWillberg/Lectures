@@ -2,433 +2,455 @@
 marp: true
 
 theme: h2
-header: ''
+header: 'Werkstofftechnik - Thermische Eigenschaften'
 footer: ''
 
-title: Werkstofftechnik II
+title: 'Werkstofftechnik - Thermische Eigenschaften'
 author: Christian Willberg
 ---
 
 
+# Thermische Eigenschaften von Werkstoffen
 
 
-<style>
-.container{
-  display: flex;
-  }
-.col{
-  flex: 1;
-  }
-</style>
-
-<style scoped>
-.column-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.column {
-    flex: 1;
-    padding: 0 20px; /* Platzierung der Spalten */
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto;
-}
-</style>
-
-<style>
-footer {
-    font-size: 14px; /* Ändere die Schriftgröße des Footers */
-    color: #888; /* Ändere die Farbe des Footers */
-    text-align: right; /* Ändere die Ausrichtung des Footers */
-}
-img[alt="ORCID"] {
-    height: 15px !important;
-    width: auto !important;
-    vertical-align: top !important;
-    display: inline !important;
-    margin: 0 !important;
-}
-</style>
-
-
-##  Werkstofftechnik II -  Grundlagen der Materialmodellierung
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
-
-![bg right](../assets/Figures/IWES_test.jpg)
-
-Kontakt: christian.willberg@h2.de
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
-
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
 
 ---
 
-<!--paginate: true-->
+## Lernziele
 
-## Vorlesung
-
-![bg right 50%](../assets/QR/wst2_mb_02.png)
-
----
-
-## Begriffe
-| Begriff         | Freiheitsgrade | Einheit     |
-|----------------|---------------|------------|
-| Verschiebung   | 3 (x, y, z)    | m   |
-| Dehnungen      | 6 (x, y, z, xy, xz, yz)    | - oder % |
-| Geschwindigkeit | 3 (x, y, z) | m/s  |
-| Dehnungrate     | 6 (x, y, z, xy, xz, yz)    | 1/s oder %/s |
-| Kraft         | 3 (x, y, z) | N  |
-| Moment        | 3 (x, y, z) | Nm  |
-| Spannung        | 6 (x, y, z, xy, xz, yz)  | N/m$^2$, MPa  |
-
-
-
----
-## Was ist eine Dehnung?
-- Angabe für relative Längenänderung
-
-Beispiele 1D:
-
-$\varepsilon_C = \frac{\Delta \ell_1 + \Delta \ell_2}{\ell_0}$
-
-$\varepsilon' = \ln \left (\frac{\ell}{\ell_0} \right )=\ln \left (1 + \varepsilon \right )$
-
----
-![bg 80%](../assets/Figures/Dehungen.png)
+- Thermische Ausdehnung und ihre technische Bedeutung verstehen
+- Wärmekapazität und spezifische Wärme unterscheiden können
+- Wärmeleitfähigkeit verschiedener Werkstoffklassen kennen
+- Thermische Spannungen qualitativ beschreiben können
+- Anwendungsbezogene Auswahlkriterien entwickeln
 
 ---
 
-# Grundlagen der Materialmodellierung
+## Übersicht Thermische Eigenschaften
 
-$\boldsymbol{\sigma}_T=\mathbf{C}_T\cdot\cdot\boldsymbol{\varepsilon}_T$
+**Wichtige thermische Kenngrößen:**
 
-$\boldsymbol{\sigma} =
-\begin{bmatrix}
-\sigma_{11} & \sigma_{12} & \sigma_{13} \\
-\sigma_{21} & \sigma_{22} & \sigma_{23} \\
-\sigma_{31} & \sigma_{32} & \sigma_{33}
-\end{bmatrix}
-$
-
-$\boldsymbol{\varepsilon} =
-\begin{bmatrix}
-\varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
-\varepsilon_{21} & \varepsilon_{22} & \varepsilon_{23} \\
-\varepsilon_{31} & \varepsilon_{32} & \varepsilon_{33}
-\end{bmatrix}$
+- Thermischer Ausdehnungskoeffizient $α$
+- Spezifische Wärmekapazität $c$
+- Wärmeleitfähigkeit $λ$
+- Schmelztemperatur $T_m$
+- Thermischer Schock-Parameter
 
 ---
 
-## Voigt Notation
+## Thermische Ausdehnung
 
-**Symmetriebedingungen**
+**Linearer Ausdehnungskoeffizient α:**
 
-$
-C_{ijkl} = C_{ijlk} \quad \text{(Symmetrie bei Vertauschung der letzten Indizes)},$
-$C_{ijkl} = C_{jikl} \quad \text{(Symmetrie bei Vertauschung der ersten Indizes)},$
-$C_{ijkl} = C_{klij} \quad \text{(Paarweise Symmetrie)}$
+$$\alpha = \frac{1}{l_0} \frac{\Delta l}{\Delta T}$$
 
----
+**Volumenausdehnungskoeffizient:**
 
+$$\beta \approx 3\alpha$$ (für isotrope Werkstoffe)
 
-$
-\begin{bmatrix}
-\sigma_{11} \\
-\sigma_{22} \\
-\sigma_{33} \\
-\sigma_{12} \\
-\sigma_{13} \\
-\sigma_{23}
-\end{bmatrix}=
-\begin{bmatrix}
-C_{1111} & C_{1122} & C_{1133} & C_{1112} & C_{1113} & C_{1123} \\
-C_{2211} & C_{2222} & C_{2233} & C_{2212} & C_{2213} & C_{2223} \\
-C_{3311} & C_{3322} & C_{3333} & C_{3312} & C_{3313} & C_{3323} \\
-C_{1211} & C_{1222} & C_{1233} & C_{1212} & C_{1213} & C_{1223} \\
-C_{1311} & C_{1322} & C_{1333} & C_{1312} & C_{1313} & C_{1323} \\
-C_{2311} & C_{2322} & C_{2333} & C_{2312} & C_{2313} & C_{2323}
-\end{bmatrix}
-\cdot
-\begin{bmatrix}
-\varepsilon_{11} \\
-\varepsilon_{22} \\
-\varepsilon_{33} \\
-\gamma_{12} \\
-\gamma_{13} \\
-\gamma_{23}
-\end{bmatrix}$
-mit
-
-$\gamma_{ij}=\gamma_{ji}=0.5(\varepsilon_{ij}+\varepsilon_{ji})$
-
-
+Einheit: K⁻¹ oder °C⁻¹
 
 ---
 
-# Isotropes Material
-## Steifigkeitsmatrix
+## Physikalischer Ursprung
 
-$$
-\begin{bmatrix}
-\sigma_{11} \\
-\sigma_{22} \\
-\sigma_{33} \\
-\sigma_{12} \\
-\sigma_{13} \\
-\sigma_{23}
-\end{bmatrix}=
-\frac{E}{(1+\nu)}
-\begin{bmatrix}
-\frac{1-\nu}{1-2\nu} & \frac{\nu}{1-2\nu} & \frac{\nu}{1-2\nu} & 0 & 0 & 0 \\
-\frac{\nu}{1-2\nu} & \frac{1-\nu}{1-2\nu} & \frac{\nu}{1-2\nu} & 0 & 0 & 0 \\
-\frac{\nu}{1-2\nu} & \frac{\nu}{1-2\nu} & \frac{1-\nu}{1-2\nu} & 0 & 0 & 0 \\
-0 & 0 & 0 & \frac{1}{2} & 0 & 0 \\
-0 & 0 & 0 & 0 & \frac{1}{2} & 0 \\
-0 & 0 & 0 & 0 & 0 & \frac{1}{2}
-\end{bmatrix}
-\cdot
-\begin{bmatrix}
-\varepsilon_{11} \\
-\varepsilon_{22} \\
-\varepsilon_{33} \\
-\gamma_{12} \\
-\gamma_{13} \\
-\gamma_{23}
-\end{bmatrix}$$
+**Atomistische Betrachtung:**
 
+- Asymmetrie des interatomaren Potentials
+- Bei Erwärmung: größere Schwingungsamplitude
+- Mittlerer Atomabstand vergrößert sich
+- Stärkere Bindungen → geringere Ausdehnung
 
 ---
 
-## Nachgiebigkeit
+## Größenordnungen α
 
-$$\begin{bmatrix}
-\varepsilon_{11} \\
-\varepsilon_{22} \\
-\varepsilon_{33} \\
-\gamma_{12} \\
-\gamma_{13} \\
-\gamma_{23}
-\end{bmatrix} = \frac{1}{E}
-       \begin{bmatrix}
-       1     &-\nu &-\nu &0      &0        &0 \\
-       \cdot &1     &-\nu &0      &0        &0 \\
-       \cdot &\cdot & 1    &0      &0        &0 \\
-       \cdot &\cdot &\cdot &2(1+\nu) &0        &0 \\
-       \cdot &\cdot &\cdot &\cdot    &2(1+\nu) &0 \\
-       \cdot &\cdot &\cdot &\cdot    &\cdot  &2(1+\nu)
-       \end{bmatrix}\cdot \begin{bmatrix}
-\sigma_{11} \\
-\sigma_{22} \\
-\sigma_{33} \\
-\sigma_{12} \\
-\sigma_{13} \\
-\sigma_{23}
-\end{bmatrix}
-       $$
-
-- 1D Annahme $\sigma_{22} =\sigma_{33} =\sigma_{12} =
-\sigma_{13} =\sigma_{23}=0$
+| Werkstoffgruppe | α (10⁻⁶ K⁻¹) | Beispiele |
+|-----------------|---------------|-----------|
+| Keramik | 1-10 | Al₂O₃: 8, SiC: 4 |
+| Metalle | 10-25 | Al: 23, Stahl: 12, Cu: 17 |
+| Polymere | 50-200 | PE: 100-200, PMMA: 70 |
+| Verbunde | variabel | CFK: -1 bis 30 |
 
 ---
 
-## 2D Zustände
-- ebener Spannungszustand ($\sigma_{33} =
-\sigma_{13} =\sigma_{23}=0$)
-- ebener Dehnungszustand ($\varepsilon_{33} =
-\varepsilon_{13} =\varepsilon_{23}=0$)
----
+## Technische Bedeutung
 
-## Eigenarbeit
+**Probleme durch thermische Ausdehnung:**
 
-Kompressionsmodul
-Schubmodul
-Querkontraktionzahl
-Elastizitätsmodul
+- Thermische Spannungen bei Temperaturgradienten
+- Maßänderungen bei Temperaturwechsel
+- Fügeprobleme bei unterschiedlichen Materialien
+- Verformung von Präzisionsbauteilen
 
 ---
 
-## Vergleichspannungen
+## Bimetall-Effekt
 
-Mit Vergleichsspannungen können, im Allgemeinen dreidimensionale Spannungszustand im Bauteil mit den Kennwerten aus dem einachsigen Zugversuch (Material-Kennwerte, z. B. Streckgrenze oder Zugfestigkeit) verglichen werden 
+**Prinzip:**
+- Zwei Werkstoffe mit unterschiedlichem α
+- Fest verbunden (geklebt, gelötet, geschweißt)
+- Bei Temperaturänderung → Verbiegung
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/3/3f/Vergleichsspannung.svg)
-
-
----
-
-
-
-![bg fit](https://upload.wikimedia.org/wikipedia/commons/f/f3/Spannungshypo.gif)
-
----
-
-
-## Schubspannungshypothese
-
-Es wird davon ausgegangen, dass für das Versagen des Werkstoffes die größte Hauptspannungsdifferenz verantwortlich ist. Diese Hauptspannungsdifferenz entspricht dem doppelten Wert der maximalen Schubspannung  $\tau _{\max }$ – dadurch wird sie bei zähem Material unter statischer Belastung, welches durch Fließen (Gleitbruch) versagt, angewandt. 
-
-$\sigma_{v,T} = \sqrt{(\sigma_x-\sigma_y)^2+4\tau_{xy}^2}$
+**Anwendungen:**
+- Temperaturschalter
+- Thermostate
+- Thermometer
 
 ---
 
-## Von Mises Spannungen (Gestaltsänderungshyptothese)
+## Anisotropie der Ausdehnung
 
-Nach der Gestaltänderungshypothese, auch Gestaltänderungsenergiehypothese oder Mises-Vergleichsspannung, tritt Versagen des Bauteils dann auf, wenn die Gestaltänderungsenergie einen Grenzwert überschreitet (s. auch Verzerrungen bzw. Deformation). Verwendet wird diese Hypothese für zähe Werkstoffe (z. B. Stahl) unter ruhender und wechselnder Beanspruchung. Die Mises-Vergleichsspannung wird im Maschinenbau und im Bauwesen am häufigsten eingesetzt - für die meisten gängigen Materialien (nicht allzu spröde) unter normaler Belastung (wechselnd, nicht stoßartig) ist die GEH einsetzbar. 
+**Kristalline Werkstoffe:**
+- Unterschiedliche α in verschiedenen Kristallrichtungen
+- Bei polykristallinen Werkstoffen meist gemittelt
 
-$\sigma_{v,M} = \sqrt{\sigma_x^2+\sigma_y^2+\sigma_z^2
--\sigma_x\sigma_y-\sigma_x\sigma_z-\sigma_y\sigma_z
-+3(\tau_{xy}^2+\tau_{xz}^2+\tau_{yz}^2)}$
-
----
-## Hauptnormalspannungshypothese (Rankine)
-Besonders geeignet für die Untersuchung von Materialien, die gefährdet sind durch einen Sprödbruch zu versagen
-$\sigma_{v,R} = \frac{(\sigma_x + \sigma_y) + \sqrt{(\sigma_x - \sigma_y)^2 + 4 \tau_{xy}^2}}{2}$
+**Faserverbunde:**
+- Längs zur Faser: sehr gering (sogar negativ möglich)
+- Quer zur Faser: hoch
+- Gezieltes Design möglich
 
 ---
 
-## Anwendung
-$\varepsilon_1 = 0.1$, $\gamma_{12} = 0.1$, $\nu=0.3$, $E=210000 \frac{N}{mm^2}$
-- Spannungen berechnen für den ebenen Spannungszustand
-- Spannungen berechnen für den ebenen Dehnungsszustand
-- Vergleichsspannungen nach von Mises und Tresca
-- Abgleich mit verschiedenen Stahlsorten
+## Wärmekapazität
 
+**Spezifische Wärmekapazität c:**
 
----
+$$Q = m \cdot c \cdot \Delta T$$
 
-Abschätzung ist durch
-$\frac{\text{Energie}}{\text{Volumen}} = \int_{0}^{\varepsilon_B} \sigma \, d\varepsilon$
-
-möglich
-
-Zähe Werkstoffe weisen in der Regel ein ausgewogenes Verhältnis aus Festigkeit und Duktilität auf.[2] Viele Metalle sind zäh, da sie eine hohe Festigkeit aufweisen und zugleich in der Lage sind, viel Verformungsenergie aufzunehmen, ohne zu brechen.
-
+- Wärmemenge Q zur Temperaturerhöhung
+- Einheit: J/(kg·K)
+- Materialeigenschaft
 
 ---
 
+## Physikalische Grundlagen
 
+**Energiespeicherung durch:**
 
-## Fließbedingungen
-**Vergleichspannungen**
+- Gitterschwingungen (Phononen)
+- Elektronische Anregung (Metalle)
+- Molekülschwingungen (Polymere)
 
-_von Mises_
-$\sigma_V=\sqrt{\frac12\left[
-(\sigma_1 - \sigma_2)^2+
-(\sigma_2 - \sigma_3)^2+ 
-(\sigma_3 - \sigma_1)^2\right]+3\left[\tau_{12}^2+\tau_{13}^2+\tau_{23}^2\right]
-}$
-_Tresca_
-$\sigma_V=\sqrt{\frac12\left( 
-(\sigma_1 - \sigma_2)^2+
-(\sigma_2 - \sigma_3)^2+ 
-(\sigma_3 - \sigma_1)^2
-\right)}\approx\sigma_1-\sigma_3$
+**Dulong-Petit-Gesetz** (klassisch, hohe T):
+$$c \approx \frac{3R}{M}$$
+R: Gaskonstante, M: Molare Masse
 
 ---
 
-- Umformgeschwindigkeit
-- Umformvermögen
-  - $R_m/\sigma_V$
-  - bis zum Bruch maximal realisierbarer Umformgrad
-  - sonstige Grenzen
-    - unzulässige Deformationen
-    - Werkzeuge
-    - ...
----
+## Größenordnungen c
 
-## Umformarbeit
-
-$W_U=W_{id}+W_R+W_S$
-
-$W_{id}$ - ideale Umformarbeit
-$W_R$ - Reibung
-$W_S$ - Arbeit durch Schiebung
-
-- Aus der Arbeit lassen sich die notwendigen Kräfte ableiten
+| Werkstoff | c (J/(kg·K)) |
+|-----------|--------------|
+| Aluminium | 900 |
+| Stahl | 450 |
+| Kupfer | 385 |
+| Glas | 800 |
+| Wasser | 4180 |
+| Polymere | 1000-2000 |
 
 ---
 
-# Ausgewählte Umformverfahren zur Halbzeugfertigung
+## Technische Bedeutung
+
+**Wärmekapazität ist wichtig für:**
+
+- Wärmespeicher und Kühlkörper
+- Thermische Trägheit von Bauteilen
+- Energiebedarf bei Erwärmung/Abkühlung
+- Temperaturstabilität
+
+**Hohe c:**
+- Große Wärmemenge speicherbar
+- Langsame Temperaturänderung
 
 ---
 
-## Längswalzen
+## Wärmeleitfähigkeit λ
 
-![bg right 80%](https://qform3d.de/files_de/images/Schema%20des%20Flachwalzens_0.png)
+**Fourier'sches Gesetz:**
 
-- Walze kann glatt oder profiliert sein
--  hohe Produktivität und  Kontinuität der Fertigungsabläufe 
-- [Video](https://youtu.be/u54iTAXzOmE?si=AKFHbj2DxHSins5S&t=129)
----
+$$\dot{Q} = -\lambda A \frac{dT}{dx}$$
 
-- mehrere Walzen können hintereinander geschaltet werden
-- mehrdimensionale Bearbeitung wird hierdurch möglich
-
-![bg right 80%](https://qform3d.de/files_de/images/Profilwalzen_qform_0.png)
+- Wärmestrom proportional zu Temperaturgradient
+- Einheit: W/(m·K)
+- Stark temperaturabhängig
 
 ---
 
+## Mechanismen der Wärmeleitung
 
-## Querwalzen
+**Metalle:**
+- Hauptsächlich durch freie Elektronen
+- Hohe elektrische Leitfähigkeit → hohe Wärmeleitfähigkeit
+- Wiedemann-Franz-Gesetz
 
-- Material wird beispielsweise kontinuierlich nach außen gedrückt
-- Verlängerung des Walzguts
-
-![bg right fit](https://qform3d.de/files_de/images/Schema%20des%20Querkeilwalzens_0.png)
-
----
-
-
-
-## Schrägwalzen
-
-![bg right 80%](https://qform3d.de/files_de/images/Schema%20des%20Schraegwalzlochprozesses.png)
-
-
-![](https://qform3d.de/files_de/images/Schema%20des%20Schraegwalzprozesses.png)
+**Nichtmetalle:**
+- Gitterschwingungen (Phononen)
+- Deutlich geringer als Metalle
+- Streuung an Defekten reduziert λ
 
 ---
 
-## Strangpressen
-![bg 80% right](https://upload.wikimedia.org/wikipedia/commons/9/90/Filage_direct_de.png)
+## Größenordnungen λ
 
-- Material wird verformt, aber nicht abgetragen
-![](https://upload.wikimedia.org/wikipedia/commons/5/5c/Strangkkp.jpg)
----
-
-
-## Biegeformen
-**Freies Biegen**
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/f4/Biegeanimation_2D.gif)
-
+| Werkstoffgruppe | λ (W/(m·K)) | Beispiele |
+|-----------------|-------------|-----------|
+| Metalle | 50-400 | Cu: 400, Al: 235, Stahl: 50 |
+| Keramik | 2-50 | Al₂O₃: 30, SiC: 120 |
+| Polymere | 0.1-0.5 | PMMA: 0.2, PE: 0.4 |
+| Schaum/Isolierung | 0.02-0.05 | PUR-Schaum |
+| Diamant | ~2000 | Extremfall |
 
 ---
 
-**Schwenkbiegen**
+## Anwendungen nach λ
 
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/3/3f/Swing-folding-ani.gif)
+**Hohe Wärmeleitfähigkeit erwünscht:**
+- Kühlkörper (Al, Cu)
+- Wärmetauscher
+- Elektroniksysteme
+- Kochgeschirr
+
+**Niedrige Wärmeleitfähigkeit erwünscht:**
+- Wärmedämmung
+- Hitzeschutz
+- Griffe von Werkzeugen
+- Isolierung
 
 ---
 
-**Walzrunden**
+## Thermischer Schock
 
+**Definition:**
+Schnelle Temperaturänderung führt zu:
+- Temperaturgradienten im Bauteil
+- Thermischen Spannungen
+- Möglicher Rissbildung
 
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/c/cc/Rundwalzen.png)
+**Kritisch bei:**
+- Spröden Werkstoffen (Keramik, Glas)
+- Großen Bauteilen
+- Schnellen Temperaturwechseln
 
 ---
 
-## Tiefziehen
+## Thermische Spannungen
 
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/fc/Emboutissage1.png)
-[Metall](https://www.youtube.com/watch?v=WtJNFdv54EM)
-[Kunststoff](https://youtu.be/_FDMz7YAtWA?si=Hqx3rEmdAj7ykcIJ&t=99)
+**Behinderung der thermischen Ausdehnung:**
 
+$$\sigma_{th} = E \cdot \alpha \cdot \Delta T$$
 
+(bei vollständiger Behinderung)
 
+**Bei Temperaturgradienten:**
+- Unterschiedliche Ausdehnung in verschiedenen Bereichen
+- Selbstausgleichende Spannungen
+- Keine externe Kraft nötig
+
+---
+
+## Thermischer Schock-Parameter
+
+**Widerstand gegen Thermoschock:**
+
+$$R = \frac{\sigma_f \cdot (1-\nu)}{\alpha \cdot E}$$
+
+- σ_f: Festigkeit
+- ν: Querkontraktionszahl
+- E: E-Modul
+- α: Ausdehnungskoeffizient
+
+**Hoher R-Wert:**
+- Geringe Ausdehnung
+- Hohe Festigkeit
+- Niedriger E-Modul
+
+---
+
+## Verbesserung Thermoschockbeständigkeit
+
+**Werkstoffauswahl:**
+- Niedriger α
+- Hohe Festigkeit σ_f
+- Niedriger E-Modul
+
+**Konstruktive Maßnahmen:**
+- Langsame Temperaturänderung
+- Vorwärmen/Vorkühlen
+- Dehnungsfugen
+- Dünnwandige Konstruktion
+
+---
+
+## Schmelztemperatur T_m
+
+**Definition:**
+Temperatur des Fest-Flüssig-Phasenübergangs
+
+**Abhängigkeit von:**
+- Bindungsenergie
+- Kristallstruktur
+- Atomradius
+
+**Technische Bedeutung:**
+- Maximale Einsatztemperatur (ca. 0.5-0.8 T_m)
+- Verarbeitungstemperatur
+- Fügetechniken
+
+---
+
+## Schmelztemperaturen
+
+| Werkstoff | T_m (°C) |
+|-----------|----------|
+| Wolfram | 3422 |
+| Eisen | 1538 |
+| Kupfer | 1085 |
+| Aluminium | 660 |
+| Zinn | 232 |
+| Al₂O₃ | 2054 |
+| Polymere | 100-300 |
+
+---
+
+## Thermische Ermüdung
+
+**Thermal Fatigue:**
+- Wiederholte Temperaturwechsel
+- Zyklische thermische Spannungen
+- Akkumulation von Schäden
+- Rissbildung und -wachstum
+
+**Kritische Anwendungen:**
+- Turbinenschaufeln
+- Motorkomponenten
+- Thermozyklen in Elektronik
+
+---
+
+## Vergleich Werkstoffklassen
+
+**Metalle:**
+- Mittlere α, hohe λ, definierte T_m
+- Duktil → tolerant gegen Thermoschock
+
+**Keramik:**
+- Niedrige α, mittlere λ, sehr hohe T_m
+- Spröde → anfällig für Thermoschock
+
+**Polymere:**
+- Hohe α, niedrige λ, niedrige T_m
+- Kriechverhalten bei erhöhten Temperaturen
+
+---
+
+## Hybridwerkstoffe und Verbunde
+
+**Kombination von Eigenschaften:**
+- Metallmatrix-Composite (MMC): verstärkte Metalle
+- Keramikmatrix-Composite (CMC): zähere Keramik
+- Polymer-Matrix-Composite (PMC): angepasste α
+
+**Herausforderungen:**
+- Unterschiedliche Ausdehnungskoeffizienten
+- Grenzflächenspannungen
+- Thermische Zyklen kritisch
+
+---
+
+## Messmethoden
+
+**Thermische Ausdehnung:**
+- Dilatometrie
+- Dehnungsmessstreifen
+- Interferometrie
+
+**Wärmeleitfähigkeit:**
+- Stationäre Methoden (Plattenverfahren)
+- Instationäre Methoden (Laser-Flash)
+
+**Wärmekapazität:**
+- Dynamische Differenzkalorimetrie (DSC)
+- Kalorimetrie
+
+---
+
+## Normen und Standards
+
+**Wichtige Normen:**
+- DIN 51045: Wärmeleitfähigkeit
+- DIN 51007: Spezifische Wärmekapazität
+- DIN 53752: Thermische Längenausdehnung
+- ISO 11359: Thermomechanische Analyse
+
+---
+
+## Werkstoffauswahl
+
+**Kriterien bei thermischer Beanspruchung:**
+
+1. Einsatztemperatur vs. Schmelztemperatur
+2. Thermische Ausdehnung (Verbund, Fügestellen)
+3. Wärmeleitfähigkeit (Kühlung, Isolierung)
+4. Thermoschockbeständigkeit
+5. Langzeitstabilität bei Temperatur
+
+---
+
+## Anwendungsbeispiele Hochtemperatur
+
+**Turbinen:**
+- Nickel-Basis-Superlegierungen
+- Einkristalle für Schaufeln
+- Thermische Barrieren (TBC)
+
+**Öfen und Brenner:**
+- Hochtemperaturkeramik (Al₂O₃, SiC)
+- Feuerfeste Werkstoffe
+- Isolierende Ausmauerung
+
+---
+
+## Anwendungsbeispiele Tieftemperatur
+
+**Kryotechnik:**
+- Austentitische Stähle (zäh bei -196°C)
+- Aluminium-Legierungen
+- Spezielle Polymere
+
+**Raumfahrt:**
+- Extreme Temperaturwechsel
+- Vakuum-Umgebung
+- Leichtbau erforderlich
+
+---
+
+## Zusammenfassung Thermische Eigenschaften
+
+- Thermische Ausdehnung führt zu Spannungen
+- Wärmekapazität bestimmt thermische Trägheit
+- Wärmeleitfähigkeit kontrolliert Wärmetransport
+- Thermoschock kritisch für spröde Werkstoffe
+- Werkstoffauswahl nach Anwendungstemperatur
+
+---
+
+## Ausblick
+
+**Im Seminar:**
+- Berechnungen thermischer Spannungen
+- Dimensionierung bei Temperaturbelastung
+- Fallbeispiele und Übungsaufgaben
+- Werkstoffauswahl für konkrete Anwendungen
+
+---
+
+## Fragen?
+
+**Kontakt:**
+Prof. Dr.-Ing. Christian Willberg
+christian.willberg@h2.de
 

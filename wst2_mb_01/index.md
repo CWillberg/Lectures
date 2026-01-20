@@ -96,13 +96,13 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 | Seminar: Anwendung DOE | Vorlesung: Ableitung von Kenngrößen nach Normen |
 | 3 | Seminar: CAD Modellierung | Vorlesung Grundlagen der Materialmodellierung  |
 | 4 | Seminar: 3D Druck Einführung und Durchführung | Vorlesung Nicht-Eisen Werkstoffe |
-| 5 | Seminar: Zugversuche | Nicht Eisen Legierungen |
-| 6 | Seminar: Mikroskopanalyse | Polymere |
+| 5 | Seminar: Zugversuche | Nicht Eisen Legierungen S. 112|
+| 6 | Seminar: Mikroskopanalyse | Polymere S.42|
 | 7 | Seminar: Aufbereitung der Daten | Vorlesung Keramik  |
 | 8 | Seminar: Vorstellung der Ergebnisse | d |
 | 9 | b | Vorlesung Grundlagen der Materialmodellierung |
-| 10 | Seminar: Hooksches Gesetz | d |
-| 11 | b | Vorlesung Legierung |
+| 10 | Seminar: Hooksches Gesetz | Stähle S. 105 (wandlung eutektoide Stähle etc. + Normen) |
+| 11 | Korrosion (vertiefend) s.121| Vorlesung Legierung |
 | 12 | Seminar: Normen anwenden | Faserverbunde |
 | 13 | Seminar: Vortrag zum Material | Faserverbunde |
 | 14 | Puffer | Seminar: Prüfungsvorbereitung |
