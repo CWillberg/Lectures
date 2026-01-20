@@ -105,6 +105,11 @@ Hochschule Magdeburg-Stendal
 
 # SMC-Varianten
 
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
+
 **LP-SMC (Low Profile):**
 - 25 Gew.% Glasfasern
 - Schrumpfarm für Sichtflächen
@@ -114,6 +119,8 @@ Hochschule Magdeburg-Stendal
 - Bis 50 Gew.% Glasfasern
 - Höhere Festigkeiten
 - Strukturanwendungen
+</div>
+<div class=rdiv>
 
 **Leicht-SMC:**
 - Microballoons (25%)
@@ -122,6 +129,12 @@ Hochschule Magdeburg-Stendal
 
 **Weitere Additive:**
 - Polymer-/Cellulosefasern → Schlagzähigkeit
+
+</div>
+<div class=bdiv>
+
+
+
 
 ---
 
@@ -139,7 +152,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# SMC-Herstellung
+## SMC-Herstellung
 
 **Prozessschritte:**
 
@@ -152,14 +165,16 @@ Hochschule Magdeburg-Stendal
 7. Aufrollen zu ~400 kg Coils
 8. Reifelager (30°C, 4-5 Tage)
 9. Viskosität: 20-40 Pas → 40.000-100.000 Pas
-
-![](abb5.2)
-
 **Shelf life:** Einige Monate
+---
+
+![bg fit](../assets/Figures/FKV/SMC_herstellung.png)
+
+
 
 ---
 
-# BMC-Herstellung
+## BMC-Herstellung
 
 **BMC = Bulk Molding Compound**
 
@@ -176,9 +191,13 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-#  SMC-Verarbeitung
+##  SMC-Verarbeitung - Fließpressverfahren
 
-**Fließpressverfahren:**
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 1. **Zuschnitt:**
    - CNC-Schneidanlagen
@@ -190,14 +209,31 @@ Hochschule Magdeburg-Stendal
    - Laserstrahl-Positionierung
    - Spezialgreifer (keine Oberflächenmarkierung)
 
+</div>
+<div class=rdiv>
+
 3. **Pressen:**
    - Druck: 50-120 bar
    - Kavität füllt sich durch Fließen
    - Temperaturbedingte Viskositätserniedrigung
 
+</div>
+<div class=bdiv>
+
+
+
+
+
 ---
 
-# SMC-Verarbeitung - Details
+# SMC-Verarbeitung - Fließpressverfahren
+
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Pressentechnik:**
 - Vollautomatische Anlagen
@@ -207,6 +243,9 @@ Hochschule Magdeburg-Stendal
 - Zykluszeit: bis 30 Sekunden (dünne Wände)
 - Produkt-/Prozessdaten mitgeschrieben
 
+</div>
+<div class=rdiv>
+
 **Werkzeugtemperatur: ~130°C (Heißpresstechnik)**
 
 Bewirkt:
@@ -214,15 +253,31 @@ Bewirkt:
 - Aushärtereaktion einleiten
 - Schrumpfkompensation aktivieren
 
+</div>
+<div class=bdiv>
+
+
+
+
 ---
 
 # Werkzeuge und Nachbearbeitung
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Werkzeuge:**
 - Stahl für Serienproduktion
 - Gehärtet und poliert
 - Verchromt für höchste Ansprüche
 - Max. Temperatur durch Delaminationsgefahr limitiert
+
+
+</div>
+<div class=rdiv>
+
 
 **Oberflächenbehandlung:**
 - Durchgefärbt möglich
@@ -234,9 +289,19 @@ Bewirkt:
 - Öffnen sich bei Lacktrocknung
 - Lösung: Werkzeug vor Pressen evakuieren
 
+</div>
+<div class=bdiv>
+
 ---
 
 # Nachbearbeitung SMC
+
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Automatisierte Prozesse:**
 - Besäumen, Entgraten
@@ -249,13 +314,31 @@ Bewirkt:
 - Mikrorisse beim Entformen/Nachbearbeiten vermeiden
 - Zähmodifizierte Harze (höhere Rissbildungsgrenzen)
 
+
+</div>
+<div class=rdiv>
+
+
+
 **Lackierung:**
 - Zusammen mit Karosserie möglich
 - SMC verträgt bis 190°C (Lacktrockner)
 
+
+</div>
+<div class=bdiv>
+
+
 ---
 
+
 # SMC-Vorteile
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Wirtschaftlichkeit:**
 - Einer der wirtschaftlichsten FKV-Werkstoffe
@@ -263,16 +346,34 @@ Bewirkt:
 - Kurze Härtungszeiten
 - Gut automatisierbar
 - Großserienfertigung geeignet
+</div>
+<div class=rdiv>
+
+
 
 **Kostenvorteile:**
 - Werkzeugkosten < Stahlblechumformung
 - Konkurrenzfähig bei kleinen/mittleren Serien
 - Weniger Presswerkzeuge nötig
 - Kaum Fügeprozesse
+</div>
+<div class=bdiv>
+
+
+
+
 
 ---
 
 # SMC-Vorteile - Konstruktion
+
+
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Hoher Integrationsgrad:**
 - Keine Zusammensetzung aus Einzelteilen
@@ -283,10 +384,21 @@ Bewirkt:
 - Geometrien nicht in Blech umsetzbar
 - Stylist-Freiheit
 
+</div>
+<div class=rdiv>
+
+
+
+
 **Oberflächenqualität:**
 - Class-A-Oberflächen möglich
 - Lackierfähig
 - Geringe Langwelligkeit
+
+</div>
+<div class=bdiv>
+
+
 
 ---
 
@@ -874,7 +986,7 @@ Aufbau:
 
 ---
 
-# 5.6 LFT - Allgemeines
+# LFT - Allgemeines
 
 **LFT = Langfaserverstärkte Thermoplaste**
 
@@ -913,7 +1025,7 @@ Aufbau:
 
 ---
 
-# 5.6.2 LFT-Verarbeitung
+# LFT-Verarbeitung
 
 **Ähnlich GMT:**
 - Werkzeugdruck: bis 150 bar
@@ -968,7 +1080,7 @@ Aufbau:
 
 ---
 
-# 5.7 Thermoplastische Prepregs
+#  Thermoplastische Prepregs
 
 **Auch: "Organoblech"**
 
@@ -986,7 +1098,7 @@ Aufbau:
 
 ---
 
-# 5.7.2 Thermoplast-Prepreg-Herstellung
+# Thermoplast-Prepreg-Herstellung
 
 **1. Schmelzeimprägnierung:**
 - Wie GMT (Doppelbandpresse)
@@ -1012,7 +1124,7 @@ Aufbau:
 
 ---
 
-# 5.7.3 Thermoplast-Prepreg-Verarbeitung
+# Thermoplast-Prepreg-Verarbeitung
 
 **Umformung:**
 - Vorab auf Schmelztemperatur erwärmen

@@ -31,8 +31,8 @@ img[alt="ORCID"] {
 ## Vorlesung MTI - Nicht Eisen Werkstoffe
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](../assets/Figures/crack.jpg)
 
+![bg right 70%](../assets/QR/mti_ft_11.png)
 
 Kontakt: christian.willberg@h2.de
 
@@ -43,164 +43,193 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
-# Nicht Eisenwerkstoffe
-
+# Überblick
 
 - Nicht-Eisenmetalle
 - Kunststoffe
-- Gläser
-- Keramiken
-- Metamaterialien
-- Multifunktionale Materialien
+- Gläser und Keramiken
+- Metamaterialien und Smart Materials
+- Naturwerkstoffe
 - Faserverbundkunststoffe
-- Leichtbauexkurs
 
-![bg right 70%](../assets/QR/mti_ft_11.png)
-
----
-## Vergleich von Werkstoffen
-
-- spezifische Kennwerte
+![bg right](../assets/Figures/crack.jpg)
 
 ---
 
-Spezifische Eigenschaften = $\frac{\text{Eigenschaft}}{\text{Bezugsgröße}}$
-Beispiele:
+# Werkstoffvergleich
 
-Spezifische Masse (Dichte) - $\rho = \frac{m}{V}$ 
-Spezifische Festigkeit - $R_{spez} = \frac{R_{m}}{\rho}$ 
+**Spezifische Eigenschaften**
+
+Spezifische Eigenschaft = $\frac{\text{Eigenschaft}}{\text{Bezugsgröße}}$
+
+**Beispiele:**
+- Spezifische Masse (Dichte): $\rho = \frac{m}{V}$ 
+- Spezifische Festigkeit: $R_{spez} = \frac{R_m}{\rho}$ 
+
+Die spezifische Festigkeit ermöglicht einen fairen Vergleich verschiedener Werkstoffe für Leichtbauanwendungen.
 
 ---
 
-# Nicht-Eisen Metalle
+# 1. Nicht-Eisenmetalle
 
-Stahl hat eine Jahresproduktion von ~1900 Mio. t
+**Vergleich zur Stahlproduktion**
+
+Weltweite Jahresproduktion Stahl: ~1900 Mio. t
+
+Nicht-Eisenmetalle spielen trotz geringerer Produktionsmengen eine entscheidende Rolle in vielen technischen Anwendungen.
 
 ---
 
-## Alumininium
+## Aluminium
 
-Gute [Übersicht](https://www.maschinenbau-wissen.de/skript3/werkstofftechnik/aluminium) über die Eigenschaften, Herstellung, etc.
+**Grundlegende Eigenschaften**
+- Spezifische Festigkeit vergleichbar mit Stahl
+- Dichte: ~2,7 g/cm³ (Stahl: ~7,85 g/cm³)
+- Weltproduktion: 60-70 Mio. t/Jahr
 
-Die spezifische Festigkeit von Aluminium und Stahl liegt sehr nah beeinander.
+[Detaillierte Übersicht](https://www.maschinenbau-wissen.de/skript3/werkstofftechnik/aluminium)
 
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg)
 
 ---
 
-Vorteile:
-- Geringe Dichte, deshalb bedeutend geringeres Gewicht als vergleichbare Bauteile und Konstruktionen aus Stahl.
-- Aluminiumwerkstoffe lassen sich hervorragend warm- und kaltumformen.
-- gute Gießbarkeit
-- Aushärtbarkeit
-- gute Zerspanbarkeit
-- Aufgrund einer passivierenden Oxidschicht auf der Oberfläche gelten Aluminiumwerkstoffe grundsätzlich als sehr korrosionsbeständig gegenüber zahlreichen wässrigen Medien.
+## Aluminium - Vorteile
+
+- Geringe Dichte → deutlich geringeres Gewicht
+- Hervorragende Warm- und Kaltumformbarkeit
+- Gute Gießbarkeit
+- Aushärtbar durch Wärmebehandlung
+- Gute Zerspanbarkeit
+- Korrosionsbeständigkeit durch passivierende Oxidschicht
 
 ---
 
-Nachteile:
-- höhere Kosten im Vergleich zu Stahl
+## Aluminium - Nachteile und Anwendungen
 
-**Anwendung**
-- Automobilbau 
-- Luft- und Raumfahrttechnik
-- Fahrräder
-- Alufolie
+**Nachteile:**
+- Höhere Materialkosten im Vergleich zu Stahl
+
+**Hauptanwendungen:**
+- Automobilbau (Karosserien, Motorkomponenten)
+- Luft- und Raumfahrt
+- Fahrradbau
+- Verpackungen (Alufolie)
 
 ![bg right fit](https://www.chalcoaluminum.com/upload/image/20230316145542_41805.jpg)
 
-
 ---
-## Herstellung
-- Aluminium wird aus $\text{AL}_2\text{O}_3$ gewonnen
-- Schmelzpunkt von Bauxit ist sehr hoch 2060 °C
-- Es wird daher eine Smelzflusselektrolyse angewandt
-- Elektrolyt - Lösung von Aluminiumoxid in geschmolzenen künstlich hergestellten Kryolith. Kryolith (Mineral aus Natrium, Aluminium und Fluor)
+
+## Aluminium - Herstellung
+
+**Schmelzflusselektrolyse**
+- Ausgangsmaterial: Bauxit (Al₂O₃)
+- Schmelzpunkt Bauxit: 2060 °C (zu hoch für direktes Schmelzen)
+- Lösung: Elektrolyse in geschmolzenem Kryolith
+- Kryolith: Mineral aus Natrium, Aluminium und Fluor
+
+**Energiebilanz:**
+- Primärproduktion: sehr energieintensiv
+- Recycling: nur 5% der Primärenergie
+
 ![bg right fit](https://www.maschinenbau-wissen.de/bilder/skripte/werkstofftechnik/aluminium-herstellung-05.PNG)
-
-
----
-## 
-
-- Energieaufwand sehr hoch
-- Recycling benötigt nur 5% der Energie die für die Herstellung von Primäraluminium nötig ist
-
-[um die 60-70 Mio. t Produktion](https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Aluminiumproduzenten)
 
 ---
 
 ## Kupfer
 
-- Kupfer ist ein sehr guter elektrischer und thermischer Leiter
+**Charakteristische Eigenschaften**
+- Exzellente elektrische Leitfähigkeit
+- Sehr gute Wärmeleitfähigkeit
+- Korrosionsbeständigkeit
+
+**Weltproduktion:**
+- 2006: 17 Mio. t
+- 2025: ~28 Mio. t (Prognose)
 
 ![bg right fit](https://images-of-elements.com/copper.jpg)
 
 ---
 
-- bekannte Legierungen sind 
-    - Bronzen (Kupfer-Zinn)
-        - gute Festigkeit
-        - Korrosionsbeständigkeit
-        - leichte Verarbeitung
-    - Messinge (Kupfer-Zink)
-        - bis 37% Zink einphasiges Messing
-        - zwischen 37-44% Zink zweiphasiges Messing
-        - gut spanbar
-    - Kupfer-Nickel Legierungen
+## Kupfer - Legierungen
+
+**Bronzen (Kupfer-Zinn)**
+- Hohe Festigkeit
+- Gute Korrosionsbeständigkeit
+- Leichte Verarbeitung
+
+**Messinge (Kupfer-Zink)**
+- Bis 37% Zn: einphasiges Messing
+- 37-44% Zn: zweiphasiges Messing
+- Gute Spanbarkeit
+
+**Kupfer-Nickel-Legierungen**
+- Hohe Korrosionsbeständigkeit (Meerwasser)
+
 ---
 
-## Herstellung
+## Kupfer - Herstellung
 
-- aus Kupferstein
+**Prozess aus Kupferstein:**
 
-$6CuFe S_2 10 O_2\rightarrow
-3 Cu_2 S+2 Fe S$ $+ 2Fe_2 O_3 + 7 SO_2$
+$6\text{CuFeS}_2 + 10\text{O}_2 \rightarrow 3\text{Cu}_2\text{S} + 2\text{FeS} + 2\text{Fe}_2\text{O}_3 + 7\text{SO}_2$
+
+**Endreaktion:**
+
+$\text{Cu}_2\text{S} + 2\text{Cu}_2\text{O} \rightarrow 6\text{Cu} + \text{SO}_2$
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/ba/Copper_Flash_Smelting_Process_%28DE%29.svg)
 
-in mehreren Schritten kommt es zu Reaktion
-$Cu_2 S+ 2Cu_2 O\rightarrow 6Cu+SO_2$
-
-[17 Mio. t (2006) - 28 Mio. t (2025*)](https://de.statista.com/statistik/daten/studie/156043/umfrage/weltweite-kupfernachfrage-seit-2006/)
-
 ---
 
-## Weitere
+## Weitere Nicht-Eisenmetalle I
 
-- Magnesium findet im Leichtbau Anwendung 
-- Titan und Titanlegierungen 
-    - hohe Festigkeit und Warmfestigkeit
-    - Korrosionsbeständig
-- Nickel
-    - Korrosionsbeständigkeit
-    - hohe Warmfestigkeit
+**Magnesium**
+- Leichtbauwerkstoff
+- Sehr geringe Dichte
+
+**Titan und Titanlegierungen**
+- Hohe Festigkeit und Warmfestigkeit
+- Exzellente Korrosionsbeständigkeit
+- Luft- und Raumfahrt, Medizintechnik
 
 ![bg right 30%](https://images-of-elements.com/magnesium.jpg)
 ![bg right 30% vertical](https://images-of-elements.com/titanium-crystal.jpg)
+
+---
+
+## Weitere Nicht-Eisenmetalle II
+
+**Nickel**
+- Korrosionsbeständigkeit
+- Hohe Warmfestigkeit
+- Legierungselement
+
+**Zink**
+- Korrosionsschutz (Verzinkung)
+- Witterungsbeständige Bleche
+
+**Blei**
+- Leicht gießbar
+- Chemisch beständig
+- Batterien, Lager, Lote
+
 ![bg right 30%](https://images-of-elements.com/nickel.jpg)
-
----
-- Zink
-    - Korrosionsschützende Überzüge
-    - witterungsbeständige Bleche
-- Blei
-    - Leicht gießbar
-    - chemisch beständig
-    - Batterien, Lager und Lote
-
-    
-![bg right fit](https://images-of-elements.com/zinc.jpg)
-![bg right fit vertical](https://images-of-elements.com/lead.jpg)
-
+![bg right 30% vertical](https://images-of-elements.com/zinc.jpg)
+![bg right 30%](https://images-of-elements.com/lead.jpg)
 
 ---
 
-- Wolfram (Tungsten)
-    - höchste Schmelztemperatur von allen Metallen
-    - Glühfände, Schweißelektroden und Sonderbauteile
+## Wolfram (Tungsten)
+
+**Besondere Eigenschaften**
+- Höchster Schmelzpunkt aller Metalle (3422 °C)
+
+**Anwendungen:**
+- Glühfäden
+- Schweißelektroden
+- Hochtemperatur-Sonderbauteile
 
 ![bg right fit](https://images-of-elements.com/tungsten-rod.jpg)
-
 
 ---
 
@@ -208,317 +237,318 @@ $Cu_2 S+ 2Cu_2 O\rightarrow 6Cu+SO_2$
 
 ---
 
-# Kunststoffe
+# 2. Kunststoffe
 
+**Grundlagen**
+- Bestehen aus Makromolekülen (Polymeren)
+- Breites Eigenschaftsspektrum je nach Herstellung und Additiven
+- Herkunft: Naturstoffe oder vollsynthetisch
 
-- Kunststoffe bestehen hauptsächlich aus Makromolekülen
-- Je nach Herstellungsverfahren und zugesetzten Additiven (Zusatzstoffe) haben sie ein sehr weites Eigenschaftsspektrum. 
--  Polymere können aus Naturstoffen oder rein synthisch gewonnen werden
-
+**Struktur:**
 
 ![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
 
 ---
 
-## Anwendungen
+## Kunststoffe - Anwendungen
+
+**Haupteinsatzgebiete:**
 - Verpackungsindustrie
-- Isolierungen
-- Spielzeug
-- Rohre
-- Verkleidungen
-- Dämmungen
+- Elektrische Isolierungen
+- Spielzeug und Haushaltsartikel
+- Rohrleitungen
+- Verkleidungen und Dämmungen
 - Leiterplatten
-- uvm.
+- Automobilbau
+- Medizintechnik
 
 ---
 
-## Umweltproblem
+## Umweltaspekte
 
-- über 70% der Kunststoffe werden in Deponien gelagert, 9% recycled, der Rest wird verbrannt 
-- Mikroplastik
-    -   wird bewusst genutzt (Zahnpasta) oder entsteht durch mechanische Zerstörung von Kunststoffen in der Umwelt
-    - reichert sich in Nahrungsmitteln, Tieren und Pflanzen an
-    - kann negative Wirkungen haben (bei Menschen noch nicht nachgewiesen)
+**Aktuelle Situation:**
+- >70% Deponierung
+- ~9% Recycling
+- Rest: thermische Verwertung
 
-
----
-## Unterteilung
-
-Thermoplaste
-- bestehen aus unvernetzten Polymeren
-- häufig mit einer teilkritallinen Struktur
-- sind schmelzbar und haben eine Glastemperatur
-- sind im Prinzip recyclebar
-
-![](https://upload.wikimedia.org/wikipedia/commons/2/27/Polymerstruktur-teilkristallin.svg)
+**Mikroplastik-Problematik:**
+- Bewusste Nutzung (z.B. Kosmetika)
+- Entstehung durch mechanische Zerstörung
+- Anreicherung in Nahrungsketten
+- Langzeitfolgen noch nicht vollständig erforscht
 
 ---
 
-Duroplaste
-- engmaschig vernetzten Polymere (Vermetzungen sind die roten Punkte)  
+## Kunststoffklassifizierung
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/02/Polymerstruktur-engmaschig_vernetzt.svg)
+**Drei Hauptgruppen:**
 
----
+1. **Thermoplaste** - unvernetzte Polymere
+2. **Duroplaste** - engmaschig vernetzt
+3. **Elastomere** - weitmaschig vernetzt
 
-Elastomere
-- weitmaschig vernetzten Polymere
-- Weitmaschigkeit erlaubt hohe Streckungen (z.B. Gummibänder)
-
-![](https://upload.wikimedia.org/wikipedia/commons/b/b7/Polymerstruktur-weitmaschig_vernetzt.svg)
-
+Unterscheidung nach molekularer Struktur und thermischem Verhalten.
 
 ---
 
-## Glastemperatur
+## Thermoplaste
 
-$T_g$ ist die Temperatur, bei der ein amorpher Feststoff (z. B. ein Glas oder ein amorphes Polymer) von einem starren, glasartigen Zustand in einen weichen, gummiartigen Zustand übergeht.
+**Struktur:**
+- Unvernetzte Polymere
+- Oft teilkristalline Struktur
+- Schmelzbar und recyclebar
+- Glasübergangstemperatur Tg
 
----
-
-## Thermoplast
-**Aggregatzustände**
-
-Bei verschiedenen Temperaturen nehmen Thermoplaste verschiedene Aggregatzustände an. Diese können dann genutzt werden, um den Werkstoff in Form zu bringen
-- Fest 
-- Thermoelastisch
-- Thermoplastisch
-- Fließfähig
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/2/27/Polymerstruktur-teilkristallin.svg)
 
 ---
 
-**Typische Fertigungsverfahren**
-- Spritzgießverfahren
+## Thermoplaste - Aggregatzustände
+
+**Temperaturabhängige Zustände:**
+- **Fest** - unterhalb Tg
+- **Thermoelastisch** - oberhalb Tg
+- **Thermoplastisch** - Verarbeitungsbereich
+- **Fließfähig** - hohe Temperaturen
+
+Diese Eigenschaft ermöglicht vielfältige Verarbeitungsverfahren.
+
+---
+
+## Thermoplaste - Fertigungsverfahren
+
+**Typische Prozesse:**
+- Spritzgießen
 - Extrusion
-- Additive Fertigungsverfahren
+- Additive Fertigung (3D-Druck)
 - Blasformen
 - Folienblasen
 
----
-_Anwendungen_ 
-- Automobilindustrie: Verwendung in Innen- und Außenverkleidungen, Stoßfängern und Scheinwerfergehäusen.
-- Luft- und Raumfahrt: Einsatz in Interieur-Komponenten von Flugzeugen und Satelliten aufgrund des geringen Gewichts.
-- Medizintechnik: Herstellung von Einwegspritzen, Kathetern und anderen medizinischen Verbrauchsmaterialien.
-- Bauwesen: Einsatz in Rohrleitungen, Isoliermaterialien und Fensterrahmen.
-- 3D Druck
----
-
-Beispiele 
-- Polyethylen (PE)
-- Polypropylen (PP)
-- Polystyrol (PS)
-- Polycarbonat (PC)
+**Beispiele:**
+Polyethylen (PE), Polypropylen (PP), Polystyrol (PS), Polycarbonat (PC)
 
 ---
 
-## Duroplast
-- können Duroplasten aufgrund ihrer hohen Vernetzung nicht mehr aufgeschmolzen werden. 
-- hohe Temperaturen oberhalb der Zersetzungstemperatur zerstören die Bindungen (Pyrolyse).
-- durch Polykondensation hergestellt. 
-- Findet stufenweise statt. Die Zwischenprodukte (Oligomere) der Stufen sind stabil, aber weiterhin reaktionsfähig. Diese Oligomere bilden dann final Makromoleküle.
+## Thermoplaste - Anwendungen
 
-
-
-![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
+- **Automobilindustrie:** Innen-/Außenverkleidungen, Stoßfänger
+- **Luft- und Raumfahrt:** Interieur-Komponenten
+- **Medizintechnik:** Einwegspritzen, Katheter
+- **Bauwesen:** Rohrleitungen, Isolierungen, Fensterrahmen
+- **3D-Druck:** Prototypen und Endprodukte
 
 ---
-_Anwendungen_ 
 
-- Bremsbelege
-- Faserverbundwerkstoffe
+## Duroplaste
+
+**Eigenschaften:**
+- Engmaschig vernetzte Struktur
+- Nicht mehr aufschmelzbar nach Aushärtung
+- Hohe Temperaturen → Zersetzung (Pyrolyse)
+
+**Herstellung:**
+- Polykondensation (stufenweise)
+- Stabile Zwischenprodukte (Oligomere)
+- Finale Vernetzung zu Makromolekülen
+
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/0/02/Polymerstruktur-engmaschig_vernetzt.svg)
+
+---
+
+## Duroplaste - Reaktionsschema
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a0/Polykondensation_Bakelit_1.svg)
+
+---
+
+## Duroplaste - Anwendungen
+
+**Typische Einsatzgebiete:**
+- Bremsbeläge
+- Faserverbundwerkstoffe (Matrix)
 - Kabelbahnen
 - Karosserieteile
 - Schutzhelme
 
----
-
-Beispiele 
-- Epoxidharze
-- vernetzbare Polyurethane 
-- ungesättigte Polyesterharze
+**Beispiele:**
+Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 
 ---
 
-## Elastomer
+## Elastomere
 
-- Glastemperatur befindet sich unterhalb des Einsatzgebiets (bei tiefen Temperaturen werden sie glasartig)
-- Elastomere können sich als thermoelastisch Verformen und finden in ihre Ursprungsform zurück
-- Viele Elastomere werden heutzutage künstlich hergestellt. Allerdings gibt es einen großen Markt für Naturkautschuk. Dieser wird im wesentlichen vom Kautschukbaum geerntet. Es gibt erste Anwendungen Kautschuk aus [Löwenzahn](https://de.wikipedia.org/wiki/Russischer_L%C3%B6wenzahn) zu nutzen.
+**Charakteristik:**
+- Weitmaschig vernetzte Struktur
+- Glastemperatur unterhalb Einsatztemperatur
+- Thermoelastisches Verhalten (Rückstellvermögen)
+
+**Materialquellen:**
+- Synthetisch hergestellt
+- Naturkautschuk (Kautschukbaum)
+- Neue Quelle: Russischer Löwenzahn
+
+![bg right 50%](https://upload.wikimedia.org/wikipedia/commons/7/71/Polymer_picture.svg)
 
 ---
 
-_Anwendungen_ 
-- Dichtringe
+## Elastomere - Vulkanisation
+
+**Prozess:**
+- Umwandlung von Kautschuk in Elastomer
+- Bildung kovalenter Bindungen zwischen Molekülketten
+- Vernetzung durch Schwefelbrücken
+- Alterung: Austausch Schwefel- durch Sauerstoffbrücken
+
+**Anwendungen:**
+- Dichtringe und Dichtungen
 - Reifen
 - Gummibänder
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/7/71/Polymer_picture.svg)
-
-- Vulkanisation beeinflusst die Zahl der Brücken (Punkte rechts)
-
----
-Beispiele
-- Naturgummi
-- Gummi
-- Chloropren
-- Epichlorhydrin
-
-
-
 ---
 
-**Vulkanisation**
-Beschreibt den Herstellungsprozess, um thermoplastischen Naturkautschuk oder Synthesekautschuk in einen Elastomer zu wandeln. 
-- erzeugt kovalenten Bindungen (rote Punkte) zwischen den Molekülketten
-- Schwefel oder schwefelgebenden Stoffe 
-- kovalenten Bindungen in Form von Schwefelbrücken
-- Alterung ist ein Austausch der Schwefelbrücken durch Sauerstoffbrücken
+## Kunststoff-Additive
+
+**Zweck:** Beeinflussung spezifischer Eigenschaften
+
+- **Weichmacher** - Flexibilität erhöhen
+- **Stabilisatoren** - UV-Schutz, Alterungsschutz
+- **Farbmittel** - Einfärbung
+- **Füllstoffe** - Kostenreduktion, Eigenschaftsänderung
+- **Verstärkungsstoffe** - Festigkeitssteigerung (Fasern)
 
 ---
 
-## Additive
-Werden genutzt um die spezifischen Eigenschaften der Kunststoffe zu 
-beeinflussen.
+# 3. Gläser
 
-- Weichmacher
-- Stabilisatoren
-- Farbmittel
-- Füllstoffe
-- Verstärkungsstoffe
-
-
-
----
-
-## Gläser
-- ist ein eingefrorender Zustand einer unterkühlten Flüssigkeit
-- amorphe Struktur
-    - stochastisch verteilt
-    - isotrop
-- Glastemperatur
-- Kristalle ändern ihre Eigenchaften an der Schmelztemperatur sprunghaft (Phasenänderung)
-- Bei Gläsern ist dies nicht der Fall (keine Phasenänderung)
+**Definition:**
+- Eingefrorener Zustand einer unterkühlten Flüssigkeit
+- Amorphe (ungeordnete) Struktur
+- Isotrope Eigenschaften
+- Keine Phasenänderung beim Erstarren
 
 ![bg 60% right](https://upload.wikimedia.org/wikipedia/commons/6/62/Kalk-Natron-Glas_2D.svg)
 
-
 ---
 
-# Gläser
+## Gläser - Glasübergang
 
-- unterhalb $\text{T}_g$ Festkörperverhalten
-- oberhalb $\text{T}_g$ Flüssigkeitsverhalten
-- der Prozess ist reversibel
+**Temperaturverhalten:**
+- Unterhalb Tg: Festkörperverhalten
+- Oberhalb Tg: Flüssigkeitsverhalten
+- Reversibler Prozess
 
 ![bg right fit](../assets/Figures/Eigenschaft-Temperaturkurve-Glas.svg)
 
+---
 
+## Gläser - Eigenschaften und Anwendungen
+
+**Eigenschaften:**
+- Hohe chemische Beständigkeit
+- Geringe Zugfestigkeit (spröde)
+- Transparenz (optische Gläser)
+- Nicht-metallische Gläser: gute Isolatoren
+
+**Anwendungen:**
+- Fenster und Fassaden
+- Behälter und Verpackungen
+- Elektrische Isolatoren
+- Optische Komponenten
 
 ---
 
+# 4. Keramiken
 
+**Herstellungsprozess:**
+1. Aufbereiten und Mischen der Pulver
+2. Formgebung
+3. Brennen (Sintern)
 
-**Eigenschaften**
-- je nach Glas sehr verschieden
-- in aller Regel sehr resilient gegenüber Chemikalien
-- in aller Regel der zerbrechmlich (niedrige Zugfestigkeit)
-- nicht-metallische Gläser sind schlechter Leiter und können als Isolatoren genutzt werden
-
-**Anwendungen**
-
-
-- Scheiben
-- Behälter
-- Isolatoren
-- Optiken
-
----
-
-# Keramiken
-Ausgangsmaterial ist pulverförmig
-
-- Aufbereiten und Mischen der Pulver
-- Herstellen der Formteile
-- Brennen (Sintern)
-
----
-
-- Sehr hohe Druckfestigkeit (10 mal höher als Zug)
-- Verhalten eines ideal spröden Körpers
-- geringe Schlagbiegefestigkeit
-- große Kerbempfindlichkeit
+**Mechanische Eigenschaften:**
+- Sehr hohe Druckfestigkeit (10× höher als Zugfestigkeit)
+- Ideal sprödes Verhalten
+- Geringe Schlagbiegefestigkeit
+- Hohe Kerbempfindlichkeit
 
 ![bg right fit](../assets/Figures/Gefuege_Kermaik.png)
 
-[Quelle](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_PuZaGavilaboseVe7493644773946427.png)
-
 ---
 
-- Ursache für hohe Festigkeit und Elastizität sind die Hauptvalenzbindungen zwischen den Atomen 
-- Daher kein Gleiten wie bei Metallen möglich -> keine plastischen Eigenschaften
+## Keramiken - Struktur und Eigenschaften
 
+**Ursache der Eigenschaften:**
+- Hauptvalenzbindungen zwischen Atomen
+- Kein Gleiten möglich → keine plastische Verformung
+- Hohe Festigkeit und Elastizität
 
 ![bg right 90%](../assets/Figures/Eigenschaften_Keramiken.png)
-[Quelle](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_waVatuLaxuyiroRu6233471439296793.png)
-
----
-## Härte
-
-![bg  fit](../assets/Figures/haerte_Keramik.png)
-[Quelle](https://d2wg98g6yh9seo.cloudfront.net/users/153243/153243_SifuZeYuvegeWori5372538488744336.png)
 
 ---
 
-Tonkeramiken
-- mindestens 20% Tonmineral enthalten
-- Porzelan hat hat vor allem technische Bedeutung
+## Keramiken - Härte
 
-Glaskeramiken 
+![bg fit](../assets/Figures/haerte_Keramik.png)
+
+---
+
+## Keramiktypen
+
+**Tonkeramiken**
+- Mindestens 20% Tonmineralanteil
+- Porzellan: hohe technische Bedeutung
+
+**Glaskeramiken**
 - Mischung aus Glas und Keramik
-- Teilkristallbildung durch Zuabe von Kristalliten
-- wie Glas gegossen und dann Wärmebehandlung
-- sehr geringer (teils negativer) Wärmeausdehungskoeffizient
+- Teilkristallbildung durch Kristallitenzugabe
+- Herstellung wie Glas, dann Wärmebehandlung
+- Sehr geringer (teilweise negativer) Wärmeausdehnungskoeffizient
 
 ---
 
-## Eigenschaften
-**Elektrisch**
-- hohe Kriechstromfestigkeit
+## Keramiken - Elektrische Eigenschaften
+
+**Vorteile:**
+- Hohe Kriechstromfestigkeit
 - Hoher Durchgangswiderstand
-- hohe Durchschlagfestigkeit
+- Hohe Durchschlagfestigkeit
 
-Unempfindlich gegen klimatische Einflüsse (Salznebel, Industriegase, Sonnenlicht, Wärme)
-- als Stecker, Klemmleisten, Schalter, usw. eignesetzt
+**Beständigkeit:**
+- Unempfindlich gegen klimatische Einflüsse
+- Resistent gegen Salznebel, Industriegase, UV-Strahlung
+
+**Anwendungen:**
+Stecker, Klemmleisten, Schalter, Isolatoren
+
 ![bg right fit](../assets/Figures/isolator.jpg)
-[Quelle](https://pixnio.com/free-images/2017/12/11/2017-12-11-16-38-22-1536x1024.jpg)
-
 
 ---
 
-## Technische Keramiken und deren Anwendungsgebiete
-Können eine große Breite an Eigenschaften haben. Daher bedienen sie eine Vielzahl von  Anwendungsgebieten.
+## Technische Keramiken - Anwendungsgebiete
 
-- Medizintechnik: Knochen- oder Zahnersatz
-- Elektrotechnik: Leistungskondensatoren
-- Hochtemperaturanwendung: Brennersysteme, Heizelemente, Lager
-- Lager- und Dichttechnik: Gleitringdichtungen, Gleitlager
+**Breites Eigenschaftsspektrum:**
 
-Es existieren auch keramische Faserverbunde, welche die mangelnde Zugfestigkeit ausgleichen.
+- **Medizintechnik:** Knochen- und Zahnersatz
+- **Elektrotechnik:** Leistungskondensatoren
+- **Hochtemperatur:** Brennersysteme, Heizelemente
+- **Lager- und Dichttechnik:** Gleitringdichtungen
 
-
+**Sonderformen:**
+Keramische Faserverbunde (kompensieren geringe Zugfestigkeit)
 
 ---
 
-# Metamaterial
-Ziel von Metamaterialien ist es die Eigenschaften gezielt zu "bauen".
+# 5. Metamaterialien
 
-Hierfür wird die Mikrostruktur gebaut.
+**Konzept:**
+Gezieltes "Design" von Materialeigenschaften durch Mikrostrukturdesign
 
-[Beispiel](https://en.wikipedia.org/wiki/File:Negative_refraction.ogv)
+**Eigenschaften:**
+- Nicht durch chemische Zusammensetzung bestimmt
+- Sondern durch geometrische Anordnung
 
+[Beispiel: Negative Brechung](https://en.wikipedia.org/wiki/File:Negative_refraction.ogv)
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/a/ab/Pentamode.png)
-[Quelle](https://doi.org/10.1002/adem.201800864)
 
 ---
 
@@ -526,79 +556,97 @@ Hierfür wird die Mikrostruktur gebaut.
 
 ---
 
+## Beispiel: Negativer Poisson-Effekt
+
 ![bg fit](../assets/Figures/poisson.png)
 
 ---
 
-# "Smart Materials"
-Piezoelektrische Materialien
-    - Deformation aufgrund von elektrischer Spannung und vice versa
-[Formgedächtnismaterialien](https://www.youtube.com/watch?v=231O7jlgwxI)
-    - starke Formänderung aufgrund von Temperaturänderung
-    - Gute [Beschreibung](https://en.wikipedia.org/wiki/Shape-memory_alloy)
+# 6. Smart Materials
 
+**Piezoelektrische Materialien**
+- Deformation durch elektrische Spannung (und umgekehrt)
+- Sensoren und Aktoren
 
----
-Photovoltaische Materialien
-    - el. Spannung durch Lichteinwirkung
-Thermoelektrische Materialien
-    - el. Spannung aufgrund von Temperaturänderung
-Photomechanische Materialien
-    - Formänderung bei Licht
-Thermochrome Materialien
-    - Farbänderung bei Temperaturänderung
-uvm.
-
-
+**Formgedächtnismaterialien**
+- Starke Formänderung durch Temperatur
+- [Video-Demonstration](https://www.youtube.com/watch?v=231O7jlgwxI)
+- [Detaillierte Beschreibung](https://en.wikipedia.org/wiki/Shape-memory_alloy)
 
 ---
 
-## Naturwerkstoffe
+## Smart Materials - Weitere Typen
 
-Unteilbar in belebt (organisch) und unbelebte (anorganische Stoffe)
+**Photovoltaische Materialien**
+- Elektrische Spannung durch Lichteinwirkung
 
-- organisch
-    - tierisch oder pflanzlich
-    - Fette, Öle, Stärke
-- anorganisch
-    - Silikate, Carbonate
+**Thermoelektrische Materialien**
+- Elektrische Spannung durch Temperaturänderung
+
+**Photomechanische Materialien**
+- Formänderung bei Lichteinfall
+
+**Thermochrome Materialien**
+- Farbänderung bei Temperaturänderung
 
 ---
+
+# 7. Naturwerkstoffe
+
+**Klassifizierung:**
+
+**Organisch (belebt):**
+- Tierisch oder pflanzlich
+- Fette, Öle, Stärke, Proteine
+
+**Anorganisch (unbelebt):**
+- Silikate, Carbonate
+
+---
+
+## Naturwerkstoffe - Pflanzlich
 
 | Pflanzlicher Stoff | Anwendung |
-| ---| --- |
-|Lignocellulose/ Holz|	Holzwerkstoffe|
-|Öle|	Schmierstoffe, Kraftstoffe, Tenside|
-|Fasern|	Textilien, Werkstoffe|
-|Stärke	|Verpackungsmittel|
-|Besondere Inhaltstoffe|	Arzneimittel, Genussmittel, Farbstoffe|
+|---|---|
+| Lignocellulose/Holz | Holzwerkstoffe |
+| Öle | Schmierstoffe, Kraftstoffe, Tenside |
+| Fasern | Textilien, Werkstoffe |
+| Stärke | Verpackungsmittel |
+| Besondere Inhaltstoffe | Arzneimittel, Farbstoffe |
 
 ---
+
+## Naturwerkstoffe - Tierisch
+
 | Tierischer Stoff | Anwendung |
-| ---| --- |
-|Knochen, Schalen	|Leim, Düngemittel, Werkstoffe|
-|Fette	|Schmierstoffe, Kraftstoffe, Tenside|
-|Fasern	|Textilien, Werkstoffe|
-|Proteine|	Kosmetika|
-|Besondere Inhaltstoffe	|Arzneimittel z.B. Insulin, Impfstoffe, Oestrogene|
+|---|---|
+| Knochen, Schalen | Leim, Düngemittel, Werkstoffe |
+| Fette | Schmierstoffe, Kraftstoffe, Tenside |
+| Fasern | Textilien, Werkstoffe |
+| Proteine | Kosmetika |
+| Besondere Inhaltstoffe | Arzneimittel (Insulin, Impfstoffe) |
 
 ---
 
 ## Holz und Holzwerkstoffe
 
-- Furnier
-    - bestehen aus unvergütetem Vollholz mit einer Dicke kleiner gleich 5 mm und einer Breite größer gleich 80 mm, welche durch spanloses oder spanendes Schneiden aus Rohholz hergestellt werden.
-- Sperrholz
-    -  mindestens drei aufeinander geleimten Holzlagen verstanden
-- Spanplatte
-- Faserplatte
-    - Faserdämmplatte
-    - Hartfaserplatte
-    - MDF-Platte
+**Furnier**
+- Unvergütetes Vollholz
+- Dicke ≤ 5 mm, Breite ≥ 80 mm
+- Spanlos oder spanend geschnitten
+
+**Sperrholz**
+- Mindestens 3 verleimte Holzlagen
+
+**Spanplatte**
+- Holzspäne mit Bindemittel
+
+**Faserplatten**
+- Faserdämmplatten, Hartfaserplatten, MDF
+
 ---
 
 ![bg 70%](https://upload.wikimedia.org/wikipedia/commons/8/86/Furniererzeugung.png)
-
 
 ---
 
@@ -607,57 +655,74 @@ Unteilbar in belebt (organisch) und unbelebte (anorganische Stoffe)
 ---
 
 ![bg 80%](https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG)
+
 ---
+
 ![bg 80%](https://upload.wikimedia.org/wikipedia/commons/7/74/STEICO_flex_Natural_Wood_Fibre_Insulation.jpg)
 
 ---
 
-## Eigenschaften
-- stark abhängig vom Holz
-    - Bambus, Fichte, Eiche, Lophira alata
-- Funier ($E=10000-17000N/mm^2, R_{11}=180-80N/mm^2$)
+## Holzwerkstoffe - Eigenschaften
 
-- Spanplatten sind im Bereich von Kunststoffen ($E=2000-4500N/mm^2$)
+**Variabilität je nach Holzart:**
+- Bambus, Fichte, Eiche, Lophira alata
 
-- Festigkeit senkrecht zur Hauptrichtung ~50%
+**Mechanische Kennwerte:**
+- Furnier: E = 10.000-17.000 N/mm², R₁₁ = 80-180 N/mm²
+- Spanplatten: E = 2.000-4.500 N/mm² (Kunststoffbereich)
+- Festigkeit quer zur Faser: ~50% der Längsfestigkeit
 
 ---
+
 ## Naturfasern
 
-Beispiele: Glas, Hanf, Flachs, Kenaf, Jute, Baumwolle
+**Beispiele:**
+Hanf, Flachs, Kenaf, Jute, Baumwolle
 
-Als nachwachsender Rohstoff sind 
-Hanf ($E=90000 N/mm^2$; $R=1110N/mm^2$) 
-Flachs ($E=93000 N/mm^2$; $R=930N/mm^2$) 
+**Mechanische Eigenschaften:**
+- **Hanf:** E = 90.000 N/mm², R = 1.110 N/mm²
+- **Flachs:** E = 93.000 N/mm², R = 930 N/mm²
 
-aus ökologischer Sicht interessant. 
-
-
-
+**Vorteile:**
+- Nachwachsender Rohstoff
+- Ökologisch vorteilhaft
+- Gute spezifische Eigenschaften
 
 ---
 
 ![](../assets/Figures/Natur_Materialeigenschaften.png)
 
-Polypropylen (PP), PP und Talkum (PP-T), PP und Holzfasern (WPC), PP und Bastfasern (wie Hanf, Flachs, Jute, Kenaf) sowie PP und Glasfasern (PP-GF)
+PP: Polypropylen | PP-T: PP + Talkum | WPC: PP + Holzfasern
+PP-Naturfaser: PP + Hanf/Flachs/Jute/Kenaf | PP-GF: PP + Glasfasern
 
 ---
 
-Anteil am Verbundmarkt in der EU sind ca. 15% (Stand 2015)
+## Naturfasern - Marktanteil
+
+**EU-Verbundmarkt:**
+- Anteil Naturfasern: ~15% (Stand 2015)
+- Tendenz steigend
 
 ![bg right fit](../assets/Figures/Einatz_naturfasern.png)
 
 ---
 
-## Herausfoderungen
-- Normierung
-    - existiert nur in Teilen
-- Wettbewerb gegen etablierte Prozesse
+## Naturfasern - Herausforderungen
 
+**Hemmnisse für breitere Nutzung:**
+- Unvollständige Normierung
+- Wettbewerb gegen etablierte Prozesse
+- Schwankende Rohstoffqualität
+- Feuchtigkeitsaufnahme
+
+**Chancen:**
+- Nachhaltigkeit
+- CO₂-Bilanz
+- Kundenanforderungen
 
 ---
 
-# Faserverbundwerkstoffe
+# 8. Faserverbundkunststoffe (FKV)
 
 ---
 
@@ -665,105 +730,135 @@ Anteil am Verbundmarkt in der EU sind ca. 15% (Stand 2015)
 
 ---
 
-## Was ist ein Faserkunstoffverbund (FKV)
+## Was ist ein Faserverbundkunststoff?
 
-- Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
-- Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
-- Material und seine Eigenschaften entstehen in der Fertigung 
+**Definition:**
+- Mehrphasen-/Mischwerkstoff
+- Hauptkomponenten: Faser + Matrix
+- Gesamtwerkstoff > Summe der Einzelkomponenten
+- Material und Eigenschaften entstehen in der Fertigung
 
----
-
-## Fokus von Industrien
-
-- Luft- und Raumfahrt
-  - Gutes Festigkeits/Steifigkeits – Gewichtsverhältnis
-  - Schaden-, Korrosionsstoleranz 
-  - Wartbarkeit / Reparierbarkeit
-- Bauwesen
-  - Widerstand gegen Umwelteinflüsse und Korrosion
-  - Langlebigkeit
+**Prinzip:**
+Kombination von Vorteilen verschiedener Materialien
 
 ---
 
-- Schifffahrt
-  - Salzwasser
-  - Schlagschäden
-  - Lange Lebendauer
-- Landtransportsysteme
-  - Kosten
-  - Einfache Fertigbarkeit
-- Weitere Anwendungen
-  - Dichtheit
-  - …
+## FKV - Industrieller Fokus
+
+**Luft- und Raumfahrt**
+- Festigkeits-/Steifigkeits-Gewichts-Verhältnis
+- Schadens- und Korrosionstoleranz
+- Wartbarkeit/Reparierbarkeit
+
+**Bauwesen**
+- Umweltbeständigkeit
+- Langlebigkeit
+
+---
+
+## FKV - Weitere Anwendungsbereiche
+
+
+
+<!-- _class: cols-2-1 -->
+
+<div class=ldiv>
+
+**Schifffahrt**
+- Salzwasserbeständigkeit
+- Schlagschadenstoleranz
+- Lange Lebensdauer
+
+**Landtransport**
+- Kosteneffizienz
+- Fertigbarkeit
+
+</div>
+<div class=rdiv>
+
+
+**Weitere Anwendungen**
+- Dichtheit (Tanks, Rohre)
+- Sportgeräte
+- Medizintechnik
+
+</div>
+
 
 
 
 
 ---
 
-## Komponenten von Faserkunstoffverbunde 
+## FKV-Komponenten: Matrix
 
-**Matrix – bindende Komponente**
-Formgebend
-Schutz und Stabilisierung der Fasern
-Spannungen an die Fasern übertragen
+**Aufgaben der Matrix:**
+- Formgebung
+- Schutz und Stabilisierung der Fasern
+- Spannungsübertragung an Fasern
+
 ![bg right 75%](../assets/Figures/FKV_struktur.png)
 
 ---
 
-## Komponenten von Faserkunstoffverbunde 
+## FKV-Komponenten: Faser
 
-**Faser – verstärkende Komponente**
-Lasttragend da hohe Steifigkeit und/oder Festigkeit bei geringem Gewicht
-Begrenzte thermische Dehnung
-Weitere Bestandteile (optional)
-Faserbeschichtungen
-Füllstoffe
-Beimischung anderer Fasertypen
+**Aufgaben der Faser:**
+- Lasttragend (hohe Steifigkeit/Festigkeit)
+- Geringes Gewicht
+- Begrenzte thermische Dehnung
+
+**Weitere Bestandteile (optional):**
+- Faserbeschichtungen
+- Füllstoffe
+- Hybridfasersysteme
 
 ![bg right 75%](../assets/Figures/FKV_struktur.png)
 
 ---
 
-## Ausgangswerkstoffe - Faser
+## Fasertypen nach Länge
 
-- Kurzfasern
-  - Wirre Anordnung (geringe Anistropie)
-  - Oft recyclete Fasern
-- Langfasern
-  - Mehrere Millimeter - einige Centimeter Länge
-  - Geringere Anforderung bei Verarbeitung und Lagerung
+**Kurzfasern**
+- Wirre Anordnung (geringe Anisotropie)
+- Oft recycelte Fasern
+- Kostengünstig
 
-
-
-![bg right 35%](https://balticcarbon.de/wp-content/uploads/1-4.jpg)
-![bg vertical 35%](https://shop.flachs.de/wp-content/uploads/sites/2/2013/05/LangflachsGebleichZopfShop.jpg)
-![bg vertical 35%](https://img.directindustry.de/images_di/photo-mg/193131-12102231.jpg)
-
----
-
-
-
-## Ausgangswerkstoffe - Faser
-
-
-- Endlosfasern
-  - Hohe Festigkeiten und Steifigkeiten
-  - Höhere Anforderung bei Verarbeitung und Lagerung
-
+**Langfasern**
+- Länge: mehrere mm bis cm
+- Geringere Verarbeitungsanforderungen
 
 ![bg right 35%](https://balticcarbon.de/wp-content/uploads/1-4.jpg)
 ![bg vertical 35%](https://shop.flachs.de/wp-content/uploads/sites/2/2013/05/LangflachsGebleichZopfShop.jpg)
-![bg vertical 35%](https://img.directindustry.de/images_di/photo-mg/193131-12102231.jpg)
 
 ---
 
-## Ausgangswerkstoffe - Faser
+## Fasertypen: Endlosfasern
 
-- Naturfasern: Haare, Wolle, Seide, Baumwolle, Flachs, Sisal, Hanf, Jute, Ramie, Bananenfasern ...
-- Organische Fasern: Polyethylen (PE), Polypropylen (PP), Polyamid (PA), Polyester (PES), Polyacrylnitril (PAN), Aramid, Kohlenstoff ...
-- Anorganische Fasern: Glas, Basalt, Quarz, SiC, Al2O3, Bor, ...
-- Metallfasern aus: Stahl, Aluminium, Kupfer, Nickel, Beryllium, Wolfram ... 
+**Eigenschaften:**
+- Höchste Festigkeiten und Steifigkeiten
+- Höhere Verarbeitungs- und Lageranforderungen
+- Gerichtete Verstärkung
+
+![bg right 35% vertical](https://img.directindustry.de/images_di/photo-mg/193131-12102231.jpg)
+
+---
+
+## Fasermaterialien - Übersicht
+
+**Naturfasern:**
+Haare, Wolle, Seide, Baumwolle, Flachs, Sisal, Hanf, Jute, Ramie, Bananenfasern
+
+**Organische Fasern:**
+Polyethylen (PE), Polypropylen (PP), Polyamid (PA), Polyester (PES), Aramid, Kohlenstoff
+
+**Anorganische Fasern:**
+Glas, Basalt, Quarz, SiC, Al₂O₃, Bor
+
+**Metallfasern:**
+Stahl, Aluminium, Kupfer, Nickel, Wolfram
+
+---
 
 ![](../assets/Figures/faservergleich.png)
 
@@ -771,49 +866,50 @@ Beimischung anderer Fasertypen
 
 ## Glasfaser
 
-**Vorteile**
-hohe Längs-Zug- sowie die hohe Längs-Druckfestigkeit
-Eine hohe Bruchdehnung
-aufgrund der niedrigen Fasersteifigkeit gute Drapierbarkeit, auch um enge Radien
-die vollkommene Unbrennbarkeit
-die sehr geringe Feuchtigkeitsaufnahme
-
-
-![bg right fit](https://plasticker.de/images/news/11441_f.03.jpg)
-
----
-
-## Glasfaser
-
-**Vorteile**
-
-die gute chemische und mikrobiologische Widerstandsfähigkeit. 
-Kosten
-**Nachteile**
-der für viele Strukturbauteile zu niedrige Elastizitätsmodul der Glasfaser
-Glasfasern sind unverrottbar (Vor- und Nachteil)
+**Vorteile:**
+- Hohe Längs-Zug- und Druckfestigkeit
+- Hohe Bruchdehnung
+- Gute Drapierbarkeit (niedrige Fasersteifigkeit)
+- Vollkommen unbrennbar
+- Sehr geringe Feuchtigkeitsaufnahme
+- Gute chemische und mikrobiologische Beständigkeit
+- Kostengünstig
 
 ![bg right fit](https://plasticker.de/images/news/11441_f.03.jpg)
 
 ---
 
-## Kohlefaser (C-Faser)
+## Glasfaser - Nachteile
 
-**Vorteil**
-C-Fasern sind sehr leicht, ihre Dichte ($\rho_𝑓 \approx 1.8 g/cm^3$) liegt deutlich unter derjenigen von Glasfasern ($\rho_𝑓 \approx 2.54 g/cm^3$). 
-extrem hohe Festigkeiten und sehr hohe Elastizitätsmoduln
-beide mechanischen Größen sind zudem in weiten Bereichen bei der Herstellung der Fasern einstellbar
-Exzellente Ermüdungsfestigkeit
+**Limitierungen:**
+- Für viele Strukturbauteile zu niedriger E-Modul
+- Unverrottbar (Vor- und Nachteil)
+- Geringere spezifische Steifigkeit als C-Faser
+
+![bg right fit](https://plasticker.de/images/news/11441_f.03.jpg)
+
+---
+
+## Kohlenstofffaser (C-Faser)
+
+**Vorteile:**
+- Sehr geringe Dichte: ρf ≈ 1,8 g/cm³ (Glas: 2,54 g/cm³)
+- Extrem hohe Festigkeiten
+- Sehr hohe Elastizitätsmodule
+- Einstellbare mechanische Eigenschaften bei Herstellung
+- Exzellente Ermüdungsfestigkeit
 
 ![bg right fit](https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/structure/A350_forward_fuselage.jpg?wid=1920&fit=fit,1&qlt=85,0)
 
 ---
 
-**Nachteile**
-Geringere Druckfestigkeit in Faserrichtung
-Schlechtere Drapierbarkeit
-Kosten
-Elastizitätsmoduln in Faserlängs- und Querrichtung unterscheiden sich um eine Größenordnung (Vor- und Nachteil)
+## Kohlenstofffaser - Nachteile
+
+**Limitierungen:**
+- Geringere Druckfestigkeit in Faserrichtung
+- Schlechtere Drapierbarkeit
+- Hohe Kosten
+- Starke Anisotropie (Vor- und Nachteil)
 
 ![bg right fit](https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/structure/A350_forward_fuselage.jpg?wid=1920&fit=fit,1&qlt=85,0)
 
@@ -824,35 +920,42 @@ Elastizitätsmoduln in Faserlängs- und Querrichtung unterscheiden sich um eine 
 ---
 
 ## Matrixmaterialien
-- Faserverbundwerkstoffe können als Matrix auch Metalle, Beton, usw. haben
+
+**Hinweis:**
+Faserverbunde können auch Metall, Beton, etc. als Matrix nutzen
+
 ![](https://www.bau-linke.de/wp-content/uploads/2019/02/AdobeStock_195047858-870x436.jpeg)
+
 ---
 
-
-## Ausgangswerkstoffe FKV - Matrix
+## Matrix-Typen
 
 **Duroplastische Reaktionsharze**
-- Epoxidharze, Phenolharze, Polyesterharze, Vinylesterharze, …
-- Werden mit Reaktionsmittel für die Aushärtung gemischt
-- Vorimprägnierte Fasern -> Prepregs
-- Exotherm und volumenändernd beim Aushärten
+- Epoxidharze, Phenolharze, Polyesterharze, Vinylesterharze
+- Mischung mit Reaktionsmittel zur Aushärtung
+- Prepregs (vorimprägnierte Fasern)
+- Exotherme, volumenändernde Aushärtung
+
 **Thermoplaste**
-- Polypropylen, Polyamid, Polyarylensulfide, …
-- Schmelzen bei einer bestimmten Temperatur (55 °C – 155 °C)
-- Teuer aber Recyclebar
-- Schwieriger zu handhaben
+- Polypropylen, Polyamid, Polyarylensulfide
+- Schmelztemperatur: 55-155 °C
+- Teurer, aber recyclebar
+- Anspruchsvollere Verarbeitung
 
 ---
 
-## Verbund schematisch
-**Symmetrien**
-- Transversale Isotropie (Eigenschaften in 2 und 3 Richtung sind gleich)
+## Verbundaufbau und Eigenschaften
+
+**Symmetrien:**
+- Transversale Isotropie (2-3 Richtung gleich)
 - Orthotropie
 - Anisotropie
-**Faservolumenanteil $𝜑$**
-Errechnet sich aus Mischungsregel
-$𝜌= 𝜑𝜌_𝑓+(1- 𝜑) 𝜌_𝑚$
-Steifigkeiten und Festigkeiten
+
+**Faservolumenanteil φ:**
+
+$\rho = \varphi \rho_f + (1-\varphi) \rho_m$
+
+Bestimmt Steifigkeiten und Festigkeiten (Mischungsregel)
 
 ![bg right fit](../assets/Figures/FKV_eigenschaften.png)
 
@@ -862,167 +965,172 @@ Steifigkeiten und Festigkeiten
 
 ---
 
-## Fertigung
-Wahl des Verfahrens hängt ab von
-- Der konkreten Anwendung
+## FKV-Fertigung - Auswahlkriterien
+
+**Einflussfaktoren:**
+- Konkrete Anwendung
 - Einsatzbedingungen
 - Grundmaterial (Faser, Matrix)
 - Stückzahl
 - Kosten
-- Betriebsicherheit
-- …
+- Betriebssicherheit
+- Oberflächenqualität
 
 ---
 
-## Fertigung - Verfahrensschritte
-- Erstellen von Formwerkzeugen
-- Zuschnitt und Ablage von Vorprodukten
-- Aushärtung des Harzsystems
-- Nachbearbeitung des Bauteils
+## FKV-Fertigung - Prozessschritte
+
+**Hauptschritte:**
+1. Erstellen von Formwerkzeugen
+2. Zuschnitt und Ablage von Vorprodukten
+3. Aushärtung des Harzsystems
+4. Nachbearbeitung des Bauteils
 
 ---
 
-## Formwerkzeug / Faserablage
+## Formwerkzeuge
 
-- Gips
+**Materialien:**
+- Gips (Prototypen)
 - Kunststoff
-- Metallen
-- Faserverbunden
-- Thermaldehnung sollte kompatibel
+- Metalle
+- Faserverbunde
 
-![bg  right fit](../assets/Figures/formwerkzeug.png)
-![bg  vertical fit](https://leichtbau.dlr.de/wp-content/uploads/2023/06/Instrumentierung-1-1072x536.jpg)
+**Wichtig:**
+Thermische Ausdehnung sollte mit Bauteil kompatibel sein
+
+![bg right fit](../assets/Figures/formwerkzeug.png)
+![bg vertical fit](https://leichtbau.dlr.de/wp-content/uploads/2023/06/Instrumentierung-1-1072x536.jpg)
 
 ---
+
 ## Halbzeuge
 
-- Handhabbarkeit
-- Verringerung der Fertigungstiefe
-- Erhöhung der Qualität
-- Beispiele:
-  - Gewebe
-  - Gelege
-  - Fliese, Matten
-  - Kernmaterialien
-  - Flechtschläuche
-  - …
+**Vorteile:**
+- Verbesserte Handhabbarkeit
+- Verringerte Fertigungstiefe
+- Erhöhte Qualität
+
+**Beispiele:**
+- Gewebe
+- Gelege
+- Vliese, Matten
+- Kernmaterialien
+- Flechtschläuche
 
 ![bg right 90%](../assets/Figures/gewebearten.png)
-![bg  80%](../assets/Figures/honeycomb.png)
+![bg 80%](../assets/Figures/honeycomb.png)
 
 ---
 
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-…
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-RTM (Resin Transfer Moulding) Verfahren
-Automatisierte Faserablageverfahren
-…
+## Fertigungsverfahren - Übersicht
+
+
+<!-- _class: cols-2-1 -->
+
+<div class=ldiv>
+
+**Manuelle Verfahren:**
+- Handlaminieren
+- Faserablage
+
+**Semi-automatisiert:**
+- Wickeln
+- Spritzverfahren
+- Pultrusion
+</div>
+<div class=rdiv>
+
+
+**Automatisiert:**
+- Pressen
+- RTM (Resin Transfer Moulding)
+- Automatisierte Faserablage (AFP)
+</div>
+
+
+
+
+---
+
+## Handlaminieren
 
 ![bg right 90%](../assets/Figures/manuell_ablage.png)
 
----
-
-
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-…
-
-
-![bg right 90%](../assets/Figures/manuell_ablage.png)
+**Charakteristik:**
+- Einfachstes Verfahren
+- Geringe Investitionskosten
+- Arbeitsintensiv
+- Für Prototypen und Kleinserien
 
 ---
 
-
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-...
+## Wickelverfahren
 
 ![bg right 90%](../assets/Figures/wickeln.png)
 
+**Charakteristik:**
+- Rotationssymmetrische Bauteile
+- Hoher Automatisierungsgrad
+- Druckbehälter, Rohre
+- Präzise Faserausrichtung
+
 ---
 
-
-## Fertigung
-
-Manuell
-Faserablage
-Handlaminieren
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-RTM (Resin Transfer Moulding) Verfahren
-...
-
+## Autoklav-Verfahren
 
 ![bg right 90%](../assets/Figures/autoklav.png)
 
+**Charakteristik:**
+- Hohe Bauteilqualität
+- Prepreg-Verarbeitung
+- Druck und Temperatur
+- Luft- und Raumfahrt
+
 ---
 
-
-## Fertigung
-Manuell
-Faserablage
-Handlaminieren
-Wickeln
-Spritzverfahren
-Pultrusion
-Pressen
-RTM (Resin Transfer Moulding) Verfahren
-Automatisierte Faserablageverfahren
-…
+## Automatisierte Faserablage (AFP)
 
 ![bg right 90%](../assets/Figures/afp.png)
 
+**Charakteristik:**
+- Höchste Präzision
+- Komplexe Geometrien
+- Hohe Reproduzierbarkeit
+- Hohe Investitionskosten
+
 ---
 
-## Schäden in Faserverbunden
-Nach Heslehurst können 52 Fehlertypen kategorisiert werden 
-  - Einteilung nach Auftreten im Lebenszyklus
-        - Materialprozess – Fehler die bei der Bereitstellung der Teilbestandteile auftreten
-        - Komponentenfertigung – Fehler während der Kompositfertigung, welche während der Ablage, Aushärtung, Bearbeitung oder der Assemblierung auftreten
-        - In-service Nutzung – im Betrieb auftretende Schäden
-  - Einteilung nach Größe
-      - Mikroskopisch 
-      - Makroskopisch
+## Schäden in FKV
+
+**Klassifizierung nach Heslehurst:**
+52 Fehlertypen in drei Kategorien
+
+**Nach Lebenszyklus:**
+- Materialprozess
+- Komponentenfertigung
+- In-Service-Nutzung
+
+**Nach Größe:**
+- Mikroskopisch
+- Makroskopisch
 
 ---
 
 ## Delaminationen
-- eine der häufigsten Schädigungen
-- hohe interlaminare Spannungen durch 
+
+**Ursachen:**
+- Hohe interlaminare Spannungen
 - Querkontraktionseffekte
-- Unterschiedliche Wärmedehnungen
-- Kanten (Geometrie, Mikrorisse, Poren)
-- Trennfolien
+- Unterschiedliche Wärmedehnung
+- Kanten, Mikrorisse, Poren
+- Trennfolien, Verschmutzungen
 
-
-![bg right fit](../assets/Figures/delamination.png)
-
----
-
-## Delaminationen
-
-- Verschmutzungen
-- Trennung zwischen zwei Lagen – interlaminarer Riss
-- Feuchteeintritt
+**Auswirkungen:**
+- Trennung zwischen Lagen
+- Feuchtigkeitseintritt
 - Lebensdauerreduktion
-- Stabilität
+- Stabilitätsverlust
 
 ![bg right fit](../assets/Figures/delamination.png)
 
@@ -1030,25 +1138,29 @@ Nach Heslehurst können 52 Fehlertypen kategorisiert werden
 
 ## Ablösungen
 
+**Ursachen:**
 - Schlechte Prozesskontrolle
 - Schlechte Passung
-- Durch eintretenden Trennfilm
-- Schlechte Oberflächenbehandlung (Verschmutzung, etc.)
-- Relevant bei Kernanbindung und Verklebung von Komponenten
+- Trennfilm-Einschlüsse
+- Unzureichende Oberflächenbehandlung
+
+**Kritische Bereiche:**
+- Kernanbindungen
+- Verklebungen
 
 ![bg right fit](../assets/Figures/abloesung_klebung.png)
 
 ---
 
+## Bohrungsschäden
 
-## Fehler an Verbindungsbohrungen
-
-- Zu starkes Anziehen von Schrauben 
-Oberflächenschädigung
-- Lokale Beschädigung der ersten Lage
-- Austrittsschäden bei Bohrungen
-- Meist Splitterungen und lokale Delaminationen
-- Splitter können bei Bohrungen zwischen zwei Komponenten verbleiben
+**Typische Defekte:**
+- Übermäßiges Anzugmoment
+- Oberflächenschädigung
+- Lokale Lagenbeschädigung
+- Austrittsdelaminationen
+- Splitterungen
+- Faserausrisse
 
 ![bg right fit](../assets/Figures/Bohrungen.png)
 
@@ -1056,45 +1168,64 @@ Oberflächenschädigung
 
 ## Porosität
 
-
-- Schlechte Material- und Prozesskontrolle
+**Ursachen:**
+- Schlechte Material-/Prozesskontrolle
 - Überaltertes Material
-- Feuchtigkeit im Prepreg 
-- Fehlfunktion im Autoklav
+- Feuchtigkeit im Prepreg
+- Autoklav-Fehlfunktion
 
-
-
-![bg right fit](../assets/Figures/Poren.png)
-
----
-
-## Porosität
-
-
-
-- Verschlechtert die Lageneigenschaften
-- Auswirkung auf die Ermüdungslebens-dauer
-- Konzentrationen von Poren wichtiger als Größe
-- Wirkt sich auf die Dichtheit aus
-
+**Auswirkungen:**
+- Verschlechterte Lageneigenschaften
+- Reduzierte Ermüdungslebensdauer
+- Porenkonzentration kritischer als Größe
+- Beeinträchtigte Dichtheit
 
 ![bg right fit](../assets/Figures/Poren.png)
 
 ---
 
-## Vor- und Nachteile 
-**Vorteile**
-- Spezifische Materialeigenschaften
+## FKV - Vor- und Nachteile
+
+**Vorteile:**
+- Hervorragende spezifische Eigenschaften
 - Weitgehend elastisches Verhalten
-- Hohe Festigkeiten und Steifigkeiten in Faserrichtung
-- „maßgeschneidertes“ Material
-- Alterung- und Korrosionsbeständigkeit
+- Hohe Festigkeiten/Steifigkeiten in Faserrichtung
+- "Maßgeschneidertes" Material
+- Alterungs- und Korrosionsbeständigkeit
 
 ---
-## Vor- und Nachteile
-**Nachteile**
-- Variantenreichtum
-- Geringe Zugfestigkeit senkrecht zur Faser
-- Schwierige Prüfung
-- Recyclebarkeit
-- Spezifische Materialeigenschaften und Verarbeitungsverfahren
+
+## FKV - Nachteile
+
+**Herausforderungen:**
+- Große Variantenvielfalt
+- Geringe Querfestigkeit
+- Komplexe Prüfung und Qualitätssicherung
+- Eingeschränkte Recyclebarkeit
+- Spezielle Verarbeitungsverfahren erforderlich
+- Höhere Materialkosten
+
+---
+
+## Zusammenfassung
+
+Nicht-Eisen-Werkstoffe bieten ein breites Spektrum an Eigenschaften für verschiedenste Anwendungen:
+
+- **Metalle:** Leichtbau, Leitfähigkeit, Korrosionsschutz
+- **Kunststoffe:** Formvielfalt, Kosteneffizienz
+- **Keramiken/Gläser:** Hochtemperatur, Härte, Chemikalienbeständigkeit
+- **Verbundwerkstoffe:** Optimierte spezifische Eigenschaften
+- **Smart Materials:** Zusätzliche Funktionalität
+
+Die Werkstoffwahl erfordert Abwägung von Eigenschaften, Kosten und Nachhaltigkeit.
+
+---
+
+## Vielen Dank für Ihre Aufmerksamkeit!
+
+**Fragen?**
+
+Prof. Dr.-Ing. Christian Willberg
+christian.willberg@h2.de
+
+![bg right](../assets/Figures/crack.jpg)
