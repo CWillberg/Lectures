@@ -816,7 +816,7 @@ Annahmen:
 - ideal plastische Matrix, Fließspannung $\tau_{mt}$
 - Länge des Strörbereichs: $\delta=\frac{\sigma_{ft}}{4\tau_{mt}}d_f$
 - Berücksichtigt werden
-    - dieVersagenswahrscheinlichkeit einer Faser der Länge $\delta$
+    - die Versagenswahrscheinlichkeit einer Faser der Länge $\delta$
     - eine statistische Verteilung der Faserfestigkeiten
 - Verbundfestigkeit $\sigma_t^*=(\alpha\delta\beta e)^{-1/\beta}$
 
@@ -841,7 +841,7 @@ Annahmen:
 
 ---
 # Versagenshypothese "Cumulative Group Mode FAilure"
-- Ungeliehcmäßigkeotem der Faserfestgkeiten führt zu räumlich verteilten Faserbrüchen, die schon weit vor dem entgültigen Versagen auftreten
+- Ungleichmäßigkeiten der Faserfestgkeiten führt zu räumlich verteilten Faserbrüchen, die schon weit vor dem entgültigen Versagen auftreten
 - Spannungskonzentrationen in den Nachbarfasern wird bei diesen zu früherem Versagen führen
 - Höhere Schubbeanspruchung von Matrix und Interface in der Nähe der Faserbrüche kann zu Längsrissen führen, die den Versagensfortschritt senkrecht zur Faser aufhalten
 - so können sich Gruppen von gerissenen Fasern bilden
@@ -854,6 +854,7 @@ Annahmen:
 - für praktische Anwendungen zu aufwändig
 
 ---
+
 # Druckfestigkeiten von UD-Verbunden
 - nur wenige Ansätze zu Bestimmung der Druckfestigkeiten von UD-Verbunden in Faserrichtung auf Basis der Mikromechanik
 - Wesentlicher Aspekt ist die Stabilität der Faser
@@ -862,7 +863,7 @@ Annahmen:
 - Festigkeitsfrenze als Knicklast der gebetten Fasern $\sigma_c=2\varphi\sqrt{\frac{\varphi E_m E_f}{3(1-\varphi)}}$
 
 ---
-- bei höherem Fasernvolumengehalt ($\varphi>0.2$) 
+- bei höherem Faservolumengehalt ($\varphi>0.2$) 
     Antisymmetrische Schubformen
 ![](../assets/Figures/FKV/antisym_schubform.png)
 - für ideal elastische Matrix und isotrope Fasern
@@ -897,7 +898,7 @@ $\sigma_c = \frac{G_m}{1-\varphi+2(h_i/h_f)(G_m/G_i)\varphi}$
 ---
 # Kritik an Formeln zur Druckfestigkeit
 - Faserondulation nicht erfasst
-- 2-3° sind typisch und reduzieren die Druckgestigkeit erheblich
+- 2-3° sind typisch und reduzieren die Druckfestigkeit erheblich
 - Einfluss der Faserdicke nicht erfasst
     dickere Fasern sind besser ausgerichtet und haben eine höhere Druckfestigkeit
 
