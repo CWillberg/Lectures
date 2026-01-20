@@ -508,9 +508,9 @@ Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 
 ---
 
-## Keramiken - Härte
+# Keramiken - Härte
 
-![bg fit](../assets/Figures/haerte_Keramik.png)
+![bg 50%](../assets/Figures/haerte_Keramik.png)
 
 ---
 
@@ -528,7 +528,7 @@ Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 
 ---
 
-## Keramiken - Elektrische Eigenschaften
+## Keramiken - Elektrische E.
 
 **Vorteile:**
 - Hohe Kriechstromfestigkeit
@@ -579,9 +579,9 @@ Gezieltes "Design" von Materialeigenschaften durch Mikrostrukturdesign
 
 ---
 
-## Beispiel: Negativer Poisson-Effekt
+# Beispiel: Negativer Poisson-Effekt
 
-![bg fit](../assets/Figures/poisson.png)
+![bg 60%](../assets/Figures/poisson.png)
 
 ---
 
@@ -890,8 +890,7 @@ Stahl, Aluminium, Kupfer, Nickel, Wolfram
 ## Glasfaser
 
 **Vorteile:**
-- Hohe Längs-Zug- und Druckfestigkeit
-- Hohe Bruchdehnung
+- Hohe Längs-Zug- und Druckfestigkeit und Bruchdehnung
 - Gute Drapierbarkeit (niedrige Fasersteifigkeit)
 - Vollkommen unbrennbar
 - Sehr geringe Feuchtigkeitsaufnahme
