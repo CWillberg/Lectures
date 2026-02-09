@@ -63,6 +63,27 @@ Hochschule Magdeburg-Stendal
 
 ---
 
+
+![bg 60%](../assets/Figures/FKV/Energietraeger.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus M. Wiedemann "Systemleichtbau
+für die Luftfahrt"
+</div>
+
+---
+
+![bg 80%](../assets/Figures/FKV/Masseverteilung.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus M. Wiedemann "Systemleichtbau
+für die Luftfahrt"
+</div>
+
+---
+
 ## Komponenten von Faserkunstoffverbunde 
 
 **Matrix – bindende Komponente**
@@ -70,6 +91,11 @@ Formgebend
 Schutz und Stabilisierung der Fasern
 Spannungen an die Fasern übertragen
 ![bg right 75%](../assets/Figures/FKV_struktur.png)
+
+
+
+---
+
 
 ---
 

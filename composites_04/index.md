@@ -98,8 +98,7 @@ Hochschule Magdeburg-Stendal
 - Ergebnis: ≤0,2% Schrumpf
 
 **Anwendung:**
-- Besonders für Class-A-Oberflächen
-- Automobilkarosserieelemente
+- Besonders für Class-A-Oberflächen, bspw.Automobilkarosserieelemente
 
 ---
 
@@ -170,7 +169,9 @@ Hochschule Magdeburg-Stendal
 
 ![bg fit](../assets/Figures/FKV/SMC_herstellung.png)
 
-
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
@@ -404,6 +405,12 @@ Bewirkt:
 
 # SMC-Vorteile - Eigenschaften
 
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
+
 **Gewicht:**
 - Dichte: ~1,8 g/cm³
 - Gewichtsreduktion gegenüber Metall
@@ -414,14 +421,33 @@ Bewirkt:
 - Hohe Temperaturbeständigkeit (-40°C bis +190°C)
 - Geringe Kriechrate
 
+</div>
+<div class=rdiv>
+
+
+
+
+
+
 **Mechanisch:**
 - Filigrane Bauteile möglich
 - Dünnwandig mit lokalen Verstärkungen
 - Sicken, Bördelungen möglich
 
+</div>
+<div class=bdiv>
+
+
+
+
 ---
 
 # SMC-Vorteile - Fertigung
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Mehrschalige Bauweise:**
 - Verklebung von SMC-Komponenten
@@ -433,10 +459,21 @@ Bewirkt:
 - Vor Pressen fixieren
 - Sacklöcher für gewindeformende Schrauben
 
+</div>
+<div class=rdiv>
+
 **Weitere:**
 - Antennenintegration möglich
 - Numerische Fließsimulation
 - Recycling etabliert (Deutschland)
+
+
+</div>
+<div class=bdiv>
+
+
+
+
 
 ---
 
@@ -458,6 +495,13 @@ Bewirkt:
 
 # SMC-Anwendungen
 
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
+
 **Elektrotechnik:**
 - Schaltschränke
 - Langfeldleuchten
@@ -470,10 +514,19 @@ Bewirkt:
 - Schiebedachrahmen
 - Innenraumverkleidungen (Züge)
 
+</div>
+<div class=rdiv>
+
+
+
 **Sonstiges:**
 - Briefkästen, Telefonzellen
 - Lichtschächte, Entwässerungsrinnen
 - Badewannen
+
+
+</div>
+<div class=bdiv>
 
 ---
 
@@ -487,6 +540,8 @@ Bewirkt:
 - Pressverarbeitung
 - Spritzgießbar
 
+---
+
 **Hauptanwendungen:**
 - Elektrotechnik (ausgezeichnete Isolation)
 - Schalter, Motorkomponenten
@@ -499,26 +554,46 @@ Bewirkt:
 
 ---
 
-# 5.3 Duroplastische Prepregs
+# Duroplastische Prepregs
+
+
+
+
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Prepreg = Preimpregnated Fibers**
-
 **Motivation:**
 - Handwerkliche Imprägnierung nicht für Großflugzeugbau
 - Hohe Faservolumenanteile (60 Vol.%) erforderlich
 - Eng tolerierte, reproduzierbare Qualität
 - Zähmodifizierte Harze (hochviskos)
 
+</div>
+<div class=rdiv>
+
+
+
 **Lösung:**
 - Maschinelle Vorimprägnierung
 - Endlosfaser-Halbzeuge
 - UD-Bänder, Gewebe, Multiaxialgelege
 
+</div>
+<div class=bdiv>
+
+
+
+
+
 ---
 
 # Prepreg-Herstellung
 
-**Prozess:**
 1. Harzfilm auf Trägerpapier rakeln (Vorab-Schritt)
 2. Faserband zuführen
 3. Tränken und Walken (erhöhte Temperatur)
@@ -527,11 +602,13 @@ Bewirkt:
 6. Kühlbereich
 7. Aufwicklung
 
-![](abb5.3)
+![bg right fit](../assets/Figures/FKV/prepreg_fertigung.png)
 
-**Lieferform:**
-- Rollen mit beidseitiger Schutzfolie
-- Dicke: 0,125-0,4 mm
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
@@ -547,6 +624,8 @@ Bewirkt:
 - Hohe Viskosität
 - **← Prepregs werden so geliefert**
 
+---
+
 **C-Stage:**
 - Vollständig vernetzt
 
@@ -554,34 +633,58 @@ Bewirkt:
 - Tiefgekühlt (-18°C)
 - Bis 12 Monate haltbar
 - Einige Typen: 4 Wochen bei 20°C
+- Planung des Materialverbrauchs ist notwendig!
+
 
 ---
 
 # Prepreg-Systeme
+
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **120°C-Systeme:**
 - Aushärtung bei ~120°C
 - Einsatz: -50°C bis +70°C (mit Last)
 - Ohne Last: bis +100°C
 
+
+</div>
+<div class=rdiv>
+
+
+
 **180°C-Systeme:**
 - Aushärtung bei 180°C
 - Tg > 200°C
 - Flugzeugbau (Militär)
-- Mach 2-2,5: Strukturtemperatur bis 140°C
+- Mach 2-2.5: Strukturtemperatur bis 140°C
 
 **Trend:**
 - Reduzierung auf ein System
 - Vereinfachung Qualifizierung/Lagerung/Reparatur
 
+
+</div>
+<div class=bdiv>
+
+
+
+
 ---
 
-# 5.3.2 Prepreg-Verarbeitung
+# Prepreg-Verarbeitung
 
 **Zuschnitt:**
 - Kleine Stückzahlen: manuell
 - Serien: CNC-Zuschneidetische
 - Ultraschall-Messer (PKD-beschichtet)
+
+---
 
 **Drapieren:**
 - Meist von Hand
@@ -590,6 +693,8 @@ Bewirkt:
 - Serien: CNC-Legeroboter
 - Schmale Bänder für sphärische Flächen
 
+
+
 **Klebrigkeit (Tack):**
 - Harz bei Verarbeitungstemperatur leicht klebrig
 - Haftung auch an senkrechten Flächen
@@ -597,13 +702,13 @@ Bewirkt:
 
 ---
 
-# Prepreg-Verarbeitung - Details
+
 
 **Kompaktierung:**
 - Dickere Laminate: mehrfach zwischenkompaktieren
 - Vakuumsack gegen Lufteinschlüsse
 
-![](abb5.4)
+![bg right fit](../assets/Figures/FKV/fertigungsaufbau.png)
 
 **Co-Bonding:**
 - Hart-Weich-Klebung
@@ -611,42 +716,10 @@ Bewirkt:
 - Auf nicht ausgehärtetes Prepreg
 - Verklebung während Härtung
 
----
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
-# Prepreg-Werkzeuge
-
-**Invarstahl:**
-- Gefräst
-- α_T ≈ 0 (ähnlich CFK)
-- Hohe Oberflächengüte
-- Hohe Abformgenauigkeit
-- Minimale Nachbearbeitung
-
-**Aluminium:**
-- Kostengünstiger
-- Thermisch inkompatibel
-- Weniger geeignet
-
-**CFK-Formen:**
-- Hochtemperaturbeständige Harze
-- Leicht, wenig Wärmekapazität
-- Energieeinsparung
-- Kompatible thermische Dehnung
-- Sensorintegration einfach
-- Nachteil: Undicht nach 50-60 Abformungen (hohe T)
-
----
-
-# Prepreg-Werkzeuge - Nickelformen
-
-**Herstellung:**
-1. Urmodell aus gefülltem PU-Schaum
-2. Elektrisch leitfähiger Lack aufspritzen
-3. ~20 mm Nickel galvanisch abscheiden
-4. Exakte Negativ-Form
-
-**Vorteil:**
-- Für komplizierte, schwer fräsbare Geometrien
 
 ---
 
@@ -663,7 +736,15 @@ Bewirkt:
 - Schließt Poren/Lufteinschlüsse
 - Höchste Qualität
 
-![](abb5.5)
+![bg right fit](../assets/Figures/FKV/autoklav.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+![bg right fit](../assets/Figures/autoklav.png)
 
 **Alternative (einfache Geometrien):**
 - Beheizte Werkzeuge auf Presse
@@ -674,7 +755,15 @@ Bewirkt:
 
 ---
 
-# 5.3.3 Prepreg-Vorteile
+# Prepreg-Vorteile
+
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
+
 
 **Qualität:**
 - Hochwertigste Faser-Matrix-Kombinationen
@@ -687,18 +776,31 @@ Bewirkt:
 - Hochfeste, zähmodifizierte Harze verarbeitbar
 - Hochviskos → nur maschinell tränkbar
 
+
+</div>
+<div class=rdiv>
+
+
 **Verarbeitung:**
 - Hohe Arbeitshygiene
 - Kaum Emissionen (hochviskoser Dampfdruck)
 - Lange Verarbeitungszeiten
 
+</div>
+<div class=bdiv>
+
+
+
 ---
 
-# 5.3.3 Prepreg-Nachteile
+# Prepreg-Nachteile
 
-**Hauptnachteil: Hohe Kosten**
+<!-- _class: cols-2-1 -->
 
-**Kostenquellen:**
+
+<div class=ldiv>
+
+**Hauptnachteil: Hohe Kosten:**
 1. Aufwändige Herstellung
 2. Hochpreisige Ausgangsmaterialien
 3. Tiefkühltransport und -lagerung
@@ -706,13 +808,28 @@ Bewirkt:
    - CNC-Schneideanlagen
    - Verlegeroboter
    - Autoklaven
+</div>
+<div class=rdiv>
+
+
 5. Gut ausgebildete Fachkräfte erforderlich
 6. Zeitintensiv: Drapieren, Versiegeln
 7. Energie- und zeitaufwändig: Autoklavhärtung
+</div>
+<div class=bdiv>
+
+
+
 
 ---
 
 # Prepreg-Anwendungen
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
 
 **Haupteinsatz:**
 - Luft- und Raumfahrt
@@ -724,15 +841,31 @@ Bewirkt:
 - Teilweise Umstellung auf Harzinjektionstechniken
 - Aber: Qualität entscheidet oft für Prepreg/Autoklav
 
+</div>
+<div class=rdiv>
+
+
+
+
 **Kombination möglich:**
 - Prepregs + trockene Textilien
 - Trockene Textilien per Injektion tränken
 - Gleiche chemische Basis (meist Epoxid)
 - Hochbelastbare chemische Bindung
+</div>
+<div class=bdiv>
+
+
+
+
 
 ---
 
-# 5.4 Kurzfaserverstärkte Thermoplaste
+# Kurzfaserverstärkte Thermoplaste
+
+![bg 30%](https://balticcarbon.de/wp-content/uploads/1-4.jpg)
+
+---
 
 **Prinzip:**
 - Glas- oder C-Fasern in Thermoplasten
@@ -752,11 +885,22 @@ Bewirkt:
 
 # Kurzfaser-Thermoplaste - Verarbeitung
 
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
+
+
 **Lieferform:** Granulat
 
 **Verfahren:**
 - Spritzguss (hauptsächlich)
 - Extrusionsblasverfahren
+
+</div>
+<div class=rdiv>
+
 
 **Problem: Faserorientierung**
 - Ausrichtung in Strömungsrichtung
@@ -766,13 +910,32 @@ Bewirkt:
 - Fasern wirken als Kerben
 - Schwindungsverhalten ändert sich
 
+</div>
+<div class=bdiv>
+
+
+
+
 ---
 
 # Kurzfaser-Materialien
 
+
+
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
+
+
 **Technische Kunststoffe (hauptsächlich):**
 - Polyamid (PA)
 - Polyacetal (POM)
+
+</div>
+<div class=rdiv>
+
 
 **Weitere Thermoplaste (meist glasfaserverstärkt):**
 - Polypropylen (PP)
@@ -784,10 +947,15 @@ Bewirkt:
 
 **Anmerkung:**
 Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
+</div>
+<div class=bdiv>
+
+
+
 
 ---
 
-# 5.5 GMT - Allgemeines
+# GMT - Allgemeines
 
 **GMT = Glasmattenverstärkte Thermoplaste**
 
@@ -795,6 +963,8 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 - Beginn 1970er Jahre
 - Ziel: höhere Festigkeit/Steifigkeit als Kurzfaser
 - 1978: erste Serienanwendung (Automobil)
+
+---
 
 **Matrix:**
 - Fast alle Thermoplaste möglich
@@ -841,11 +1011,20 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 7. Abkühlzone
 8. Auftrennung in Platten
 
-![](abb5.6)
+![bg right fit](../assets/Figures/FKV/plattenfertigung.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
 ---
 
-# 5.5.2 GMT-Verarbeitung
+
+<!-- _class: cols-2-1 -->
+
+
+<div class=ldiv>
+
 
 **Aufheizen:**
 - Umluftöfen oder Infrarotstrahler
@@ -856,12 +1035,23 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 - Hoher Druck
 - In endgültige Form pressen
 
+</div>
+<div class=rdiv>
+
+
+
 **Keine chemische Reaktion!**
 
 **Werkzeuge:**
 - Ähnlich SMC-Verarbeitung
 - Temperatur: ~100°C unter Schmelztemperatur
 - Wassergekühlt (nicht geheizt wie SMC)
+
+</div>
+<div class=bdiv>
+
+# GMT-Verarbeitung
+
 
 ---
 
