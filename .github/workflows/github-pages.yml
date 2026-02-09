@@ -7,6 +7,7 @@ on:
       - "**.md"
       - "themes/**"
       - ".github/workflows/**"
+      - "assets/**" # Auch bei Asset-Änderungen triggern
   workflow_dispatch:
 
 permissions:
@@ -41,9 +42,9 @@ jobs:
           - wst_mb_11
           - wst_mb_12
           - wst_mb_13
-          - wst2_mb_01
-          - wst2_mb_02
-          - wst2_mb_04
+          # - wst2_mb_01
+          # - wst2_mb_02
+          # - wst2_mb_04
           - mti_ft_01
           - mti_ft_02
           - mti_ft_03
@@ -102,6 +103,12 @@ jobs:
         run: |
           FOLDER="${{ matrix.folder }}"
           mkdir -p "public/${FOLDER}"
+
+          # Copy folder-specific assets if they exist
+          if [ -d "${FOLDER}/assets" ]; then
+            cp -r "${FOLDER}/assets" "public/${FOLDER}/"
+          fi
+
           npx @marp-team/marp-cli@latest "${FOLDER}/index.md" \
             --theme-set themes/ \
             --html \
@@ -120,6 +127,7 @@ jobs:
     needs: build
     if: always()
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -129,8 +137,17 @@ jobs:
           path: public
           merge-multiple: true
 
-      - name: Copy assets
-        run: cp -r assets public/assets
+      - name: Copy global assets
+        run: |
+          if [ -d "assets" ]; then
+            cp -r assets public/assets
+          fi
+
+      - name: Copy themes (optional, falls auch dort Assets sind)
+        run: |
+          if [ -d "themes" ]; then
+            cp -r themes public/themes
+          fi
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
