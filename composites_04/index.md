@@ -20,8 +20,6 @@ Hochschule Magdeburg-Stendal
 ---
 
 
-
-
 <!-- _class: lead -->
 
 
@@ -102,7 +100,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# SMC-Varianten
+## SMC-Varianten
 
 <!-- _class: cols-2-1 -->
 
@@ -137,7 +135,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# SMC-Kennwerte
+## SMC-Kennwerte
 
 | Eigenschaft | LP-SMC GF25 | Struktur-SMC GF50 | Struktur-SMC C40 |
 |-------------|-------------|-------------------|------------------|
@@ -227,7 +225,7 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-# SMC-Verarbeitung - Fließpressverfahren
+## SMC-Verarbeitung - Fließpressverfahren
 
 
 
@@ -262,7 +260,7 @@ Bewirkt:
 
 ---
 
-# Werkzeuge und Nachbearbeitung
+## Werkzeuge und Nachbearbeitung
 
 <!-- _class: cols-2-1 -->
 
@@ -295,7 +293,7 @@ Bewirkt:
 
 ---
 
-# Nachbearbeitung SMC
+## Nachbearbeitung SMC
 
 
 
@@ -333,7 +331,7 @@ Bewirkt:
 ---
 
 
-# SMC-Vorteile
+## SMC-Vorteile
 
 
 <!-- _class: cols-2-1 -->
@@ -366,7 +364,7 @@ Bewirkt:
 
 ---
 
-# SMC-Vorteile - Konstruktion
+## SMC-Vorteile - Konstruktion
 
 
 
@@ -403,7 +401,7 @@ Bewirkt:
 
 ---
 
-# SMC-Vorteile - Eigenschaften
+## SMC-Vorteile - Eigenschaften
 
 
 <!-- _class: cols-2-1 -->
@@ -442,7 +440,7 @@ Bewirkt:
 
 ---
 
-# SMC-Vorteile - Fertigung
+## SMC-Vorteile - Fertigung
 
 <!-- _class: cols-2-1 -->
 
@@ -477,7 +475,7 @@ Bewirkt:
 
 ---
 
-# SMC-Nachteile
+## SMC-Nachteile
 
 **Festigkeit:**
 - Wirrfaseranordnung
@@ -493,7 +491,7 @@ Bewirkt:
 
 ---
 
-# SMC-Anwendungen
+## SMC-Anwendungen
 
 
 
@@ -530,7 +528,7 @@ Bewirkt:
 
 ---
 
-# BMC-Anwendungen
+## BMC-Anwendungen
 
 **Ähnliche Eigenschaften wie SMC**
 
@@ -555,8 +553,6 @@ Bewirkt:
 ---
 
 # Duroplastische Prepregs
-
-
 
 
 
@@ -592,7 +588,7 @@ Bewirkt:
 
 ---
 
-# Prepreg-Herstellung
+## Prepreg-Herstellung
 
 1. Harzfilm auf Trägerpapier rakeln (Vorab-Schritt)
 2. Faserband zuführen
@@ -638,7 +634,7 @@ Bewirkt:
 
 ---
 
-# Prepreg-Systeme
+## Prepreg-Systeme
 
 
 
@@ -677,7 +673,7 @@ Bewirkt:
 
 ---
 
-# Prepreg-Verarbeitung
+## Prepreg-Verarbeitung
 
 **Zuschnitt:**
 - Kleine Stückzahlen: manuell
@@ -755,7 +751,7 @@ Bewirkt:
 
 ---
 
-# Prepreg-Vorteile
+## Prepreg-Vorteile
 
 
 
@@ -793,7 +789,7 @@ Bewirkt:
 
 ---
 
-# Prepreg-Nachteile
+## Prepreg-Nachteile
 
 <!-- _class: cols-2-1 -->
 
@@ -823,7 +819,7 @@ Bewirkt:
 
 ---
 
-# Prepreg-Anwendungen
+## Prepreg-Anwendungen
 
 
 <!-- _class: cols-2-1 -->
@@ -861,7 +857,7 @@ Bewirkt:
 
 ---
 
-# Kurzfaserverstärkte Thermoplaste
+## Kurzfaserverstärkte Thermoplaste
 
 ![bg 30%](https://balticcarbon.de/wp-content/uploads/1-4.jpg)
 
@@ -883,7 +879,7 @@ Bewirkt:
 
 ---
 
-# Kurzfaser-Thermoplaste - Verarbeitung
+## Kurzfaser-Thermoplaste - Verarbeitung
 
 
 <!-- _class: cols-2-1 -->
@@ -955,9 +951,8 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 
 ---
 
-# GMT - Allgemeines
+# Glasmattenverstärkte Thermoplaste (GMT)
 
-**GMT = Glasmattenverstärkte Thermoplaste**
 
 **Entwicklung:**
 - Beginn 1970er Jahre
@@ -978,7 +973,7 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 
 ---
 
-# GMT-Nadelprozess
+## GMT-Nadelprozess
 
 **Verfahren:**
 - Nadeln mit Widerhaken durch Matte
@@ -986,6 +981,9 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
   - Fasern brechen (kürzen)
   - Rovingbündel vereinzeln
   - Verschlaufen in Dickenrichtung
+
+
+---
 
 **Ergebnis:**
 - Fasern in Ebene und Dickenrichtung
@@ -998,7 +996,7 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 
 ---
 
-# GMT-Herstellung
+## GMT-Herstellung
 
 **Doppelband-Presse:**
 
@@ -1050,12 +1048,9 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 </div>
 <div class=bdiv>
 
-# GMT-Verarbeitung
-
-
 ---
 
-# GMT-Varianten
+### GMT-Varianten
 
 **Fließpressqualität:**
 - Werkzeug nicht vollständig belegt
@@ -1076,75 +1071,67 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 
 ---
 
-# 5.5.3 GMT-Vorteile
+### GMT-Vorteile
 
 **Fertigung:**
-- ✓ Sehr schnelles Verfahren
-- ✓ Keine Aushärtereaktionen
-- ✓ Sofort nach Erstarren entnehmbar
-- ✓ Großserienfertigung
-- ✓ Mit PP: sehr kostengünstig
+- Sehr schnelles Verfahren
+- Keine Aushärtereaktionen
+- Sofort nach Erstarren entnehmbar
+- Großserienfertigung
+- Mit PP: sehr kostengünstig
 
 **Eigenschaften:**
-- ✓ Hohe Bruchdehnungen (Thermoplast)
-- ✓ Hohe Schlagzähigkeit (lange Fasern + Vernadelung)
-- ✓ Hohe Energieabsorption
-- ✓ Dichte << SMC
+- Hohe Bruchdehnungen (Thermoplast)
+- Hohe Schlagzähigkeit (lange Fasern + Vernadelung)
+- Hohe Energieabsorption
+- Dichte << SMC
 
 ---
 
-# GMT-Vorteile - Fortsetzung
+#### GMT-Vorteile - Fortsetzung
 
 **Verarbeitung:**
-- ✓ Unbeschränkte Lagerfähigkeit
-- ✓ Schweißbar (thermoplastisch)
-- ✓ Vollständiges Recycling möglich
-- ✓ Produktionsabfälle direkt verarbeitbar
-- ✓ Ausschuss umpressbar
+- Unbeschränkte Lagerfähigkeit
+- Schweißbar (thermoplastisch)
+- Vollständiges Recycling möglich
+- Produktionsabfälle direkt verarbeitbar
+- Ausschuss umpressbar
 
 **Konstruktion:**
-- ✓ Lokale Verstärkungen (Gewebe, UD) möglich
+- Lokale Verstärkungen (Gewebe, UD) möglich
 
 **Wettbewerb:**
 - Spritzguss mit Langfasern
 
 ---
 
-# 5.5.3 GMT-Nachteile
+### GMT-Nachteile
 
 **Oberfläche:**
-- ✗ Noch keine Class-A-Qualität
-- ✗ Nur Nicht-Sichtteile oder genarbte Flächen
-- ✗ Nachteil gegenüber SMC
+- Noch keine Class-A-Qualität
+- Nur Nicht-Sichtteile oder genarbte Flächen
+- Nachteil gegenüber SMC
 
 **Lösungsansätze:**
 - Hinterpressen von Oberflächenfolien
 - Hinterspritzgießen vorgeformter Folien
 
 **Weitere:**
-- ✗ Niedrigere Temperaturbeständigkeit
-- ✗ Festigkeiten < Prepregsysteme
-
-**Anwendung:**
-- Halbstrukturelle Bauteile
-- Nicht zu hoch belastet
-- Verkleidungen
+- Niedrigere Temperaturbeständigkeit
+- Festigkeiten < Prepregsysteme
 
 ---
 
-# GMT-Anwendungen
+### GMT-Anwendungen
+- Halbstrukturelle Bauteile, nicht zu hoch belastet
+- Verkleidungen
 
 **Automobilbereich (hauptsächlich):**
-- Motorraumverkleidungen
-- Sitzschalen
-- Stoßfängerträger
-- Sitzrückenlehnen
-- Ersatzrad-Mulden
+- Motorraumverkleidungen, Sitzschalen, Stoßfängerträger
+- Sitzrückenlehnen, Ersatzrad-Mulden
 
 **Entwicklungsziele:**
-- Nachbearbeitung minimieren
-- Ohne Lackierung
-- Großformatige Karosserieteile
+- Nachbearbeitung minimieren, Ohne Lackierung, Großformatige Karosserieteile
 
 **NMT (Naturfaserverstärkt):**
 - Jute, Flachs, Sisal
@@ -1152,7 +1139,7 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 
 ---
 
-# LWTR - Light Weight Reinforced
+### LWTR - Light Weight Reinforced
 
 **Sandwichstruktur aus GMT:**
 
@@ -1162,12 +1149,20 @@ Aufbau:
 - Beim Erwärmen: Material bauscht auf
 - Nicht vollständig kompaktieren
 
+
+
+![bg right fit](./assets/LWTR.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
 **Eigenschaften:**
 - Glatt
 - Akustisch gut dämpfend
 - Biegesteif
-
-![](abb5.7)
 
 **Anwendung:**
 - Unterbodenverkleidung (Pkw)
@@ -1176,13 +1171,7 @@ Aufbau:
 
 ---
 
-# LFT - Allgemeines
-
-**LFT = Langfaserverstärkte Thermoplaste**
-
-**Entwicklung:**
-- Im Wettbewerb zu GMT
-- Alternative Herstellverfahren
+# Langfaserverstärkte Thermoplaste (LFT)
 
 **Ziel:**
 - Mit preiswerten Kunststoffen
@@ -1194,7 +1183,7 @@ Aufbau:
 
 ---
 
-# LFT-Herstellvarianten
+## LFT-Herstellvarianten
 
 **1. Älteste Variante:**
 - Endlose Glasfaser-Stäbchen pultrudieren
@@ -1202,6 +1191,8 @@ Aufbau:
 - Im Extruder erschmelzen
 - Auf Förderband ablegen
 - Nadelgreifer oder direkt ins Werkzeug
+
+---
 
 **2. Pulvermischung:**
 - Thermoplastpulver + Langfasern
@@ -1215,7 +1206,7 @@ Aufbau:
 
 ---
 
-# LFT-Verarbeitung
+## LFT-Verarbeitung
 
 **Ähnlich GMT:**
 - Werkzeugdruck: bis 150 bar
@@ -1224,6 +1215,8 @@ Aufbau:
 1. Überproportional hohe Pressdrücke
 2. Fließorientierungen → Anisotropie → Verzug
 3. Zu frühes Einfrieren
+
+---
 
 **Lösung:**
 - Gezieltes Werkzeugbelegen
@@ -1236,7 +1229,7 @@ Aufbau:
 
 ---
 
-# 5.6.3 LFT-Vorteile/Anwendungen
+##  LFT-Vorteile/Anwendungen
 
 **Vergleich mit GMT:**
 - Nahezu alle Eigenschaften vergleichbar
@@ -1247,6 +1240,8 @@ Aufbau:
 - Niedrigere Investitionen
 - Kostengünstiger
 
+---
+
 **Vergleich mit Kurzfaser-Thermoplasten:**
 - Größere Faserlänge
 - Deutlich höhere Schlagzähigkeit
@@ -1256,7 +1251,7 @@ Aufbau:
 
 ---
 
-# LFT-Hybridverstärkung
+## LFT-Hybridverstärkung
 
 **Wie bei Duroplasten:**
 - Lokale Verstärkungen einlegen
@@ -1270,7 +1265,7 @@ Aufbau:
 
 ---
 
-#  Thermoplastische Prepregs
+# Thermoplastische Prepregs
 
 **Auch: "Organoblech"**
 
@@ -1281,6 +1276,8 @@ Aufbau:
   - Polyamid (PA)
   - Polyetheretherketon (PEEK)
 
+---
+
 **Problem:**
 - Hohe Schmelzeviskosität
 - Fasertränkung schwierig
@@ -1288,7 +1285,7 @@ Aufbau:
 
 ---
 
-# Thermoplast-Prepreg-Herstellung
+## Thermoplast-Prepreg-Herstellung
 
 **1. Schmelzeimprägnierung:**
 - Wie GMT (Doppelbandpresse)
@@ -1300,6 +1297,8 @@ Aufbau:
 - Thermoplast-Folie
 - Wechselweise mit Gewebe geschichtet
 - In Doppelbandpresse
+
+---
 
 **3. Pulverbeschichtung:**
 - Thermoplastpulver auf Textil
@@ -1314,7 +1313,7 @@ Aufbau:
 
 ---
 
-# Thermoplast-Prepreg-Verarbeitung
+## Thermoplast-Prepreg-Verarbeitung
 
 **Umformung:**
 - Vorab auf Schmelztemperatur erwärmen
@@ -1326,6 +1325,8 @@ Aufbau:
 **Besser:**
 - Umformung in abwickelbare Flächen
 - Keine Gewebeverformung
+
+---
 
 **Kombinierter Umform-Spritzgießprozess:**
 - Erwärmte Prepregs umformen
@@ -1340,7 +1341,7 @@ Aufbau:
 
 ---
 
-# Garngemische und Hybridgarne
+## Garngemische und Hybridgarne
 
 **Problem:** Tränkung hochviskoser Thermoplaste schwierig
 
@@ -1349,6 +1350,16 @@ Aufbau:
 - Gewünschtes Faser-Matrix-Verhältnis
 - Verstärkungsfasern spreizen
 - Enge Durchmischung der Filamente
+
+
+
+![bg right fit](./assets/Garngemisch.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
 
 **Coweaving:**
 - Vermischung beim Weben
@@ -1359,8 +1370,6 @@ Aufbau:
 - Polymer aufschmelzen, benetzen, verkleben
 - Tränk-Fließwege ≈ 0
 - Auch hochviskose Thermoplaste verarbeitbar
-
-![](abb5.8)
 
 ---
 
