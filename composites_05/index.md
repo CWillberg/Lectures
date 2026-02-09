@@ -119,7 +119,37 @@ Automatisierte Faserablageverfahren
 ---
 
 ## Fertigungsverfahren
+### Handlaminarverfahren
 
+- nach Auftragen von Trennfilm/Gelierschicht wird eine Schicht flüssiges Harz auf das Formwerkzeug aufgetragen, gefolgt von der ersten Faserschicht
+- gleichmäßiges Verteilen des Harzes und Entfernung von Lufteinschlüssen durch Rollen und Bürsten
+- Wiederholung bis Laminatdicke erreicht ist
+- älteste und einfachste Methode
+- für kleine und einfache Bauteile eine bewährte Methode
+- verwendete Harze härten bei Raumtemperatur
+
+---
+
+### Vor- und Nachteile
+- minimale technische Aufwendung
+- bei Einzelfertigung einfache Holz-, Gips- oder Pappformen
+- Aushärtung bei Raumtemperatur ohne Druckanwendung
+- Faservolumenanteil von 30-40\% erreichbar
+- bescheidene mechanische Eigenschaften und geringe Temperaturbeständigkeit
+
+
+---
+
+## Vakuumsackverfahren
+
+
+![bg 70%](../assets/Figures/FKV/vakuumdifferenzverfahren.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus M. Wiedemann "Systemleichtbau
+für die Luftfahrt"
+</div>
 
 
 ---
@@ -135,14 +165,6 @@ für die Luftfahrt"
 ---
 
 
-![bg 70%](../assets/Figures/FKV/vakuumdifferenzverfahren.png)
-
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild aus M. Wiedemann "Systemleichtbau
-für die Luftfahrt"
-</div>
-
 
 ---
 
@@ -152,3 +174,5 @@ für die Luftfahrt"
 ---
 
 # Automatisierung des Fertigungsablaufs
+
+![bg 80%](./assets/automatisierung.png)
