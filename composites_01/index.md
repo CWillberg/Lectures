@@ -15,7 +15,7 @@ math: katex
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
-
+![bg right](../assets/QR/composite_01.png)
 
 ---
 
