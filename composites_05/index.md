@@ -140,16 +140,103 @@ oder
 
 # Ablegen von Vorprodukten
 
+- Plastzieren von Verstärkungsfasern auf dem Formwerkzeug
 
+**Nasses Ablegen**
+- Fasernwerden vor oder während des Ablegens mit flüssigem Harz imprägniert
+- *nicht verwechseln mit Nasstechnologie wo trockene Fasern mit flüssigem Harz injiziert werden*
+
+**Trockenes Ablegen**
+- Fasern sind vorimprägniert (PrePreg - **Pre**-im**preg**nated)
+- Harz ist angeliert
+
+---
+# Ablegeformen
+Abgelegt wird
+- Schicht auf Schicht
+- manuell oder maschinell
+bis die vorgegebene Laminatdicke erreicht ist
+
+- Ablegen auf gekrümmter Bauteilgeometrie
+    - zunächst auf ebener Unterlage, anschließend Drappierung im Formwerkzeug
+    - Drapierung kann Bauteildesign beeinflussen
+    - bei stärkerer Krümmung: Einzelablage im Formwerkzeug
 
 ---
 
 # Aushärten von Vorprodukten
+## Aushärtetemperatur
+- Je nach Harzsystem erfordert die Aushärtung unterschiedliche Drücke und Temperaturen
+- Für Epoxidharz-Systeme unterscheidet man bei
+- **Raumtemperatur** (Michung vor Ort, keine hohe Rproduzierbarkeit), z.B. Reparaturen, Segelflugzeuge, Kanus
+- **120°C**, z.B. kleinere Flugzeuge, Hubschrauber
+- **180°C**, z.B. für hochbeanspruchte Flugzeugteile
+
+- höhere Aushärtetemperaturen führen zu höherem $T_g$ (Glasübergangstemperatur) und damit höheren Einsatztemperaturen
+
+---
+## Glasübergangstemperatur
+![bg right](assets/Glasübergang.png)
+
+- grau dargestellt sind die Temperaturanwendungsbereiche
+- trennt hart-elastischen, glasartigen Zustand vom gummi-elastischen, zähflüssigen Zustand
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+## Aushärtung unter erhöhtem Druck und Temperatur
+- Temperatur und Druck müssen in einem Zyklus aufgebracht werden, der auf das Harzsystem zugeschnitten ist
+
+- Zufuhr von Wärme
+    - vermindert die Viskosität des Harzes und fördert das Zusammenfließen der Prepregschichten
+    - bewirkt Reaktion der Harzbestandteile nach erreichen der kritischen Temperatur, dabei Übergang vom dünnflüssigen in halbstarren Zustand (Gelierpunkt), danach weitere Aushärtung bei fixierter Geometrie
+    - treibt Feuchtigkeit und Lösemittel durch Verdampfung aus
+
+---
+- Aufbringung von Druck
+    - verdichtet das Laminat
+    - entfernt überflüssiges Harz (wird vom 'Bleeder' Gewebe aufgenommmen)
+
+---
+
+## Aushärteprozess
+- Die Schnelligkeit der Aushärtung hängt ab von
+    - der Art des Harzes
+    - den Zusätzen
+    - dem Temperaturprofuk
+- Herstellung dickerer Laminate (>10 mm) kann zu Problemen führen
+    -  Temperaturdifferenz durch exotherm reagierende Harze
+    - Entfernung von Lösungsmitteln und Luftblasen
+![bg right](leitwerk oder wurzel von WEA)
+
+---
+
+## Aushärtekontrollen
+- Qualität des Verbundes setzt strikte Einhaltung des optimalen Aushärteprozesses voraus
+- Temperatur- und Druckprofile müssen laufend überwacht werden
+- manuelle Regelung ist fehleranfällig, daher rechnergesteuerte Prozesse
+
+---
+
+## Vorbereitung der Formwerkzeuge
+- Mit Trennfilm (Fett, Lack, Wachs) benetzehn
+    - verhindert die Haftung des Harzes am Formwerkzeug
+    - erleichtert das Entformen (Wichtig!!! Entformung kann das Bauteil beschädigen)
+- eventuell zusätzlich mit Fein- oder Gelierschicht versehen
+    -   schafft glatte Oberflächen
+    - vermeidet Durchdrücken der Fasern an die Oberfläche
 
 
 ---
 
 ## Fertigungsverfahren
+
+
+---
+
 ### Handlaminarverfahren
 
 - nach Auftragen von Trennfilm/Gelierschicht wird eine Schicht flüssiges Harz auf das Formwerkzeug aufgetragen, gefolgt von der ersten Faserschicht
@@ -280,6 +367,10 @@ Gelege, Matten, Gewebe, Gestricke
 - Faservolumengehalt 40 - 50% (starr); Vakuumfolie >60\%
 
 ![bg right fit](./assets/starrer_aufbau.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
 
 ---
 
@@ -295,28 +386,207 @@ für die Luftfahrt"
 
 ## Pressverfahren
 
+- Sammelbegriff für mehrere verwandte Herstellungstechniken
+Faserverstärktes Harz wird in Formwerkzeug eingelegt
+- Durch Druck (und Temperatur) wird das Material verteilt und ausgehärtet
+- Auffangvorrichtung am Rand des Formwerkzeugs nehmen überschüssiges Harz und Lufteinschlüsse auf
+- Rauchkanten im Formwerkzeug scheren überstehendes Material ab
+- Druckintensität und Aushärtetemperatur können bei geeigneter Konstruktion im weitem Rahmen variierte werden
+- Faservolumengehalt bis 65\%
 
-- Faservolumengehalt 65\%
+--- 
+## Kalt- und Heißpressen
+- Beim **Kaltpressen** wird die Faserverstärkung meist trocken in die Form gelegt und flüssiges Harz nachträglich dazugegeben
+- Verteilung des Harzes erfolgt durch Druck des Formwerkzeuges
+- Dauer der Aushärtung bei etwa 70°C - 80°C hängt von der Reaktivität des Harzes und der Bauteilwandstärke ab
+- **Heißpressen** bei Temperaturen von 100°C - 180° bei Drücken bis 40 bar
+- Aufwand für beheizbare Formwerkzeuge (Stahl) nur bei hohen Stückzahlen sinnvoll
+- Druck wird meist durch hydraulische Pressen aufgebracht
+- verwendet werden Prepregs, Matten und kurzfaserverstärktes Material 
 
+---
+# Kaltpressverfahren
+
+![bg 65%](./assets/kaltpressen.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+# Verpressen von SMC
+
+![bg 65%](./assets/SMC_pressen.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+**Vorteile**
+- gute mechanische Eigenschaften
+- genaue Reproduzierbarkeit
+- Wirtschaftlichkeit bei Serienproduktion
+
+**Nachteile**
+- begrenzte Bauteilabmessungen
+- hohe Anforderungen an Formwerkzeuge
 
 ---
 
 ## Expansionsverfahren
 
+- In geschlossenem Formwerkzeug werden die Laminatschichten durch Expansion eines Mediums gegen die Wände der Form gepresst
+- Entsprechend dem Expansionsmedium unterscheidet man
+Drucksackverfahren $\leftarrow\rightarrow$Thermisches Expansionsverfahren
+- Drucksachverfahren mit sackähnlichen Formkern
+Druck wird durch Öffnung in der Wand aufgebracht
+- Sack kann eventuell nach Aushärtung als Auskleidung im Bauteil dienen
+- keine Vakuumanlage, kein Autoklav
 ---
 
-## Spritzgussverfahren (Resin Injection Molding, RIM)
+![bg 60%](./assets/drucksackverfahren.png)
+
+---
+# Thermisches Expansionsverfahren
+- Druck durch Formkern (meist Elastomer) der unter Wärmezufuhr expandiert
+- Drücke zwischen 0.1 - 150 bar durch Wahl des Formkernmaterials
+- Vorteile wie beim Drucksackverfahren
+- Nachteile:
+    - Druck und Temperatur können nicht unabhängig voneinander variiert werden; das erschwert die Kontrolle der Aushärtung
+    - Formkern muss entfernt werden
+
+
+---
+
+![bg 60%](./assets/thermischExpansion.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+
+# Spritzgussverfahren (Resin Injection Molding, RIM)
+
+
+![bg 60%](./assets/spritzgusverfahren.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+
+---
+- Gemisch aus Kurzfasern und Harz im Extruder verdichten
+- Einspritzen in das Formwerkzeug
+- Mehrere Einspritzstellen bessere Verteilung und Ausrichtung der Fasern
+- nur niedermolekulare Harze verwendbar, damit das Faser/Harz Gemisch die nötige Fließfähigkeit hat
+- trotzdem erhebliche Spritzdrücke erforderlich
+- Faservolumengehalt bis 40%
+- Herstellung von Produkten mit komplexer Geometrie ohne Nachbearbeitung möglich
 
 
 ---
 
 ## Wickelverfahren
 
-![bg right 90%](../assets/Figures/wickeln.png)
+
+
+- Kontinuierliche Faserbündel oder -bänder werden auf ein sich drehendes Formwerkzeug gewickelt und anschließend ausgehärtet.
+- Formwerkzeug recht frei gestaltbar, nur Hohlkehlen machen Probleme.
+- Fasermaterial 
+    - wird von Spulen abgenommen
+    - in Tränkanlage mit flüssigem Harz imprägniert 
+    - unter Vorspannung aufgewickelt.
+
+
+- Auch möglich: Verwendung vorimprägnierter Verstärkungsfasern.
+
+---
+
+![bg right 80%](../assets/Figures/wickeln.png)
+
+![bg vertical 80%](./assets/drehbank.png)
+
+- Viele unterschiedliche Wickeltechniken, z.B. mit drehbank- oder planetenähnlichen Bewegungsabläufen.
+- Prinzipiell alle Wickelrichtungen realisierbar, die nicht zu weit vom geodätischen Pfad abweichen.
+- Optimale Wickelrichtungen sind auf analytischem Wege bestimmbar.
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild unten entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+
+---
+
+
+- Faservolumenanteil lässt sich durch Höhe der Fadenvorspannung während des Wickelvorgangs variieren.
+- Wahl des Kernmaterials hängt ab von: Demontage oder Verwendung als Liner, Aushärtungstemperatur, Wiederverwendbarkeit.
+- Entfernung der Wickelkerne einfach, wenn ein Ende offen bleibt; bei geschlossenen Enden muss Kern integraler Bestandteil werden oder mechanisch/chemisch zerstört werden.
+- Ablagemengen von 300 kg/h sind realisierbar.
+
+---
+
+# Direkte oder indirekte Fadentränkung
+
+![bg fit](./assets/direkte_indireckte_fadentraenkung.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+
+# Präzisionsimprägnierbad für Kohlenstofffasern
+
+![bg 70%](./assets/praezisionsimpraegnierbad.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+---
+
+# Planeten- und Polarwickelverfahren
+
+![bg 80%](./assets/polar.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
 
 ---
 
 ## Strangziehverfahren (Pultrusion)
+
+- Weitgehend automatisiertes Verfahren für gestreckte Verbundbauteile mit konstantem Querschnitt.
+- Rovings werden von Spulen abgewickelt und mit Matrixharz getränkt.
+- Getränkte Fasern werden gebündelt und in vorgeheizte Stahldüse eingeführt.
+- Kontur der Düse bestimmt den Querschnitt des Bauteils.
+- Faserstrang wird kontinuierlich durch die Düsenöffnung gezogen.
+
+---
+
+- Zugeführte Wärme initiiert die Reaktion des Matrixharzes.
+- Prozessfolge: Aushärtung, eventuell Nachhärtung, Abkühlung, Trennung in gewünschte Längen durch Trennsäge.
+- Eignet sich auch für strukturierte Profile.
+- Vorteile: Hohe Produktionsraten, (fast) beliebige Längenabmessungen, bis zu 80% Faservolumenanteil.
+
+![bg right fit](./assets/strangziehverfahren.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
+
+
+---
+
+
+
+
+## Automated Fibre Placement
+![bg right 90%](../assets/Figures/afp.png)
+
+- Rechnergesteuerte Mehrachsen(6-10)-Maschinen legen Prepregstreifen direkt auf räumlich gekrümmte Formwerkzeuge ab.
+- Für nicht abwickelbare Oberflächen müssen Prepregstreifen schmal sein.
+- Maschinelle Ablage ist wesentlich exakter und reproduzierbarer als von Hand.
+- Bei großen und flachen Bauteilen arbeiten Ablegemaschinen wirtschaftlich.
 
 
 ---
@@ -325,15 +595,67 @@ für die Luftfahrt"
 ![bg right 90%](../assets/Figures/afp.png)
 
 
+- Typische Ablegegeschwindigkeit: 5 – 10 m/min.
+- Bearbeitungsschritte: Einleiten des Prepregstreifens, Entfernen der Schutzfolien, Positionieren und Absenken des Kopfes, Abrollen und Abschneiden, Anheben und Drehen für gegensinnige Ablage.
+
 
 ---
 
+![bg fit](./assets/ablagekopf_skizze.png)
 
-# Nachbearbeitung von Verbundbauteilen
+![bg 85%](./assets/ablegekopf.png)
 
+
+
+---
+
+## Nachbearbeitung von Verbundbauteilen
+
+- Verbundbauteile werden prinzipiell mit möglichst genauen Endmaßen hergestellt; Nacharbeiten bei hohen Anforderungen an Oberflächengüte und Maßgenauigkeit nötig.
+- Zu berücksichtigen: Temperaturempfindlichkeit der Matrix, Eigenarten der Fasern, hoher Werkzeugverschleiß.
+- Durchbrüche von Bohrern durch die Außenschichten des Laminat
+
+![bg right](../assets/Figures/Bohrungen.png)
+
+---
+
+- **Spanende Verfahren**:
+  - **Sägen** mit diamant- oder hartmetallbestückten Kreis- oder Bandsägen (Vorschub einige mm/s).
+  - **Besäumen** durch konventionelle Fräswerkzeuge (diamant- oder karbidbestückt).
+  - **Glätten** von Oberflächen mit normalen Schleifwerkzeugen.
+  - **Bohren** mit hartmetallbestückten Werkzeugen; Hitze begrenzen durch geringen Anpressdruck und niedrige Drehzahl.
+
+
+---
+
+- **Strahlschneiden**:
+  - **Wasserstrahlschneiden**: Erosive Wirkung (Strahldurchmesser 0,1 - 0,3 mm, Drücke bis 4000 bar). Vorteile: Saubere Schnittflächen, Staubfreiheit, keine thermische Belastung.
+  - **Laserstrahlschneiden**: Kontaktloser, thermischer Prozess (Schnittbreite 0,1 - 0,3 mm). Lokales Aufschmelzen/Verdampfen. Für CFK wegen hoher Wärmeleitfähigkeit nur bedingt anwendbar.
 
 ---
 
 # Automatisierung des Fertigungsablaufs
 
 ![bg 80%](./assets/automatisierung.png)
+
+
+---
+
+- Wirtschaftlichkeit hängt maßgeblich von Material- und Fertigungskosten ab.
+- Einsparmöglichkeiten besonders durch Automatisierung der Fertigung.
+- Ziel: Nicht einzelne Fertigungsinseln, sondern gesamten Ablauf automatisieren.
+- **Zuschnitt**:
+  - Numerisch gesteuertes Stichmesser auf Ansaugtisch.
+  - Optimierte Schnittmuster für geringeren Verschnitt.
+  - Schnittgeschwindigkeit 5 - 15 m/min; Dicke bis ca. 5 mm (unausgehärtete Prepregs).
+- **Ablage**: Übergang von manuell über halbautomatisch zu vollautomatischen Maschinen (Tapelegen).
+- **Aushärtung**: Rechnergesteuerte Prozesse zur laufenden Überwachung von Temperatur- und Druckprofilen zur Fehlerentdeckung und Ausschussverringerung.
+
+
+---
+
+![bg 60%](./assets/zuschnitt.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
+</div>
