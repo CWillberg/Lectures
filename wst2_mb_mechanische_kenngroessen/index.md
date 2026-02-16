@@ -2,7 +2,7 @@
 marp: true
 
 theme: h2
-header: ''
+header: 'Mechanische Kenngrößen'
 footer: ''
 
 title:  Werkstofftechnik II
@@ -57,11 +57,10 @@ img[alt="ORCID"] {
 ##  Werkstofftechnik II
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](../assets/Figures/IWES_test.jpg)
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Konstruktionsst%C3%A5l.JPG/220px-Konstruktionsst%C3%A5l.JPG)
 
 Kontakt: christian.willberg@h2.de
-Teile des Skripts sind von \
-Prof. Dr.-Ing. Jürgen Häberle übernommen
+
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
 </div>
@@ -72,16 +71,25 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 <!--paginate: true-->
 
 ## Vorlesung
+Quelle - [Eisenwerkstoffe](https://link.springer.com/chapter/10.1007/978-3-642-54989-2_6)
 
-
-![bg right 50%](../assets/QR/wst_mb_01.png)
-
----
-
-## Inhalte
-- WST für Bachelor S. - S.
+![bg right 50%](../assets/QR/wst2_mb_04.png)
 
 ---
 
-## 
 
+![bg 70% fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+
+
+---
+
+ Elastizität
+ Hyperlastizität
+ spannnungs-dehnungs diagramm abb2.8
+ spröde
+
+ - Dehnungsmaße (wahre dehnung)
+- spröde, duktil, etc.
+- parameter im detail
+- mehrdimensionales testen
+- 

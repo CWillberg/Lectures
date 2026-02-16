@@ -2,10 +2,10 @@
 marp: true
 
 theme: h2
-header: ''
+header: 'Bindungen'
 footer: ''
 
-title:  Werkstofftechnik II
+title:  Werkstofftechnik II - Zugversuch
 author: Christian Willberg
 ---
 
@@ -54,14 +54,13 @@ img[alt="ORCID"] {
 </style>
 
 
-##  Werkstofftechnik II
+##  Werkstofftechnik II - Festigkeit und Plastizität
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](../assets/Figures/IWES_test.jpg)
 
 Kontakt: christian.willberg@h2.de
-Teile des Skripts sind von \
-Prof. Dr.-Ing. Jürgen Häberle übernommen
+
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
 </div>
@@ -71,17 +70,9 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 <!--paginate: true-->
 
-## Vorlesung
-
-
-![bg right 50%](../assets/QR/wst_mb_01.png)
-
----
-
-## Inhalte
-- WST für Bachelor S. - S.
-![bg right](../assets/Figures/Ermuedungsriss_10.1007978-3-658-36151-8.png)
----
-
-## 
-
+# Lernziele
+- Dehnungsmaße (wahre dehnung)
+- spröde, duktil, etc.
+- parameter im detail
+- mehrdimensionales testen
+- 

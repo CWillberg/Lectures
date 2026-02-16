@@ -1406,32 +1406,15 @@ Prozess:
 
 ---
 
-## Zusammenfassung
-
-**Duroplastische Halbzeuge:**
-- SMC/BMC: Großserie, wirtschaftlich
-- Prepregs: Höchste Qualität, teuer
-
-**Thermoplastische Halbzeuge:**
-- Kurzfaser: Spritzguss
-- GMT: Langfaser, Matten
-- LFT: Direktcompoundierung
-- Thermoplast-Prepregs: Hochwertig
-- Hybridgarne: Flexible Lösung
 
 
-
----
-
-
-# Vielen Dank für Ihre Aufmerksamkeit!
+## Vielen Dank für Ihre Aufmerksamkeit!
 
 **Kontakt:**
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
-**Literaturhinweise:**
-- Helmut Schürrman "Konstruieren mit Faserverbundwerkstoffen"
+
 
 
 

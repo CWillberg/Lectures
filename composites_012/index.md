@@ -232,3 +232,115 @@ $
 
 ## Grenzen
 - durch Kirchhoffsche Schalentheorie gegeben (Dünnwandigkeit)
+
+---
+
+---
+
+## Schäden in Faserverbunden
+Nach Heslehurst können 52 Fehlertypen kategorisiert werden 
+  - Einteilung nach Auftreten im Lebenszyklus
+        - Materialprozess – Fehler die bei der Bereitstellung der Teilbestandteile auftreten
+        - Komponentenfertigung – Fehler während der Kompositfertigung, welche während der Ablage, Aushärtung, Bearbeitung oder der Assemblierung auftreten
+        - In-service Nutzung – im Betrieb auftretende Schäden
+  - Einteilung nach Größe
+      - Mikroskopisch 
+      - Makroskopisch
+
+---
+
+## Delaminationen
+- eine der häufigsten Schädigungen
+- hohe interlaminare Spannungen durch 
+- Querkontraktionseffekte
+- Unterschiedliche Wärmedehnungen
+- Kanten (Geometrie, Mikrorisse, Poren)
+- Trennfolien
+
+
+![bg right fit](../assets/Figures/delamination.png)
+
+---
+
+## Delaminationen
+
+- Verschmutzungen
+- Trennung zwischen zwei Lagen – interlaminarer Riss
+- Feuchteeintritt
+- Lebensdauerreduktion
+- Stabilität
+
+![bg right fit](../assets/Figures/delamination.png)
+
+---
+
+## Ablösungen
+
+- Schlechte Prozesskontrolle
+- Schlechte Passung
+- Durch eintretenden Trennfilm
+- Schlechte Oberflächenbehandlung (Verschmutzung, etc.)
+- Relevant bei Kernanbindung und Verklebung von Komponenten
+
+![bg right fit](../assets/Figures/abloesung_klebung.png)
+
+---
+
+
+## Fehler an Verbindungsbohrungen
+
+- Zu starkes Anziehen von Schrauben 
+Oberflächenschädigung
+- Lokale Beschädigung der ersten Lage
+- Austrittsschäden bei Bohrungen
+- Meist Splitterungen und lokale Delaminationen
+- Splitter können bei Bohrungen zwischen zwei Komponenten verbleiben
+
+![bg right fit](../assets/Figures/Bohrungen.png)
+
+---
+
+## Porosität
+
+
+- Schlechte Material- und Prozesskontrolle
+- Überaltertes Material
+- Feuchtigkeit im Prepreg 
+- Fehlfunktion im Autoklav
+
+
+
+![bg right fit](../assets/Figures/Poren.png)
+
+---
+
+## Porosität
+
+
+
+- Verschlechtert die Lageneigenschaften
+- Auswirkung auf die Ermüdungslebens-dauer
+- Konzentrationen von Poren wichtiger als Größe
+- Wirkt sich auf die Dichtheit aus
+
+
+![bg right fit](../assets/Figures/Poren.png)
+
+---
+
+## Vor- und Nachteile 
+**Vorteile**
+- Spezifische Materialeigenschaften
+- Weitgehend elastisches Verhalten
+- Hohe Festigkeiten und Steifigkeiten in Faserrichtung
+- „maßgeschneidertes“ Material
+- Alterung- und Korrosionsbeständigkeit
+
+---
+## Vor- und Nachteile
+**Nachteile**
+- Variantenreichtum
+- Geringe Zugfestigkeit senkrecht zur Faser
+- Schwierige Prüfung
+- Recyclebarkeit
+- Spezifische Materialeigenschaften und Verarbeitungsverfahren

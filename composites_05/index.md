@@ -659,3 +659,12 @@ Druck wird durch Öffnung in der Wand aufgebracht
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
 </div>
+
+---
+## Vielen Dank für Ihre Aufmerksamkeit!
+
+**Kontakt:**
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
+
+

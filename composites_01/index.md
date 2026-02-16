@@ -482,8 +482,20 @@ Der **relative Faservolumenanteil ϕ** ist der wichtigste vom Konstrukteur einst
 
 **Definition:**
 
+
+
+</div>
+
+---
+
+
 $$\varphi = \frac{V_f}{V_\text{Verbund}} = \frac{A_f}{A_\text{Verbund}} = \frac{t_f}{t_\text{Verbund}}$$
 
+![bg right fit](./assets/faservolumenanteil.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
@@ -695,4 +707,10 @@ $$\text{Mischpreis} = \psi \cdot p_f + (1-\psi) \cdot p_m$$
 
 ---
 
-## Danke für die Aufmerksamkeit
+## Vielen Dank für Ihre Aufmerksamkeit!
+
+**Kontakt:**
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
+
+

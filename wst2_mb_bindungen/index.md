@@ -140,7 +140,7 @@ TU-BS
 **Auffüllregel:** Von innen nach außen entsprechend dem Energieschema
 
 **Energetisch günstig:** Vollständig gefüllte Schalen
-- **Edelgase** (He, Ne, Ar): volle Schalen → chemisch inert
+- **Edelgase** (He, Ne, Ar): volle Schalen → chemisch kaum reaktiv, **fast inert**
 - **Fluor**: 7 Valenzelektronen → sehr reaktiv (will 8. Elektron)
 
 

@@ -80,8 +80,41 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ## Inhalte
 - WST für Bachelor S. - S.
-![bg right](../assets/Figures/Ermuedungsriss_10.1007978-3-658-36151-8.png)
+
 ---
 
-## 
+## Raumgitter und Gittersysteme
 
+- entsteht durch die dreidimensional-periodische Verschiebung seiner Bausteine
+- charakterisiert durch drei Raumachsen x, y und z liegenden Winkel α, β, γ die Abstände auf den Achsen das jeweilige Raumgitter
+- a0, b0 und c0  (Gitterkonstanten) -> Einheitszelle
+
+
+![bg fit right](../assets/Figures/einheitszelle.png)
+
+--- 
+
+## Packungsdichte
+
+$PD = \frac{\text{Atomvolumen innerhalb der Elementarzelle}}{\text{Volumen der Elementarzelle}}$
+
+- Bestimmung PD $\alpha$ Eisen, $\gamma$ Eisen,  Aluminium
+
+---
+## Gitterfehler
+Vektor zur Charakterisierung der Gitterverzerrungen - Burgersvektor $\mathbf{b}$
+liegt in den dichtgepacktesten Ebenen
+von der Kristallstruktur abhängiger Verzerrungsvektor
+- ungestörter Verlauf $|\mathbf{b}|=0$
+- Fehlstelle $|\mathbf{b}|=0$
+- Versetzung $|\mathbf{b}|=a_0$
+
+--- 
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Burgers_vektor.svg/1920px-Burgers_vektor.svg.png)
+
+---
+![bg 80%](https://upload.wikimedia.org/wikipedia/commons/1/1f/Burgers_Vector_and_dislocations_%28screw_and_edge_type%29.svg)
+
+---
+
+![bg fit](https://upload.wikimedia.org/wikipedia/commons/4/45/TEM_micrograph_dislocations_precipitate_stainless_steel_1.jpg)

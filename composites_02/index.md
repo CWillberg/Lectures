@@ -1523,13 +1523,10 @@ Fertigungs-Hilfsmittel
 - Datenbeschaffung kritisch
 
 ---
-
-# Vielen Dank für Ihre Aufmerksamkeit!
+## Vielen Dank für Ihre Aufmerksamkeit!
 
 **Kontakt:**
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
-**Literaturhinweise:**
-- Helmut Schürrman "Konstruieren mit Faserverbundwerkstoffen"
 

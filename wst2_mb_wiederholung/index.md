@@ -139,6 +139,24 @@ Was sind Werkstoffe?
 
 
 ---
+
+
+| Element | Anteil / Gew.-% |
+|---|---|
+| Sauerstoff | 47 |
+| Silizium | 27 |
+| Aluminium | 8 |
+| Eisen | 5 |
+| Kalzium | 4 |
+| Natrium | 3 |
+| Kalium | 3 |
+| Magnesium | 2 |
+| Titan | 0,4 |
+| Wasserstoff | 0,1 |
+| Kohlenstoff | 0,02 |
+
+
+---
 ## Anwendunggebiete
 
 - Metalle
@@ -148,7 +166,7 @@ Was sind Werkstoffe?
 - Keramiken
 - Verbundwerkstoffe
 
-
+![bg](../assets/Figures/kosten.png)
 ---
 
 ## Gußeisen - Stahl

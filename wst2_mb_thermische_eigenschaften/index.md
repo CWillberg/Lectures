@@ -36,7 +36,7 @@ Hochschule Magdeburg-Stendal
 - Spezifische Wärmekapazität $c$
 - Wärmeleitfähigkeit $λ$
 - Schmelztemperatur $T_m$
-- Thermischer Schock-Parameter
+
 
 ---
 

@@ -903,4 +903,625 @@ $\sigma_c = \frac{G_m}{1-\varphi+2(h_i/h_f)(G_m/G_i)\varphi}$
     dickere Fasern sind besser ausgerichtet und haben eine höhere Druckfestigkeit
 
 
+---
+
+
+
+<!-- _class: lead -->
+# 3. Bestimmung der Grund-Elastizitätsgrößen
+
+---
+# Vier Wege zur Datenbeschaffung
+
+**1. Literaturdaten:**
+- Weit verbreitete Faser-Matrix-Systeme
+
+**2. Ähnliche Systeme:**
+- Für Vorauslegungen übertragbar
+
+**3. Mikromechanische Formeln:**
+- Berechnung aus Faser- und Matrixdaten
+- Vorteil: Schnelle Parameter- und Werkstoffvariationen
+- Genauigkeit für Vorauslegungen ausreichend
+
+**4. Experimentelle Bestimmung:**
+- Genaueste Wiedergabe der Realität
+- Erfasst alle Fertigungs- und Materialeinflüsse
+- Kostspielig, aber meist notwendig
+
+---
+# Mikromechanischer Ansatz
+
+**Grundidee:**
+- Modellierung an repräsentativer Einheitszelle
+- Eigenschaften auf makroskopische Verhältnisse übertragen
+
+**Idealisierte Annahmen:**
+- Fasern: konstante Querschnitte, exakt parallel
+- Regelmäßige Packung (quadratisch/hexagonal)
+- UD-Schicht als homogenes Kontinuum
+- Vollständige Faser-Matrix-Haftung
+- Kleine Verformungen, lineares elastisches Verhalten
+
+---
+# Faserpackungsmodelle
+
+![width:800px](Abb. 8.1)
+
+**Quadratische Packung:**
+$$\varphi_{\text{max}}^{\text{quad}} = \frac{\pi}{4} = 0{,}79$$
+
+**Hexagonale Packung:**
+$$\varphi_{\text{max}}^{\text{hex}} = \frac{\pi}{2\sqrt{3}} = 0{,}91$$
+
+**Hexagonale Packung ist dichter!**
+
+---
+# Zur experimentellen Bestimmung
+
+**$E_{\parallel}$:**
+- Selten experimentell bestimmt
+- Lässt sich sehr exakt berechnen
+- Wird von Faserherstellern angegeben
+- Zugfestigkeit $R_{\parallel}^+$ schwierig zu messen
+
+**$E_{\perp}$ und $G_{\perp\parallel}$:**
+- Rechnerische Bestimmung mit Unsicherheiten
+- Empfohlen: experimentelle Ermittlung
+- Geeignete Methode: Zug/Druck-Torsionsprüfung (Z/DT)
+
+**$\nu_{\perp\parallel}$:**
+- Rechnerisch gut bestimmbar (wenn $\nu_f$ bekannt)
+- Bei anisotropen Fasern problematisch
+- Messung mit DMS: Querempfindlichkeit korrigieren!
+
+---
+<!-- _class: lead -->
+# Längs-Elastizitätsmodul $E_{\parallel}$
+
+---
+# Mikromechanisches Modell für $E_{\parallel}$
+
+![width:500px](Abb. 8.3)
+
+**Federnmodell:**
+- Parallelschaltung von Fasern und Matrix
+- Federraten addieren sich
+
+**Elasto-statisches Gleichungssystem:**
+1. Kräftegleichgewicht
+2. Kinematische Beziehungen
+3. Elastizitätsgesetze
+
+---
+# Herleitung $E_{\parallel}$
+
+**1. Kräftegleichgewicht:**
+$$F = F_f + F_m \Rightarrow \sigma \cdot A_{\text{Verbund}} = \sigma_f \cdot A_f + \sigma_m \cdot A_m$$
+
+**2. Kinematik (gleiche Dehnung):**
+$$\varepsilon_f = \varepsilon_m = \varepsilon_{\parallel}$$
+
+**3. Elastizitätsgesetze:**
+$$\sigma_f = E_f \cdot \varepsilon_{\parallel}, \quad \sigma_m = E_m \cdot \varepsilon_{\parallel}$$
+
+---
+# Mischungsregel für $E_{\parallel}$
+
+**Einsetzen und Umformen:**
+$$E_{\parallel} \cdot A_{\text{Verbund}} = E_f \cdot A_f + E_m \cdot A_m$$
+
+**Mit Faservolumenanteil** $\varphi = A_f/A_{\text{Verbund}}$:
+
+$$\boxed{E_{\parallel} = E_f \cdot \varphi + E_m \cdot (1 - \varphi)}$$
+
+**Mischungsregel:** Summation von Dehnsteifigkeiten
+
+---
+# Parameterdiskussion $E_{\parallel}$
+
+**Da** $E_m \ll E_f$:
+$$E_{\parallel} \approx E_f \cdot \varphi$$
+
+**Proportionalitäten:**
+- $E_{\parallel} \sim E_f$
+- $E_{\parallel} \sim \varphi$
+
+**Konstrukteur-Fazit:**
+- Durch Matrix-Abmischung bleibt nur reduzierter Fasersteifigkeitsanteil
+- Faservolumenanteil steuert Längssteifigkeit
+- Hoher $\varphi$ senkt mikromechanische Faserbeanspruchung
+
+---
+# Typische Werte für $E_{\parallel}$
+
+| Material | $E_f$ [MPa] | $E_m$ [MPa] | $E_{\parallel}$ [MPa] ($\varphi=0{,}6$) |
+|----------|-------------|-------------|------------------------------------------|
+| GF-EP | 73 000 | 3 400 | 45 160 |
+| CF-EP (HT) | 230 000 | 3 400 | 139 960 |
+| CF-EP (HM) | 392 000 | 3 400 | 236 560 |
+| AF-EP | 125 000 | 3 400 | 76 360 |
+| **Vergleich:** |||
+| Stahl 25CrMo4 | | | 206 000 |
+| Al-Legierung | | | 72 400 |
+| Ti-Legierung | | | 108 000 |
+
+---
+# Validierung $E_{\parallel}$
+
+![width:900px](Abb. 8.4)
+
+**Sehr gute Übereinstimmung:**
+- Experiment vs. Theorie
+- FE-Rechnung vs. Mischungsregel
+- Verschiedene Packungsarten
+
+---
+# Umrechnung auf anderen Faservolumenanteil
+
+**Lineare Abhängigkeit von** $\varphi$:
+
+$$E_{\parallel,\varphi_2} = E_{\parallel,\varphi_1} \cdot \frac{\varphi_2}{\varphi_1}$$
+
+**Anwendung:**
+- Versuchsergebnisse auf Bauteil-Fasergehalt umrechnen
+- Einfach bei linearem Zusammenhang
+
+---
+<!-- _class: lead -->
+# Quer-Elastizitätsmodul $E_{\perp}$
+
+---
+# Scheibchenmodell für $E_{\perp}$
+
+![width:600px](Abb. 8.5)
+
+**Modellvorstellung:**
+- Infinitesimal dünnes Scheibchen quer zur Faserrichtung
+- Hintereinanderschaltung von Faser- und Matrixabschnitten
+- Federnmodell: Reihenschaltung
+
+---
+# Herleitung $E_{\perp}$
+
+**1. Kräftegleichgewicht:**
+$$F_{\perp} = F_f = F_m \Rightarrow \sigma_{\perp} = \sigma_f = \sigma_m$$
+
+**2. Geometrie (Längungen addieren sich):**
+$$\Delta l_{\text{Verbund}} = \Delta l_m + \Delta l_f$$
+$$\varepsilon_{\perp} \cdot l_0 = \varepsilon_m \cdot l_m + \varepsilon_f \cdot l_f$$
+
+**3. Elastizitätsgesetze:**
+$$\varepsilon_m = \frac{\sigma_{\perp}}{E_m}, \quad \varepsilon_f = \frac{\sigma_{\perp}}{E_f}$$
+
+---
+# Mischungsregel für $E_{\perp}$
+
+**Grundformel (ohne Querkontraktion):**
+$$\frac{1}{E_{\perp}} = \frac{1-\varphi}{E_m} + \frac{\varphi}{E_f}$$
+
+**Mit Querkontraktionsbehinderung:**
+$$E_m' = \frac{E_m}{1 - \nu_m^2}$$
+
+$$\boxed{\frac{1}{E_{\perp}} = \frac{1-\varphi}{E_m'} + \frac{\varphi}{E_f}}$$
+
+**Mischungsregel der Nachgiebigkeiten!**
+
+---
+# Halbempirische Näherung für $E_{\perp}$
+
+**Nach Puck:**
+
+$$\boxed{E_{\perp} = \frac{E_m}{1-\nu_m^2} \cdot \frac{1 + 0{,}85 \cdot \varphi^2}{(1-\varphi) + \varphi \cdot \frac{E_m}{(1-\nu_m^2) \cdot E_f}}}$$
+
+**Grund für Anpassung:**
+- Reale Faserquerschnitte sind kreisförmig
+- Gemisch verschiedener Packungsarten
+- Querkontraktionsbehinderungen
+- Fehlstellen, ungenügende Haftung
+
+---
+# Validierung $E_{\perp}$
+
+![width:900px](Abb. 8.6)
+
+**Beobachtungen:**
+- Quersteifigkeit der Fasern wirkt erst bei hohem $\varphi$ überproportional
+- Halbempirische Gleichung gibt Mittel der Packungsarten gut wieder
+
+**Bei anisotropen Fasern (C, Aramid):**
+- $E_f^{\perp}$ schwer messbar
+- Umgekehrter Weg: Aus gemessenem $E_{\perp}$ auf $E_f^{\perp}$ schließen
+
+---
+<!-- _class: lead -->
+# Quer-Längs-Schubmodul $G_{\perp\parallel}$
+
+---
+# Herleitung $G_{\perp\parallel}$
+
+**Analog zu** $E_{\perp}$:
+- Hintereinanderschaltung der Schubnachgiebigkeiten
+
+**Grundformel:**
+$$\frac{1}{G_{\perp\parallel}} = \frac{1-\varphi}{G_m} + \frac{\varphi}{G_f^{\perp\parallel}}$$
+
+**Halbempirische Näherung nach Förster:**
+
+$$\boxed{G_{\perp\parallel} = G_m \cdot \frac{1 + 0{,}4 \cdot \varphi^{0{,}5}}{(1-\varphi)^{1{,}45} + \varphi \cdot \frac{G_m}{G_f^{\perp\parallel}}}}$$
+
+---
+# Validierung $G_{\perp\parallel}$
+
+![width:900px](Abb. 8.7)
+
+**Sehr gute Übereinstimmung:**
+- Experiment vs. halbempirische Gleichung
+- FE-Rechnung bestätigt Ansatz
+- Verschiedene Packungsarten gut abgebildet
+
+---
+<!-- _class: lead -->
+# Querkontraktionszahlen
+
+---
+# Querkontraktionszahl $\nu_{\perp\parallel}$
+
+**Drei Querdehnungen in UD-Schicht:**
+
+1. $\varepsilon_{\perp}$ infolge $\sigma_{\parallel}$: $\nu_{\perp\parallel} = -\frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}}$ (große QKZ)
+
+2. $\varepsilon_{\parallel}$ infolge $\sigma_{\perp}$: $\nu_{\parallel\perp} = -\frac{\varepsilon_{\parallel}}{\varepsilon_{\perp}}$ (kleine QKZ)
+
+3. $\varepsilon_{\perp}$ infolge $\sigma_{\perp}$: $\nu_{\perp\perp} = -\frac{\varepsilon_3}{\varepsilon_2}$
+
+---
+# Herleitung $\nu_{\perp\parallel}$
+
+![width:400px](Abb. 8.8)
+
+**Querschnittsänderung bei Längsdehnung:**
+
+**Matrix:**
+$$\Delta A_m = -2 \cdot \nu_m \cdot \varepsilon_{\parallel} \cdot A_m$$
+
+**Faser:**
+$$\Delta A_f = -2 \cdot \nu_f^{\perp\parallel} \cdot \varepsilon_{\parallel} \cdot A_f$$
+
+---
+# Mischungsregel für $\nu_{\perp\parallel}$
+
+**Kompatibilität (keine Klaffung):**
+$$\Delta A_{\text{UD}} = \Delta A_f + \Delta A_m$$
+
+**Mit** $A_f/A_{\text{UD}} = \varphi$ **und** $A_m/A_{\text{UD}} = 1-\varphi$:
+
+$$\boxed{\nu_{\perp\parallel} = \varphi \cdot \nu_f^{\perp\parallel} + (1-\varphi) \cdot \nu_m}$$
+
+**Einfache Mischungsregel!**
+
+---
+# Querkontraktionszahl $\nu_{\parallel\perp}$
+
+**Symmetrie-Beziehung:**
+$$\frac{\nu_{\perp\parallel}}{E_{\parallel}} = \frac{\nu_{\parallel\perp}}{E_{\perp}}$$
+
+**Daraus folgt:**
+$$\boxed{\nu_{\parallel\perp} = \nu_{\perp\parallel} \cdot \frac{E_{\perp}}{E_{\parallel}}}$$
+
+**Praktische Bedeutung:**
+- Nur eine QKZ muss experimentell bestimmt werden
+- Die andere folgt aus der Beziehung
+
+---
+# Validierung der Querkontraktionszahlen
+
+![width:900px](Abb. 8.9)
+
+**FE-Rechnungen bestätigen:**
+- Mischungsregeln geben Mittel der Packungsarten gut wieder
+- Sehr gute Übereinstimmung für $\nu_{\perp\parallel}$ und $\nu_{\parallel\perp}$
+
+---
+# Querkontraktionszahl $\nu_{\perp\perp}$
+
+**Für räumliche Spannungszustände:**
+
+**Ohne Dehnungsbehinderung:**
+$$\nu_{\perp\perp} = \varphi \cdot \nu_f^{\perp\perp} + (1-\varphi) \cdot \nu_m$$
+
+**Mit Foye-Korrektur (Dehnungsbehinderung in Längsrichtung):**
+
+$$\nu_{\perp\perp} = \varphi \cdot \nu_f^{\perp\perp} + (1-\varphi) \cdot \nu_{m,\text{eff}}$$
+
+$$\nu_{m,\text{eff}} = \nu_m \cdot \frac{1 + \nu_m - \nu_m \cdot \nu_{\perp\parallel} \cdot \frac{E_m}{E_{\parallel}}}{1 - \nu_m + \nu_m \cdot \nu_{\perp\parallel} \cdot \frac{E_m}{E_{\parallel}}}$$
+
+---
+# Validierung $\nu_{\perp\perp}$
+
+![width:500px](Abb. 8.10)
+
+**FE-Rechnungen zeigen:**
+- Foye-Korrektur ist notwendig
+- Ohne Korrektur: deutliche Abweichungen
+- Mit Korrektur: sehr gute Übereinstimmung
+
+---
+# Quer-Quer-Schubmodul $G_{\perp\perp}$
+
+**Transversale Isotropie:**
+In der isotropen Ebene gilt die bekannte Beziehung
+
+$$\boxed{G_{\perp\perp} = \frac{E_{\perp}}{2(1 + \nu_{\perp\perp})}}$$
+
+**Wichtig:**
+- $G_{\perp\perp}$ ist **abhängige Größe**
+- Zählt nicht zu den Grund-Elastizitätsgrößen
+- Folgt aus geometrischen Betrachtungen bei Isotropie
+
+---
+# Zusammenfassung: Grund-Elastizitätsgrößen
+
+**Ebener Spannungszustand (4 unabhängige):**
+1. $E_{\parallel}$ - Längs-E-Modul
+2. $E_{\perp}$ - Quer-E-Modul
+3. $G_{\perp\parallel}$ - Quer-Längs-Schubmodul
+4. $\nu_{\perp\parallel}$ - große Querkontraktionszahl
+
+**Räumlicher Spannungszustand (+1):**
+5. $\nu_{\perp\perp}$ - QKZ in isotroper Ebene
+
+**Abhängige Größen:**
+- $\nu_{\parallel\perp}$ aus Symmetriebeziehung
+- $G_{\perp\perp}$ aus Isotropiebeziehung
+
+---
+# Typische Zahlenwerte (ϕ = 0,6)
+
+| Material | $E_{\parallel}$ | $E_{\perp}$ | $G_{\perp\parallel}$ | $G_{\perp\perp}$ | $\nu_{\perp\parallel}$ | $\nu_{\parallel\perp}$ | $\nu_{\perp\perp}$ |
+|----------|-----------------|-------------|----------------------|------------------|------------------------|------------------------|-------------------|
+| | [MPa] | [MPa] | [MPa] | [MPa] | [-] | [-] | [-] |
+| **GF-EP** | 45 160 | 14 700 | 5 300 | 5 330 | 0,30 | 0,10 | 0,38 |
+| **CF-EP (HT)** | 139 360 | 8 800 | 4 600 | 3 200 | 0,29 | 0,02 | 0,37 |
+
+---
+<!-- _class: lead -->
+# Ergänzungen und praktische Hinweise
+
+---
+# Nichtlineares Werkstoffverhalten
+
+![width:700px](Abb. 8.11)
+
+**Beobachtungen:**
+- $\sigma_{\perp}$-$\varepsilon_{\perp}$-Kurve: wenig nichtlinear
+- $\tau_{\perp\parallel}$-$\gamma_{\perp\parallel}$-Kurve: **deutlich degressiv**
+
+**Ursachen:**
+- Nicht primär nichtlineares Matrixverhalten
+- Mikromechanische Schädigungen reduzieren Steifigkeit
+- Irreversible Schädigungen bei Erstbelastung
+
+---
+# Berücksichtigung der Nichtlinearität
+
+**Empfehlungen für Spannungsanalyse:**
+
+**$E_{\perp}$:**
+- Kann als konstant angenommen werden
+- Geringe Nichtlinearität → kleiner Fehler
+
+**$G_{\perp\parallel}$:**
+- **Unbedingt als Sekantenmodul** aus $\tau$-$\gamma$-Diagramm entnehmen!
+- Unterscheiden: Erstbelastung vs. wiederholte Belastung
+- Starke Nichtlinearität führt zu Spannungsumlagerungen im Laminat
+
+---
+# Praktische Hinweise zur Datenbeschaffung
+
+**Problem:**
+Konstrukteure bemängeln schwierige Datenbeschaffung
+
+**Lösungen:**
+
+1. **$E_{\parallel}$ dominiert Laminat:**
+   - Exakt aus Mischungsregel berechenbar
+   - Wird von Faserherstellern angegeben
+
+2. **Vorauslegungen:**
+   - Halbempirische Näherungen ausreichend genau
+   - Daten ähnlicher Systeme übertragbar
+   - Unterschiede meist vernachlässigbar
+
+3. **Tabelle 8.2 als Referenz nutzen**
+
+---
+# Umrechnung auf anderen Faservolumenanteil
+
+**Problem:**
+Probekörper-$\varphi$ ≠ Bauteil-$\varphi$
+
+**Lineare Abhängigkeit** ($E_{\parallel}$, $\nu_{\perp\parallel}$):
+$$E_{\parallel,\varphi_2} = E_{\parallel,\varphi_1} \cdot \frac{\varphi_2}{\varphi_1}$$
+
+**Nichtlineare Abhängigkeit** ($E_{\perp}$, $G_{\perp\parallel}$):
+1. Aus gemessenem Wert $E_f^{\perp}$ oder $G_f^{\perp\parallel}$ rückrechnen
+2. Mit gewünschtem $\varphi$ wieder in halbempirische Gleichung einsetzen
+3. Entspricht Verschiebung entlang Kurve in Abb. 8.6 bzw. 8.7
+
+---
+<!-- _class: lead -->
+# Rechenbeispiele
+
+---
+# Beispiel 1: Berechnung von $E_{\parallel}$
+
+**Gegeben:**
+- GF-EP-System
+- $E_f = 73\,000$ MPa (E-Glas)
+- $E_m = 3\,400$ MPa (Epoxid)
+- $\varphi = 0{,}6$
+
+**Gesucht:** $E_{\parallel}$
+
+**Lösung:**
+$$E_{\parallel} = E_f \cdot \varphi + E_m \cdot (1-\varphi)$$
+$$E_{\parallel} = 73\,000 \cdot 0{,}6 + 3\,400 \cdot 0{,}4$$
+$$\boxed{E_{\parallel} = 45\,160\text{ MPa}}$$
+
+---
+# Beispiel 2: Berechnung von $E_{\perp}$
+
+**Gegeben:**
+- GF-EP-System: $E_f = 73\,000$ MPa, $E_m = 3\,400$ MPa
+- $\nu_m = 0{,}35$, $\varphi = 0{,}6$
+
+**Gesucht:** $E_{\perp}$ (halbempirische Näherung)
+
+**Lösung:**
+$$E_m' = \frac{E_m}{1-\nu_m^2} = \frac{3\,400}{1-0{,}35^2} = \frac{3\,400}{0{,}8775} = 3\,875\text{ MPa}$$
+
+$$E_{\perp} = E_m' \cdot \frac{1 + 0{,}85 \cdot 0{,}6^2}{(1-0{,}6) + 0{,}6 \cdot \frac{E_m'}{E_f}}$$
+
+---
+# Beispiel 2: Lösung (Fortsetzung)
+
+$$E_{\perp} = 3\,875 \cdot \frac{1 + 0{,}85 \cdot 0{,}36}{0{,}4 + 0{,}6 \cdot \frac{3\,875}{73\,000}}$$
+
+$$E_{\perp} = 3\,875 \cdot \frac{1{,}306}{0{,}4 + 0{,}0318}$$
+
+$$E_{\perp} = 3\,875 \cdot \frac{1{,}306}{0{,}4318}$$
+
+$$\boxed{E_{\perp} \approx 11\,730\text{ MPa}}$$
+
+**Vergleich Tabelle 8.2:** $E_{\perp} = 14\,700$ MPa
+(Abweichung durch vereinfachte Berechnung)
+
+---
+# Beispiel 3: Querkontraktionszahlen
+
+**Gegeben:**
+- GF-EP: $E_{\parallel} = 45\,160$ MPa, $E_{\perp} = 14\,700$ MPa
+- $\nu_f = 0{,}22$, $\nu_m = 0{,}35$, $\varphi = 0{,}6$
+
+**Gesucht:** $\nu_{\perp\parallel}$ und $\nu_{\parallel\perp}$
+
+**Lösung a)** $\nu_{\perp\parallel}$:
+$$\nu_{\perp\parallel} = \varphi \cdot \nu_f + (1-\varphi) \cdot \nu_m$$
+$$\nu_{\perp\parallel} = 0{,}6 \cdot 0{,}22 + 0{,}4 \cdot 0{,}35$$
+$$\boxed{\nu_{\perp\parallel} = 0{,}272 \approx 0{,}30}$$
+
+---
+# Beispiel 3: Lösung (Fortsetzung)
+
+**Lösung b)** $\nu_{\parallel\perp}$:
+$$\nu_{\parallel\perp} = \nu_{\perp\parallel} \cdot \frac{E_{\perp}}{E_{\parallel}}$$
+
+$$\nu_{\parallel\perp} = 0{,}30 \cdot \frac{14\,700}{45\,160}$$
+
+$$\nu_{\parallel\perp} = 0{,}30 \cdot 0{,}3255$$
+
+$$\boxed{\nu_{\parallel\perp} \approx 0{,}098 \approx 0{,}10}$$
+
+**Vergleich Tabelle 8.2:** Sehr gute Übereinstimmung!
+
+---
+# Beispiel 4: Umrechnung Faservolumenanteil
+
+**Gegeben:**
+- Gemessener Wert: $E_{\parallel,\varphi_1} = 45\,160$ MPa bei $\varphi_1 = 0{,}6$
+- Bauteil soll haben: $\varphi_2 = 0{,}55$
+
+**Gesucht:** $E_{\parallel,\varphi_2}$
+
+**Lösung:**
+$$E_{\parallel,\varphi_2} = E_{\parallel,\varphi_1} \cdot \frac{\varphi_2}{\varphi_1}$$
+
+$$E_{\parallel,\varphi_2} = 45\,160 \cdot \frac{0{,}55}{0{,}6}$$
+
+$$\boxed{E_{\parallel,\varphi_2} = 41\,397\text{ MPa}}$$
+
+---
+# Beispiel 5: Schubmodul $G_{\perp\parallel}$
+
+**Gegeben:**
+- GF-EP: $G_m = 1\,260$ MPa, $G_f^{\perp\parallel} = 30\,000$ MPa
+- $\varphi = 0{,}6$
+
+**Gesucht:** $G_{\perp\parallel}$ (halbempirisch)
+
+**Lösung:**
+$$G_{\perp\parallel} = G_m \cdot \frac{1 + 0{,}4 \cdot \varphi^{0{,}5}}{(1-\varphi)^{1{,}45} + \varphi \cdot \frac{G_m}{G_f^{\perp\parallel}}}$$
+
+$$G_{\perp\parallel} = 1\,260 \cdot \frac{1 + 0{,}4 \cdot 0{,}775}{0{,}4^{1{,}45} + 0{,}6 \cdot \frac{1\,260}{30\,000}}$$
+
+---
+# Beispiel 5: Lösung (Fortsetzung)
+
+$$G_{\perp\parallel} = 1\,260 \cdot \frac{1 + 0{,}31}{0{,}281 + 0{,}6 \cdot 0{,}042}$$
+
+$$G_{\perp\parallel} = 1\,260 \cdot \frac{1{,}31}{0{,}281 + 0{,}0252}$$
+
+$$G_{\perp\parallel} = 1\,260 \cdot \frac{1{,}31}{0{,}3062}$$
+
+$$\boxed{G_{\perp\parallel} \approx 5\,393\text{ MPa}}$$
+
+**Vergleich Tabelle 8.2:** $G_{\perp\parallel} = 5\,300$ MPa
+Gute Übereinstimmung!
+
+---
+# Beispiel 6: $G_{\perp\perp}$ aus Isotropie
+
+**Gegeben:**
+- GF-EP: $E_{\perp} = 14\,700$ MPa
+- $\nu_{\perp\perp} = 0{,}38$
+
+**Gesucht:** $G_{\perp\perp}$
+
+**Lösung:**
+$$G_{\perp\perp} = \frac{E_{\perp}}{2(1 + \nu_{\perp\perp})}$$
+
+$$G_{\perp\perp} = \frac{14\,700}{2 \cdot 1{,}38}$$
+
+$$G_{\perp\perp} = \frac{14\,700}{2{,}76}$$
+
+$$\boxed{G_{\perp\perp} \approx 5\,326\text{ MPa}}$$
+
+**Vergleich Tabelle 8.2:** $G_{\perp\perp} = 5\,330$ MPa - Exzellent!
+
+---
+# Zusammenfassung
+
+**Kernaussagen:**
+
+1. **UD-Schicht ist transversal isotrop:**
+   - 5 unabhängige Grund-Elastizitätsgrößen (räumlich)
+   - 4 unabhängige Größen (eben)
+
+2. **Mikromechanische Mischungsregeln:**
+   - $E_{\parallel}$, $\nu_{\perp\parallel}$: Parallelschaltung (Steifigkeiten)
+   - $E_{\perp}$, $G_{\perp\parallel}$: Reihenschaltung (Nachgiebigkeiten)
+
+3. **Halbempirische Näherungen:**
+   - Notwendig für $E_{\perp}$ und $G_{\perp\parallel}$
+   - Berücksichtigen reale Packungsarten
+
+---
+# Zusammenfassung (Fortsetzung)
+
+4. **Wichtigste Größe:** $E_{\parallel}$
+   - Dominiert Laminatverhalten
+   - Sehr genau berechenbar
+
+5. **Nichtlinearitäten beachten:**
+   - Besonders bei $G_{\perp\parallel}$
+   - Sekantenmoduln verwenden!
+
+6. **Symmetriebeziehungen nutzen:**
+   - $\nu_{\parallel\perp}$ aus $\nu_{\perp\parallel}$ berechenbar
+   - $G_{\perp\perp}$ aus $E_{\perp}$ und $\nu_{\perp\perp}$
+
+
+
+
 
