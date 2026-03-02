@@ -2,7 +2,7 @@
 marp: true
 
 theme: h2
-header: 'Bindungen'
+header: ''
 footer: ''
 
 title:  Werkstofftechnik II
@@ -60,7 +60,8 @@ Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector
 ![bg right](../assets/Figures/IWES_test.jpg)
 
 Kontakt: christian.willberg@h2.de
-
+Teile des Skripts sind von \
+Prof. Dr.-Ing. Jürgen Häberle übernommen
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
 </div>
@@ -70,57 +71,17 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
-# Lernziele
-- Vertiefung bestimmter Themen
-    - Festigkeit, Ermüdung, Plastizität
-    - Materialprüfung
-        - Praktikum
-    - Materialmodelle
-    - Normen
-    - ...
+## Vorlesung
 
+
+![bg right 50%](../assets/QR/wst_mb_01.png)
 
 ---
 
-
-
-![bg 60%](../assets/Figures/material_verbrauch.png)
-
----
-
-DOE - CAD - Drucken - testen - bericht schreiben - vortragen als kleine gruppen
-
+## Inhalte
+- WST für Bachelor S. - S.
 
 ---
 
-Vorträge 
-
-
-3 - 4 Personen
-Normen
-Kaltverfestigung
-Schweißen - Kontext Werkstofftechnik
-Nachhaltigkeit
-Testverfahren
-
-Wämebehandlung
-
-Kaltverfestigung Warmverfestigung
-
-Ermüdung
-
-Kurzvortrag gewähltes Material
-
---- 
-
-Bindungen
-Plastizität und Festigkeit
-Elektrische und thermische Eigenschaften
-Eisen-Kohlenstoffdiagramm und Legierungen I
-Eisen-Kohlenstoffdiagramm und Legierungen II
-
-Design of Experiment
-Ermüdung und Bruchmechanik
-Polymere
-Vorträge
+## 
 

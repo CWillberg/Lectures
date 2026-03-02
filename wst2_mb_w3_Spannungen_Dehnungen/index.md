@@ -555,8 +555,42 @@ $$= 250 \cdot \left[1 + 1{,}199\right] = 250 \cdot 2{,}199 \approx \mathbf{550\,
 
 ---
 
-# Rechercheaufgabe
+# Querkontraktionszahl (Poisson's Ratio)
 
-- Wie sieht eine mehrdimensionale Dehnung aus?
-- Wieviele Dehnungen gibt es in 2D und in 3D?
+**Definition:**
+$$\nu_{\text{quer,längs}} = -\frac{\varepsilon_{\text{quer}}}{\varepsilon_{\text{längs}}}$$
+
+
+---
+
+
+# Voigt Notation (3D)
+
+
+$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{33} \\ \sigma_{23} \\ \sigma_{13} \\ \sigma_{12} \end{Bmatrix} = 
+\begin{bmatrix}
+C_{11} & C_{12} & C_{12} & 0 & 0 & 0 \\
+C_{12} & C_{11} & C_{12} & 0 & 0 & 0 \\
+C_{12} & C_{12} & C_{11} & 0 & 0 & 0 \\
+0 & 0 & 0 & C_{44} & 0 & 0 \\
+0 & 0 & 0 & 0 & C_{44} & 0 \\
+0 & 0 & 0 & 0 & 0 & C_{44}
+\end{bmatrix}
+\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ \varepsilon_{33} \\ 2\varepsilon_{23} \\ 2\varepsilon_{13} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+
+mit: $C_{11} = \frac{E(1-\nu)}{(1+\nu)(1-2\nu)}$, $C_{12} = \frac{E\nu}{(1+\nu)(1-2\nu)}$, $C_{44} = G = \frac{E}{2(1+\nu)}$
+
+---
+
+## Vielen Dank für Ihre Aufmerksamkeit!
+
+**Kontakt:**
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
+
+
+
+
+
+
 

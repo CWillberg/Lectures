@@ -129,6 +129,9 @@ Was sind Werkstoffe?
 - Keramiken
 - Verbundwerkstoffe
 
+---
+
+![bg fit](../assets/Figures/material_verbrauch.png)
 
 ---
 
