@@ -87,6 +87,7 @@ jobs:
           - gju_mech
           - GJU_mat_introduction
           - gju_01_questions
+          - wst2_mb_Spannungen_Dehnungen
 
     steps:
       - uses: actions/checkout@v4
