@@ -30,6 +30,12 @@ jobs:
       matrix:
         folder:
           - Faserverbund_02
+          - fracture_and_fatigue_01
+          - wst2_mb_ erste_vorlesung
+          - wst2_mb_w1_bindungen
+          - wst2_mb_w1_bindungen_seminar
+          - wst2_mb_w2_festigkeit_plastizitaet
+          - wst2_mb_w2_festigkeit_plastizitaet_seminar
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03
