@@ -375,6 +375,11 @@ Eine **gebogene Versetzung** kann an einem Ende reinen Stufen- und am anderen En
 
 ![](./assets/versetzungsbewegung_Schrauben.png)
 
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus dem Skript Werkstoffkunde der TU Braunschweig"
+</div>
+
+
 ---
 
 ## Wechselwirkung zwischen Versetzungen
@@ -406,6 +411,9 @@ Versetzungen verzerren das Gitter → jede Versetzung ist von einem **Spannungsf
 ---
 
 ![](./assets/wechselwirkungen_versetzungen.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus dem Skript Werkstoffkunde der TU Braunschweig"
+</div>
 
 ---
 
@@ -496,6 +504,9 @@ Beim Tiefziehen: vorher **Dressieren** (leichtes Walzen) → alle Versetzungen m
 - $\Delta\sigma$ bis **100 MPa**
 
 ![bg right fit](./assets/mischkristallarten.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus dem Skript Werkstoffkunde der TU Braunschweig"
+</div>
 
 ---
 
@@ -508,11 +519,17 @@ Beim Tiefziehen: vorher **Dressieren** (leichtes Walzen) → alle Versetzungen m
 
 ![bg right fit](./assets/mischkristallarten.png)
 
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus dem Skript Werkstoffkunde der TU Braunschweig"
+</div>
 
 
 ---
 
 ![bg 50%](./assets/luedersband.png)
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus dem Skript Werkstoffkunde der TU Braunschweig"
+</div>
 
 ---
 
@@ -540,8 +557,7 @@ $$r^* = -\frac{2\gamma_s}{g_v}$$
 
 $$D = D_0 \cdot e^{-Q/(RT)} \quad \Rightarrow \quad T \approx 0{,}3\text{–}0{,}5\,T_m \text{ erforderlich}$$
 
-<!-- Bild: $\Delta G$ vs. Teilchenradius $r$ mit Maximum bei $r^*$ → Abb. 3.15 -->
-<!-- Bild: Ausscheidungsmorphologien: feste Lösung / kohärent / inkohärent → Abb. 3.14 -->
+
 
 ---
 
@@ -604,7 +620,10 @@ Je länger ausgelagert → $r$ wächst → Überalterung → Festigkeitsabnahme.
 ![bg 60%](./assets/festigkeitssteigerung_schneiden.png)
 
 
-<!-- Bild: $\Delta\tau$ vs. Teilchenradius / Auslagerungszeit: unteraltert / Peak / überaltert → Abb. 3.19 -->
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder aus dem Skript Werkstoffkunde der TU Braunschweig"
+</div>
+
 
 ---
 
