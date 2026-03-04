@@ -2,10 +2,10 @@
 marp: true
 
 theme: h2
-header: 'Bindungen'
+header: 'Rissbildung und Ermüdung'
 footer: ''
 
-title:  Werkstofftechnik II - Festigkeit und Plastizität
+title:  Werkstofftechnik II - Rissbildung und Ermüdung
 author: Christian Willberg
 ---
 
@@ -57,13 +57,10 @@ img[alt="ORCID"] {
 ##  Werkstofftechnik II - Festigkeit und Plastizität
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](../assets/Figures/IWES_test.jpg)
+![bg right fit](../assets/Figures/CT_crack.png)
 
 Kontakt: christian.willberg@h2.de
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
 
 
 ---

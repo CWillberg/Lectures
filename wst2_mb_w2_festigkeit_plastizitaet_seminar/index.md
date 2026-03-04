@@ -139,6 +139,7 @@ img[alt="ORCID"] {
 }
 </style>
 
+![bg right](../assets/Figures/bindungen.png)
 
 # Seminar Werkstofftechnik II - Festigkeit
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)

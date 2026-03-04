@@ -138,7 +138,13 @@ $\lambda = \frac{c}{f} = \frac{6000 m/s}{10^6 1/s} = 6 mm$
 
 - auch als Computertomographie nutzbar
 ![bg right fit](https://www.researchgate.net/profile/Christian-Willberg/publication/258207141/figure/fig1/AS:297342013067264@1447903268377/Plate-and-actuator_W640.jpg)
-![bg vertical fit](https://www.researchgate.net/profile/Christian-Willberg/publication/258207141/figure/fig3/AS:297342013067266@1447903268956/The-continues-debonding-region-A-shown-by-C-T-images-in-several-frames-see-Fig-2_W640.jpg)
+![bg vertical fit](https://www.researchgate.net/profile/Christian-Willberg/publication/258207141/figure/fig3/AS:297342013067266@1447903268956/The-continues-debonding-region-A-shown-by-C-T-images-in-several-fram
+es-see-Fig-2_W640.jpg)
+
+
+---
+
+![bg fit](../assets/Figures/strahlung_diagramm.png)
 
 ---
 
