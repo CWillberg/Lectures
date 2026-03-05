@@ -25,7 +25,7 @@ Kontakt: christian.willberg@h2.de
 - Struktur und Wirkmechanismus von **Versetzungen** in Kristallen beschreiben
 - Den **Burgersvektor** physisch verstehen und auf Kristallstrukturen anwenden
 - Verschiedene **Festigkeitssteigerungsmechanismen** bei Metallen kennen und vergleichen
-- Praktische **Anwendungen** in der Ingenieurtechnik zuordnen
+
 
 ---
 

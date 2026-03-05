@@ -53,27 +53,6 @@ Kontakt: christian.willberg@h2.de
 ---
 <!--paginate: true-->
 
-## Lernziele dieser Vorlesung
-
-- Ingenieurdehnung vs. wahre (logarithmische) Dehnung unterscheiden und umrechnen
-- Brucheinschnürung berechnen und interpretieren
-- Zähigkeit aus Spannungs-Dehnungs-Kurven bestimmen
-- Verschiedene Typen von Spannungs-Dehnungs-Kurven erkennen und zuordnen
-- Einfluss der Dehnrate auf das Werkstoffverhalten verstehen
-
----
-
-## Überblick
-
-1. **Ingenieurdehnung** 
-2. **Wahre Dehnung** (logarithmische Dehnung)
-3. **Brucheinschnürung**
-4. **Zähigkeit**
-5. **Typen von Spannungs-Dehnungs-Kurven**
-6. **Dehnrate**
-7. **Rechenbeispiele & Zusammenfassung**
-
----
 
 ## 1. Ingenieurdehnung
 
@@ -544,16 +523,6 @@ $$= 250 \cdot \left[1 + 1{,}199\right] = 250 \cdot 2{,}199 \approx \mathbf{550\,
 
 ---
 
-## Lernkontrolle – Antworten
-
-1. Wahre Dehnung ist additiv und bezieht sich auf die aktuelle Länge → physikalisch korrekt bei großen Deformationen.
-2. $\varphi = \ln(1+0{,}50) = \ln(1{,}5) = 0{,}405$
-3. $Z = 0$ → kein Querschnittsverlust → sprödes Versagen, keine Duktilität.
-4. Zähe Stähle (z.B. S235) – mittlere Festigkeit, hohe Bruchdehnung → große Fläche.
-5. $\dot{\varepsilon} = \frac{5/60}{50} = 1{,}67 \times 10^{-3}\,\text{s}^{-1}$
-6. Trotz abnehmender Kraft nimmt der Querschnitt noch stärker ab → $\sigma_w = F/A$ steigt.
-
----
 
 # Querkontraktionszahl (Poisson's Ratio)
 
@@ -579,6 +548,57 @@ C_{12} & C_{12} & C_{11} & 0 & 0 & 0 \\
 \begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ \varepsilon_{33} \\ 2\varepsilon_{23} \\ 2\varepsilon_{13} \\ 2\varepsilon_{12} \end{Bmatrix}$$
 
 mit: $C_{11} = \frac{E(1-\nu)}{(1+\nu)(1-2\nu)}$, $C_{12} = \frac{E\nu}{(1+\nu)(1-2\nu)}$, $C_{44} = G = \frac{E}{2(1+\nu)}$
+
+---
+
+<!-- Folie 2: ESZ und EDZ -->
+# Ebener Spannungs- und Dehnungszustand
+
+
+
+## Ebener Spannungszustand (ESZ)
+**Annahme:** $\sigma_{33} = \sigma_{13} = \sigma_{23} = 0$
+
+$$\Rightarrow \varepsilon_{33} = -\frac{\nu}{E}(\sigma_{11} + \sigma_{22})$$
+
+<div class="eq">
+
+$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} =
+\frac{E}{1-\nu^2}
+\begin{bmatrix}
+1 & \nu & 0 \\
+\nu & 1 & 0 \\
+0 & 0 & \frac{1-\nu}{2}
+\end{bmatrix}
+\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+
+
+Dünnwandige Scheiben, ebene Bleche
+
+---
+
+## Ebener Dehnungszustand (EDZ)
+**Annahme:** $\varepsilon_{33} = \varepsilon_{13} = \varepsilon_{23} = 0$
+
+$$\Rightarrow \sigma_{33} = \nu(\sigma_{11} + \sigma_{22})$$
+
+<div class="eq">
+
+$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} =
+\frac{E}{(1+\nu)(1-2\nu)}
+\begin{bmatrix}
+1-\nu & \nu & 0 \\
+\nu & 1-\nu & 0 \\
+0 & 0 & \frac{1-2\nu}{2}
+\end{bmatrix}
+\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+
+</div>
+
+<div class="hinweis">Lange Zylinder, Dämme, dicke Wandstrukturen</div>
+
+</div>
+</div>
 
 ---
 

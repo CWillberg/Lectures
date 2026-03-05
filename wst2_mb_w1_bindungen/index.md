@@ -457,6 +457,7 @@ Joachim Rösler, Sebastian Piegert,
 Britta Laux, Michaela Necker
 TU-BS
 </div>
+
 ---
 
 **Warum so außergewöhnlich?**
@@ -473,6 +474,7 @@ Joachim Rösler, Sebastian Piegert,
 Britta Laux, Michaela Necker
 TU-BS
 </div>
+
 ---
 
 ## Eigenschaften von Diamant
