@@ -831,6 +831,189 @@ Temperatur-Zeit-Verläufe wichtiger **Wärmebehandlungsverfahren** lassen sich i
 
 > ZTU-Diagramme eignen sich hervorragend zur **stahlsorten- und chargenspezifischen** Wärmebehandlungstechnologieentwicklung: Gewünschtes Gefüge → Eigenschaften ablesen → Abkühlkurve festlegen.
 
+---
+
+## Wärmebehandlung von Stahl – Übersicht
+
+**Ziel:** Gezielte Einstellung von Gefüge und Eigenschaften durch definierte **Temperatur-Zeit-Zyklen**
+
+| Verfahren | Ziel |
+|---|---|
+| **Härten** | maximale Härte durch Martensit |
+| **Anlassen** | Zähigkeit ↑, Sprödigkeit ↓ |
+| **Vergüten** | Kombination Festigkeit + Zähigkeit |
+| **Glühen** | Spannungsabbau, Gefügeverbesserung |
+| **Einsatzhärten** | harte Randzone, zäher Kern |
+| **Randschichthärten** | lokale Oberflächenhärtung |
+
+---
+
+## Härten
+
+**Prozessschritte:**
+
+**① Austenitisieren**
+- Erwärmen auf Härtetemperatur $T_H$ (oberhalb A₃ bzw. A₁)
+- Typisch: 800–900 °C (unlegierte Stähle)
+- Haltezeit: vollständige Auflösung der Karbide im Austenit
+
+**② Abschrecken**
+- Schnelle Abkühlung (Wasser, Öl, Luft je nach Stahl)
+- Abkühlgeschwindigkeit muss **obere kritische Rate** überschreiten
+- → diffusionslose Umwandlung → **Martensit**
+
+---
+
+**③ Ergebnis**
+- Maximale Härte, aber hohe **Sprödigkeit** und **Eigenspannungen**
+- Direkt nach dem Härten: Werkstück muss **zwingend angelassen** werden!
+
+---
+
+## Anlassen
+
+> Anlassen folgt **immer** unmittelbar nach dem Härten.
+
+**Zweck:** Abbau von Eigenspannungen, Erhöhung der Zähigkeit bei akzeptablem Härteverlust
+
+> Anlasssprödigkeit: Bei manchen legierten Stählen tritt im Bereich 300–350 °C (Stufenanlassen) oder 450–550 °C Versprödung auf → diesen Bereich **schnell durchfahren**!
+
+---
+
+**Vier Anlass-Stufen:**
+
+| Stufe | T [°C] | Vorgang | Ergebnis |
+|---|---|---|---|
+| I | 100–200 | C-Ausscheidung als ε-Karbid, Spannungsabbau | Härte kaum verändert |
+| II | 200–300 | Restaustenit wandelt in Bainit um | leichter Härteabfall |
+| III | 300–400 | ε-Karbid → Fe₃C (Zementit), Ferrit entspannt | deutliche Zähigkeitszunahme |
+| IV | 400–700 | Zementit kugelt ab → **Vergütungsgefüge** | hohe Zähigkeit, moderate Härte |
+
+
+---
+
+## Vergüten
+
+**Vergüten = Härten + Anlassen bei hoher Temperatur (450–700 °C)**
+
+**Prozessschritte:**
+
+**① Austenitisieren** → wie beim Härten
+
+**② Abschrecken** → Martensit erzeugen
+
+**③ Anlassen bei hoher Temperatur**
+- Zementit kugelt ab → feines Karbid-Ferrit-Gefüge
+- Ergebnis: **Vergütungsgefüge** (angelassener Martensit)
+
+---
+
+**Eigenschaften:**
+- Hohe Streckgrenze $R_e$ und Zugfestigkeit $R_m$
+- Gute Zähigkeit (hohe Kerbschlagarbeit)
+- Typische Anwendung: **Vergütungsstähle** (z.B. 42CrMo4, Ck45)
+
+> Je höher die Anlasstemperatur, desto **geringer die Härte** und desto **höher die Zähigkeit**.
+
+---
+
+## Glühen – Übersicht der Verfahren
+
+| Verfahren | T [°C] | Ziel |
+|---|---|---|
+| **Spannungsarmglühen** | 550–650 | Eigenspannungen abbauen, Gefüge unverändert |
+| **Rekristallisationsglühen** | 550–700 | Kaltverfestigung aufheben |
+| **Normalglühen** | A₃ + 30–50 K | homogenes fein-perlitisches Gefüge |
+| **Weichglühen** | knapp unter A₁ | Zementit kugelt ab → optimale Zerspanbarkeit |
+| **Grobkornglühen** | A₃ + 100–200 K | grobes Korn (Zerspanung bei best. Stählen) |
+| **Diffusionsglühen** | 1000–1200 | Seigerungen abbauen (Gussblöcke) |
+
+---
+
+## Normalglühen – Prozessschritte
+
+**① Erwärmen** auf $T = A_3 + 30{-}50\,\text{K}$
+- vollständige Austenitisierung
+- feines Austenitkorn (kurze Haltezeit)
+
+**② Halten**
+- Homogenisierung des Austenits
+- Auflösung grober Karbide
+
+
+---
+
+**③ Abkühlen an Luft**
+- gleichmäßige, moderate Abkühlrate
+- → fein-perlitisches bzw. ferritisch-perlitisches Gefüge
+
+**Ergebnis:** Homogenes, feinkörniges Gefüge mit definierten mechanischen Eigenschaften als **Ausgangszustand** für weitere Bearbeitung.
+
+---
+
+## Einsatzhärten
+
+**Ziel:** Harte, verschleißbeständige Randzone bei zähem Kern
+
+**Prozessschritte:**
+
+**① Aufkohlen (Carburieren)**
+- T = 880–950 °C in C-abgebender Atmosphäre (Gas, Salzbad, Pulver)
+- C diffundiert in die Randzone → Randkohlenstoffgehalt steigt auf **0.7–0.9 %**
+- Einsatztiefe: 0.1–3 mm (je nach Anforderung)
+
+**② Diffusionsglühen** *(optional)*
+- Gleichmäßigere C-Verteilung in der Randzone
+
+---
+
+**③ Härten**
+- Abschrecken → Rand: **Martensit** (hohe Härte)
+- Kern: bleibt zäh (niedriger C-Gehalt → keine vollständige Martensitbildung)
+
+**④ Anlassen** bei 150–200 °C
+- Spannungsabbau, Randzone bleibt hart
+
+**Typische Stähle:** 16MnCr5, 20MoCr4, 18CrNiMo7-6
+
+---
+
+## Randschichthärten
+
+**Ziel:** Lokale Härtung der Oberfläche ohne Änderung der chemischen Zusammensetzung
+
+**Verfahren:**
+
+| Verfahren | Wärmequelle | Besonderheit |
+|---|---|---|
+| **Flammhärten** | Gasflamme | einfach, flexibel, große Bauteile |
+| **Induktionshärten** | Induktionsspule | präzise, reproduzierbar, kurze Zyklen |
+| **Laserstrahlhärten** | Laserstrahl | sehr präzise, minimaler Verzug |
+| **Elektronenstrahlhärten** | Elektronenstrahl | im Vakuum, sehr lokal |
+
+**Prozessschritte (Beispiel Induktionshärten):**
+
+**①** Oberfläche wird **lokal** und schnell auf Austenitisiertemperatur erwärmt (Kern bleibt kalt)
+
+**②** Abschrecken (Wasser, Brause) → Rand: **Martensit**
+
+---
+
+**③** Anlassen bei 150–200 °C
+
+> Voraussetzung: Stahl muss ausreichend C enthalten (**≥ 0.35 % C**), sonst nicht härtbar.
+
+---
+
+
+| Verfahren | Härte (Rand) | Zähigkeit (Kern) | C-Gehalt Stahl | Typische Anwendung |
+|---|---|---|---|---|
+| Härten + Anlassen | mittel–hoch | mittel | 0.3–0.6 % | Werkzeuge, Maschinenteile |
+| Vergüten | mittel | hoch | 0.3–0.6 % | Wellen, Schrauben, Zahnräder |
+| Einsatzhärten | sehr hoch | hoch | < 0.25 % | Getriebewellen, Nocken |
+| Randschichthärten | hoch | hoch | 0.35–0.6 % | Kurbelwellen, Zahnräder |
+| Normalglühen | niedrig | mittel | beliebig | Ausgangszustand, Halbzeug |
+| Weichglühen | sehr niedrig | hoch | beliebig | Zerspanung, Umformung |
 
 ---
 
