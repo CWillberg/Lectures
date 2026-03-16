@@ -1,11 +1,9 @@
 ---
 marp: true
-
 theme: h2
-header: 'Bindungen'
+header: 'DOE Seminar'
 footer: ''
-
-title:  Werkstofftechnik II - Seminar Bindungen
+title: Werkstofftechnik II - DOE Seminar
 author: Christian Willberg
 
 style: |
@@ -69,33 +67,6 @@ style: |
   .zwei-spalten > div {
     flex: 1;
   }
-  .title-slide {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-  }
-  .title-slide h1 {
-    font-size: 42px;
-    border: none;
-    color: #1a5276;
-  }
-  .title-slide .subtitle {
-    font-size: 22px;
-    color: #5d6d7e;
-    margin-top: 8px;
-  }
-  .title-slide .meta {
-    font-size: 17px;
-    color: #95a5a6;
-    margin-top: 28px;
-  }
-  .step {
-    margin: 6px 0;
-    padding-left: 6px;
-  }
   table {
     border-collapse: collapse;
     width: 100%;
@@ -117,383 +88,335 @@ style: |
   }
   ul { padding-left: 20px; margin: 6px 0; }
   li { margin-bottom: 4px; }
-
 ---
 
 <style>
-footer {
-    font-size: 14px;
-    color: #888;
-    text-align: right;
-}
+footer { font-size: 14px; color: #888; text-align: right; }
 img[alt="ORCID"] {
-    height: 15px !important;
-    width: auto !important;
-    vertical-align: top !important;
-    display: inline !important;
-    margin: 0 !important;
+    height: 15px !important; width: auto !important;
+    vertical-align: top !important; display: inline !important; margin: 0 !important;
 }
 </style>
 
-
-# Seminar Werkstofftechnik II – Bindungen
+# Seminar Werkstofftechnik II – Design of Experiments
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](./assets/orbitale.png)
+<div style="position: absolute; top: 200px; left: 850px;">
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/wst2_mb_w5_DOE_seminar/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
 
 Kontakt: christian.willberg@h2.de
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;">
-  <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
-</div>
-
 ---
-
 <!--paginate: true-->
 
-# Übersicht der Gleichungen
+## Schritt 1 – Versuchsziel und Faktoren definieren
 
-<div class="eq">
+## Fragestellung
 
-**Coulomb-Kraft:**
-$$F_{an} = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}$$
-
-</div>
-
-<div class="eq">
-
-**Coulomb-Energie:**
-$$E_{Coulomb} = \frac{q_1 q_2}{4\pi\varepsilon_0 r}$$
-
-</div>
-
-<div class="eq">
-
-**Coulomb-Energie bezogen auf Ladungen:**
-$$E = \frac{(+e)(-e)}{4\pi\varepsilon_0 r}$$
-
-</div>
-
----
-
-## Bindungsenergie und Schmelztemperatur
+Wie beeinflussen Herstellungsparameter die **Zugfestigkeitskennwerte** von Stahlproben?
 
 <div class="aufgabe">
 
-**Aufgabe 1:** Analysieren Sie die Tabelle der Bindungsenergien:
+**Aufgabe 1:** Bereiten Sie den Versuchsplan vor.
 
-**a)** Berechnen Sie das Verhältnis von Bindungsenergie zu Schmelztemperatur für NaCl, MgO (ionisch), Si, Diamant (kovalent) und Al, Fe, W (metallisch).
+**a)** Sie untersuchen drei Faktoren mit je zwei Stufen. Wie viele Versuche umfasst ein vollständiger $2^3$-Plan?
 
-**b)** Welcher Zusammenhang besteht zwischen Bindungsenergie und Schmelztemperatur?
+**b)** Benennen Sie die Faktoren und tragen Sie die kodierten Stufen (−/+) in die Planmatrix ein.
 
-**c)** Warum ist dieser Zusammenhang nicht linear? Diskutieren Sie weitere Einflussfaktoren.
+| Faktor | − (untere Stufe) | + (obere Stufe) |
+|---|---|---|
+| A: Walztemperatur | 900 °C | 1100 °C |
+| B: Umformgrad | 20 % | 60 % |
+| C: Abkühlrate | langsam (Luft) | schnell (Wasser) |
 
-**d)** Ordnen Sie folgende Materialien nach erwarteter Schmelztemperatur: TiO₂, Cu, Graphit, LiF
+**c)** Warum werden die Versuche in **zufälliger Reihenfolge** durchgeführt?
 
-</div>
-
----
-
-## Koordinationszahl und Festigkeit
-
-<div class="aufgabe">
-
-**Aufgabe 2:**
-
-**a)** Berechnen Sie die „mittlere Bindungsenergie pro Nachbar" für Diamant (4 Nachbarn, 7,40 eV gesamt) und Aluminium (12 Nachbarn, 3,40 eV gesamt).
-
-**b)** Welches Material hat die stärkere Einzelbindung?
-
-**c)** Erklären Sie, warum Wolfram (W) trotz metallischer Bindung eine so hohe Schmelztemperatur hat.
-
-**d)** Skizzieren Sie qualitativ die Lennard-Jones-Potentiale für Al und W. Was unterscheidet sie?
+**d)** Nennen Sie die drei Antwortgrößen und begründen Sie deren Relevanz für die Anwendung.
 
 </div>
 
 ---
-
-## E-Modul aus Bindungspotential
-
-## Gleichung & Bedeutung
-
-<div class="eq">
-
-$$U(r) = 4\varepsilon \left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^6\right]$$
-
-</div>
-
-<div class="aufgabe">
-
-**Aufgabe 3:**
-
-**a)** Leiten Sie die Kraft $F(r) = -\frac{dU}{dr}$ her.
-
-**b)** Bestimmen Sie den Gleichgewichtsabstand $r_0$ durch $F(r_0) = 0$.
-
-**c)** Die Federkonstante ist $k = \left.\frac{d^2U}{dr^2}\right|_{r_0}$. Zeigen Sie qualitativ: Tieferes Potential → größeres k → größerer E-Modul.
-
-**d)** Ordnen Sie nach erwartetem E-Modul: Ar, Al, Si, Diamant
-
-</div>
-
----
-
-## Ionenbindung quantitativ
-
-<div class="aufgabe">
-
-**Aufgabe 4:** Berechnen Sie für NaCl die Coulomb-Energie zweier isolierter Ionen.
-
-**Gegeben:** $r_0 = 0{,}28\,\text{nm}$, $e = 1{,}6 \times 10^{-19}\,\text{C}$, $\varepsilon_0 = 8{,}854 \times 10^{-12}\,\text{F/m}$
-
-**a)** Berechnen Sie $E_{Coulomb}$ in Joule und eV.
-
-**b)** Vergleichen Sie mit der gemessenen Bindungsenergie (3,30 eV). Warum weichen die Werte ab?
-
-**c)** Im Kristall hat jedes Na⁺-Ion 6 Cl⁻-Nachbarn. Schätzen Sie den zusätzlichen Energiegewinn.
-
-**d)** Wiederholen Sie die Rechnung für MgO ($r_0 \approx 0{,}21\,\text{nm}$, doppelte Ladungen).
-
-</div>
-
----
-
-## Ashby-Diagramm Analyse
-
-<div class="aufgabe">
-
-**Aufgabe 5:**
-
-**a)** Identifizieren Sie im Ashby-Diagramm Bereiche für Metalle, Keramiken, Polymere und Verbundwerkstoffe.
-
-**b)** Welche Materialgruppe hat das beste Festigkeit-zu-Dichte-Verhältnis?
-
-**c)** Für eine Flugzeugstruktur (hohe Festigkeit, geringes Gewicht) – welche Materialien sind geeignet?
-
-**d)** Warum liegen Schäume in einem separaten Bereich?
-
-</div>
-
----
-
-## Bindungsenergie und Zugfestigkeit
-
-<div class="aufgabe">
-
-**Aufgabe 6:**
-
-**a)** Die theoretische Zugfestigkeit lässt sich abschätzen durch:
-
-</div>
-
-<div class="eq">
-
-$$\sigma_{th} \approx \frac{E}{10}$$
-
-</div>
-
-<div class="aufgabe">
-
-Berechnen Sie $\sigma_{th}$ für 3 beliebige Materialien.
-
-**b)** Gleichen Sie die Werte mit realen Zugfestigkeiten ab.
-
-**c)** Welche mikrostrukturellen Defekte reduzieren die Festigkeit?
-
-</div>
-
----
-
-## Vergleich Bindungstypen – Aufgabe
-
-Füllen Sie die Tabelle aus. Verwenden Sie: sehr hoch / hoch / mittel / niedrig / sehr niedrig.
-
-| Eigenschaft | Ionisch | Kovalent | Metallisch | Van-der-Waals |
-|-------------|---------|----------|------------|---------------|
-| Bindungsenergie | | | | |
-| Schmelztemp. | | | | |
-| E-Modul | | | | |
-| Elektrische Leitf. | | | | |
-| Wärmeleitf. | | | | |
-| Duktilität | | | | |
-| Beispiel | | | | |
-
----
-
-# Lösung – Bindungsenergie und Schmelztemperatur
 
 <div class="loesung">
 
-**b) Zusammenhang:** Höhere Bindungsenergie → höhere Schmelztemperatur. Materialien mit starken Bindungen benötigen mehr thermische Energie zum Aufbrechen. Tendenz erkennbar, aber kein streng linearer Zusammenhang.
+**a)** $2^3 = 8$ Versuche – alle Kombinationen der drei Faktoren auf je zwei Stufen.
 
-**c) Weitere Einflussfaktoren:** Koordinationszahl, Kristallstruktur, Atommasse, Gittergeometrie, Schmelzmechanismus (Defektbildung, Gitteraufweichung).
+**b)** Planmatrix:
 
+| Nr | A | B | C |
+|---|---|---|---|
+| 1 | − | − | − |
+| 2 | + | − | − |
+| 3 | − | + | − |
+| 4 | + | + | − |
+| 5 | − | − | + |
+| 6 | + | − | + |
+| 7 | − | + | + |
+| 8 | + | + | + |
 </div>
 
-<div class="loesung">
 
-**d) Ordnung nach Schmelztemperatur:**
-1. **Graphit** (~3550°C) – kovalente C-C-Bindungen, sehr stark
-2. **TiO₂** (~1840°C) – ionisch/kovalent gemischt
-3. **Cu** (~1085°C) – metallisch, mittlere Bindungsenergie
-4. **LiF** (~845°C) – ionisch, moderate Gesamtenergie
+---
+
+<div class="loesung">
+**c)** Randomisierung vermeidet systematische Störgrößen (Ofendrift, Chargenschwankung, Tageseffekte), die sonst mit Faktoreffekten konfundiert würden.
+
+**d)** $R_{p0,2}$: Beginn plastischer Verformung (Auslegungsgrenze) · $R_m$: maximale Tragfähigkeit · $A$: Duktilität, sicherheitsrelevant für Versagensmode.
 
 </div>
 
 ---
 
-# Lösung – Koordinationszahl und Festigkeit
+# Schritt 2 – Messwerte erfassen
 
-<div class="loesung">
+<div class="aufgabe">
 
-**a) Mittlere Bindungsenergie pro Nachbar:**
-- **Diamant:** $7{,}40\,\text{eV} / 4 = \mathbf{1{,}85\,\text{eV}}$ pro Bindung
-- **Aluminium:** $3{,}40\,\text{eV} / 12 = \mathbf{0{,}28\,\text{eV}}$ pro Bindung
+**Aufgabe 2:** Die Zugversuche liegen vor. Tragen Sie die Messwerte in den Plan ein und prüfen Sie die Plausibilität.
 
-**b)** Diamant hat ca. 6,6-mal stärkere Einzelbindungen.
+**a)** Ist der Trend von $R_m$ mit steigendem A, B, C physikalisch sinnvoll? Begründen Sie.
 
-**c) Wolfram:** 6 Valenzelektronen, KRZ-Struktur (8+6 Nachbarn), kurze Bindungsabstände durch starke d-Orbital-Überlappung, Bindungsenergie 8,80 eV/Atom → Schmelzpunkt 3410°C.
+**b)** Warum sinkt $A$ [%] systematisch, wenn $R_m$ steigt?
+</div>
 
-**d) Lennard-Jones:** W hat tieferes Minimum, steilere Krümmung, kürzeren $r_0$ → höherer E-Modul (~400 GPa vs. ~70 GPa bei Al).
+---
+
+<div class="aufgabe">
+**c)** Welcher Versuchspunkt hat die **höchste Festigkeit**, welcher die **höchste Duktilität**?
+
+| Nr | A | B | C | $R_{p0{,}2}$ [MPa] | $R_m$ [MPa] | $A$ [%] |
+|---|---|---|---|---|---|---|
+| 1 | − | − | − | 310 | 480 | 28 |
+| 2 | + | − | − | 370 | 540 | 24 |
+| 3 | − | + | − | 380 | 550 | 22 |
+| 4 | + | + | − | 430 | 610 | 19 |
+| 5 | − | − | + | 420 | 590 | 21 |
+| 6 | + | − | + | 490 | 660 | 17 |
+| 7 | − | + | + | 500 | 670 | 15 |
+| 8 | + | + | + | 570 | 740 | 12 |
 
 </div>
 
 ---
 
-# Lösung – E-Modul aus Bindungspotential
 
-## Kraft und Gleichgewichtsabstand
 
 <div class="loesung">
 
-**a) Kraft:**
-$$F(r) = 24\varepsilon\left[2\left(\frac{\sigma}{r}\right)^{13} - \left(\frac{\sigma}{r}\right)^7\right]\frac{1}{r}$$
+**a)** Ja – höhere Walztemperatur → feineres Korn (Rekristallisation) → Hall-Petch. Höherer Umformgrad → Versetzungsdichte steigt → Kaltverfestigung. Schnelle Abkühlung → martensitisch/bainitisch → hohe Härte.
 
-**b) Gleichgewichtsabstand** aus $F(r_0) = 0$:
-$$r_0 = 2^{1/6}\,\sigma \approx 1{,}12\,\sigma$$
+**b)** Festigkeit–Duktilitäts-Zielkonflikt: mehr Versetzungen / härtere Phasen behindern Gleitung → weniger plastische Dehnung bis Bruch. Grundprinzip der Werkstoffmechanik.
 
-**c)** Tieferes Potential ε → steilere Krümmung → größere Federkonstante $k = \frac{d^2U}{dr^2}\big|_{r_0}$ → größerer E-Modul.
-
-**d) Reihenfolge E-Modul:**
-$$\text{Ar} < \text{Al} < \text{Si} < \text{Diamant}$$
-(≈ 0 GPa · · · 70 GPa · · · 165 GPa · · · 1000 GPa)
+**c)**
+- **Höchste Festigkeit:** Nr. 8 (A+, B+, C+) → $R_m = 740$ MPa, $A = 12\,\%$
+- **Höchste Duktilität:** Nr. 1 (A−, B−, C−) → $A = 28\,\%$, $R_m = 480$ MPa
 
 </div>
 
 ---
 
-# Lösung – Ionenbindung quantitativ
+# Schritt 3 – Haupteffekte berechnen
 
-<div class="loesung">
+## Effektformel
 
-**a) NaCl:**
-$$E = -\frac{(1{,}6\times10^{-19})^2}{4\pi\times8{,}854\times10^{-12}\times0{,}28\times10^{-9}} = -8{,}23\times10^{-19}\,\text{J} = \mathbf{-5{,}14\,\text{eV}}$$
+<div class="eq">
 
-**b)** Gemessen: −3,30 eV. Abweichung durch Pauli-Abstoßung, Born-Haber-Kreisprozess und weitere Wechselwirkungen im Kristall.
+$$E_A = \frac{1}{4}\left[(y_2-y_1)+(y_4-y_3)+(y_6-y_5)+(y_8-y_7)\right]$$
 
-**c) Im Kristall** (Madelung-Konstante α = 1,748):
-$$E_{Kristall} = -1{,}748 \times 5{,}14 \approx -8{,}98\,\text{eV} \xrightarrow{\text{mit Abstoßung}} -3{,}30\,\text{eV}$$
+</div>
 
-**d) MgO** ($r_0 = 0{,}21\,\text{nm}$, Ladung ±2e):
-$$E = -17{,}1\,\text{eV} \quad (\approx 3{,}3\times\text{ stärker als NaCl})$$
+<div class="aufgabe">
+
+**Aufgabe 3:** Berechnen Sie die Haupteffekte für $R_m$ [MPa].
+
+**a)** Wenden Sie die Formel auf Faktor A (Walztemperatur) an. Zeigen Sie den Rechenweg.
+
+**b)** Berechnen Sie analog $E_B$ und $E_C$.
+
+**c)** Welcher Faktor hat den **stärksten Einfluss** auf $R_m$?
+
+**d)** Warum wird über **vier Differenzen** gemittelt und nicht nur eine gemessen?
 
 </div>
 
 ---
 
-# Lösung – Ashby-Diagramm
 
-<div class="zwei-spalten">
 
-<div>
+<div class="loesung">
 
-### Materialgruppen
-- **Metalle:** ρ = 2–20 g/cm³, σ = 50–2000 MPa, duktil
-- **Keramiken:** ρ = 2–4 g/cm³, hohe Druckfestigkeit, spröde
-- **Polymere:** ρ = 0,9–1,5 g/cm³, σ = 10–100 MPa
-- **Verbundwerkstoffe:** ρ = 1–3 g/cm³, σ = 200–2000 MPa
+**a) Haupteffekt A** ($R_m$):
+
+$$E_A = \frac{1}{4}\left[(540-480)+(610-550)+(660-590)+(740-670)\right]$$
+$$= \frac{1}{4}\left[60+60+70+70\right] = \frac{260}{4} = \mathbf{+65\,\text{MPa}}$$
+
+**b)**
+
+$$E_B = \frac{1}{4}\left[(550-480)+(610-540)+(670-590)+(740-660)\right] = \frac{340}{4} = \mathbf{+85\,\text{MPa}}$$
+
+$$E_C = \frac{1}{4}\left[(590-480)+(660-540)+(670-550)+(740-610)\right] = \frac{460}{4} = \mathbf{+115\,\text{MPa}}$$
+
+**c)** Abkühlrate C hat den stärksten Einfluss ($+115$ MPa > $+85$ > $+65$).
+
+**d)** Jede der vier Differenzen schätzt den A-Effekt bei einer anderen B×C-Kombination. Der Mittelwert macht die Schätzung unabhängig von Wechselwirkungen – das ist der Kern des faktoriellen Designs.
+
+</div>
+
+---
+
+# Schritt 4 – Wechselwirkungen identifizieren
+
+<div class="aufgabe">
+
+**Aufgabe 4:** Untersuchen Sie die Wechselwirkung B×C.
+
+**a)** Berechnen Sie den B-Effekt **getrennt** für C− und C+:
+
+| | C− (Luft) | C+ (Wasser) |
+|---|---|---|
+| B−: Versuche | Nr. 1 und 2 | Nr. 5 und 6 |
+| B+: Versuche | Nr. 3 und 4 | Nr. 7 und 8 |
+
+**b)** Vergleichen Sie die beiden B-Effekte. Liegt eine Wechselwirkung vor?
+
+**c)** Skizzieren Sie qualitativ ein Wechselwirkungsdiagramm: $R_m$ auf der y-Achse, B auf der x-Achse, je eine Linie für C− und C+.
+
+**d)** Was bedeutet eine Wechselwirkung für die Praxis: Kann man Faktor B unabhängig von C optimieren?
 
 </div>
 
-<div>
+---
 
-### Bestes σ/ρ-Verhältnis
-| Material | σ/ρ (MPa·cm³/g) |
-|----------|----------------|
-| CFK | ~625 |
-| Al-Leg. | ~185 |
-| Titan | ~200 |
-| Stahl | ~51 |
 
-→ CFK ca. **12× besser** als Stahl!
+<div class="loesung">
 
-</div>
+**a) B-Effekt bei C−** (Luftabkühlung):
+$$\Delta R_m = \frac{(550+610)}{2} - \frac{(480+540)}{2} = 580 - 510 = +70\,\text{MPa}$$
+
+**B-Effekt bei C+** (Wasserabkühlung):
+$$\Delta R_m = \frac{(670+740)}{2} - \frac{(590+660)}{2} = 705 - 625 = +80\,\text{MPa}$$
+
+**b)** +70 vs. +80 MPa – kleiner Unterschied → **schwache Wechselwirkung** B×C vorhanden, aber gering. Die Linien im Diagramm verlaufen annähernd parallel.
+
+**c)** Annähernd parallele Linien mit C+ höher als C−, leicht divergierend bei B+.
+
+**d)** Bei schwacher Wechselwirkung: Faktoren können **näherungsweise unabhängig** optimiert werden. Bei starker Wechselwirkung (kreuzende Linien) muss die Kombination gemeinsam gewählt werden.
 
 </div>
 
 <div class="hinweis">
 
-**Schäume** liegen separat: sehr niedrige Dichte (0,01–0,5 g/cm³) UND sehr niedrige Festigkeit (0,1–10 MPa). Anderer Versagensmechanismus (Zellwand-Knicken), Einsatz für Energieabsorption.
+Im Gegensatz zum OFAT-Härte-Beispiel ist die B×C-Wechselwirkung hier schwach – aber nur weil wir **alle Kombinationen gemessen** haben, wissen wir das sicher!
 
 </div>
 
 ---
 
-# Lösung – Bindungsenergie und Zugfestigkeit
+# Schritt 5 – Zielkonflikt erkennen
+
+<div class="aufgabe">
+
+**Aufgabe 5:** Analysieren Sie den Festigkeit-Duktilitäts-Zielkonflikt.
+
+**a)** Tragen Sie alle 8 Versuchspunkte in ein $R_m$-$A$-Diagramm ein (Skizze genügt).
+
+**b)** Berechnen Sie das Verhältnis $R_m \cdot A$ als einfaches Zähigkeitsmaß für alle 8 Punkte. Welcher Punkt hat den besten Kompromiss?
+
+**c)** Eine Anwendung fordert: $R_m \geq 600\,\text{MPa}$ **und** $A \geq 17\,\%$. Welche Versuchspunkte erfüllen beide Bedingungen?
+
+**d)** Wie würde eine **Desirability-Funktion** dieses Problem lösen? Skizzieren Sie das Prinzip.
+
+</div>
+
+---
+
 
 <div class="loesung">
 
-**a) Theoretische Zugfestigkeit $\sigma_{th} = E/10$:**
+**b) Zähigkeitsmaß $R_m \cdot A$:**
 
-| Material | E (GPa) | $\sigma_{th}$ (GPa) |
-|----------|---------|---------------------|
-| Diamant | 1000 | 100 |
-| Stahl | 210 | 21 |
-| Aluminium | 70 | 7 |
+| Nr | $R_m$ | $A$ | $R_m \cdot A$ |
+|---|---|---|---|
+| 1 | 480 | 28 | **13 440** |
+| 2 | 540 | 24 | 12 960 |
+| 3 | 550 | 22 | 12 100 |
+| 4 | 610 | 19 | 11 590 |
+| 5 | 590 | 21 | 12 390 |
+| 6 | 660 | 17 | **11 220** |
+| 7 | 670 | 15 | 10 050 |
+| 8 | 740 | 12 | 8 880 |
 
-**b) Reale Werte:**
+→ Bester Kompromiss: **Nr. 1** (aber zu geringe Festigkeit für viele Anwendungen).
 
-| Material | $\sigma_{th}$ (GPa) | $\sigma_{real}$ (GPa) | Faktor |
-|----------|---------------------|-----------------------|--------|
-| Diamant | 100 | 1–2 | 50–100 |
-| Stahl | 21 | 0,5–2 | 10–40 |
-| Al | 7 | 0,1–0,5 | 14–70 |
+**c)** $R_m \geq 600$ und $A \geq 17\,\%$: **Nr. 4** (610 MPa / 19 %) und **Nr. 6** (660 MPa / 17 %) ✓
+
+**d)** Desirability: Für jede Zielgröße eine Wunschfunktion $d_i \in [0,1]$ → Gesamtdesirability $D = (d_1 \cdot d_2 \cdots d_n)^{1/n}$ maximieren. Parameter, die beide $d_i$ hoch halten, gewinnen.
 
 </div>
 
 ---
 
-# Lösung – Mikrostrukturelle Defekte
+# Schritt 6 – Modell validieren
+
+<div class="aufgabe">
+
+**Aufgabe 6:** Das Modell aus dem $2^3$-Plan soll bestätigt werden.
+
+Das lineare Modell für $R_{p0,2}$ lautet (vereinfacht):
+
+<div class="eq">
+
+$$\hat{R}_{p0,2} = \bar{y} + \frac{E_A}{2}\,x_A + \frac{E_B}{2}\,x_B + \frac{E_C}{2}\,x_C$$
+
+</div>
+
+mit $\bar{y} = 434\,\text{MPa}$, $E_A = +65$, $E_B = +82$, $E_C = +105$ (in MPa, $x_i \in \{-1,+1\}$).
+
+**a)** Berechnen Sie $\hat{R}_{p0,2}$ für die Einstellung A+, B−, C+ ($x_A=+1$, $x_B=-1$, $x_C=+1$).
+
+**b)** Der Bestätigungsversuch ergibt drei Messwerte: 487, 494, 491 MPa. Berechnen Sie Mittelwert und Standardabweichung.
+
+**c)** Liegt die Vorhersage im 95%-Konfidenzintervall der Messung?
+
+**d)** Was würden Sie tun, wenn die Abweichung > 10 % beträgt?
+
+</div>
+
+---
+
 
 <div class="loesung">
 
-Reale Festigkeit ist **10–100× niedriger** als theoretisch, wegen:
+**a) Modellvorhersage** für A+, B−, C+:
 
-- **Versetzungen** – ermöglichen plastische Verformung (Teppichtrick) bei niedrigen Spannungen
-- **Risse und Mikrorisse** – Spannungskonzentration an Rissspitze (Griffith-Kriterium)
-- **Korngrenzen** – Grenzflächen mit schwächeren Bindungen, Rissausgang möglich
-- **Poren und Hohlräume** – reduzieren tragenden Querschnitt, Kerbwirkung
-- **Einschlüsse** – Oxide, Sulfide → Spannungskonzentration
-- **Oberflächen und Kerben** – Rissinitiierung durch Spannungsüberhöhung
+$$\hat{R}_{p0,2} = 434 + \frac{65}{2}(+1) + \frac{82}{2}(-1) + \frac{105}{2}(+1)$$
+$$= 434 + 32{,}5 - 41{,}0 + 52{,}5 = \mathbf{478\,\text{MPa}}$$
 
-</div>
+<br>
 
-<div class="hinweis">
+Hinweis: Der Messwert im Plan (Nr. 6: 490 MPa) liegt nahe dran – Abweichung durch fehlende Wechselwirkungsterme im vereinfachten Modell.
 
-**Ausnahme:** Defektfreie Materialien (Whisker, Nanomaterialien) erreichen $\sigma_{th}$!
+**b)** $\bar{x} = (487+494+491)/3 = \mathbf{491\,\text{MPa}}$
+
+$$s = \sqrt{\frac{(487-491)^2+(494-491)^2+(491-491)^2}{2}} = \sqrt{\frac{16+9+0}{2}} \approx \mathbf{3{,}5\,\text{MPa}}$$
+
+**c)** KI: $491 \pm 4{,}30 \cdot \frac{3{,}5}{\sqrt{3}} = 491 \pm 8{,}7\,\text{MPa}$ → Bereich [482, 500 MPa]. Vorhersage 478 MPa liegt knapp außerhalb → Wechselwirkungsterm B×C sollte ergänzt werden.
+
+**d)** Modell erweitern (Wechselwirkungen aufnehmen), Störgrößen prüfen, ggf. RSM mit Mittelpunkten verwenden.
 
 </div>
 
 ---
 
-# Lösung – Vergleich Bindungstypen
+# Gesamtübersicht – DoE-Ablauf am Zugversuch
 
-| Eigenschaft | Ionisch | Kovalent | Metallisch | Van-der-Waals |
-|-------------|---------|----------|------------|---------------|
-| **Bindungsenergie** | Hoch | Sehr hoch | Mittel–Hoch | Sehr niedrig |
-| **Schmelztemp.** | Hoch | Sehr hoch | Niedrig–Sehr hoch | Sehr niedrig |
-| **E-Modul** | Hoch | Sehr hoch | Mittel | Sehr niedrig |
-| **Elektrische Leitf.** | Sehr niedrig | Sehr niedrig | Sehr hoch | Sehr niedrig |
-| **Wärmeleitf.** | Niedrig–Mittel | Niedrig–Sehr hoch* | Hoch | Sehr niedrig |
-| **Duktilität** | Sehr niedrig | Sehr niedrig | Hoch | Niedrig |
-| **Beispiel** | NaCl, MgO | Diamant, Si | Fe, Al, Cu | Ar, Wachs |
+| Schritt | Tätigkeit | Ergebnis |
+|---|---|---|
+| **1** | Faktoren & Stufen festlegen | $2^3$-Plan, 8 Versuche |
+| **2** | Messwerte erfassen & prüfen | Plausibler Datensatz |
+| **3** | Haupteffekte berechnen | C dominiert ($+115$ MPa) |
+| **4** | Wechselwirkungen prüfen | B×C schwach vorhanden |
+| **5** | Zielkonflikt analysieren | Nr. 4 und 6 als Kompromiss |
+| **6** | Modell validieren | Abweichung < 2 % |
+
