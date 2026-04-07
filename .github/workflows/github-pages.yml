@@ -30,6 +30,7 @@ jobs:
       matrix:
         folder:
           - Faserverbund_02
+          - pd_01
           - fracture_and_fatigue_01
           - wst2_mb_ erste_vorlesung
           - wst2_mb_w1_bindungen
