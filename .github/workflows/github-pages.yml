@@ -42,7 +42,7 @@ jobs:
           - FF_introduction
           - FF_seminar_math
           - FF_seminar_math_II
-          - FF_seminar_math_II
+          - FF_seminar_math_III
           - FF_seminar_math_IV
           - FF_seminar_V
           - FF_types_of_fatigue
