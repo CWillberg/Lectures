@@ -57,7 +57,7 @@ img[alt="ORCID"] {
 
 ##  Non-local structural mechanics and Peridynamics
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-Magdeburg-Stendal university of applied sciences
+Magdeburg-Stendal University of Applied Sciences
 
 ![bg right](../assets/Figures/PeriMesh.PNG)
 
@@ -71,8 +71,11 @@ Kontakt: christian.willberg@h2.de
 
 ## Lecture
 
-- analytical part by [Prof. Dr.-Ing. habil. Konstantin Naumenko](konstantin.naumenko@ovgu.de)
+- Analytical part by [Prof. Dr.-Ing. habil. Konstantin Naumenko](konstantin.naumenko@ovgu.de)
+    - Wednesday 15:00 - 17:00, G40B-231
 - Numerics and application by [Prof. Dr.-Ing. Christian Willberg](christian.willberg@h2.de)
+    -   Wednesday 11:00 - 12:30, G05-117
+
 
 ![bg right 50%](../assets/QR/pd_01.png)
 
@@ -147,13 +150,14 @@ no derivative exists at the position, where $A_1$ becomes $A_2$
 
 ---
 
-![bg fit](../assets/Figures/model_comp.png)
 
----
 
 # Peridynamics (PD)
 
+![bg 80%](../assets/Figures/model_comp.png)
 
+
+---
 
 $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 \underline{\textbf{T}}(\textbf{x}',t))dV_{\textbf{x}}+\textbf{b} =\rho\ddot{\textbf{u}}$
@@ -245,3 +249,23 @@ PeriLab.main("examples/DCB/DCBmodel.yaml") (run run model)
 [Theory](https://perihub.github.io/PeriLab.jl/dev/theory/theory/)
 [Examples for the seminar](https://perihub.github.io/PeriLab.jl/dev/lecture/lecture/)
 [Results](https://perilab-results.nimbus-extern.dlr.de/)
+
+---
+# Project Opportunities
+### Projects
+- convergence analysis of a fracture problem
+- thermal induced fractures
+- model comparison
+- crack growth with branching
+### Details
+- given in the first seminar
+
+
+---
+
+# Contact
+
+Prof. Dr.-Ing. Christian Willberg
+Magdeburg-Stendal university of applied sciences
+
+Kontakt: christian.willberg@h2.de
