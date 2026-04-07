@@ -39,6 +39,13 @@ jobs:
           - wst2_mb_w2_festigkeit_plastizitaet_seminar
           - wst2_mb_w3_Spannungen_Dehnungen
           - wst2_mb_w3_Spannungen_Dehnungen_Seminar
+          - F&F_introduction
+          - F&F_seminar_math
+          - F&F_seminar_math_II
+          - F&F_seminar_math_II
+          - F&F_seminar_math_IV
+          - F&F_seminar_V
+          - F&F_types_of_fatigue
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03
