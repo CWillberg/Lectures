@@ -43,8 +43,7 @@ img[alt="ORCID"] {
 }
 </style>
 
-## Werkstofftechnik II
-### Dehnungsmaße, Zähigkeit und Spannungs-Dehnungs-Verhalten
+# Werkstofftechnik II - Dehnungsmaße, Zähigkeit und Spannungs-Dehnungs-Verhalten
 
 Prof. Dr.-Ing. Christian Willberg
 
