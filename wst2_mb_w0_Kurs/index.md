@@ -106,6 +106,37 @@ V13 - Wiederholung
 
 ---
 
+
+![bg 60%](../assets/Figures/material_verbrauch.png)
+
+---
+
+### Vorträge 
+
+
+Als Gruppe 3 - 4 Personen
+- Stahlnormen
+- Nachhaltigkeitsmetriken
+- Prüfverfahren
+- Kaltverfestigung und Warmverfestigung
+### Einzeln
+- Kurzvortrag gewähltes Material
+
+--- 
+
+## Praktikum
+- komplette Prüfkette
+
+- DOE 
+- CAD 
+- fertigen 
+- testen 
+- analysiewren 
+- Bericht schreiben 
+- vortragen als kleine gruppen
+
+---
+
 ## Quellen
 Kalpakjian, Schmid, Werner - "Werkstofftechnik", 2011
 Gross, Seelig - "Bruchmechanik - 
