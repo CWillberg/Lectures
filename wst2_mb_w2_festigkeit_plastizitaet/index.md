@@ -9,7 +9,7 @@ paginate: true
 math: katex
 ---
 
-## Werkstofftechnik II - Festigkeit und Plastizität
+# Werkstofftechnik II - Festigkeit und Plastizität
 Prof. Dr.-Ing. Christian Willberg
 
 <div style="position: absolute; top: 200px; left: 850px;"> 

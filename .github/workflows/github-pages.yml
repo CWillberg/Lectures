@@ -32,7 +32,7 @@ jobs:
           - Faserverbund_02
           - pd_01
           - fracture_and_fatigue_01
-          - wst2_mb_ erste_vorlesung
+          - wst2_mb_erste_vorlesung
           - wst2_mb_w1_bindungen
           - wst2_mb_w1_bindungen_seminar
           - wst2_mb_w2_festigkeit_plastizitaet

@@ -88,39 +88,30 @@ Kontakt: christian.willberg@h2.de
 
 ---
 
-DOE - CAD - Drucken - testen - bericht schreiben - vortragen als kleine gruppen
+### Vorträge 
 
 
----
-
-Vorträge 
-
-
-3 - 4 Personen
-Normen
-Kaltverfestigung
-Schweißen - Kontext Werkstofftechnik
-Nachhaltigkeit
-Testverfahren
-
-Wämebehandlung
-
-Kaltverfestigung Warmverfestigung
-
-Ermüdung
-
-Kurzvortrag gewähltes Material
+Als Gruppe 3 - 4 Personen
+- Stahlnormen
+- Nachhaltigkeitsmetriken
+- Prüfverfahren
+- Kaltverfestigung und Warmverfestigung
+### Einzeln
+- Kurzvortrag gewähltes Material
 
 --- 
 
-Bindungen
-Plastizität und Festigkeit
-Elektrische und thermische Eigenschaften
-Eisen-Kohlenstoffdiagramm und Legierungen I
-Eisen-Kohlenstoffdiagramm und Legierungen II
+## Praktikum
+- komplette Prüfkette
 
-Design of Experiment
-Ermüdung und Bruchmechanik
-Polymere
-Vorträge
+- DOE 
+- CAD 
+- fertigen 
+- testen 
+- analysiewren 
+- Bericht schreiben 
+- vortragen als kleine gruppen
+
+
+
 
