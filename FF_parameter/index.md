@@ -170,13 +170,11 @@ $$K_f = 1 + q(K_t - 1) \qquad 0 \leq q \leq 1$$
 
 ---
 
-## Fracture Mechanics — Crack Opening Modes
+##  Crack Opening Modes
 
 Three fundamental modes of crack loading:
+![bg right fit](https://wiki.polymerservice-merseburg.de/images/thumb/d/df/Rissoeffnungsmoden.jpg/600px-Rissoeffnungsmoden.jpg)
 
-
-<div class="zwei-spalten">
-<div>
 
 **Mode I — Opening**
 - Load perpendicular to crack plane
@@ -187,8 +185,8 @@ Three fundamental modes of crack loading:
 - Load parallel to crack, perpendicular to crack front
 - Governed by $K_{II}$
 
-</div>
-<div>
+
+---
 
 **Mode III — Out-of-plane shear**
 - Load parallel to crack and crack front (tearing)
@@ -197,8 +195,7 @@ Three fundamental modes of crack loading:
 **Mixed mode:**
 $$K_{eff} = \sqrt{K_I^2 + K_{II}^2 + \frac{K_{III}^2}{1-\nu}}$$
 
-</div>
-</div>
+
 
 In fatigue, cracks tend to reorient to **pure Mode I** (Stage II) — the direction minimising mixed-mode contributions.
 
