@@ -328,7 +328,7 @@ $$E \approx \frac{k}{r_0} = \frac{0{,}791}{3{,}81 \times 10^{-10}} \approx 2{,}0
 | Argon (Ar, fest) | ? | ~2 | |
 | Polyethylen (PE) | ? | ~1 | |
 
-**b)** Warum hat Diamant den höchsten E-Modul aller Materialien, obwohl Kohlenstoff leicht ist?
+**b)** Warum hat Diamant den höchsten E-Modul aller Materialien?
 
 **c)** Warum haben Keramiken (Al₂O₃) oft höhere E-Moduli als Metalle, aber sind trotzdem spröde?
 

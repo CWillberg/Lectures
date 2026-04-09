@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Fertigungsverfahren'
+header: 'Faserverbundwerkstoffe - Fertigungsverfahren'
 theme: h2
 paginate: true
 math: katex

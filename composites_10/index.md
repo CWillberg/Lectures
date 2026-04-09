@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Fügeverbindungen'
+header: 'Faserverbundwerkstoffe - Fügeverbindungen'
 theme: h2
 paginate: true
 math: katex

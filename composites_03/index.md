@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Ausgangsmaterial: Polymere Matrixsysteme'
+header: 'Faserverbundwerkstoffe - Ausgangsmaterial: Polymere Matrixsysteme'
 theme: h2
 paginate: true
 math: katex

@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - UD-Schicht Elastizitätsgesetz'
+header: 'Faserverbundwerkstoffe - UD-Schicht Elastizitätsgesetz'
 theme: h2
 paginate: true
 math: katex

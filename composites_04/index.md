@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faser-Matrix-Halbzeuge'
+header: 'Faserverbundwerkstoffe - Faser-Matrix-Halbzeuge'
 theme: h2
 paginate: true
 math: katex

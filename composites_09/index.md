@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Mikromechanik von Langfaserverbunden'
+header: 'Faserverbundwerkstoffe - Mikromechanik von Langfaserverbunden'
 theme: h2
 paginate: true
 math: katex

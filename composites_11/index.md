@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Laminattheorie'
+header: 'Faserverbundwerkstoffe - Laminattheorie'
 theme: h2
 paginate: true
 math: katex

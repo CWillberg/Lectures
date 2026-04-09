@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Festigkeit eines UD-Verbundes'
+header: 'Faserverbundwerkstoffe - Festigkeit eines UD-Verbundes'
 theme: h2
 paginate: true
 math: katex

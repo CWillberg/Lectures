@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Faserverbunde - Ausgangsmaterial: Fasern'
+header: 'Faserverbundwerkstoffe - Ausgangsmaterial: Fasern'
 theme: h2
 paginate: true
 math: katex
@@ -8,7 +8,7 @@ math: katex
 
 <!-- _class: lead -->
 
-# Ausgangsmaterial: Fasern
+# Faserverbundwerkstoffe - Ausgangsmaterial: Fasern
 
 <div style="position: absolute; top: 200px; left: 850px;"> 
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/composites_02/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
