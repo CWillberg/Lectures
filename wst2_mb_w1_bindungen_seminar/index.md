@@ -1,9 +1,9 @@
 ---
 marp: true
 theme: h2
-header: 'DOE Seminar'
+header: 'Seminar Bindungen'
 footer: ''
-title: Werkstofftechnik II - DOE Seminar
+title: Werkstofftechnik II - Seminar Bindungen
 author: Christian Willberg
 
 style: |
@@ -98,325 +98,320 @@ img[alt="ORCID"] {
 }
 </style>
 
-# Seminar Werkstofftechnik II – Design of Experiments
+# Seminar Werkstofftechnik II – Bindungen
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
-
-<div style="position: absolute; top: 200px; left: 850px;">
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/wst2_mb_w5_DOE_seminar/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
 
 Kontakt: christian.willberg@h2.de
 
 ---
 <!--paginate: true-->
 
-## Schritt 1 – Versuchsziel und Faktoren definieren
-
-## Fragestellung
-
-Wie beeinflussen Herstellungsparameter die **Zugfestigkeitskennwerte** von Stahlproben?
-
-<div class="aufgabe">
-
-**Aufgabe 1:** Bereiten Sie den Versuchsplan vor.
-
-**a)** Sie untersuchen drei Faktoren mit je zwei Stufen. Wie viele Versuche umfasst ein vollständiger $2^3$-Plan?
-
-**b)** Benennen Sie die Faktoren und tragen Sie die kodierten Stufen (−/+) in die Planmatrix ein.
-
-| Faktor | − (untere Stufe) | + (obere Stufe) |
-|---|---|---|
-| A: Walztemperatur | 900 °C | 1100 °C |
-| B: Umformgrad | 20 % | 60 % |
-| C: Abkühlrate | langsam (Luft) | schnell (Wasser) |
-
-**c)** Warum werden die Versuche in **zufälliger Reihenfolge** durchgeführt?
-
-**d)** Nennen Sie die drei Antwortgrößen und begründen Sie deren Relevanz für die Anwendung.
-
-</div>
-
----
-
-<div class="loesung">
-
-**a)** $2^3 = 8$ Versuche – alle Kombinationen der drei Faktoren auf je zwei Stufen.
-
-**b)** Planmatrix:
-
-| Nr | A | B | C |
-|---|---|---|---|
-| 1 | − | − | − |
-| 2 | + | − | − |
-| 3 | − | + | − |
-| 4 | + | + | − |
-| 5 | − | − | + |
-| 6 | + | − | + |
-| 7 | − | + | + |
-| 8 | + | + | + |
-</div>
-
-
----
-
-<div class="loesung">
-**c)** Randomisierung vermeidet systematische Störgrößen (Ofendrift, Chargenschwankung, Tageseffekte), die sonst mit Faktoreffekten konfundiert würden.
-
-**d)** $R_{p0,2}$: Beginn plastischer Verformung (Auslegungsgrenze) · $R_m$: maximale Tragfähigkeit · $A$: Duktilität, sicherheitsrelevant für Versagensmode.
-
-</div>
-
----
-
-# Schritt 2 – Messwerte erfassen
-
-<div class="aufgabe">
-
-**Aufgabe 2:** Die Zugversuche liegen vor. Tragen Sie die Messwerte in den Plan ein und prüfen Sie die Plausibilität.
-
-**a)** Ist der Trend von $R_m$ mit steigendem A, B, C physikalisch sinnvoll? Begründen Sie.
-
-**b)** Warum sinkt $A$ [%] systematisch, wenn $R_m$ steigt?
-</div>
-
----
-
-<div class="aufgabe">
-**c)** Welcher Versuchspunkt hat die **höchste Festigkeit**, welcher die **höchste Duktilität**?
-
-| Nr | A | B | C | $R_{p0{,}2}$ [MPa] | $R_m$ [MPa] | $A$ [%] |
-|---|---|---|---|---|---|---|
-| 1 | − | − | − | 310 | 480 | 28 |
-| 2 | + | − | − | 370 | 540 | 24 |
-| 3 | − | + | − | 380 | 550 | 22 |
-| 4 | + | + | − | 430 | 610 | 19 |
-| 5 | − | − | + | 420 | 590 | 21 |
-| 6 | + | − | + | 490 | 660 | 17 |
-| 7 | − | + | + | 500 | 670 | 15 |
-| 8 | + | + | + | 570 | 740 | 12 |
-
-</div>
-
----
-
-
-
-<div class="loesung">
-
-**a)** Ja – höhere Walztemperatur → feineres Korn (Rekristallisation) → Hall-Petch. Höherer Umformgrad → Versetzungsdichte steigt → Kaltverfestigung. Schnelle Abkühlung → martensitisch/bainitisch → hohe Härte.
-
-**b)** Festigkeit–Duktilitäts-Zielkonflikt: mehr Versetzungen / härtere Phasen behindern Gleitung → weniger plastische Dehnung bis Bruch. Grundprinzip der Werkstoffmechanik.
-
-**c)**
-- **Höchste Festigkeit:** Nr. 8 (A+, B+, C+) → $R_m = 740$ MPa, $A = 12\,\%$
-- **Höchste Duktilität:** Nr. 1 (A−, B−, C−) → $A = 28\,\%$, $R_m = 480$ MPa
-
-</div>
-
----
-
-# Schritt 3 – Haupteffekte berechnen
-
-## Effektformel
-
-<div class="eq">
-
-$$E_A = \frac{1}{4}\left[(y_2-y_1)+(y_4-y_3)+(y_6-y_5)+(y_8-y_7)\right]$$
-
-</div>
-
-<div class="aufgabe">
-
-**Aufgabe 3:** Berechnen Sie die Haupteffekte für $R_m$ [MPa].
-
-**a)** Wenden Sie die Formel auf Faktor A (Walztemperatur) an. Zeigen Sie den Rechenweg.
-
-**b)** Berechnen Sie analog $E_B$ und $E_C$.
-
-**c)** Welcher Faktor hat den **stärksten Einfluss** auf $R_m$?
-
-**d)** Warum wird über **vier Differenzen** gemittelt und nicht nur eine gemessen?
-
-</div>
-
----
-
-
-
-<div class="loesung">
-
-**a) Haupteffekt A** ($R_m$):
-
-$$E_A = \frac{1}{4}\left[(540-480)+(610-550)+(660-590)+(740-670)\right]$$
-$$= \frac{1}{4}\left[60+60+70+70\right] = \frac{260}{4} = \mathbf{+65\,\text{MPa}}$$
-
-**b)**
-
-$$E_B = \frac{1}{4}\left[(550-480)+(610-540)+(670-590)+(740-660)\right] = \frac{340}{4} = \mathbf{+85\,\text{MPa}}$$
-
-$$E_C = \frac{1}{4}\left[(590-480)+(660-540)+(670-550)+(740-610)\right] = \frac{460}{4} = \mathbf{+115\,\text{MPa}}$$
-
-**c)** Abkühlrate C hat den stärksten Einfluss ($+115$ MPa > $+85$ > $+65$).
-
-**d)** Jede der vier Differenzen schätzt den A-Effekt bei einer anderen B×C-Kombination. Der Mittelwert macht die Schätzung unabhängig von Wechselwirkungen – das ist der Kern des faktoriellen Designs.
-
-</div>
-
----
-
-# Schritt 4 – Wechselwirkungen identifizieren
-
-<div class="aufgabe">
-
-**Aufgabe 4:** Untersuchen Sie die Wechselwirkung B×C.
-
-**a)** Berechnen Sie den B-Effekt **getrennt** für C− und C+:
-
-| | C− (Luft) | C+ (Wasser) |
-|---|---|---|
-| B−: Versuche | Nr. 1 und 2 | Nr. 5 und 6 |
-| B+: Versuche | Nr. 3 und 4 | Nr. 7 und 8 |
-
-**b)** Vergleichen Sie die beiden B-Effekte. Liegt eine Wechselwirkung vor?
-
-**c)** Skizzieren Sie qualitativ ein Wechselwirkungsdiagramm: $R_m$ auf der y-Achse, B auf der x-Achse, je eine Linie für C− und C+.
-
-**d)** Was bedeutet eine Wechselwirkung für die Praxis: Kann man Faktor B unabhängig von C optimieren?
-
-</div>
-
----
-
-
-<div class="loesung">
-
-**a) B-Effekt bei C−** (Luftabkühlung):
-$$\Delta R_m = \frac{(550+610)}{2} - \frac{(480+540)}{2} = 580 - 510 = +70\,\text{MPa}$$
-
-**B-Effekt bei C+** (Wasserabkühlung):
-$$\Delta R_m = \frac{(670+740)}{2} - \frac{(590+660)}{2} = 705 - 625 = +80\,\text{MPa}$$
-
-**b)** +70 vs. +80 MPa – kleiner Unterschied → **schwache Wechselwirkung** B×C vorhanden, aber gering. Die Linien im Diagramm verlaufen annähernd parallel.
-
-**c)** Annähernd parallele Linien mit C+ höher als C−, leicht divergierend bei B+.
-
-**d)** Bei schwacher Wechselwirkung: Faktoren können **näherungsweise unabhängig** optimiert werden. Bei starker Wechselwirkung (kreuzende Linien) muss die Kombination gemeinsam gewählt werden.
-
-</div>
+## Überblick: Gleichungen im Seminar
+
+| Thema | Gleichung |
+|---|---|
+| Coulomb-Kraft | $F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}$ |
+| Coulomb-Energie | $E = \frac{q_1 q_2}{4\pi\varepsilon_0 r}$ |
+| Lennard-Jones-Potenzial | $U(r) = 4\varepsilon\left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^6\right]$ |
+| Federmodell (Bindungskraft) | $F_i = k(r_0 - r)$ |
+| Steifigkeit | $S = k$ |
 
 <div class="hinweis">
 
-Im Gegensatz zum OFAT-Härte-Beispiel ist die B×C-Wechselwirkung hier schwach – aber nur weil wir **alle Kombinationen gemessen** haben, wissen wir das sicher!
+Konstanten: $e = 1{,}602 \times 10^{-19}$ C, $\varepsilon_0 = 8{,}854 \times 10^{-12}$ C²/(N·m²), $\frac{1}{4\pi\varepsilon_0} = 8{,}99 \times 10^9$ N·m²/C²
 
 </div>
 
 ---
 
-# Schritt 5 – Zielkonflikt erkennen
-
-<div class="aufgabe">
-
-**Aufgabe 5:** Analysieren Sie den Festigkeit-Duktilitäts-Zielkonflikt.
-
-**a)** Tragen Sie alle 8 Versuchspunkte in ein $R_m$-$A$-Diagramm ein (Skizze genügt).
-
-**b)** Berechnen Sie das Verhältnis $R_m \cdot A$ als einfaches Zähigkeitsmaß für alle 8 Punkte. Welcher Punkt hat den besten Kompromiss?
-
-**c)** Eine Anwendung fordert: $R_m \geq 600\,\text{MPa}$ **und** $A \geq 17\,\%$. Welche Versuchspunkte erfüllen beide Bedingungen?
-
-**d)** Wie würde eine **Desirability-Funktion** dieses Problem lösen? Skizzieren Sie das Prinzip.
-
-</div>
-
----
-
-
-<div class="loesung">
-
-**b) Zähigkeitsmaß $R_m \cdot A$:**
-
-| Nr | $R_m$ | $A$ | $R_m \cdot A$ |
-|---|---|---|---|
-| 1 | 480 | 28 | **13 440** |
-| 2 | 540 | 24 | 12 960 |
-| 3 | 550 | 22 | 12 100 |
-| 4 | 610 | 19 | 11 590 |
-| 5 | 590 | 21 | 12 390 |
-| 6 | 660 | 17 | **11 220** |
-| 7 | 670 | 15 | 10 050 |
-| 8 | 740 | 12 | 8 880 |
-
-→ Bester Kompromiss: **Nr. 1** (aber zu geringe Festigkeit für viele Anwendungen).
-
-**c)** $R_m \geq 600$ und $A \geq 17\,\%$: **Nr. 4** (610 MPa / 19 %) und **Nr. 6** (660 MPa / 17 %) ✓
-
-**d)** Desirability: Für jede Zielgröße eine Wunschfunktion $d_i \in [0,1]$ → Gesamtdesirability $D = (d_1 \cdot d_2 \cdots d_n)^{1/n}$ maximieren. Parameter, die beide $d_i$ hoch halten, gewinnen.
-
-</div>
-
----
-
-# Schritt 6 – Modell validieren
-
-<div class="aufgabe">
-
-**Aufgabe 6:** Das Modell aus dem $2^3$-Plan soll bestätigt werden.
-
-Das lineare Modell für $R_{p0,2}$ lautet (vereinfacht):
+# Schritt 1 – Coulomb-Kraft zwischen Ionen
 
 <div class="eq">
 
-$$\hat{R}_{p0,2} = \bar{y} + \frac{E_A}{2}\,x_A + \frac{E_B}{2}\,x_B + \frac{E_C}{2}\,x_C$$
+$$F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}$$
 
 </div>
 
-mit $\bar{y} = 434\,\text{MPa}$, $E_A = +65$, $E_B = +82$, $E_C = +105$ (in MPa, $x_i \in \{-1,+1\}$).
+<div class="aufgabe">
 
-**a)** Berechnen Sie $\hat{R}_{p0,2}$ für die Einstellung A+, B−, C+ ($x_A=+1$, $x_B=-1$, $x_C=+1$).
+**Aufgabe 1:** Berechnen Sie die Coulomb-Anziehungskraft zwischen Na⁺ und Cl⁻.
 
-**b)** Der Bestätigungsversuch ergibt drei Messwerte: 487, 494, 491 MPa. Berechnen Sie Mittelwert und Standardabweichung.
+**a)** Welche Ladungen tragen Na⁺ und Cl⁻? Geben Sie $q_1$ und $q_2$ in Coulomb an.
 
-**c)** Liegt die Vorhersage im 95%-Konfidenzintervall der Messung?
+**b)** Der Gleichgewichtsabstand im NaCl-Kristall beträgt $r_0 = 0{,}282$ nm. Berechnen Sie die Coulomb-Kraft $F$ bei diesem Abstand.
 
-**d)** Was würden Sie tun, wenn die Abweichung > 10 % beträgt?
+**c)** Wie ändert sich die Kraft, wenn der Abstand auf $r = 0{,}400$ nm zunimmt? Berechnen Sie den Quotienten $F(0{,}400) / F(0{,}282)$.
+
+**d)** Die Abstoßungskraft folgt $F_{ab} \propto r^{-n}$ mit $n = 9$. Warum ist der Abfall der Abstoßung steiler als der der Anziehung?
 
 </div>
 
 ---
-
 
 <div class="loesung">
 
-**a) Modellvorhersage** für A+, B−, C+:
+**a)** Na⁺ trägt $q_1 = +e = +1{,}602 \times 10^{-19}$ C, Cl⁻ trägt $q_2 = -e = -1{,}602 \times 10^{-19}$ C.
 
-$$\hat{R}_{p0,2} = 434 + \frac{65}{2}(+1) + \frac{82}{2}(-1) + \frac{105}{2}(+1)$$
-$$= 434 + 32{,}5 - 41{,}0 + 52{,}5 = \mathbf{478\,\text{MPa}}$$
+**b)** Anziehungskraft bei $r_0 = 0{,}282 \times 10^{-9}$ m:
 
-<br>
+$$F = \frac{(1{,}602 \times 10^{-19})^2}{4\pi\varepsilon_0 \cdot (0{,}282 \times 10^{-9})^2}$$
+$$= 8{,}99 \times 10^9 \cdot \frac{(1{,}602)^2 \times 10^{-38}}{(0{,}282)^2 \times 10^{-18}}$$
+$$= 8{,}99 \times 10^9 \cdot \frac{2{,}566 \times 10^{-38}}{7{,}952 \times 10^{-20}} \approx \mathbf{2{,}90 \times 10^{-9}\,\text{N} = 2{,}90\,\text{nN}}$$
 
-Hinweis: Der Messwert im Plan (Nr. 6: 490 MPa) liegt nahe dran – Abweichung durch fehlende Wechselwirkungsterme im vereinfachten Modell.
+**c)** Da $F \propto r^{-2}$: $\quad \frac{F(0{,}400)}{F(0{,}282)} = \left(\frac{0{,}282}{0{,}400}\right)^2 = (0{,}705)^2 \approx \mathbf{0{,}497}$ → Kraft halbiert sich!
 
-**b)** $\bar{x} = (487+494+491)/3 = \mathbf{491\,\text{MPa}}$
-
-$$s = \sqrt{\frac{(487-491)^2+(494-491)^2+(491-491)^2}{2}} = \sqrt{\frac{16+9+0}{2}} \approx \mathbf{3{,}5\,\text{MPa}}$$
-
-**c)** KI: $491 \pm 4{,}30 \cdot \frac{3{,}5}{\sqrt{3}} = 491 \pm 8{,}7\,\text{MPa}$ → Bereich [482, 500 MPa]. Vorhersage 478 MPa liegt knapp außerhalb → Wechselwirkungsterm B×C sollte ergänzt werden.
-
-**d)** Modell erweitern (Wechselwirkungen aufnehmen), Störgrößen prüfen, ggf. RSM mit Mittelpunkten verwenden.
+**d)** Für $n=9$: $F_{ab} \propto r^{-9}$ fällt viel schneller als $F_{an} \propto r^{-2}$. Schon bei kleiner Abstandszunahme verschwindet die Abstoßung praktisch, während die Anziehung noch spürbar bleibt.
 
 </div>
 
 ---
 
-# Gesamtübersicht – DoE-Ablauf am Zugversuch
+# Schritt 2 – Coulomb-Energie und Ionisierungsbilanz
 
-| Schritt | Tätigkeit | Ergebnis |
+<div class="eq">
+
+$$E_{Coulomb} = \frac{q_1 q_2}{4\pi\varepsilon_0 r}$$
+
+</div>
+
+<div class="aufgabe">
+
+**Aufgabe 2:** Energiebilanz der NaCl-Ionenbindung.
+
+**a)** Berechnen Sie die Coulomb-Energie bei $r = 0{,}282$ nm. Geben Sie das Ergebnis in Joule und in eV an ($1\,\text{eV} = 1{,}602 \times 10^{-19}$ J).
+
+**b)** Ionisierungsenergie Na → Na⁺: $+5{,}1$ eV. Elektronenaffinität Cl + e⁻ → Cl⁻: $-3{,}6$ eV. Berechnen Sie die Gesamtbilanz inklusive der Coulomb-Energie aus a).
+
+**c)** Ist die Bindung stabil? Begründen Sie anhand des Vorzeichens.
+
+**d)** Im Kristall hat jedes Na⁺ genau 6 nächste Cl⁻-Nachbarn im gleichen Abstand. Wie groß wäre der Energiegewinn näherungsweise, wenn man nur diese 6 Wechselwirkungen berücksichtigt?
+
+</div>
+
+---
+
+<div class="loesung">
+
+**a)** Coulomb-Energie (negativ, da Anziehung):
+
+$$E = \frac{-(1{,}602 \times 10^{-19})^2}{4\pi\varepsilon_0 \cdot 0{,}282 \times 10^{-9}} = -8{,}99\times10^9 \cdot \frac{2{,}566\times10^{-38}}{2{,}82\times10^{-10}}$$
+$$= -8{,}18 \times 10^{-19}\,\text{J} \approx \mathbf{-5{,}11\,\text{eV}}$$
+
+**b)** Gesamtbilanz:
+
+$$\Delta E = +5{,}1\,\text{eV} + (-3{,}6\,\text{eV}) + (-5{,}11\,\text{eV}) = \mathbf{-3{,}61\,\text{eV}}$$
+
+**c)** $\Delta E < 0$ → Energie wird **freigesetzt** → die Bindung ist **stabil**. Das Ionenpaar liegt energetisch tiefer als die getrennten Atome.
+
+**d)** 6 nächste Nachbarn: $E_{6} \approx 6 \times (-5{,}11\,\text{eV}) = -30{,}7\,\text{eV}$. Im realen Kristall kompensieren weiter entfernte gleichnamige Ionen teilweise, führen aber netto zu ~25 % mehr Bindungsenergie gegenüber dem Ionenpaar (Madelung-Konstante $A = 1{,}748$ für NaCl).
+
+</div>
+
+---
+
+# Schritt 3 – Lennard-Jones-Potenzial
+
+<div class="eq">
+
+$$U(r) = 4\varepsilon \left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^6\right]$$
+
+</div>
+
+<div class="aufgabe">
+
+**Aufgabe 3:** Für Argon (Ar) gilt: $\varepsilon = 0{,}010\,\text{eV}$, $\sigma = 0{,}340\,\text{nm}$.
+
+**a)** Berechnen Sie $U(r)$ für $r = 0{,}340$ nm, $r = 0{,}382$ nm und $r = 0{,}500$ nm. Tragen Sie die Vorzeichen in die Tabelle ein.
+
+| $r$ [nm] | $(σ/r)^{12}$ | $(σ/r)^6$ | $U(r)/\varepsilon$ | Vorzeichen |
+|---|---|---|---|---|
+| 0,340 | | | | |
+| 0,382 | | | | |
+| 0,500 | | | | |
+
+---
+</div>
+
+<div class="aufgabe">
+**b)** Bei welchem Abstand $r_0$ liegt das Potenzialminimum? Leiten Sie $r_0$ aus der Bedingung $dU/dr = 0$ her.
+
+**c)** Welchem physikalischen Zustand entspricht $r = \sigma$?
+
+</div>
+
+---
+
+<div class="loesung">
+
+**a)** Berechnung:
+
+| $r$ [nm] | $(σ/r)^{12}$ | $(σ/r)^6$ | $U/\varepsilon = 4[(\cdot)^{12}-(\cdot)^6]$ | Vorzeichen |
+|---|---|---|---|---|
+| 0,340 | $1{,}000$ | $1{,}000$ | $4[1-1]=0$ | neutral |
+| 0,382 | $0{,}177$ | $0{,}420$ | $4[0{,}177-0{,}420]=-0{,}972$ | **negativ (Minimum!)** |
+| 0,500 | $0{,}017$ | $0{,}131$ | $4[0{,}017-0{,}131]=-0{,}456$ | negativ |
+
+**b)** Minimum aus $dU/dr = 0$:
+
+$$\frac{dU}{dr} = 4\varepsilon\left[-12\frac{\sigma^{12}}{r^{13}} + 6\frac{\sigma^6}{r^7}\right] = 0 \implies 12\sigma^{12} = 6\sigma^6 r^6$$
+$$r_0 = \sigma \cdot 2^{1/6} \approx 1{,}122\,\sigma = 1{,}122 \times 0{,}340\,\text{nm} \approx \mathbf{0{,}382\,\text{nm}} \checkmark$$
+
+**c)** Bei $r = \sigma$: $U = 0$ → Abstoßung und Anziehung halten sich gerade die Waage. Das ist der **Nulldurchgang** – die Atome „berühren" sich effektiv.
+
+</div>
+
+---
+
+# Schritt 4 – Federmodell und E-Modul
+
+<div class="eq">
+
+$$F_i = -\frac{dU}{dr} = k(r_0 - r) \qquad S = k$$
+
+</div>
+
+<div class="aufgabe">
+
+**Aufgabe 4:** Die Bindungskraft als Feder.
+
+**a)** Die Federkonstante $k$ ergibt sich aus der zweiten Ableitung des Potenzials im Minimum: $k = \left.\frac{d^2U}{dr^2}\right|_{r=r_0}$. Bestimmen Sie $k$ für das LJ-Potenzial. Vereinfachter Ausdruck: $k = \frac{72\,\varepsilon}{\sigma^2 \cdot 2^{1/3}}$.
+
+Berechnen Sie $k$ für Argon ($\varepsilon = 1{,}60 \times 10^{-21}$ J, $\sigma = 3{,}40 \times 10^{-10}$ m).
+
+**b)** Der E-Modul lässt sich näherungsweise aus der Steifigkeit $S$ und dem Gleichgewichtsabstand $r_0$ abschätzen: $E \approx k / r_0$. Berechnen Sie $E$ für Argon.
+
+</div>
+
+---
+
+<div class="aufgabe">
+
+**c)** Stahl hat $E \approx 210$ GPa. Um welchen Faktor unterscheiden sich die Steifigkeiten? Was erklärt diesen Unterschied physikalisch?
+
+**d)** Skizzieren Sie qualitativ $F_i(r)$ um $r_0$. Markieren Sie Anziehung, Abstoßung und den Gleichgewichtspunkt.
+
+</div>
+
+---
+
+<div class="loesung">
+
+**a)** Federkonstante für Ar:
+
+$$k = \frac{72 \times 1{,}60 \times 10^{-21}}{(3{,}40 \times 10^{-10})^2 \cdot 2^{1/3}} = \frac{1{,}152 \times 10^{-19}}{1{,}156 \times 10^{-19} \cdot 1{,}260} \approx \mathbf{0{,}791\,\text{N/m}}$$
+
+**b)** E-Modul Abschätzung ($r_0 = 1{,}122 \times 3{,}40 \times 10^{-10} = 3{,}81 \times 10^{-10}$ m):
+
+$$E \approx \frac{k}{r_0} = \frac{0{,}791}{3{,}81 \times 10^{-10}} \approx 2{,}08 \times 10^9\,\text{Pa} \approx \mathbf{2\,\text{GPa}}$$
+
+**c)** Verhältnis: $\frac{E_\text{Stahl}}{E_\text{Ar}} = \frac{210\,\text{GPa}}{2\,\text{GPa}} \approx 105$. Stahl hat metallische Bindungen mit $\varepsilon \approx 4$ eV/Atom (Faktor ~250× größer als Ar) und kleinerem $\sigma$ → viel tieferes, steileres Potenzialminimum → höherer E-Modul.
+
+**d)** Skizze: $F_i = 0$ bei $r = r_0$; für $r < r_0$: $F_i > 0$ (Abstoßung nach außen); für $r > r_0$: $F_i < 0$ (Anziehung nach innen). Annähernd linear in der Nähe von $r_0$.
+
+</div>
+
+---
+
+# Schritt 5 – Vergleich der Bindungstypen
+
+<div class="aufgabe">
+
+**Aufgabe 5:** Ordnen Sie die folgenden Materialien den Bindungstypen zu und erklären Sie die Unterschiede im E-Modul.
+
+**a)** Vervollständigen Sie die Tabelle:
+
+| Material | Bindungstyp | $E$ [GPa] | Begründung |
+|---|---|---|---|
+| Diamant | ? | ~1000 | |
+| Eisen (Fe) | ? | ~210 | |
+| Aluminiumoxid (Al₂O₃) | ? | ~380 | |
+| Argon (Ar, fest) | ? | ~2 | |
+| Polyethylen (PE) | ? | ~1 | |
+
+**b)** Warum hat Diamant den höchsten E-Modul aller Materialien, obwohl Kohlenstoff leicht ist?
+
+**c)** Warum haben Keramiken (Al₂O₃) oft höhere E-Moduli als Metalle, aber sind trotzdem spröde?
+
+</div>
+
+---
+
+<div class="loesung">
+
+**a)**
+
+| Material | Bindungstyp | $E$ [GPa] | Begründung |
+|---|---|---|---|
+| Diamant | Kovalent | ~1000 | Stärkste C-C-Bindung, kurzer $r_0$, hohes $k$ |
+| Eisen (Fe) | Metallisch | ~210 | Delokalisierte e⁻, mittlere Bindungsenergie |
+| Al₂O₃ | Ionisch + kovalent | ~380 | Hohe Ladungen ($q=3e/2e$), starke Coulomb-Anziehung |
+| Argon (Ar) | Van-der-Waals | ~2 | Sehr schwache LJ-Bindung, flaches Minimum |
+| PE | Van-der-Waals (zwischenmol.) | ~1 | Ketten durch schwache Dipolkräfte zusammengehalten |
+
+**b)** Die C-C-Bindung kombiniert kurzen Gleichgewichtsabstand $r_0 \approx 0{,}154$ nm (→ kleiner Nenner in $E \approx k/r_0$) mit extrem hoher Bindungsenergie $\varepsilon = 7{,}4$ eV/Atom (→ großes $k$). Das Ergebnis ist ein außergewöhnlich steiles Potenzialminimum.
+
+**c)** Ionische/kovalente Bindungen sind **stark aber unbeweglich**: Keine freien Elektronen → kein plastischer Mechanismus. Bei mechanischer Überlastung reißen Bindungen direkt durch → Sprödbruch. Metalle können plastisch fließen (Versetzungen), da die metallische Bindung **ungerichtet** ist.
+
+</div>
+
+---
+
+# Schritt 6 – Integrative Aufgabe
+
+<div class="aufgabe">
+
+**Aufgabe 6:** Ein Ingenieur vergleicht zwei Werkstoffe für eine Hochtemperaturanwendung.
+
+**Werkstoff A:** Wolfram (W), metallische Bindung, $E = 411$ GPa, $T_\text{schmelz} = 3410°C$, $\varepsilon_\text{Bindung} = 8{,}8$ eV/Atom
+
+**Werkstoff B:** Magnesiumoxid (MgO), ionische Bindung, $E = 300$ GPa, $T_\text{schmelz} = 2800°C$, $\varepsilon_\text{Bindung} = 5{,}2$ eV/Atom
+
+**a)** Welcher Werkstoff hat die stärkere **Einzelbindung**? Welcher den höheren E-Modul? Wie erklären Sie den scheinbaren Widerspruch?
+
+**b)** Bei MgO: Mg²⁺ und O²⁻. Berechnen Sie die Coulomb-Energie bei $r_0 = 0{,}210$ nm.
+
+**c)** Wie groß muss die Bindungsenergie $\varepsilon$ eines LJ-Potenzials sein, damit $k = \frac{72\varepsilon}{\sigma^2 \cdot 2^{1/3}} = 50$ N/m gilt bei $\sigma = 0{,}200$ nm?
+
+**d)** Nennen Sie je einen technischen Vor- und Nachteil von W gegenüber MgO.
+
+</div>
+
+---
+
+<div class="loesung">
+
+**a)** W hat höhere Bindungsenergie (8,8 vs. 5,2 eV) → stärkere Einzelbindung. Dennoch: $E_W = 411 > E_{MgO} = 300$ GPa. Kein Widerspruch: Der E-Modul hängt auch von $r_0$ und Koordinationszahl ab. Bei W (krz-Gitter) ist $r_0$ klein und die Koordinationszahl 8 → $k/r_0$ kann trotzdem höher sein.
+
+**b)** MgO: $q_1 = +2e$, $q_2 = -2e$:
+
+$$E = \frac{(2 \times 1{,}602\times10^{-19})^2}{4\pi\varepsilon_0 \times 0{,}210\times10^{-9}} \cdot (-1)$$
+$$= -8{,}99\times10^9 \cdot \frac{4 \times 2{,}566\times10^{-38}}{2{,}10\times10^{-10}} \approx -4{,}40\times10^{-18}\,\text{J} \approx \mathbf{-27{,}5\,\text{eV}}$$
+
+(Faktor 4 durch doppelte Ladungen → deutlich stärkere Bindung als NaCl mit −5,1 eV)
+
+**c)** Umstellen nach $\varepsilon$:
+
+$$\varepsilon = \frac{k \cdot \sigma^2 \cdot 2^{1/3}}{72} = \frac{50 \times (2\times10^{-10})^2 \times 1{,}260}{72} = \frac{50 \times 4\times10^{-20} \times 1{,}260}{72} \approx \mathbf{3{,}5\times10^{-21}\,\text{J}} \approx 0{,}022\,\text{eV}$$
+
+**d)** W: **Vorteil** – deutlich höherer E-Modul, besser unter mechanischer Last; **Nachteil** – metallisch → elektrisch leitend, nicht für elektrisch isolierende Anwendungen geeignet (z.B. Hochspannungsisolatoren → dort MgO bevorzugt).
+
+</div>
+
+---
+
+## Zusammenfassung – Gleichungen auf einen Blick
+
+| Größe | Gleichung | Wofür? |
 |---|---|---|
-| **1** | Faktoren & Stufen festlegen | $2^3$-Plan, 8 Versuche |
-| **2** | Messwerte erfassen & prüfen | Plausibler Datensatz |
-| **3** | Haupteffekte berechnen | C dominiert ($+115$ MPa) |
-| **4** | Wechselwirkungen prüfen | B×C schwach vorhanden |
-| **5** | Zielkonflikt analysieren | Nr. 4 und 6 als Kompromiss |
-| **6** | Modell validieren | Abweichung < 2 % |
+| Coulomb-Kraft | $F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}$ | Anziehungskraft zwischen Ionen |
+| Coulomb-Energie | $E = \frac{q_1 q_2}{4\pi\varepsilon_0 r}$ | Energiebilanz der Ionenbindung |
+| LJ-Potenzial | $U = 4\varepsilon\left[(\sigma/r)^{12}-(\sigma/r)^6\right]$ | Potentialkurve, Gleichgewichtsabstand |
+| LJ-Minimum | $r_0 = 2^{1/6}\sigma$ | Gleichgewichtsabstand aus LJ |
+| Federkonstante | $k = d^2U/dr^2\big|_{r_0}$ | Steifigkeit der Bindung |
+| E-Modul (Abschätzung) | $E \approx k / r_0$ | Makroskopische Steifigkeit |
 
+<div class="hinweis">
+
+**Merkhilfe:** Bindungsenergie ↑ → tieferes Minimum → steileres Potenzial → größeres $k$ → höherer E-Modul → höhere Schmelztemperatur. Alles hängt zusammen!
+
+</div>

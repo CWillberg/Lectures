@@ -91,9 +91,9 @@ V13 - Wiederholung
 ---
 
 ## Seminare
-[S1 - Bindungen](https://cwillberg.github.io/Lectures/wst2_mb_w1_bindungen_seminar/)
-[S2 - Plastizität und Festigkeit](https://cwillberg.github.io/Lectures/wst2_mb_w2_festigkeit_plastizitaet/)
-[S3 - Spannungen und Dehnungen](https://cwillberg.github.io/Lectures/wst2_mb_w3_Spannungen_Dehnungen/)
+[S1 - Bindungen](https://cwillberg.github.io/Lectures/wst2_mb_w1_bindungen_seminar)
+[S2 - Plastizität und Festigkeit](https://cwillberg.github.io/Lectures/wst2_mb_w2_festigkeit_plastizitaet_seminar)
+[S3 - Spannungen und Dehnungen](https://cwillberg.github.io/Lectures/wst2_mb_w3_Spannungen_Dehnungen_Seminar)
 [S4 - Design of Experiment](https://cwillberg.github.io/Lectures/wst2_mb_w5_DOE_Seminar/)
 [S5 - Prüfkörper](https://cwillberg.github.io/Lectures/wst2_mb_w6_Seminar_CAD/)
 [S7 - Prüfkörperherstellung]
@@ -126,14 +126,13 @@ Als Gruppe 3 - 4 Personen
 
 ## Praktikum
 - komplette Prüfkette
-
 - DOE 
 - CAD 
 - fertigen 
 - testen 
 - analysiewren 
 - Bericht schreiben 
-- vortragen als kleine gruppen
+- Vortrag
 
 ---
 

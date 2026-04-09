@@ -40,6 +40,8 @@ jobs:
           - wst2_mb_w3_Spannungen_Dehnungen
           - wst2_mb_w3_Spannungen_Dehnungen_Seminar
           - FF_introduction
+          - FF_bonds
+          - FF_strength
           - FF_seminar_math
           - FF_seminar_math_II
           - FF_seminar_math_III
