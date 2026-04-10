@@ -93,6 +93,7 @@ jobs:
           - stream_wst_12
           - composites_01
           - composites_02
+          - composites_02_seminar
           - composites_03
           - composites_04
           - composites_05

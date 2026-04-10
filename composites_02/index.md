@@ -5,17 +5,27 @@ theme: h2
 paginate: true
 math: katex
 ---
+<style>
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
+}
+
+</style>
 
 <!-- _class: lead -->
 
-# Faserverbundwerkstoffe - Ausgangsmaterial: Fasern
+##  Ausgangsmaterial: Fasern
 
 <div style="position: absolute; top: 200px; left: 850px;"> 
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/composites_02/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
-Prof. Dr.-Ing. Christian Willberg
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
 
