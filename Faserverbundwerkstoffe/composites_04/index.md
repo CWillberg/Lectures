@@ -21,7 +21,7 @@ img[alt="ORCID"] {
 
 
 
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
 
@@ -178,7 +178,7 @@ Hochschule Magdeburg-Stendal
 **Shelf life:** Einige Monate
 ---
 
-![bg fit](../assets/Figures/FKV/SMC_herstellung.png)
+![bg fit](../../assets/Figures/FKV/SMC_herstellung.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -611,7 +611,7 @@ Bewirkt:
 6. Kühlbereich
 7. Aufwicklung
 
-![bg right fit](../assets/Figures/FKV/prepreg_fertigung.png)
+![bg right fit](../../assets/Figures/FKV/prepreg_fertigung.png)
 
 
 
@@ -717,7 +717,7 @@ Bewirkt:
 - Dickere Laminate: mehrfach zwischenkompaktieren
 - Vakuumsack gegen Lufteinschlüsse
 
-![bg right fit](../assets/Figures/FKV/fertigungsaufbau.png)
+![bg right fit](../../assets/Figures/FKV/fertigungsaufbau.png)
 
 **Co-Bonding:**
 - Hart-Weich-Klebung
@@ -745,7 +745,7 @@ Bewirkt:
 - Schließt Poren/Lufteinschlüsse
 - Höchste Qualität
 
-![bg right fit](../assets/Figures/FKV/autoklav.png)
+![bg right fit](../../assets/Figures/FKV/autoklav.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -753,7 +753,7 @@ Bewirkt:
 
 ---
 
-![bg right fit](../assets/Figures/autoklav.png)
+![bg right fit](../../assets/Figures/autoklav.png)
 
 **Alternative (einfache Geometrien):**
 - Beheizte Werkzeuge auf Presse
@@ -1022,7 +1022,7 @@ Nicht zu Faserverbundwerkstoffen gezählt (trotz Gemeinsamkeiten)
 7. Abkühlzone
 8. Auftrennung in Platten
 
-![bg right fit](../assets/Figures/FKV/plattenfertigung.png)
+![bg right fit](../../assets/Figures/FKV/plattenfertigung.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"

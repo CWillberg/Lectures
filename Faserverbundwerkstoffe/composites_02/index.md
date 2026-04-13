@@ -26,7 +26,7 @@ img[alt="ORCID"] {
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
 
@@ -48,7 +48,7 @@ Hochschule Magdeburg-Stendal
 - ### Elemente: B, C, Si (erste Reihen des Periodensystems)
 
 
-![bg right fit](../assets/Figures/FKV/faserformen.png)
+![bg right fit](../../assets/Figures/FKV/faserformen.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -76,7 +76,7 @@ Hochschule Magdeburg-Stendal
 - Kleinere Defekte → reduzierte Wirksamkeit
 - Besonders wichtig bei spröden Werkstoffen
 
-![right bg fit](../assets/Figures/FKV/Faserfestigkeit_glas.png)
+![right bg fit](../../assets/Figures/FKV/Faserfestigkeit_glas.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden" für Glasfasern
@@ -100,7 +100,7 @@ Hochschule Magdeburg-Stendal
 - Ziehen, Spinnen, Verstrecken sorgen für gesteigerte Festigkeiten und Steifigkeiten
 - Orientierung stärkster atomarer Bindungen in Faserlängsrichtung
 
-![](../assets/Figures/FKV/verstrecken_von_fasern.png)
+![](../../assets/Figures/FKV/verstrecken_von_fasern.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden" 
@@ -141,7 +141,7 @@ Hochschule Magdeburg-Stendal
 
 <div class=rimg>
 
-![](../assets/Figures/FKV/Faserkerben.png)
+![](../../assets/Figures/FKV/Faserkerben.png)
 
 </div>
 
@@ -303,7 +303,7 @@ Pflanzenfasern: Innenverkleidungen (Pkw)
 - Amorphe Struktur bei schneller Abkühlung
 - Isotrope Eigenschaften
 
-![bg right fit](../assets/Figures/FKV/SiO2Baugruppen.png)
+![bg right fit](../../assets/Figures/FKV/SiO2Baugruppen.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -326,7 +326,7 @@ Pflanzenfasern: Innenverkleidungen (Pkw)
 
 ---
 
-![bg fit](../assets/Figures/FKV/herstellung_glasfaser.png)
+![bg fit](../../assets/Figures/FKV/herstellung_glasfaser.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
 </div>
@@ -409,7 +409,7 @@ Pflanzenfasern: Innenverkleidungen (Pkw)
 - Kein plastisches Verformungsvermögen
 - Spröder Bruch
 
-![bg right 70%](../assets/Figures/FKV/Spannung_dehnung_fasern.png)
+![bg right 70%](../../assets/Figures/FKV/Spannung_dehnung_fasern.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
 </div>
@@ -457,7 +457,7 @@ C = Chemical resistant, D = Dielectric
 - R-Glas und S-Glas: deutlich bessere thermal stability
 - Wahl bei dauerhaft hohen Temperaturen
 
-![bg right fit](../assets/Figures/FKV/temperatureinfluss.png)
+![bg right fit](../../assets/Figures/FKV/temperatureinfluss.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
@@ -480,7 +480,7 @@ C = Chemical resistant, D = Dielectric
 - ECR-Glas (E-Glas Corrosion Resistance, ohne Bor)
 - Advantex® (Weiterentwicklung)
 
-![bg right fit](../assets/Figures/FKV/phWert_einfluss.png)
+![bg right fit](../../../assets/Figures/FKV/phWert_einfluss.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
@@ -587,7 +587,7 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Matrix darf Hohlraum nicht füllen!
 - Kein Vorteil gegenüber C-Faser → kaum Einsatz
 
-![bg right fit](../assets/Figures/FKV/hohlfasern.png)
+![bg right fit](../../assets/Figures/FKV/hohlfasern.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
@@ -682,7 +682,7 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - bis 3000°C: Ultrahochmodul
 - Dichte steigt mit E-Modul
 
-![bg right fit](../assets/Figures/FKV/EModul_herstellung_C_faser.png)
+![bg right fit](../../assets/Figures/FKV/EModul_herstellung_C_faser.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -717,8 +717,8 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 **Realität:**
 - Defekte verhindern Erreichen theoretischer Werte
 
-![bg right fit](../assets/Figures/FKV/Elementarzelle_Graphit.png)
-![bg vertical fit](../assets/Figures/FKV/OrientierungCFaser.png)
+![bg right fit](../../assets/Figures/FKV/Elementarzelle_Graphit.png)
+![bg vertical fit](../../assets/Figures/FKV/OrientierungCFaser.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bilder aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
@@ -1020,7 +1020,7 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Zersetzungstemperatur: 550°C
 - Einsatz bis ~150°C (meist Matrix limitierend)
 
-![bg right fit](../assets/Figures/FKV/festigkeitTempAramid.png)
+![bg right fit](../../assets/Figures/FKV/festigkeitTempAramid.png)
 
 
 ---
@@ -1031,7 +1031,7 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 - Extreme pH-Werte kritisch
 - pH 5-7: hervorragend
 
-![bg right fit](../assets/Figures/FKV/chemikalienbestAramid.png)
+![bg right fit](../../assets/Figures/FKV/chemikalienbestAramid.png)
 
 
 ---
@@ -1218,7 +1218,7 @@ Grenzfläche hat bedsondere Bedeutung und kann faserseitig und matrixseitig beei
 
 
 
-![bg right 90%](../assets/Figures/FKV/gewebearten.png)
+![bg right 90%](../../assets/Figures/FKV/gewebearten.png)
 
 ---
 
@@ -1259,7 +1259,7 @@ Grenzfläche hat bedsondere Bedeutung und kann faserseitig und matrixseitig beei
 - Scherverformung möglich
 - Sorgfalt bei Orientierung nötig
 
-![bg right fit](../assets/Figures/FKV/scherungGewebe.png)
+![bg right fit](../../assets/Figures/FKV/scherungGewebe.png)
 
 ---
 
@@ -1272,7 +1272,7 @@ Grenzfläche hat bedsondere Bedeutung und kann faserseitig und matrixseitig beei
 - Faserorientierungen: 22-90° einstellbar
 - Optional: Matten/Vliese eingewirkt
 
-![bg right fit](../assets/Figures/FKV/gelege.png)
+![bg right fit](../../assets/Figures/FKV/gelege.png)
 
 ---
 
@@ -1301,7 +1301,7 @@ Grenzfläche hat bedsondere Bedeutung und kann faserseitig und matrixseitig beei
 - Verklebt mit Binder (lösbar oder thermoplastisch)
 - Alternative: Vernadeln
 
-![bg right fit](../assets/Figures/FKV/vliesematten.png)
+![bg right fit](../../assets/Figures/FKV/vliesematten.png)
 
 
 ---
@@ -1319,7 +1319,7 @@ Grenzfläche hat bedsondere Bedeutung und kann faserseitig und matrixseitig beei
 - Erhöht Schälfestigkeit
 - Reduziert Delaminationsgefahr
 
-![bg right fit](../assets/Figures/FKV/fliesshilfe.png)
+![bg right fit](../../assets/Figures/FKV/fliesshilfe.png)
 
 ---
 
@@ -1360,7 +1360,7 @@ Grenzfläche hat bedsondere Bedeutung und kann faserseitig und matrixseitig beei
 - Nicht Lastaufnahme, sondern Schälfestigkeit
 - Delaminationsverstärkung
 
-![](../assets/Figures/FKV/3Dgelege.png)
+![](../../assets/Figures/FKV/3Dgelege.png)
 
 ---
 
@@ -1396,7 +1396,7 @@ Fertigungs-Hilfsmittel
 - Temperatureinsatz bis ~200°C
 - Darüber: PTFE-beschichtetes Glasgewebe
 
-![](../assets/Figures/FKV/abreisgewebe.png)
+![](../../assets/Figures/FKV/abreisgewebe.png)
 
 ---
 
