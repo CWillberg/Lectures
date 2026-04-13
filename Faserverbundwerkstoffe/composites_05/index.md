@@ -20,7 +20,7 @@ img[alt="ORCID"] {
 # Fertigungsverfahren
 
 
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
 
@@ -35,7 +35,7 @@ Hochschule Magdeburg-Stendal
 
 
 
-![bg 50%](../assets/Figures/FKV/RTM_prozess_wiedemann.png)
+![bg 50%](../../assets/Figures/FKV/RTM_prozess_wiedemann.png)
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
@@ -103,7 +103,7 @@ wesentliche **Auswahlkriterien**
 
 ---
 
-![bg  60%](../assets/Figures/formwerkzeug.png)
+![bg  60%](../../assets/Figures/formwerkzeug.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Copyright DLR
 </div>
@@ -268,7 +268,7 @@ bis die vorgegebene Laminatdicke erreicht ist
 - Aushärtung bei Raumtemperatur ohne Druckanwendung
 - Faservolumenanteil von 30 - 40\% erreichbar
 - bescheidene mechanische Eigenschaften und geringe Temperaturbeständigkeit
-![bg right 90%](../assets/Figures/manuell_ablage.png)
+![bg right 90%](../../assets/Figures/manuell_ablage.png)
 
 ---
 
@@ -294,7 +294,7 @@ bis die vorgegebene Laminatdicke erreicht ist
 ## Autoklavverfahren
 - Autoklaven sind Behälter mit Regelung von Druck und Temperatur
 
-![bg right 90%](../assets/Figures/autoklav.png)
+![bg right 90%](../../assets/Figures/autoklav.png)
 
 
 ---
@@ -387,7 +387,7 @@ Gelege, Matten, Gewebe, Gestricke
 
 ---
 
-![bg 70%](../assets/Figures/FKV/vakuumdifferenzverfahren.png)
+![bg 70%](../../assets/Figures/FKV/vakuumdifferenzverfahren.png)
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
@@ -516,7 +516,7 @@ Druck wird durch Öffnung in der Wand aufgebracht
 
 ---
 
-![bg right 80%](../assets/Figures/wickeln.png)
+![bg right 80%](../../assets/Figures/wickeln.png)
 
 ![bg vertical 80%](./assets/drehbank.png)
 
@@ -594,7 +594,7 @@ Druck wird durch Öffnung in der Wand aufgebracht
 
 
 ## Automated Fibre Placement
-![bg right 90%](../assets/Figures/afp.png)
+![bg right 90%](../../assets/Figures/afp.png)
 
 - Rechnergesteuerte Mehrachsen(6-10)-Maschinen legen Prepregstreifen direkt auf räumlich gekrümmte Formwerkzeuge ab.
 - Für nicht abwickelbare Oberflächen müssen Prepregstreifen schmal sein.
@@ -605,7 +605,7 @@ Druck wird durch Öffnung in der Wand aufgebracht
 ---
 
 ## Automated Fibre Placement
-![bg right 90%](../assets/Figures/afp.png)
+![bg right 90%](../../assets/Figures/afp.png)
 
 
 - Typische Ablegegeschwindigkeit: 5 – 10 m/min.
@@ -628,7 +628,7 @@ Druck wird durch Öffnung in der Wand aufgebracht
 - Zu berücksichtigen: Temperaturempfindlichkeit der Matrix, Eigenarten der Fasern, hoher Werkzeugverschleiß.
 - Durchbrüche von Bohrern durch die Außenschichten des Laminat
 
-![bg right](../assets/Figures/Bohrungen.png)
+![bg right](../../assets/Figures/Bohrungen.png)
 
 ---
 
