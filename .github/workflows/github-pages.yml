@@ -90,16 +90,16 @@ jobs:
           - stream_wst_10
           - stream_wst_11
           - stream_wst_12
-          - composites_01
-          - composites_02
-          - composites_02_seminar
-          - composites_03
-          - composites_04
-          - composites_05
-          - composites_06
-          - composites_07
-          - composites_08
-          - composites_09
+          - Faserverbundwerkstoffe/composites_01
+          - Faserverbundwerkstoffe/composites_02
+          - Faserverbundwerkstoffe/composites_02_seminar
+          - Faserverbundwerkstoffe/composites_03
+          - Faserverbundwerkstoffe/composites_04
+          - Faserverbundwerkstoffe/composites_05
+          - Faserverbundwerkstoffe/composites_06
+          - Faserverbundwerkstoffe/composites_07
+          - Faserverbundwerkstoffe/composites_08
+          - Faserverbundwerkstoffe/composites_09
           - Berufsschule
           - gju_01
           - gju_mech
