@@ -5,11 +5,26 @@ theme: h2
 paginate: true
 math: katex
 ---
-<!-- _class: lead -->
-# Fracture & Fatigue
-## Types of Fatigue
 
-Prof. Dr.-Ing. Christian Willberg
+<style>
+footer {
+    font-size: 14px;
+    color: #888;
+    text-align: right;
+}
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
+}
+</style>
+
+<!-- _class: lead -->
+# Fracture & Fatigue - Types of fatigue
+Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+
 Hochschule Magdeburg-Stendal
 
 <div style="position: absolute; top: 200px; left: 850px;"> 

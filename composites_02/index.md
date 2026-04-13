@@ -5,6 +5,7 @@ theme: h2
 paginate: true
 math: katex
 ---
+
 <style>
 img[alt="ORCID"] {
     height: 15px !important;
@@ -35,16 +36,7 @@ Hochschule Magdeburg-Stendal
 <!-- _class: lead -->
 
 
-# Agenda
 
-1. Wirksamkeit der Faserform
-2. Hauptfasertypen (Glas, Kohlenstoff, Aramid)
-3. Weitere Fasertypen
-4. Faser-Matrix-Grenzfläche
-5. Faser-Halbzeuge
-6. Faserauswahl und Verarbeitung
-
----
 
 # Aufgabenteilung im Verbund
 
@@ -132,6 +124,7 @@ Hochschule Magdeburg-Stendal
 # Verminderung von Fehlstellen und Kerben
 
 <!-- _class: cols-2 -->
+
 <div class=ldiv>
 
 ### Problem:
@@ -759,7 +752,7 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 # C-Faser - Weitere Vorteile
 
 **Anisotropie:**
-- $E_{parallel} >> $E_{quer}$ (Faktor 10)
+- $E_{parallel}$ >> $E_{quer}$ (Faktor 10)
 - Konstruktiv nutzbar
 
 **Konstruktionsfreundlich:**
@@ -784,9 +777,9 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 
 ---
 
-# Nachteile Kohlenstofffaser
+## Nachteile 
 
-**Mechanisch:**
+
 - Sprödes Bruchverhalten (geringe Bruchdehnung)
 - Aber: Fasern mit höherer Bruchdehnung verfügbar
 - Schlagschäden schlecht sichtbar (undurchsichtig)
@@ -796,9 +789,9 @@ Trotz Einschränkungen: Weitaus höhere Korrosionsbeständigkeit als Metalle!
 
 
 
----
-
 ![bg right fit](https://leichtbau.dlr.de/wp-content/uploads/2019/10/Garbade_Illu_IB19-1-2000x1158.jpg)
+
+---
 
 **Verarbeitung:**
 - Benetzungskontrolle schwierig → Harzüberschuss

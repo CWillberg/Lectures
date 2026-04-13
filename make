@@ -1,10 +1,3 @@
-marp composites_06/index.md \
---pdf \
---theme-set themes/h2.css \
---allow-local-files \
---html \
--o composites_06.pdf
-
 marp wst_mb_09/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o wst_mb_09.pdf
 marp wst_mb_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o wst_mb_10.pdf
 marp wst_mb_11/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o wst_mb_11.pdf
@@ -29,3 +22,7 @@ marp FF_bonds/index.md --pdf --theme-set themes/h2.css --allow-local-files --htm
 marp FF_strength/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_strength.pdf
 
 marp FF_seminar_math/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_math.pdf
+
+marp composites_01/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_01.pdf
+marp composites_02/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_02.pdf
+marp composites_03/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_03.pdf

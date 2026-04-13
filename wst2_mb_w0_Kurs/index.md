@@ -107,9 +107,7 @@ V13 - Wiederholung
 ---
 
 
-![bg 60%](../assets/Figures/material_verbrauch.png)
 
----
 
 ### Vorträge 
 

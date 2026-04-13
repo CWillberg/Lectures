@@ -9,8 +9,25 @@ paginate: true
 math: katex
 ---
 
+
+<style>
+footer {
+    font-size: 14px;
+    color: #888;
+    text-align: right;
+}
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
+}
+</style>
+
+<!-- _class: lead -->
 # Fracture & Fatigue - Strength and Plasticity
-Prof. Dr.-Ing. Christian Willberg
+Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 <div style="position: absolute; top: 200px; left: 850px;"> 
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/FF_strength/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"

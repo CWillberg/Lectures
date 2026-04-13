@@ -29,6 +29,17 @@ jobs:
       fail-fast: false
       matrix:
         folder:
+          # ── FractureFatigue ──────────────────────────────────────
+          - FractureFatigue/FF_introduction
+          - FractureFatigue/FF_bonds
+          - FractureFatigue/FF_strength
+          - FractureFatigue/FF_types_of_fatigue
+          - FractureFatigue/FF_seminar_math
+          - FractureFatigue/FF_seminar_math_II
+          - FractureFatigue/FF_seminar_math_III
+          - FractureFatigue/FF_seminar_math_IV
+          - FractureFatigue/FF_seminar_V
+          # ── andere Kurse (unverändert) ───────────────────────────
           - Faserverbund_02
           - pd_01
           - fracture_and_fatigue_01
@@ -39,15 +50,6 @@ jobs:
           - wst2_mb_w2_festigkeit_plastizitaet_seminar
           - wst2_mb_w3_Spannungen_Dehnungen
           - wst2_mb_w3_Spannungen_Dehnungen_Seminar
-          - FF_introduction
-          - FF_bonds
-          - FF_strength
-          - FF_seminar_math
-          - FF_seminar_math_II
-          - FF_seminar_math_III
-          - FF_seminar_math_IV
-          - FF_seminar_V
-          - FF_types_of_fatigue
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03
@@ -61,9 +63,6 @@ jobs:
           - wst_mb_11
           - wst_mb_12
           - wst_mb_13
-          # - wst2_mb_01
-          # - wst2_mb_02
-          # - wst2_mb_04
           - mti_ft_01
           - mti_ft_02
           - mti_ft_03
@@ -124,7 +123,6 @@ jobs:
           FOLDER="${{ matrix.folder }}"
           mkdir -p "public/${FOLDER}"
 
-          # Copy folder-specific assets if they exist
           if [ -d "${FOLDER}/assets" ]; then
             cp -r "${FOLDER}/assets" "public/${FOLDER}/"
           fi
@@ -136,11 +134,15 @@ jobs:
             -o "public/${FOLDER}/index.html"
         timeout-minutes: 2
 
+      - name: Sanitize artifact name
+        id: sanitize
+        run: echo "name=$(echo '${{ matrix.folder }}' | tr '/' '_')" >> $GITHUB_OUTPUT
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           path: public
-          name: ${{ matrix.folder }}
+          name: ${{ steps.sanitize.outputs.name }}
           retention-days: 1
 
   deploy:
@@ -163,7 +165,7 @@ jobs:
             cp -r assets public/assets
           fi
 
-      - name: Copy themes (optional, falls auch dort Assets sind)
+      - name: Copy themes
         run: |
           if [ -d "themes" ]; then
             cp -r themes public/themes
