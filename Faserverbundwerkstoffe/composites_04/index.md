@@ -1420,6 +1420,11 @@ Prozess:
 ---
 
 
+![bg 80%](./assets/windblattaufbau.png)
+
+
+---
+
 
 ## Vielen Dank für Ihre Aufmerksamkeit!
 
