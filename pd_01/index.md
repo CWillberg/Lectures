@@ -233,6 +233,8 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 using Pkg
 Pkg.add("PeriLab")
 
+- Install [ParaView](paraview.org) as a Postprocessing tool 
+
 ---
 
 ## Application - run julia
@@ -251,12 +253,24 @@ PeriLab.main("examples/DCB/DCBmodel.yaml") (run run model)
 [Results](https://perilab-results.nimbus-extern.dlr.de/)
 
 ---
-# Project Opportunities
-### Projects
-- convergence analysis of a fracture problem
-- thermal induced fractures
-- model comparison
-- crack growth with branching
+# Project
+### Analysis 1
+- fracture analysis of a L shape problem
+    - analyse the effect of radius in the corner
+    - analyse the effect of modeling type (bond-based, state-based, correspondence)
+
+### Analysis 2
+- Anisotropic failure model
+    - analyse the effect of crack path to fracture ratio with changing angles
+    - use a KIC model
+
+### Steps
+- creation of mesh
+- create a yaml
+- do the analysis
+### Deliverable
+- Exodus models
+- small report
 ### Details
 - given in the first seminar
 
