@@ -264,6 +264,8 @@ PeriLab.main("examples/DCB/DCBmodel.yaml") (run run model)
     - analyse the effect of crack path to fracture ratio with changing angles
     - use a KIC model
 
+---
+
 ### Steps
 - creation of mesh
 - create a yaml
