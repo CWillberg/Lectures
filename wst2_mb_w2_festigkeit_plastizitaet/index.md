@@ -58,8 +58,10 @@ $$\sigma_{\text{ideal}} \approx \frac{E}{10} \quad \text{(genaue Berechnung mit 
 | Werkstoff | $E$ / MPa | Erwartet ($E/10$) | Real |
 |---|---|---|---|
 | Tiefziehstahl | 200 000 | 20 000 MPa | ~300 MPa |
-| Hochfester Stahl | 200 000 | 20 000 MPa | ~2 000 MPa |
-| Zirkonoxid (Druck) | 200 000 | 20 000 MPa | 4 000 MPa |
+| Hochfester Stahl | 200 000 | 20 000 MPa | ~1 500 MPa |
+| Zirkonoxid (Druck) | 200 000 | 20 000 MPa | >1 000 MPa |
+
+![w:200](https://upload.wikimedia.org/wikipedia/commons/d/d6/Kristallstruktur_Zirconium%28IV%29-oxid.png)
 
 ---
 
@@ -311,7 +313,7 @@ Warum nicht $\vec{b} = a[100]$? → Gültig, aber $T \propto b^2$ → **4-fach h
 
 | Metall | Struktur | $a$ / nm | norm($\vec{b}$) exp. / nm | Berechnet |
 |---|---|---|---|---|
-| Fe | krz | 0,287 | 0,248 | 0{,}249$ |
+| Fe | krz | 0,287 | 0,248 | $\frac{0,287\cdot\sqrt{3}}{2}=0{,}249$ |
 | W  | krz | 0,317 | 0,274 | $\frac{0{,}317\cdot\sqrt{3}}{2} = 0{,}275$ |
 | Al | kfz | 0,405 | 0,286 | $\frac{0{,}405}{\sqrt{2}} = 0{,}286$ |
 | Ni | kfz | 0,352 | 0,248 | $\frac{0{,}352}{\sqrt{2}} = 0{,}249$ |
