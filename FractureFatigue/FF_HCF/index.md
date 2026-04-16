@@ -144,7 +144,8 @@ Hochschule Magdeburg-Stendal
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-**Goal:** determine endurance limit $\sigma_D$ and scatter $s$
+**Goal:** 
+determine endurance limit $\sigma_D$ and scatter $s$
 
 **Procedure:**
 - Tests run sequentially
@@ -153,13 +154,13 @@ Hochschule Magdeburg-Stendal
 - Step size: $\Delta\sigma \approx 0.5 \cdot s$
 - Minimum **15–20 specimens**
 
-**Result (Dixon-Mood estimator):**
-$$\sigma_D = \bar{\sigma}_a \pm 1.04 \cdot \Delta\sigma \cdot \frac{\sum i \cdot n_i}{\sum n_i}$$
 
 </div>
 <div class="rdiv">
 
-![w:500](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Staircase_method.svg/800px-Staircase_method.svg.png)
+
+**Result (Dixon-Mood estimator):**
+$$\sigma_D = \bar{\sigma}_a \pm 1.04 \cdot \Delta\sigma \cdot \frac{\sum i \cdot n_i}{\sum n_i}$$
 
 </div>
 
@@ -226,13 +227,16 @@ $$\sigma_{D,component} = \frac{\sigma_D \cdot K_{surface} \cdot K_{size}}{K_f} \
 - Region **inside** the curve: safe
 - Region **outside**: fatigue failure expected
 
+![bg right 90%](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-erstellung.jpg)
+
+---
+
 **Boundary curves:**
 $$\text{Goodman:} \quad \frac{\sigma_a}{\sigma_D} + \frac{\sigma_m}{R_m} = 1$$
 $$\text{Gerber:} \quad \frac{\sigma_a}{\sigma_D} + \left(\frac{\sigma_m}{R_m}\right)^2 = 1$$
 $$\text{Soderberg:} \quad \frac{\sigma_a}{\sigma_D} + \frac{\sigma_m}{R_{p0.2}} = 1$$
 $$\text{FKM:} \quad \frac{\sigma_a}{\sigma_D} + M_\sigma \cdot \frac{\sigma_m}{\sigma_D} = 1 \qquad M_\sigma \approx 0.00035 \cdot R_m - 0.1$$
 
-![bg right 90%](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-erstellung.jpg)
 
 ---
 
@@ -247,6 +251,10 @@ $$\sigma_a = \frac{1-R}{1+R} \cdot \sigma_m$$
 | $-1$ | Vertical line at $\sigma_m = 0$ |
 | $0$ | Line with slope $1$ ($45°$) |
 | $+1$ | Horizontal line at $\sigma_a = 0$ |
+
+![bg right 90%](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-spannungsverhaeltnis.jpg)
+
+--
 
 - Each $R$-line intersects the boundary curve → gives $\sigma_D(R)$
 - Measurement points from staircase tests at different $R$ lie on these lines
@@ -264,6 +272,11 @@ $$\sigma_a = \frac{1-R}{1+R} \cdot \sigma_m$$
 **Construction:**
 - Bisector ($\sigma_{max} = \sigma_{min} = \sigma_m$) = static case
 - Upper and lower boundary lines from fatigue tests at different $R$:
+
+![bg right 80%](https://www.ing-hanke.de/wp-content/uploads/2020/03/Dauerfestigkeitsschaulbild_Smith-Diagramm.jpg)
+
+---
+
 
 $$\sigma_{max}(\sigma_m) = \sigma_m + \sigma_D\left(1 - \frac{\sigma_m}{R_m}\right)$$
 
@@ -290,7 +303,6 @@ $$\sigma_a = \frac{\sigma_{max} - \sigma_{min}}{2} \qquad \sigma_m = \frac{\sigm
 
 **Both diagrams are equivalent** — same information, different representation.
 
-> **Rule of thumb:** Smith for visual communication in design meetings, Haigh for numerical assessment per FKM guideline.
 
 ---
 
@@ -330,20 +342,16 @@ Each $R$-ratio gives one data point $(\sigma_{m,i},\, \sigma_{D,i})$ on the Haig
 - Aircraft: gust + manoeuvre loads
 - Ship hull: irregular sea state
 
+
+
+</div>
+<div class="rdiv">
+
 **Consequences:**
 - S-N curve not directly applicable
 - Need: characterise load history → spectrum
 - Need: count cycles → Rainflow
 - Need: accumulate damage → Miner
-
-</div>
-<div class="rdiv">
-
-<!-- IMAGE: Two time series stacked:
-  Top: constant amplitude (lab test) — regular sine wave
-  Bottom: variable amplitude (reality) — irregular signal σ(t)
-  x-axis: time t, y-axis: σ(t)
-  Both on same time axis, clear contrast between regular and irregular -->
 
 </div>
 
@@ -370,27 +378,67 @@ $$n_i = \text{cycles in amplitude class } i, \qquad H_0 = \sum_i n_i$$
   Right: cumulative frequency H(σ_a) double-logarithmic — falling curve
   All three consistently labelled and connected by arrows -->
 
+
 ---
 
-## Load Spectra — Shape Parameters
+## Load Spectra — Cumulative Frequency Distribution
 
-**Standard spectrum shapes** (log-log linear):
+**The spectrum answers:** *How many cycles with amplitude $\geq \sigma_a$ occur over the entire service life?*
 
-$$\log H = \log H_0 - p \cdot \log\left(\frac{\sigma_a}{\sigma_{a,max}}\right)$$
+$$\log H = \log H_0 - p \cdot \log\left(\frac{\sigma_a}{\sigma_{a,max}}\right) \quad \Leftrightarrow \quad H(\sigma_a) = H_0 \cdot \left(\frac{\sigma_{a,max}}{\sigma_a}\right)^p$$
 
-Spectrum exponent $p$ characterises shape:
 
-| $p$ | Shape | Typical application |
+
+| Symbol | Meaning |
+|---|---|
+| $H(\sigma_a)$ | Number of cycles with amplitude **$\geq \sigma_a$** (cumulative) |
+| $H_0$ | Total number of cycles in the spectrum (e.g. $10^6$ over service life) |
+| $\sigma_{a,max}$ | Largest amplitude — occurs exactly once |
+| $p$ | Spectrum shape exponent |
+
+---
+
+**Practical reading:** at $p = 3$ and $H_0 = 10^6$:
+
+$$H(200\,\text{MPa}) = 1000 \quad \Rightarrow \quad \text{1000 cycles with } \sigma_a \geq 200\,\text{MPa over service life}$$
+
+![bg right fit](./assets/load_spectrum.png)
+
+---
+
+## Load Spectra — Shape Exponent $p$
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Effect of $p$ on the spectrum shape:**
+
+| $p$ | Spectrum character | Typical application |
 |---|---|---|
-| $p \rightarrow \infty$ | Block programme | Conservative laboratory test |
-| $p = 1$ | Linear | Moderate variation |
-| $p \approx 3$–$5$ | Steep | Road vehicles |
+| $p \to \infty$ | Block programme — all cycles at $\sigma_{a,max}$ | Conservative lab test |
+| $p = 1$ | Linear — many large amplitudes | Moderate variation |
+| $p = 3$–$5$ | Steep — few large, many small | Road vehicles |
 
-<!-- IMAGE: Spectrum diagram (double-logarithmic):
-  x-axis: σ_a / σ_a,max from 0.1 to 1.0
-  y-axis: H from 1 to H_0 (e.g. 10^6)
-  Four curves for p = ∞, p = 1, p = 3, p = 5
-  Shaded region for typical vehicle loading (p = 3..5) -->
+
+</div>
+<div class="rdiv">
+
+
+**Small $p$:**
+- Many high-amplitude cycles
+- Heavy, damaging spectrum
+- Short fatigue life
+
+**Large $p$:**
+- Few high-amplitude cycles
+- Mild spectrum
+- Long fatigue life
+
+
+
+</div>
+
+
 
 ---
 
@@ -463,11 +511,8 @@ $$D = \sum_{i} \frac{n_i}{N_{f,i}} \leq 1$$
 | Miner modified (Haibach) | $k_2 = 2k_1-1$ → partial damage | Recommended for broadband spectra |
 | Miner consistent | Reduced $\sigma_D$ | Specific standards |
 
-**Recommended:** Miner modified (Haibach) per FKM guideline.
 
-**Observed scatter of $D_{fail}$:**
 
-$$0.3 \leq D_{fail} \leq 3 \quad \Rightarrow \quad \text{use } D_{allow} = 0.3\text{–}0.5 \text{ for design}$$
 
 ---
 
@@ -475,8 +520,7 @@ $$0.3 \leq D_{fail} \leq 3 \quad \Rightarrow \quad \text{use } D_{allow} = 0.3\t
 
 **Miner does not capture load sequence — but sequence matters:**
 
-<!-- _class: cols-2 -->
-<div class="ldiv">
+
 
 **High → Low sequence:**
 - Large cycle creates plastic zone + compressive residual stress
@@ -488,19 +532,6 @@ $$0.3 \leq D_{fail} \leq 3 \quad \Rightarrow \quad \text{use } D_{allow} = 0.3\t
 - Large cycles propagate uninhibited
 - Actual life **shorter** than Miner → Miner conservative
 
-</div>
-<div class="rdiv">
-
-<!-- IMAGE: Two load sequences and their S-N result:
-  Top left: High-Low sequence as time series (large then small amplitudes)
-  Bottom left: Low-High sequence (small then large)
-  Right: S-N diagram with three horizontal lines at D=1:
-    - Miner prediction (D=1, dashed)
-    - Actual failure High-Low (above, D>1)
-    - Actual failure Low-High (below, D<1)
-  Arrows labelled: "non-conservative" top, "conservative" bottom -->
-
-</div>
 
 ---
 
@@ -518,7 +549,6 @@ $$N_{life} = \frac{H_0}{D_{spectrum}} \quad \text{[spectrum repetitions]} \qquad
 | Critical, monitorable | $1.5$–$2.0$ |
 | Safety-critical, no inspection | $2.0$–$2.5$ |
 
-<!-- IMAGE: Complete workflow as flowchart -->
 
 ---
 
@@ -570,11 +600,15 @@ $$\sigma_{a,eq,ij}^{(k)} = \frac{\sigma_{a,ij}^{(k)}}{1 - \sigma_{m,ij}^{(k)}/R_
 **Step 3 — Read $N_f$ from S-N curve for each class:**
 $$N_{f,ij}^{(k)} = \frac{C}{\left(\sigma_{a,eq,ij}^{(k)}\right)^{k_1}} \quad \text{(Basquin)}$$
 
+---
+
 **Step 4 — Damage per load case occurrence:**
 $$D_k = \sum_{i,j} \frac{n_{ij}^{(k)}}{N_{f,ij}^{(k)}}$$
 
 **Step 5 — Total damage per service year:**
 $$D_{year} = \sum_{k=1}^{K} f_k \cdot D_k$$
+
+![bg right fit](https://www.mathworks.com/help/examples/signal/win64/PracticalIntroToFatigueAnalysisUsingRainflowCountingExample_06.png)
 
 ---
 
@@ -651,6 +685,8 @@ $$t_{remain} = \frac{D_{allow} - \sum_{p=1}^{P} t_p \cdot D_{year,p}}{D_{year,fu
 $$D_{year} = 8500 \cdot 4.2\times10^{-8} + 365 \cdot 1.1\times10^{-5} + 12 \cdot 8.5\times10^{-5}$$
 $$D_{year} = 3.57\times10^{-4} + 4.02\times10^{-3} + 1.02\times10^{-3} = 5.40\times10^{-3}$$
 
+---
+
 **Design lifetime** ($D_{allow} = 0.5$):
 $$t_{design} = \frac{0.5}{5.40\times10^{-3}} = 92.6\,\text{years}$$
 
@@ -686,9 +722,9 @@ $$t_{inspect} \leq \frac{t_{remain}(a_{det})}{j_{insp}} \qquad j_{insp} \geq 2$$
 
 $$\sigma_{D,component} = \frac{\sigma_{D,specimen} \cdot K_{surface} \cdot K_{size}}{K_f}$$
 
-| Factor | Symbol | Effect | Typical range |
+| Factor | Symbol | Effect |  Range |
 |---|---|---|---|
-| Surface roughness | $K_{surface}$ | Rough → earlier PSB initiation | $0.6$–$1.0$ |
+| Surf. roughness | $K_{surface}$ | Rough → earlier PSB initiation | $0.6$–$1.0$ |
 | Size effect | $K_{size}$ | Larger volume → higher defect probability | $0.7$–$1.0$ |
 | Shot peening | $b_3$ | Compressive residual stress → beneficial | $1.0$–$1.3$ |
 | Fatigue notch factor | $K_f = 1+q(K_t-1)$ | Stress concentration | $1.0$–$3.0$ |
@@ -714,6 +750,8 @@ $$\sigma_{D,component} = \frac{\sigma_{D,specimen} \cdot K_{surface} \cdot K_{si
 **Real-world loading & damage:**
 - Rainflow counting → matrix $n_{ij}^{(k)}(\sigma_m, \sigma_a)$ per load case
 - Miner modified (Haibach): $k_2 = 2k_1-1$ below $\sigma_D$
+
+---
 
 **Multiple load cases:**
 $$D_{year} = \sum_{k=1}^{K} f_k \cdot D_k \qquad D_k = \sum_{i,j} \frac{n_{ij}^{(k)}}{N_{f,ij}^{(k)}}$$
