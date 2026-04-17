@@ -21,7 +21,7 @@ img[alt="ORCID"] {
 
 
 
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
 
@@ -56,7 +56,7 @@ b. linearer, teilkristalliner Thermoplast
 c. chemisch vernetzter Elastomer
 d. chemisch vernetzter Duroplast
 
-![bg right fit](../assets/Figures/polymere.png)
+![bg right fit](../../assets/Figures/polymere.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -259,7 +259,7 @@ $$R_f > R_m$$
 **3. Matrixbruchdehnung > Faserbruchdehnung:**
 $$\varepsilon_m > \varepsilon_f$$
 
-![bg right 70%](../assets/Figures/FKV/matrixbruchdehnung.png)
+![bg right 70%](../../assets/Figures/FKV/matrixbruchdehnung.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -277,7 +277,7 @@ $$\varepsilon_m \geq 2 \cdot \varepsilon_f$$
 - Wasseraufnahme kann Bruchdehnung erhöhen
 - Beispiel PA: Feuchte notwendig für Zähigkeit
 
-![bg right 90%](../assets/Figures/FKV/einfluss_feuchte_harz.png)
+![bg right 90%](../../assets/Figures/FKV/einfluss_feuchte_harz.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -293,7 +293,7 @@ $$\varepsilon_m \geq 2 \cdot \varepsilon_f$$
 - Ablösung Faser-Matrix
 - Festigkeitsverlust (besonders quer zur Faser)
 
-![bg right 90%](../assets/Figures/FKV/schrumpfrisse.png)
+![bg right 90%](../../assets/Figures/FKV/schrumpfrisse.png)
 
 **Lösung bei EP:**
 - Schrumpf im flüssigen Zustand
@@ -339,7 +339,7 @@ $$\varepsilon_m \geq 2 \cdot \varepsilon_f$$
 
 **Beispiel Segelflugzeuge:** Weiße Lackierung reduziert Erwärmung um 16°C
 
-![bg right fit](../assets/Figures/FKV/geparktes_auto.png)
+![bg right fit](../../assets/Figures/FKV/geparktes_auto.png)
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
@@ -359,7 +359,7 @@ $$\varepsilon_m \geq 2 \cdot \varepsilon_f$$
 - Wärmeausdehnungskoeffizient α steigt
 - Maximale mechanische Dämpfung
 
-![bg right 65%](../assets/Figures/FKV/Tgkurven.png)
+![bg right 65%](../../assets/Figures/FKV/Tgkurven.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -377,7 +377,7 @@ $$\varepsilon_m \geq 2 \cdot \varepsilon_f$$
 **Auslegungsregel:**
 $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 
-![bg right fit](../assets/Figures/FKV/schubmodulTKurve.png)
+![bg right fit](../../assets/Figures/FKV/schubmodulTKurve.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -398,7 +398,7 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 - Konditionierung 
 - Feuchte erhöht freies Volumen
 
-![bg right fit](../assets/Figures/FKV/wasseraufnahme.png)
+![bg right fit](../../assets/Figures/FKV/wasseraufnahme.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -433,7 +433,7 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 - Thermischer Ausdehnungskoeffizient α
 - Problem: Überlagerung durch Quellung/Schrumpf
 
-![bg right fit](../assets/Figures/FKV/dcs_analyse.png)
+![bg right fit](../../assets/Figures/FKV/dcs_analyse.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -446,7 +446,7 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 - G-T-Kurve und Dämpfung
 - **Wichtigstes Verfahren!**
 
-![bg right fit](../assets/Figures/FKV/DMA_analyse.png)
+![bg right fit](../../assets/Figures/FKV/DMA_analyse.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -465,7 +465,7 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 
 **Wichtig:** Übertragung der Ergebnisse nur bei ähnlichen Temperaturhöhen, Einwirkdauern und Spannungen
 
-![bg right fit](../assets/Figures/FKV/kriechversuche.png)
+![bg right fit](../../assets/Figures/FKV/kriechversuche.png)
 <div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
@@ -484,7 +484,7 @@ $$T_{g,Onset} \approx T_{Einsatz,max} + 10...20°C$$
 - Frühzeitiges Faserknicken
 
 $$R_{\perp\parallel}^- \propto G_m$$
-![bg right fit](../assets/Figures/FKV/Schub_temp.png)
+![bg right fit](../../assets/Figures/FKV/Schub_temp.png)
 
 ---
 
@@ -536,7 +536,7 @@ Entscheidend ist die **Viskosität**
 - Maschinelle Verfahren
 
 
-![bg right fit](../assets/Figures/FKV/viskositaet.png)
+![bg right fit](../../assets/Figures/FKV/viskositaet.png)
 
 <div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -604,7 +604,7 @@ Entscheidend ist die **Viskosität**
 - Beste Chemikalienbeständigkeit
 - Beste Alterungsbeständigkeit
 - T$_{Lagerung}$ = 20 °C ; Nachhärtung T = 60−80 °C
-![bg right fit](../assets/Figures/FKV/nachaerten.png)
+![bg right fit](../../assets/Figures/FKV/nachaerten.png)
 <div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
@@ -618,7 +618,7 @@ Entscheidend ist die **Viskosität**
 - Zeitnahe Temperung empfohlen
 - Bei Sandwich: Thermoelement-Kontrolle
 
-![bg right fit](../assets/Figures/FKV/nachaerten.png)
+![bg right fit](../../assets/Figures/FKV/nachaerten.png)
 <div style="position: absolute; bottom: 10px; left: 100px; color: black; font-size: 20px;"> 
     Bild aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
