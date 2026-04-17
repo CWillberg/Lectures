@@ -65,7 +65,7 @@ img[alt="ORCID"] {
 </style>
 
 
-## Werkstofftechnik II – Thermische & Elektrische Eigenschaften
+## Thermische & Elektrische Eigenschaften
 
 Prof. Dr.-Ing. Christian Willberg
 Kontakt: christian.willberg@h2.de
