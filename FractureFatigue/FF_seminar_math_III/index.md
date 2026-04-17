@@ -480,19 +480,23 @@ mu = E/(2*(1+nu))
  C11 = lambda + 2* mu
  C12 = lambda
  C44 = mu
- hooke = [C11 C12 C12 0 0 0; C12 C11 C12 0 0 0 ; C12 C12 C11 0 0 0; 0 0 0 C44 0 0; 0 0 0 0 C44 0; 0 0 0 0 0 C44]  
- strains = zeros(6)
- sx = 0.002
- strains[1] = sx
- stress = hooke*strains
- stress[1]
-
+ hooke = [C11 C12 C12 0   0   0; 
+          C12 C11 C12 0   0   0;
+          C12 C12 C11 0   0   0; 
+          0   0   0   C44 0   0; 
+          0   0   0   0   C44 0; 
+          0   0   0   0   0   C44]  
 </div>
 
 ---
 
 <div class="loesung">
 
+ strains = zeros(6)
+ sx = 0.002
+ strains[1] = sx
+ stress = hooke*strains
+ stress[1]
  stress .= 0
  stress[1] = 100e6
  strains .= 0
