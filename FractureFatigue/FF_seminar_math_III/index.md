@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Fracture & Fatigue - Basics'
+header: 'Fracture & Fatigue - Basic concepts'
 theme: h2
 paginate: true
 math: katex
@@ -107,7 +107,7 @@ img[alt="ORCID"] {
 </style>
 
 <!-- _class: lead -->
-# Basics
+# Seminar III - Basic concepts
 ## Stress, Strain, and Tensors
 
 Prof. Dr.-Ing. Christian Willberg
