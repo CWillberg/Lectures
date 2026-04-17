@@ -472,15 +472,32 @@ For isotropic materials: $C_{11} = \lambda + 2\mu$, $\quad C_{12} = \lambda$, $\
 
 <div class="loesung">
 
-**a)** $\sigma_{xx} = E\cdot\epsilon_{xx} = 210\,000 \cdot 0.002 = \mathbf{420 \text{ MPa}}$
+ using LinearAlgebra
+ E = 210e9
+nu = 0.3
+mu = E/(2*(1+nu))
+ lambda = E*nu/((1+nu)*(1-2*nu))
+ C11 = lambda + 2* mu
+ C12 = lambda
+ C44 = mu
+ hooke = [C11 C12 C12 0 0 0; C12 C11 C12 0 0 0 ; C12 C12 C11 0 0 0; 0 0 0 C44 0 0; 0 0 0 0 C44 0; 0 0 0 0 0 C44]  
+ strains = zeros(6)
+ sx = 0.002
+ strains[1] = sx
+ stress = hooke*strains
+ stress[1]
 
-**b)** $\epsilon_{xx} = \sigma_{xx}/E = 100/210\,000 = 4.76\times10^{-4}$
-$$\epsilon_{yy} = -\nu\,\epsilon_{xx} = -0.3 \cdot 4.76\times10^{-4} = \mathbf{-1.43\times10^{-4}}$$
+</div>
 
-**c)** $G = \dfrac{210\,000}{2(1+0.3)} = \dfrac{210\,000}{2.6} = 80\,769$ MPa
+---
 
-$$\gamma_{xy} = \frac{\tau_{xy}}{G} = \frac{80}{80\,769} = \mathbf{9.9\times10^{-4}}$$
+<div class="loesung">
 
+ stress .= 0
+ stress[1] = 100e6
+ strains .= 0
+ invHooke = inv(hooke)
+ strains = invHooke * stress
 </div>
 
 ---
