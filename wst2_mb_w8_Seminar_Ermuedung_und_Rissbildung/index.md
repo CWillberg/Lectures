@@ -2,10 +2,10 @@
 marp: true
 
 theme: h2
-header: 'Rissbildung und Ermüdung'
+header: 'Seminar Ermüdung'
 footer: ''
 
-title:  Werkstofftechnik II - Rissbildung und Ermüdung
+title:  Werkstofftechnik II - Seminar Ermüdung
 author: Christian Willberg
 ---
 

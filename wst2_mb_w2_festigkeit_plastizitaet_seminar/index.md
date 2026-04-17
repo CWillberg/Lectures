@@ -536,7 +536,6 @@ $$\boxed{\Delta\sigma_v \text{ steigt um } \approx 73{,}2\,\%}$$
 
 ---
 
-# Hausaufgabe
 
 <div class="aufgabe">
 

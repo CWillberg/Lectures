@@ -30,7 +30,7 @@ img[alt="ORCID"] {
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 <div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/FF_strength/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/FractureFatigue/FF_strength/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
@@ -59,7 +59,7 @@ $$\sigma_{\text{ideal}} \approx \frac{E}{4} \quad \text{(simple estimate: } \var
 
 $$\sigma_{\text{ideal}} \approx \frac{E}{10} \quad \text{(precise calculation with real atomic potentials)}$$
 
-![bg right 80%](../assets/Figures/bindungen.png)
+![bg right 80%](../../assets/Figures/bindungen.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Images from the Materials Science lecture notes, TU Braunschweig
@@ -158,9 +158,9 @@ But **not** due to dislocations — but due to **micro-cracks and pores**.
 - Probability of occurrence increases with diameter
 - Convergence toward a limiting value as there is "enough" material to compensate for the effects
 
-![bg vertical fit](../assets/Figures/FKV/Faserkerben.png)
+![bg vertical fit](../../assets/Figures/FKV/Faserkerben.png)
 
-![bg right 90%](../assets/Figures/FKV/Faserfestigkeit_glas.png)
+![bg right 90%](../../assets/Figures/FKV/Faserfestigkeit_glas.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Images from H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
