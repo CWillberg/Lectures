@@ -11,6 +11,7 @@ style: |
     font-size: 23px;
     padding: 38px 48px;
     color: #1e2a3a;
+    background-image: url("../../assets/styles/background.png");
   }
   section h1 {
     font-size: 34px;
