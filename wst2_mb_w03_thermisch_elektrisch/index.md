@@ -250,6 +250,8 @@ $$\Delta L = L_0 \cdot \alpha_L \cdot \Delta T \qquad \Longrightarrow \qquad \al
 
 </div>
 
+---
+
 **Linearer Ausdehnungskoeffizient** $\alpha_L$ in 10⁻⁶ K⁻¹ (ppm/K):
 
 | Werkstoff | Bindungstyp | $\alpha_L$ [10⁻⁶ K⁻¹] | Warum? |
@@ -277,11 +279,13 @@ Das Bindungspotential ist **asymmetrisch** (anharmonisch):
 
 **Starke Bindung** (kovalent, ionisch): tiefer, enger Potentialtopf → kleinere Asymmetrie → **kleines $\alpha_L$**
 
-**Schwache Bindung** (Van-der-Waals): flacher, breiter Topf → große Asymmetrie → **großes $\alpha_L$**
+
 
 </div>
 
 <div>
+
+**Schwache Bindung** (Van-der-Waals): flacher, breiter Topf → große Asymmetrie → **großes $\alpha_L$**
 
 **Werkstofftechnische Konsequenz:**
 
@@ -312,32 +316,39 @@ Transport von Wärmeenergie durch zwei Träger:
 - Streuung an: Defekten, Korngrenzen, anderen Phononen
 - Mit steigendem $T$: mehr Phonon-Phonon-Stöße → $\lambda$ sinkt
 
+
+
+</div>
+
+<div>
+
 **2. Freie Elektronen**
 - Nur in Metallen vorhanden
 - Viel effektiver als Phononen (höhere Geschwindigkeit)
 - Mit steigendem $T$: mehr Gitterstreuung → $\lambda$ leicht sinkend
 
 </div>
+</div>
 
-<div>
+---
 
 <div class="eq">
 
-$$\dot{q} = -\lambda \cdot \frac{dT}{dx} \quad \text{(Fourier)}$$
+$$\dot{\mathbf{q}} = -\boldsymbol{\lambda} \cdot \nabla T \quad \text{(Fourier - allgemein)}$$
+
+</div>
+
+
+<div class="eq">
+
+$$\dot{q} = -\lambda \cdot \frac{dT}{dx} \quad \text{(Fourier - 1D)}$$
 
 </div>
 
 $\dot{q}$ – Wärmestromdichte [W/m²]
 $\lambda$ – Wärmeleitfähigkeit [W/(m·K)]
 
-<div class="hinweis">
 
-Minuszeichen: Wärme fließt von warm nach kalt (2. Hauptsatz)
-
-</div>
-
-</div>
-</div>
 
 ---
 
@@ -356,6 +367,8 @@ Nur Phononen; kovalente Bindung (SiC, AlN) leitet besser als ionische (Al₂O₃
 **Gläser:** $\lambda \approx 1$ W/(m·K)
 Amorphe Struktur streut Phononen stark → schlechte Leitung trotz ionisch/kovalenter Bindung
 
+---
+
 **Polymere:** $\lambda = 0{,}1 \ldots 0{,}5$ W/(m·K)
 Ungeordnete lange Ketten, schwache Van-der-Waals-Bindung, kaum Phononentransport
 
@@ -370,11 +383,9 @@ Ungeordnete lange Ketten, schwache Van-der-Waals-Bindung, kaum Phononentransport
 | Aluminium | 237 |
 | Stahl | 50 |
 | SiC | 120 |
-| AlN | 180 |
 | Al₂O₃ | 18–35 |
 | Glas | 1 |
 | PE | 0,35 |
-| Luft | 0,026 |
 
 </div>
 </div>
@@ -400,11 +411,13 @@ Beispiel: Cu (401 W/m·K) → Messing CuZn30 (113 W/m·K)
 **Porosität:** Poren = Luft ($\lambda = 0{,}026$ W/m·K) → Wärmedämmung
 Schaumstoffe, Ziegelsteine, Wärmedämmkeramiken nutzen dies gezielt
 
-**Korngrenzen:** Phasengrenze streut Phononen → polykristalline Keramik leitet schlechter als Einkristall
+
 
 </div>
 
 <div>
+
+**Korngrenzen:** Phasengrenze streut Phononen → polykristalline Keramik leitet schlechter als Einkristall
 
 **Anisotropie** bei nicht-kubischen Kristallen oder Faserverbunden:
 
@@ -412,60 +425,9 @@ Graphit (sp²-Bindung, kovalent in Ebene, Van-der-Waals zwischen Ebenen):
 - In Basalebene: $\lambda \approx 200$ W/(m·K)
 - Senkrecht dazu: $\lambda \approx 5$ W/(m·K)
 
-→ C/C-Composites: gezielte Ausnutzung für Raumfahrt-Hitzeschilde
 
-**Praxisfrage:** Warum ist Aluminiumpulver ein schlechter Wärmeleiter?
-→ Viele Korngrenzen + Oxidschicht (Al₂O₃) an jeder Partikeloberfläche
 
 </div>
-</div>
-
----
-
-## Wiedemann-Franz-Gesetz
-
-Für Metalle besteht ein direkter Zusammenhang zwischen Wärme- und elektrischer Leitfähigkeit:
-
-<div class="eq">
-
-$$\frac{\lambda}{\sigma \cdot T} = L_0 = 2{,}44 \times 10^{-8} \; \text{W·Ω/K}^2$$
-
-</div>
-
-- $\sigma$ – elektrische Leitfähigkeit [S/m]
-- $L_0$ – Lorenz-Zahl (universell für Metalle)
-- **Ursache:** Beide Transporte werden von denselben freien Elektronen getragen
-
-<div class="hinweis">
-
-💡 Gute elektrische Leiter sind i.d.R. auch gute Wärmeleiter. Ausnahme: Diamant hat $\lambda \approx 2000$ W/(m·K) durch Phononen – leitet aber keinen Strom.
-
-</div>
-
----
-
-## Thermische Diffusivität
-
-Für **instationäre** Wärmeleitung (zeitabhängige Prozesse):
-
-<div class="eq">
-
-$$a = \frac{\lambda}{\rho \cdot c_p}$$
-
-</div>
-
-- $a$ – Temperaturleitfähigkeit [m²/s]
-- $\lambda$: treibt Wärmestrom an; $\rho c_p$: thermische Trägheit des Materials
-- Beschreibt, wie schnell sich eine Temperaturänderung **räumlich ausbreitet**
-
-**Fourier-Zahl** als dimensionslose Kennzahl:
-
-$$\text{Fo} = \frac{a \cdot t}{L^2}$$
-
-<div class="hinweis">
-
-Aluminium: hohe $\lambda$, niedrige $c_p$ → sehr hohe $a$ → schneller Temperaturausgleich. Stahl: niedrigere $a$ → langsamer Ausgleich → wichtig für Schweißen und Wärmebehandlung
-
 </div>
 
 ---
@@ -542,13 +504,20 @@ Schnelle Temperaturänderung → Temperaturgradient im Bauteil → **innere Zwä
 - Geringe $\lambda$ → steile Gradienten im Bauteil
 - Hoher E-Modul → hohe Spannung bei gleicher Dehnung
 
+</div>
+<div>
+
 **Thermische Schockbeständigkeit:**
 
 $$R = \frac{\sigma_f \cdot \lambda}{E \cdot \alpha_L}$$
 
 </div>
+</div>
 
-<div>
+
+----
+
+
 
 **Was hilft gegen Thermoschock?**
 
@@ -562,18 +531,13 @@ $$R = \frac{\sigma_f \cdot \lambda}{E \cdot \alpha_L}$$
 | Gradierte Werkstoffe (FGM) | stetige $\alpha_L$-Änderung |
 | Glaskeramiken (Zerodur) | $\alpha_L \approx 0$ konstruiert |
 
-</div>
-</div>
+
+
 
 ---
 
 ## Thermische Eigenschaften bei der Wärmebehandlung
 
-<div class="hinweis">
-
-Thermische Eigenschaften sind nicht nur Materialkennwerte – sie steuern auch **Wärmebehandlungsprozesse** wie Härten, Glühen, Sintern.
-
-</div>
 
 <div class="zwei-spalten">
 
@@ -585,15 +549,16 @@ $$\dot{T} \propto \frac{a}{d^2} = \frac{\lambda}{\rho \cdot c_p \cdot d^2}$$
 
 - Stahl: kleine $a$ → langsamer Abschreck → dickere Teile bleiben zäh
 - Aluminiumlegierungen: hohe $a$ → muss sehr schnell abgeschreckt werden
+**Eigenspannungen nach dem Abschrecken:**
+
+- Oberfläche kühlt schneller als Kern
 
 </div>
 
 <div>
 
-**Eigenspannungen nach dem Abschrecken:**
-
-- Oberfläche kühlt schneller als Kern
 - Abgekühlte Oberfläche zieht sich zusammen → Kern hält sie zurück
+
 - Nach vollständigem Abkühlen: **Druckeigenspannung** an der Oberfläche
 
 → Druckeigenspannungen wirken Rissöffnung entgegen → günstig für Ermüdungsfestigkeit!

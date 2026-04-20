@@ -330,7 +330,7 @@ Die folgenden drei Modelle beschreiben idealisiertes Werkstoffverhalten
 und werden in der Strukturmechanik und Plastizitätstheorie als
 Grundmodelle eingesetzt.
 
-tbd bilder einfügen
+
 
 ---
 
