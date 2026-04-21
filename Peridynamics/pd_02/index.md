@@ -99,8 +99,8 @@ footer { font-size: 14px; color: #888; text-align: right; }
 # Peridynamics – Fundamentals
 ## Bond-based · State-based · Correspondence
 
-Prof. Dr.-Ing. Christian Willberg
-
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Magdeburg-Stendal University of Applied Sciences
 Contact: christian.willberg@h2.de
 
 <div style="position: absolute; top: 200px; left: 850px;"> 

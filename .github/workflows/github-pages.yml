@@ -54,7 +54,6 @@ jobs:
           - wst2_mb_w3_Spannungen_Dehnungen_Seminar
           - wst2_mb_w3_thermisch_elektrisch
           - wst2_mb_w3_thermisch_elektrisch_seminar
-          - wst2_mb_w
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03
