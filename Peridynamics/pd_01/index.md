@@ -59,7 +59,7 @@ img[alt="ORCID"] {
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences
 
-![bg right](../assets/Figures/PeriMesh.PNG)
+![bg right](../../assets/Figures/PeriMesh.PNG)
 
 Kontakt: christian.willberg@h2.de
 
@@ -87,22 +87,22 @@ Kontakt: christian.willberg@h2.de
 
 
 ![bg fit](https://m.blog.hu/az/azenrakom/image/imported/2017-09-26/14637984/35484062_broken_tempered_glass_closeup_background_of_glass_was_smashed_stock_photo.jpg)
-![bg fit](../assets/Figures/CT_crack.png)
+![bg fit](../../assets/Figures/CT_crack.png)
 
 
 ---
-![bg 80%](../assets/Figures/Isotropic_Scan.png)
-![bg fit](../assets/Figures/Anisotropic_Scan.png)
+![bg 80%](../../assets/Figures/Isotropic_Scan.png)
+![bg fit](../../assets/Figures/Anisotropic_Scan.png)
 
 ---
 
-![bg fit vertical](../assets/Figures/cracksurfaces_PMMA.png)
+![bg fit vertical](../../assets/Figures/cracksurfaces_PMMA.png)
 
-![bg fit](../assets/Figures/crack.jpg)
+![bg fit](../../assets/Figures/crack.jpg)
 
 ---
 
-![bg 50%](../assets/Figures/Testpyramide.png)
+![bg 50%](../../assets/Figures/Testpyramide.png)
 
 ---
 
@@ -119,9 +119,9 @@ Understanding of fractures is needed for
 - $\mathbf{u}$ 2x continuously differentiable	
 - Conservation equations satisfied (momentum, angular momentum and energy)
 
-![bg right 90%](../assets/Figures/impulserhaltung.png)
-![bg 90%](../assets/Figures/drehimpulserhaltung.png)
-![bg 90%](../assets/Figures/energieerhaltung.png)
+![bg right 90%](../../assets/Figures/impulserhaltung.png)
+![bg 90%](../../assets/Figures/drehimpulserhaltung.png)
+![bg 90%](../../assets/Figures/energieerhaltung.png)
 
 
 ---
@@ -143,13 +143,13 @@ no derivative exists at the position, where $A_1$ becomes $A_2$
 
 ---
 
-![bg fit](../assets/Figures/Strukturebene_Metall-2.jpg)
+![bg fit](../../assets/Figures/Strukturebene_Metall-2.jpg)
 
 ---
 
 ## Reality is non-local
 
-![bg right fit](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg right fit](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
 ---
 
@@ -157,7 +157,7 @@ no derivative exists at the position, where $A_1$ becomes $A_2$
 
 # Peridynamics (PD)
 
-![bg 80%](../assets/Figures/model_comp.png)
+![bg 80%](../../assets/Figures/model_comp.png)
 
 
 ---
@@ -166,7 +166,7 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 \underline{\textbf{T}}(\textbf{x}',t))dV_{\textbf{x}}+\textbf{b} =\rho\ddot{\textbf{u}}$
 
 
-![bg fit right](../assets/Figures/PeriMesh.PNG)
+![bg fit right](../../assets/Figures/PeriMesh.PNG)
 
 
 - material point
@@ -191,9 +191,9 @@ $\int_{\mathcal{H}}(\underline{\textbf{T}}(\textbf{x},t)-
 
 ---
 
-![bg vertical 50%](../assets/Figures/bondbased.png)
-![bg 50%](../assets/Figures/osb.png)
-![bg 50%](../assets/Figures/nosb.png)
+![bg vertical 50%](../../assets/Figures/bondbased.png)
+![bg 50%](../../assets/Figures/osb.png)
+![bg 50%](../../assets/Figures/nosb.png)
 
 ---
 
