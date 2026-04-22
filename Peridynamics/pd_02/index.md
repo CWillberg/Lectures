@@ -233,14 +233,13 @@ $$s = \frac{|\boldsymbol{\xi} + \boldsymbol{\eta}| - |\boldsymbol{\xi}|}{|\bolds
 </div>
 
 ---
-
 # BB-PD – Micromodulus and Energy Equivalence
 
 $c$ is determined by matching classical strain energy (energy equivalence):
 
 <div class="eq">
 
-$$c = \frac{2E}{\delta^2 A} \quad \text{(1D)} \qquad c = \frac{12E}{\pi\delta^4} \quad \text{(2D, plane stress)} \qquad c = \frac{18K}{\pi\delta^5} \quad \text{(3D)}$$
+$$c = \frac{2E}{\delta^2 A} \quad \text{(1D)} \qquad c = \frac{48E}{5\pi\delta^3} \quad \text{(plane strain,}\;\nu=0.25\text{)} \qquad c = \frac{9E}{\pi\delta^3} \quad \text{(plane stress,}\;\nu=\tfrac{1}{3}\text{)} \qquad c = \frac{12E}{\pi\delta^4} \quad \text{(3D,}\;\nu=0.25\text{)}$$
 
 </div>
 
@@ -255,7 +254,6 @@ $$s_c = \sqrt{\frac{5\pi G_{Ic}}{9 E \delta}} \quad \text{(3D)}$$
 When $s > s_c$: bond breaks irreversibly → damage variable per point:
 
 $$\phi(\mathbf{x},t) = 1 - \frac{\int_{\mathcal{H}} \mu(\boldsymbol{\xi},t)\,dV'}{\int_{\mathcal{H}} dV'} \in [0,1]$$
-
 ---
 
 # Exercise 1 – Bond-based: Micromodulus and Stretch
@@ -313,6 +311,8 @@ A **peridynamic state** $\underline{\mathbf{A}}\langle\boldsymbol{\xi}\rangle$ i
 
 <div class="eq">
 
+
+
 **OSB-PD Equation of Motion**
 
 $$\rho\,\ddot{\mathbf{u}} = \int_{\mathcal{H}} \bigl(\underline{T}\langle\boldsymbol{\xi}\rangle - \underline{T}'\langle-\boldsymbol{\xi}\rangle\bigr)\,dV' + \mathbf{b}$$
@@ -331,29 +331,65 @@ OSB-PD allows arbitrary $\nu$ for isotropic materials. The force direction stays
 
 </div>
 
+
 ---
 
-# OSB-PD – Dilatation and Force Density State
+# OSB-PD – Kinematics and Force State
 
-**Step 1 – Dilatation** (volumetric strain of the neighbourhood):
+<div class="zwei-spalten">
+<div>
+
+**Deformed bond vector and extension:**
+
+$$|\underline{Y}| \neq \underline{e} \qquad |Y - X| = e$$
+
+**Weighted volume:**
 
 <div class="eq">
 
-$$\theta(\mathbf{x}) = \frac{3}{\delta^3} \int_{\mathcal{H}} \underline{\omega}\langle\boldsymbol{\xi}\rangle\, |\boldsymbol{\xi}|\, s(\boldsymbol{\xi})\,dV'$$
+$$m = \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\, x\, x\, dV$$
 
 </div>
 
-**Step 2 – Force density state** (LPS – Linear Peridynamic Solid):
+**Dilatation:**
 
 <div class="eq">
 
-$$\underline{T}\langle\boldsymbol{\xi}\rangle = \underline{\omega}\langle\boldsymbol{\xi}\rangle \left(a\,\theta + b\,s(\boldsymbol{\xi})\right) \frac{\boldsymbol{\xi}+\boldsymbol{\eta}}{|\boldsymbol{\xi}+\boldsymbol{\eta}|}$$
+$$\theta = \frac{3}{m} \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\, x\, e\langle\boldsymbol{\xi}\rangle\, dV$$
 
 </div>
 
-Material parameters from $K$ and $G$:
+</div>
+<div>
 
-$$a = \frac{3K - 5G}{\delta^3} \qquad b = \frac{15G}{2\delta^3} \quad \text{(3D, constant weight } \underline{\omega}=1\text{)}$$
+**Force density scalar state:**
+
+$$\underline{t} = |\underline{T}|$$
+
+**Force density state:**
+
+<div class="eq">
+
+$$\underline{t} = \frac{\omega\langle\boldsymbol{\xi}\rangle}{m}\left[3K\theta\, x + 15G\, e^d\right]$$
+
+</div>
+
+**Force density vector state:**
+
+<div class="eq">
+
+$$\underline{T} = \underline{t}\,\frac{\underline{Y}}{|\underline{Y}|}$$
+
+</div>
+
+</div>
+</div>
+
+<div class="hinweis">
+
+Strain decomposition: $e^d\langle\boldsymbol{\xi}\rangle = \varepsilon_{ij}^d\,\dfrac{\xi_i\, x_j}{|\boldsymbol{\xi}|}$ (deviatoric) and $e^i\langle\boldsymbol{\xi}\rangle = \varepsilon_{ij}^i\,\dfrac{\xi_i\, x_j}{|\boldsymbol{\xi}|}$ (isotropic). OSB-PD allows arbitrary $\nu$.
+
+</div>
 
 ---
 
@@ -361,15 +397,15 @@ $$a = \frac{3K - 5G}{\delta^3} \qquad b = \frac{15G}{2\delta^3} \quad \text{(3D,
 
 <div class="aufgabe">
 
-**Exercise 2:** An isotropic material has $E = 70\,\text{GPa}$, $\nu = 0.33$, horizon $\delta = 3\,\text{mm}$. All bonds are uniformly stretched with $s = 0.001$ (hydrostatic load), $\underline{\omega} = 1$.
+**Exercise 2:** An isotropic material has $E = 70\,\text{GPa}$, $\nu = 0.33$, horizon $\delta = 3\,\text{mm}$. All bonds are uniformly stretched with $s = 0.001$ (hydrostatic load), $\omega\langle\boldsymbol{\xi}\rangle = 1$.
 
-(a) Calculate $K$ and $G$ from $E$ and $\nu$.
+**(a)** Calculate $K$ and $G$ from $E$ and $\nu$.
 
-(b) Calculate the OSB parameters $a$ and $b$.
+**(b)** Calculate the weighted volume $m$ (use $\int_{\mathcal{H}} |\boldsymbol{\xi}|^2\,dV' = \dfrac{3\pi\delta^5}{5}$ in 3D with $x = |\boldsymbol{\xi}|$).
 
-(c) Calculate the dilatation $\theta$ (use $\int_{\mathcal{H}} |\boldsymbol{\xi}|\,dV' = \frac{3\pi\delta^4}{4}$ in 3D).
+**(c)** Calculate the dilatation $\theta$ for uniform stretch $e\langle\boldsymbol{\xi}\rangle = s\,|\boldsymbol{\xi}|$ (use $\int_{\mathcal{H}} |\boldsymbol{\xi}|^2\,dV' = \dfrac{3\pi\delta^5}{5}$).
 
-(d) Compare: what is the classical volumetric strain $\varepsilon_{vol}$ for the same hydrostatic loading?
+**(d)** Compare: what is the classical volumetric strain $\varepsilon_\text{vol}$ for the same hydrostatic loading?
 
 </div>
 
@@ -380,15 +416,17 @@ $$a = \frac{3K - 5G}{\delta^3} \qquad b = \frac{15G}{2\delta^3} \quad \text{(3D,
 <div class="loesung">
 
 **(a)**
-$$K = \frac{E}{3(1-2\nu)} = \frac{70{,}000}{3 \cdot 0.34} = 68{,}627\,\text{MPa} \qquad G = \frac{E}{2(1+\nu)} = \frac{70{,}000}{2.66} = 26{,}316\,\text{MPa}$$
+$$K = \frac{E}{3(1-2\nu)} = \frac{70{,}000}{3 \cdot 0.34} \approx \mathbf{68{,}627\,\text{MPa}} \qquad G = \frac{E}{2(1+\nu)} = \frac{70{,}000}{2.66} \approx \mathbf{26{,}316\,\text{MPa}}$$
 
-**(b)**
-$$a = \frac{3 \cdot 68{,}627 - 5 \cdot 26{,}316}{27} = \frac{74{,}301}{27} \approx 2{,}752\,\text{MPa/mm}^3 \qquad b = \frac{15 \cdot 26{,}316}{54} \approx 7{,}310\,\text{MPa/mm}^3$$
+**(b)** With $\omega = 1$ and $x = |\boldsymbol{\xi}|$:
+$$m = \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\,|\boldsymbol{\xi}|^2\,dV' = \frac{3\pi\delta^5}{5} = \frac{3\pi \cdot 3^5}{5} \approx \mathbf{1{,}527\,\text{mm}^5}$$
 
-**(c)**
-$$\theta = \frac{3}{\delta^3} \cdot s \cdot \frac{3\pi\delta^4}{4} = \frac{3}{27} \cdot 0.001 \cdot \frac{3\pi \cdot 81}{4} \approx \mathbf{0.003} = 3\varepsilon$$
+**(c)** With $e\langle\boldsymbol{\xi}\rangle = s\,|\boldsymbol{\xi}|$ and $x = |\boldsymbol{\xi}|$:
+$$\theta = \frac{3}{m}\int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\,|\boldsymbol{\xi}|\cdot s\,|\boldsymbol{\xi}|\,dV' = \frac{3\,s}{m}\cdot\frac{3\pi\delta^5}{5} = 3\,s = \mathbf{0.003}$$
 
-**(d)** Under hydrostatic load: $\varepsilon_{vol} = 3\varepsilon = 3 \cdot 0.001 = 0.003$ ✓ — consistent with classical CM.
+**(d)** Under hydrostatic load: $\varepsilon_\text{vol} = 3\varepsilon = 3 \cdot 0.001 = \mathbf{0.003}$ ✓
+
+OSB-PD dilatation is consistent with classical volumetric strain.
 
 </div>
 
