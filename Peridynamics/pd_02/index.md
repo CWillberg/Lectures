@@ -239,7 +239,7 @@ $c$ is determined by matching classical strain energy (energy equivalence):
 
 <div class="eq">
 
-$$c = \frac{2E}{\delta^2 A} \quad \text{(1D)} \qquad c = \frac{48E}{5\pi\delta^3} \quad \text{(plane strain,}\;\nu=0.25\text{)} \qquad c = \frac{9E}{\pi\delta^3} \quad \text{(plane stress,}\;\nu=\tfrac{1}{3}\text{)} \qquad c = \frac{12E}{\pi\delta^4} \quad \text{(3D,}\;\nu=0.25\text{)}$$
+$$c = \frac{2E}{\delta^2 A} \quad \text{(1D)} \qquad c = \frac{48E}{5\pi\delta^3h} \quad \text{(plane strain,}\;\nu=0.25\text{)} \qquad c = \frac{9E}{\pi\delta^3h} \quad \text{(plane stress,}\;\nu=\tfrac{1}{3}\text{)} \qquad c = \frac{12E}{\pi\delta^4} \quad \text{(3D,}\;\nu=0.25\text{)}$$
 
 </div>
 
@@ -277,7 +277,7 @@ $$\phi(\mathbf{x},t) = 1 - \frac{\int_{\mathcal{H}} \mu(\boldsymbol{\xi},t)\,dV'
 <div class="loesung">
 
 **(a)** Micromodulus (1D):
-$$c = \frac{2E}{\delta^2 A} = \frac{2 \cdot 210{,}000\,\text{N/mm}^2}{(3\,\text{mm})^2 \cdot 1\,\text{mm}^2} = \frac{420{,}000}{9} \approx \mathbf{46{,}667\,\text{N/mm}^4}$$
+$$c = \frac{2E}{\delta^2 A} = \frac{2 \cdot 210{,}000\,\text{N/mm}^2}{(3\,\text{mm})^2 \cdot 1\,\text{mm}^2} = \frac{420{,}000}{9} \approx \mathbf{46{,}667\,\text{N/mm}^6}$$
 
 **(b)** Bond stretch:
 $$s = \frac{2.012 - 2.000}{2.000} = \frac{0.012}{2} = \mathbf{0.006} = 0.6\,\%$$
@@ -341,13 +341,13 @@ OSB-PD allows arbitrary $\nu$ for isotropic materials. The force direction stays
 
 **Deformed bond vector and extension:**
 
-$$|\underline{Y}| \neq \underline{e} \qquad |Y - X| = e$$
+$$|\underline{\mathbf{Y}}| \neq \underline{e} \qquad |\underline{\mathbf{Y}} - \underline{\mathbf{X}}| = \underline{e}$$
 
 **Weighted volume:**
 
 <div class="eq">
 
-$$m = \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\, x\, x\, dV$$
+$$m = \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\, \underline{x}\, \underline{x}\, dV$$
 
 </div>
 
@@ -355,7 +355,7 @@ $$m = \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\, x\, x\, dV$$
 
 <div class="eq">
 
-$$\theta = \frac{3}{m} \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\, x\, e\langle\boldsymbol{\xi}\rangle\, dV$$
+$$\theta = \frac{3}{m} \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\, \underline{x}\, \underline{e}\langle\boldsymbol{\xi}\rangle\, dV$$
 
 </div>
 
@@ -364,13 +364,13 @@ $$\theta = \frac{3}{m} \int_{\mathcal{H}} \omega\langle\boldsymbol{\xi}\rangle\,
 
 **Force density scalar state:**
 
-$$\underline{t} = |\underline{T}|$$
+$$\underline{t} = |\underline{\mathbf{T}}|$$
 
 **Force density state:**
 
 <div class="eq">
 
-$$\underline{t} = \frac{\omega\langle\boldsymbol{\xi}\rangle}{m}\left[3K\theta\, x + 15G\, e^d\right]$$
+$$\underline{t} = \frac{\omega\langle\boldsymbol{\xi}\rangle}{m}\left[3K\theta\, \underline{x} + 15G\, \underline{e}^d\right]$$
 
 </div>
 
@@ -378,7 +378,7 @@ $$\underline{t} = \frac{\omega\langle\boldsymbol{\xi}\rangle}{m}\left[3K\theta\,
 
 <div class="eq">
 
-$$\underline{T} = \underline{t}\,\frac{\underline{Y}}{|\underline{Y}|}$$
+$$\underline{\mathbf{T}} = \underline{t}\,\frac{\underline{\mathbf{Y}}}{|\underline{\mathbf{Y}}|}$$
 
 </div>
 
@@ -387,7 +387,7 @@ $$\underline{T} = \underline{t}\,\frac{\underline{Y}}{|\underline{Y}|}$$
 
 <div class="hinweis">
 
-Strain decomposition: $e^d\langle\boldsymbol{\xi}\rangle = \varepsilon_{ij}^d\,\dfrac{\xi_i\, x_j}{|\boldsymbol{\xi}|}$ (deviatoric) and $e^i\langle\boldsymbol{\xi}\rangle = \varepsilon_{ij}^i\,\dfrac{\xi_i\, x_j}{|\boldsymbol{\xi}|}$ (isotropic). OSB-PD allows arbitrary $\nu$.
+Strain decomposition: $\underline{e}^d\langle\boldsymbol{\xi}\rangle = \varepsilon_{ij}^d\,\dfrac{\xi_i\, x_j}{|\boldsymbol{\xi}|}$ (deviatoric) and $\underline{e}^i\langle\boldsymbol{\xi}\rangle = \varepsilon_{ij}^i\,\dfrac{\xi_i\, x_j}{|\boldsymbol{\xi}|}$ (isotropic). OSB-PD allows arbitrary $\nu$.
 
 </div>
 
@@ -477,13 +477,13 @@ $\mathbf{K}$ depends only on the reference configuration and is computed once du
 
 From $\mathbf{F}$, a classical material model yields the **1st Piola–Kirchhoff stress tensor** $\mathbf{P}$:
 
-$$\mathbf{P} = \mathbf{F}\,\mathbf{S} \quad \text{(with 2nd PK stress } \mathbf{S} \text{ from hyperelasticity etc.)}$$
+$$\mathbf{P} = \det \mathbf{F}\boldsymbol{\sigma}\mathbf{F}^{-T}\quad \text{with Cauchy stresses}$$
 
 The **force density state** then follows as:
 
 <div class="eq">
 
-$$\underline{T}\langle\boldsymbol{\xi}\rangle = \underline{\omega}\langle\boldsymbol{\xi}\rangle\,\mathbf{P}\,\mathbf{K}^{-1}\boldsymbol{\xi}$$
+$$\underline{\mathbf{T}}\langle\boldsymbol{\xi}\rangle = \underline{\omega}\langle\boldsymbol{\xi}\rangle\,\mathbf{P}\,\mathbf{K}^{-1}\boldsymbol{\xi}$$
 
 </div>
 
@@ -504,7 +504,7 @@ $$\underline{T}\langle\boldsymbol{\xi}\rangle = \underline{\omega}\langle\boldsy
 
 **Stabilisation (Silling):**
 
-$$\underline{T}_{stab}\langle\boldsymbol{\xi}\rangle = \underline{T}\langle\boldsymbol{\xi}\rangle + \underline{\omega}\langle\boldsymbol{\xi}\rangle\,G_s\,(\boldsymbol{\eta} - \mathbf{F}\boldsymbol{\xi})$$
+$$\underline{\mathbf{T}}_{stab}\langle\boldsymbol{\xi}\rangle = \underline{\mathbf{T}}\langle\boldsymbol{\xi}\rangle + \underline{\omega}\langle\boldsymbol{\xi}\rangle\,G_s\,(\boldsymbol{\eta} - \mathbf{F}\boldsymbol{\xi})$$
 
 </div>
 <div>
