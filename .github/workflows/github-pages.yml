@@ -40,6 +40,7 @@ jobs:
           - FractureFatigue/FF_seminar_math_IV
           - FractureFatigue/FF_seminar_V
           # ── andere Kurse (unverändert) ───────────────────────────
+          - mechanics_01
           - Faserverbund_02
           - Peridynamics/pd_01
           - Peridynamics/pd_02

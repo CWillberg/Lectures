@@ -464,21 +464,223 @@ $$Z = \frac{50{,}3 - 29{,}2}{50{,}3} \cdot 100\,\% \approx \mathbf{42\,\%} \qqua
 
 ---
 
-# Zusammenfassender Vergleich
+# Voigt-Notation (3D) 
 
-| Größe | Formel | Besonderheit |
-|---|---|---|
-| Ingenieurdehnung $\varepsilon$ | $\frac{l-l_0}{l_0}$ | Nicht additiv |
-| Wahre Dehnung $\varphi$ | $\ln(1+\varepsilon)$ | **Additiv** |
-| Wahre Spannung $\sigma_w$ | $\sigma(1+\varepsilon)$ | Steigt bis Bruch |
-| Brucheinschnürung $Z$ | $\frac{A_0-A_u}{A_0}$ | Duktilitätsmaß |
-| Wahre Bruchdehnung $\varphi_u$ | $\ln\frac{1}{1-Z}$ | Aus Querschnitt |
-| Zähigkeit $w$ | $\int \sigma\, d\varepsilon$ | Fläche unter Kurve |
-| Dehnrate $\dot{\varepsilon}$ | $v/l_0$ | $[\text{s}^{-1}]$ |
-| Cowper-Symonds $\sigma_d$ | $\sigma_0[1+(\dot{\varepsilon}/C)^{1/p}]$ | Höhere Rate → höhere $\sigma$ |
+<div class="zwei-spalten">
+<div>
+
+<div class="eq">
+
+$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{33} \\ \sigma_{23} \\ \sigma_{13} \\ \sigma_{12} \end{Bmatrix} =
+\begin{bmatrix}
+C_{11} & C_{12} & C_{12} & 0 & 0 & 0 \\
+C_{12} & C_{11} & C_{12} & 0 & 0 & 0 \\
+C_{12} & C_{12} & C_{11} & 0 & 0 & 0 \\
+0 & 0 & 0 & C_{44} & 0 & 0 \\
+0 & 0 & 0 & 0 & C_{44} & 0 \\
+0 & 0 & 0 & 0 & 0 & C_{44}
+\end{bmatrix}
+\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ \varepsilon_{33} \\ 2\varepsilon_{23} \\ 2\varepsilon_{13} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+
+</div>
+
+</div>
+<div>
+
+| Koeffizient | Formel |
+|---|---|
+| $C_{11}$ | $\dfrac{E(1-\nu)}{(1+\nu)(1-2\nu)}$ |
+| $C_{12}$ | $\dfrac{E\nu}{(1+\nu)(1-2\nu)}$ |
+| $C_{44}$ | $G = \dfrac{E}{2(1+\nu)}$ |
 
 <div class="hinweis">
 
-**Merke:** Kleine $p$ → starker Dehnrateneinfluss (z.B. Weichwerkstahl $p=5$). Große $p$ → schwacher Einfluss (z.B. Ti-Leg. $p=9$).
+Gilt für **isotrope** Werkstoffe. Nur 2 unabhängige Parameter ($E$, $\nu$). Der Faktor $2$ vor $\varepsilon_{ij}$ ($i\neq j$) kommt aus der Ingenieurscherverzerrung $\gamma_{ij} = 2\varepsilon_{ij}$.
+
+</div>
+
+</div>
+</div>
+
+---
+
+# Aufgabe 7 – Voigt-Notation: 3D-Spannungszustand
+
+<div class="aufgabe">
+
+**Aufgabe 7:** Ein isotroper Stahl ($E = 210\,\text{GPa}$, $\nu = 0{,}30$) hat folgenden Dehnungszustand:
+$$\varepsilon_{11} = 600\,\mu, \quad \varepsilon_{22} = -200\,\mu, \quad \varepsilon_{33} = 100\,\mu, \quad \varepsilon_{12} = \varepsilon_{13} = \varepsilon_{23} = 0$$
+
+(a) Berechne $C_{11}$, $C_{12}$ und $C_{44}$.
+
+(b) Berechne $\sigma_{11}$, $\sigma_{22}$ und $\sigma_{33}$ über die Voigt-Notation.
+
+(c) Zeige, dass das Ergebnis mit der Lamé-Formel $\sigma_{ij} = \lambda\,\operatorname{tr}(\boldsymbol{\varepsilon})\,\delta_{ij} + 2G\varepsilon_{ij}$ übereinstimmt (mit $\lambda = C_{12}$, $G = C_{44}$).
+
+</div>
+
+---
+
+# Lösung – Aufgabe 7
+
+<div class="loesung">
+
+**(a)**
+$$C_{11} = \frac{210\,000 \cdot 0{,}7}{1{,}3 \cdot 0{,}4} = 282\,692\,\text{MPa} \qquad C_{12} = \frac{210\,000 \cdot 0{,}3}{0{,}52} = 121\,154\,\text{MPa} \qquad C_{44} = \frac{210\,000}{2{,}6} = 80\,769\,\text{MPa}$$
+
+**(b)**
+$$\sigma_{11} = 10^{-6}[282\,692 \cdot 600 + 121\,154 \cdot (-200) + 121\,154 \cdot 100] \approx \mathbf{145{,}2\,\text{MPa}}$$
+$$\sigma_{22} = 10^{-6}[121\,154 \cdot 600 + 282\,692 \cdot (-200) + 121\,154 \cdot 100] \approx \mathbf{24{,}0\,\text{MPa}}$$
+$$\sigma_{33} = 10^{-6}[121\,154 \cdot 600 + 121\,154 \cdot (-200) + 282\,692 \cdot 100] \approx \mathbf{76{,}4\,\text{MPa}}$$
+
+**(c)** $\operatorname{tr}(\boldsymbol{\varepsilon}) = 500\,\mu$. Lamé:
+$$\sigma_{11} = 121\,154 \cdot 500\cdot10^{-6} + 2 \cdot 80\,769 \cdot 600\cdot10^{-6} = 60{,}6 + 96{,}9 \approx 145{,}2\,\text{MPa}\;\checkmark$$
+
+</div>
+
+---
+
+# Ebener Spannungszustand (ESZ)
+
+## Kurztheorie
+
+**Annahme:** $\sigma_{33} = \sigma_{13} = \sigma_{23} = 0$ (dünne Scheibe, freie Oberfläche)
+
+$$\Rightarrow \varepsilon_{33} = -\frac{\nu}{E}(\sigma_{11} + \sigma_{22}) \neq 0$$
+
+<div class="eq">
+
+$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} =
+\frac{E}{1-\nu^2}
+\begin{bmatrix}
+1 & \nu & 0 \\
+\nu & 1 & 0 \\
+0 & 0 & \dfrac{1-\nu}{2}
+\end{bmatrix}
+\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+
+</div>
+
+<div class="hinweis">
+
+Typisch: dünnwandige Scheiben, ebene Bleche, Membranstrukturen. Die Dicke kann sich frei ändern ($\varepsilon_{33} \neq 0$), aber $\sigma_{33} = 0$.
+
+</div>
+
+---
+
+# Aufgabe 8 – ESZ: Dünnwandige Aluminiumscheibe
+
+<div class="aufgabe">
+
+**Aufgabe 8:** Eine dünne Aluminiumscheibe ($E = 70\,\text{GPa}$, $\nu = 0{,}33$) wird biaxial belastet:
+$$\varepsilon_{11} = 800\,\mu\text{m/m}, \quad \varepsilon_{22} = 300\,\mu\text{m/m}, \quad \varepsilon_{12} = 0$$
+
+(a) Berechne $\sigma_{11}$ und $\sigma_{22}$ im ESZ.
+
+(b) Berechne die Dickenänderungsdehnung $\varepsilon_{33}$.
+
+(c) Warum darf man für diese Scheibe den ESZ annehmen? Was würde sich ändern, wenn die Scheibe sehr dick wäre?
+
+</div>
+
+---
+
+# Lösung – Aufgabe 8
+
+<div class="loesung">
+
+**(a)** Vorfaktor: $\dfrac{E}{1-\nu^2} = \dfrac{70\,000}{1 - 0{,}109} = 78\,565\,\text{MPa}$
+
+$$\sigma_{11} = 78\,565 \cdot (\varepsilon_{11} + \nu\,\varepsilon_{22}) = 78\,565 \cdot (800 + 0{,}33 \cdot 300)\cdot10^{-6}$$
+$$= 78\,565 \cdot 899\cdot10^{-6} \approx \mathbf{70{,}6\,\text{MPa}}$$
+
+$$\sigma_{22} = 78\,565 \cdot (\varepsilon_{22} + \nu\,\varepsilon_{11}) = 78\,565 \cdot (300 + 264)\cdot10^{-6} \approx \mathbf{44{,}3\,\text{MPa}}$$
+
+**(b)**
+$$\varepsilon_{33} = -\frac{\nu}{E}(\sigma_{11}+\sigma_{22}) = -\frac{0{,}33}{70\,000}(70{,}6+44{,}3) \approx \mathbf{-542\,\mu\text{m/m}}$$
+
+**(c)** Dünne Scheibe → freie Oberfläche in $z$ → $\sigma_{33}=0$ gültig; $\varepsilon_{33}$ stellt sich frei ein. Bei großer Dicke wäre die Querkontraktion in $z$ durch den umgebenden Werkstoff behindert → EDZ wäre treffender.
+
+</div>
+
+---
+
+# Ebener Dehnungszustand (EDZ)
+
+## Kurztheorie
+
+**Annahme:** $\varepsilon_{33} = \varepsilon_{13} = \varepsilon_{23} = 0$ (Dehnung in $z$ blockiert)
+
+$$\Rightarrow \sigma_{33} = \nu(\sigma_{11} + \sigma_{22}) \neq 0$$
+
+<div class="eq">
+
+$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} =
+\frac{E}{(1+\nu)(1-2\nu)}
+\begin{bmatrix}
+1-\nu & \nu & 0 \\
+\nu & 1-\nu & 0 \\
+0 & 0 & \dfrac{1-2\nu}{2}
+\end{bmatrix}
+\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+
+</div>
+
+<div class="hinweis">
+
+Typisch: lange Zylinder, Dämme, dicke Wandstrukturen. Die Spannung $\sigma_{33}$ ist nicht null, aber die Dehnung in $z$ verschwindet.
+
+</div>
+
+---
+
+# Aufgabe 9 – EDZ: Langer Stahlzylinder
+
+<div class="aufgabe">
+
+**Aufgabe 9:** Ein langer Stahlzylinder ($E = 210\,\text{GPa}$, $\nu = 0{,}30$) wird durch Innendruck beansprucht:
+$$\varepsilon_{11} = 500\,\mu\text{m/m}, \quad \varepsilon_{22} = 200\,\mu\text{m/m}, \quad \varepsilon_{12} = 0$$
+
+(a) Berechne $\sigma_{11}$, $\sigma_{22}$ und $\sigma_{33}$ im EDZ.
+
+(b) Vergleiche den Vorfaktor des EDZ mit dem des ESZ für denselben Stahl. Welcher ist größer – und warum?
+
+(c) Warum gilt hier EDZ und nicht ESZ?
+
+</div>
+
+---
+
+# Lösung – Aufgabe 9
+
+<div class="loesung">
+
+**(a)** Vorfaktor: $\dfrac{E}{(1+\nu)(1-2\nu)} = \dfrac{210\,000}{1{,}3 \cdot 0{,}4} = 403\,846\,\text{MPa}$
+
+$$\sigma_{11} = 403\,846\cdot[(1-\nu)\varepsilon_{11}+\nu\,\varepsilon_{22}] = 403\,846\cdot[0{,}7\cdot500+0{,}3\cdot200]\cdot10^{-6} \approx \mathbf{165{,}6\,\text{MPa}}$$
+$$\sigma_{22} = 403\,846\cdot[0{,}3\cdot500+0{,}7\cdot200]\cdot10^{-6} \approx \mathbf{117{,}1\,\text{MPa}}$$
+$$\sigma_{33} = \nu(\sigma_{11}+\sigma_{22}) = 0{,}3\cdot282{,}7 \approx \mathbf{84{,}8\,\text{MPa}}$$
+
+**(b)** ESZ-Vorfaktor: $\dfrac{E}{1-\nu^2} = \dfrac{210\,000}{0{,}91} = 230\,769\,\text{MPa}$ — EDZ-Vorfaktor ist größer, da die blockierte Querkontraktion die Steifigkeit erhöht.
+
+**(c)** Langer Zylinder: Symmetrie und Einspannung verhindern Dehnung in Achsrichtung → $\varepsilon_{33} = 0$ erzwungen → EDZ.
+
+</div>
+
+---
+
+# ESZ vs. EDZ – Vergleich
+
+| Merkmal | ESZ | EDZ |
+|---|---|---|
+| Annahme | $\sigma_{33} = 0$ | $\varepsilon_{33} = 0$ |
+| Folge | $\varepsilon_{33} \neq 0$ | $\sigma_{33} = \nu(\sigma_{11}+\sigma_{22}) \neq 0$ |
+| Vorfaktor | $\dfrac{E}{1-\nu^2}$ | $\dfrac{E}{(1+\nu)(1-2\nu)}$ |
+| Typische Geometrie | Dünne Scheibe, Blech | Langer Zylinder, Damm, dicke Wand |
+
+<div class="hinweis">
+
+**Merkregel:** ESZ → Spannung in $z$ frei (= 0), Dehnung folgt. EDZ → Dehnung in $z$ blockiert (= 0), Spannung folgt. Der EDZ-Vorfaktor ist stets größer → gleiche Dehnung erzeugt höhere Spannung.
 
 </div>

@@ -278,6 +278,8 @@ where $\Delta K = \Delta\sigma \cdot Y \cdot \sqrt{\pi a}$
 
 ---
 
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/6/6f/Crack_propagation_curve_Paris%27_law.svg)
+
 ## The Three Regimes Together
 
 $$\underbrace{\Delta\varepsilon_p \cdot N_f^c = \varepsilon_f'}_{\text{LCF — Coffin-Manson}}
