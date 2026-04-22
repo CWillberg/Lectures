@@ -182,6 +182,8 @@ $$\text{PSB slip} \rightarrow \text{intrusions \& extrusions} \rightarrow \text{
 - At **grain boundaries** in coarse-grained or hard materials
 - At **geometric stress concentrators** — notches, holes, keyways, sharp corners
 
+---
+
 **Mechanism:**
 - Intrusion at PSB acts as a sharp micro-notch
 - Crack nucleates along the **PSB plane** — parallel to maximum shear stress ($\approx 45°$ to load)
@@ -233,6 +235,10 @@ $$K_{max} = K_{Ic} \quad \Rightarrow \quad a_c = \frac{1}{\pi}\left(\frac{K_{Ic}
 | Overload zone | Rough, fibrous or granular | Sudden final fracture |
 
 The crack **origin** is often identifiable — surface defect, inclusion, or notch.
+
+---
+![w:800](https://materialmagazin.com/images/bilder/labor/Brucharten-450px_0.png)
+[Source](https://materialmagazin.com/index.php/labor/fraktographie)
 
 ---
 
@@ -405,6 +411,8 @@ $$\varepsilon_{th} = \alpha \cdot \Delta T$$
 
 **Affected materials:** Nickel superalloys, stainless steels, titanium alloys at $T > 500°C$
 
+
+
 ---
 
 ## Thermal Fatigue — Crack Initiation Sites
@@ -488,6 +496,9 @@ $$\Delta\sigma_{\text{mismatch}} = (\alpha_1 - \alpha_2) \cdot \Delta T \cdot E_
 - Each braking event = one thermal cycle
 - Surface reaches $> 600°C$ in seconds → steep gradient to core
 - Characteristic **heat checking** crack network on disc surface
+
+![bg right 50%](https://fatigue-life.com/wp-content/uploads/2019/11/rotor_disc-600x760.jpg)
+[Source - Thermal fatigue cracks on break disc](https://fatigue-life.com/thermal-fatigue/)
 
 ---
 
