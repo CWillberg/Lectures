@@ -307,7 +307,7 @@ Heavy-Section Ductile Iron Castings"
 
 ---
 
-## Thermal Fatigu
+## Thermal Fatigue
 
 **Definition:** Fatigue damage driven purely by **cyclic thermal stresses** — no external mechanical load required.
 
