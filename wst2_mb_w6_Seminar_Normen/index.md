@@ -103,15 +103,6 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
-# Lernziele
-
-- Das **Normsystem** für Stahl (EN 10027) verstehen und anwenden
-- Stahlbezeichnungen nach **Verwendung** (System 1) und **Zusammensetzung** (System 2) lesen
-- Den **C-Gehalt** und Legierungselemente aus dem Kurznamen ablesen
-- Wichtige **Stahlgruppen** und ihre typischen Anwendungen kennen
-- Normbezeichnungen in **Datenbankrecherchen** (z. B. Werkstoffnummern) übersetzen
-
----
 
 # Warum Normen?
 
@@ -223,7 +214,7 @@ Der Kennwert ist immer eine **Mindesteigenschaft** aus der Norm – kein direkte
 
 ---
 
-# System 1 – Zusammensetzung: Unlegierte Stähle
+### Unlegierte Stähle
 
 Stähle mit **keinem Legierungselement > 1 %** – Kennzeichnung allein über den Kohlenstoffgehalt:
 
@@ -246,15 +237,11 @@ $$C_{\%} = \frac{\text{Zahl}}{100} \qquad \Rightarrow \qquad \text{C45:}\; C = \
 | C45 | 0,45 % | gut zerspanbar, vergütbar | Wellen, Bolzen |
 | C60 | 0,60 % | hart, verschleißfest | Federn, Messer |
 
-<div class="hinweis">
 
-Mit steigendem C-Gehalt: **Festigkeit ↑, Schweißbarkeit ↓, Zähigkeit ↓**
-
-</div>
 
 ---
 
-# System 1 – Zusammensetzung: Niedriglegierte Stähle
+### Niedriglegierte Stähle
 
 Mindestens ein Legierungselement, aber **alle < 5 %** – Gehalt wird über einen **Divisor** kodiert:
 
@@ -278,15 +265,10 @@ $$\text{Legierungsgehalt} = \frac{\text{Zahl im Namen}}{\text{Divisor}}$$
 | N, P, S | **100** | selten im Namen |
 | B | **1000** | Spurenelement, sehr wirksam |
 
-<div class="hinweis">
-
-**Mo im Namen ohne eigene Zahl** (wie in 42CrMo4) → der Gehalt ist gering (~0,15–0,30 %) und wird durch die Zahl am Ende des Namens **nur für Cr** angegeben.
-
-</div>
 
 ---
 
-# System 1 – Zusammensetzung: Hochlegierte Stähle
+### Hochlegierte Stähle
 
 Mindestens ein Legierungselement **≥ 5 %** – Präfix **X**, Gehalte **direkt in %** (kein Divisor):
 
@@ -316,7 +298,13 @@ X   5   Cr  Ni  18 - 10
 
 # System 2 – Werkstoffnummer
 
+<div class="zwei-spalten">
+
+<div>
+
 ## Aufbau nach EN 10027-2
+
+
 
 ```
 1 . 0 5 7 0
@@ -325,6 +313,10 @@ X   5   Cr  Ni  18 - 10
 │   └─────── Stahlgruppe (einstellig)
 └─────────── Werkstoffhauptnummer (Stahl = 1)
 ```
+</div>
+
+<div>
+
 
 ## Wichtige Stahlgruppen (erste Stelle nach Punkt)
 
@@ -336,6 +328,8 @@ X   5   Cr  Ni  18 - 10
 | 3–8 | Legierte Stähle (nach Element) |
 | 4, 5 | Nichtrostende Stähle (Cr > 10,5 %) |
 | 7 | Schnellarbeitsstähle |
+
+
 
 ---
 
@@ -353,12 +347,29 @@ X   5   Cr  Ni  18 - 10
 - **C-Stähle** C10–C80: Vergüten, Einsatzhärten
 - **Automatenstähle** 11SMn30: Massenfertigung (CNC)
 
+
+
+</div>
+
+<div>
+
 ### Niedriglegierte Stähle
 - **Vergütungsstähle** 42CrMo4: Zahnräder, Schrauben
 - **Einsatzstähle** 16MnCr5: Getriebe, Bolzen
 - **Federstähle** 51CrV4: Blattfedern, Spiralfedern
 
 </div>
+
+</div>
+
+---
+
+
+# Überblick Stahlgruppen
+
+## Systematik nach Verwendung und Eigenschaft
+
+<div class="zwei-spalten">
 
 <div>
 
@@ -369,6 +380,12 @@ X   5   Cr  Ni  18 - 10
 - **Schnellarbeitsstahl** HS6-5-2: Bohrer, Fräser
 - **Warmarbeitsstahl** X40CrMoV5-1: Druckguss
 
+</div>
+
+<div>
+
+
+
 ### Sonderstähle
 - **Duplex** X2CrNiMoN22-5-3: Offshore, Chemie
 - **Superlegierungen**: Triebwerke, Kraftwerke
@@ -376,6 +393,7 @@ X   5   Cr  Ni  18 - 10
 </div>
 
 </div>
+
 
 ---
 
@@ -437,44 +455,8 @@ Bei Stählen der Gruppe **S** gibt ein Buchstabe die garantierte Kerbschlagarbei
 | X20Cr13 | 1.4021 | Martensitisch | 700–900 | Turbinen, Messer |
 | HS6-5-2 | 1.3343 | Schnellstahl | ~900 HV | Bohrer, Fräser |
 
+
 ---
-
-# Normdatenbanken & Recherche
-
-## Wo findet man Kennwerte?
-
-<div class="zwei-spalten">
-
-<div>
-
-### Kostenlose Quellen
-- **MatWeb** (matweb.com) – englisch
-- **IDES / Prospector** – Kunststoffe
-- **Stahldaten.de** – Deutsche Stahlnormen
-- **Stahlschlüssel** (Buch + Online)
-
-### Bezahlte / institutionelle Quellen
-- **CAMPUS** – Kunststoffe vollständig
-- **DIN-Normen** (Bibliothek der h2)
-- **ASM Handbook** – Metalle umfassend
-
-</div>
-
-<div>
-
-### Suchstrategie
-
-1. Kurzname bekannt → direkt suchen
-2. Werkstoffnummer bekannt → eindeutig
-3. Nur Anforderungen bekannt → Werkstoffauswahl:
-   - $R_m$, $R_{p0,2}$, $A$ → Festigkeit
-   - Temperatur → Gütegruppe
-   - Korrosion → X-Stähle / Duplex
-   - Gewicht → spezifische Festigkeit
-
-</div>
-
-</div>
 
 ---
 

@@ -44,6 +44,7 @@ jobs:
           - Faserverbund_02
           - Peridynamics/pd_01
           - Peridynamics/pd_02
+          - Peridynamics/pd_03
           - fracture_and_fatigue_01
           - wst2_mb_w0_Kurs
           - wst2_mb_w1_bindungen
@@ -55,6 +56,7 @@ jobs:
           - wst2_mb_w3_Spannungen_Dehnungen_Seminar
           - wst2_mb_w3_thermisch_elektrisch
           - wst2_mb_w3_thermisch_elektrisch_seminar
+          - wst2_mb_w6_Seminar_Normen
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03
