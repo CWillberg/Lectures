@@ -296,6 +296,24 @@ X   5   Cr  Ni  18 - 10
 
 ---
 
+# Legierungselemente und ihre Wirkung
+
+| Element | Symbol | Hauptwirkung |
+|---|---|---|
+| Kohlenstoff | C | Härte ↑, Festigkeit ↑, Schweißbarkeit ↓ |
+| Chrom | Cr | Härtbarkeit ↑, Korrosionsschutz ab Cr > 10,5 % |
+| Nickel | Ni | Zähigkeit ↑, Tieftemperaturzähigkeit ↑ |
+| Mangan | Mn | Festigkeit ↑, Härtbarkeit ↑, Entschwefelung |
+| Molybdän | Mo | Warmfestigkeit ↑, Anlassbeständigkeit ↑ |
+| Vanadium | V | Feinkornbildung, Verschleißfestigkeit ↑ |
+| Silizium | Si | Desoxidation, Elastizitätsgrenze ↑ |
+| Wolfram | W | Warmhärte ↑ (Schnellarbeitsstähle) |
+| Bor | B | Härtbarkeit ↑↑ bereits bei < 0,005 % |
+| Niob / Titan | Nb, Ti | Feinkornstabilisierung, Mikrolegierung |
+
+---
+
+
 # System 2 – Werkstoffnummer
 
 <div class="zwei-spalten">
@@ -394,6 +412,36 @@ X   5   Cr  Ni  18 - 10
 
 </div>
 
+---
+
+
+
+
+
+<div class="zwei-spalten">
+
+<div>
+
+### Was „Edelstahl" bedeutet
+- Normativ definiert in EN 10020
+- Bezeichnet einen Stahl **hoher Reinheit**: geringe Schwefel- und Phosphorgehalte ($S, P < 0{,}025\,\%$)
+- Bezieht sich auf die **metallurgische Qualität** – nicht auf Legierung oder Korrosionsverhalten
+- Beispiel: **C60** kann als Edelstahl eingestuft sein – rostet aber trotzdem
+
+</div>
+
+<div>
+
+
+
+### Im Alltag
+- Umgangssprachlich wird „Edelstahl" oft für nichtrostende Stähle verwendet
+- Technisch/normativ ist das **falsch**
+- Im Konstruktions- und Bestellwesen immer auf die **Normbezeichnung** achten
+
+</div>
+
+</div>
 
 ---
 
@@ -457,6 +505,8 @@ Bei Stählen der Gruppe **S** gibt ein Buchstabe die garantierte Kerbschlagarbei
 
 
 ---
+
+# Anwendung
 
 ---
 
@@ -631,28 +681,6 @@ Gegeben: **X20Cr13**, Datenblattwert: Cr = 12–14 %
 
 ---
 
-# Zusammenfassung – Stahlnormen
-
-<div class="zwei-spalten">
-
-<div>
-
-### System 1 – Kurzname
-- **Baustähle**: S + Streckgrenze + Gütegruppe
-- **C-Stähle**: C + (C% × 100)
-- **Niedriglegiery**: C% × 100 + Elemente + Divisorzahl
-- **Hochlegiert**: X + C% × 100 + Elemente direkt in %
-
-### Lieferzustände (wichtigste)
-- **+QT**: vergütet → hohe Festigkeit
-- **+N**: normalgeglüht → homogen
-- **+H**: einsatzgehärtet → Rand hart, Kern zäh
-- **+A**: weichgeglüht → gut bearbeitbar
-
-</div>
-
-<div>
-
 ### Auswahlpfad
 
 ```
@@ -668,14 +696,4 @@ Randschicht? → Einsatzstahl +H
         ↓
 Datenbank: Werkstoffnummer prüfen
 ```
-
-<div class="warn">
-
-⚠️ **Merken:** Normbezeichnung ≠ Eigenschaft ohne Lieferzustand. C45 im Normalzustand ≠ C45+QT – der Zustand verdoppelt ggf. die Festigkeit!
-
-
-</div>
-</div>
-
-</div>
 
