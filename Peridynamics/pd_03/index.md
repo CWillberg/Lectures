@@ -93,7 +93,7 @@ tr:nth-child(even) td {
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 <div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Peridynamics/pd_03/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
@@ -216,7 +216,35 @@ $$K_{ij} = -\frac{c}{|\xi_{ij}|}\,\omega_{ij}\,V_j \quad (i \ne j), \qquad K_{ii
 
 </div>
 
+---
 
+# Micromodulus $c$ – Definition (1D)
+
+## Energy equivalence with classical elasticity
+
+The micromodulus $c$ is derived by equating the **peridynamic strain energy density** of a homogeneously stretched bar to the **classical elastic strain energy density** $W = \frac{1}{2}E\varepsilon^2$:
+
+<div class="eq">
+
+$$W_\text{PD} = \frac{1}{2}\int_0^\delta c\,s^2\,\xi\,d\xi \stackrel{!}{=} \frac{1}{2}E\,\varepsilon^2 = W_\text{classical}$$
+
+</div>
+
+With $s = \varepsilon$ (uniform stretch) and integrating over the 1D horizon $[0,\delta]$:
+
+$$\frac{c}{2}\,\varepsilon^2\int_0^\delta \xi\,d\xi = \frac{1}{2}E\,\varepsilon^2 \quad\Rightarrow\quad \frac{c}{2}\cdot\frac{\delta^2}{2} = \frac{E}{2}$$
+
+<div class="eq">
+
+$$\boxed{c = \frac{2E}{A\,\delta^2}}$$
+
+</div>
+
+<div class="hinweis">
+
+$A$ is the cross-sectional area of the bar. The factor $\frac{1}{2}$ in the assembly (bond counted from both endpoints) then yields the effective micromodulus $c_\text{eff} = \frac{E}{A\delta^2}$ used in the matrix entries.
+
+</div>
 
 ---
 
@@ -513,8 +541,6 @@ PeriLab:
         Forces: True
 ```
 
-
-
 ---
 
 ## Exercise 4 – PeriLab Interpretation
@@ -546,4 +572,3 @@ $\Delta u = 100 - 0.1 = 99.9$ (units as defined in the mesh)
 **4.** Check **`Displacements`** in $x$-direction → should be linear between the two BCs. Also check **`Forces`** → should be uniform along the bar (constant internal force = pure tension). Any variation indicates non-uniform loading.
 
 </div>
-
