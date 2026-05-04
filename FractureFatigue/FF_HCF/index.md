@@ -23,7 +23,7 @@ img[alt="ORCID"] {
 
 <!-- _class: lead -->
 ## Fracture & Fatigue
-## HCF – Parameter Measurement & Load Spectra
+## High Cycle Fatigue (HCF)
 
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID" style="height:15px;width:auto;vertical-align:top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
@@ -35,19 +35,6 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-## Overview
-
-- HCF material parameters — what needs to be measured?
-- Fatigue testing — specimen and methods
-- The S-N curve — generation and statistics
-- Haigh diagram & Smith diagram — mean stress effect
-- Load spectra — real-world loading
-- Cycle counting — Rainflow method
-- Damage accumulation — Miner's rule
-- Combining multiple load cases
-- Remaining lifetime assessment
-
----
 
 ## What Parameters Does HCF Design Need?
 
@@ -254,7 +241,7 @@ $$\sigma_a = \frac{1-R}{1+R} \cdot \sigma_m$$
 
 ![bg right 90%](https://www.tec-science.com/wp-content/uploads/2021/03/de-dauerschwingversuch-haigh-diagramm-spannungsverhaeltnis.jpg)
 
---
+---
 
 - Each $R$-line intersects the boundary curve → gives $\sigma_D(R)$
 - Measurement points from staircase tests at different $R$ lie on these lines

@@ -6,7 +6,6 @@ paginate: true
 math: katex
 ---
 
-
 <style>
 footer {
     font-size: 14px;
@@ -23,49 +22,47 @@ img[alt="ORCID"] {
 </style>
 
 <!-- _class: lead -->
-# Fracture & Fatigue - Parameter
+# Fracture & Fatigue — Parameter
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
+<div style="position: absolute; top: 200px; left: 850px;">
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/FF_parameter/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
 ---
 
-## Overview
+## Übersicht
 
-- Cyclic loading parameters
-- Stress state — uniaxial and multiaxial
-- Principal stresses and stress directions
-- Stress concentrations
-- Fracture mechanics parameters — stress intensity factor
-- Energy release rate
-- Fatigue-relevant material parameters
-
----
-
-## Cyclic Loading – Stress Parameters
-
-$$\sigma_m = \frac{\sigma_{max} + \sigma_{min}}{2} \quad \text{(mean stress)}$$
-
-$$\sigma_a = \frac{\sigma_{max} - \sigma_{min}}{2} \quad \text{(stress amplitude)}$$
-
-$$\Delta\sigma = \sigma_{max} - \sigma_{min} \quad \text{(stress range)}$$
-
-$$R = \frac{\sigma_{min}}{\sigma_{max}} \quad \text{(stress ratio)}$$
-
-| Loading type | $R$ | $\sigma_m$ |
-|---|---|---|
-| Fully reversed | $-1$ | $0$ |
-| Pulsating tension | $0$ | $\sigma_a$ |
-| Fluctuating tension | $0 < R < 1$ | $> 0$ |
+1. Zyklische Belastungsparameter
+2. Spannungszustand — Tensor, Hauptspannungen, Triaxialität
+3. Spannungskonzentration
+4. Bruchmechanische Parameter — $K$, $G$, $K_{Ic}$
+5. Risswachstumsparameter — Paris, NASGRO
+6. Mittelspannungseinfluss
 
 ---
 
-## Cyclic Loading – Parameter Relations
+<!-- Abschnitt 1 -->
+# Zyklische Belastungsparameter
 
-All cyclic parameters are interrelated — only **two are independent**:
+---
+
+## Zyklische Beanspruchung — Definitionen
+
+$$\sigma_m = \frac{\sigma_{max} + \sigma_{min}}{2} \qquad \text{(Mittelspannung)}$$
+
+$$\sigma_a = \frac{\sigma_{max} - \sigma_{min}}{2} \qquad \text{(Spannungsamplitude)}$$
+
+$$\Delta\sigma = \sigma_{max} - \sigma_{min} \qquad \text{(Spannungsschwingbreite)}$$
+
+$$R = \frac{\sigma_{min}}{\sigma_{max}} \qquad \text{(Spannungsverhältnis)}$$
+
+> **Nur zwei Parameter sind unabhängig** — alle anderen folgen daraus.
+
+---
+
+## Zusammenhänge zwischen den Parametern
 
 $$\sigma_{max} = \sigma_m + \sigma_a \qquad \sigma_{min} = \sigma_m - \sigma_a$$
 
@@ -73,482 +70,382 @@ $$\sigma_a = \frac{\Delta\sigma}{2} \qquad \sigma_m = \frac{\sigma_{max}(1+R)}{2
 
 $$R = \frac{\sigma_m - \sigma_a}{\sigma_m + \sigma_a}$$
 
-**Special cases:**
-
-| $R$ | Loading condition | Consequence |
+| $R$ | Belastungsart | Konsequenz |
 |---|---|---|
-| $-1$ | Fully reversed | $\sigma_m = 0$, pure alternating |
-| $0$ | Pulsating tension | $\sigma_{min} = 0$ |
-| $+1$ | Static load | $\sigma_a = 0$, no fatigue |
-| $< -1$ | Compressive mean | $\|\sigma_{min}\| > \sigma_{max}$ |
+| $-1$ | Wechselbeanspruchung | $\sigma_m = 0$ |
+| $0$ | Schwellbeanspruchung (Zug) | $\sigma_{min} = 0$ |
+| $+1$ | statische Last | $\sigma_a = 0$, keine Schwingung |
+| $< -1$ | Druckmittelspannung | $|\sigma_{min}| > \sigma_{max}$ |
 
 ---
 
-## Stress State — The Stress Tensor
+## Beispiel — Zyklische Parameter bestimmen
 
-In general, the stress state at a point is described by the **Cauchy stress tensor**:
+**Gegeben:** $\sigma_{max} = 200\,\text{MPa}$, $\sigma_{min} = -60\,\text{MPa}$
+
+**Gesucht:** $\sigma_m$, $\sigma_a$, $\Delta\sigma$, $R$
+
+$$\sigma_m = \frac{200 + (-60)}{2} = 70\,\text{MPa}$$
+
+$$\sigma_a = \frac{200 - (-60)}{2} = 130\,\text{MPa}$$
+
+$$\Delta\sigma = 200 - (-60) = 260\,\text{MPa}$$
+
+$$R = \frac{-60}{200} = -0{,}3$$
+
+> $R < 0$ → Zug-Druck-Beanspruchung mit positiver Mittelspannung. Wechselbeanspruchung ($R=-1$) wäre $\sigma_m=0$.
+
+---
+
+<!-- Abschnitt 2 -->
+# Spannungszustand
+
+---
+
+## Der Spannungstensor
 
 $$\boldsymbol{\sigma} = \begin{pmatrix} \sigma_{xx} & \tau_{xy} & \tau_{xz} \\ \tau_{yx} & \sigma_{yy} & \tau_{yz} \\ \tau_{zx} & \tau_{zy} & \sigma_{zz} \end{pmatrix}$$
 
-- **Normal stresses** $\sigma_{ii}$: act perpendicular to the face
-- **Shear stresses** $\tau_{ij}$: act parallel to the face
-- Symmetry: $\tau_{ij} = \tau_{ji}$ → 6 independent components
+- **Normalspannungen** $\sigma_{ii}$: senkrecht zur Fläche
+- **Schubspannungen** $\tau_{ij}$: tangential zur Fläche
+- Symmetrie: $\tau_{ij} = \tau_{ji}$ → 6 unabhängige Komponenten
 
-**Voigt notation (engineering):**
+**Voigt-Notation:**
 $$\boldsymbol{\sigma} = [\sigma_{xx},\, \sigma_{yy},\, \sigma_{zz},\, \tau_{yz},\, \tau_{xz},\, \tau_{xy}]^T$$
 
-In fatigue and fracture, the **full stress state** — not just one component — determines crack initiation and propagation direction.
+> In Ermüdung und Bruch entscheidet der **vollständige Spannungszustand** über Rissinitiierung und -ausbreitung.
 
 ---
 
-## Principal Stresses
+## Hauptspannungen
 
-**Principal stresses** are the normal stresses acting on planes where shear stress vanishes.
+Hauptspannungen = Normalspannungen auf Flächen ohne Schubspannung.
 
-Found by solving the eigenvalue problem:
+Eigenwertproblem:
+$$\det(\boldsymbol{\sigma} - \sigma_i \mathbf{I}) = 0 \quad \Rightarrow \quad \sigma_1 \geq \sigma_2 \geq \sigma_3$$
 
-$$\det(\boldsymbol{\sigma} - \sigma_i \mathbf{I}) = 0$$
-
-Yields three principal stresses $\sigma_1 \geq \sigma_2 \geq \sigma_3$ and their directions (principal axes).
-
-**In 2D (plane stress):**
+**Ebener Spannungszustand (2D):**
 
 $$\sigma_{1,2} = \frac{\sigma_{xx}+\sigma_{yy}}{2} \pm \sqrt{\left(\frac{\sigma_{xx}-\sigma_{yy}}{2}\right)^2 + \tau_{xy}^2}$$
 
-**Why relevant for fatigue and fracture?**
-- Fatigue cracks grow **perpendicular to the maximum principal stress** $\sigma_1$ (Mode I)
-- Crack initiation along **maximum shear stress** planes ($\approx 45°$ to $\sigma_1$) in Stage I
-- Fracture criteria (Rankine, von Mises, Tresca) are expressed in principal stresses
-
----
-
-## Maximum Shear Stress
-
-**Maximum shear stress** — critical for crack initiation (Stage I, slip-band driven):
-
+**Maximale Schubspannung:**
 $$\tau_{max} = \frac{\sigma_1 - \sigma_3}{2}$$
 
-Acts on planes inclined at **45°** to the principal stress directions.
+---
 
-**Mohr's circle** — graphical representation of stress transformation:
+## Hauptspannungen — Bedeutung für Ermüdung
 
-$$\sigma_n = \frac{\sigma_1+\sigma_3}{2} + \frac{\sigma_1-\sigma_3}{2}\cos 2\theta$$
-
-$$\tau = \frac{\sigma_1-\sigma_3}{2}\sin 2\theta$$
-
-**Relevance:**
-- PSBs and Stage I cracks nucleate on **maximum shear stress planes**
-- Fretting fatigue and torsional fatigue are shear-dominated → $\tau_{max}$ governs
-- Multiaxial fatigue criteria (Tresca, critical plane) are based on $\tau_{max}$
+| Größe | Relevanz |
+|---|---|
+| $\sigma_1$ (max. Hauptspannung) | Riss wächst **senkrecht** dazu (Mode I, Stufe II) |
+| $\tau_{max}$ (max. Schubspannung) | Rissinitiierung in PSBs (Stufe I, 45°-Ebene) |
+| Hauptspannungsrichtungen | Bei nichtproportionaler Last zeitlich veränderlich → kritische Ebene nötig |
 
 ---
 
-## Stress Triaxiality
+**Mohrscher Spannungskreis** — grafische Transformation:
 
-**Stress triaxiality** $h$ describes the ratio of hydrostatic to deviatoric stress:
+$$\sigma_n = \frac{\sigma_1+\sigma_3}{2} + \frac{\sigma_1-\sigma_3}{2}\cos 2\theta \qquad \tau = \frac{\sigma_1-\sigma_3}{2}\sin 2\theta$$
 
-$$h = \frac{\sigma_m^{hydro}}{\sigma_{eq}} = \frac{(\sigma_1+\sigma_2+\sigma_3)/3}{\sigma_{eq}}$$
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/c/c7/Mohr_Circle.svg)
 
-where $\sigma_{eq}$ is the von Mises equivalent stress:
+---
 
+
+## Vergleichsspannung — von Mises und Tresca
+
+**von Mises** (Gestaltänderungsenergie):
+$$\sigma_{eq} = \sqrt{\frac{1}{2}\left[(\sigma_1-\sigma_2)^2 + (\sigma_2-\sigma_3)^2 + (\sigma_3-\sigma_1)^2\right]}$$
+
+**Tresca** (maximale Schubspannung):
+$$\sigma_{eq,T} = \sigma_1 - \sigma_3 = 2\tau_{max}$$
+
+| Eigenschaft | von Mises | Tresca |
+|---|---|---|
+| Basis | Gestaltänderungsenergie | Max. Schubspannung |
+| Konservativität | weniger konservativ | konservativer |
+| Abweichung (Experiment) | $< 5\%$ | bis 15% |
+| Anwendung Ermüdung | Rissinitiierung (bulk) | Schubdominiert (PSBs) |
+
+---
+
+
+## Spannungstriaxialität
+
+$$h = \frac{(\sigma_1+\sigma_2+\sigma_3)/3}{\sigma_{eq}}$$
+
+mit der von-Mises-Vergleichsspannung:
 $$\sigma_{eq} = \frac{1}{\sqrt{2}}\sqrt{(\sigma_1-\sigma_2)^2+(\sigma_2-\sigma_3)^2+(\sigma_3-\sigma_1)^2}$$
 
-**Why relevant?**
-
-| Stress state | Triaxiality $h$ | Effect |
+| Spannungszustand | $h$ | Wirkung |
 |---|---|---|
-| Uniaxial tension | $1/3$ | Reference state |
-| Plane strain (crack tip) | $> 1$ | Suppresses plasticity → brittle behaviour |
-| Pure shear | $0$ | No hydrostatic component |
+| Einachsige Zugspannung | $1/3$ | Referenzzustand |
+| Ebener Dehnungszustand (Rissspitze) | $> 1$ | Unterdrückt Plastizität → sprödes Verhalten |
+| Reine Schubspannung | $0$ | Kein hydrostatischer Anteil |
 
-High triaxiality at crack tips **suppresses plastic deformation** → plane strain condition → lower $K_{Ic}$ → more dangerous.
+> Hohe Triaxialität an Rissspitzen → Ebenheitsbedingung → niedrigerer $K_{Ic}$ → gefährlicher.
 
 ---
 
-## Stress Concentrations
+## Mehraxiale Ermüdung — Äquivalente Spannungsamplitude
 
-Real components contain **notches, holes, fillets, keyways** — local stress amplification occurs.
+S-N-Kurven basieren auf **einachsiger** Beanspruchung. Reale Bauteile: **mehraxial**.
 
-**Stress concentration factor** $K_t$ (elastic, theoretical):
+**Ansatz 1 — von-Mises-Amplitude** (proportionale Last):
+$$\sigma_{a,eq} = \sqrt{\frac{1}{2}\left[(\sigma_{a,1}-\sigma_{a,2})^2 + (\sigma_{a,2}-\sigma_{a,3})^2 + (\sigma_{a,3}-\sigma_{a,1})^2\right]}$$
 
+**Ansatz 2 — Sines-Kriterium:**
+$$\sigma_{a,eq} + k \cdot (\sigma_{m,1}+\sigma_{m,2}+\sigma_{m,3}) \leq \sigma_D$$
+
+**Ansatz 3 — Kritische-Ebene-Methode** (nichtproportional):
+- Sucht die Ebene mit maximaler Ermüdungsschädigung
+- Berücksichtigt Normalspannung $\sigma_n$ und Schubspannung $\tau$ auf dieser Ebene
+- Erforderlich bei rotierenden Hauptspannungsrichtungen
+
+---
+
+<!-- Abschnitt 3 -->
+# Spannungskonzentration
+
+---
+
+## Kerbwirkung — Grundlagen
+
+Reale Bauteile enthalten **Kerben, Bohrungen, Nuten, Radien** → lokale Spannungserhöhung.
+
+**Formzahl** $K_t$ (elastisch, theoretisch):
 $$K_t = \frac{\sigma_{max}}{\sigma_{nom}}$$
 
-where $\sigma_{nom}$ is the nominal (average) stress in the net section.
+$\sigma_{nom}$: Nennspannung im Nettoquerschnitt.
 
-**Example — circular hole in infinite plate under tension:**
+**Elliptische Kerbe (Inglis-Lösung):**
+$$K_t = 1 + 2\sqrt{\frac{a}{\rho}} \approx 2\sqrt{\frac{a}{\rho}} \quad \text{für } a \gg \rho$$
 
-$$K_t = 3$$
+$a$ = halbe Kerbtiefe, $\rho$ = Kerbradius.
 
-**Elliptical notch (Inglis solution):**
+> Kreisbohrung in unendlicher Platte: $K_t = 3$ — unabhängig von der Bohrungsgröße!
 
-$$K_t = 1 + 2\sqrt{\frac{a}{\rho}} \approx 2\sqrt{\frac{a}{\rho}} \quad \text{for } a \gg \rho$$
+---
 
-where $a$ = notch half-length, $\rho$ = notch root radius.
+## Beispiel — Formzahl Kreisbohrung
 
-**Fatigue notch factor** $K_f \leq K_t$: accounts for notch sensitivity $q$:
+**Gegeben:** Zugstab, $\sigma_{nom} = 100\,\text{MPa}$, Kreisbohrung ($K_t = 3$)
+
+$$\sigma_{max} = K_t \cdot \sigma_{nom} = 3 \cdot 100 = 300\,\text{MPa}$$
+
+**Elliptische Kerbe:** $a = 5\,\text{mm}$, $\rho = 0{,}2\,\text{mm}$
+
+$$K_t = 1 + 2\sqrt{\frac{5}{0{,}2}} = 1 + 2\sqrt{25} = 11$$
+
+$$\sigma_{max} = 11 \cdot 100 = 1100\,\text{MPa}$$
+
+> Ein kleiner Kerbradius erhöht $K_t$ dramatisch — kritisch für rissähnliche Kerben ($\rho \to 0$).
+
+---
+
+## Kerbwirkungszahl $K_f$
+
+**$K_f \leq K_t$** — Werkstoffe sind nicht voll kerbempfindlich.
 
 $$K_f = 1 + q(K_t - 1) \qquad 0 \leq q \leq 1$$
 
+$q$ = Kerbempfindlichkeitszahl (werkstoff- und größenabhängig):
+- $q \to 0$: kerbunempfindlich (z.B. Grauguss)
+- $q \to 1$: vollkerbempfindlich (hochfeste Stähle)
+
+**Verwendung:**
+$$\sigma_{a,zul} = \frac{\sigma_D}{K_f}$$
+
 ---
 
-##  Crack Opening Modes
+<!-- Abschnitt 4 -->
+# Bruchmechanische Parameter
 
-Three fundamental modes of crack loading:
+---
+
+## Rissöffnungsmoden
+
 ![bg right fit](https://wiki.polymerservice-merseburg.de/images/thumb/d/df/Rissoeffnungsmoden.jpg/600px-Rissoeffnungsmoden.jpg)
 
+**Mode I — Öffnungsmode**
+- Last senkrecht zur Rissebene
+- Häufigster Modus in der Ermüdung
+- Kennwert: $K_I$
 
-**Mode I — Opening**
-- Load perpendicular to crack plane
-- Most common in fatigue
-- Governed by $K_I$
-
-**Mode II — In-plane shear**
-- Load parallel to crack, perpendicular to crack front
-- Governed by $K_{II}$
-
+**Mode II — Gleitmode (eben)**
+- Last parallel zum Riss, senkrecht zur Rissfront
+- Kennwert: $K_{II}$
 
 ---
 
-**Mode III — Out-of-plane shear**
-- Load parallel to crack and crack front (tearing)
-- Governed by $K_{III}$
+**Mode III — Torsionsmode**
+- Last parallel zum Riss und zur Rissfront
+- Kennwert: $K_{III}$
 
-**Mixed mode:**
+> Ermüdungsrisse orientieren sich im Wachstum zum **reinen Mode I** um (Stufe II).
+
+---
+
+## Spannungsintensitätsfaktor $K$
+
+$K$ beschreibt die Amplitude der Spannungssingularität an der Rissspitze:
+
+$$\sigma_{ij} = \frac{K}{\sqrt{2\pi r}} f_{ij}(\theta) + \text{höhere Terme}$$
+
+**Mode I:**
+$$K_I = \sigma \cdot Y(a/W) \cdot \sqrt{\pi a}$$
+
+| Größe | Bedeutung |
+|---|---|
+| $\sigma$ | aufgebrachte Nennspannung |
+| $a$ | Risslänge (bzw. halbe Länge bei Innenriss) |
+| $Y(a/W)$ | Geometriekorrekturwert |
+| $W$ | charakteristische Abmessung (Breite) |
+
+**Einheit:** $\text{MPa}\sqrt{\text{m}}$
+
+---
+
+## Geometriekorrekturwert $Y$
+
+$Y$ berücksichtigt endliche Geometrie, freie Oberflächen und Rissform.
+
+| Konfiguration | $Y$ |
+|---|---|
+| Mittenriss, unendliche Platte | $1{,}0$ |
+| Kantenriss, halbunendliche Platte | $1{,}12$ |
+| Mittenriss, endliche Breite $W$ | $\sqrt{\sec(\pi a/W)}$ |
+| Eingebetteter Ellipsenriss | $\approx 1/\Phi$ |
+| Oberflächenriss (Halbellipse) | $\approx 1{,}12/\Phi$ |
+
+> **$Y$ ist nicht konstant** — wächst mit $a/W$ → Riss beschleunigt sich auch bei konstantem $\Delta\sigma$.
+
+Für komplexe Geometrien: $Y$ per **FEM** bestimmen.
+
+---
+
+## Beispiel — $K_I$ und kritische Risslänge
+
+**Gegeben:** Strukturstahl, $K_{Ic} = 50\,\text{MPa}\sqrt{\text{m}}$, Kantenriss ($Y = 1{,}12$), $\sigma = 200\,\text{MPa}$
+
+**Kritische Risslänge:**
+$$a_c = \frac{1}{\pi}\left(\frac{K_{Ic}}{\sigma \cdot Y}\right)^2 = \frac{1}{\pi}\left(\frac{50}{200 \cdot 1{,}12}\right)^2$$
+
+$$a_c = \frac{1}{\pi}\left(0{,}223\right)^2 = \frac{0{,}0497}{\pi} \approx 15{,}8\,\text{mm}$$
+
+**Prüfung:** Vorhandener Riss $a = 5\,\text{mm}$:
+$$K_I = 200 \cdot 1{,}12 \cdot \sqrt{\pi \cdot 0{,}005} = 224 \cdot 0{,}1253 = 28{,}1\,\text{MPa}\sqrt{\text{m}} < K_{Ic}$$
+
+→ **Kein Versagen**, Sicherheitsfaktor $K_{Ic}/K_I \approx 1{,}8$.
+
+---
+
+## Gemischte Beanspruchung (Mixed Mode)
+
+**Effektiver Spannungsintensitätsfaktor:**
+
 $$K_{eff} = \sqrt{K_I^2 + K_{II}^2 + \frac{K_{III}^2}{1-\nu}}$$
 
+**Versagenskriterium (mixed mode):**
+$$K_{eff} \geq K_{Ic}$$
 
-
-In fatigue, cracks tend to reorient to **pure Mode I** (Stage II) — the direction minimising mixed-mode contributions.
-
----
-
+> In der Ermüdung orientieren sich Risse zum reinen Mode I um — der gemischte Zustand ist instabil gegenüber Wachstum unter $\sigma_1$-Dominanz.
 
 ---
 
-## Energy Release Rate — Griffith Criterion
+## Energiefreisetzungsrate $G$ — Griffith-Kriterium
 
-**Griffith (1921)** — fracture occurs when the energy released by crack extension equals the energy required to create new surfaces:
+**Griffith (1921):** Bruch tritt auf, wenn die freigesetzte Energie die Energie zur Erzeugung neuer Oberflächen übersteigt:
 
 $$G = -\frac{d\Pi}{da} \geq G_c = 2\gamma_s$$
 
-where $\gamma_s$ = specific surface energy, $\Pi$ = total potential energy.
+$\gamma_s$ = spezifische Oberflächenenergie, $\Pi$ = potenzielle Gesamtenergie.
 
-**For a central crack of length $2a$ in an infinite plate under tension $\sigma$:**
+**Physikalische Dimension:** $G$ in $\text{J/m}^2 = \text{N/m}$
 
-$$G = \frac{\sigma^2 \pi a}{E'} \quad \text{with } E' = \begin{cases} E & \text{plane stress} \\ E/(1-\nu^2) & \text{plane strain} \end{cases}$$
+**Mittenriss ($2a$) in unendlicher Platte:**
+$$G = \frac{\sigma^2 \pi a}{E'} \quad \text{mit } E' = \begin{cases} E & \text{(ebener Spannungszustand)} \\ E/(1-\nu^2) & \text{(ebener Dehnungszustand)} \end{cases}$$
 
-**Irwin's relation** — connects $G$ and $K$:
+---
+
+## Irwin-Relation: $G$ und $K$
 
 $$G_I = \frac{K_I^2}{E'} \qquad G_{II} = \frac{K_{II}^2}{E'} \qquad G_{III} = \frac{K_{III}^2}{2\mu}$$
 
-**Mixed mode total energy release rate:**
-
+**Mixed mode gesamt:**
 $$G = \frac{K_I^2 + K_{II}^2}{E'} + \frac{K_{III}^2}{2\mu}$$
 
----
-
-## Energy Release Rate — Physical Interpretation
-
-**$G$ is the thermodynamic driving force for crack extension:**
-
-$$G = -\frac{d\Pi}{dA} \quad \left[\frac{\text{J}}{\text{m}^2} = \frac{\text{N}}{\text{m}}\right]$$
-
-- $d\Pi$ = change in potential energy (strain energy released minus work done by external forces)
-- $dA$ = new crack area created
-
-**Two contributions to $\Pi$:**
-
-$$G = \underbrace{\frac{d U_{ext}}{dA}}_{\text{work by external forces}} - \underbrace{\frac{d U_{strain}}{dA}}_{\text{strain energy stored}}$$
-
-**Fixed grip (displacement controlled):** $G = -\frac{dU_{strain}}{dA}\Big|_u$ — strain energy **decreases**
-
-**Dead load (force controlled):** $G = +\frac{dU_{strain}}{dA}\Big|_F$ — strain energy **increases**, but external work increases faster
-
-**Both give the same $G$** for the same crack configuration — $G$ is a state quantity.
-
----
-
-## Energy Release Rate — Fatigue
-
-**Under cyclic loading**, the cyclic energy release rate drives crack growth:
-
-$$\Delta G = G_{max} - G_{min} = \frac{K_{max}^2 - K_{min}^2}{E'} = \frac{\Delta K \cdot (K_{max}+K_{min})}{E'}$$
-
-For $R \geq 0$:
-
-$$\Delta G = \frac{(\Delta K)^2 (1+R)}{E'(1-R)}$$
-
-**Alternative Paris-type law using $\Delta G$:**
-
-$$\frac{da}{dN} = C_G \cdot (\Delta G)^{m/2}$$
-
-**Advantages of $\Delta G$ over $\Delta K$:**
-- Naturally accounts for mixed-mode loading
-- Thermodynamically consistent driving force
-- Useful when $K_I$ and $K_{II}$ contributions are comparable (e.g. shear-mode fatigue, fretting)
-
-**Critical value:** $G_c = K_{Ic}^2 / E'$ — fracture toughness expressed as energy per unit area.
-
----
-
-## Equivalent (von Mises) Stress
-
-For **multiaxial stress states**, a single scalar measure is needed to compare with uniaxial material data.
-
-**Von Mises equivalent stress** (distortion energy criterion):
-
-$$\sigma_{eq} = \sqrt{\frac{1}{2}\left[(\sigma_1-\sigma_2)^2 + (\sigma_2-\sigma_3)^2 + (\sigma_3-\sigma_1)^2\right]}$$
-
-In terms of tensor components:
-
-$$\sigma_{eq} = \sqrt{\sigma_{xx}^2 + \sigma_{yy}^2 + \sigma_{zz}^2 - \sigma_{xx}\sigma_{yy} - \sigma_{yy}\sigma_{zz} - \sigma_{xx}\sigma_{zz} + 3(\tau_{xy}^2 + \tau_{yz}^2 + \tau_{xz}^2)}$$
-
-**Yield condition (von Mises):**
-
-$$\sigma_{eq} \geq R_{p0.2}$$
-
-**Physical meaning:** yielding occurs when the **distortion strain energy** reaches a critical value — hydrostatic stress does not cause yielding.
-
----
-
-## Equivalent Stress — Tresca Criterion
-
-**Tresca equivalent stress** (maximum shear stress criterion):
-
-$$\sigma_{eq,T} = \sigma_1 - \sigma_3 = 2\tau_{max}$$
-
-**Yield condition:**
-
-$$\sigma_1 - \sigma_3 \geq R_{p0.2}$$
-
-**Comparison: von Mises vs. Tresca**
-
-| Property | von Mises | Tresca |
-|---|---|---|
-| Based on | Distortion energy | Maximum shear stress |
-| Conservative? | Less conservative | More conservative |
-| Error vs. experiment | $< 5\%$ for ductile metals | Up to 15% |
-| Used in | General multiaxial fatigue | Pressure vessel codes |
-| Relevant for fatigue | Crack initiation (bulk) | Shear-driven initiation (PSBs) |
-
-**Relation between both:**
-
-$$\sigma_{eq,Mises} = \frac{\sqrt{3}}{2} \cdot \sigma_{eq,Tresca} \cdot \frac{1}{\cos(\theta - \pi/6)}$$
-
-where $\theta$ is the Lode angle — they coincide only for $\theta = 0°$ and $\theta = 30°$.
-
----
-
-## Equivalent Stress in Fatigue — Multiaxial Loading
-
-**Problem:** S-N curves and Wöhler curves are generated under **uniaxial** loading. Real components experience **multiaxial** cyclic stress.
-
-**Approach 1 — von Mises amplitude:**
-
-$$\sigma_{a,eq} = \sqrt{\frac{1}{2}\left[(\sigma_{a,1}-\sigma_{a,2})^2 + (\sigma_{a,2}-\sigma_{a,3})^2 + (\sigma_{a,3}-\sigma_{a,1})^2\right]}$$
-
-Compare $\sigma_{a,eq}$ with uniaxial $\sigma_D$ — valid for **proportional** loading (principal stress directions fixed).
-
-**Approach 2 — Critical plane method:**
-- Identifies the plane experiencing maximum fatigue damage
-- Accounts for both normal stress $\sigma_n$ and shear stress $\tau$ on that plane
-- Required for **non-proportional** loading (rotating principal axes)
-
-**Sines criterion** (for proportional loading):
-
-$$\sigma_{a,eq} + k \cdot (\sigma_{m,1}+\sigma_{m,2}+\sigma_{m,3}) \leq \sigma_D$$
-
-where $k$ accounts for mean stress sensitivity of the material.
-
----
-
-## Equivalent Stress — Summary and Relevance
-
-**Which equivalent stress to use?**
-
-| Situation | Recommended criterion |
-|---|---|
-| Proportional multiaxial, ductile material | von Mises ($\sigma_{eq}$) |
-| Shear-dominated (torsion, fretting) | Tresca or critical plane |
-| Non-proportional multiaxial | Critical plane method |
-| Pressure vessel design | Tresca (conservative) |
-| Crack tip plasticity (FCG) | von Mises (plastic zone size) |
-
-**Key message:**
-- Uniaxial fatigue data alone is **not sufficient** for multiaxial loading
-- The equivalent stress maps the multiaxial state onto a scalar → enables use of S-N curves
-- Always check whether loading is **proportional** before applying simple $\sigma_{eq}$ approaches
-- For non-proportional loading: critical plane analysis or more advanced models required
-
----
-
-## Stress Intensity Factor $K$
-
-**$K$ characterises the amplitude of the stress field singularity at the crack tip:**
-
-$$\sigma_{ij} = \frac{K}{\sqrt{2\pi r}} f_{ij}(\theta) + \text{higher order terms}$$
-
-**For Mode I (most important):**
-
-$$K_I = \sigma \cdot Y(a/W) \cdot \sqrt{\pi a}$$
-
-where:
-- $\sigma$ = applied nominal stress
-- $a$ = crack length (or half-length for internal crack)
-- $Y(a/W)$ = geometry correction factor (depends on specimen/component geometry)
-- $W$ = characteristic dimension (width)
-
-**Units:** $\text{MPa}\sqrt{\text{m}}$
-
-**Under cyclic loading:**
-
-$$\Delta K = \Delta\sigma \cdot Y \cdot \sqrt{\pi a} = (\sigma_{max}-\sigma_{min}) \cdot Y \cdot \sqrt{\pi a}$$
-
----
-
-## Geometry Correction Factors $Y$
-
-$Y$ accounts for the effect of finite geometry, free surfaces, and crack shape.
-
-**Common cases:**
-
-| Configuration | $Y$ |
-|---|---|
-| Central crack, infinite plate | $1.0$ |
-| Edge crack, semi-infinite plate | $1.12$ |
-| Central crack, finite width $W$ | $\sqrt{\sec(\pi a/W)}$ |
-| Embedded elliptical crack | $\approx 1/\Phi$ (elliptic integral) |
-| Surface semi-elliptical crack | $\approx 1.12/\Phi$ |
-
-**Important:** $Y$ is **not constant** — it increases as $a/W$ increases → crack accelerates even at constant $\Delta\sigma$.
-
-For complex geometries: $Y$ determined by **finite element analysis**.
-
----
-
-## Energy Release Rate $G$
-
-**Griffith's energy approach** — alternative to $K$, more fundamental:
-
-$$G = -\frac{d\Pi}{da} \quad \text{(energy released per unit crack area advance)}$$
-
-where $\Pi$ = total potential energy of the system.
-
-**Relation to $K$ (Irwin):**
-
-$$G_I = \frac{K_I^2}{E'} \quad \text{where } E' = \begin{cases} E & \text{plane stress} \\ E/(1-\nu^2) & \text{plane strain} \end{cases}$$
-
-**Fracture criterion:**
-
+**Bruchkriterium:**
 $$G \geq G_c \quad \Leftrightarrow \quad K_I \geq K_{Ic}$$
 
-**In fatigue — cyclic energy release rate:**
-
-$$\Delta G = \frac{(\Delta K)^2}{E'} \quad \text{— alternative driving force for FCG}$$
-
-$\Delta G$ is sometimes preferred over $\Delta K$ for mixed-mode fatigue crack growth.
-
 ---
 
-## Fracture Toughness $K_{Ic}$
+**Belastungsarten im Vergleich:**
 
-**$K_{Ic}$** is the critical stress intensity factor under **plane strain** conditions — a true material property.
-
-**Fracture condition:**
-$$K_I = K_{Ic} \quad \Rightarrow \quad \text{unstable crack growth}$$
-
-**Critical crack size** for a given stress:
-$$a_c = \frac{1}{\pi}\left(\frac{K_{Ic}}{\sigma \cdot Y}\right)^2$$
-
-**Typical values:**
-
-| Material | $K_{Ic}$ [MPa$\sqrt{\text{m}}$] |
+| Randbedingung | $G$ |
 |---|---|
-| High-strength steel | 50–100 |
-| Structural steel | 100–200 |
-| Aluminium alloy | 20–45 |
-| Titanium alloy | 40–80 |
-| Ceramics | 1–5 |
-| CFRP (laminate) | 20–60 |
+| Feste Einspannung (weggesteuert) | Formänderungsenergie **nimmt ab** |
+| Freie Last (kraftgesteuert) | Formänderungsenergie **nimmt zu**, äußere Arbeit wächst schneller |
 
-**Plane strain condition** (valid $K_{Ic}$ test):
-$$B,\, a \geq 2.5\left(\frac{K_{Ic}}{R_{p0.2}}\right)^2$$
+> $G$ ist eine Zustandsgröße — beide Randbedingungen liefern dasselbe $G$.
 
 ---
 
-## Fatigue Crack Growth Parameters
+## $G$ unter zyklischer Belastung
 
-**Paris law material constants** $C$ and $m$:
+**Zyklische Energiefreisetzungsrate:**
+$$\Delta G = G_{max} - G_{min} = \frac{K_{max}^2 - K_{min}^2}{E'}$$
 
-$$\frac{da}{dN} = C \cdot (\Delta K)^m$$
-
-Determined from standardised **FCG tests** (ASTM E647) on compact tension (CT) or middle tension (MT) specimens.
-
-**Threshold stress intensity range** $\Delta K_{th}$:
-- Below $\Delta K_{th}$: crack does not propagate
-- Typical: $\Delta K_{th} \approx 2$–$10\,\text{MPa}\sqrt{\text{m}}$
-- Decreases with increasing $R$-ratio
-- Influenced by microstructure, environment, crack closure
-
-**Complete FCG description (NASGRO equation):**
-
-$$\frac{da}{dN} = C \left(\frac{1-f}{1-R}\Delta K\right)^m \frac{\left(1-\frac{\Delta K_{th}}{\Delta K}\right)^p}{\left(1-\frac{K_{max}}{K_{Ic}}\right)^q}$$
-
-where $f$ = crack opening function (closure), $p$, $q$ = curve shape exponents.
+Für $R \geq 0$:
+$$\Delta G = \frac{(\Delta K)^2 (1+R)}{E'(1-R)}$$
 
 ---
 
-## Mean Stress Effects — Goodman & Gerber
+**Vorteile von $\Delta G$ gegenüber $\Delta K$:**
+- Erfasst gemischte Beanspruchung (mixed mode) direkt
+- Thermodynamisch konsistente Triebkraft
+- Sinnvoll bei vergleichbaren $K_I$- und $K_{II}$-Anteilen
 
-Mean stress $\sigma_m > 0$ reduces the allowable stress amplitude for a given fatigue life.
+**Paris-Gesetz auf $\Delta G$-Basis:**
+$$\frac{da}{dN} = C_G \cdot (\Delta G)^{m/2}$$
 
-**Modified Goodman (linear, conservative):**
+---
+<!-- _class: cols-2 -->
 
-$$\frac{\sigma_a}{\sigma_D} + \frac{\sigma_m}{R_m} = 1$$
+<div class="ldiv">
 
-**Gerber (parabolic, less conservative):**
+## Bruchzähigkeit $K_{Ic}$
 
-$$\frac{\sigma_a}{\sigma_D} + \left(\frac{\sigma_m}{R_m}\right)^2 = 1$$
+$K_{Ic}$ = kritischer Spannungsintensitätsfaktor unter **ebenen Dehnungszustand**
 
-**Soderberg (most conservative — uses $R_{p0.2}$ instead of $R_m$):**
+**Gültigkeitsbedingung** (ebener Dehnungszustand):
+$$B,\, a \geq 2{,}5\left(\frac{K_{Ic}}{R_{p0.2}}\right)^2$$
 
-$$\frac{\sigma_a}{\sigma_D} + \frac{\sigma_m}{R_{p0.2}} = 1$$
+</div>
 
-**In terms of $\Delta K$ (Walker equation for FCG):**
+<div class="rdiv">
 
-$$\frac{da}{dN} = C \left(\frac{\Delta K}{(1-R)^{1-\gamma}}\right)^m$$
+**Typische Werte:**
 
-Higher $R$ → higher mean $K$ → faster crack growth at same $\Delta K$.
+| Werkstoff | $K_{Ic}$ [MPa$\sqrt{\text{m}}$] |
+|---|---|
+| Hochfester Stahl | 50–100 |
+| Baustahl | 100–200 |
+| Aluminiumlegierung | 20–45 |
+| Titanlegierung | 40–80 |
+| Keramik | 1–5 |
+| CFK (Laminat) | 20–60 |
+</div>
+
 
 ---
 
-## Summary — Key Parameters
 
-**Cyclic loading:**
-$\sigma_m$, $\sigma_a$, $\Delta\sigma$, $R$ — two are sufficient to define the cycle
 
-**Stress state:**
-Full tensor $\boldsymbol{\sigma}$, principal stresses $\sigma_1 \geq \sigma_2 \geq \sigma_3$, $\tau_{max}$, triaxiality $h$
-
-**Stress concentrations:**
-$K_t$ (elastic), $K_f$ (fatigue notch factor), notch sensitivity $q$
-
-**Fracture mechanics:**
-$K_I$, $K_{II}$, $K_{III}$, $\Delta K$, $G$, $\Delta G$ — crack tip driving forces
-
----
-
-**Material resistance:**
-$K_{Ic}$ (fracture toughness), $\Delta K_{th}$ (threshold), $C$, $m$ (Paris constants)
-
-**Mean stress correction:**
-Goodman, Gerber, Soderberg, Walker ($R$-ratio effect on FCG)
-
----
 <!-- _class: lead -->
-## Thank you
+## Vielen Dank
 
-**Questions?**
+**Fragen?**
 
 Prof. Dr.-Ing. Christian Willberg
 christian.willberg@h2.de
