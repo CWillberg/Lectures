@@ -111,11 +111,22 @@ Bei Ölabschreckung wurde t **nie variiert** – die Kombination (t, Öl) wurde 
 
 # Was ist Design of Experiments (DoE)?
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 ## Grundidee
 
 Statt einen Parameter nach dem anderen zu variieren: **alle relevanten Faktoren gleichzeitig und systematisch** kombinieren.
 
 > **Ziel:** Mit minimalem Versuchsaufwand maximale Information über Haupteffekte **und Wechselwirkungen** gewinnen.
+
+</div>
+
+---
+
+<div class="rdiv">
+
 
 **Drei Kernprinzipien:**
 
@@ -125,9 +136,11 @@ Statt einen Parameter nach dem anderen zu variieren: **alle relevanten Faktoren 
 | **Randomisierung** | Zufällige Versuchsreihenfolge eliminiert systematische Störgrößen |
 | **Replizierung** | Wiederholungen ermöglichen Schätzung des Messfehlers |
 
+</div>
+
 ---
 
-# Grundbegriffe auf einen Blick
+## Grundbegriffe auf einen Blick
 
 | Begriff | Bedeutung | Beispiel |
 |---|---|---|
@@ -143,9 +156,7 @@ Statt einen Parameter nach dem anderen zu variieren: **alle relevanten Faktoren 
 
 ---
 
-# OFAT vs. DoE – Derselbe Aufwand, mehr Information
-
-## Gleiche Versuche, systematisch geplant: $2^3$-Plan
+# OFAT vs. DoE 
 
 | Nr | T [°C] | t [min] | Abkühlung | Härte HV |
 |---|---|---|---|---|
@@ -157,6 +168,8 @@ Statt einen Parameter nach dem anderen zu variieren: **alle relevanten Faktoren 
 | 6 | 1000 | 30 | Öl | 560 |
 | 7 | 800 | 90 | Öl | 490 |
 | 8 | 1000 | 90 | Öl | 620 |
+
+---
 
 | Ansatz | Versuche | Wechselwirkungen erkennbar? |
 |---|---|---|
@@ -292,9 +305,8 @@ Alle möglichen Kombinationen werden getestet.
 
 ---
 
-# Vollfaktorieller Plan $2^3$ – Beispiel Vergütungsstahl
 
-## Faktoren: Austenitisiertemperatur T, Haltezeit t, Abkühlmedium M
+### Vollfaktorieller Plan $2^3$ - Faktoren: Austenitisiertemperatur T: 850/950 °C, Haltezeit t: 30/90 min, Abkühlmedium M: Luft/Öl
 
 | Nr | T | t | M | T×t | T×M | t×M | T×t×M | Härte HV |
 |---|---|---|---|---|---|---|---|---|
@@ -307,17 +319,19 @@ Alle möglichen Kombinationen werden getestet.
 | 7 | − | + | + | − | − | + | − | 470 |
 | 8 | + | + | + | + | + | + | + | 610 |
 
-T: 850/950 °C · t: 30/90 min · M: Luft/Öl
 
 ---
 
-# Effektberechnung
+## Effektberechnung
 
-## Haupteffekt eines Faktors
+### Haupteffekt eines Faktors
 
 Der Haupteffekt ist die **mittlere Änderung der Antwortgröße**, wenn der Faktor von − nach + wechselt:
 
 $$E_T = \frac{1}{4}\left[(y_2 - y_1) + (y_4 - y_3) + (y_6 - y_5) + (y_8 - y_7)\right]$$
+
+
+---
 
 **Ergebnis aus dem Beispiel:**
 
@@ -587,4 +601,8 @@ Ofen A produzierte **mehr hochlegierte** Proben (die generell fester sind), Ofen
 
 ---
 
-## Danke für die Aufmerksamkeit
+## Fragen?
+
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
+christian.willberg@h2.de

@@ -420,3 +420,10 @@ $$s = \sqrt{\frac{(487-491)^2+(494-491)^2+(491-491)^2}{2}} = \sqrt{\frac{16+9+0}
 | **5** | Zielkonflikt analysieren | Nr. 4 und 6 als Kompromiss |
 | **6** | Modell validieren | Abweichung < 2 % |
 
+---
+
+## Fragen?
+
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
+christian.willberg@h2.de
