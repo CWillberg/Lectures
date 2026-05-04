@@ -442,15 +442,17 @@ $$\sigma(t): 100 \to 50 \to 120 \to 30 \to 80 \to \ldots$$
 
 **Physical basis:** extracts cycles corresponding to **closed hysteresis loops** in $\sigma$-$\varepsilon$ space — directly linked to energy dissipated per cycle.
 
+
+
+</div>
+<div class="rdiv">
+
 **Algorithm (simplified):**
 1. Rearrange signal starting at global maximum
 2. Identify all peaks and valleys
 3. "Rain flows" down pagoda profile
 4. Each closed flow path = one cycle
 5. Result: matrix $n_{ij}(\sigma_m, \sigma_a)$
-
-</div>
-<div class="rdiv">
 
 <!-- IMAGE: Rainflow visualisation in two parts:
   Top: time series σ(t) as pagoda profile (rotated 90°), peaks and valleys numbered,
