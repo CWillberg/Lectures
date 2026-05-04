@@ -431,8 +431,7 @@ $$H(200\,\text{MPa}) = 1000 \quad \Rightarrow \quad \text{1000 cycles with } \si
 
 ## Cycle Counting — Rainflow Method
 
-<!-- _class: cols-2 -->
-<div class="ldiv">
+
 
 **Problem:** what is a "cycle" in an irregular signal?
 
@@ -444,8 +443,11 @@ $$\sigma(t): 100 \to 50 \to 120 \to 30 \to 80 \to \ldots$$
 
 
 
-</div>
-<div class="rdiv">
+
+---
+
+
+
 
 **Algorithm (simplified):**
 1. Rearrange signal starting at global maximum
@@ -454,13 +456,12 @@ $$\sigma(t): 100 \to 50 \to 120 \to 30 \to 80 \to \ldots$$
 4. Each closed flow path = one cycle
 5. Result: matrix $n_{ij}(\sigma_m, \sigma_a)$
 
-<!-- IMAGE: Rainflow visualisation in two parts:
-  Top: time series σ(t) as pagoda profile (rotated 90°), peaks and valleys numbered,
-  rain flow paths as blue lines, each completed path = one cycle
-  Bottom: corresponding hysteresis loops in σ-ε diagram
-  Colour coding linking paths above to loops below -->
 
-</div>
+
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/3/3a/Rainflow_counting_vs_stress-strain_curve.svg)
+
+
 
 ---
 
@@ -478,11 +479,7 @@ where $N_f$ is read from S-N curve with mean stress correction:
 
 $$\sigma_{a,eq} = \frac{\sigma_{a,j}}{1 - \sigma_{m,i}/R_m} \quad \text{(Goodman)}$$
 
-<!-- IMAGE: Rainflow matrix as 3D bar chart or colour map:
-  x-axis: mean stress σ_m in classes (e.g. -200 to +400 MPa)
-  y-axis: amplitude σ_a in classes (e.g. 0 to 300 MPa)
-  z-axis or colour: cycle count n_ij (logarithmic scale)
-  Diagonals σ_min=0 (R=0) and σ_max=const indicated -->
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/f8/Rainflow_analysis_for_tensile_peaks.svg)
 
 ---
 
