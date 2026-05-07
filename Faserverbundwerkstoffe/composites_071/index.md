@@ -113,7 +113,7 @@ $$\Psi \approx 7°$$
 ---
 # Gelochte Scheibe unter gleichmäßiger Zugbelastung
 
-![bg 70%](../assets/Figures/FKV/gelochte_scheibe.png)
+![bg 70%](../../assets/Figures/FKV/gelochte_scheibe.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -144,7 +144,7 @@ die Beanspruchung / Tragfähigkeit in der jeweiligen Faserrichtung zu einer ausr
 - Aufteilung der Kräfte auf die drei Faserrichtungen
 - Kreuzungspunkte sind reibungsfrei Verbindungen
 
-![bg right fit](../assets/Figures/FKV/netztheorie.png)
+![bg right fit](../../assets/Figures/FKV/netztheorie.png)
 
 
 
@@ -175,7 +175,7 @@ N_{xy}=60N/mm
 $$N_x=\sum_{i=1}^3\cos^2\Psi_i N_i$$
 $$N_y=\sum_{i=1}^3\sin^2\Psi_i N_i$$
 $$N_{xy}=\sum_{i=1}^3\sin\Psi_i\cos\Psi_i N_i$$
-![bg right fit](../assets/Figures/FKV/aufteilung_Mebrankraefte.png)
+![bg right fit](../../assets/Figures/FKV/aufteilung_Mebrankraefte.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -407,7 +407,7 @@ $$r^n = 4^8 = 65536$$
 
 
 
-![bg right 90%](../assets/Figures/FKV/Ranking_symmetrisch.png)
+![bg right 90%](../../assets/Figures/FKV/Ranking_symmetrisch.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -548,7 +548,7 @@ $$
 
 ---
 # Praxisbeipiel
-![bg 60%](../assets/Figures/FKV/design_workflow.png)
+![bg 60%](../../assets/Figures/FKV/design_workflow.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Folgende Bilder entmommen aus der M. Rädel; C. Willberg; A. Schröder; S. Froese; M. Hanke; "FFS: CONCEPTS & PRELIMINARY DESIGN OF A FRP LIGHTWEIGHT AEROSPACE STRUCTURE UNDER CONSIDERATION OF SECONDARY BONDING MANUFACTURING"
@@ -556,16 +556,16 @@ $$
 
 ---
 
-![bg 60%](../assets/Figures/FKV/airbrake_lastfall.png)
+![bg 60%](../../assets/Figures/FKV/airbrake_lastfall.png)
 
 ---
-![bg 60%](../assets/Figures/FKV/components.png)
+![bg 60%](../../assets/Figures/FKV/components.png)
 
 ---
 
-![bg 80%](../assets/Figures/FKV/design_crit.png)
+![bg 80%](../../assets/Figures/FKV/design_crit.png)
 
-![bg 80%](../assets/Figures/FKV/failure_modes.png)
+![bg 80%](../../assets/Figures/FKV/failure_modes.png)
 
 
 
@@ -574,7 +574,7 @@ $$
 
 # Praxisbeipiel
 
-![bg 80%](../assets/Figures/FKV/analyseprozess.png)
+![bg 80%](../../assets/Figures/FKV/analyseprozess.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Bach, T.; Führer, T.; Willberg C. and Dähne, S. "Automated Sizing of a composite wing for the usage within a multi-disciplinary design process", 10.13140/2.1.3145.4406
@@ -584,7 +584,7 @@ $$
 
 ---
 
-![bg 80%](../assets/Figures/FKV/versagenskriterien.png)
+![bg 80%](../../assets/Figures/FKV/versagenskriterien.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Bach, T.; Führer, T.; Willberg C. and Dähne, S. "Automated Sizing of a composite wing for the usage within a multi-disciplinary design process", 10.13140/2.1.3145.4406
@@ -596,9 +596,9 @@ $$
 - update wird lokale auf Panelebene vorgegeben
 - FEM wird dann genutzt, um aktualisierte Lastpfade abzuschätzen
 
-![bg fit right](../assets/Figures/FKV/hypersizer_Loads.png)
+![bg fit right](../../assets/Figures/FKV/hypersizer_Loads.png)
 
-![bg fit vertical](../assets/Figures/FKV/skin_thickness.png)
+![bg fit vertical](../../assets/Figures/FKV/skin_thickness.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Bach, T.; Führer, T.; Willberg C. and Dähne, S. "Automated Sizing of a composite wing for the usage within a multi-disciplinary design process", 10.13140/2.1.3145.4406

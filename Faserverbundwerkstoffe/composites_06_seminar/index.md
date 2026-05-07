@@ -608,32 +608,6 @@ $$= 2{,}53\cdot(-4\cdot10^{-5}) + 9{,}05\cdot(-3{,}3\cdot10^{-3}) = -1{,}01\cdot
 
 ---
 
-# Zusammenfassung – Alle Konzepte
-
-**Spannungskomponenten** → Indizierung $\sigma_{\parallel}$, $\sigma_{\perp}$, $\tau_{\perp\parallel}$, $\tau_{\perp\perp}$
-
-↓
-
-**Querkontraktionszahlen** → Symmetriebedingung $\dfrac{\nu_{\perp\parallel}}{E_{\parallel}} = \dfrac{\nu_{\parallel\perp}}{E_{\perp}}$
-
-↓
-
-**Transversale Isotropie** → 5 unabhängige Kennwerte (statt 9)
-
-↓
-
-**3D-Elastizitätsgesetz** → Nachgiebigkeitsmatrix $\mathbf{S}$, Steifigkeitsmatrix $\mathbf{C}$
-
-↓
-
-**2D-Vereinfachung (ESZ)** → Q-Matrix; Temperatur- und Feuchteeinfluss
-
-↓
-
-**Materialidentifikation** → Kennwerte direkt aus Zugversuchen bestimmbar
-
----
-
 <!-- _class: lead -->
 
 # Fragen?
