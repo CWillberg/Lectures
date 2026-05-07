@@ -253,9 +253,9 @@ $$= \frac{1}{4}\left[60+60+70+70\right] = \frac{260}{4} = \mathbf{+65\,\text{MPa
 
 **b)**
 
-$$E_B = \frac{1}{4}\left[(550-480)+(610-540)+(670-590)+(740-660)\right] = \frac{340}{4} = \mathbf{+85\,\text{MPa}}$$
+$$E_B = \frac{1}{4}\left[(550-480)+(610-540)+(670-590)+(740-660)\right] = \frac{340}{4} = \mathbf{+75\,\text{MPa}}$$
 
-$$E_C = \frac{1}{4}\left[(590-480)+(660-540)+(670-550)+(740-610)\right] = \frac{460}{4} = \mathbf{+115\,\text{MPa}}$$
+$$E_C = \frac{1}{4}\left[(590-480)+(660-540)+(670-550)+(740-610)\right] = \frac{460}{4} = \mathbf{+120\,\text{MPa}}$$
 
 **c)** Abkühlrate C hat den stärksten Einfluss ($+115$ MPa > $+85$ > $+65$).
 
