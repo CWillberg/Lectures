@@ -169,7 +169,6 @@ $$A =\dfrac{L_u - L_0}{L_0}  \quad [\text{-}]$$
 
 # OFAT – One Factor At a Time
 
-## Der intuitive, aber ineffiziente Ansatz
 
 **Idee:** Jeweils einen Parameter variieren, alle anderen festhalten.
 
