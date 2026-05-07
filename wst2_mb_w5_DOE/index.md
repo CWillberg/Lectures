@@ -47,6 +47,126 @@ In der Werkstofftechnik hängen Eigenschaften wie **Härte, Festigkeit, Korrosio
 
 ---
 
+# Zugversuch
+
+<div class="zwei-spalten">
+<div>
+
+- **Normiertes** Prüfverfahren: DIN EN ISO 6892-1
+- Probe wird mit konstanter **Traversengeschwindigkeit** belastet
+- Aufzeichnung von **Kraft** $F$ und **Verlängerung** $\Delta L$
+- Liefert grundlegende **Werkstoffkennwerte**
+
+---
+
+### Prüfmaschine
+- Elektromechanisch oder hydraulisch
+- Kraftmessung über **Kraftaufnehmer**
+- Dehnungsmessung über **Extensometer**, DMS oder DIC
+
+![bg right fit](./assets/zugpruefmaschine.png)
+
+---
+
+## Probengeometrie – Kunststoff (ISO 527-2)
+
+![w:1800](./assets/probe.png)
+
+---
+
+| Maß | Bezeichnung | Typ A1 Vielzweck (Spritzguss) | Typ A2 (mech. bearbeitet) |
+|-----|-------------|-------------------------------|---------------------------|
+| $l_3$ | Gesamtlänge | $\geq 150$ | $\geq 150$ |
+| $l_2$ | Abstand zw. den breiten parallelen Teilen$^b$ | $109{,}0 \pm 4{,}0$ | $109{,}0 \pm 4{,}0$ |
+| $l_1$ | Länge des schmalen parallelen Teils | $80{,}0 \pm 2{,}0^c$ | $60{,}0 \pm 2{,}0^c$ |
+| $r$ | Radius der Schulter | $24{,}0 \pm 1{,}0$ | $60{,}0 \pm 1{,}0$ |
+| $b_2$ | Breite an den Enden | $20{,}0 \pm 0{,}2$ | $20{,}0 \pm 0{,}2$ |
+| $b_1$ | Breite des schmalen parallelen Teils | $10{,}0 \pm 0{,}2$ | $10{,}0 \pm 0{,}2$ |
+| $h$ | Dicke (vorzugsweise) | $4{,}0 \pm 0{,}2$ | $4{,}0 \pm 0{,}2$ |
+
+<div class="hinweis">
+
+$^b\; l_2 = l_1 + \left[4r(b_2-b_1)-(b_2-b_1)^2\right]^{1/2}$ (ISO 527-2:2012, Tab. 1) $\quad ^c$ Grenzabmaße für A1, A2 identisch mit Typ B, D, E
+
+</div>
+
+---
+
+## Spannung und Dehnung
+
+<div class="eq">
+
+$$\sigma = \frac{F}{A_0} \quad [\text{MPa} = \text{N/mm}^2]$$
+
+$$\varepsilon = \frac{\Delta L}{L_0} = \frac{L - L_0}{L_0} \quad [-\text{ oder } \%]$$
+
+</div>
+
+---
+
+
+## Elastizitätsmodul $E$
+
+<div class="zwei-spalten">
+<div>
+
+### Definition
+
+<div class="eq">
+
+$$E = \frac{\sigma}{\varepsilon} = \frac{\Delta\sigma}{\Delta\varepsilon}$$
+
+</div>
+
+
+
+## Zugfestigkeit $R_m$
+
+<div class="eq">
+
+$$R_m = \frac{F_{\max}}{A_0} \quad [\text{MPa}]$$
+
+</div>
+
+## Bruchdehnung $A$
+
+<div class="eq">
+
+$$A =\dfrac{L_u - L_0}{L_0}  \quad [\text{-}]$$
+
+</div>
+
+---
+
+
+## Kennwerte im Überblick
+
+| Kennwert | Symbol | Formel | Bedeutung |
+|----------|--------|--------|-----------|
+| Elastizitätsmodul | $E$ | $\sigma/\varepsilon$ | Steifigkeit |
+| Querkontraktionszahl | $\nu$ | $-\varepsilon_y/\varepsilon_x$ | Querverformung |
+| Obere Streckgrenze | $R_{eH}$ | $F_{eH}/A_0$ | Fließbeginn |
+| 0,2%-Dehngrenze | $R_{p0{,}2}$ | bei $\varepsilon_{pl}=0{,}2\%$ | Fließbeginn (ohne Plateau) |
+| Zugfestigkeit | $R_m$ | $F_{\max}/A_0$ | Maximalbelastung |
+| Bruchdehnung | $A$ | $(L_u-L_0)/L_0$ | Gesamtverformbarkeit  |
+| Brucheinschnürung | $Z$ | $(A_0-A_u)/A_0$ |  Duktilität |
+
+<div class="hinweis">
+
+**Norm:** DIN EN ISO 6892-1 (metallische Werkstoffe, Raumtemperatur) |  DIN EN ISO 6892-2 (erhöhte Temperatur)
+
+</div>
+
+
+
+---
+
+# Planung eines Experiments
+
+
+---
+
+
 # OFAT – One Factor At a Time
 
 ## Der intuitive, aber ineffiziente Ansatz

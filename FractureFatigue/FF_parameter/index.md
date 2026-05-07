@@ -170,6 +170,12 @@ $$\sigma_{eq,T} = \sigma_1 - \sigma_3 = 2\tau_{max}$$
 ---
 
 
+![](./assets/gross_tresca.png)
+
+Bild aus Gross, Seelig "Bruchmechanik"
+
+---
+
 ## Spannungstriaxialität
 
 $$h = \frac{(\sigma_1+\sigma_2+\sigma_3)/3}{\sigma_{eq}}$$
