@@ -97,11 +97,11 @@ Hochschule Magdeburg-Stendal
 $$\begin{bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{33} \\ \sigma_{23} \\ \sigma_{13} \\ \tau_{12} \end{bmatrix} = 
 \begin{bmatrix}
 C_{11} & C_{12} & C_{13} & C_{14} & 0 & 0 \\
-0 & C_{22} & C_{23} & C_{24} & 0 & 0 \\
-0&0 & C_{33} & C_{34} & 0 & 0 \\
-0&0&0 & C_{44} & 0 & 0 \\
-0&0&0&0& C_{55} & 0 \\
-0&0&0&0&0 & C_{66} 
+ & C_{22} & C_{23} & C_{24} & 0 & 0 \\
+& & C_{33} & C_{34} & 0 & 0 \\
+&& & C_{44} & 0 & 0 \\
+&&&& C_{55} & 0 \\
+sym&&&& & C_{66} 
 \end{bmatrix}
 \begin{bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ \varepsilon_{33} \\ 2\varepsilon_{23} \\ 2\varepsilon_{13} \\ 2\varepsilon_{12} \end{bmatrix}$$
 
@@ -955,7 +955,7 @@ Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof.
 ---
 # Bruchmechanische Rissfortschrittsuntersuchung
 
-![width:700px](Abb. Crack Propagation Steps)
+![width:600px](./assets/riss.png)
 
 **Step 1: Crack held** - Riss gehalten unter Kraft **F**
 
@@ -989,7 +989,6 @@ Rybicki & Kaminen: A finite element calculation of stress intensity factor by a 
 ---
 # Bruchmechanische Rissfortschrittsuntersuchung
 
-![width:700px](Abb. VCCT Geometrie)
 
 $$G_I = -\frac{1}{2} \frac{1}{\Delta A} F_{z1}(w_2 - w_{2'}) \frac{a_0}{a_2}$$
 
@@ -1082,14 +1081,6 @@ $$\left(\frac{G_I}{G_{Ic}}\right)^{m_I} + \left(\frac{G_{II}}{G_{IIc}}\right)^{m
     - $RF = 1$: Versagensgrenze.
     - $RF > 1$: Struktur ist sicher.
 - $RF$ ist ein Faktor für Spannungen oder Verzerrungen, mit dem die Beanspruchung gerade die Versagensgrenze erreicht.
-
----
-
-- **Beispiel quadratisches Interaktionskriterium**:
-  $F_{11}(RF \cdot \sigma_1)^2 + 2F_{12} \cdot RF^2 \cdot \sigma_1\sigma_2 + F_{22}(RF \cdot \sigma_2)^2 + F_{33}(RF \cdot \tau_{12})^2 + \dots = 1$
-- **Materialanstrengung $A$**: Definiert als der Kehrwert des Reservefaktors ($A = 1/RF$).
-- **Sicherheitsbeiwert $j$ (oder $\gamma_S$)**: In Industriezweigen vorgeschrieben (z.B. $j = 1,5$ in der Luftfahrt).
-- **Bedingung für sichere Auslegung**: $RF \ge j$ bzw. $A \le 1/j$.
 
 ---
 
