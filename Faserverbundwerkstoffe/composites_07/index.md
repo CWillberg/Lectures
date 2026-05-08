@@ -6,12 +6,24 @@ paginate: true
 math: katex
 ---
 
+<style>
+img[alt="ORCID"] {
+    height: 15px !important;
+    width: auto !important;
+    vertical-align: top !important;
+    display: inline !important;
+    margin: 0 !important;
+}
+
+</style>
+
 <!-- _class: lead -->
 
 # Festigkeit eines UD-Verbundes
+ 
 
+Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
 
 <!-- _class: lead -->
