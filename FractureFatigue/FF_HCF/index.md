@@ -29,7 +29,7 @@ Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"
 Hochschule Magdeburg-Stendal
 
 <div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/FF_HCF_parameter/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Fracture/Fatigue/FF_HCF_parameter/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
