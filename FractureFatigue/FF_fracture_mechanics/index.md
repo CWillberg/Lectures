@@ -33,6 +33,10 @@ Hochschule Magdeburg-Stendal
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
+--- 
+
+Figures are mostly taken from Gross und Seelig, Bruchmechnanik
+
 ---
 
 # General Concepts
@@ -517,21 +521,28 @@ $K_{Ic}$ depends on:
 
 ---
 
-# 4.6 Energy Balance
+# Energy Balance
 
 ---
 
-## 4.6.1 Energy Released During Crack Growth
+## Energy Released During Crack Growth
 
-Consider a cracked elastic body with external loads (potential $\Pi_a$) and prescribed displacements (Fig. 4.27).
+Consider a cracked elastic body with external loads (potential $\Pi_a$) and prescribed displacements.
 
 During crack advance by area $\Delta A$ (length $\Delta a$ in 2D), the system goes from equilibrium state 1 to state 2.
+
+---
 
 **Energy theorem:**
 
 $$\Delta\Pi = \Delta W_\sigma \leq 0$$
 
 The **mechanical energy decreases** during crack growth. The released energy drives the fracture process.
+
+![bg right 50%](./assets/energyReleasePrinciple.png)
+
+
+---
 
 **Example — crack formation in an infinite plate** under tension $\sigma$ (Fig. 4.28):
 
@@ -549,13 +560,17 @@ $\Delta\Pi$ is the same in both cases — but $\Delta\Pi_i$ has opposite signs!
 
 ---
 
-## 4.6.2 Energy Release Rate
+##  Energy Release Rate
 
 The **energy release rate** (ERR) $\mathcal{G}$ is energy released per unit crack area advance:
 
 $$\mathcal{G} = -\frac{d\Pi}{dA} \qquad \text{(3D)}, \qquad \mathcal{G} = -\frac{d\Pi}{da} \qquad \text{(2D per unit thickness)}$$
 
 $\mathcal{G}$ has dimension of force per unit length = **crack extension force**.
+
+![w:800](./assets/EnergyRelease.png)
+
+---
 
 **Relation to SIFs** (Mode I derivation via virtual crack closure):
 
@@ -569,31 +584,18 @@ where $E^\ast = E/(1-\nu^2)$ for plane strain/3D and $E^\ast = E$ for plane stre
 
 ---
 
-## 4.6.2 ERR Examples
-
-**Adhesive/weld joint model** (Fig. 4.30a) — two thin strips, moment $M = Fh/2$:
-
-$$\mathcal{G} = \frac{7(1-\nu^2)\sigma^2 h}{4E}$$
-
-Note: this is **not** pure Mode II — SIFs cannot be simply extracted from $\mathcal{G}$ alone.
-
-**Thin film on substrate** (Fig. 4.30b) — imposed strain $\varepsilon_0$, stress $\sigma = E\varepsilon_0/(1-\nu^2)$:
-
-$$\mathcal{G} = \frac{(1-\nu^2)\sigma^2 h}{2E}$$
-
-Models **delamination** of a thin film (coating) from a substrate.
-
-> **Fig. 4.30** — ERR examples: (a) bonded joint, (b) thin film on substrate
-
----
 
 ## 4.6.3 Compliance, ERR, and K-Factors
 
-For a body loaded by a single force $F$ with compliance $C(a)$ (Fig. 4.31):
+For a body loaded by a single force $F$ with compliance $C(a)$:
+
+![w:400](./assets/EnergyRelease.png)
 
 $$\mathcal{G} = \frac{F^2}{2B}\frac{dC}{da}$$
 
 This result is **independent of loading type** (dead load, spring, or fixed displacement).
+
+---
 
 For pure Mode I:
 
@@ -605,11 +607,10 @@ $$K_I^2 = \frac{F^2 E^\ast}{2B}\frac{dC}{da}$$
 
 $$C = \frac{8a^3}{EBh^3}, \qquad K_I = \frac{2\sqrt{3}\,Fa}{Bh^{3/2}}$$
 
-> **Fig. 4.31** — Compliance change during crack growth; **Fig. 4.32** — DCB specimen
 
 ---
 
-## 4.6.4 Griffith Fracture Criterion
+## Griffith Fracture Criterion
 
 The fracture energy $\Gamma$ (surface energy + inelastic dissipation in process zone) enters the energy balance:
 
@@ -623,34 +624,21 @@ $$\boxed{\mathcal{G} = G_c}$$
 
 **Griffith's original work (1921):** treated $\Gamma$ as pure surface energy (reversible process) and applied only to onset of crack growth.
 
-For the infinite plate with crack of length $2a$ (Fig. 4.34):
+---
+
+For the infinite plate with crack of length $2a$:
 
 $$\sigma_c = \sqrt{\frac{16G\gamma}{\pi(1+\kappa)a}}, \qquad a_c = \frac{16G\gamma}{\pi(1+\kappa)\sigma^2}$$
 
-> **Fig. 4.34** — Griffith criterion: $\Pi$, $\Gamma$, and $\Pi+\Gamma$ vs. crack length
+
+![w:600](./assets/griffithcriterion.png)
+> Griffith criterion: $\Pi$, $\Gamma$, and $\Pi+\Gamma$ vs. crack length
 
 ---
 
-## 4.6.4 Griffith — Applications
 
-**Channel cracking in a thin film** (Fig. 4.35) under imposed strain $\varepsilon_0$:
 
-Critical film thickness below which channeling does not occur:
-
-$$h_c = \frac{2\sqrt{5(1-\nu)}}{3(1-\nu^2)}\frac{G_c E}{\sigma_0^2}$$
-
-**Peel test** (Fig. 4.36) — film peeled at angle $\varphi$, elastic deformation included:
-
-$$F = EA\left[\sqrt{\frac{2\gamma}{Eh}+(1-\cos\varphi)^2} - (1-\cos\varphi)\right]$$
-
-- Peel force increases with film stiffness $EA$ and decreases with peel angle $\varphi$
-- Rigid film limit: $F = \gamma B/(1-\cos\varphi)$
-
-> **Fig. 4.35** — Channel cracking model (beam on elastic foundation); **Fig. 4.36** — Peel test geometry and force vs. angle
-
----
-
-## 4.6.5 Numerical Determination of $\mathcal{G}$
+## Numerical Determination of $\mathcal{G}$
 
 Direct approach: compute $\mathcal{G}$ from the potential difference for two crack lengths:
 
@@ -666,7 +654,7 @@ Advantages: no special crack tip elements needed; based on global energy quantit
 
 ---
 
-## 4.6.6 J-Integral — Conservation Integrals
+## J-Integral — Conservation Integrals
 
 For a homogeneous elastic body (no body forces), the **J-integral vector** is defined as:
 
@@ -680,15 +668,19 @@ $$J_k = 0$$
 
 for any closed surface enclosing defect-free material.
 
+---
+
 Related conservation integrals:
 - $L_k$ (generalized moment / rotational)
 - $M$ (self-similar defect growth, e.g. void expansion)
 
-> **Fig. 4.38** — J-integral: (a) 3D closed surface, (b) 2D contour C
+
+![w:500](./assets/Jintegral.png)
+>  J-integral: (a) 3D closed surface, (b) 2D contour C
 
 ---
 
-## 4.6.6 J-Integral — Configuration Forces
+## J-Integral — Configuration Forces
 
 For a surface $\partial V$ enclosing a **discontinuity or singularity** (Fig. 4.39):
 
@@ -696,19 +688,28 @@ Energy change due to a translational shift $ds_k$ of the discontinuity:
 
 $$d\Pi = -J_k\,ds_k$$
 
+
+---
+
 **Interpretation:** $J_k$ is a **configuration force** (generalized force, material force) acting on the defect — it drives the defect forward.
 
 Similarly:
 - $L_k$: configuration moment (energy change under rotation of defect)
 - $M$: energy change under self-similar growth
 
-**Example — bimaterial rod** (Fig. 4.40): $J_1 = \frac{N^2}{2A}\left(\frac{1}{E_1}-\frac{1}{E_2}\right)$ — force driving the stiffness jump
-
-> **Fig. 4.39** — Configuration forces: (a) surface enclosing boundary, (b) virtual shift, (c) general defect
+![w:800](./assets/configuration_force.png)
+>  Configuration forces: (a) surface enclosing boundary, (b) virtual shift, (c) general defect
 
 ---
 
-## 4.6.6 J-Integral as Crack Tip Parameter
+**Example — bimaterial rod**: $J_1 = \frac{N^2}{2A}\left(\frac{1}{E_1}-\frac{1}{E_2}\right)$ — force driving the stiffness jump
+
+![w:_600](./assets/truss_example.png)
+
+
+---
+
+## J-Integral as Crack Tip Parameter
 
 For a contour $C$ around the crack tip with load-free crack faces (Fig. 4.41a):
 
@@ -718,7 +719,9 @@ $$J = J_1 = \int_C\left(U\,dy - t_i u_{i,x}\,dc\right)$$
 
 $$J = \mathcal{G} = -\frac{d\Pi}{da}$$
 
-**Path independence** (Fig. 4.41b): $J$ is the same for any contour surrounding the crack tip — for straight, unloaded crack faces.
+**Path independence**: $J$ is the same for any contour surrounding the crack tip — for straight, unloaded crack faces.
+
+---
 
 For linear elastic material:
 
@@ -726,11 +729,13 @@ $$J = \frac{1}{E^\ast}(K_I^2+K_{II}^2) + \frac{1}{2G}K_{III}^2$$
 
 **Practical advantage:** choose integration path far from the crack tip — no need for accurate crack tip field resolution in FEM/BEM.
 
-> **Fig. 4.41** — J-integral: (a) arbitrary contour, (b) path independence, (c) shrinking contour
+
+![w:900](./assets/tip_jintegral.png)
+> J-integral: (a) arbitrary contour, (b) path independence, (c) shrinking contour
 
 ---
 
-## 4.6.6 J-Integral — Further Properties
+## J-Integral — Further Properties
 
 **Path dependence** occurs when:
 - Crack faces are loaded
@@ -742,21 +747,22 @@ $$J = \lim_{\rho\to 0}\int_C(U\,dy - t_i u_{i,x}\,dc)$$
 
 The linear elastic relation still holds.
 
+---
+
 **y-component of generalized force** on the crack tip:
 
 $$J_2 = -\frac{1}{E^\ast}K_I K_{II}$$
 
-**3D extension:** for a crack with varying front loading (Fig. 4.42), $J = J(x_3)$ varies along the front but remains path-independent in cross-sectional planes.
+**3D extension:** for a crack with varying front loading, $J = J(x_3)$ varies along the front but remains path-independent in cross-sectional planes.
 
-> **Fig. 4.42** — J-integral for 3D crack with straight crack front
-
----
-
-# 4.7 Small-Scale Yielding
 
 ---
 
-## 4.7.1 Plastic Zone Size — Irwin Correction
+# Small-Scale Yielding
+
+---
+
+## Plastic Zone Size — Irwin Correction
 
 **LEFM assumption:** plastic zone $r_p \ll R$ (K-dominated zone).
 
@@ -771,41 +777,44 @@ Plastic zone size (force balance, Fig. 4.43a):
 
 $$2r_p = \begin{cases}\dfrac{1}{3\pi}\left(\dfrac{K_I}{\sigma_F}\right)^2 & \text{plane strain (EVZ)}\\ \dfrac{1}{\pi}\left(\dfrac{K_I}{\sigma_F}\right)^2 & \text{plane stress (ESZ)}\end{cases}$$
 
+---
+
 > Plane strain plastic zone is **much smaller** than plane stress — confirmed experimentally.
 
 **Irwin crack length correction:** replace actual crack length by an effective length:
 
 $$a_\text{eff} = a + r_p$$
 
-> **Fig. 4.43** — Plastic zone estimation: (a) stress redistribution, (b) corrected crack
+
+![w:600](./assets/plastic_zone_estimation.png)
+>  Plastic zone estimation: (a) stress redistribution, (b) corrected crack
 
 ---
 
-## 4.7.2 Plastic Zone Shape
+## Plastic Zone Shape
 
 Using the von Mises yield condition with Mode I near-field stresses, the **plastic zone boundary** is:
 
 $$r_p(\varphi) = \frac{K_I^2}{2\pi\sigma_F^2}\cos^2\frac{\varphi}{2} \begin{cases}\left[3\sin^2\frac{\varphi}{2}+(1-2\nu)^2\right] & \text{plane strain}\\ \left[3\sin^2\frac{\varphi}{2}+1\right] & \text{plane stress}\end{cases}$$
 
-Key observations (Fig. 4.44):
+Key observations:
 - Plane stress zone is significantly **larger** than plane strain zone
 - Both Tresca and von Mises hypotheses show the same trend
 
-**Dog-bone model** (Fig. 4.44b): in thick plates, the interior approximates plane strain (small zone), while the surface approaches plane stress (large zone).
+---
 
-**Slip mechanism** (Fig. 4.45):
+**Dog-bone model**: in thick plates, the interior approximates plane strain (small zone), while the surface approaches plane stress (large zone).
+
+**Slip mechanism** :
 - Plane strain: maximum shear in the $x_1$–$x_2$ plane → blunting of crack tip
 - Plane stress: maximum shear at 45° to plate → strip-like plastic zone, necking ahead of crack tip
-
+![w:700](./assets/plastic_zone_shape.png)
 > **Fig. 4.44** — Plastic zone contours: von Mises vs. Tresca, plane strain vs. stress; **Fig. 4.45** — Slip mechanisms
 
 ---
 
-# 4.8 Stable Crack Growth
 
----
-
-## 4.8 Stable Crack Growth and R-Curves
+## Stable Crack Growth and R-Curves
 
 The crack resistance $G_c$ is generally **not constant** but increases with crack advance $\Delta a = a-a_0$:
 
@@ -821,15 +830,19 @@ $$\mathcal{G}(F,a) = R(\Delta a)$$
 
 $$\frac{\partial\mathcal{G}}{\partial a}\bigg|_F < \frac{dR}{da} \quad \Rightarrow\quad \text{stable crack growth}$$
 
+---
+
 **Instability (onset of unstable fracture):**
 
 $$\frac{\partial\mathcal{G}}{\partial a}\bigg|_F = \frac{dR}{da}$$
 
-> **Fig. 4.46** — (a) R-curve, (b) $\mathcal{G}$-curves for increasing load — stable growth and instability point
+
+![w:800](./assets/stable_Crack_growth.png)
+>  (a) R-curve, (b) $\mathcal{G}$-curves for increasing load — stable growth and instability point
 
 ---
 
-## 4.8 Stability Analysis — Spring-Loaded System
+## Stability Analysis — Spring-Loaded System
 
 For a body loaded via a spring (compliance $C_F$) with prescribed displacement $u_F$ (Fig. 4.47):
 
@@ -841,23 +854,24 @@ $$\frac{d\mathcal{G}}{da} = \frac{F^2}{2}\begin{cases}C'' - 2C'^2/C & C_F=0 \tex
 
 **Dead load** always reaches instability **earlier** than fixed displacement loading.
 
+---
+
 **DCB specimen** ($C = 8a^3/EBh^3$):
 
 $$\frac{d\mathcal{G}}{da} = \begin{cases}-48F^2a/EBh^3 & \text{fixed displacement → always stable}\\ +24F^2a/EBh^3 & \text{dead load → unstable}\end{cases}$$
 
-> **Fig. 4.47** — Stability of crack growth in spring-loaded system
+![w:400](./assets/stable_Crack.png)
+> Stability of crack growth in spring-loaded system
+
+
 
 ---
 
-# 4.9 Mixed-Mode Loading
-
----
-
-## 4.9 Mixed-Mode Loading — General
+## Mixed-Mode Loading — General
 
 Under combined Mode I and Mode II loading, two effects occur:
 1. Fracture is triggered by **both** $K_I$ and $K_{II}$
-2. Crack propagates **at an angle** $\varphi_0$ to the original crack direction (Fig. 4.48)
+2. Crack propagates **at an angle** $\varphi_0$ to the original crack direction 
 
 For brittle materials, the crack typically propagates so that the new surface opens in **Mode I fashion**.
 
@@ -865,75 +879,32 @@ General mixed-mode criterion:
 
 $$f(K_I, K_{II}) = 0$$
 
-> **Fig. 4.48** — Crack propagation under mixed-mode loading at angle $-\varphi_0$
+
+---
+![](./assets/anglemixedmode.png)
+
+> Crack propagation under mixed-mode loading at angle $-\varphi_0$
 
 ---
 
-## 4.9 Energetic Criterion (Mixed Mode)
+## Energetic Criterion (Mixed Mode)
 
 $$\mathcal{G} = G_c \quad\Rightarrow\quad K_I^2 + K_{II}^2 = K_{Ic}^2$$
 
 **Limitation:** assumes crack propagates **tangentially**, independent of $K_{II}$ magnitude. Only valid for $K_{II} \ll K_I$.
 
----
 
-## 4.9 Maximum Circumferential Stress Criterion (Erdogan & Sih, 1963)
-
-**Assumptions:**
-(a) Crack grows radially in direction $\varphi_0$ perpendicular to the maximum hoop stress $\sigma_{\varphi,\text{max}}$
-(b) Crack growth initiates when $\sigma_\varphi(\varphi_0)$ at distance $r_c$ equals the Mode I critical value
-
-This yields two equations:
-
-$$K_I\sin\varphi_0 + K_{II}(3\cos\varphi_0-1) = 0$$
-$$K_I\left(3\cos\frac{\varphi_0}{2}+\cos\frac{3\varphi_0}{2}\right) - K_{II}\left(3\sin\frac{\varphi_0}{2}+3\sin\frac{3\varphi_0}{2}\right) = 4K_{Ic}$$
-
-**Pure Mode II** result: $\varphi_0 = -70.6°$, $K_{II,c} = 0.866\,K_{Ic}$
-
-> **Fig. 4.49** — Mixed-mode results: (a) failure loci, (b) kink angle vs. mode ratio
 
 ---
 
-## 4.9 S-Criterion (Sih, 1973)
 
-The strain energy density near the crack tip:
+##  Mixed-Mode Criteria — Comparison and Limitations
 
-$$U = \frac{S}{r}, \qquad S = \frac{1}{16\pi G}[a_{11}K_I^2 + 2a_{12}K_IK_{II} + a_{22}K_{II}^2]$$
 
-**Assumptions:**
-(a) Crack grows in direction $\varphi_0$ of **minimum** $S$
-(b) Growth initiates when $S(\varphi_0)$ reaches a critical value $S_c = a_{11}(\varphi_0=0)K_{Ic}^2$
 
-$$\frac{dS}{d\varphi}\bigg|_{\varphi_0} = 0 \text{ (min)}, \qquad [a_{11}K_I^2+2a_{12}K_IK_{II}+a_{22}K_{II}^2]_{\varphi_0} = \frac{1-2\nu}{4\pi G}K_{Ic}^2$$
-
-For $\nu=1/3$, pure Mode II: $\varphi_0 = -83.6°$, $K_{II,c} = 0.905\,K_{Ic}$
+![w:800](./assets/mixedmodecriterion.png)
 
 ---
-
-## 4.9 Kink Model (Hussain, Pu & Underwood, 1972)
-
-The crack tip forms a small **kink** of angle $\varphi$ and length $\varepsilon$ (Fig. 4.50).
-
-Local SIFs at kink tip: $k_I(\varphi)$, $k_{II}(\varphi)$
-
-**Assumptions:**
-(a) Kink angle $\varphi_0$ maximizes $\mathcal{G} = (k_I^2+k_{II}^2)/E$
-(b) Growth starts when $\mathcal{G}(\varphi_0) = G_c$
-
-Approximate solution:
-
-$$k_I \approx C_{11}K_I + C_{12}K_{II} + D_1\sigma_T\sqrt{\pi\varepsilon}$$
-$$k_{II} \approx C_{21}K_I + C_{22}K_{II} + D_2\sigma_T\sqrt{\pi\varepsilon}$$
-
-**Small Mode II limit** (all criteria agree):
-
-$$\varphi_0 \approx -2\frac{K_{II}}{K_I}$$
-
-> **Fig. 4.50** — Kink model geometry
-
----
-
-## 4.9 Mixed-Mode Criteria — Comparison and Limitations
 
 | Criterion | $\varphi_0$ (pure Mode II) | $K_{II,c}/K_{Ic}$ |
 |-----------|--------------------------|-------------------|
@@ -948,27 +919,14 @@ $$\varphi_0 \approx -2\frac{K_{II}}{K_I}$$
 - Criteria are physically valid only for $K_I > 0$ (open crack)
 - Empirical alternative: $\left(\frac{K_I}{K_{Ic}}\right)^\mu + \left(\frac{K_{II}}{K_{IIc}}\right)^\nu = 1$
 
----
-
-## 4.9 Example — Inclined Crack Under Uniaxial Tension
-
-Inclined crack at angle $\gamma$ (Fig. 4.51a):
-
-$$K_I = \sigma\sqrt{\pi a}\cos^2\gamma, \qquad K_{II} = \sigma\sqrt{\pi a}\sin\gamma\cos\gamma$$
-
-Applying the maximum hoop stress criterion:
-- Kink angle $\varphi_0$ depends on $\gamma$ (Fig. 4.51b)
-- Critical stress $\sigma_c$ is **relatively insensitive** to $\gamma$ for moderate angles (Fig. 4.51c)
-
-> **Fig. 4.51** — Inclined crack: (a) geometry, (b) kink angle $\varphi_0$ vs. inclination $\gamma$, (c) critical stress $\sigma_c$
 
 ---
 
-# 4.10 Crack Initiation at Holes and Notches
+# Crack Initiation at Holes and Notches
 
 ---
 
-## 4.10 Size Effect and Limitations of Classical Criteria
+## Size Effect and Limitations of Classical Criteria
 
 At **rounded notches** or holes: stresses are finite → classical failure criteria applicable in principle.
 
@@ -986,7 +944,7 @@ At **V-notches or sharp corners**: stress singularity → classical criteria pre
 
 ---
 
-## 4.10 Leguillon's Hybrid Criterion (2002)
+## Leguillon's Hybrid Criterion (2002)
 
 **Assumption:** fracture initiates as a **finite-length crack** $\Delta a$ forms spontaneously.
 
@@ -995,6 +953,8 @@ Two conditions must be simultaneously satisfied:
 $$\frac{1}{\Delta a}\int_0^{\Delta a}f(\sigma_{ij})\,dx = \sigma_c \qquad \text{(averaged stress criterion)}$$
 
 $$\mathcal{G}(\Delta a) = -\frac{\Delta\Pi}{\Delta a} = G_c \qquad \text{(incremental energy criterion)}$$
+
+---
 
 **Advantages:**
 - Uses only two standard material parameters: $\sigma_c$ (tensile strength) and $G_c$ (or $K_{Ic}$)
@@ -1009,7 +969,7 @@ $$l = \frac{1}{\pi}\left(\frac{K_{Ic}}{\sigma_c}\right)^2$$
 
 ---
 
-## 4.10 Hybrid Criterion — Application to a Crack
+##  Hybrid Criterion — Application to a Crack
 
 For a straight crack of length $2a$ under tension $\sigma$ (Fig. 4.52a):
 
@@ -1023,15 +983,17 @@ Key behavior (Fig. 4.52b):
 - Short cracks ($a < l$): $\sigma_f \approx \sigma_c$ — crack not perceived as stress concentrator
 - Long cracks ($a > l$): $\sigma_f \to K_{Ic}/\sqrt{\pi a}$ — classical LEFM result
 
-> **Fig. 4.52** — Hybrid criterion: (a) geometry, (b) failure stress vs. crack length
+---
+
+![](./assets/hybrid.png)
+
+
+> Hybrid criterion: (a) geometry, (b) failure stress vs. crack length
 
 ---
 
-# 4.11 Fatigue Crack Growth
 
----
-
-## 4.11 Fatigue Crack Growth — Mechanism
+## Fatigue Crack Growth — Mechanism
 
 Under **cyclic loading**, cracks grow incrementally even far below the static fracture load.
 
@@ -1041,16 +1003,22 @@ Under LEFM conditions (small-scale yielding), cyclic loading is characterized by
 
 $$\Delta K = K_\text{max} - K_\text{min}$$
 
+---
+
+
+
+
 Experimentally measured crack growth rate (Fig. 4.53b):
 - Below threshold $\Delta K_0$ ($< K_{Ic}/10$): **no crack growth**
 - Middle range: log-linear relation (Paris regime)
 - Near $K_{Ic}$: rapid acceleration to fracture
 
-> **Fig. 4.53** — Fatigue crack growth: (a) periodic loading with $K_\text{min}$, $K_\text{max}$, (b) crack growth rate vs. $\Delta K$
+![w:800](./assets/crackgrowth.png)
+> Fatigue crack growth: (a) periodic loading with $K_\text{min}$, $K_\text{max}$, (b) crack growth rate vs. $\Delta K$
 
 ---
 
-## 4.11 Paris Law
+## Paris Law
 
 Empirical relation for the middle regime:
 
@@ -1068,7 +1036,7 @@ $$\frac{da}{dN} = \frac{C\,(\Delta K)^m}{(1-R)K_{Ic}-\Delta K}, \qquad R = K_\te
 
 ---
 
-## 4.11 Fatigue Life Prediction
+## Fatigue Life Prediction
 
 Integrate the Paris law from initial crack length $a_i$ to critical length $a_c$:
 
@@ -1077,6 +1045,8 @@ $$N(a) = \frac{1}{C(\Delta\sigma)^m}\int_{a_i}^{a}\frac{da'}{\left[\sqrt{\pi a'}
 where $\Delta K = \Delta\sigma\sqrt{\pi a}F(a)$ with geometry correction $F(a)$ from Table 4.1.
 
 Setting $a = a_c$ gives the number of cycles to failure $N_c$.
+
+---
 
 **Key inputs required:**
 - Initial crack size $a_i$ (inspection/NDT)
@@ -1087,102 +1057,14 @@ Setting $a = a_c$ gives the number of cycles to failure $N_c$.
 
 ---
 
-# 4.12 Interface Crack (Bimaterial)
+
+
+
+# Anisotropic Materials
 
 ---
 
-## 4.12 Bimaterial Crack — Crack Tip Field
-
-A crack lies along the interface between materials with elastic constants $E_1,\nu_1$ and $E_2,\nu_2$ (Fig. 4.54).
-
-Using the complex function approach in each half-plane separately, the eigenvalue equation yields:
-
-$$\lambda = \frac{1}{2}+i\varepsilon$$
-
-where the **bimaterial constant** is:
-
-$$\varepsilon = \frac{1}{2\pi}\ln\frac{\mu_2\kappa_1+\mu_1}{\mu_1\kappa_2+\mu_2}$$
-
-Crack tip stresses and displacements show:
-
-$$\sigma_{ij}\sim r^{-1/2}\cos(\varepsilon\ln r), \qquad u_i\sim r^{1/2}\cos(\varepsilon\ln r)$$
-
-The $1/\sqrt{r}$ singularity is preserved, but with **oscillating character** as $r\to 0$.
-
-> **Fig. 4.54** — Bimaterial crack tip geometry
-
----
-
-## 4.12 Interface SIFs and Energy Release Rate
-
-Stresses and crack opening in the interface:
-
-$$(\sigma_y+i\tau_{xy})_{\varphi=0} = \frac{K(r/2a)^{i\varepsilon}}{\sqrt{2\pi r}}$$
-
-**Complex stress intensity factor:**
-
-$$K = K_1 + iK_2$$
-
-$K_1$ and $K_2$ are **inseparably coupled** — neither is purely Mode I nor Mode II.
-
-**Energy release rate:**
-
-$$\mathcal{G} = \frac{(c_1+c_2)(K_1^2+K_2^2)}{16\cosh^2(\pi\varepsilon)}$$
-
-$\mathcal{G}$ is uniquely determined by $K_1$, $K_2$ — but the converse is not true ($K_1$ and $K_2$ individually cannot be extracted from $\mathcal{G}$ alone).
-
-**Contact zone** near crack tip: oscillating crack opening → physical interpenetration prevented → contact zone of length $r_k/2a = \exp(-\pi/2\varepsilon)$.
-
-For most practical material pairs, $\varepsilon\ll 1$ and the contact zone is negligibly small.
-
-> **Fig. 4.55** — Interface crack examples: (a) internal pressure, (b) remote tension, (c) shear, (d) point forces
-
----
-
-## 4.12 Interface Fracture Criterion and Crack Path
-
-**Pragmatic approximation** (valid when $\varepsilon\ll 1$):
-
-$$K\approx K,\quad K_1\approx K_I,\quad K_2\approx K_{II}$$
-
-Interface fracture criterion:
-
-$$\mathcal{G}(\psi) = G_c^{(i)}(\psi), \qquad \tan\psi = K_{II}/K_I$$
-
-The interface fracture toughness $G_c^{(i)}$ typically shows a **strong dependence on the phase angle $\psi$**.
-
-**Crack path selection** (Fig. 4.57): crack may deflect from the interface into one of the materials.
-
-For $\mu_1 < \mu_2$ (soft/stiff), under tension:
-- $K_{II} < 0$ at right crack tip → crack deflects into the **softer material (1)**
-- This only occurs if $G_c^{(1)} \leq G_c^{(i)}$
-
-> **Fig. 4.56** — Delamination of two layers; **Fig. 4.57** — Crack path selection at bimaterial interface
-
----
-
-## 4.12 Delamination Example
-
-Two layers with different thicknesses $h_1$, $h_2$ and stiffnesses (Fig. 4.56), subject to misfit strain $\varepsilon_0$:
-
-Using beam theory, the resultant force $N$ and moments $M_1$, $M_2$ are computed, yielding:
-
-$$\mathcal{G} = f\frac{(1-\nu_1^2)\sigma^2 h_1}{2E_1}$$
-
-where $f$ depends on stiffness ratio $e = E_1/E_2$ and thickness ratio $H = h_1/h_2$.
-
-- $h_1/h_2\to 0$: recovers thin-film-on-substrate result (Section 4.6.2)
-- Equal layers ($e=H=1$): $f = 0.2$
-
-The individual SIFs $K_I$, $K_{II}$ require solving the full elastic boundary value problem near the crack tip — given in Fig. 4.56b for the thin-film limit.
-
----
-
-# 4.13 Anisotropic Materials
-
----
-
-## 4.13 Crack Tip Fields in Orthotropic Materials
+## Crack Tip Fields in Orthotropic Materials
 
 Many materials are anisotropic: wood, fiber composites, single crystals.
 Most common: **orthotropic** materials (principal directions $\perp$ each other).
@@ -1212,13 +1094,12 @@ Same for pure shear: $K_{II} = \tau\sqrt{\pi a}$.
 
 Crack face displacements differ from the isotropic case by material-dependent prefactors.
 
-> **Fig. 4.58** — Crack in orthotropic material: (a) tension, (b) shear, (c) local coordinates at crack tip
 
 ---
 
-## 4.13 Orthotropic Near-Field — Stress and Displacement
+## Orthotropic Near-Field — Stress and Displacement
 
-Mode I and Mode II near-field (Sih et al., 1965):
+Mode I and Mode II near-field:
 
 $$\begin{pmatrix}\sigma_x\\\sigma_y\\\tau_{xy}\end{pmatrix} = \frac{K_I}{\sqrt{2\pi r}}\text{Re}\left\{\ldots(\mu_1,\mu_2,\varphi)\right\}, \quad \begin{pmatrix}u\\v\end{pmatrix} = K_I\sqrt{\frac{2r}{\pi}}\text{Re}\left\{\ldots\right\}$$
 
@@ -1234,7 +1115,7 @@ where $h_{ij}$ are compliance coefficients of the orthotropic material.
 
 ---
 
-## 4.13 J-Integral and Fracture Criterion for Anisotropic Materials
+##  J-Integral and Fracture Criterion for Anisotropic Materials
 
 The J-integral retains all its properties regardless of crack orientation:
 
@@ -1254,10 +1135,6 @@ where $\vartheta$ is the crack angle relative to the orthotropy axes. Fracture m
 
 ---
 
-# Chapter 4 — Summary
-
----
-
 ## Summary: Crack Tip Fields and SIFs
 
 | Mode | Stress singularity | Field characterized by | Extraction |
@@ -1274,13 +1151,7 @@ where $\vartheta$ is the crack angle relative to the orthotropy axes. Fracture m
 
 ## Summary: Fracture Parameters and Their Equivalence
 
-In LEFM (linear elastic fracture mechanics), the following are **equivalent** under pure mode loading:
 
-$$K_I = K_{Ic} \quad\Longleftrightarrow\quad \mathcal{G} = G_c \quad\Longleftrightarrow\quad J = J_c$$
-
-Connections:
-
-$$\mathcal{G} = \frac{K_I^2}{E^\ast}, \qquad J = \mathcal{G} = -\frac{d\Pi}{da}$$
 
 | Parameter | Strength | Limitation |
 |-----------|----------|------------|
