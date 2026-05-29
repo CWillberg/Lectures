@@ -39,7 +39,7 @@ Hochschule Magdeburg-Stendal
 
 # Querschnitte von C-Fasern
 
-![bg 90%](../assets/Figures/FKV/querschnitte_von_CFasern.png)
+![bg 90%](../../assets/Figures/FKV/querschnitte_von_CFasern.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -49,8 +49,8 @@ Hochschule Magdeburg-Stendal
 
 # Verteilung und Ausrichtung von Fasern
 
-![bg 70%](../assets/Figures/FKV_struktur.png)
-![bg 80%](../assets/Figures/FKV/UD_verbund_schnitt.png)
+![bg 70%](../../assets/Figures/FKV_struktur.png)
+![bg 80%](../../assets/Figures/FKV/UD_verbund_schnitt.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild (rechts) entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -66,7 +66,7 @@ Hochschule Magdeburg-Stendal
    - Annahme von Periodizität
    - führt zu einem repräsentativen Volumenelement (RVE)
 
-![bg right fit](../assets/Figures/FKV/RVE_example.png)
+![bg right fit](../../assets/Figures/FKV/RVE_example.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -81,7 +81,7 @@ Hochschule Magdeburg-Stendal
    - Periodizität in allen Raumrichtungen nicht streng erfüllt
    - Dominanz der Effekte innerhalb der Ebene
 
-![bg right fit](../assets/Figures/FKV/RVE_example.png)
+![bg right fit](../../assets/Figures/FKV/RVE_example.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -91,8 +91,8 @@ Hochschule Magdeburg-Stendal
 
 # Repräsentativer Bereich – Querrisse & Simulation
 
-![bg 90%](../assets/Figures/FKV/querrisse.png)
-![bg 80%](../assets/Figures/FKV/PD_simulation.png)
+![bg 90%](../../assets/Figures/FKV/querrisse.png)
+![bg 80%](../../assets/Figures/FKV/PD_simulation.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus "Peridynamic analysis of fibre-matrix debond and matrix failure mechanisms in composites under transverse tensile load by an energy-based damage criterion", Rädel, M., Willberg, C. and Krause, D.; 10.1016/j.compositesb.2018.08.084
@@ -111,8 +111,8 @@ UD-Schicht mit regelmäßiger Anordnung
    - max. Faservolumengehalt
    $\varphi = \pi\sqrt{3}/6 \approx 0.907$
 
-![bg vertical 40%](../assets/Figures/FKV/quadratische_anordnung.png)
-![bg right 50%](../assets/Figures/FKV/hexagonale_anordnung.png)
+![bg vertical 40%](../../assets/Figures/FKV/quadratische_anordnung.png)
+![bg right 50%](../../assets/Figures/FKV/hexagonale_anordnung.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -214,7 +214,7 @@ $\begin{array}{llll}
 
 # Repräsentatives Element
 
-![bg 80%](../assets/Figures/FKV/repraesentatives_element.png)
+![bg 80%](../../assets/Figures/FKV/repraesentatives_element.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -224,7 +224,7 @@ $\begin{array}{llll}
 
 # Verformung infolge Temperaturerhöhung
 
-![bg 50%](../assets/Figures/FKV/verformung_RV_bsp.png)
+![bg 50%](../../assets/Figures/FKV/verformung_RV_bsp.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -234,7 +234,7 @@ $\begin{array}{llll}
 
 # Axialspannungen $\Delta T = -100\,°C$
 
-![bg 60%](../assets/Figures/FKV/axial_spannungen_RV_bsp.png)
+![bg 60%](../../assets/Figures/FKV/axial_spannungen_RV_bsp.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -244,7 +244,7 @@ $\begin{array}{llll}
 
 # Radialspannungen $\Delta T = -100\,°C$
 
-![bg 60%](../assets/Figures/FKV/radialspannungen_RV_bsp.png)
+![bg 60%](../../assets/Figures/FKV/radialspannungen_RV_bsp.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -254,7 +254,7 @@ $\begin{array}{llll}
 
 # Umfangsspannungen $\Delta T = -100\,°C$
 
-![bg 70%](../assets/Figures/FKV/umfangsspannungen_RV_bsp.png)
+![bg 70%](../../assets/Figures/FKV/umfangsspannungen_RV_bsp.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -264,7 +264,7 @@ $\begin{array}{llll}
 
 # Schubspannungen $\Delta T = -100\,°C$
 
-![bg 70%](../assets/Figures/FKV/schubspannungen_RV_bsp.png)
+![bg 70%](../../assets/Figures/FKV/schubspannungen_RV_bsp.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -274,7 +274,7 @@ $\begin{array}{llll}
 
 # Thermische Zyklierung bei Tiefsttemperaturanwendungen
 
-![bg 70%](../assets/Figures/FKV/matrix_risse_thermisch.png)
+![bg 70%](../../assets/Figures/FKV/matrix_risse_thermisch.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus Lüders, C. "Mehrskalige Betrachtung des Ermüdungsverhaltens thermisch zyklierter Faserkunststoffverbunde", Dissertation, 2020
@@ -282,7 +282,7 @@ $\begin{array}{llll}
 
 ---
 
-![bg 65%](../assets/Figures/FKV/modellierung%20thermisch_zyk.png)
+![bg 65%](../../assets/Figures/FKV/modellierung%20thermisch_zyk.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild entmommen aus Lüders, C. "Mehrskalige Betrachtung des Ermüdungsverhaltens thermisch zyklierter Faserkunststoffverbunde", Dissertation, 2020
@@ -327,7 +327,7 @@ $\begin{array}{llll}
 
 Korrektur erforderlich, weil Steifigkeit der Faser unter Belastung in Querrichtung nur zum Teil wirksam ist
 
-![bg right 70%](../assets/Figures/FKV/homogenisierung.png)
+![bg right 70%](../../assets/Figures/FKV/homogenisierung.png)
 
 ---
 
@@ -603,9 +603,9 @@ Abweichungen in der Größenordnung von ~10%
 - Modelle können enorm komplex sein
 - Gewebe können so abgebildet werden
 
-![bg 22%](../assets/Figures/FKV/gewebe_FEM.png)
-![bg right 80%](../assets/Figures/FKV/mikroskop_gewebe.png)
-![bg vertical fit](../assets/Figures/FKV/ondulation_RVE.png)
+![bg 22%](../../assets/Figures/FKV/gewebe_FEM.png)
+![bg right 80%](../../assets/Figures/FKV/mikroskop_gewebe.png)
+![bg vertical fit](../../assets/Figures/FKV/ondulation_RVE.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild 1+2 entmommen aus Lin, H; et al. "A finite element approach to the modelling of fabric mechanics", 10.1080/00405000.2012.660755;
@@ -614,7 +614,7 @@ Abweichungen in der Größenordnung von ~10%
 
 ---
 
-![bg 70%](../assets/Figures/FKV/ondulation_ergebnisse.png)
+![bg 70%](../../assets/Figures/FKV/ondulation_ergebnisse.png)
 
 ---
 
@@ -695,7 +695,7 @@ $\begin{array}{ll}
 
 ---
 
-![bg 80%](../assets/Figures/FKV/waermeleitfaehigkeit_quadratisch.png)
+![bg 80%](../../assets/Figures/FKV/waermeleitfaehigkeit_quadratisch.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -703,7 +703,7 @@ $\begin{array}{ll}
 
 ---
 
-![bg 80%](../assets/Figures/FKV/waermeleitfaehigkeit_hexagonal.png)
+![bg 80%](../../assets/Figures/FKV/waermeleitfaehigkeit_hexagonal.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -713,7 +713,7 @@ $\begin{array}{ll}
 
 # Messung der Wärmeleitfähigkeit – Transient Hot-Strip Verfahren
 
-![bg 50%](../assets/Figures/FKV/Messung_Waermeleitfaehigkeit.png)
+![bg 50%](../../assets/Figures/FKV/Messung_Waermeleitfaehigkeit.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -721,7 +721,7 @@ $\begin{array}{ll}
 
 ---
 
-![bg 75%](../assets/Figures/FKV/Vergleich_messung_homogenisierung_Waermeleitfaehigkeit.png)
+![bg 75%](../../assets/Figures/FKV/Vergleich_messung_homogenisierung_Waermeleitfaehigkeit.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
@@ -747,7 +747,7 @@ $\begin{array}{ll}
 - besseres Verstehen des Verbundversagens
 - sinnvolle Auslegung von Fasern und Matrix
 
-![bg right 90%](../assets/Figures/FKV/Faserfestigkeit_glas.png)
+![bg right 90%](../../assets/Figures/FKV/Faserfestigkeit_glas.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bilder aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -768,7 +768,7 @@ $$\sigma_t\geq\sigma_{mt}(1-\varphi)$$
 
 Sonst trägt die Matrix trotz gerissener Fasern (nur bei sehr kleinen $\varphi$ möglich).
 
-![bg right 50%](../assets/Figures/FKV/Zugfestigkeit_vs_phi.png)
+![bg right 50%](../../assets/Figures/FKV/Zugfestigkeit_vs_phi.png)
 
 ---
 
@@ -817,7 +817,7 @@ $$\sigma_c=\frac{G_m}{1-\varphi(1-G_m/G_{LTf})}$$
 Bei höherem $\varphi$: ideal plastische Matrix mit Fließspannung $\tau_{mt}$:
 $$\sigma_c=\sqrt{\frac{\varphi\tau_{mt}E_m}{3(1-\varphi)}}$$
 
-![bg right 70%](../assets/Figures/FKV/Druckfestigkeit_UDVerbund.png)
+![bg right 70%](../../assets/Figures/FKV/Druckfestigkeit_UDVerbund.png)
 
 ---
 
@@ -829,7 +829,7 @@ $$\sigma_c=\sqrt{\frac{\varphi\tau_{mt}E_m}{3(1-\varphi)}}$$
 **Alternativer Ansatz (Dharan & Lin):**
 $$\sigma_c = \frac{G_m}{1-\varphi+2(h_i/h_f)(G_m/G_i)\varphi}$$
 
-![bg right fit](../assets/Figures/FKV/bild_dharam.png)
+![bg right fit](../../assets/Figures/FKV/bild_dharam.png)
 
 ---
 
@@ -885,3 +885,7 @@ $$\sigma_c = \frac{G_m}{1-\varphi+2(h_i/h_f)(G_m/G_i)\varphi}$$
 - Rechnerisch gut bestimmbar (wenn $\nu_f$ bekannt)
 - Bei anisotropen Fasern problematisch
 - Messung mit DMS: Querempfindlichkeit korrigieren!
+
+--- 
+
+## Vielen Dank für die Aufmerksamkeit
