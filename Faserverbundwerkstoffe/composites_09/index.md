@@ -1,909 +1,530 @@
 ---
 marp: true
-header: 'Faserverbundwerkstoffe - Mikromechanik von Langfaserverbunden'
+header: 'Faserverbundwerkstoffe - Klassische Laminattheorie'
 theme: h2
 paginate: true
 math: katex
+
+
+
 ---
-
 <!-- _class: lead -->
-
-# Mikromechanik von Langfaserverbunden
-
-
+# Klassische Laminattheorie
 
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
-
-
 <div style="position: absolute; top: 200px; left: 850px;"> 
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Faserverbundwerkstoffe/composites_09/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
 ---
-
 <!-- _class: lead -->
 
+# Mehrschichtverbunde
 
+- alle Bilder sind entnommen aus Schürmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 
-# Annahmen für die Berechnung
-- Fasern
-   - homogen
-   - isotrop oder transversal isotrop - linear elastisch
-   - kreisrunder Querschnitt
-   - regelmäßig angeordnet
-   - gerade ausgerichtet (UD-Schicht) oder bekannte Verwebung
-- Matrix
-   - homogen
-   - linear elastisch, ideal plastisch, viskoplastisch
-   - isotrop
-
-
 ---
-# Querschnitte von C-Fasern
 
+# Polartransformation des Elastizitätsgesetzes der UD-Schicht
 
-![bg 90%](../assets/Figures/FKV/querschnitte_von_CFasern.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
 ---
 
+## Ausgangssituation
 
-# Verteilung und Ausrichtung von Fasern
+Leichtbaustrukturen sind häufig dünnwandig → **ebener Spannungszustand** (ESZ).
 
-![bg 70%](../assets/Figures/FKV_struktur.png)
-![bg 80%](../assets/Figures/FKV/UD_verbund_schnitt.png)
+Die UD-Schicht bzw. der MSV kann mechanisch behandelt werden als (meist in FEM):
 
+- **Scheibenelement** – nur Kräfte in der Ebene (häufigster Fall)
+- **Plattenelement** – nur Querkräfte / Biege- und Drillmomente
+- **Scheibe-Platte** – Überlagerung beider Fälle
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild (rechts) entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+Die UD-Schicht wird als **dünnwandiges, infinitesimales Scheibenelement** mit homogenem Spannungszustand modelliert.
 
 ---
-
 
+## Orthotropie der UD-Schicht
 
-# Repräsentativer Bereich
+Die UD-Schicht ist ein **orthotroper**, zusätzlich **transversal isotroper** Werkstoff.
 
-- bei unregelmäßiger Anordnung
-   - repräsentativer Bereich muss groß genug sein
-   - Anzahl der Fasern durch Zufallsvariablen gesteuert
-   - Annahme von Periodizität
-   - führt zu einem repräsentativen Volumenelement (RVE)
+Zwei ausgezeichnete Richtungen:
+- **1-Richtung (∥)**: längs zur Faser
+- **2-Richtung (⊥)**: quer zur Faser
 
+Diese bilden das **natürliche, kartesische Koordinatensystem** der UD-Schicht.
 
-![bg right fit](../assets/Figures/FKV/RVE_example.png)
+![w:400](./assets/Abb_9_1_UD_KOS_ESZ.png)
+*a) Lokales 1,2- bzw. ∥,⊥-Schicht-KOS; b) Ebener Spannungszustand*
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
-
 ---
 
-# Repräsentativer Bereich
+## Annahmen für das Scheibenelement
 
-- Grenzen: 
-   - Dimensionen sehr unterschiedlich sind (Ebene vs. Laminatdicke)
-   - Periodizität in allen Raumrichtungen nicht streng erfüllt
-   - Dominanz der Effekte innerhalb der Ebene
+- **Kleine Verformungen**
+- **Lineares, ideal elastisches** Werkstoffverhalten → lineares Elastizitätsgesetz
+- **Superpositionsprinzip** gilt (Linearität von Verformung und Werkstoff)
+- **Ebener Spannungszustand** (Dünnwandigkeit):
+  - $\sigma_3 = 0$, $\tau_{23} = \tau_{31} = 0$
 
+→ Vier **Grund-Elastizitätsgrößen** beschreiben die UD-Schicht im ESZ:
 
-![bg right fit](../assets/Figures/FKV/RVE_example.png)
+$$E_\parallel, \quad E_\perp, \quad G_{\perp\parallel}, \quad \nu_{\perp\parallel}$$
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
-
 ---
-
-# Repräsentativer Bereich
 
-![bg 90%](../assets/Figures/FKV/querrisse.png)
+## Elastizitätsgesetz der UD-Schicht – Nachgiebigkeitsform
 
-![bg 80%](../assets/Figures/FKV/PD_simulation.png)
+$$\begin{Bmatrix} \varepsilon_1 \\ \varepsilon_2 \\ \gamma_{21} \end{Bmatrix} = \begin{bmatrix} S_{11} & S_{12} & 0 \\ S_{12} & S_{22} & 0 \\ 0 & 0 & S_{66} \end{bmatrix} \cdot \begin{Bmatrix} \sigma_1 \\ \sigma_2 \\ \tau_{21} \end{Bmatrix}$$
 
+In Ingenieurgrößen: $\quad \{\varepsilon\} = [S] \cdot \{\sigma\}$
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus "Peridynamic analysis of fibre-matrix debond and matrix failure mechanisms in composites under transverse tensile load by an energy-based damage criterion", Rädel, M., Willberg, C. and Krause, D.; 10.1016/j.compositesb.2018.08.084
-</div>
+$$[S] = \begin{bmatrix} +\frac{1}{E_\parallel} & -\frac{\nu_{\perp\parallel}}{E_\parallel} & 0 \\ -\frac{\nu_{\parallel\perp}}{E_\perp} & +\frac{1}{E_\perp} & 0 \\ 0 & 0 & \frac{1}{G_{\perp\parallel}} \end{bmatrix}$$
 
 ---
-# Repräsentativer Bereich
-UD-Schicht mit regelmäßiger Anordnung
 
-- Quadratische Anordnung
-   - max. Faservolumengehalt
-   $\varphi = \pi/4 \approx 0.785$
-- Hexagonale Anordnung
-   - max. Faservolumengehalt
-   $\varphi = \pi\sqrt3/6 \approx 0.907$
+## Elastizitätsgesetz der UD-Schicht – Steifigkeitsform
 
+$$\begin{Bmatrix} \sigma_1 \\ \sigma_2 \\ \tau_{21} \end{Bmatrix} = \begin{bmatrix} Q_{11} & Q_{12} & 0 \\ Q_{12} & Q_{22} & 0 \\ 0 & 0 & Q_{66} \end{bmatrix} \cdot \begin{Bmatrix} \varepsilon_1 \\ \varepsilon_2 \\ \gamma_{21} \end{Bmatrix}$$
 
-![bg vertical 40%](../assets/Figures/FKV/quadratische_anordnung.png)
+mit: $\quad \{\sigma\} = [Q] \cdot \{\varepsilon\}$
 
-![bg right 50%](../assets/Figures/FKV/hexagonale_anordnung.png)
+$$Q_{11} = \frac{E_\parallel}{1 - \nu_{\perp\parallel}\nu_{\parallel\perp}}, \quad Q_{22} = \frac{E_\perp}{1 - \nu_{\perp\parallel}\nu_{\parallel\perp}}, \quad Q_{12} = \frac{\nu_{\perp\parallel} \cdot E_\perp}{1 - \nu_{\perp\parallel}\nu_{\parallel\perp}}, \quad Q_{66} = G_{\perp\parallel}$$
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+> **Symbol Q** statt C: kennzeichnet „reduzierte Steifigkeiten" im ESZ (keine Dehnungsbehinderung in Dickenrichtung)
 
-
 ---
 
-# Beispie für mikromechanische Spannungsberechnung
+## Orthotropie – Keine Dehnungs-Schiebungs-Kopplung
 
-## Beispiel: Aushärtespannungen
+**Kennzeichen der Orthotropie:** Drei orthogonale Symmetrieebenen.
 
-- Aushärtespannungen (curing stresses) in einer UD-Schicht aus CF mit Epoxidharz-Matrix
-- CFK-UD Schicht wird bei 180°C ausgehärtet
-- nach dem Aushärten wird der Verbund abgekühlt
-- bei etwa 120°C wird die Matrix fest und der Zustand wird eingefroren
-- weitere Abkühlung auf Raumtemperatur (20°C) ergibt eine Temperaturdifferenz von 100°C
-- unterschiedliche Wärmedehnungen von Fasre und Matrix im Zusammenwirken mit der Haftung bewirken einen Eigenspannungszustand
+Folge für die Steifigkeits-/Nachgiebigkeitsmatrix:
 
----
+$$Q_{13} = Q_{31} = 0, \quad Q_{23} = Q_{32} = 0$$
+$$S_{13} = S_{31} = 0, \quad S_{23} = S_{32} = 0$$
 
-## Beispiel: Aushärtespannungen
+**Das bedeutet:**
+- Normalspannungen $\sigma_1, \sigma_2$ erzeugen **keine** Schiebung $\gamma_{21}$
+- Schubspannungen $\tau_{21}$ erzeugen **keine** Dehnungen $\varepsilon_1, \varepsilon_2$
 
-- im Inneren der UD Schicht, störungsfrei $\rightarrow$ ebener Dehnungszustand
-- senkrecht zur Faser: 2D Problem
-- am freien Rand (senkrecht zu Faser); Verwölbung der Oberfläche, weil keine äußeren Kräfte
-- 3D Problem
-- Berechnung des Verschiebungs- und Spannungszustandes mit FEM, Materialgesetze müssen bekannt sein
-- Matrix ist isotrop, linear elastisch und charakterisiert durch E-Modul $E$, Querkontraktionszahl $\nu$, Temperaturdehnkoeffizient $\alpha$
+> Die Kopplung der Querdehnungen über die **Querkontraktion** bleibt erhalten: $S_{12}, Q_{12} \neq 0$
 
 ---
 
-- Kohlenstofffaser ist transversalisotrop, linear elastisch und beschrieben durch 5 Koeffizienten
-   -  $E_L$, $E_T$: E Moduli in Faserrichtung und senkrecht
-   - $G_{LT}$ Schubmodul parallel-senkrecht
-   - $\nu_{TT}$, $\nu_{LT}$ Querkontraktionszahl parallel-senkrecht, senkrecht-senkrecht
-- 2 Temperaturdehnkoeffizienten: $\alpha_L$, $\alpha_T$
+# Polartransformation
 
 ---
 
-$$\begin{bmatrix}
-\varepsilon_{xx} \\
-\varepsilon_{yy} \\
-\varepsilon_{zz} \\
-\gamma_{yz} \\
-\gamma_{xz} \\
-\gamma_{xy}
-\end{bmatrix} =
-\begin{bmatrix}
-\frac{1}{E_L} & -\frac{\nu_{LT}}{E_L} & -\frac{\nu_{LT}}{E_L} & 0 & 0 & 0 \\
--\frac{\nu_{LT}}{E_L} & \frac{1}{E_T} & -\frac{\nu_{TT}}{E_T} & 0 & 0 & 0 \\
--\frac{\nu_{LT}}{E_L} & -\frac{\nu_{TT}}{E_T} & \frac{1}{E_T} & 0 & 0 & 0 \\
-0 & 0 & 0 & \frac{1}{G_{LT}} & 0 & 0 \\
-0 & 0 & 0 & 0 & \frac{1}{G_{LT}} & 0 \\
-0 & 0 & 0 & 0 & 0 & \frac{2(1+\nu_{TT})}{E_T}
-\end{bmatrix}
-\begin{bmatrix}
-\sigma_{xx} \\
-\sigma_{yy} \\
-\sigma_{zz} \\
-\sigma_{yz} \\
-\sigma_{xz} \\
-\sigma_{xy}
-\end{bmatrix} +\begin{bmatrix}
-\alpha_L \\
-\alpha_T \\
-\alpha_T \\
-0 \\
-0 \\
-0
-\end{bmatrix}\cdot \Delta T$$
-- x-Achse oder 1-Achse = Faserrichtung (L)
-- y- und z-Achse oder 2- und 3-Achse = quer zur Faserrichtung (T) 
+## Warum transformieren?
 
+Im MSV liegen UD-Schichten unter **verschiedenen Faserwinkeln** $\alpha$.
 
----
+- Das **x,y-Laminat-KOS** fällt i.d.R. nicht mit dem **1,2-Schicht-KOS** zusammen
+- Spannungen und Verzerrungen müssen **zwischen beiden Systemen** umgerechnet werden
 
-## Materialgrößen und Geometrie
+![w:400](./assets/Abb_9_2_Faserwinkel.png)
+*Positiver Faserwinkel +α (anglo-amerikanische Konvention)*
 
+**Konvention:** $+\alpha$ = Drehung von x-Richtung → 1-Richtung **entgegen dem Uhrzeigersinn**
 
-$\begin{array}{llll}
-\text{Fasern}:   & E_L = 240GPA & \text{Matrix}: &E=3.5GPA\\
-&E_L = 240GPA&&\nu=0.35\\
-&G_{LT}=16GPA&&\alpha=55\cdot10^{-6}K^{-1}\\
-&\nu_{LT} = 0.23\\
-&\nu_{TT} = 0.23\\
-&\alpha_L = 0.7\cdot10^{-6}K^{-1}\\
-&\alpha_T = 5.5\cdot10^{-6}K^{-1}\\
-\text{Faservolumengehalt}: & 60\%\\
-\text{Faseranordnung}: & \text{hexagonal}\\
-\end{array}
-$
-
 ---
-# Repräsentatives Element
-
-![bg 80%](../assets/Figures/FKV/repraesentatives_element.png)
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+## Spannungstransformation
 
+![bg right fit](./assets/Abb_9_3_Kraeftegleichgewicht.png)
 
----
-# Verformung infolge Temperturerhöhung
 
-![bg 50%](../assets/Figures/FKV/verformung_RV_bsp.png)
+**Vom 1,2-Schicht-KOS ins x,y-Laminat-KOS:**
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+$$\begin{Bmatrix} \sigma_x \\ \sigma_y \\ \tau_{xy} \end{Bmatrix} = \begin{bmatrix} \cos^2\alpha & \sin^2\alpha & -\sin 2\alpha \\ \sin^2\alpha & \cos^2\alpha & \sin 2\alpha \\ 0{,}5\sin 2\alpha & -0{,}5\sin 2\alpha & \cos 2\alpha \end{bmatrix} \cdot \begin{Bmatrix} \sigma_1 \\ \sigma_2 \\ \tau_{21} \end{Bmatrix}$$
 
 ---
-# Axialspannungen $\Delta T = -100°C$
 
+## Spannungstransformation – Rücktransformation
 
+**Vom x,y-Laminat-KOS ins 1,2-Schicht-KOS:**
 
-![bg 60%](../assets/Figures/FKV/axial_spannungen_RV_bsp.png)
+$$\begin{Bmatrix} \sigma_1 \\ \sigma_2 \\ \tau_{21} \end{Bmatrix} = \begin{bmatrix} \cos^2\alpha & \sin^2\alpha & \sin 2\alpha \\ \sin^2\alpha & \cos^2\alpha & -\sin 2\alpha \\ -0{,}5\sin 2\alpha & 0{,}5\sin 2\alpha & \cos 2\alpha \end{bmatrix} \cdot \begin{Bmatrix} \sigma_x \\ \sigma_y \\ \tau_{xy} \end{Bmatrix}$$
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+> **Unterschied:** Die Vorzeichen der $\sin 2\alpha$-Terme sind vertauscht gegenüber der Hintransformation.
 
 ---
 
-# Radialspannungen $\Delta T = -100°C$
+## Verzerrungstransformation
 
-![bg 60%](../assets/Figures/FKV/radialspannungen_RV_bsp.png)
+**Vom 1,2-Schicht-KOS ins x,y-Laminat-KOS:**
 
+$$\begin{Bmatrix} \varepsilon_x \\ \varepsilon_y \\ \gamma_{xy} \end{Bmatrix} = \begin{bmatrix} \cos^2\alpha & \sin^2\alpha & -0{,}5\sin 2\alpha \\ \sin^2\alpha & \cos^2\alpha & 0{,}5\sin 2\alpha \\ \sin 2\alpha & -\sin 2\alpha & \cos 2\alpha \end{bmatrix} \cdot \begin{Bmatrix} \varepsilon_1 \\ \varepsilon_2 \\ \gamma_{21} \end{Bmatrix}$$
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+**Vom x,y-Laminat-KOS ins 1,2-Schicht-KOS:**
 
+$$\begin{Bmatrix} \varepsilon_1 \\ \varepsilon_2 \\ \gamma_{21} \end{Bmatrix} = \begin{bmatrix} \cos^2\alpha & \sin^2\alpha & 0{,}5\sin 2\alpha \\ \sin^2\alpha & \cos^2\alpha & -0{,}5\sin 2\alpha \\ -\sin 2\alpha & \sin 2\alpha & \cos 2\alpha \end{bmatrix} \cdot \begin{Bmatrix} \varepsilon_x \\ \varepsilon_y \\ \gamma_{xy} \end{Bmatrix}$$
 
 ---
 
-# Umfangsspannungen $\Delta T = -100°C$
+## Hinweis: Tensor- vs. Ingenieurschreibweise
 
-![bg 70%](../assets/Figures/FKV/umfangsspannungen_RV_bsp.png)
+Bei **Tensorschreibweise** (Dehnung $\varepsilon = \frac{1}{2}\gamma$) sind die Transformationsmatrizen für Spannungen und Verzerrungen **gleich**.
 
+In der **Ingenieurschreibweise** (Schiebung $\gamma$ als Winkeländerung) unterscheiden sich die Matrizen durch Faktoren $\frac{1}{2}$ und $2$.
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+> **Praxishinweis DMS-Messung:** Ein einzelner DMS unter 45° misst die Hauptdehnung – zur Schiebung $\gamma$ muss mit **Faktor 2** multipliziert werden! Spezielle „tannenbaum"-DMS geben direkt $\gamma$ an.
 
-
 ---
-# Schubspannungen $\Delta T = -100°C$
-
-![bg 70%](../assets/Figures/FKV/schubspannungen_RV_bsp.png)
+<!-- _class: lead -->
+# Transformation der Steifigkeiten und Nachgiebigkeiten
 
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
 ---
-
-# Thermische Zyklierung bei Tiefsttemperaturanwendungen
 
-![bg 70%](../assets/Figures/FKV/matrix_risse_thermisch.png)
+## Herleitung der transformierten Matrizen
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus Lüders, C. "Mehrskalige Betrachtung des
-Ermüdungsverhaltens thermisch zyklierter
-Faserkunststoffverbunde", Dissertation, 2020
-</div>
+**Ziel:** Elastizitätsgesetz der UD-Schicht auf **beliebigen Schnitten** (schräg zu Orthotropieachsen)
 
----
-
-![bg 65%](../assets/Figures/FKV/modellierung%20thermisch_zyk.png)
+**Vorgehen (am Beispiel der Steifigkeitsmatrix):**
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus Lüders, C. "Mehrskalige Betrachtung des
-Ermüdungsverhaltens thermisch zyklierter
-Faserkunststoffverbunde", Dissertation, 2020
-</div>
+1. Elastizitätsgesetz im 1,2-KOS: $\{\sigma\}_{1,2} = [Q]_{1,2} \cdot \{\varepsilon\}_{1,2}$
+2. Spannungstransformation ins x,y-KOS: $\{\sigma\}_{x,y} = [T_\sigma] \cdot \{\sigma\}_{1,2}$
+3. Einsetzen des Elastizitätsgesetzes: $\{\sigma\}_{x,y} = [T_\sigma] \cdot [Q] \cdot \{\varepsilon\}_{1,2}$
+4. Verzerrungen rücktransformieren: $\{\varepsilon\}_{1,2} = [T_\varepsilon]^{-1} \cdot \{\varepsilon\}_{x,y}$
+5. Zusammenfassen:
 
----
+$$[\bar{Q}] = [T_\sigma]_{1,2 \to x,y} \cdot [Q] \cdot [T_\varepsilon]_{x,y \to 1,2}$$
 
-# Homogenisierung
-- Reduktion der Einzekomponenten auf eine Einzelkomponente
-- Reduktion des Modellierungsaufwands
-- Homogenisierungsverfahren unterscheiden sich abhängig vom betrachteten Parameter
-   - Steifigkeit
-   - Wärmedehnungkoeffizienten
-   - Feuchtequellkoeffizienten
-   - Wärmeleitfähigkeitskoeffizienten
-   - Festigkeiten
+Analog: $\quad [\bar{S}] = [T_\varepsilon]_{1,2 \to x,y} \cdot [S] \cdot [T_\sigma]_{x,y \to 1,2}$
 
-
 ---
-
-# Homogenisierung von Steifigkeiten
-- Steifigkeiten von Fasern und Matrix sind extrem unterschiedlich
-- für die BErechnung komplexer Strukturen ist die Berücksichtigung einzelner Fasern zu aufwändig $\rightarrow$ Einzelschicht wird als homogenes Kontinuum modelliert
-- globales Verhalten soll hinreichend genau beschrieben werden
-- Modellierung örtlicher (lokaler) Aspekte wird vernachlässigt, z.B Verwölbung am freien Rand
 
----
-## Allgemeine Regeln
-- E Modul in Faserrichtung $E_L$ und Querkontraktionszahl $\nu_{LT}$: parallel geschaltete Feder 
-$\rightarrow$ Mischungsregel für Steifigkeiten
+## Transformierte Steifigkeitsmatrix $[\bar{Q}]$
 
-- E Modul in Querrichtung $E_T$, Schubmodul $G_{LT}$ und Querkontraktionszahl $\nu_{TT}$: in Reihe geschaltete Feder 
-$\rightarrow$ Mischungsregel für Nachgiebigkeiten
+$$\begin{Bmatrix} \sigma_x \\ \sigma_y \\ \tau_{xy} \end{Bmatrix} = \begin{bmatrix} \bar{Q}_{11} & \bar{Q}_{12} & \bar{Q}_{16} \\ \bar{Q}_{12} & \bar{Q}_{22} & \bar{Q}_{26} \\ \bar{Q}_{16} & \bar{Q}_{26} & \bar{Q}_{66} \end{bmatrix} \cdot \begin{Bmatrix} \varepsilon_x \\ \varepsilon_y \\ \gamma_{xy} \end{Bmatrix}$$
 
+**Wichtig:** Durch die Transformation werden **alle Koeffizienten** $\neq 0$:
 
+$$\bar{Q}_{16} \neq 0, \quad \bar{Q}_{26} \neq 0$$
 
-![bg right 70%](../assets/Figures/FKV/homogenisierung.png)
+→ Außerhalb der Orthotropieachsen zeigt die UD-Schicht **anisotropes Verhalten** mit **Dehnungs-Schiebungs-Kopplung**
 
 ---
-
-Korrektur erforderlich, weil Steifigkeit der Faser unter Belastung in Querrichtung nur zum Teil wirksam ist
-
-![bg right 70%](../assets/Figures/FKV/homogenisierung.png)
 
----
+## Transformierte Steifigkeiten – Formeln
 
-# Formeln für isotrope Fasern
+$$\bar{Q}_{11} = \frac{E_\parallel}{1-\nu_{\perp\parallel}\nu_{\parallel\perp}} \cos^4\alpha + \frac{E_\perp}{1-\nu_{\perp\parallel}\nu_{\parallel\perp}} \sin^4\alpha + 2\left(\frac{\nu_{\perp\parallel} E_\perp}{1-\nu_{\perp\parallel}\nu_{\parallel\perp}} + G_{\perp\parallel}\right) \sin^2 2\alpha$$
 
+$$\bar{Q}_{22} = \frac{E_\parallel}{1-\nu_{\perp\parallel}\nu_{\parallel\perp}} \sin^4\alpha + \frac{E_\perp}{1-\nu_{\perp\parallel}\nu_{\parallel\perp}} \cos^4\alpha + 2\left(\frac{\nu_{\perp\parallel} E_\perp}{1-\nu_{\perp\parallel}\nu_{\parallel\perp}} + G_{\perp\parallel}\right) \sin^2 2\alpha$$
 
-$\begin{array}{ll}
-\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
-E_f & E_m\\
-\nu_f & \nu_m\\
-\text{\textbf{Faservolumengehalt}} &\varphi\\
-\\
-\text{\textbf{E-Modul in Faserrichtung}}\\
-E_L=\varphi E_f+(1-\varphi)E_m & \text{Mischungsregel}\\
-\text{\textbf{Querkontraktionszahl}}\\
-\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m &\text{Mischungsregel}\\
-\text{\textbf{E-Modul in Querrichtung}}\\
-1/E_T\approx \varphi/E_f + (1-\varphi)/E_m &\text{Mischungsregel für Nachgiebigkeit}
-\end{array}
-$
-Korrektur erforderlich; entsprechend auch für $G_{LT} und Qerkontraktionszahl $\nu_{TT}$
+$$\bar{Q}_{66} = G_{\perp\parallel} + \frac{1}{4}\left(\frac{E_\parallel + E_\perp - 2\nu_{\perp\parallel} E_\perp}{1-\nu_{\perp\parallel}\nu_{\parallel\perp}} - 4G_{\perp\parallel}\right) \sin^2 2\alpha$$
 
 ---
-
-# Korrigierte $E_T$ Werte für isotrope Fasern
-Es existieren viele verschiedene Ansätze - keiner mit Anspruch auf Allgemeingültigkeit
-**Beispiele**
-$\begin{array}{ll}
-\text{\textbf{Puck}}    & E_T = \frac{(1+0.85\varphi^2)E_m}{\varphi E_m/E_f+(1-\varphi)^{1.25}}\\
-\text{\textbf{Tsai, Hahn, Wu}} & E_T=\frac{\varphi+0.5(1-\varphi)}{\varphi/E_f+0.5(1-\varphi)/E_m}\\
-\text{\textbf{Geier}} & E_T=\frac{E_fE_m}{\varphi/E_m+(1-\overline{\varphi}E_f)}\qquad\text{mit}\qquad \overline{\varphi}=\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6\\
-\text{\textbf{Chamis}} & E_T=E_m/[1-\sqrt\varphi(1-E_m/E_f)]
-\end{array}
-$
-
 
+## Transformierte Nachgiebigkeiten – Formeln
 
----
+$$\bar{S}_{11} = \frac{\cos^4\alpha}{E_\parallel} + \frac{\sin^4\alpha}{E_\perp} + \left(\frac{1}{G_{\perp\parallel}} - \frac{2\nu_{\perp\parallel}}{E_\parallel}\right) \sin^2 2\alpha$$
 
-# Korrigierte $G_{LT}$ Werte für isotrope Fasern
+$$\bar{S}_{22} = \frac{\sin^4\alpha}{E_\parallel} + \frac{\cos^4\alpha}{E_\perp} + \left(\frac{1}{G_{\perp\parallel}} - \frac{2\nu_{\perp\parallel}}{E_\parallel}\right) \sin^2 2\alpha$$
 
-Ansätz entsprechen dem Vorgehen bei der Bestimmung von $E_T$
+$$\bar{S}_{66} = \frac{\cos^2 2\alpha}{G_{\perp\parallel}} + \left(\frac{1}{E_\parallel} + \frac{1}{E_\perp} + \frac{2\nu_{\perp\parallel}}{E_\parallel}\right) \sin^2 2\alpha$$
 
-**Beispiele**
-$\begin{array}{ll}
-\text{\textbf{Puck}}    & G_{LT} = \frac{(1+0.6\sqrt\varphi)G_m}{\varphi G_m/G_f+(1-\varphi)^{1.25}}\\
-\text{\textbf{Tsai, Hahn, Wu}} & G_{LT}=\frac{\varphi+0.5(1-\varphi)}{\varphi/G_f+0.5(1-\varphi)/G_m}\\
-\text{\textbf{Geier}} & G_{LT}=\frac{G_fG_m}{\varphi/G_m+(1-\overline{\varphi}G_f)}\qquad\text{mit}\qquad \overline{\varphi}?\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6\\
-\text{\textbf{Chamis}} & G_{LT}=G_m/[1-\sqrt\varphi(1-G_m/G_f)]
-\end{array}
-$
 
 ---
 
-# Anwendung der Homogenisierungsformeln
-**Problem der Kennwertbestimmung**
-- nur wenige Faserkennwerte können direkt im Versuch bestimmt werden
-- insbesondere in Querrichtung und unter Schubbelastung lassen sich Einzelfasern kaum testen
-- die Formeln zur Homogenisierung der Steifigkeiten sind für zwei unterschiedliche Aufgaben sinnvoll:
-   - Bestimmung der Faserwerte aus Messungen an UD_Schichten und Reinharzproben (Inverse Anwendung)
-   - Umrechnung der Laminateigenschaften bei geändertem Faservolumenanteil
+## Polardiagramm der Steifigkeiten
 
----
+![bg right fit](./assets/Abb_9_4_Polardiagramm_GFK.png)
 
-# Beispiel zur Anwendung der Homogenisierungsformeln
-E_Glasfasern als UD-Verstärkungen in Epoxidharzmatrix eingebettet
-Messungen am Verbund und am Reinharz durchgeführt
 
-$\begin{array}{ll}
-\text{\textbf{Verbundwerte}}    & \text{\textbf{Reinharzwerte}} \\
-E_L=45GPA & E_m=3.3GPa\\
-E_T=12GPa&\nu_m=0.3\\
-G_{LT}=4.4GPa & G_m=\frac{E_m}{2(1+\nu_m)}=1.27GPa\\
-\nu_{LT}=0.25\\
-\nu_{TT}=0.25\\
-\varphi=0.6
-\end{array}
-$
+**Erkenntnisse aus dem Polardiagramm:**
+- **Symmetrien** zur 0°- und 90°-Richtung → ein Quadrant genügt
+- $\bar{Q}_{11}$ bei 30° = $\bar{Q}_{22}$ bei 60° (Schnittpunkt bei 45°)
+- **Schubsteifigkeit** $\bar{Q}_{66}$ ist unter 45° **maximal**
+- Gut geeignet für **Vergleiche** zwischen Fasertypen und Laminaten
 
 ---
-
-## Inverse Anwendung
-
-$E_L=\varphi E_f+(1-\varphi)E_m$
-
-$E_f=(E_l-(1-\varphi)E_m)/\varphi=72.8GPa$
 
-$\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m$
+## Vergleich GFK vs. CFK
 
-$\nu_{LT}=0.217$$
+![bg right fit](./assets/Abb_9_5_Vergleich_GFK_CFK.png)
 
-da isotrope Faser
-$G_f=\frac{E_f}{2(1+\nu_f)}$
-$G_f=29.91GPa$
 
----
-## Umrechnung der Laminatwerte
+Die hohe Fasersteifigkeit der C-Fasern bewirkt einen **„fülligeren" Kurvenverlauf** – die CFK-Schicht behält auch bei größeren Winkeln eine höhere Steifigkeit.
 
-$\varphi = 0.6 \rightarrow \varphi = 0.5 ?$
 
-mit den bestimmten Werten für die Fasern $E_f$ und $\nu_f$ in den folgenden Gleichungen $\varphi=0.5$ einsetzen
 
-$E_L=\varphi E_f+(1-\varphi)E_m=38GPa$
+# Klassische Laminattheorie des MSV als Scheibenelement
 
-$\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m=0.258$
-
 ---
-## Umrechnung der Laminatwerte
-**In Querrichtung sind Laminatwerte nicht eindeutig**
-
-aus Puck
-$E_T = \frac{(1+0.85\varphi^2)E_m}{\varphi E_m/E_f+(1-\varphi)^{1.25}}$
 
-$E_T = 9.03GPa$
+## Warum die Klassische Laminattheorie?
 
-aus Geier
-$E_T=\frac{E_fE_m}{\varphi/E_m+(1-\overline{\varphi}E_f)}\qquad\text{mit}\qquad \overline{\varphi}=\varphi+\zeta\varphi(1-\varphi);\zeta\approx 0.6$
-$E_T = 8.7GPa$
-
-
----
+- Faserverbund-Konstruktionen werden selten rein einachsig belastet
+- Mehrachsige Belastung erfordert **mehrere Faserorientierungen** → Mehrschichtenverbund (MSV)
+- Die CLT (Classical Laminate Theory) beschreibt das mechanische Verhalten des MSV
 
-## Umrechnung der Laminatwerte
-aus Tsai, Hahn, Wu
-$E_T=\frac{\varphi+0.5(1-\varphi)}{\varphi/E_f+0.5(1-\varphi)/E_m}$
-$E_T=9.08GPa$
+**Zwei Ziele der CLT:**
 
-aus Chamis
-$E_T=E_m/[1-\sqrt\varphi(1-E_m/E_f)]$
-$E_T=10.16GPa$
+1. **Mechanische Charakterisierung** des MSV – Aufbau des Elastizitätsgesetzes aus den Einzelschichten
+2. **Schichtenweise Spannungsanalyse** – Ermittlung der Verzerrungen und Spannungen in jeder Einzelschicht
 
-Mittelwert ist $E_T=9.24GPa$ mit Abweichungen in einer Größenordnung von 10\%
+> Auch als „Kontinuumstheorie" bezeichnet – UD-Schichten werden als homogene Kontinua betrachtet (im Gegensatz zur älteren Netztheorie)
 
 ---
-## Umrechnung der Laminatwerte
-**Schubmodul $G_{LT}$**
+<!-- _class: lead -->
+# Begriffe, Annahmen, Anwendungsgrenzen
 
-aus Puck
-$G_{LT} = 3.35GPa$
 
-aus Geier
-$G_{LT} = 3.31GPa$
+## Modellierung als Scheibenelement
 
-aus Tsai, Hahn, Wu
-$G_{LT}=3.51GPa$
+Der MSV wird – wie die UD-Schicht – als **Scheibenelement** modelliert.
 
-aus Chamis
-$G_{LT}=3.93GPa$
-Mittelwert ist $G_{LT}=3.52GPa$ mit Abweichungen in einer Größenordnung von 10\%
+![w:500](./assets/Abb_10_1_ESZ_Laminat.png)
+*Ebener Spannungszustand an einem Laminat als Scheibenelement mit Mittensymmetrie*
 
 ---
 
+## Annahmen
+- Infinitesimales Element, Einzelschichten **eben und parallel** zur Mittelebene
+- Schichtdicken sind **konstant**
+- **Ebener Spannungszustand**: nur $\hat{n}_x, \hat{n}_y, \hat{n}_{xy}$ – keine Kräfte in Dickenrichtung
+- Schnitt-Kraftflüsse sind **über der Dicke konstant**
+- Der ESZ bewirkt nur **Scheiben-Verzerrungen** $\hat{\varepsilon}_x, \hat{\varepsilon}_y, \hat{\gamma}_{xy}$
+- **Keine Platten-Verwölbungen**: $\hat{\kappa}_x = \hat{\kappa}_y = \hat{\kappa}_{xy} = 0$
+  - Voraussetzung: MSV ist **mittensymmetrisch** geschichtet
+  - Auch erfüllt bei geometrieerzwungener Symmetrie (z.B. Rohre)
+- **Querschnitte bleiben eben** → Verzerrungen über der Dicke konstant
 
-# Formeln für transversal-isotrope Fasern
+> **Kennzeichnung:** Alle MSV-Größen werden mit $\hat{}$ ("Dach") markiert
 
-
-$\begin{array}{ll}
-\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
-E_{Lf} & E_m\\
-\nu_{LTf} & \nu_m\\
-G_{LTf}\\
-E_{Lf}\\
-G_{TTf}\\
-\text{\textbf{Faservolumengehalt}} &\varphi\\
-\text{\textbf{Formeln}}\\
-E_L=\varphi E_f+(1-\varphi)E_m & \text{Mischungsregel}\\
-\nu_{LT}=\varphi \nu_f+(1-\varphi)\nu_m &\text{Mischungsregel}\\
-E_T=E_M/\left[1-\sqrt\varphi(1-E_m/E_{Tf})\right]&\text{Chamis}\\
-G_{LT}=G_m/\left[1-\sqrt\varphi(1-G_m/G_{LTf})\right]&\text{Chamis}\\
-G_{TT}=G_m/\left[1-\sqrt\varphi(1-G_m/G_{TTf})\right]&\text{Chamis}\\
-\nu_{TT=\frac{E_T}{2G_{TT}}-1}&\text{Chamis}
-\end{array}
-$
-
 ---
-# Berücksichtung von Faserondulation
-
-- repräsentatives Element mit FEM zu berechnen
-- Modelle können enorm komplex sein
-- Gewebe können so abgebildet werden
-
-
-![bg 22%](../assets/Figures/FKV/gewebe_FEM.png)
 
+## Gültigkeitsvoraussetzungen
 
-![bg right 80%](../assets/Figures/FKV/mikroskop_gewebe.png)
+**Voraussetzungen für die Gültigkeit:**
 
-![bg vertical fit](../assets/Figures/FKV/ondulation_RVE.png)
+- Verformungen bleiben **klein**
+- Einzelschichten sind **ideal verklebt** – keine Relativverschiebungen
+- Werkstoffe verhalten sich **linear-elastisch**
 
+**Anwendungsgrenzen:**
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild 1+2 entmommen aus Lin, H; et al. "A finite element approach to the modelling of fabric mechanics and its application to virtual fabric design and testing", 10.1080/00405000.2012.660755
-    Bild 3 aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+- Keine Aussage in der Umgebung von **Rissen, Lufteinschlüssen** etc.
+- An **Bauteilrändern** kein gleichförmiger Spannungszustand
+  - Unterschiedliche Querkontraktionen → **interlaminare Spannungen**
+  - CLT gilt nur für **ungestörte Bereiche**
 
-
 ---
-
-![bg 70%](../assets/Figures/FKV/ondulation_ergebnisse.png)
 
+# Elastizitätsgesetz des MSV
 
----
-# Homogenisierung von Wärmeausdehnungskoeffizienten
-## Ziel
-- Wärmeausdehnungskoeffizienten von Faser und Matrix können sehr unterschiedlich sein (C-Faser in Kunstharzmatrix)
-- für die Berechnung komplexer Strukturen ist die Berücksichtigung dieses Unterschiedes viel zu aufwändig
-    Die Einelschicht muss als Kontinuum mit einheitlichem Wärmeausdehnungskoeffizienten modelliert werden
-- Kombination der Faser- und Matrixwerte deart, dass das globale Verhalten des Verbundes hinreichend genau beschrieben wird
-- örtliche (lokale) Betrachtung wird vernachlässigt
 
----
-# Homogenisierung für thermisch transversalisotrope Fasern
+## Äußere Belastung – Kraftflüsse
 
+Auf das MSV-Scheibenelement wirken ebene Schnittkräfte $\{\hat{N}\}$.
 
-$\begin{array}{ll}
-\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
-E_{Lf} & E_m\\
-\nu_{LTf} & \nu_m\\
-\alpha_{Lf} & \alpha_m\\
-\alpha_{Tf} & \\
-\text{\textbf{Faservolumengehalt}} &\varphi\\
-\text{\textbf{Formeln}}\\
-\alpha_L = \frac{\varphi E_{Lf}\alpha_{Lf}+(1-\varphi)E_m\alpha_m}{\varphi E_{Lf}+(1-\varphi)E_m}\\
-\alpha_T = \overline{\varphi}\alpha_{Tf}+(1-\overline{\varphi})\alpha_m-(\alpha_m-\alpha_{Lf})\frac{\overline{\varphi}(1-\varphi)\nu_{LTf}E_m+\varphi(1-\overline{\varphi})\nu_mE_{Lf}}{\varphi E_{Lf}+(1-\varphi)E_m}\\
-\text{mit}\qquad \overline{\varphi}=\varphi + \zeta\varphi(1-\varphi); \zeta\approx 0.6
-\end{array}
-$
+Bezogen auf die Laminatbreite $b$ ergeben sich die **Kraftflüsse**:
 
----
+$$\{\hat{n}\} = \frac{1}{b} \cdot \{\hat{N}\}$$
 
-# Bestimmung des Wärmeausdehnungskoeffizienten (CTE) von Fasern
-- direkte Messung an Faserbündeln
-- Rückrechnung aus Messungen an Verbunden
-- Untersuchungen an Einzelfasern
-    - mit Raser-Elektronenmikroskop (SME)
-    - mit Tansmissions-Elektronenmikroskopie (TME)
+mit $\{\hat{n}\} = \{n_x, n_y, n_{xy}\}^T$ und $\{\hat{N}\} = \{\hat{N}_x, \hat{N}_y, \hat{N}_{xy}\}^T$
 
----
+**Zusammenhang mit Spannungen:**
 
-# Homogenisierung von Feuchtequellkoeffizienten
-## Ziel
-- Feuchtequellkoeffizienten von Faser und Matrix sind meist sehr unterschiedlich
-- häufig nimmt die Matrix die Feuchte aus der Umgebung auf und quillt dabei
-- viele Verstärkungsfasern nehmen keine Feuchte auf (Ausnahme: Aramid, Biofasern)
-- für die Berechnung der Feuchtequellung in komplexen Strukturen ist die Berücksichtigung der Unterschiede viel zu aufwändig
-- die Einzelschicht soll das globale Verhalten unter Nutzung einer einheitlichen Feuchtequellzahl beschreiben
-- örtliche (lokale) Effekte werden vernachlässigt
+$$\hat{n}_x = \hat{\sigma}_x \cdot t \qquad \hat{n}_y = \hat{\sigma}_y \cdot t \qquad \hat{n}_{xy} = \hat{\tau}_{xy} \cdot t$$
 
 ---
-
 
-# Homogenisierung der Feuchtequellkoeffizienten für Fasern transversalisotroper Quellung
+## Kräfteäquivalenz am MSV
 
+![bg right fit](./assets/Abb_10_2_Kraefteaequivalenz.png)
 
-$\begin{array}{ll}
-\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
-E_{Lf} & E_m\\
-\nu_{LTf} & \nu_m\\
-\rho_{f} & \rho_m\\
-\beta_{Tf} &\beta_m\\
-\beta_{Tf}\\
-\Delta c_f \text{ Änderung der rel. Feuchte} & \Delta c_m\\
-\text{Quellung: }\varepsilon = \Delta c \beta\\
-\text{\textbf{Faservolumengehalt}} &\varphi\\
-\end{array}
-$
+$$\hat{n}_x = \hat{\sigma}_x \cdot t = \sum_{k=1}^{n} \sigma_{xk} \cdot t_k \qquad \hat{n}_y = \hat{\sigma}_y \cdot t = \sum_{k=1}^{n} \sigma_{yk} \cdot t_k$$
 
----
+$$\hat{n}_{xy} = \hat{\tau}_{xy} \cdot t = \sum_{k=1}^{n} \sigma_{xyk} \cdot t_k$$
 
-# Homogenisierung der Feuchtequellkoeffizienten für Fasern transversalisotroper Quellung
+In Matrixform: $\quad \{\hat{n}\} = \sum_{k=1}^{n} \{\sigma_k\} \cdot t_k$
 
+> Das Problem ist **statisch unbestimmt** – der Traganteil jeder Schicht folgt aus ihrer Steifigkeit und Dicke
 
-$\begin{array}{ll}
-\Delta c=\frac{\varphi\rho_f \Delta c_f+(1-\varphi)\rho_m \Delta c_m}{\varphi\rho_f+(1-\varphi)\rho_m}\\
-\beta_L = \frac{1}{\Delta c}\frac{\varphi E_{Lf}\Delta c_f \beta_{Lf}+(1-\varphi)E_m\Delta c_m\beta_m}{\varphi E_{Lf}+(1-\varphi)E_m}\\
-\beta_T = \frac{1}{\Delta c}\left[\overline{\varphi}\Delta c_f \beta_{Lf}+(1-\overline{\varphi})\Delta c_m \beta_{m} - (c_m \beta_{m}-\Delta c_f \beta_{Lf})\frac{\overline{\varphi}(1-\varphi)\nu_{LTf}E_m+\varphi(1-\overline{\varphi})\nu_mE_{Lf}}{\varphi E_{Lf}+(1-\varphi)E_m}\right]
-\\
-\text{mit}\qquad \overline{\varphi}=\varphi + \zeta\varphi(1-\varphi); \zeta\approx 0.6 
-\end{array}
-$
-
 ---
-# Homogenisierung von Wärmleitfähigkeitskoeffizienten
 
+## Kompatibilitätsbedingung (Verbundbedingung)
 
+Alle Schichten haften **ideal aufeinander** → gleiche Verzerrungen in allen Schichten.
 
-- Wärmleitfähigkeitskoeffizienten von Faser und Matrix sind zum Teil sehr unterschiedlich
-    - Polymere im Allgemeinen gering
-    - Glas-, und Aramidfasern gering
-    - Kohlenstofffasern +- hoch in Faserrichtung- gering in Querrichtung
-- für die Berechnung der Wärmeleitung in komplexen Strukturen ist die Berücksichtigung der Unterschiede viel zu aufwändig
-- die Einzelschicht soll das globale Verhalten unter Nutzung einer einheitlichen Wärmeleitung beschreiben
-- örtliche (lokale) Effekte werden vernachlässigt
-- **Lufteinschlüsse** haben einen Effekt
+$$\varepsilon_{xk} = \hat{\varepsilon}_x \qquad \varepsilon_{yk} = \hat{\varepsilon}_y \qquad \gamma_{xyk} = \hat{\gamma}_{xy}$$
 
----
+für alle Schichten $k = 1$ bis $n$.
 
+> Dies entspricht einer **Parallelschaltung von Federn** – die Verzerrungen sind gleich, die Kräfte addieren sich.
 
+---
 
+## Herleitung des Elastizitätsgesetzes
 
-$\begin{array}{ll}
-\text{\textbf{Faserwerte}}    & \text{\textbf{Matrixwerte}}\\
-k_{Lf} & k_m\\
-k_{Tf} & \\
-\text{\textbf{Faservolumengehalt}} &\varphi\\
-\end{array}
-$
-Wärmeleitung in der UD-Schicht in Faserrichtung
-$k_l=\varphi k_{Lf}+(1-\varphi)k_m$
-senkrecht zur Faserrichtung gibt es viele Näherungsformeln
-$k_l=\varphi k_{Lf}+(1-\varphi)k_m$
-$k_l=\varphi k_{Lf}+(1-\varphi)k_m$
+**Vorgehen:**
+1. Schichtspannungen $\{\sigma_k\}$ durch Elastizitätsgesetz ersetzen: $\{\sigma_k\} = [\bar{Q}]_k \cdot \{\varepsilon_k\}$
+2. Kompatibilitätsbedingung nutzen: $\{\varepsilon_k\} = \{\hat{\varepsilon}\}$
+3. Verzerrungen vor das Summenzeichen ziehen
 
-$\begin{array}{ll}
-\text{\textbf{Lord Rayleigh (1882)}}   & k_t=k_m\left[1-2\frac{\varphi}{\nu'+\varphi+3\varphi^4S_4^2/(\nu'\pi^4)}\right]\\
-&\nu'=(1+k_{Tf})/(1-k_{Tf}/k_m)\\
-& s_4=0.0323502\pi^4\\
-\text{\textbf{Selbskonsistentes Modell}} & k_t=k_m[k_{Tf}(1+\varphi)+k_m(1-\varphi)]/[k_{Tf}(1-\varphi)+k_m(1+\varphi)]\\
-\end{array}
-$
+**Voraussetzung:** Alle Schichtsteifigkeiten müssen im **gleichen Koordinatensystem** (x,y-Laminat-KOS) vorliegen → vorherige **Polartransformation** $[Q]_k \rightarrow [\bar{Q}]_k$ (Teil I!)
 
+> Mechanisch: **Parallelschaltung der Scheiben-Steifigkeiten** (analog zu Dehnsteifigkeiten $(E \cdot A)_k$ beim Stab)
 
 ---
-![bg 80%](../assets/Figures/FKV/waermeleitfaehigkeit_quadratisch.png)
 
+## Scheiben-Steifigkeitsmatrix [A]
 
+$$\begin{Bmatrix} \hat{n}_x \\ \hat{n}_y \\ \hat{n}_{xy} \end{Bmatrix} = \begin{bmatrix} \sum \bar{Q}_{11k} t_k & \sum \bar{Q}_{12k} t_k & \sum \bar{Q}_{16k} t_k \\ \sum \bar{Q}_{12k} t_k & \sum \bar{Q}_{22k} t_k & \sum \bar{Q}_{26k} t_k \\ \sum \bar{Q}_{16k} t_k & \sum \bar{Q}_{26k} t_k & \sum \bar{Q}_{66k} t_k \end{bmatrix} \cdot \begin{Bmatrix} \hat{\varepsilon}_x \\ \hat{\varepsilon}_y \\ \hat{\gamma}_{xy} \end{Bmatrix}$$
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+In Kurzform: $\quad \{\hat{n}\} = [A] \cdot \{\hat{\varepsilon}\}$
 
----
+mit den Koeffizienten:
 
-![bg 80%](../assets/Figures/FKV/waermeleitfaehigkeit_hexagonal.png)
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+$$A_{ij} = \sum_{k=1}^{n} \bar{Q}_{ijk} \cdot t_k$$
 
 ---
-# Messungen der Wärmeleitfähigkeiten von Faserverbunden - Transient Hot-Strip Verfahren
-
-![bg 50%](../assets/Figures/FKV/Messung_Waermeleitfaehigkeit.png)
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+## Übergang zu Spannungen
 
----
+Durch Division durch die Laminatdicke $t$:
 
+$$\begin{Bmatrix} \hat{\sigma}_x \\ \hat{\sigma}_y \\ \hat{\tau}_{xy} \end{Bmatrix} = \frac{1}{t} \begin{bmatrix} A_{11} & A_{12} & A_{16} \\ A_{12} & A_{22} & A_{26} \\ A_{16} & A_{26} & A_{66} \end{bmatrix} \cdot \begin{Bmatrix} \hat{\varepsilon}_x \\ \hat{\varepsilon}_y \\ \hat{\gamma}_{xy} \end{Bmatrix}$$
 
+mit: $\quad A_{ij} = \sum_{k=1}^{n} \bar{Q}_{ijk} \cdot \frac{t_k}{t}$
 
-![bg 75%](../assets/Figures/FKV/Vergleich_messung_homogenisierung_Waermeleitfaehigkeit.png)
+wobei $\frac{t_k}{t}$ die **relative Schichtdicke** der Schicht $k$ ist.
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
-----
+---
 
-# Homogenisierung von Festigkeiten
-- Faserfestigkeiten kaum direkt messbar
-- Messbar
-    - Zug- und Druckfestigkeiten in Faserrichtung 
-    - Festigkeiten in Gewebe-Verbunden
+# Schichtenweise Spannungs- und Verformungsanalyse
 
+## Analyseschritte
 
+**Schritt 1 – Laminatverzerrungen berechnen:**
 
-![bg vertical fit](../assets/Figures/FKV/Faserkerben.png)
+$$\{\hat{\varepsilon}\} = [A]^{-1} \cdot \{\hat{n}\}$$
 
-![bg right 90%](../assets/Figures/FKV/Faserfestigkeit_glas.png)
+mit $[A]^{-1}$ = Nachgiebigkeitsmatrix (invertierte Steifigkeitsmatrix)
 
+**Schritt 2 – Transformation in Schicht-Koordinaten:**
 
+$$\{\varepsilon\}_k = [T]_{(x,y) \rightarrow (1,2)} \cdot \{\hat{\varepsilon}\}$$
 
+**Schritt 3 – Schichtspannungen berechnen:**
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bilder aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
-</div>
+$$\{\sigma\}_k = [Q]_k \cdot \{\varepsilon\}_k$$
 
 ---
 
+## Verzerrungen, Steifigkeiten und Spannungen über der Dicke
 
-# Homogenisierung von Festigkeiten
+![w:800](./assets/Abb_10_3_Verteilung_Dicke.png)
+*Verzerrungen, Steifigkeiten und Spannungen über der Laminatdicke*
 
+**Beim Scheibenelement:**
 
-- Erkenntnisse
-    - Abschätzung der Festigkeiten bei geändertem Faservolumengehalt
-    - besseres Verstehen des Verbundversagens
-    - sinnbolle Auslegung von Fasern und Matrix
+- **Verzerrungen** sind in allen Schichten **gleich** (Kompatibilität)
+- **Steifigkeiten** variieren je nach Faserorientierung
+- **Spannungen** = Steifigkeit × Verzerrung → **Spannungssprünge** zwischen Schichten
 
-![bg vertical fit](../assets/Figures/FKV/Faserkerben.png)
-
-![bg right 90%](../assets/Figures/FKV/Faserfestigkeit_glas.png)
-
-
-
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bilder aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
-</div>
-
 ---
 
-# Zugfestigkeit von UD-Verbunden
-**Annahmen:**
-Lineare Elastizität von Fasern und Matrix bis zum Bruch
-Gleiche Festigkeit aller Fasern, kosntant über die gesamte Länge
+![w:800](./assets/Abb_10_3_Verteilung_Dicke.png)
+*Verzerrungen, Steifigkeiten und Spannungen über der Laminatdicke*
 
-**Festigkeiten unter Zugbeanspruchung (t) in Faserrichtung**
-$\begin{array}{lll}
-& \text{Fasern} &\text{Matrix}\\
-\text{Bruchdehnungen}    &  \varepsilon_{ft} & \varepsilon_{mt}\\
-\text{Bruchspannungen} 
- &  \sigma_{ft} & \sigma_{mt}\\
-\end{array}
-$
-Übliche Auslegung : $\varepsilon_{mt}>\varepsilon_{ft}$
-Faserkontrolliertes Versagen bedeutet: $\varepsilon_{t}=\varepsilon_{ft}$
-Bei Faserbruch: 
-Matrixdehnung = Bruchdehnung der Faser $\varepsilon_{ft}$
-Matrixsapnnung = $\sigma_m(\varepsilon_{ft})$
+> Die Spannungssprünge bedeuten **keine Schubspannungen** zwischen den Schichten – sie resultieren aus dem Ebenbleiben des Querschnitts.
 
 ---
-## Bruchspannung des Verbundes nach Mischungsregel
-$$\sigma_t=\sigma_{ft}\varphi+\sigma_m(\varepsilon_{ft})(1-\varphi)$$
-Der Verbund versagt natürlich nur dann, wenn auch die Bruchspannung der Matrix überschritten ist
-$$\sigma_t\geq\sigma_{mt}(1-\varphi)$$
-Sonst trägt die Matrix trotz der gerissenen Fasern.
-Nur bei sehr kleinen Faservolumengehalten möglich.
 
----
-# Zugfestigkeiten von UD-Verbunden
-![bg 50%](../assets/Figures/FKV/Zugfestigkeit_vs_phi.png)
+## Flussdiagramm der CLT-Analyse
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
+**Ablauf:**
+1. $Q_{ijk}$ aus Grundgrößen → Polartransformation $[Q]_k \rightarrow [\bar{Q}]_k$
+2. Überlagerungsgesetz: $A_{ij} = \sum \bar{Q}_{ijk} \cdot t_k$
+3. Inversion: $\{\hat{\varepsilon}\} = [A]^{-1}\{\hat{n}\}$
+4. Transformation in Schicht-KOS: $\{\varepsilon\}_k = [T]\{\hat{\varepsilon}\}$
+5. Schichtspannungen: $\{\sigma\}_k = [Q]_k\{\varepsilon\}_k$
 
----
-## Kritik an der Mischungsregel
-- in einem Laminat ist die Zugfestigkeit von Faser zu Faser veschieden
-- über die Faserlänge ist die Zugfestigkeit nicht konstant; lange Fasern haben eine geringere Festigkeit als kurze
-- diese Tatsachen werden in der Mischungsregel nicht berücksichtigt
-- aus diesem Grund wurden verbesserte Versagenshypothesen aufgestellt
+→ anschließend: **schichtenweise Festigkeitsanalyse**
 
 ---
-
-# Versagenshypothese "Weakest Link Failure"
-
-- berücksichtig eine statistische Verteilung der Faserfestigkeiten, abhängig von der Faserlänge $L$
-
-Weibull-Verteilung $f(\sigma_t)=L\alpha\beta\sigma_t^{\beta-1}e^{-L\alpha\sigma_t^{\beta}}$
-$\alpha$, $\beta$: Parameter zur Anpassung der Versuchsergebnisse
 
-**Hypothese: Bruch der schwächsten Faser führt zum Versagen**
-- Bruchspannung der schwächsten Fasern:
-$$\sigma_{tw}=\left(\frac{\beta-1}{NL\alpha\beta}\right)$$
-$N$ - Anzahl der Fasern im Verbund
+# Ingenieurskonstanten des MSV
 
----
+## Moduln und Querkontraktionszahlen
 
-## Kritik an der "Weakest Link Failure" Hypothese
-- Realistische Versagensspannungen ergeben sich nur bei einer geringen Anzahl von Fasern und einer geringen Streubreite
-- für praktisch relevante Faserverbunde werden zu geringe Festigkeiten prognostiziert
+Die **Ingenieurskonstanten** beschreiben das Laminat bei einachsiger Belastung.
 
---- 
+**Elastizitätsmodul in x-Richtung** (bei $\hat{n}_y = \hat{n}_{xy} = 0$):
 
-# Versagenshypothese "Cumulative Weakening Failure"
+$$\hat{E}_x = \frac{1}{(A^{-1})_{11} \cdot t}$$
 
-Bruch einer Faser beansprucht die Matrix in der Umgebung der Bruchstelle durch hohe Störspannungen $\rightarrow$ werden berücksichtigt
+**Weitere Konstanten:**
 
-Annahmen:
-- linear elastische Fasern, Faserdurchmesser $d_f$
-- ideal plastische Matrix, Fließspannung $\tau_{mt}$
-- Länge des Strörbereichs: $\delta=\frac{\sigma_{ft}}{4\tau_{mt}}d_f$
-- Berücksichtigt werden
-    - dieVersagenswahrscheinlichkeit einer Faser der Länge $\delta$
-    - eine statistische Verteilung der Faserfestigkeiten
-- Verbundfestigkeit $\sigma_t^*=(\alpha\delta\beta e)^{-1/\beta}$
+$$\hat{E}_y = \frac{1}{(A^{-1})_{22} \cdot t} \qquad \hat{G}_{xy} = \frac{1}{(A^{-1})_{66} \cdot t}$$
 
----
+$$\hat{\nu}_{xy} = -\frac{(A^{-1})_{12}}{(A^{-1})_{22}} \qquad \hat{\nu}_{yx} = -\frac{(A^{-1})_{12}}{(A^{-1})_{11}}$$
 
-## Kritik
-- die Störungen infolge einer gebrochenen Faser wirkt sich nicht nur auf die umgebenene Matrix aus, sondern auch auf die angrenzenden Fasern
-- Spannungserhöhungen in den Nachbarfasern bleiben unberücksichtigt
+> **Achtung:** Es handelt sich um Moduln **ohne Querkontraktionsbehinderung** (vgl. Unterschied $E_x$ vs. $\bar{Q}_{11}$ aus Teil I, Abb. 9.6)
 
 ---
 
-# Versagenshypothese "Fiber Break Propagation Failure"
-- die Lastverteilung von der gebrochenen auf die benachbarte Fasern erhöht die Wahrscheinlichtkeit, dass diese ebenfalls versagen
+## Praktische Hinweise zur CLT-Anwendung
 
-![bg right 80%](../assets/Figures/FKV/Spannungsverteilung_gebrochene_faser.png)
+- **Zusammenfassung** von Schichten gleicher Faserorientierung ist beim Scheibenelement erlaubt (nicht beim Plattenelement!)
 
----
-**Hypothese**: Das erste Auftreten von Brüchen in den Nachbarfasern definiert die Festigkeitsgrenze
+- **Nichtlinearität** bei FKV:
+  - $E_\parallel$ kann bis zum Bruch als konstant angesetzt werden
+  - $E_\perp$ ebenfalls näherungsweise konstant
+  - $G_{\perp\parallel}$ sollte oberhalb 25% der Bruchspannung **nichtlinear** berücksichtigt werden → Iteration nötig
+  - Erste Abschätzung: $G_{\perp\parallel}$ auf die Hälfte reduzieren
 
-## Kritik
-- ist brauchbar für kleine Teststücke, liefert aber zu gerninge Festigkeiten für große Bauteile
-
----
-# Versagenshypothese "Cumulative Group Mode FAilure"
-- Ungeliehcmäßigkeotem der Faserfestgkeiten führt zu räumlich verteilten Faserbrüchen, die schon weit vor dem entgültigen Versagen auftreten
-- Spannungskonzentrationen in den Nachbarfasern wird bei diesen zu früherem Versagen führen
-- Höhere Schubbeanspruchung von Matrix und Interface in der Nähe der Faserbrüche kann zu Längsrissen führen, die den Versagensfortschritt senkrecht zur Faser aufhalten
-- so können sich Gruppen von gerissenen Fasern bilden
+- Bei nichtlinearer Analyse: **Faserwinkel ändern sich unter Belastung**
 
 ---
 
-## Kritik
-- Das Modell ist kompliziert, weil jede Gruppe unterschiedlich viele gerissene Fasern enthalten kann
-- die Kennwerte sind schwer zu beschaffen
-- für praktische Anwendungen zu aufwändig
+## Designprozess einer FKV-Struktur
 
----
-# Druckfestigkeiten von UD-Verbunden
-- nur wenige Ansätze zu Bestimmung der Druckfestigkeiten von UD-Verbunden in Faserrichtung auf Basis der Mikromechanik
-- Wesentlicher Aspekt ist die Stabilität der Faser
-- bei geringem Faservolumengehalt symmetrische Stauchungsform 
-![](../assets/Figures/FKV/symm_stauch.png)
-- Festigkeitsfrenze als Knicklast der gebetten Fasern $\sigma_c=2\varphi\sqrt{\frac{\varphi E_m E_f}{3(1-\varphi)}}$
+**Iterativer Ablauf:**
 
----
-- bei höherem Fasernvolumengehalt ($\varphi>0.2$) 
-    Antisymmetrische Schubformen
-![](../assets/Figures/FKV/antisym_schubform.png)
-- für ideal elastische Matrix und isotrope Fasern
-$\sigma_c=\frac{G_m}{1-\varphi}$
-Verbesserung mit 3D Einfluss
-$\sigma_c=\frac{(1+\varphi)G_m}{1-\varphi}$
+1. **Entwurf** – Geometrie und grober Laminataufbau (Erfahrung / Netztheorie)
+2. **Schnittkräfte** – Handrechnung oder FE-Analyse
+3. **Feindimensionierung mittels CLT** – inkl. thermischer Eigenspannungen
+4. **Festigkeitsanalyse** – Bewertung der Schichtspannungen (Versagenskriterien)
+5. **Optimierung** – Iteration des Laminataufbaus
 
-nach Rosen und Hashin
+> FE-Programme nutzen oft eigene Composite-Elementtypen mit direkter Eingabe der Einzelschicht-Elastizitätsgrößen
 
 ---
-
-Für anisotrope Fasern
 
-$\sigma_c=\frac{G_m}{1-\varphi(1-G_m/G_{LTf})}$
+## Optimierungsziele
 
-![bg right 70%](../assets/Figures/FKV/Druckfestigkeit_UDVerbund.png)
-Bei höherem Faservolumengehalt wird die Matrix sich nicht mehr elastisch verformen
+**Leichtbau-Optimierung (häufigste Zielsetzung):**
+- Möglichst gleich hohe **Werkstoffausnutzung** in allen Schichten
+- Bewertung über die **Anstrengung** (Kap. 17)
 
-Annahme: ideal plastische Matrix mit Fließspannung $\tau_{mt}$ und Sekantenmodul $E_m$
+**Weitere Ziele:**
+- **Robustes Design** – kontrollierte Versagensreihenfolge (Fail-Safe)
+- **Kostenminimierung**
+- **Schlagbeanspruchung** – günstiges Verhalten
 
-$\sigma_c=\sqrt{\frac{\varphi\tau_{mt}E_m}{3(1-\varphi)}}$
-
 ---
 
-Alternative Ansätze bspw. 
-"Longitudinal Compressive Strength of Continuous fiber Composites" C.K.H. Dharan and Chun-Liang Lin doi: 10.1177/002199830606807
+## Steuerung der Lastverteilung
 
-$\sigma_c = \frac{G_m}{1-\varphi+2(h_i/h_f)(G_m/G_i)\varphi}$
+**Konstruktive Variablen:**
+- Faserwinkel → beeinflusst $\bar{Q}_{ij}$
+- Schichtdicke $t_k$
+- Beide steuern die **Schichtsteifigkeit** $\bar{Q}_{ijk} \cdot t_k$
 
-![bg right fit](../assets/Figures/FKV/bild_dharam.png)
+**Prinzip:** Aufgrund der Parallelschaltung zieht die **steifste Schicht** die höchsten Spannungen auf sich → **steifigkeitsgesteuerte Lastverteilung**
 
----
-# Kritik an Formeln zur Druckfestigkeit
-- Faserondulation nicht erfasst
-- 2-3° sind typisch und reduzieren die Druckgestigkeit erheblich
-- Einfluss der Faserdicke nicht erfasst
-    dickere Fasern sind besser ausgerichtet und haben eine höhere Druckfestigkeit
+**Entlastung einer bruchgefährdeten Schicht:**
+- Schichtdicke $t_k$ **verkleinern** → Steifigkeit sinkt
+- Nachbarschichten **verdicken** → Spannungsumverteilung
+- → Spannungen werden von der kritischen Schicht **weg verlagert**
 
+---
 
 
+## Viele Dank für die Aufmerksamkeit

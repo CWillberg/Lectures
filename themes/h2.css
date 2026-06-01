@@ -2,8 +2,6 @@
 
 @import "default";
 
-@import "default";
-
 :root {
   /* Colors used in the presentation */
   --main-color: #001158;
@@ -35,10 +33,10 @@ header {
 
 section {
   font-family: Frutiger;
-  background-image: url("../assets/styles/background.png");
+  background-image: url("../../assets/styles/background.png");
 }
 section.title-slide {
-  background-image: url("../assets/styles/background.png");
+  background-image: url("../../assets/styles/background.png");
   color: var(--title-slide-text-color);
 }
 

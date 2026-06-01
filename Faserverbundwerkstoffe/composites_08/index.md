@@ -6,6 +6,8 @@ paginate: true
 math: katex
 ---
 
+
+
 <!-- _class: lead -->
 
 # Mikromechanik von Langfaserverbunden
@@ -18,9 +20,11 @@ Hochschule Magdeburg-Stendal
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
+Schürmmann integrieren S. 185
+
 ---
 
-<!-- _class: lead -->
+
 
 # Annahmen für die Berechnung
 

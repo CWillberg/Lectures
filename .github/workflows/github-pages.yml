@@ -114,6 +114,7 @@ jobs:
           - Faserverbundwerkstoffe/composites_07
           - Faserverbundwerkstoffe/composites_08
           - Faserverbundwerkstoffe/composites_09
+          - Faserverbundwerkstoffe/composites_10
           - Berufsschule
           - gju_01
           - gju_mech
