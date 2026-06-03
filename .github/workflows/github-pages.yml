@@ -62,6 +62,7 @@ jobs:
           - wst2_mb_w5_DOE
           - wst2_mb_w5_DOE_Seminar
           - wst2_mb_w6_Seminar_Normen
+          - wst2_mb_w7_Ermuedung_und_Rissbildung
           - wst_mb_01
           - wst_mb_02
           - wst_mb_03

@@ -328,6 +328,8 @@ $$\varepsilon_{th} = \alpha \cdot \Delta T$$
 - **Quergleitung:** bei hoher Temperatur erleichtert → Versetzungen umgehen Hindernisse
 - **Erholung:** Versetzungsannihilation → Werkstoff **entfestigt** zwischen den Zyklen
 
+---
+
 **Folgen für PSB-Bildung:**
 - Erholung konkurriert mit Versetzungsakkumulation
 - PSB bilden sich möglicherweise nicht wie bei isothermer HCF
@@ -369,12 +371,16 @@ $$\varepsilon_{th} = \alpha \cdot \Delta T$$
 
 ---
 
-## Thermische Ermüdung – Typische Anwendungen
+## Typische Anwendungen
 
 **Turbinenschaufeln** (Gasturbinen, Triebwerke):
 - Start/Stopp-Zyklen + Heißbereichs-Temperaturgradienten
 - Kühlbohrungen als Spannungskonzentratoren
 - WDS-Delamination löst Oberflächenrissbildung aus
+
+![bg right fit](https://turbineblade.net/wp-content/uploads/2024/12/Hot-corrosion-fatigue-failure-of-turbine-blades.png)
+
+---
 
 **Bremsscheiben:**
 - Jeder Bremsvorgang = ein Thermozyklus
@@ -410,15 +416,10 @@ $$\varepsilon_{th} = \alpha \cdot \Delta T$$
 - Rissinitiierung oft **intergranular** und an **Oberflächen/Beschichtungsgrenzflächen**
 - **Rissnetzwerke (Crazing)** typisch — nicht ein einzelner wachsender Riss
 
-**Konstruktive Gegenmaßnahmen:**
-- $\Delta T$ und Temperaturgradienten minimieren
-- Werkstoffe mit niedrigem $\alpha$ oder hoher $E \cdot \alpha$-Toleranz
-- Wärmedämmschichten (WDS) zur Reduzierung der Substrattemperaturschwankung
-- Scharfe geometrische Übergänge in thermisch belasteten Bauteilen vermeiden
 
 ---
 
-## Ermüdungsrissausbreitung – Überblick
+## Ermüdungsrissausbreitung
 
 **Perspektivwechsel:**
 - HCF & thermische Ermüdung: Fokus auf **Rissinitiierung**
@@ -448,13 +449,14 @@ $$\varepsilon_{th} = \alpha \cdot \Delta T$$
 - $K_{max} \rightarrow K_{Ic}$: Wachstumsrate steigt steil an
 - Restbruch steht unmittelbar bevor
 
+---
+
 ![w:800](./assets/crackgrowth.png)
 > Ermüdungsrisswachstum: (a) zyklische Belastung mit $K_\text{min}$, $K_\text{max}$; (b) Risswachstumsrate vs. $\Delta K$
 
 ---
 <!-- _class: lead -->
-# Teil II
-# Lineare Bruchmechanik
+# Teil II  Lineare Bruchmechanik
 
 ---
 
@@ -497,46 +499,21 @@ Aus kontinuumsmechanischer Sicht ist ein Riss ein **Schnitt in einem Körper**:
 Diese Symmetrien sind **lokal** an der Rissspitze definiert.
 In Sonderfällen gelten sie für den gesamten Körper.
 
+---
+| Modus | Beschreibung |
+|------|-------------|
+| **Modus I** | Symmetrische Öffnung | Normal zur Rissebene (y-Richtung) |
+| **Modus II** | Antisymmetrisches Gleiten | 
+| **Modus III** | Reißen / Querschub | 
+
 ![bg right fit](./assets/Bruchmoden.png)
 
 ---
 
-## Prozesszone und Gültigkeit der LEBM
-
-**Prozesszone:** Bereich nahe der Rissfront, in dem der komplexe mikroskopische Trennprozess abläuft — nicht durch klassische Kontinuumsmechanik beschreibbar.
-
-**Voraussetzung für LEBM:** Größe der Prozesszone $\ll$ alle charakteristischen makroskopischen Abmessungen.
-
-Typisch für metallische und die meisten spröden Werkstoffe.
-
-**Ausnahmen:** Beton und granulare Materialien — Prozesszone kann sehr groß werden.
-
-In der **linear-elastischen Bruchmechanik (LEBM):**
-- Gesamter Körper wird als linear-elastisch behandelt
-- Inelastische Prozesse auf eine kleine, vernachlässigbare Zone um die Rissspitze beschränkt
-- LEBM primär für **Sprödbruch** geeignet
-
----
-<!-- _class: lead -->
 # Das Rissspitzenfeld
 
 ---
 
-## Rissspitzenfeld – Modus III
-
-Feld in einem kleinen Bereich mit Radius $R$ um die Rissspitze.
-
-Aus der Eigenwertanalyse mit lastfreien Rissflanken ($\varphi = \pm\pi$):
-
-$$\sin 2\lambda\pi = 0 \quad\Rightarrow\quad \lambda = \frac{n}{2}, \quad n = 1,2,3,\ldots$$
-
-Der **dominante singuläre Term** ($\lambda = 1/2$) ergibt für $r \to 0$:
-
-$$\begin{pmatrix} \tau_{xz} \\ \tau_{yz} \end{pmatrix} = \frac{K_{III}}{\sqrt{2\pi r}} \begin{pmatrix} -\sin(\varphi/2) \\ \cos(\varphi/2) \end{pmatrix}, \qquad w = \frac{2K_{III}}{G}\sqrt{\frac{r}{2\pi}}\sin(\varphi/2)$$
-
-**Kernaussagen:**
-- Spannungen haben eine **$r^{-1/2}$-Singularität** an der Rissspitze
-- Das Feld wird vollständig durch $K_{III}$ bestimmt — den **Spannungsintensitätsfaktor (SIF)**
 
 ![](./assets/crack_tip.png)
 > Koordinatensystem an der Rissspitze: Radius $r$, Winkel $\varphi$ (Gross und Seelig)
@@ -574,9 +551,9 @@ Der **T-Spannungsterm** (zweiter Term, $\lambda=1$): wirkt parallel zum Riss —
 
 ---
 
-## Modus I – Detail
+## Modus I 
 
-![](./assets/modeIcrackTip.png)
+![w:800](./assets/modeIcrackTip.png)
 > Modus-I-Rissspitzenfeld: (a) Rissöffnung und $\sigma_y$-Verteilung, (b) Winkelabhängigkeit
 
 **Rissöffnungsprofil** entlang der Rissflanken ($\varphi = \pm\pi$):
@@ -587,26 +564,15 @@ $$v^\pm = \pm\frac{K_I}{2G}\sqrt{\frac{r}{2\pi}}(\kappa+1)$$
 
 ---
 
-## Dreidimensionales Rissspitzenfeld
-
-In 3D ist das Rissspitzenfeld **lokal vom gleichen Typ** wie im 2D-Fall:
-
-$$\sigma_{ij} = \frac{1}{\sqrt{2\pi r}}\left[K_I\tilde{\sigma}^I_{ij}(\varphi) + K_{II}\tilde{\sigma}^{II}_{ij}(\varphi) + K_{III}\tilde{\sigma}^{III}_{ij}(\varphi)\right]$$
-
-- SIF können entlang der Rissfront variieren: $K_I = K_I(s)$
-- EVZ-Kinematik gilt für die Modus-I- und Modus-II-Anteile
-- **Singuläre Sonderpunkte:** Rissfrontknicke oder Rissfront an freier Oberfläche — dort möglicherweise keine $r^{-1/2}$-Singularität
-
----
-<!-- _class: lead -->
 # Das K-Konzept
 
----
 
-## K-Konzept – Grundidee
 
 ![w:800](./assets/KConcept.png)
 > K-Konzept: $K_I$-dominiertes Feld, plastische Zone $r_p$, Prozesszone $\rho$
+
+
+---
 
 **Zentraler Gedanke:** Bei reinem Modus I charakterisiert $K_I$ **eindeutig** das gesamte Rissspitzengebiet.
 
@@ -636,7 +602,7 @@ Allgemeines Mischmodus-Kriterium: $f(K_I, K_{II}, K_{III}) = 0$
 
 ---
 
-## Beispiel: Riss unter Fernfeldzug
+##  Riss unter Fernfeldzug
 
 ![bg right fit](./assets/centeCrack.png)
 
@@ -652,129 +618,10 @@ $$\boxed{K_I = \sigma\sqrt{\pi a}}$$
 
 $$4Gv^\pm = \pm(1+\kappa)\sigma\sqrt{a^2-x^2}$$
 
----
-
-## Weitere Beispiele
-
-**Einzelkräfte auf Rissflanken:**
-
-$$K_I^\pm = \frac{P}{\sqrt{\pi a}}\sqrt{\frac{a\pm b}{a\mp b}}$$
-
-**Schubbelastung** (Modus II):
-
-$$K_{II} = \tau\sqrt{\pi a}$$
-
-![bg right fit](./assets/different_loads.png)
 
 ---
 
-## Kollineare Rissanordnung
 
-**Periodische Anordnung** (Periode $2b$):
-
-$$K_I = \sigma\sqrt{\pi a}\sqrt{\frac{2b}{\pi a}\tan\frac{\pi a}{2b}}$$
-
-Wenn Rissspitzen sich annähern ($a \to b$), wächst $K_I$ stark durch **Risswechselwirkung**.
-
-![w:500](./assets/colinear.png)
-> (a) Kollineare Rissanordnung, (b) Streifen mit Innenriss
-
----
-
-## K-Faktor-Tabelle (Auswahl)
-
-| Nr. | Konfiguration | $K_I$ |
-|-----|---------------|-------|
-| 1 | Unendliche Platte, Innenriss | $\sigma\sqrt{\pi a}$ |
-| 4 | Randriss | $1{,}1215\,\sigma\sqrt{\pi a}$ |
-| 3 | Kollineare Anordnung | $\sigma\sqrt{2b\tan(\pi a/2b)}$ |
-| 9 | Kreisförmiger Innenriss (Penny-Shaped) | $\frac{2}{\pi}\sigma\sqrt{\pi a}$ |
-
-**Weitere:** Rand- und Durchgangsrisse in endlichen Streifen mit Korrekturfunktionen $F_I(a/b)$, halbelliptische Oberflächenrisse, Kreisrisse unter Zug und Torsion.
-
----
-
-## Integralgleichungsformulierung
-
-Ein Riss kann als **kontinuierliche Versetzungsverteilung** entlang der Risslinie dargestellt werden.
-
-Für eine Versetzung mit Verschiebungssprung $b_y$ ergibt sich die Spannung $\sigma_y$ entlang der x-Achse zu:
-
-$$\sigma_y(x,0) = -\frac{2G}{\pi(\kappa+1)}\int_{-a}^{+a}\frac{\mu(t)\,dt}{x-t}$$
-
-mit der **Versetzungsdichte** $\mu(t) = db_y/dt$.
-
-![bg right 90%](./assets/dislocation.png)
-
----
-
-Für den Riss unter Druck $\sigma$ ergibt sich die Lösung:
-
-$$\mu(x) = \frac{\sigma(\kappa+1)}{2G}\frac{x}{\sqrt{a^2-x^2}}$$
-
-Der SIF folgt direkt aus der Versetzungsdichte:
-
-$$K_I = \lim_{x\to a}\frac{2G}{\kappa+1}\sqrt{2\pi}\sqrt{a-x}\,\mu(x)$$
-
-→ ergibt das bekannte Ergebnis $K_I = \sigma\sqrt{\pi a}$.
-
-![w:400](./assets/jumpindisplacements.png)
-> Verschiebungssprung durch Stufenversetzung
-
----
-
-## Gewichtsfunktionsmethode
-
-**Ziel:** $K_I$ für beliebige Belastung aus einer bekannten Referenzlösung berechnen.
-
-Über den **Bettischen Reziprozitätssatz**:
-
-$$K_I = -\frac{8G}{\kappa+1}\frac{1}{K_I^r}\int_0^a \sigma_y\frac{\partial v^r}{\partial a}\,dx$$
-
-Die **Gewichtsfunktion** ist $\frac{8G}{(\kappa+1)K_I^r}\frac{\partial v^r}{\partial a}$.
-
-![](./assets/exampleweightfunction.png)
-> Beispiel: Riss mit nichtlinearer Belastung und Gewichtsfunktion
-
----
-
-## Risswechselwirkung (Kachanov-Methode)
-
-Bei eng benachbarten Rissen verstärken oder schirmen sie sich gegenseitig ab.
-
-**Kachanov-Selbstkonsistenzgleichungen** für $n$ Risse unter Modus I:
-
-$$(\delta_{ji}-\Lambda_{ji})\bar{p}_j = p_i^\infty, \quad i=1,\ldots,n$$
-
-**Fernfeldnäherung** ($d\gg a$, kollineare Risse):
-
-$$K_I \approx K_I^0\left(1+\frac{1}{2}\left(\frac{a}{d}\right)^2\right)$$
-
-Wechselwirkung klingt schnell mit dem Abstand ab — als $(a/r)^2$ in 2D.
-
-![](./assets/transmissionfactor.png)
-
----
-
-![](./assets/Kachanov.png)
-> Transferfaktor, Kachanov-Methode für zwei Risse, kollineare Risse, numerisch simulierte Risswechselwirkungspfade
-
----
-
-## Spannungsintensitätsfaktoren und Kerbfaktoren
-
-**Elliptisches Loch** (Halbachsen $a$, $b$) unter Zug $\sigma$:
-
-![w:700](./assets/ellipticalhole.png)
-
-Maximalspannung an der Spitze:
-
-$$\sigma_\text{max} = \sigma\left(1+2\sqrt{\frac{a}{\rho}}\right) \approx 2\sigma\sqrt{\frac{a}{\rho}} \quad (\rho\ll a)$$
-
-mit Kerbradius $\rho = b^2/a$. Für $\rho\to 0$: Ellipse degeneriert zum Riss, $\sigma_\text{max}\to\infty$.
-
----
-<!-- _class: lead -->
 # Energiebilanz
 
 ---
@@ -811,19 +658,6 @@ mit $E^* = E/(1-\nu^2)$ für EVZ/3D und $E^* = E$ für ESZ.
 
 ---
 
-## Nachgiebigkeitsmethode
-
-Für einen Körper mit Einzelkraft $F$ und Nachgiebigkeit $C(a)$:
-
-$$\mathcal{G} = \frac{F^2}{2B}\frac{dC}{da}$$
-
-Dieses Ergebnis ist **unabhängig vom Belastungstyp** (Totlast, Feder, feste Verschiebung).
-
-**DCB-Probe** (Double Cantilever Beam) mit Armlänge $a$, Höhe $h$:
-
-$$C = \frac{8a^3}{EBh^3}, \qquad K_I = \frac{2\sqrt{3}\,Fa}{Bh^{3/2}}$$
-
----
 
 ## Griffith-Bruchkriterium
 
@@ -835,100 +669,18 @@ Mit $\mathcal{G} = -d\Pi/dA$ und $G_c = 2\gamma$ (spezifische Bruchflächenenerg
 
 $$\boxed{\mathcal{G} = G_c}$$
 
+---
+
 **Griffith-Kriterium (1921):** Risswachstum setzt ein, wenn die freigesetzte Energie die für den Bruch erforderliche Energie erreicht.
 
-![w:500](./assets/griffithcriterion.png)
-
----
-<!-- _class: lead -->
-# J-Integral
+![w:800](./assets/griffithcriterion.png)
 
 ---
 
-## Definition und Erhaltungssatz
 
-Für einen homogenen elastischen Körper (keine Volumenkräfte) ist der **J-Integralvektor**:
+# Plastische Zone 
 
-$$J_k = \int_{\partial V}(U\delta_{jk}-\sigma_{ij}u_{i,k})n_j\,dA$$
 
-mit dem **Eshelby-Spannungstensor** $b_{kj} = U\delta_{jk} - \sigma_{ij}u_{i,k}$.
-
-**Divergenzsatz** zeigt: $J_k = 0$ für jede geschlossene Fläche, die defektfreies Material umschließt.
-
-![w:500](./assets/Jintegral.png)
-> J-Integral: (a) 3D geschlossene Fläche, (b) 2D Kontur C
-
----
-
-## J-Integral als Rissspitzenparameter
-
-Für eine Kontur $C$ um die Rissspitze mit lastfreien Rissflanken:
-
-$$J = J_1 = \int_C\left(U\,dy - t_i u_{i,x}\,dc\right)$$
-
-**Energetische Interpretation:**
-
-$$J = \mathcal{G} = -\frac{d\Pi}{da}$$
-
-**Wegunabhängigkeit:** $J$ ist für jede die Rissspitze umschließende Kontur gleich — bei geraden, unbelasteten Rissflanken.
-
-Für linear-elastisches Material:
-
-$$J = \frac{1}{E^*}(K_I^2+K_{II}^2) + \frac{1}{2G}K_{III}^2$$
-
-> **Praktischer Vorteil:** Integrationsweg weit von der Rissspitze wählbar — keine genaue Rissspitzenfeldauflösung im FEM/BEM nötig.
-
-![w:900](./assets/tip_jintegral.png)
-> J-Integral: (a) beliebige Kontur, (b) Wegunabhängigkeit, (c) schrumpfende Kontur
-
----
-
-## Konfigurationskräfte
-
-Für eine Fläche $\partial V$, die eine **Diskontinuität oder Singularität** umschließt:
-
-Energieänderung bei translatorischer Verschiebung $ds_k$ der Diskontinuität:
-
-$$d\Pi = -J_k\,ds_k$$
-
-**Interpretation:** $J_k$ ist eine **Konfigurationskraft** (Materialkraft) — sie treibt den Defekt vorwärts.
-
-![w:700](./assets/configuration_force.png)
-> Konfigurationskräfte: (a) Oberfläche um Grenze, (b) virtuelle Verschiebung, (c) allgemeiner Defekt
-
----
-
-## Beispiel: Bimaterial-Stab
-
-$$J_1 = \frac{N^2}{2A}\left(\frac{1}{E_1}-\frac{1}{E_2}\right)$$
-
-→ Kraft, die den **Steifigkeitssprung** treibt.
-
-![w:600](./assets/truss_example.png)
-
----
-<!-- _class: lead -->
-# Plastische Zone (Small-Scale Yielding)
-
----
-
-## Plastische Zonengröße – Irwin-Korrektur
-
-**LEBM-Annahme:** Plastische Zone $r_p \ll R$ (K-dominierte Zone).
-
-**Irwin-Abschätzung:** Plastische Zone (Kräftegleichgewicht):
-
-$$2r_p = \begin{cases}\dfrac{1}{3\pi}\left(\dfrac{K_I}{\sigma_F}\right)^2 & \text{EVZ}\\ \dfrac{1}{\pi}\left(\dfrac{K_I}{\sigma_F}\right)^2 & \text{ESZ}\end{cases}$$
-
-> Plastische Zone im EVZ ist **deutlich kleiner** als im ESZ.
-
-**Irwin-Risslängenkorrektur:**
-
-$$a_\text{eff} = a + r_p$$
-
-![bg right 70%](./assets/plastic_zone_estimation.png)
-
----
 
 ## Form der plastischen Zone
 
@@ -936,56 +688,18 @@ Plastische Zonengrenze nach von Mises:
 
 $$r_p(\varphi) = \frac{K_I^2}{2\pi\sigma_F^2}\cos^2\frac{\varphi}{2} \begin{cases}\left[3\sin^2\frac{\varphi}{2}+(1-2\nu)^2\right] & \text{EVZ}\\ \left[3\sin^2\frac{\varphi}{2}+1\right] & \text{ESZ}\end{cases}$$
 
+---
+
 **Dog-Bone-Modell:** Im Inneren dicker Platten dominiert EVZ (kleine Zone), an der Oberfläche ESZ (große Zone).
 
 ![w:700](./assets/plastic_zone_shape.png)
 > Plastische Zonenkonturen: von Mises vs. Tresca, EVZ vs. ESZ; Gleitmechanismen
 
 ---
-<!-- _class: lead -->
-# Stabiles Risswachstum und R-Kurven
 
----
 
-## R-Kurve
 
-Der Risswiderstand $G_c$ ist im Allgemeinen **nicht konstant**, sondern steigt mit dem Rissfortschritt:
-
-$$G_c = R(\Delta a)$$
-
-**Gleichgewichtsbedingung:**
-
-$$\mathcal{G}(F,a) = R(\Delta a)$$
-
-**Stabilitätsbedingung** (bei fester Last):
-
-$$\frac{\partial\mathcal{G}}{\partial a}\bigg|_F < \frac{dR}{da} \quad \Rightarrow\quad \text{stabiles Risswachstum}$$
-
-**Instabilität:**
-
-$$\frac{\partial\mathcal{G}}{\partial a}\bigg|_F = \frac{dR}{da}$$
-
-![bg right 80%](./assets/stable_Crack_growth.png)
-
----
-
-## Stabilität – Federbelastetes System
-
-**DCB-Probe** ($C = 8a^3/EBh^3$):
-
-$$\frac{d\mathcal{G}}{da} = \begin{cases}-48F^2a/EBh^3 & \text{feste Verschiebung → immer stabil}\\ +24F^2a/EBh^3 & \text{Totlast → instabil}\end{cases}$$
-
-> **Totlast** erreicht Instabilität **früher** als feste Verschiebungsbelastung.
-
-![w:400](./assets/stable_Crack.png)
-
----
-<!-- _class: lead -->
-# Mischmodus-Belastung
-
----
-
-## Mischmodus – Allgemein
+## Mischmodus
 
 Bei kombinierter Modus-I- und Modus-II-Belastung:
 1. Bruch wird durch **beide** $K_I$ und $K_{II}$ ausgelöst
@@ -993,14 +707,11 @@ Bei kombinierter Modus-I- und Modus-II-Belastung:
 
 Für spröde Werkstoffe breitet sich der Riss so aus, dass die neue Oberfläche im **Modus-I-Typ** öffnet.
 
-![](./assets/anglemixedmode.png)
-> Rissausbreitung unter Mischmodus-Belastung unter Winkel $-\varphi_0$
-
 ---
 
 ## Mischmodus-Kriterien – Vergleich
 
-![w:800](./assets/mixedmodecriterion.png)
+
 
 | Kriterium | $\varphi_0$ (reiner Modus II) | $K_{II,c}/K_{Ic}$ |
 |-----------|--------------------------|-------------------|
@@ -1021,43 +732,7 @@ Für spröde Werkstoffe breitet sich der Riss so aus, dass die neue Oberfläche 
 $$\left(\frac{K_I}{K_{Ic}}\right)^\mu + \left(\frac{K_{II}}{K_{IIc}}\right)^\nu = 1$$
 
 ---
-<!-- _class: lead -->
-# Rissinitiierung an Löchern und Kerben
 
----
-
-## Größeneffekt und Hybridkriterium
-
-**Problem:** An abgerundeten Kerben sind Spannungen endlich → klassische Versagenskriterien anwendbar. **Aber:** Versagensspannung hängt von der **absoluten Größe** des Spannungskonzentrators ab.
-
-**Leguillon-Hybridkriterium (2002):** Bruch setzt ein, wenn ein **endlicher Riss** $\Delta a$ spontan entsteht.
-
-Zwei Bedingungen **gleichzeitig** erfüllt:
-
-$$\frac{1}{\Delta a}\int_0^{\Delta a}f(\sigma_{ij})\,dx = \sigma_c \qquad \text{(gemitteltes Spannungskriterium)}$$
-
-$$\mathcal{G}(\Delta a) = -\frac{\Delta\Pi}{\Delta a} = G_c \qquad \text{(inkrementelles Energiekriterium)}$$
-
-**Charakteristische Materiallänge:**
-
-$$l = \frac{1}{\pi}\left(\frac{K_{Ic}}{\sigma_c}\right)^2$$
-
----
-
-## Hybridkriterium – Anwendung auf einen Riss
-
-Versagensspannung:
-
-$$\sigma_f = \sigma_c\sqrt{\frac{1}{1+a/l}}$$
-
-- **Kurze Risse** ($a < l$): $\sigma_f \approx \sigma_c$ — Riss wird nicht als Spannungskonzentrator wahrgenommen
-- **Lange Risse** ($a > l$): $\sigma_f \to K_{Ic}/\sqrt{\pi a}$ — klassisches LEBM-Ergebnis
-
-![](./assets/hybrid.png)
-> Hybridkriterium: (a) Geometrie, (b) Versagensspannung vs. Risslänge
-
----
-<!-- _class: lead -->
 # Ermüdungsrissausbreitung (Bruchmechanik)
 
 ---
@@ -1071,11 +746,16 @@ $$\boxed{\frac{da}{dN} = C \cdot (\Delta K)^m}$$
 - $C$, $m$: Werkstoffkonstanten (temperatur-, umgebungs-, mittelspannungsabhängig)
 - Typische Exponenten für Metalle: $m \approx 2\ldots 4$
 
+
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/6/6f/Crack_propagation_curve_Paris%27_law.svg)
+
+---
+
 **Forman-Gleichung** (berücksichtigt $K_{Ic}$):
 
 $$\frac{da}{dN} = \frac{C\,(\Delta K)^m}{(1-R)K_{Ic}-\Delta K}, \qquad R = K_\text{min}/K_\text{max}$$
 
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/6/6f/Crack_propagation_curve_Paris%27_law.svg)
+
 
 ---
 
@@ -1093,122 +773,6 @@ $$N_f = \frac{1}{C(\Delta\sigma)^m}\int_{a_i}^{a_c}\frac{da'}{\left[\sqrt{\pi a'
 - Geometriefunktion $F(a)$
 - Werkstoffkonstanten $C$, $m$
 - Spannungsschwingbreite $\Delta\sigma$
-
----
-<!-- _class: lead -->
-# Anisotrope Werkstoffe
-
----
-
-## Rissspitzenfelder in orthotropen Werkstoffen
-
-Viele Werkstoffe sind anisotrop: Holz, Faserverbunde, Einkristalle.
-
-**Kernergebnis:** Für linear-orthotrope Werkstoffe behalten die Rissspitzenfelder **qualitativ den gleichen Charakter** wie im isotropen Fall:
-- Spannungssingularität: $\sim 1/\sqrt{r}$
-- Rissöffnung: $\sim\sqrt{r}$
-- SIF $K_I$, $K_{II}$ charakterisieren die Feldstärke
-
-**Wichtiger Unterschied:** Anisotropie verursacht im Allgemeinen **Mischmodus-Kopplung** — außer wenn die Rissrichtung mit einer Orthotropieachse zusammenfällt.
-
----
-
-## Beispiel: Riss in orthotroper Scheibe
-
-Gerader Riss entlang der Orthotropierichtung unter Fernfeldzug $\sigma$:
-
-$$K_I = \sigma\sqrt{\pi a}$$
-
-**Identisch zum isotropen Ergebnis!** Gleichermaßen: $K_{II} = \tau\sqrt{\pi a}$.
-
-**Energiefreisetzungsrate** (Riss ∥ Orthotropieachse):
-
-$$\mathcal{G} = K_I^2\sqrt{h_{11}h_{22}} + K_{II}^2\sqrt{h_{11}}\left[\frac{1}{2}\sqrt{\frac{h_{22}}{h_{11}}}+\frac{2h_{12}+h_{66}}{2h_{11}}\right]^{1/2}$$
-
-mit $h_{ij}$ = Nachgiebigkeitskoeffizienten des orthotropen Werkstoffs.
-
-**Bruchzähigkeit ist richtungsabhängig:** $G_c = G_c(\vartheta)$ — Bruch bevorzugt entlang der Orthotropierichtungen (z.B. Faserrichtung, Holzfaserrichtung).
-
----
-<!-- _class: lead -->
-# Bruchzähigkeit $K_{Ic}$
-
----
-
-## Bestimmung und Einflussfaktoren
-
-$K_{Ic}$ wird durch **standardisierte Versuche** bestimmt (z.B. ASTM E399-90).
-
-**Probengeometrien:** Compact-Tension (CT), Drei-Punkt-Biegung (3PB) — jeweils mit **Ermüdungsanriss**.
-
-**Größenanforderung** (sichert EVZ und Small-Scale Yielding):
-
-$$a,\; W-a,\; B \;\geq\; 2{,}5\left(\frac{K_{Ic}}{\sigma_F}\right)^2$$
-
-**Einflussfaktoren:** Mikrostruktur, Belastungsgeschichte, Umgebung, Temperatur, Probendicke.
-
----
-
-## Repräsentative Werte
-
-| Werkstoff | $K_{Ic}$ [MPa$\sqrt{\text{m}}$] |
-|----------|-------------------------------|
-| Hochfeste Stähle | 25 … 95 |
-| Baustähle | 30 … 125 |
-| Ti-Legierungen | 40 … 95 |
-| Al-Legierungen | 20 … 65 |
-| Al$_2$O$_3$-Keramik | 3 … 9 |
-| Glas | 0,6 … 1,3 |
-| Beton | 0,15 … 1,4 |
-| PMMA | 0,7 … 1,6 |
-
----
-
-## Numerische Bestimmung von K-Faktoren
-
-**FEM:** Gesamter Körper diskretisiert
-
-**BEM:** Nur der Rand (einschließlich Risse) diskretisiert — besonders effizient für Rissprobleme
-
-**Peridynamik (PD):** Nichtlokale Methode, vermeidet Spannungssingularitäten
-
-![w:800](./assets/FEMcrack.png)
-> (a) Parabolische Kerbe, (b) V-Kerbe
-
-**K-Faktor-Extraktion aus Verschiebungen** (Rissflankenmethode):
-
-$$\begin{pmatrix}K_I\\K_{II}\end{pmatrix} = \lim_{r\to 0}\sqrt{\frac{2\pi}{r}} \cdot \frac{2G}{\kappa+1}\begin{pmatrix}v(r,\pi)\\u(r,\pi)\end{pmatrix}$$
-
-**Viertelknotenelemente:** Spezielle Knotenplatzierung zur Erfassung des $\sqrt{r}$-Verschiebungsverhaltens — verbessert die Genauigkeit erheblich.
-
----
-<!-- _class: lead -->
-# Zusammenfassung
-
----
-
-## Übersicht der Bruchparameter
-
-| Parameter | Stärke | Einschränkung |
-|-----------|--------|--------------|
-| $K_I$ | Direkt, tabelliert | Nur linear-elastisch |
-| $\mathcal{G}$ | Globale Energie, kein Rissspitzennetz nötig | Modentrennung erfordert zwei Rechnungen |
-| $J$ | Wegunabhängig, erweiterbar auf nichtlinear | Wegunabhängigkeit nur bei geraden, lastfreien Rissflanken |
-
----
-
-## Kernaussagen der Doppelvorlesung
-
-**Ermüdung:**
-- Rissinitiierung durch **lokale Mikroplastizität** (PSB) — auch bei global elastischer Belastung
-- Drei Stadien: Initiierung → Ausbreitung → Restbruch
-- Thermische Ermüdung: $\Delta T$ als Treibkraft, Kriechen-Ermüdungs-Wechselwirkung
-
-**Lineare Bruchmechanik:**
-- $K$-Konzept: $r^{-1/2}$-Singularität, $K_I = K_{Ic}$ als Bruchkriterium
-- $\mathcal{G} = G_c$ (Griffith) und $J$-Integral als äquivalente Beschreibungen
-- Paris-Gesetz $da/dN = C(\Delta K)^m$ verknüpft Ermüdung mit Bruchmechanik
-- Mischmodus, R-Kurven, plastische Zone, anisotrope Erweiterung
 
 ---
 
