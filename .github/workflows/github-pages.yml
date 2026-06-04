@@ -37,6 +37,7 @@ jobs:
           - FractureFatigue/FF_parameter
           - FractureFatigue/FF_HCF
           - FractureFatigue/FF_numerics_FEM
+          - FractureFatigue/FF_numerics_PD
           - FractureFatigue/FF_seminar_math
           - FractureFatigue/FF_seminar_math_II
           - FractureFatigue/FF_seminar_math_III
