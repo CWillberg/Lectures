@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Fracture & Fatigue - Peridymaics'
+header: 'Fracture & Fatigue - Peridynamics'
 theme: h2
 paginate: true
 math: katex

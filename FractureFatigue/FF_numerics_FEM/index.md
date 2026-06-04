@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Fracture & Fatigue - Peridynamics'
+header: 'Fracture & Fatigue - FEM'
 theme: h2
 paginate: true
 math: katex
@@ -348,7 +348,7 @@ $$N_{ij}(\xi, \eta) = N_i^{(1D)}(\xi) \cdot N_j^{(1D)}(\eta)$$
 ---
 
 **All 4 shape functions:**
-$$\begin{align}
+$$\begin{align}\nonumber
 N_1 &= \frac{(1-\xi)(1-\eta)}{4} \\
 N_2 &= \frac{(1+\xi)(1-\eta)}{4} \\
 N_3 &= \frac{(1+\xi)(1+\eta)}{4} \\
