@@ -62,7 +62,7 @@ h3 { font-size: 20px; }
 </style>
 
 <!-- _class: lead -->
-# Fracture & Fatigue - Peridynamics
+# Fracture & Fatigue - FEM
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
