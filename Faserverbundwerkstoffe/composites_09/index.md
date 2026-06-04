@@ -524,7 +524,138 @@ $$\hat{\nu}_{xy} = -\frac{(A^{-1})_{12}}{(A^{-1})_{22}} \qquad \hat{\nu}_{yx} = 
 - Nachbarschichten **verdicken** → Spannungsumverteilung
 - → Spannungen werden von der kritischen Schicht **weg verlagert**
 
+
 ---
 
+# ABD-Matrix 
 
-## Viele Dank für die Aufmerksamkeit
+## Erweiterung auf Platten- und Koppelverhalten
+
+Bisher: nur **Scheibenbeanspruchung** (Kraftflüsse $\{\hat{n}\}$, Verzerrungen $\{\hat{\varepsilon}\}$).
+
+Allgemein treten auch **Biegemomente und Krümmungen** auf:
+
+$$\begin{Bmatrix} \hat{n} \\ \hat{m} \end{Bmatrix} = \begin{bmatrix} [A] & [B] \\ [B] & [D] \end{bmatrix} \cdot \begin{Bmatrix} \hat{\varepsilon}^0 \\ \hat{\kappa} \end{Bmatrix}$$
+
+mit:
+- $\{\hat{n}\} = \{\hat{n}_x, \hat{n}_y, \hat{n}_{xy}\}^T$ – Kraftflüsse (Scheibe)
+- $\{\hat{m}\} = \{\hat{m}_x, \hat{m}_y, \hat{m}_{xy}\}^T$ – Momentenflüsse (Platte)
+- $\{\hat{\varepsilon}^0\}$ – Mittendehnungen
+- $\{\hat{\kappa}\} = \{\hat{\kappa}_x, \hat{\kappa}_y, \hat{\kappa}_{xy}\}^T$ – Krümmungen
+
+---
+
+## Kinematik – Verzerrungsverteilung über der Dicke
+
+**Kirchhoff-Hypothese:** Querschnitte bleiben eben und senkrecht zur Mittelfläche.
+
+Die Verzerrungen in einer Schicht bei der Koordinate $z$ (gemessen von der Mittelebene):
+
+$$\begin{Bmatrix} \varepsilon_x(z) \\ \varepsilon_y(z) \\ \gamma_{xy}(z) \end{Bmatrix} = \begin{Bmatrix} \varepsilon_x^0 \\ \varepsilon_y^0 \\ \gamma_{xy}^0 \end{Bmatrix} + z \cdot \begin{Bmatrix} \kappa_x \\ \kappa_y \\ \kappa_{xy} \end{Bmatrix}$$
+
+- **Scheibe**: $\{\hat{\varepsilon}^0\}$ – konstant über der Dicke
+- **Platte**: $z \cdot \{\hat{\kappa}\}$ – linear über der Dicke
+
+---
+
+## Scheiben-Steifigkeitsmatrix [A]
+
+$$A_{ij} = \sum_{k=1}^{n} \bar{Q}_{ijk} \cdot t_k = \sum_{k=1}^{n} \bar{Q}_{ijk} \cdot (z_k - z_{k-1})$$
+
+- Beschreibt den Zusammenhang **Kraftflüsse ↔ Mittendehnungen**
+- Entspricht der **Dehnsteifigkeit** des Laminats
+- Hängt nur von **Schichtsteifigkeiten und -dicken** ab, **nicht** von der Schichtreihenfolge
+
+---
+
+## Koppel-Steifigkeitsmatrix [B]
+
+$$B_{ij} = \frac{1}{2} \sum_{k=1}^{n} \bar{Q}_{ijk} \cdot (z_k^2 - z_{k-1}^2)$$
+
+- Beschreibt die **Kopplung** zwischen Scheiben- und Plattenverhalten
+- Kraftflüsse erzeugen Krümmungen und Momente erzeugen Mittendehnungen
+
+**Physikalische Bedeutung:**
+- Zugbelastung → Verbiegung des Laminats
+- Biegemoment → Längung der Mittelfläche
+
+> **$[B] = 0$** bei **mittensymmetrischem Laminataufbau** – dann sind Scheiben- und Plattenverhalten vollständig **entkoppelt**
+
+---
+
+## Platten-Steifigkeitsmatrix [D]
+
+$$D_{ij} = \frac{1}{3} \sum_{k=1}^{n} \bar{Q}_{ijk} \cdot (z_k^3 - z_{k-1}^3)$$
+
+- Beschreibt den Zusammenhang **Momentenflüsse ↔ Krümmungen**
+- Entspricht der **Biegesteifigkeit** des Laminats
+- Hängt von der **Schichtreihenfolge** ab → äußere Schichten tragen überproportional bei ($z^3$!)
+
+> Steife Schichten (z.B. 0°-Schichten) möglichst weit **außen** platzieren → maximale Biegesteifigkeit
+
+---
+
+## Zusammenfassung der ABD-Koeffizienten
+
+| Matrix | Formel | Bedeutung |
+|--------|--------|-----------|
+| $A_{ij}$ | $\sum \bar{Q}_{ijk} \cdot (z_k - z_{k-1})$ | Dehnsteifigkeit |
+| $B_{ij}$ | $\frac{1}{2}\sum \bar{Q}_{ijk} \cdot (z_k^2 - z_{k-1}^2)$ | Koppelsteifigkeit |
+| $D_{ij}$ | $\frac{1}{3}\sum \bar{Q}_{ijk} \cdot (z_k^3 - z_{k-1}^3)$ | Biegesteifigkeit |
+
+- $z_k$, $z_{k-1}$: Ober- bzw. Unterkante der Schicht $k$, gemessen von der **Laminat-Mittelebene**
+- Alle $\bar{Q}_{ijk}$ im **x,y-Laminat-KOS** (nach Polartransformation)
+
+---
+
+## Koppelterme in der ABD-Matrix
+
+Die vollbesetzte $6 \times 6$-ABD-Matrix enthält verschiedene **Koppeleffekte**:
+
+**Innerhalb von [A] und [D]:**
+- $A_{16}, A_{26} \neq 0$: **Dehnungs-Schiebungs-Kopplung** (Scheibe)
+- $D_{16}, D_{26} \neq 0$: **Biegungs-Drillung-Kopplung** (Platte)
+- Verschwinden bei **ausgewogenen** Laminaten ($+\alpha / -\alpha$ paarweise mit gleicher Dicke)
+
+**Durch [B]:**
+- $B_{11}, B_{12}, B_{22} \neq 0$: **Dehnungs-Biegungs-Kopplung**
+- $B_{16}, B_{26} \neq 0$: **Dehnungs-Drillungs-** bzw. **Schiebungs-Biegungs-Kopplung**
+- $B_{66} \neq 0$: **Schiebungs-Drillungs-Kopplung**
+
+> Alle $B_{ij}$-Terme verschwinden bei **mittensymmetrischem** Aufbau
+
+---
+
+## Laminatklassen und Koppelverhalten
+
+| Laminattyp | Bedingung | Koppelterme |
+|------------|-----------|-------------|
+| **Symmetrisch** | Mittensymmetrie | $[B] = 0$ |
+| **Ausgewogen** | $+\alpha / -\alpha$ paarweise, gleiche $t_k$ | $A_{16} = A_{26} = 0$ |
+| **Symmetrisch + ausgewogen** | beide Bedingungen | $[B] = 0$, $A_{16} = A_{26} = 0$ |
+| **Quasi-isotrop** | z.B. $[0/\pm 60]_s$ oder $[0/\pm 45/90]_s$ | $[A]$ isotrop, $[B] = 0$ |
+
+> **Praxisregel:** Laminate werden fast immer **symmetrisch und ausgewogen** entworfen, um unerwünschte Verwölbungen und Kopplungen zu vermeiden
+
+---
+
+## Auswirkungen von Koppeleffekten
+
+**$[B] \neq 0$ (unsymmetrischer Aufbau):**
+- Laminat verzieht sich schon bei reiner Zugbelastung
+- Abkühlung nach dem Aushärten → **thermischer Bauteilverzug**
+- Unerwünschte Verwölbung bei Betriebslasten
+
+**$A_{16}, A_{26} \neq 0$ (unausgewogener Aufbau):**
+- Zug erzeugt Schiebung → **Schereneffekt**
+- Torsion unter Zugbelastung bei offenen Profilen
+
+---
+
+**Konstruktive Konsequenz:**
+- Mittensymmetrie und Ausgewogenheit anstreben
+- Ausnahmen nur bei gezielter Nutzung der Kopplung (z.B. **aeroelastisches Tailoring** im Rotorblattbau)
+
+---
+
+## Vielen Dank für die Aufmerksamkeit
