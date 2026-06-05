@@ -4,7 +4,7 @@ header: 'Faserverbunde - Auslegung von Faserverbunden'
 theme: h2
 paginate: true
 math: katex
----
+---a
 
 <!-- _class: lead -->
 
@@ -497,6 +497,8 @@ Bedeutet: 2× 0°, dann 3× +45°, dann 1× -45°, dann 2× 90°
 - Verteile n+r-1 = 11 Objekte (8 Sterne + 3 Balken)
 - Wähle r-1 = 3 Positionen für die Balken
 - $\binom{11}{3} = 165$ Möglichkeiten
+
+---
 
 - Durchrechnen für alle Lagenaufbauten erfordert erträglichen Aufwand
 - für n Schichten und r mögliche Schichtrichtungen müssen 
