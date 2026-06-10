@@ -1,607 +1,826 @@
 ---
 marp: true
-header: 'Faserverbunde - Auslegung von Faserverbunden'
 theme: h2
+header: 'Faserverbundwerkstoffe – Kapitel 16'
 paginate: true
-math: katex
----a
+math: mathjax
+---
+
+<style>
+.aufgabe {
+  border: 2px solid #e67e22;
+  background-color: #fdf2e9;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.loesung {
+  border-left: 4px solid #27ae60;
+  background-color: #eafaf1;
+  padding: 15px;
+  margin: 10px 0;
+}
+.eq {
+  border: 2px solid #c39bd3;
+  background-color: #f4ecf7;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px 0;
+}
+.hinweis {
+  border-left: 4px solid #2e86c1;
+  background-color: #eaf2f8;
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.zwei-spalten {
+  display: flex;
+  gap: 20px;
+}
+.zwei-spalten > * {
+  flex: 1;
+}
+h1 {
+  font-size: 34px;
+  color: #1a5276;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+section {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 23px;
+  color: #1e2a3a;
+}
+table th {
+  background-color: #1a5276;
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
 
 <!-- _class: lead -->
 
-# Auslegung von Faserverbunden
+# Kapitel 16
+## Versagen von UD-Schichten
+### Festigkeitsanalyse der Faser-Kunststoff-Verbunde
 
+---
 
-Prof. Dr.-Ing. Christian Willberg
-Hochschule Magdeburg-Stendal
+# 16.1 Allgemeines
 
+- FKV: unterschiedliche **Versagensarten** und **Versagensformen** aufgrund verschiedener Komponenten und Verbundstruktur
+- Versagen = **Grenzzustand** (umfassender als nur Werkstofftrennung)
+  - Fließgrenze, Stabilitätsversagen, Verformungsgrenzen, Korrosion …
+- Hier: Versagen im engeren Sinne → **Brüche und Werkstofftrennungen**
+- Ausschließlich **mechanische Spannungen** als Ursache
 
+---
+
+# 16.1 Allgemeines – Festigkeitswerte
+
+- Festigkeitswerte sind **experimentell** zu ermitteln (selten berechenbar)
+- Mikromechanische Ansätze zur Berechnung: zu große Unsicherheiten
+- Reale UD-Schichten stark von der **Herstellung** beeinflusst:
+  - Matrixhärtung, Haftvermittler, Luftblasengehalt
+  - → besonders die **Querzugfestigkeit** $R^+_\perp$ ist empfindlich
+
+<div class="hinweis">
+
+**Gliederung:** Welche Komponente versagt dominierend? → Faser, Matrix oder Grenzfläche
+**Feingliederung:** Zug, Druck oder Schub
+
+</div>
+
+---
+
+# 16.2 Spannungszustand am UD-Element
+
+Räumlicher Spannungszustand mit 3 Normal- und 3 Schubspannungen.
+
+Wegen **transversaler Isotropie** → nur **4 Basis-Beanspruchungen**:
+
+| Beanspruchung | Symbol |
+|---|---|
+| Längs-Beanspruchung | $\sigma_\parallel$ |
+| Quer-Beanspruchung | $\sigma_\perp$ |
+| Quer-Längs-Schub | $\tau_{\perp\parallel}$ |
+| Quer-Quer-Schub | $\tau_{\perp\perp}$ |
+
+Bei Normalbeanspruchung: Unterscheidung **Zug** (+) und **Druck** (−) → **6 Basis-Beanspruchungen**
+
+---
+
+# 16.2 Basis-Festigkeiten der UD-Schicht
+
+| Basis-Beanspruchung | Basis-Festigkeit | Englisch |
+|---|---|---|
+| $\sigma^+_\parallel$ | $R^+_\parallel$ | $X^t$ |
+| $\sigma^-_\parallel$ | $R^-_\parallel$ | $X^c$ |
+| $\sigma^+_\perp$ | $R^+_\perp$ | $Y^t$ |
+| $\sigma^-_\perp$ | $R^-_\perp$ | $Y^c$ |
+| $\tau_{\perp\parallel}$ | $R_{\perp\parallel}$ | $S^L$ |
+| $\tau_{\perp\perp}$ | $R_{\perp\perp}$ | $S^T$ |
+
+---
+
+# 16.2 Versagensarten
+
+Zwei grundsätzliche Versagensarten:
+
+<div class="zwei-spalten">
+<div>
+
+### Faserbruch (Fb)
+- Fiber Failure (FF)
+- Durch faserparallele Beanspruchung
+- Riss trennt Fasern **quer** zur Längserstreckung
+- Festigkeiten $R_\parallel$ **sehr hoch**
+- Meist **nicht tolerierbar**
+
+</div>
+<div>
+
+### Zwischenfaserbruch (Zfb)
+- Inter-Fibre-Failure (IFF)
+- Riss verläuft **parallel** zur Faser
+- Durch Matrix und/oder Grenzfläche
+- Bei **deutlich niedrigeren** Beanspruchungen
+- Teils tolerierbar
+
+</div>
+</div>
+
+---
+
+# 16.3 Faserbruch (Fb)
+
+- Nicht Bruch einzelner Filamente, sondern **nahezu gleichzeitiges Versagen von Faserbündeln** (Hunderte Einzelfasern, mehrere mm Breite)
+- Tritt bei **sehr hoher Belastung** auf
+- Selten durch Spannungsumlagerungen verkraftbar
+- → Im Allgemeinen **nicht tolerierbar**
+- Entsteht durch $\sigma_\parallel$-**Zug** oder **-Druckbeanspruchung**
+
+---
+
+# 16.3.1 Faserbruch durch Längs-Zug $\sigma^+_\parallel$
+
+- Fasern werden zerrissen → **Kohäsivfestigkeit** überschritten
+- Versagen geschieht **nicht schlagartig**, sondern sukzessiv
+  - Ab ca. **50% der Bruchlast**: erste Filamente reißen
+  - Später: ganze Faserbündel
+- Erkennbar an: Steifigkeitsverlust, Geräusch (hörbar), „besenförmiges" Abspleißen
+- Bei Spannungsgradienten (z.B. Biegung): quasi-„duktiler", gutmütiger Versagensprozess
+
+---
+
+# 16.3.1 Berechnung von $R^+_\parallel$
+
+Aus der Kompatibilitätsbedingung (gleiche Dehnung Faser/Verbund):
+
+<div class="eq">
+
+$$\sigma_f = \frac{E_f}{E_\parallel} \cdot \sigma_\parallel$$
+
+Traganteil der Fasern entspricht dem Modulverhältnis $E_f/E_\parallel$
+
+</div>
+
+Mit Mischungsregel und Vernachlässigung des Matrix-Traganteils ($E_f \gg E_m$):
+
+<div class="eq">
+
+$$R^+_\parallel = R^+_f \cdot \varphi$$
+
+</div>
+
+Bei $\varphi = 0{,}5$: Faserspannung $\sigma_f = 2\sigma_1$ !
+
+---
+
+# 16.3.1 Warum wird $R^+_\parallel$ nicht erreicht?
+
+Rechenwerte aus Faserfestigkeiten müssen mit **Abminderungsfaktor** versehen werden:
+
+1. **Vorschädigungen** durch Verarbeitungsprozess (Umlenkungen, Führungen)
+2. **Nicht alle Fasern tragen gleich** – unterschiedliche Ausrichtung/Vorspannung
+3. **Festigkeitsstreuung** der Einzelfilamente
+   - Früh brechende Fasern → Nachbarfasern überlastet → Kettenreaktion
+   - Streuung **reduziert** immer die Verbundfestigkeit
+
+<div class="hinweis">
+
+Für maximale Bruchlast: alle Fasern gleich hoch beansprucht + Streuung → 0.
+Aber: robuste Konstruktion wünscht Vorankündigung durch Einzelbrüche.
+
+</div>
+
+---
+
+# 16.3.1 Verbesserungsmaßnahmen Längs-Zug
+
+- **Faservolumenanteil erhöhen** (bis $\varphi \approx 0{,}65$) → lineare Lastreduktion pro Faser
+  - Bei Schwingbelastung: $\varphi \approx 0{,}50$ optimal (geringere Kerbwirkung)
+- **Bruchdehnung der Matrix** ≥ 2× Faser-Bruchdehnung
+- **Hybridisierung**: verschiedene Fasertypen kombinieren → breitere Festigkeitsverteilung, Reserve-Lastpfade
+
+---
+
+# 16.3.2 Faserbruch durch Längs-Druck $\sigma^-_\parallel$
+
+- Kein klassisches „Zerquetschen" → **mikromechanisches Schubknicken**
+- Nicht Biegeknicken (Euler), sondern durch **zu niedrige Schubsteifigkeit**
+
+<div class="hinweis">
+
+Der Versagensfall „Überschreiten von $R^-_\parallel$" kommt selten vor! Meist tritt vorher:
+- Globales Stabilitätsversagen der Struktur
+- Zwischenfaserbruch (Zfb)
+
+→ Schubknicken primär bei **großen UD-Querschnitten** (Gurte, Holme, Blattfedern, Bohrungen)
+
+</div>
+
+---
+
+# 16.3.2 Zwei Formen des Schubknickens
+
+<div class="zwei-spalten">
+<div>
+
+### Verzweigungsproblem
+- Ideale UD-Schicht (keine Imperfektionen)
+- Fehlorientierung $\varphi_0 = 0$ (infinitesimal)
+- Theoretisch: $R^-_\parallel = G_{\perp\parallel}$
+- **In Praxis nicht erreichbar!**
+
+</div>
+<div>
+
+### Spannungsproblem
+- Reale Struktur mit **Faser-Fehlorientierung** $\varphi_0 \neq 0$
+- Lokale Faserwelligkeit
+- Druck-Schub-Koppelung
+- Wachsende $\sigma^-_\parallel$ → Vergrößerung der Fehlorientierung
+
+</div>
+</div>
+
+---
+
+# 16.3.2 Mechanisches Modell – Momentengleichgewicht
+
+Momentengleichgewicht am UD-Element mit Faser-Fehlorientierung $\varphi_0$:
+
+<div class="eq">
+
+$$\sigma^-_\parallel = \frac{\tau_{\perp\parallel}}{\varphi_0 + \gamma_{\perp\parallel}}$$
+
+</div>
+
+- $\varphi_0$ = Winkel der Faser-Fehlorientierung (unbelastet, konst.)
+- $\gamma_{\perp\parallel}$ = Schiebung (wächst mit steigender Druckbeanspruchung)
+
+Vernachlässigt: Eigen-Biegesteifigkeit der Fasern, Stützwirkung Nachbarschichten, Stauchung
+
+---
+
+# 16.3.2 Festigkeit $R^-_\parallel$ – Extremwertbestimmung
+
+Schubknicken tritt ein, wenn die Schubkräfte den Faserlängskräften nicht mehr das Gleichgewicht halten:
+
+<div class="eq">
+
+$$\tau^*_{\perp\parallel} = \frac{d\tau^*_{\perp\parallel}}{d\gamma^*_{\perp\parallel}} \cdot (\varphi_0 + \gamma^*_{\perp\parallel})$$
+
+</div>
+
+Die Festigkeit ergibt sich aus dem **Tangenten-Schubmodul** bei Versagensschiebung:
+
+<div class="eq">
+
+$$R^-_\parallel = G^{*,T}_{\perp\parallel}(\gamma^*_{\perp\parallel})$$
+
+</div>
+
+---
+
+# 16.3.2 Einfluss der Fehlorientierung
+
+**Zentrale Ergebnisse:**
+
+- **Idealfall** ($\varphi_0 = 0$): $R^-_\parallel = G_{\perp\parallel}$ (Schubmodul)
+- Festigkeitsabfall bei kleinen $\varphi_0$ **besonders stark**
+- Perfekte Faserausrichtung existiert nicht → theoretische Werte kaum erreichbar
+- Bei kleinen $\varphi_0$: starke Abhängigkeit von **Fertigungsqualität** → große Streuungen
+- Bei großen $\varphi_0$: $R^-_\parallel$ stark abgesunken, Einfluss von $\varphi_0$ gering
+
+<div class="hinweis">
+
+**Stapeln** mehrerer Schichten → Verteilung der Fehlorientierung wird breiter!
+Textile Verstärkungen (Gewebe, Zwirne) haben konstruktionsbedingt Fehlorientierungen.
+
+</div>
+
+---
+
+# 16.3.2 Einfluss überlagerter Schubspannungen $\tau_{21}$
+
+Überlagerte Quer-Längs-Schubspannung $\tau_{21,0}$ wirkt **festigkeitsmindernd**:
+
+<div class="eq">
+
+$$\sigma^-_\parallel = \frac{\tau_{\perp\parallel} - \tau_{21,0}}{\varphi_0 + \gamma_{\perp\parallel}}$$
+
+</div>
+
+- Typisch bei **Krafteinleitung biegebeanspruchter Träger** (Auflagerkanten)
+- Schub erzeugt kurzwellige Faser-Fehlorientierung durch Belastung
+- Starke **Interaktion** zwischen Längs-Druck und Schubbeanspruchung
+- Nahezu lineare Abhängigkeit von $\tau_{21,0}$
+
+---
+
+# 16.3.2 $R^+_\parallel$ vs. $R^-_\parallel$ – Vergleich
+
+Faser-Fehlorientierungen → **Druckfestigkeit bleibt fast immer hinter Zugfestigkeit**
+
+| Material | $R^+_\parallel$ [MPa] | $R^-_\parallel$ [MPa] |
+|---|---|---|
+| CF(HT)-EP (T300/913) | 2100 | 1400 |
+| AF-EP (Kevlar 49/913) | 1760 | 240 |
+| GF-EP (E-Glass/913) | 1860 | 965 |
+
+- CFK und GFK: noch hohe $R^-_\parallel$-Werte
+- AFK: Aramidfaser versagt frühzeitig
+- HM-C-Fasern (Pech): vermutlich Abscheren der Fasern
+
+---
+
+# 16.3.2 Verbesserungsmaßnahmen Längs-Druck
+
+- **Fertigungsqualität** ist ausschlaggebend: Fasern ohne Welligkeiten, straff, präzise
+- **Textile Konstruktionen** mit Faserwelligkeiten vermeiden (Zwirne, Leinwand)
+  - Günstiger: Köper- und Atlasbindungen
+- **Ränder** mit großem Radius ausführen (fehlende Stützwirkung)
+- **Bohrungen** in hoch druckbelasteten Laminaten vermeiden
+- **Stirnflächenbelastung** vermeiden → Stützung oder kombinierte Lasteinleitung
+- **Hoher Matrix-Schubmodul** $G_m$ → proportionale Steigerung von $R^-_\parallel$
+- Gute **Faser-Matrix-Haftung**, geringe Luftblasengehalte
+
+---
+
+# 16.4 Zwischenfaserbruch (Zfb)
+
+## 16.4.1 Festigkeit vs. Wirkebenen-Bruchwiderstand
+
+- **Wirkebene**: Ebene, in der eine einzelne Beanspruchung maximal wird
+- Bei UD-Schichten: Wirkebene ≠ Bruchebene möglich!
+- → Der Begriff **Wirkebenen-Bruchwiderstand** $R^A$ (nach Puck, 1992)
+
+<div class="eq">
+
+Der **Bruchwiderstand einer Wirkebene** ist der Widerstand, den eine Schnittebene ihrem Bruch infolge einer **einzeln** in ihr wirkenden Beanspruchung entgegensetzt.
+
+</div>
+
+---
+
+# 16.4.2 Beanspruchung durch Querzug $\sigma^+_\perp$
+
+<div class="zwei-spalten">
+<div>
+
+- Wirkebene = Bruchebene ✓
+- Festigkeit = Bruchwiderstand
+
+$$R^+_\perp = R^{A+}_\perp$$
+
+- Direkt messbar im Versuch
+- In Bruchkriterien: $R^+_\perp$ einsetzbar
+
+</div>
+<div>
+
+- Makroskopischer Zfb-Riss verläuft **parallel zu den Fasern**
+- Bruch durch die Matrix und/oder Grenzfläche Faser-Matrix
+
+</div>
+</div>
+
+---
+
+# 16.4.3 Beanspruchung durch Querdruck $\sigma^-_\perp$
+
+- Wirkebene ≠ Bruchebene!
+- Kein Druckversagen, sondern **Schubversagen** (Abscheren)
+- Bruch unter ca. **53°** zur Belastungsrichtung
+
+<div class="eq">
+
+$$R^-_\perp \neq R^{A-}_\perp$$
+
+$$R^{A-}_\perp \to \infty$$
+
+</div>
+
+- Eigentlich Bruch bei 45° ($\tau_{\perp\perp}$ maximal), aber **innere Reibung** → steilere Ebene
+- Die Querdruckkomponente $\sigma_\perp^- \cdot \cos^2\theta_{fp}$ erschwert den Bruch
+
+---
+
+# 16.4.4 Quer-Längs-Schub $\tau_{\perp\parallel}$
+
+- Zwei Wirkebenen vorhanden (Momentengleichgewicht)
+- Bruch nur in der **faserparallelen** Ebene möglich (niedrigerer Bruchwiderstand)
+
+<div class="eq">
+
+$$R^A_{\perp\parallel} \ll R^A_{\parallel\perp}$$
+
+→ Wirkebene = Bruchebene → $R_{\perp\parallel} = R^A_{\perp\parallel}$
+
+</div>
+
+- Erste Mikrorisse: unter **45°** in Matrix (Zug-Hauptspannung)
+- An Fasern gestoppt → faserparallel umgelenkt → makroskopischer Schubriss
+
+---
+
+# 16.4.5 Quer-Quer-Schub $\tau_{\perp\perp}$
+
+- Wirkebene ≠ Bruchebene!
+- Bruch unter **+45°** durch Zug-Hauptspannung $\sigma^+_I$
+
+<div class="eq">
+
+$$R_{\perp\perp} \neq R^A_{\perp\perp}$$
+
+Es gilt: $R^+_\perp < R^A_{\perp\perp}$
+
+</div>
+
+**Zusammenfassung – drei Bruchwiderstände bei Zfb:**
+1. $R^+_\perp$ gegen Querzug $\sigma^+_\perp$
+2. $R_{\perp\parallel}$ gegen Quer-Längs-Schub $\tau_{\perp\parallel}$
+3. $R^A_{\perp\perp}$ gegen Quer-Quer-Schub $\tau_{\perp\perp}$
+
+---
+
+# Übersicht: Festigkeit vs. Bruchwiderstand
+
+| Beanspruchung | Wirkebene = Bruchebene? | Beziehung |
+|---|---|---|
+| $\sigma^+_\perp$ Querzug | ✅ Ja | $R^+_\perp = R^{A+}_\perp$ |
+| $\sigma^-_\perp$ Querdruck | ❌ Nein (53°) | $R^{A-}_\perp \to \infty$ |
+| $\tau_{\perp\parallel}$ Quer-Längs-Schub | ✅ Ja | $R_{\perp\parallel} = R^A_{\perp\parallel}$ |
+| $\tau_{\perp\perp}$ Quer-Quer-Schub | ❌ Nein (45°) | $R_{\perp\perp} \neq R^A_{\perp\perp}$ |
+
+<div class="hinweis">
+
+Nur bei $\tau_{\perp\perp}$: Indizierung mit „A" unerlässlich! $R^A_{\perp\perp}$ darf nicht mit $R_{\perp\perp}$ verwechselt werden.
+
+</div>
+
+---
+
+# 16.4.6 Querzugversagen $\sigma^+_\perp$ – Häufigster Zfb
+
+- **Häufigste** Zwischenfaserbruchform
+- Rissbildung von Fehlstellen → faserparallel → in Dickenrichtung erst an Nachbarschichten gestoppt
+- Faser und Matrix in **Reihenschaltung**
+- Versagen: Kohäsivfestigkeit Matrix **oder** Adhäsivfestigkeit Faser-Matrix
+
+<div class="hinweis">
+
+**Kernproblem der FKV:** Die hohe Bruchdehnung der Matrix bleibt nahezu ungenutzt!
+
+</div>
+
+---
+
+# 16.4.6 Dehnungsvergrößerungsfaktor $f_\varepsilon$
+
+Pucksches **Scheibchenmodell**: infinitesimal dünne Scheibe quer zur Faser
+
+Aus Gleichgewicht, Verträglichkeit und Elastizitätsgesetz:
+
+<div class="eq">
+
+$$f_\varepsilon = \frac{\varepsilon_m}{\varepsilon_\perp} = \frac{1}{1 + \frac{E_m}{E_{f\perp}} \cdot \left(\frac{1}{\frac{l_m}{l_0}} - 1\right)} > 1$$
+
+</div>
+
+Die Matrix wird **wesentlich stärker** gedehnt als der Verbund!
+
+---
+
+# 16.4.6 Dehnungsvergrößerung – Quadratische Packung
+
+Für die quadratische Faserpackung (Scheibchen in Fasermitte):
+
+<div class="eq">
+
+$$f_{\varepsilon,\text{max}} = \frac{1}{1 - \sqrt{\frac{\varphi}{\pi}} \cdot \left(1 - \frac{E_m}{E_{f\perp}}\right)}$$
+
+</div>
+
+**Beispiel GFK:** $\varphi = 0{,}6$, $E_{f\perp}/E_m = 73000/3400$
+
+$$\boxed{f_\varepsilon \approx 6}$$
+
+→ Matrix muss lokal **6-fach höhere Dehnung** ertragen!
+
+---
+
+# 16.4.6 Einflussgrößen auf $f_\varepsilon$
+
+<div class="zwei-spalten">
+<div>
+
+### Faservolumenanteil $\varphi$
+- Höherer $\varphi$ → höherer $f_\varepsilon$
+
+### Steifigkeitsverhältnis $E_{f\perp}/E_m$
+- **Glasfaser** (isotrop): $f_\varepsilon$ sehr hoch
+- **C-Faser** (anisotrop, niedriges $E_{f\perp}$): deutlich günstiger
+- **Aramidfaser**: geringster $f_\varepsilon$
+
+</div>
+<div>
+
+### Auswirkungen
+
+| | Festigkeit | Bruchdehnung |
+|---|---|---|
+| EP rein | 80 MPa | ≈ 5% |
+| GF-EP UD | 50 MPa | ≈ 0,4% |
+
+Fasern wirken quer **nicht verstärkend**, sondern als **Fehlstellen**!
+
+</div>
+</div>
+
+---
+
+# 16.4.6 Verbesserungsmaßnahmen Querzug
+
+- **Perfekte Fertigung**: maximale Faser-Matrix-Haftung, ohne Lufteinschlüsse (Vakuum), gleichmäßige Faserverteilung
+- **Hoher Faservolumenanteil** → gleichmäßigere Faserverteilung → $R^+_\perp$ steigt (trotz höherem $f_\varepsilon$!)
+- Flexibilisierte Harze: **nicht zielführend**
+  - Dehnungsbehinderung durch Fasern in allen Richtungen
+  - Schlechtere Chemikalienbeständigkeit
+  - Reduzierte $R^-_\parallel$ (ungenügende Faserstützung)
+- Aramidfaser: geringster $f_\varepsilon$, aber schlechtere Haftung
+- Hohlfasern: theoretisch vorteilhaft, praktisch gescheitert (Kapillarwirkung)
+
+---
+
+# 16.4.6 $R^+_\perp$ als Qualifikationskennwert
+
+$R^+_\perp$ eignet sich hervorragend zur:
+- **Werkstoff-Qualifikation** (Faser-Matrix-Kombinationen)
+- Überprüfung von **Medienangriff** (Benzin, Bremsflüssigkeit, Feuchtigkeit …)
+- Bewertung der **Fertigungsqualität**
+
+| Konditionierung | $R^+_\perp$ [MPa] |
+|---|---|
+| Trocken, 24h/23°C | 72 |
+| Bremsflüssigkeit, 24h/23°C | 69 |
+| Normalbenzin, 24h/23°C | 64 |
+| Neutralreiniger, 1000h/70°C | 63 |
+| 98% rel. Luftfeuchte | 58 |
+
+*(GF-Vinylesterurethanharz, $\varphi = 0{,}65$)*
+
+---
+
+# 16.4.7 Querdruck $\sigma^-_\perp$
+
+- Kein Versagen normal zur Beanspruchung → **Abscheren** ($\tau_{\perp\perp}$)
+- $R^{A-}_\perp \to \infty$ (Kontinuumsannahme)
+- $R^-_\perp \approx 3 \times R^+_\perp$ (> 150 MPa bei GF und CF)
+- Nutzbar z.B. bei **Klemmverbindungen** (Bolzen): bis 120 MPa Flächenpressung
+
+### ⚠️ Keilbruch (Bruchmodus C)
+
+- Bruch unter **53°** → Bruchflächen gleiten ab → **Laminat wird aufgesprengt**
+- **Totalversagen** → unbedingt vermeiden!
+- Abhilfe: feinschichtiger Aufbau, seitliche Stützung (Borde)
+
+---
+
+# 16.4.8 Quer-Längs-Schub $\tau_{\perp\parallel}$
+
+- Nur Bruch durch $\tau_{\perp\parallel}$-Beanspruchung (nicht $\tau_{\parallel\perp}$)
+- Versagensform **vorzeichenunabhängig**
+- **Schiebungsvergrößerungsfaktor** analog zu $f_\varepsilon$
+
+### Rissbildung
+- Erste Mikrorisse: **Zugversagen** in Matrix unter 45° zur Schubrichtung (Zug-Hauptspannung)
+- An Fasern gestoppt → faserparallel umgelenkt → makroskopischer Schubriss
+
+<div class="hinweis">
+
+$R_{\perp\parallel}$ fällt gegenüber unverstärkter Matrix **weniger stark** ab als $R^+_\perp$.
+Reibanteil → höhere Dämpfung, langsameres Risswachstum.
+
+</div>
+
+---
+
+# 16.4.9 Z/DT-Prüfung
+
+**Zug/Druck-Torsionsprüfung** – besonders geeignetes Verfahren:
+
+- Messung von $E_\perp$, $G_{\perp\parallel}$, $R_\perp$, $R_{\perp\parallel}$
+- **Kreiszylindrischer Rohrprobekörper** (Umfangswicklung, reine UD-Schicht)
+  - Homogener Schubspannungszustand
+  - Kombinierte $\sigma_\perp$/$\tau_{\perp\parallel}$-Beanspruchung möglich
+  - Einfach und kostengünstig
+
+<div class="hinweis">
+
+Der Probekörper versagt an seiner **schwächsten Stelle** → Mittelwert der schwächsten Bereiche, nicht der Festigkeitsverteilung!
+
+</div>
+
+---
+
+# 16.4.10 Quer-Quer-Schub $\tau_{\perp\perp}$
+
+- $R^A_{\perp\perp}$ **nicht direkt messbar** (vorher Bruch durch $\sigma^+_I$ bei 45°)
+- Indirekte Bestimmung aus dem **Querdruckversuch**:
+
+<div class="eq">
+
+$$R^A_{\perp\perp} = \frac{R^-_\perp}{2(1 + p^-_{\perp\perp})}$$
+
+Mit $p^-_{\perp\perp} \approx 0{,}25$ (GFK):
+
+$$R^A_{\perp\perp} \approx \frac{R^-_\perp}{2{,}5}$$
+
+</div>
+
+---
+
+# 16.4.11 Überlagerung $\sigma_\perp$ + $\tau_{\perp\parallel}$
+
+Häufigster Fall bei ebenem Spannungszustand:
+
+<div class="zwei-spalten">
+<div>
+
+### Querzug + Schub
+- Stärkt **Riss-öffnende** Komponente
+- Vermindert Reibanteil
+- **Beschleunigt** Rissentstehung
+- Stärkere Kerbwirkung auf Nachbarschichten
+
+</div>
+<div>
+
+### Querdruck + Schub
+- **Schließt** Schubrisse
+- Steigert durch **innere Reibung** die übertragbare Schubkraft
+- Erhöht die Belastbarkeit
+
+</div>
+</div>
+
+<div class="hinweis">
+
+Diese Interaktionen müssen in Bruchkriterien **physikalisch korrekt** berücksichtigt werden!
+
+</div>
+
+---
+
+# 16.4 Auswirkungen von Zfb
+
+Zwischenfaserbrüche sind überwiegend **nachteilig**:
+
+- $G_{\perp\parallel}$ nimmt ab → $R^-_\parallel$ wird reduziert
+- Von Zfb gehen **Delaminationen** aus → Stabilitätsverlust bei Druck
+- **Kerbwirkung** auf Fasern der Nachbarschichten → reduzierte Ermüdungsfestigkeit
+- Vermehrte **Feuchtigkeitsaufnahme** → aggressive Medien erreichen Fasern
+
+<div class="hinweis">
+
+**Keilbruch** (Bruchmodus C, durch $\sigma^-_\perp$) ist unbedingt zu vermeiden → zerstört das ganze Laminat!
+Andere Zfb-Modi ($\sigma^+_\perp$, $\tau_{\perp\parallel}$) können unter Umständen toleriert werden.
+
+</div>
+
+---
+
+# 16.5 Das „Knie" im $\sigma$-$\varepsilon$-Diagramm
+
+- Frühzeitige Zfb → **Steifigkeitsverlust** = „Knie" (Knistergrenze)
+- Detektierbar durch **Schallemissionsanalyse** (SEA)
+- GFK-Laminate: durchsichtig → trüben ab dem Knie **milchig** ein
+- Bei weiterer Belastung: Rissdichte wächst → **Risssättigung**
+- Totalversagen schließlich durch **Faserbruch**
+
+<div class="eq">
+
+**Problem bei GFK:** Querzugversagen schon bei $\varepsilon_\perp \approx 0{,}004$
+
+Faser-Bruchdehnung: $\varepsilon_\parallel \approx 0{,}02$
+
+→ Großes Festigkeitspotenzial der Fasern **nicht nutzbar**!
+
+</div>
+
+---
+
+# 16.5 Knie – Wiederholte Belastung
+
+Bei Entlastung und erneuter Belastung:
+1. Spannungsanstieg mit **geringerer Steigung** (Steifigkeitsverlust = Schädigungsnachweis)
+2. Bei Überschreiten der bisherigen Maximalspannung → neues „Knie"
+3. Schallemissionen setzen erst ab neuem Knie wieder ein
+
+### GFK vs. CFK
+- **GFK**: Knie besonders ausgeprägt (hohe Quersteifigkeit, kleiner Orthotropiegrad $E_\perp/E_\parallel$)
+- **CFK**: Knie weniger markant (niedrige Quersteifigkeit relativ zu hoher Faserlängssteifigkeit)
+
+---
+
+# 16.6 Delamination
+
+**Schichtentrennung** – besondere Versagensart bei Schichtaufbauten
+
+- Durch **interlaminare Spannungen** (zwischen Schichten, nicht innerhalb)
+  - Interlaminare Schubspannungen (ILS)
+  - Normalspannungen (Aufzieh-/Schälspannungen) – meist gefährlicher!
+- Flächige Ausbreitung, oft **kein Riss-stoppender Mechanismus**
+- Detektion: Klopftest, Ultraschall, **Thermografie**, bei GFK visuell (Trübung)
+
+---
+
+# 16.6.1 Typische Delaminationsfälle
+
+1. **Zfb als Ausgangspunkt** → ILS am Rissufer → Delamination bei Schwingbelastung
+2. **Schlagbelastung** (Impact) → Fb + Zfb + Delamination lokal
+3. **Aufgeklebte Steifen** (Stringer, Pflaster) → Ablösung durch Querkraftschub
+4. **Schrumpf-/Härtespannungen** in dickwandigen Rohren
+5. **Freie Ränder** → unterschiedliche Querkontraktion → interlaminare Randspannungen
+6. **Aufbiegen gekrümmter Laminate** entgegen der Krümmung → Aufziehspannungen
+
+---
+
+# 16.6.1 Folgen von Delaminationen
+
+- **Beulgefahr**: Biegesteifigkeit drastisch reduziert → frühzeitiges Beulen → Kollaps
+  - Test: **CAI** (Compression After Impact)
+- **Querkraftbiegung**: Aufspaltung → Biegesteifigkeit sinkt auf Bruchteil
+- Große Deformationen beeinträchtigen restliche Struktur
+
+---
+
+# 16.6.2 Maßnahmen gegen Delaminationen
+
+<div class="zwei-spalten">
+<div>
+
+### Risswiderstand erhöhen
+- **Zähmodifizierte Matrix**
+- Zähe **Thermoplast-Zwischenschichten**
+- **Schnittmatten** zwischen UD-/Gewebeschichten
+- **Mechanische Klemmung** ($\sigma^-_z$ durch Presssitze)
+
+</div>
+<div>
+
+### Verstärkung in z-Richtung
+- **3D-Gelege**
+- **Vernähen**
+- **Z-Pins** (zugeschärfte UD-CFK-Stäbchen)
+  - Verhindert nicht Entstehung, aber reduziert Ausbreitung
+  - Nachteil: mindert Festigkeiten in xy-Ebene
+
+</div>
+</div>
 
 ---
 
 <!-- _class: lead -->
 
-
-## Ziel
-
-- Auslegung beinhaltet immer eine gewisse Optimierung
-Die Struktur wird so dimensioniert, dass sie die voraussichtlich auftretenden Lasten mit einer festgelegten Sicherheit trägt
-- zusätzlich sind Fertigungs-, Operations-, etc.-gesichtspunkte zu betrachten
-- die optimale Dimensionierung erhält man durch systematische auotmatisierte Strukturoptimierung
-Für die Auslegungsphase in der Regel zu aufwändig
-- gefragt sind einfache Verfahren, die
-   - nicht unbedingt das exakte Optimum erreichen
-   - schnell sind
-
----
-
-# Einfache Auslegungsverfahren
-- Annahmen
-   - UD Einzelschichten werden verwendet
-   - Faser und Matrixmaterial und Faservolumengehalt sind vorab festgelegt
-   - Anzahl, Dicke und Faserrichtung der Schichten werden bestimmt
-
-- 4 Verfahren
-   - Auslegung nach Hauptspannungen
-   - Auslegung nach der Netztheorie
-   - Auslegung nach Steifigkeit
-   - Auslegung mittels Ranking
-
-
----
-
-# Auslegung nach Hauptspannungen
-## Vorgehen
-- Ausrichten der Fasern in Richtung der Hauptspannung
-- Wahl der Schichtdicke deart, dass Festigkeit bei ausreichend Sicherheit erfüllt ist
-
-## Vorteile
-- Optimales Ausnutzen der Tragfähigkeit
-## Nachteile
-- nur ein Lastfall möglich
-- schwierig zu fertigen -> Nachführen der Faserrichtung ist schwierig
----
-# Auslegung nach Hauptspannungen
-## Rechenbeispiel
-- Bestimmung der Membranschnittkräfte
-
-$$\mathbf{N}=\begin{bmatrix} N_x=600 N/mm\\
-N_y = 100 N/mm\\
-N_{xy}=60N/mm
-\end{bmatrix}$$
-- Bestimmung der Hauptnormalspannungen für den ebenen Spannungszustand
-
-$$N_{1,2}=\frac{N_x+N_y}{2}\pm\sqrt{\frac{(N_x-N_y)^2}{4}+N_{xy}^2}$$
-
-$$N_{1}=607N/mm\qquad \text{und}\qquad N_{2}=93N/mm$$
-
----
-# Auslegung nach Hauptspannungen
-
-
-
-- Bestimung der Richtung der Hauptnormalspannungen
-
-$$\tan 2\Psi = \frac{2N_{xy}}{N_x-N_y} = 120/500=0.24$$
-
-$$\Psi \approx 7°$$
-
-- Faserrichtung $7°$ und $-83°$
-
----
-
-# Auslegung nach Hauptspannungen
-## Materialauswahl
-- CFK UD Gelege mit Faservolumenanteil $\varphi = 60\%$
-- Schichtdicke $d=0.125 mm$
-- Zugfestigkeit $R_L^{(+)}=1300 N / mm^2$
-- Sicherheit gegen Bruch $S_B = 2.0$
-## Bestimmung erforderlichen Lagenzahl
-7° Richtung: $2.0\cdot 607/1300=0.93mm$
--83° Richtung: $2.0\cdot 93/1300=0.14mm$
-**Gewählte Auslegung**
-7° Richtung: 8 Schichten / Lagen ergeben 1.0 mm > 0.93mm
--83° Richtung: 2 Schichten / Lagen ergeben 0.25 mm 0.14 mm
-
----
-# Auslegung nach Hauptspannungen
-## Probleme
-- zwei Fasern ergeben kein statisch bestimmtes System, d.h. für beliebige Belastungen müssen mindestens **drei** Faserrichtungen betrachtet werden
-- Nachführen der Fasern auf der Linie der Hauptnormalspannungen ist praktisch kaum möglich
-- bei kleineren Störungen bei ansonsten geraden Verlauf der Hauptspannungslonien kann man stückweise gerade Pflaster aufbringen
-- Scheibe mit Loch ''auswechseln''
-
----
-# Gelochte Scheibe unter gleichmäßiger Zugbelastung
-
-![bg 70%](../../assets/Figures/FKV/gelochte_scheibe.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
----
-
-# Auslegung nach Netztheorie
-## Annahmen
-- Alle Kräfte werden durch Fasern aufgenommen
-- die Matrix hält die Fasern in ihrer Position, keine Schub- und Quersteifigkeitsbeitrag
-- Steifigkeiten des Laminats nach der Netztheorie sind etwa 10\% geringer als nach der Schichtentheorie
-- Experimente bestätigen die Werte der Schichtentheorie
-- Netztheorie nur noch für Sonderfälle aktuell
-   - Berechnung der Bruchfestigkeit wenn Matrix versagt -> ultimate strength
-   - Auslegung von Laminaten
-
----
-# Auslegung nach Netztheorie
-## Vorgehensweise
-- Vorgabe von drei Faserrichtungen
-- Bestimmung der Beanspruchungen in den Faserrichtungen
-- Berechnung der Schichtdicken derart, dass
-die Beanspruchung / Tragfähigkeit in der jeweiligen Faserrichtung zu einer ausreichenden Sicherheit führt
-
----
-# Auslegung nach Netztheorie
-- Aufteilung der Kräfte auf die drei Faserrichtungen
-- Kreuzungspunkte sind reibungsfrei Verbindungen
-
-![bg right fit](../../assets/Figures/FKV/netztheorie.png)
-
-
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
----
-# Auslegung nach Netztheorie
-## Rechenbeispiel
-
-- Bestimmung der Membranschnittkräfte
-
-$$\mathbf{N}=\begin{bmatrix} N_x=600 N/mm\\
-N_y = 100 N/mm\\
-N_{xy}=60N/mm
-\end{bmatrix}$$
-
-- Wahl der Faserrichtungen: $\Psi_1=0°$, $\Psi_2=+45°$, $\Psi_3=-45°$
-
-- Bestimmung der Lastanteile $\mathbf{N}_1$, $\mathbf{N}_2$, $\mathbf{N}_3$
-
----
-
-
-## Aufteilung der Kräfte auf die drei Faserrichtungen
-
-$$N_x=\sum_{i=1}^3\cos^2\Psi_i N_i$$
-$$N_y=\sum_{i=1}^3\sin^2\Psi_i N_i$$
-$$N_{xy}=\sum_{i=1}^3\sin\Psi_i\cos\Psi_i N_i$$
-![bg right fit](../../assets/Figures/FKV/aufteilung_Mebrankraefte.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
----
-## Mohrsche Transformation
-
-$\begin{aligned}
-N_x &= N_i \cdot \underbrace{\cos\Psi_i}_{\text{Kraft in x}} \cdot \underbrace{\cos\Psi_i}_{\text{Fläche}} \\
-N_y &= N_i \cdot \underbrace{\sin\Psi_i}_{\text{Kraft in y}} \cdot \underbrace{\sin\Psi_i}_{\text{Fläche}} \\
-N_{xy} &= N_i \cdot \underbrace{\sin\Psi_i}_{\text{Kraft in y}} \cdot \underbrace{\cos\Psi_i}_{\text{Fläche}} 
-\end{aligned}$
-
-
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/f/f5/Spannung_5.svg)
-
----
-
-$\begin{array}{lll}
-\text{Faserwinkel 0°:}   & \sin(0°) = 0 & \cos(0°) = 1\\
-\text{Faserwinkel +45°:} & \sin(+45°) = \frac{\sqrt{2}}{2} & \cos(+45°) = \frac{\sqrt{2}}{2}\\
-\text{Faserwinkel -45°:} & \sin(-45°) = -\frac{\sqrt{2}}{2} & \cos(-45°) = \frac{\sqrt{2}}{2}
-\end{array}
-$
-
-$
-\begin{bmatrix}
-N_x\\
-N_y\\
-N_{xy}
-\end{bmatrix} = \begin{bmatrix}
-1& 1/2 & 1/2\\
-0& 1/2 & 1/2\\
-0& 1/2 & -1/2\\
-\end{bmatrix} \begin{bmatrix}
-N_1\\
-N_2\\
-N_3
-\end{bmatrix}
-$
-invertieren
-$
-\begin{bmatrix}
-N_1\\
-N_2\\
-N_3
-\end{bmatrix} = \begin{bmatrix}
-1& -1 & 0\\
-0& 1 & 1\\
-0& 1 & -1\\
-\end{bmatrix} \begin{bmatrix}
-N_x\\
-N_y\\
-N_{xy}
-\end{bmatrix}
-$
-
----
-
-$\begin{array}{lll}
-\text{Faserwinkel 0°:}   & N_1 = 600-100 = 500 N/mm\\
-\text{Faserwinkel +45°:} & N_2 = 100+60=160N/mm\\
-\text{Faserwinkel -45°:} & N_3 = 100 -60 = 40 N/mm
-\end{array}
-$
-
----
-
-# Auslegung nach Netztheorie
-
-## Materialauswahl
-- CFK UD Gelege mit Faservolumenanteil $\varphi = 60\%$
-- Schichtdicke $d=0.125 mm$
-- Zugfestigkeit $R_L^{(+)}=1300 N / mm^2$
-- Sicherheit gegen Bruch $S_B = 2.0$
-## Erforderliche Schichdicken
-$\begin{array}{lll}
-\text{Faserwinkel 0°:}   & 2\cdot 500/1300 = 0.77mm\\
-\text{Faserwinkel +45°:} & 2\cdot 160/1300 = 0.25mm\\
-\text{Faserwinkel -45°:} & 2\cdot 40/1300 = 0.06mm
-\end{array}$
-
----
-
-**Gewählte Auslegung**
-$\begin{array}{lll}
-\text{Faserwinkel 0°:}   & \text{7 Schichten ergeben  0.875 mm>0.77 mm}\\
-\text{Faserwinkel +45°:} & \text{2 Schichten ergeben  0.25 mm}\\
-\text{Faserwinkel -45°:} & \text{7 Schichten ergeben  0.25 mm>0.06 mm}
-\end{array}$
-
----
-
-# Auslegung nach Netztheorie, Fazit
-
-- Kräfte werden primär von Fasern aufgenommen
-   - geringe Verzerrung des Verbunds
-   - geringe Beanspruchung der Matrix
-- einfache Auslegungsprozedur
-- Auslegung auf drei Schichten begrenzt
-- gilt nur für einen Lastfall
-- nur für Membranbeanspruchung geeignet
-
----
-# Auslegung nach Steifigkeit
-## Vorgehensweise
-- Vorgabe von drei Faserrichtungen
-- Festlegung der maximalen Verzerrungen mit ausreichender Sicherheit gegen Bruch
-- Berechnung der Schichtdicke derart, dass geforderte maximale Verzerrung eingehalten wird
-
----
-
-
-# Auslegung nach Steifigkeit
-
-
-## Materialauswahl
-- CFK UD Gelege mit Faservolumenanteil $\varphi = 60\%$
-- Schichtdicke $d=0.125 mm$
-- $E_L=150000 N / mm^2$
-- $E_T = 8000 N/mm^2$
-- $G_{LT} = 2800 N/mm^2$
- - $\nu_{LT} = 0.3$
-
----
-
-## Materialgesetz - Membranverhalten
-
-$
-\begin{bmatrix}
-N_x=600N/mm\\
-N_y=100N/mm\\
-N_{xy}=60N/mm
-\end{bmatrix} = \begin{bmatrix}
-A_{11}& A_{21} & A_{31}\\
-A_{12}& A_{22} & A_{32}\\
-A_{13}& A_{23} & A_{33}\\
-\end{bmatrix} \begin{bmatrix}
-\varepsilon_x=0.004\\
-\varepsilon_y=0.004\\
-\gamma_{xy}=0.004
-\end{bmatrix}
-$
-
-**Membransteifigkeit**
-$[A_{ji}] = \sum_k [Q_{ij}]_k\cdot t_k$
-
----
-
-- Aus dem Materialgesetz ergibt sich
-$\begin{array}{lll}
-600/0.004   = 153135\cdot t_0 + 117463 \cdot t_{+45} + 46121 \cdot t_{-45}\\
-100/0.004   = 10451\cdot t_0 + 117463 \cdot t_{+45} + 46121 \cdot t_{-45}\\
-60/0.004   = 2800\cdot t_0 + 109827 \cdot t_{+45} - 32857 \cdot t_{-45}
-\end{array}$
-- Schichtdicken
-$\begin{array}{lll}
-t_{0} = 0.88mm \\ 
-t_{+45} = 0.123mm\\
-t_{-45} = 0.03mm
-\end{array}$
-
-**Gewählte Auslegung**
-$\begin{array}{lll}
-\text{Faserwinkel 0°:}   & \text{8 Schichten ergeben  0.875 mm>0.880 mm}\\
-\text{Faserwinkel +45°:} & \text{1 Schichten ergeben  0.123 mm > 0.123 mm}\\
-\text{Faserwinkel -45°:} & \text{1 Schichten ergeben  0.125 mm>0.03 mm}
-\end{array}$
-
----
-# Auslegung nach Steifigkeit
-## Fazit
-- einfache Auslegungsprozedur
-- Auslegung auf drei Lagen begrenzt
-- gilt nur für einen Lastfall
-- kann auch für Biegebeanspruchung erweitert werden
-   - dann Vorgabe des prinzipiellen Lagenaufbaus (Reihenfolge der Lage)
-   - Vorgabe der Maximalen Verkrümmung
-
----
-# Auslegung mittels Ranking
-## Vorgehen
-- Schichtzahl und mögliche Faserrichtung wählen
-- Auslegungswert (Beullast, Reservefaktor, ...) für alle möglichen Anteilskombinationen ausrechnen
-- **Rangfolge** aufstellen und Anteilskombination mit dem günstigsten Auslegungswert feststellen
-- Schichtdicke proportional so verändern, dass geforderte Sicherheit gerade eingehalten wird
-
----
-## Ranking ohne Einschränkung
-- Durchrechnen für alle möglichen Lagenaufbauten kann sehr auswendig sein
-
-$\begin{array}{lll}
-\text{n: Schichten}   \\
-\text{r: Schichtausrichtungen} \\
-\text{r}^{\text{n}}: \text{Lagenaufbauten müssen untersucht werden}
-\end{array}$
-
-**Beispiel**
-
-$$ n = 16$$
-$$r = 4$$
-$$r^n = 4^{16} = 4294967296$$
-
-- Festigkeiten oder Beullasten für über 4 Milliarden Laminate auszurechnen ist kein vertretbarer Aufwand
-- Ranking ohne Einschränkung ist nicht praktikabel
-
----
-
-## Ranking mit Einschränkung: Symmetrischer Lagenaufbau
-- Aufwand wird reduziert, wenn nicht alle möglichen Variationen zugelassen werden
-- Optimum wird ggf. verfehlt
-- so wenig Zusatzbedingungen wir möglich, so viele wie nötig
-- symmetrischer Lagenaufbau
-
-$$ n = 16 \rightarrow 8$$
-$$r = 4$$
-$$r^n = 4^8 = 65536$$
-
-- Häufig wird symmetrisch auslegt, um Koppeleffekte zu vermeiden (B Anteil in der ABD Matrix)
-
----
-
-## Abweichung vom Optimum
-- Beullast einer Kreiszylinderschale unter Axiallast R=250 mm, L=150 mm, t=0.25 mm
-- Schichtrichtung so gewählt, dass Beullast maximal wird
-- bei wenigen Schichten kann der Verlust an Tragfähigkeit mehr als 20\% betragen
-- bei mehr als 5 Schichten ist kein Verlust der Tragfähigkeit zu erwarten
-
-
-
-![bg right 90%](../../assets/Figures/FKV/Ranking_symmetrisch.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Vorlesung "Leichtbau mit Faserverbunden" SS2008 von Prof. Dr.-Ing. Klaus Rohwer"
-</div>
-
----
-
-## Ranking mit Einschränkung: Sublaminate
-
-- Sublaminat = ein Baustein des Gesamtlaminats
-- für ein Sublaminat werden festgelegt: mögliche Schichtrichtungen, Anzahl der Schichten
-
-Beispiel: 
-- 16 Schichten, symmetrischer Aufbau, damit 8 Schichten wählbar  die  
-- Symmetriehälfte aufgeteilt in zwei Sublaminate zu n = 4 Schichten
-- r = 4 Schichtrichtungen
-- $r^n = 4^4=256$ zu untersuchende Laminate
-- Zahl der zu untersuchenden Laminate ist erheblich reduziert
-- bei Biegebeanspruchung wird das Optimum wahrscheinlich weit verfehlt
-
----
-
-Fazit: Für Laminate unter Biegeblastung ist die Festlegung von Sublaminaten zur Auslegung mittels Ranking nicht zulässig
-
-
----
-## Ranking für Laminate unter Membranbeanspruchung
-- für die Membranbeanspruchung ist die Reihenfolge der Lagen nicht von Belang
-- symmetrischer Lagenaufbau wird vorrausgesetzt
-
-**Nomenklatur** für Sublaminate unter Membranbeanspruchung
-
-
-$\begin{array}{ll}
-&\text{Beispiel}\\
-[n_0,n_{90}, n_{+45}, n_{-45}]& \text{[4,2,1,1] heißt:}  \\
-n_0 \text{ Schichten in 0°-Richtung} & \text{4 Schichten in 0°-Richtung}\\
-n_{90} \text{ Schichten in 90°-Richtung}&\text{2 Schichten in 90°-Richtung}\\
-n_{+45} \text{ Schichten in +45°-Richtung}&\text{1 Schicht in +45°-Richtung}\\
-n_{-45} \text{ Schichten in -45°-Richtung}&\text{1 Schicht in -45°-Richtung}
-\end{array}$
-
----
-- Wenn das Laminat aus n Schichten besteht und r Schichtrichtungen möglich sind, muss gelten $n=\sum_r n_{\varphi_r}$
-- gesucht sind die Schichtzahlen für jede Richtung r
-
----
-
-# Ranking für Laminate unter Membranbeanspruchung
-
-- Durchrechnen für alle Lagenaufbauten erfordert erträglichen Aufwand
-- Für n Schichten und r mögliche Schichtrichtungen müssen 
-$$\binom{n+r-1}{r-1}$$
-Lagenaufbauten untersucht werden (Kombination mit Wiederholung)
-
-**Beispiel:** 16 Schichten, symmetrisch: n=8, r=4 Schichtrichtungen
-$$\binom{8+4-1}{4-1} = \binom{11}{3} = \frac{11 \cdot 10 \cdot 9}{1 \cdot 2 \cdot 3} = 165$$
-
-→ 165 Laminate sind zu untersuchen
-
----
-
-## Kombinationen mit Wiederholung ("Stars and Bars")
-
-**Problem:** Wie viele Möglichkeiten gibt es, n=8 Schichten aus r=4 Faserrichtungen zu wählen?
-
-**Kleine Beispiel:** n=3 Schichten, r=2 Richtungen (0° und 90°)
-- [0°, 0°, 0°]
-- [0°, 0°, 90°]  
-- [0°, 90°, 90°]
-- [90°, 90°, 90°]
-
-→ 4 Kombinationen = $\binom{3+2-1}{2-1} = \binom{4}{1} = 4$ ✓
-
----
-
-## Stars and Bars Interpretation
-
-Stelle dir **8 Sterne** (Schichten) und **3 Trennbalken** (für 4 Gruppen) vor:
-```
-★★|★★★|★|★★
-```
-
-Bedeutet: 2× 0°, dann 3× +45°, dann 1× -45°, dann 2× 90°
-
-**Lösung:**
-- Verteile n+r-1 = 11 Objekte (8 Sterne + 3 Balken)
-- Wähle r-1 = 3 Positionen für die Balken
-- $\binom{11}{3} = 165$ Möglichkeiten
-
----
-
-- Durchrechnen für alle Lagenaufbauten erfordert erträglichen Aufwand
-- für n Schichten und r mögliche Schichtrichtungen müssen 
-
-$$\begin{bmatrix}
-n+r-1\\
-r-1
-\end{bmatrix}
-$$
-Lagenaufbauten untersucht werden (Kombination mit Wiederholung)
-
-Beispiel: 16 Schichten, symmetrisch: n=8, r=4 Schichtrichtungen
-$$\begin{bmatrix}
-n+r-1\\
-r-1
-\end{bmatrix} = \begin{bmatrix}
-8+4-1\\
-4-1
-\end{bmatrix} = \begin{bmatrix}
-11\\
-3
-\end{bmatrix} = \frac{11 \cdot 10 \cdot 9}{1 \cdot 2\cdot 3}=165
-$$
-165 Laminate sind zu untersuchen
-
-
----
-
-# Systematisch automatisierte Optimierung
-
----
-# Dreisäulenkonzept der Optimierung
-- **Strukturmechanisches Modell**
-   - so einfach wie möglich
-   - so genau wie nötig; gegenüber der Festigkeitsnachweise müssen Forderungen an die Genauigkeit mitunter erheblich reduziert werden, um die Rechenzeiten in Grenzen zu halten
-- **Optimierungsmodell**
-   - Festlegung variabler und vorgebener Parameter
-   - Formulierung der Zielfunktion
-   - Bestimmung der Restriktionen
-
----
-
-# Dreisäulenkonzept der Optimierung
-
-- **Optimierungsalgorithmen**
-   - Charakter der Optimierung bestimmt eine günstige Rechenvorschrift
-   - allgemeine Aussagen darüber, wann welcehr Algorithmus zu empfehlen ist, sind kaum möglich
-   - Erfahrungen mit dem Probelm können Hinweise geben
-
----
-# Praxisbeipiel
-![bg 60%](../../assets/Figures/FKV/design_workflow.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Folgende Bilder entmommen aus der M. Rädel; C. Willberg; A. Schröder; S. Froese; M. Hanke; "FFS: CONCEPTS & PRELIMINARY DESIGN OF A FRP LIGHTWEIGHT AEROSPACE STRUCTURE UNDER CONSIDERATION OF SECONDARY BONDING MANUFACTURING"
-</div>
-
----
-
-![bg 60%](../../assets/Figures/FKV/airbrake_lastfall.png)
-
----
-![bg 60%](../../assets/Figures/FKV/components.png)
-
----
-
-![bg 80%](../../assets/Figures/FKV/design_crit.png)
-
-![bg 80%](../../assets/Figures/FKV/failure_modes.png)
-
-
-
-
----
-
-# Praxisbeipiel
-
-![bg 80%](../../assets/Figures/FKV/analyseprozess.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Bach, T.; Führer, T.; Willberg C. and Dähne, S. "Automated Sizing of a composite wing for the usage within a multi-disciplinary design process", 10.13140/2.1.3145.4406
-</div>
-
-
-
----
-
-![bg 80%](../../assets/Figures/FKV/versagenskriterien.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Bach, T.; Führer, T.; Willberg C. and Dähne, S. "Automated Sizing of a composite wing for the usage within a multi-disciplinary design process", 10.13140/2.1.3145.4406
-</div>
-
----
-
-- Optimierung passiert Ranking basiert
-- update wird lokale auf Panelebene vorgegeben
-- FEM wird dann genutzt, um aktualisierte Lastpfade abzuschätzen
-
-![bg fit right](../../assets/Figures/FKV/hypersizer_Loads.png)
-
-![bg fit vertical](../../assets/Figures/FKV/skin_thickness.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild entmommen aus der Bach, T.; Führer, T.; Willberg C. and Dähne, S. "Automated Sizing of a composite wing for the usage within a multi-disciplinary design process", 10.13140/2.1.3145.4406
-</div>
+# Zusammenfassung Kapitel 16
+
+| Versagensart | Beanspruchung | Kritikalität |
+|---|---|---|
+| Faserbruch Zug | $\sigma^+_\parallel$ | Nicht tolerierbar |
+| Faserbruch Druck (Schubknicken) | $\sigma^-_\parallel$ | Nicht tolerierbar |
+| Zfb Querzug | $\sigma^+_\perp$ | Bedingt tolerierbar |
+| Zfb Querdruck (Keilbruch!) | $\sigma^-_\perp$ | **Nicht tolerierbar** |
+| Zfb Quer-Längs-Schub | $\tau_{\perp\parallel}$ | Bedingt tolerierbar |
+| Delamination | ILS, $\sigma^+_z$ | Meist nicht tolerierbar |

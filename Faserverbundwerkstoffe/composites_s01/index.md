@@ -1,490 +1,659 @@
 ---
 marp: true
-header: 'Faserverbunde - Seminar Materialtheorie '
 theme: h2
+header: 'Seminar Festigkeit'
 paginate: true
-math: katex
----
-<!-- _class: lead -->
-# Seminar Materialtheorie 
-## Grundlagen der Kontinuumsmechanik
-Prof. Dr.-Ing. Christian Willberg
-Hochschule Magdeburg-Stendal
-
----
-# Agenda
-
-1. Hookesches Gesetz 1D
-2. Hookesches Gesetz 3D
-3. Hookesches Gesetz 2D
-   - Ebener Spannungszustand (ESZ)
-   - Ebener Dehnungszustand (EDZ)
-4. Rechenaufgaben
-
----
-<!-- _class: lead -->
-# 1. Hookesches Gesetz 1D
-
----
-# Hookesches Gesetz 1D - Grundlagen
-
-**Experimentelle Beobachtung:**
-Bei elastischen Materialien ist die Dehnung $\varepsilon$ proportional zur Spannung $\sigma$
-
-**Mathematische Formulierung:**
-$$\sigma = E \cdot \varepsilon$$
-
-mit:
-- $\sigma$ = Normalspannung [N/mm² = MPa]
-- $E$ = Elastizitätsmodul [MPa]
-- $\varepsilon$ = Dehnung [-]
-
----
-## Herleitung 1D
-
-**Ausgangspunkt:** Stab unter Zugbelastung
-
-$$\varepsilon = \frac{\Delta L}{L_0} = \frac{u'(x)}{L_0}$$
-
-**Spannung:**
-$$\sigma = \frac{F}{A}$$
-
-**Linearer elastischer Zusammenhang:**
-$$\sigma = E \cdot \varepsilon$$
-
-**Inverse Form:**
-$$\varepsilon = \frac{1}{E} \cdot \sigma = S \cdot \sigma$$
-
-mit $S = \frac{1}{E}$ als Nachgiebigkeit (Compliance)
-
----
-## Querkontraktion (Poisson-Effekt)
-
-Bei einachsiger Belastung tritt Querkontraktion auf:
-
-$$\varepsilon_q = -\nu \cdot \varepsilon_l$$
-
-mit:
-- $\nu$ = Poissonzahl (Querkontraktionszahl) [-]
-- $\varepsilon_q$ = Querdehnung
-- $\varepsilon_l$ = Längsdehnung
-
-**Typische Werte:**
-- Stahl: $\nu \approx 0.3$
-- Gummi: $\nu \approx 0.5$ (inkompressibel)
-- Kork: $\nu \approx 0$ (keine Querkontraktion)
-
----
-<!-- _class: lead -->
-# 2. Hookesches Gesetz 3D
-
----
-## Spannungs- und Dehnungstensor
-
-**Spannungstensor (symmetrisch):**
-$$\boldsymbol{\sigma} = \begin{pmatrix} 
-\sigma_{11} & \sigma_{12} & \sigma_{13} \\
-\sigma_{12} & \sigma_{22} & \sigma_{23} \\
-\sigma_{13} & \sigma_{23} & \sigma_{33}
-\end{pmatrix}$$
-
-**Dehnungstensor (symmetrisch):**
-$$\boldsymbol{\varepsilon} = \begin{pmatrix} 
-\varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
-\varepsilon_{12} & \varepsilon_{22} & \varepsilon_{23} \\
-\varepsilon_{13} & \varepsilon_{23} & \varepsilon_{33}
-\end{pmatrix}$$
-
----
-## Hookesches Gesetz 3D - Tensorform
-
-**Allgemeine Form:**
-$$\boldsymbol{\sigma} = \mathbb{C} : \boldsymbol{\varepsilon}$$
-
-mit $\mathbb{C}$ als Elastizitätstensor 4. Stufe
-
-**Indexnotation:**
-$$\sigma_{ij} = C_{ijkl} \cdot \varepsilon_{kl}$$
-
-Für isotrope Materialien: nur 2 unabhängige Konstanten!
-- Elastizitätsmodul $E$
-- Poissonzahl $\nu$
-
+math: mathjax
 ---
 
-**Alternative Parametrisierung:**
-- Lamé-Konstanten: $\lambda$, $\mu$
-- Kompressionsmodul $K$, Schubmodul $G$
-
----
-# Hookesches Gesetz 3D - Isotroper Fall
-
-**Normalspannungen:**
-$$\varepsilon_{11} = \frac{1}{E}\left[\sigma_{11} - \nu(\sigma_{22} + \sigma_{33})\right]$$
-$$\varepsilon_{22} = \frac{1}{E}\left[\sigma_{22} - \nu(\sigma_{11} + \sigma_{33})\right]$$
-$$\varepsilon_{33} = \frac{1}{E}\left[\sigma_{33} - \nu(\sigma_{11} + \sigma_{22})\right]$$
-
----
-
-**Schubspannungen:**
-$$\varepsilon_{12} = \frac{1+\nu}{E}\sigma_{12} = \frac{1}{2G}\sigma_{12}$$
-$$\varepsilon_{13} = \frac{1+\nu}{E}\sigma_{13} = \frac{1}{2G}\sigma_{13}$$
-$$\varepsilon_{23} = \frac{1+\nu}{E}\sigma_{23} = \frac{1}{2G}\sigma_{23}$$
-
-mit Schubmodul: $G = \frac{E}{2(1+\nu)}$
-
----
-
-# Voigt-Notation (Ingenieurnotation)
-
-Kompakte Darstellung durch Ausnutzung der Symmetrie:
-
-$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{33} \\ \sigma_{23} \\ \sigma_{13} \\ \sigma_{12} \end{Bmatrix} = 
-\begin{bmatrix}
-C_{11} & C_{12} & C_{12} & 0 & 0 & 0 \\
-C_{12} & C_{11} & C_{12} & 0 & 0 & 0 \\
-C_{12} & C_{12} & C_{11} & 0 & 0 & 0 \\
-0 & 0 & 0 & C_{44} & 0 & 0 \\
-0 & 0 & 0 & 0 & C_{44} & 0 \\
-0 & 0 & 0 & 0 & 0 & C_{44}
-\end{bmatrix}
-\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ \varepsilon_{33} \\ 2\varepsilon_{23} \\ 2\varepsilon_{13} \\ 2\varepsilon_{12} \end{Bmatrix}$$
-
-mit: $C_{11} = \frac{E(1-\nu)}{(1+\nu)(1-2\nu)}$, $C_{12} = \frac{E\nu}{(1+\nu)(1-2\nu)}$, $C_{44} = G = \frac{E}{2(1+\nu)}$
-
----
+<style>
+.aufgabe {
+  border: 2px solid #e67e22;
+  background-color: #fdf2e9;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.loesung {
+  border-left: 4px solid #27ae60;
+  background-color: #eafaf1;
+  padding: 15px;
+  margin: 10px 0;
+}
+.eq {
+  border: 2px solid #c39bd3;
+  background-color: #f4ecf7;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px 0;
+}
+.hinweis {
+  border-left: 4px solid #2e86c1;
+  background-color: #eaf2f8;
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.zwei-spalten {
+  display: flex;
+  gap: 20px;
+}
+.zwei-spalten > * {
+  flex: 1;
+}
+h1 {
+  font-size: 34px;
+  color: #1a5276;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+section {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 23px;
+  color: #1e2a3a;
+}
+table th {
+  background-color: #1a5276;
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
 
 <!-- _class: lead -->
-# 3. Hookesches Gesetz 2D
 
----
-# 2D-Vereinfachungen
-
-**Zwei wichtige Sonderfälle:**
-
-1. **Ebener Spannungszustand (ESZ)**
-   - Plane Stress State (PSS)
-   - Dünne Scheiben, Platten
-   - $\sigma_{33} = \sigma_{13} = \sigma_{23} = 0$
-
-2. **Ebener Dehnungszustand (EDZ)**
-   - Plane Strain State (PES)
-   - Lange Strukturen (Staudämme, Tunnel)
-   - $\varepsilon_{33} = \varepsilon_{13} = \varepsilon_{23} = 0$
-
----
-# Ebener Spannungszustand (ESZ)
-
-**Annahmen:**
-- $\sigma_{33} = \sigma_{13} = \sigma_{23} = 0$
-- $\varepsilon_{33} \neq 0$ (freie Querkontraktion!)
-
-**Herleitung:**
-Aus dem 3D-Gesetz für $\sigma_{33} = 0$:
-$$\varepsilon_{33} = \frac{1}{E}\left[0 - \nu(\sigma_{11} + \sigma_{22})\right] = -\frac{\nu}{E}(\sigma_{11} + \sigma_{22})$$
+# Seminar Festigkeit
+## Versagen von UD-Schichten
+### Kapitel 16 – Übungsaufgaben
 
 ---
 
-**Verbleibende Gleichungen:**
-$$\varepsilon_{11} = \frac{1}{E}[\sigma_{11} - \nu\sigma_{22}]$$
-$$\varepsilon_{22} = \frac{1}{E}[\sigma_{22} - \nu\sigma_{11}]$$
-$$\varepsilon_{12} = \frac{1+\nu}{E}\sigma_{12}$$
+# Aufgabe 1 – Versagensarten zuordnen
 
----
-# Elastizitätsmatrix
+<div class="aufgabe">
 
-**Inverse Form (Spannungen aus Dehnungen):**
+Ordnen Sie die folgenden Beschreibungen der korrekten Versagensart zu (Faserbruch, Zwischenfaserbruch oder Delamination):
 
-$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} = 
-\frac{E}{1-\nu^2}
-\begin{bmatrix}
-1 & \nu & 0 \\
-\nu & 1 & 0 \\
-0 & 0 & \frac{1-\nu}{2}
-\end{bmatrix}
-\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+a) Ein Riss verläuft parallel zu den Fasern durch die Matrix einer einzelnen Schicht.
+b) Unter hoher Längszugbelastung tritt „besenförmiges" Abspleißen auf.
+c) Zwischen zwei benachbarten Schichten mit unterschiedlicher Faserorientierung entsteht eine flächige Trennung.
+d) An einer Bohrungsflanke knicken Fasern in die Bohrung hinein.
+e) Ein Riss verläuft unter ca. 53° zur Belastungsrichtung bei reinem Querdruck.
 
-**Anwendung:** Bleche, Membranen, dünne Platten unter Scheibenbeanspruchung
-
----
-# Ebener Dehnungszustand (EDZ)
-
-**Annahmen:**
-- $\varepsilon_{33} = \varepsilon_{13} = \varepsilon_{23} = 0$
-- $\sigma_{33} \neq 0$ (Behinderung in z-Richtung!)
-
-**Herleitung:**
-Aus $\varepsilon_{33} = 0$:
-$$0 = \frac{1}{E}[\sigma_{33} - \nu(\sigma_{11} + \sigma_{22})]$$
-$$\Rightarrow \sigma_{33} = \nu(\sigma_{11} + \sigma_{22})$$
+</div>
 
 ---
 
-**Verbleibende Gleichungen:**
-$$\varepsilon_{11} = \frac{1}{E}[\sigma_{11} - \nu\sigma_{22}] - \frac{\nu}{E}\sigma_{33}$$
+# Lösung 1
 
-Nach Einsetzen von $\sigma_{33}$:
-$$\varepsilon_{11} = \frac{1+\nu}{E}[(1-\nu)\sigma_{11} - \nu\sigma_{22}]$$
+<div class="loesung">
 
----
-# Ebener Dehnungszustand - Steifigkeitsmatrix
+a) **Zwischenfaserbruch (Zfb)** – Riss parallel zu den Fasern, durch Matrix und/oder Grenzfläche
 
-**Inverse Form:**
+b) **Faserbruch (Fb)** – Längszug-Faserbruch mit typischem besenförmigem Erscheinungsbild
 
-$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} = 
-\frac{E}{(1+\nu)(1-2\nu)}
-\begin{bmatrix}
-1-\nu & \nu & 0 \\
-\nu & 1-\nu & 0 \\
-0 & 0 & \frac{1-2\nu}{2}
-\end{bmatrix}
-\begin{Bmatrix} \varepsilon_{11} \\ \varepsilon_{22} \\ 2\varepsilon_{12} \end{Bmatrix}$$
+c) **Delamination** – flächige Schichtentrennung durch interlaminare Spannungen
 
-**Zusätzlich:**
-$$\sigma_{33} = \nu(\sigma_{11} + \sigma_{22})$$
+d) **Faserbruch (Fb)** – Schubknicken unter Längsdruckbeanspruchung $\sigma^-_\parallel$
 
-**Anwendung:** Staudämme, Tunnel, dicke Zylinder unter innerem Druck
+e) **Zwischenfaserbruch (Zfb)** – Querdruck-Versagen: kein Druckbruch, sondern Schubversagen ($\tau_{\perp\perp}$) auf schräger Ebene
+
+</div>
 
 ---
-# Vergleich ESZ vs. EDZ
 
-| Eigenschaft | ESZ | EDZ |
-|------------|-----|-----|
-| Geometrie | dünn in z-Richtung | lang in z-Richtung |
-| $\sigma_{33}$ | $= 0$ | $\neq 0$ |
-| $\varepsilon_{33}$ | $\neq 0$ | $= 0$ |
-| Vorfaktor | $\frac{E}{1-\nu^2}$ | $\frac{E}{(1+\nu)(1-2\nu)}$ |
-| Schubmodul | $G = \frac{E}{2(1+\nu)}$ | $G = \frac{E}{2(1+\nu)}$ (gleich!) |
-| Beispiele | Blech, Platte | Tunnel, Damm |
+# Aufgabe 2 – Längszugfestigkeit $R^+_\parallel$
 
-**Wichtig:** Bei $\nu = 0$ sind ESZ und EDZ identisch!
+<div class="aufgabe">
+
+Eine GFK-UD-Schicht wird aus E-Glasfasern ($R^+_f = 3400\;\text{MPa}$) und einem Epoxidharz gefertigt.
+
+a) Berechnen Sie die Längszugfestigkeit $R^+_\parallel$ für die Faservolumenanteile $\varphi = 0{,}45$, $\varphi = 0{,}55$ und $\varphi = 0{,}65$.
+
+b) Wie hoch ist die mikromechanische Faserspannung $\sigma_f$, wenn die makroskopische Spannung $\sigma_1 = 800\;\text{MPa}$ bei $\varphi = 0{,}55$ beträgt?
+
+c) Nennen Sie drei Gründe, warum die berechneten Werte in der Praxis nicht erreicht werden.
+
+</div>
 
 ---
+
+# Lösung 2a
+
+<div class="eq">
+
+$$R^+_\parallel = R^+_f \cdot \varphi$$
+
+</div>
+
+<div class="loesung">
+
+| $\varphi$ | $R^+_\parallel$ |
+|---|---|
+| 0,45 | $3400 \times 0{,}45 = \mathbf{1530\;\text{MPa}}$ |
+| 0,55 | $3400 \times 0{,}55 = \mathbf{1870\;\text{MPa}}$ |
+| 0,65 | $3400 \times 0{,}65 = \mathbf{2210\;\text{MPa}}$ |
+
+Linearer Zusammenhang – Verdoppelung von $\varphi$ verdoppelt $R^+_\parallel$.
+
+</div>
+
+<div class="hinweis">
+
+Gl. 16.2 gilt unter der Annahme $E_f \gg E_m$ (Matrix-Traganteil vernachlässigt). Die Formel eignet sich auch zur Umrechnung gemessener Festigkeiten auf andere Faservolumenanteile.
+
+</div>
+
+---
+
+# Lösung 2b
+
+<div class="loesung">
+
+Bei Vernachlässigung des Matrix-Traganteils:
+
+$$\sigma_f \approx \frac{\sigma_1}{\varphi} = \frac{800}{0{,}55} = \mathbf{1455\;\text{MPa}}$$
+
+Die mikromechanische Faserspannung ist fast **doppelt so hoch** wie die makroskopisch anliegende Spannung!
+
+</div>
+
+---
+
+# Lösung 2c
+
+<div class="loesung">
+
+Drei Gründe für die Abminderung gegenüber dem Rechenwert:
+
+1. **Vorschädigungen** – Fasern werden bei der Verarbeitung (Umlenkungen, Führungen) geschädigt
+2. **Ungleichmäßige Lastverteilung** – unterschiedliche Faserausrichtung und Vorspannung → nicht alle Fasern tragen gleichmäßig
+3. **Festigkeitsstreuung** der Einzelfilamente – früh brechende Fasern überlasten Nachbarn → Kettenreaktion → Gesamtfestigkeit sinkt
+
+</div>
+
+---
+
+# Aufgabe 3 – Schubknicken
+
+<div class="aufgabe">
+
+Für eine GF-EP-UD-Schicht gilt: $G_{\perp\parallel,0} = 4900\;\text{MPa}$.
+
+a) Welche maximale Längs-Druckfestigkeit $R^-_\parallel$ ist theoretisch erreichbar und unter welcher Bedingung?
+
+b) Erklären Sie, warum dieser Wert in der Praxis nicht erreicht wird.
+
+c) Wie wirkt sich eine Erhöhung der Faser-Fehlorientierung $\varphi_0$ von 1° auf 3° qualitativ auf $R^-_\parallel$ aus?
+
+d) Welchen Einfluss hat eine überlagerte Schubspannung $\tau_{21,0}$?
+
+</div>
+
+---
+
+# Lösung 3a–b
+
+<div class="loesung">
+
+**a)** Im Verzweigungsfall (ideale Faserausrichtung, $\varphi_0 = 0$):
+
+<div class="eq">
+
+$$R^-_\parallel = G_{\perp\parallel} = \mathbf{4900\;\text{MPa}}$$
+
+</div>
+
+**b)** Dieser Wert wird **nie** erreicht, weil:
+- Perfekte Faserausrichtung existiert nicht – es liegen immer lokale Faserwelligkeiten vor
+- Es handelt sich dann nicht um ein Stabilitäts-, sondern um ein **Spannungsproblem**
+- Schon kleine Fehlorientierungen führen zu starker Absenkung von $R^-_\parallel$
+
+</div>
+
+---
+
+# Lösung 3c–d
+
+<div class="loesung">
+
+**c)** Der Festigkeitsabfall ist bei **kleinen** $\varphi_0$ besonders steil:
+- Von $\varphi_0 = 0°$ auf $1°$: dramatischer Abfall (z.B. von 4900 auf ca. 2000 MPa)
+- Von $\varphi_0 = 1°$ auf $3°$: weiterer Abfall, aber relativ geringer (degressive Kurve)
+
+→ Fertigungsqualität ist **entscheidend** bei kleinen Fehlorientierungen!
+
+**d)** Überlagerte Schubspannung $\tau_{21,0}$:
+
+$$\sigma^-_\parallel = \frac{\tau_{\perp\parallel} - \tau_{21,0}}{\varphi_0 + \gamma_{\perp\parallel}}$$
+
+- Reduziert die effektive Schubkraft → $R^-_\parallel$ sinkt
+- Besonders stark bei $\varphi_0 = 0°$
+- Nahezu **linearer** Zusammenhang bei realistischen $\varphi_0$-Werten
+
+</div>
+
+---
+
+# Aufgabe 4 – Wirkebene vs. Bruchebene
+
+<div class="aufgabe">
+
+a) Erklären Sie den Unterschied zwischen **Festigkeit** und **Wirkebenen-Bruchwiderstand** nach Puck.
+
+b) Füllen Sie die Tabelle aus:
+
+| Beanspruchung | Wirkebene = Bruchebene? | $R = R^A$? |
+|---|---|---|
+| $\sigma^+_\perp$ (Querzug) | | |
+| $\sigma^-_\perp$ (Querdruck) | | |
+| $\tau_{\perp\parallel}$ (Quer-Längs-Schub) | | |
+| $\tau_{\perp\perp}$ (Quer-Quer-Schub) | | |
+
+c) Warum erfolgt der Bruch bei reinem Querdruck unter ca. 53° und nicht unter 45°?
+
+</div>
+
+---
+
+# Lösung 4a
+
+<div class="loesung">
+
+**Festigkeit** $R$: Bruchspannung dividiert durch Querschnittsfläche – ohne Rücksicht darauf, ob der Bruch in der Wirkebene erfolgt.
+
+**Wirkebenen-Bruchwiderstand** $R^A$: Der Widerstand, den eine Schnittebene ihrem Bruch infolge einer **einzeln** in ihr wirkenden Beanspruchung entgegensetzt.
+
+Bei der UD-Schicht können beide übereinstimmen – müssen es aber nicht! Die UD-Schicht ist in verschiedenen Richtungen unterschiedlich hoch belastbar, so dass der Bruch auf einer **anderen** Schnittebene auftreten kann als der Wirkebene.
+
+</div>
+
+---
+
+# Lösung 4b
+
+<div class="loesung">
+
+| Beanspruchung | Wirkebene = Bruchebene? | $R = R^A$? |
+|---|---|---|
+| $\sigma^+_\perp$ (Querzug) | **Ja** | $R^+_\perp = R^{A+}_\perp$ ✅ |
+| $\sigma^-_\perp$ (Querdruck) | **Nein** (Bruch unter 53°) | $R^{A-}_\perp \to \infty$ ❌ |
+| $\tau_{\perp\parallel}$ (Quer-Längs-Schub) | **Ja** | $R_{\perp\parallel} = R^A_{\perp\parallel}$ ✅ |
+| $\tau_{\perp\perp}$ (Quer-Quer-Schub) | **Nein** (Bruch unter 45°) | $R_{\perp\perp} \neq R^A_{\perp\perp}$ ❌ |
+
+</div>
+
+<div class="hinweis">
+
+Nur bei $\tau_{\perp\perp}$: Die Indizierung mit „A" ist **unerlässlich**! $R^A_{\perp\perp}$ darf niemals mit $R_{\perp\perp}$ verwechselt werden.
+
+</div>
+
+---
+
+# Lösung 4c
+
+<div class="loesung">
+
+Bei reinem Querdruck $\sigma^-_\perp$ wird die Schubbeanspruchung $\tau_{\perp\perp}$ unter **45°** maximal – eigentlich wäre dort der Bruch zu erwarten.
+
+Jedoch wirkt auf der 45°-Schnittfläche zusätzlich eine **Querdruckkomponente**:
+
+$$\sigma_\perp^- \cdot \cos^2\theta_{fp}$$
+
+Diese erzeugt **innere Reibung**, die den Bruch auf der 45°-Ebene erschwert.
+
+Der Bruch weicht daher auf eine **steilere Ebene** (~53°) aus, auf der:
+- Die Querdruckkomponente **stärker abgefallen** ist
+- Der $\tau_{\perp\perp}$-Schubanteil noch **ausreichend hoch** ist
+
+→ Auf der 53°-Ebene liegt der **niedrigste Bruchwiderstand** $R^A_{\perp\perp}$ vor.
+
+</div>
+
+---
+
+# Aufgabe 5 – Dehnungsvergrößerung
+
+<div class="aufgabe">
+
+Gegeben: GF-EP-UD-Schicht mit quadratischer Faserpackung.
+
+- $E_{f\perp} = 73000\;\text{MPa}$ (Glasfaser, isotrop)
+- $E_m = 3400\;\text{MPa}$
+- $\varphi = 0{,}60$
+
+a) Berechnen Sie den maximalen Dehnungsvergrößerungsfaktor $f_{\varepsilon,\text{max}}$.
+
+b) Das EP-Reinharz hat eine Bruchdehnung von $\varepsilon_m = 5\%$. Schätzen Sie die Quer-Bruchdehnung $\varepsilon_\perp$ der UD-Schicht ab.
+
+c) Berechnen Sie $f_{\varepsilon,\text{max}}$ für eine CFK-HT-UD-Schicht mit $E_{f\perp} = 15000\;\text{MPa}$, $E_m = 3400\;\text{MPa}$, $\varphi = 0{,}60$. Vergleichen und interpretieren Sie.
+
+</div>
+
+---
+
+# Lösung 5a
+
+<div class="eq">
+
+$$f_{\varepsilon,\text{max}} = \frac{1}{1 - \sqrt{\dfrac{\varphi}{\pi}} \cdot \left(1 - \dfrac{E_m}{E_{f\perp}}\right)}$$
+
+</div>
+
+<div class="loesung">
+
+$$\sqrt{\frac{0{,}60}{\pi}} = \sqrt{0{,}1909} = 0{,}4370$$
+
+$$1 - \frac{3400}{73000} = 1 - 0{,}0466 = 0{,}9534$$
+
+$$f_{\varepsilon,\text{max}} = \frac{1}{1 - 0{,}4370 \times 0{,}9534} = \frac{1}{1 - 0{,}4166} = \frac{1}{0{,}5834}$$
+
+$$\boxed{f_{\varepsilon,\text{max}} \approx 1{,}71 \quad\text{... Moment!}}$$
+
+</div>
+
+---
+
+# Lösung 5a (korrigiert)
+
+<div class="hinweis">
+
+Die vereinfachte Formel mit $\sqrt{\varphi/\pi}$ ergibt moderate Werte. Der im Text genannte Faktor $f_\varepsilon \approx 6$ gilt für das **mittige Scheibchen** mit $l_m/l_0$ aus der quadratischen Packung:
+
+$$\frac{l_m}{l_0} = 1 - \frac{2r}{l_0}, \quad \varphi = \frac{\pi r^2}{l_0^2} \Rightarrow \frac{2r}{l_0} = 2\sqrt{\frac{\varphi}{\pi}}$$
+
+</div>
+
+<div class="loesung">
+
+$$\frac{l_m}{l_0} = 1 - 2\sqrt{\frac{0{,}60}{\pi}} = 1 - 2 \times 0{,}437 = 0{,}126$$
+
+$$f_{\varepsilon,\text{max}} = \frac{1}{\frac{l_m}{l_0} + \frac{E_m}{E_{f\perp}}\left(1 - \frac{l_m}{l_0}\right)} = \frac{1}{0{,}126 + 0{,}0466 \times 0{,}874} = \frac{1}{0{,}167} \approx \boxed{6{,}0}$$
+
+</div>
+
+---
+
+# Lösung 5b
+
+<div class="loesung">
+
+Abschätzung der Quer-Bruchdehnung:
+
+$$\varepsilon_\perp \approx \frac{\varepsilon_m}{f_{\varepsilon,\text{max}}} = \frac{0{,}05}{6{,}0} \approx \boxed{0{,}0083 = 0{,}83\%}$$
+
+In der Praxis liegt der Wert noch niedriger (ca. $\varepsilon_\perp \approx 0{,}4\%$), da:
+- Spannungskonzentrationen an Kontaktstellen Faser–Matrix
+- Fehlstellen, Poren, Haftungsmängel
+- Inhomogene Faserverteilung
+
+</div>
+
+<div class="hinweis">
+
+Vergleich: EP-Reinharz $\varepsilon_m \approx 5\%$ → GF-EP UD-Schicht $\varepsilon_\perp \approx 0{,}4\%$. Die hohe Bruchdehnung der Matrix bleibt fast vollständig **ungenutzt**!
+
+</div>
+
+---
+
+# Lösung 5c
+
+<div class="loesung">
+
+CFK-HT mit $E_{f\perp} = 15000\;\text{MPa}$:
+
+$$\frac{l_m}{l_0} = 0{,}126 \quad\text{(gleich, da gleicher } \varphi\text{)}$$
+
+$$f_{\varepsilon,\text{max}} = \frac{1}{0{,}126 + \frac{3400}{15000} \times 0{,}874} = \frac{1}{0{,}126 + 0{,}227 \times 0{,}874} = \frac{1}{0{,}324} \approx \boxed{3{,}1}$$
+
+</div>
+
+**Vergleich:**
+
+| | $E_{f\perp}/E_m$ | $f_{\varepsilon,\text{max}}$ |
+|---|---|---|
+| GFK (isotrop) | 21,5 | **6,0** |
+| CFK-HT (anisotrop) | 4,4 | **3,1** |
+
+→ C-Faser: niedrigeres $E_{f\perp}$ → Faser verformt sich quer mit → **deutlich geringere** Dehnungsvergrößerung. Positiver Effekt wird aber teils durch höhere thermische Eigenspannungen kompensiert.
+
+---
+
+# Aufgabe 6 – Tolerierbarkeit von Zfb
+
+<div class="aufgabe">
+
+Ein MSV-Bauteil wird unter statischer Last betrieben. In der FE-Analyse zeigt sich, dass in einzelnen Schichten die Zwischenfaserbruchgrenze lokal überschritten wird.
+
+a) Unter welchen Bedingungen können Zfb ggf. toleriert werden?
+
+b) Welche Zfb-Versagensform muss **unbedingt** vermieden werden und warum?
+
+c) Nennen Sie vier nachteilige Auswirkungen von Zfb auf das Laminat.
+
+</div>
+
+---
+
+# Lösung 6
+
+<div class="loesung">
+
+**a)** Zfb können unter folgenden Bedingungen toleriert werden:
+- Zfb durch $\sigma^+_\perp$ oder $\tau_{\perp\parallel}$ (nicht durch $\sigma^-_\perp$)
+- Überlasten mit **sehr geringer** Eintrittswahrscheinlichkeit
+- Bauteil wird danach **getauscht**
+
+**b)** Der **Keilbruch** (Bruchmodus C, durch $\sigma^-_\perp$) muss unbedingt vermieden werden:
+- Bruch unter 53° → Bruchflächen gleiten aufeinander ab
+- Das Laminat wird **aufgesprengt** → **katastrophales Totalversagen**
+
+**c)** Nachteilige Auswirkungen:
+1. $G_{\perp\parallel}$ sinkt → $R^-_\parallel$ wird reduziert (Schubknicken begünstigt)
+2. Zfb sind Ausgangspunkt von **Delaminationen** → Stabilitätsverlust
+3. **Kerbwirkung** auf Nachbarfasern → Ermüdungsfestigkeit sinkt
+4. Erhöhte **Feuchtigkeitsaufnahme** → aggressive Medien greifen Fasern an
+
+</div>
+
+---
+
+# Aufgabe 7 – Das „Knie"
+
+<div class="aufgabe">
+
+Im Spannungs-Dehnungs-Diagramm eines (0/90)-GFK-Kreuzverbunds ist ein deutliches „Knie" zu erkennen.
+
+a) Was verursacht das Knie?
+
+b) Warum ist das Knie bei GFK deutlich ausgeprägter als bei CFK?
+
+c) Bei welcher ungefähren Dehnung tritt das Knie bei GFK auf? Wie groß ist die Faser-Bruchdehnung? Welche Schlussfolgerung ergibt sich daraus?
+
+d) Wie lässt sich **nachweisen**, dass ein Laminat über das Knie hinaus belastet wurde?
+
+</div>
+
+---
+
+# Lösung 7
+
+<div class="loesung">
+
+**a)** Das Knie entsteht durch **Zwischenfaserbruch** in der 90°-Schicht (Querzugversagen). Es äußert sich als Steifigkeitsverlust. Auch als „Knistergrenze" bezeichnet (hörbar, SEA-detektierbar).
+
+**b)** GFK: Glasfaser ist **isotrop** → hohe Quersteifigkeit $E_\perp$ → kleiner Orthotropiegrad $E_\perp/E_\parallel$ → Steifigkeitsanteil der 90°-Schicht groß → ausgeprägtes Knie.
+CFK: niedrige Quersteifigkeit relativ zu sehr hoher $E_\parallel$ → weniger markant.
+
+**c)** Knie bei GFK: $\varepsilon_\perp \approx 0{,}004$ (0,4%)
+Faser-Bruchdehnung: $\varepsilon_\parallel \approx 0{,}02$ (2%)
+→ Das **große Festigkeitspotenzial** der hohen Faserfestigkeit kann **nicht genutzt** werden!
+
+**d)** Entlastung und erneute Belastung: Steigung ist **geringer** (Steifigkeitsverlust = irreversible Schädigung). Neues Knie erst bei Überschreiten der bisherigen Maximalspannung. Schallemission setzt erst dort wieder ein.
+
+</div>
+
+---
+
+# Aufgabe 8 – Delamination
+
+<div class="aufgabe">
+
+a) Nennen Sie die zwei Arten interlaminarer Spannungen und geben Sie an, welche im Allgemeinen gefährlicher ist.
+
+b) Beschreiben Sie drei typische Situationen, in denen Delaminationen auftreten.
+
+c) Ein CFK-Laminat wird nach einer Schlagbelastung weiter auf Druck beansprucht. Warum ist dies besonders gefährlich?
+
+d) Nennen Sie je zwei Maßnahmen zur Erhöhung des Risswiderstands und zur Verstärkung in z-Richtung.
+
+</div>
+
+---
+
+# Lösung 8a–b
+
+<div class="loesung">
+
+**a)**
+- **Interlaminare Schubspannungen** (ILS) – zwischen den Schichten
+- **Interlaminare Normalspannungen** (Aufzieh-/Schälspannungen) – senkrecht zur Laminatebene
+
+→ Die **Normalspannungen** (Schälspannungen) sind meist **gefährlicher**.
+
+**b)** Drei typische Situationen:
+1. **Zfb als Ausgangspunkt**: An Rissufer eines Zwischenfaserbruchs bauen sich ILS auf → bei Schwingbelastung wachsen Delaminationen
+2. **Schlagbelastung** (Impact): Lokale Kombination aus Fb + Zfb + Delamination, bei CFK schlecht visuell erkennbar
+3. **Freie Laminatränder**: Unterschiedliche Querkontraktion benachbarter Schichten → interlaminare Randspannungen → Delaminationen bei Ermüdung vom Rand nach innen
+
+</div>
+
+---
+
+# Lösung 8c–d
+
+<div class="loesung">
+
+**c)** Nach Schlagbelastung liegen Delaminationen im Laminat vor:
+- Die Biegesteifigkeit ist **drastisch reduziert**
+- Bei Druckbelastung → frühzeitiges **Beulen** der aufgespaltenen Teillaminate
+- → **Katastrophaler Kollaps**
+- Spezieller Test: **CAI** (Compression After Impact)
+- Bei CFK besonders kritisch: Schäden sind **visuell kaum erkennbar**
+
+**d)**
+
+| Risswiderstand erhöhen | z-Richtung verstärken |
+|---|---|
+| Zähmodifizierte Matrix | Vernähen |
+| Zähe Thermoplast-Zwischenschichten | Z-Pins (UD-CFK-Stäbchen) |
+
+</div>
+
+<div class="hinweis">
+
+Z-Pins und Vernähungen verhindern **nicht** die Entstehung einer Delamination – sie reduzieren lediglich die **Rissausbreitung**. Nachteil: Festigkeiten in der xy-Ebene werden gemindert.
+
+</div>
+
+---
+
+# Aufgabe 9 – Bruchwiderstand $R^A_{\perp\perp}$
+
+<div class="aufgabe">
+
+Für eine GFK-UD-Schicht ist die Querdruckfestigkeit $R^-_\perp = 150\;\text{MPa}$ bekannt. Der Neigungsparameter beträgt $p^-_{\perp\perp} = 0{,}25$.
+
+a) Berechnen Sie den Wirkebenen-Bruchwiderstand $R^A_{\perp\perp}$.
+
+b) Warum kann $R^A_{\perp\perp}$ nicht direkt im Versuch gemessen werden?
+
+c) Vergleichen Sie die Querdruckfestigkeit $R^-_\perp = 150\;\text{MPa}$ mit einer typischen Querzugfestigkeit $R^+_\perp = 50\;\text{MPa}$. Welche konstruktiven Möglichkeiten ergeben sich aus dem hohen $R^-_\perp$?
+
+</div>
+
+---
+
+# Lösung 9
+
+<div class="loesung">
+
+**a)**
+
+<div class="eq">
+
+$$R^A_{\perp\perp} = \frac{R^-_\perp}{2(1 + p^-_{\perp\perp})} = \frac{150}{2 \times 1{,}25} = \frac{150}{2{,}5} = \boxed{60\;\text{MPa}}$$
+
+</div>
+
+**b)** Bei Quer-Quer-Schubbeanspruchung tritt der Bruch **nicht** in der Wirkebene von $\tau_{\perp\perp}$ auf, sondern unter 45° durch die Zug-Hauptspannung $\sigma^+_I$. Der Bruchwiderstand $R^+_\perp$ wird vorher überwunden → $R^A_{\perp\perp}$ kann nur **indirekt** aus $R^-_\perp$ bestimmt werden.
+
+**c)** $R^-_\perp / R^+_\perp = 150/50 = 3$
+
+Konstruktive Nutzung:
+- **Klemmverbindungen** (Bolzen, Schrauben): Flächenpressungen bis ca. 120 MPa zulässig
+- Große Unterlegscheiben zur Verteilung der Querdruckbelastung
+
+</div>
+
+---
+
+# Aufgabe 10 – Konstruktive Maßnahmen
+
+<div class="aufgabe">
+
+Für jede der folgenden Situationen: Welche Versagensform ist kritisch und welche Verbesserungsmaßnahme ist am wirksamsten?
+
+a) Blattfeder mit hoher faserparalleler Druckbeanspruchung auf der Biegedruckseite.
+
+b) CFK-Flugzeugstruktur mit Anforderung an hohe Schlagtoleranz (Impact).
+
+c) GFK-Druckbehälter mit hoher Querzugbelastung in Umfangsrichtung.
+
+d) Laminat mit freien Rändern unter zyklischer Belastung.
+
+</div>
+
+---
+
+# Lösung 10
+
+<div class="loesung">
+
+**a)** Kritisch: **Schubknicken** ($R^-_\parallel$)
+→ Hoher Faservolumenanteil in der Druckzone, Matrix mit hohem Schubmodul, Fasern straff und ohne Welligkeit, ggf. anderes Matrixsystem in Druckzone
+
+**b)** Kritisch: **Delamination** nach Impact → Beulgefahr unter Druck
+→ Zähmodifizierte Matrix, Thermoplast-Zwischenschichten, z-Verstärkung (Vernähen, Z-Pins), CAI-Test zur Qualifikation
+
+**c)** Kritisch: **Zwischenfaserbruch** durch $\sigma^+_\perp$ (Querzug)
+→ Perfekte Fertigung unter Vakuum (keine Poren), gute Faser-Matrix-Haftung, gleichmäßige Faserverteilung, ausreichend Schichten in Umfangsrichtung
+
+**d)** Kritisch: **Delamination** an freien Rändern durch interlaminare Randspannungen
+→ Feinschichtiger Laminataufbau, Differenz der Querkontraktionen benachbarter Schichten minimieren, Randschutz
+
+</div>
+
+---
+
 <!-- _class: lead -->
-# Rechenaufgaben
 
----
-# Aufgabe 1: 1D-Stab
-
-**Gegeben:**
-- Stahl: $E = 210\,000$ MPa, $\nu = 0.3$
-- Stablänge: $L_0 = 1000$ mm
-- Querschnitt: $A = 100$ mm²
-- Zugkraft: $F = 20$ kN
-
-**Gesucht:**
-a) Spannung $\sigma$
-b) Dehnung $\varepsilon$
-c) Verlängerung $\Delta L$
-d) Querdehnung $\varepsilon_q$
-
----
-## Lösung Aufgabe 1
-
-a) **Spannung:**
-$$\sigma = \frac{F}{A} = \frac{20\,000\text{ N}}{100\text{ mm}^2} = 200\text{ MPa}$$
-
-b) **Dehnung:**
-$$\varepsilon = \frac{\sigma}{E} = \frac{200}{210\,000} = 9.524 \times 10^{-4} = 0.0009524$$
-
-c) **Verlängerung:**
-$$\Delta L = \varepsilon \cdot L_0 = 0.0009524 \times 1000 = 0.952\text{ mm}$$
-
-d) **Querdehnung:**
-$$\varepsilon_q = -\nu \cdot \varepsilon = -0.3 \times 0.0009524 = -2.857 \times 10^{-4}$$
-
----
-## Aufgabe 2: 3D-Spannungszustand
-
-**Gegeben:**
-- Aluminium: $E = 70\,000$ MPa, $\nu = 0.33$
-- Spannungszustand:
-$$\boldsymbol{\sigma} = \begin{pmatrix} 100 & 20 & 0 \\ 20 & 50 & 0 \\ 0 & 0 & -30 \end{pmatrix}\text{ MPa}$$
-
-**Gesucht:**
-a) Dehnungstensor $\boldsymbol{\varepsilon}$
-b) Schubmodul $G$
-
----
-## Lösung Aufgabe 2
-
-a) **Normaldehnungen:**
-$$\varepsilon_{11} = \frac{1}{70\,000}[100 - 0.33(50 - 30)] = \frac{1}{70\,000}[100 - 6.6] = 1.334 \times 10^{-3}$$
-
-$$\varepsilon_{22} = \frac{1}{70\,000}[50 - 0.33(100 - 30)] = \frac{1}{70\,000}[50 - 23.1] = 3.843 \times 10^{-4}$$
-
-$$\varepsilon_{33} = \frac{1}{70\,000}[-30 - 0.33(100 + 50)] = \frac{1}{70\,000}[-30 - 49.5] = -1.136 \times 10^{-3}$$
-
-**Schubdehnung:**
-$$\varepsilon_{12} = \frac{1 + 0.33}{70\,000} \times 20 = 3.8 \times 10^{-4}$$
-
----
-## Lösung Aufgabe 2 (Fortsetzung)
-
-**Dehnungstensor:**
-$$\boldsymbol{\varepsilon} = \begin{pmatrix} 
-1.334 & 0.38 & 0 \\
-0.38 & 0.384 & 0 \\
-0 & 0 & -1.136
-\end{pmatrix} \times 10^{-3}$$
-
-b) **Schubmodul:**
-$$G = \frac{E}{2(1+\nu)} = \frac{70\,000}{2(1 + 0.33)} = \frac{70\,000}{2.66} = 26\,316\text{ MPa}$$
-
----
-## Aufgabe 3: ESZ vs. EDZ
-
-**Gegeben:**
-- Material: $E = 200\,000$ MPa, $\nu = 0.25$
-- Dehnungen: $\varepsilon_{11} = 0.001$, $\varepsilon_{22} = -0.0005$, $\varepsilon_{12} = 0.0002$
-
-**Gesucht:**
-a) Spannungen für ESZ
-b) Spannungen für EDZ (inkl. $\sigma_{33}$)
-c) Querdehnung $\varepsilon_{33}$ für ESZ
-
----
-## Lösung Aufgabe 3
-
-a) **ESZ:**
-$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} = 
-\frac{200\,000}{1-0.25^2}
-\begin{bmatrix}
-1 & 0.25 & 0 \\
-0.25 & 1 & 0 \\
-0 & 0 & 0.375
-\end{bmatrix}
-\begin{Bmatrix} 0.001 \\ -0.0005 \\ 0.0004 \end{Bmatrix}$$
-
-$$= 213\,333 \begin{bmatrix}
-1 & 0.25 & 0 \\
-0.25 & 1 & 0 \\
-0 & 0 & 0.375
-\end{bmatrix}
-\begin{Bmatrix} 0.001 \\ -0.0005 \\ 0.0004 \end{Bmatrix}$$
-
-$$\sigma_{11} = 213\,333(0.001 - 0.000125) = 186.67\text{ MPa}$$
-$$\sigma_{22} = 213\,333(-0.0005 + 0.00025) = -53.33\text{ MPa}$$
-$$\sigma_{12} = 213\,333 \times 0.375 \times 0.0004 = 32\text{ MPa}$$
-
----
-## Lösung Aufgabe 3 (Fortsetzung)
-
-b) **EDZ:**
-$$\begin{Bmatrix} \sigma_{11} \\ \sigma_{22} \\ \sigma_{12} \end{Bmatrix} = 
-\frac{200\,000}{(1+0.25)(1-2 \times 0.25)}
-\begin{bmatrix}
-0.75 & 0.25 & 0 \\
-0.25 & 0.75 & 0 \\
-0 & 0 & 0.25
-\end{bmatrix}
-\begin{Bmatrix} 0.001 \\ -0.0005 \\ 0.0004 \end{Bmatrix}$$
-
-$$= 320\,000 \begin{bmatrix}
-0.75 & 0.25 & 0 \\
-0.25 & 0.75 & 0 \\
-0 & 0 & 0.25
-\end{bmatrix}
-\begin{Bmatrix} 0.001 \\ -0.0005 \\ 0.0004 \end{Bmatrix}$$
-
-$$\sigma_{11} = 320\,000(0.00075 - 0.000125) = 200\text{ MPa}$$
-$$\sigma_{22} = 320\,000(-0.000375 + 0.00025) = -40\text{ MPa}$$
-$$\sigma_{12} = 320\,000 \times 0.25 \times 0.0004 = 32\text{ MPa}$$
-
-$$\sigma_{33} = 0.25(200 - 40) = 40\text{ MPa}$$
-
----
-## Lösung Aufgabe 3 (Fortsetzung)
-
-c) **Querdehnung bei ESZ:**
-$$\varepsilon_{33} = -\frac{\nu}{E}(\sigma_{11} + \sigma_{22})$$
-$$= -\frac{0.25}{200\,000}(186.67 - 53.33)$$
-$$= -\frac{0.25}{200\,000} \times 133.34$$
-$$= -1.667 \times 10^{-4}$$
-
-**Interpretation:**
-- Bei ESZ: freie Querkontraktionen → $\varepsilon_{33} \neq 0$
-- Bei EDZ: behinderte Querdehnung → $\sigma_{33} \neq 0$
-
----
-## Aufgabe 4: Praktisches Problem
-
-**Gegeben:**
-Eine rechteckige Aluminiumplatte (ESZ):
-- Abmessungen: $200 \times 100 \times 2$ mm³
-- Material: $E = 70\,000$ MPa, $\nu = 0.33$
-- Belastung: Zugkraft in x-Richtung $F_x = 14$ kN
-
-**Gesucht:**
-a) Spannung $\sigma_{11}$
-b) Dehnung $\varepsilon_{11}$
-c) Längenänderung in x-Richtung
-d) Breite nach Belastung
-e) Dicke nach Belastung
-
----
-## Lösung Aufgabe 4
-
-a) **Spannung:**
-$$\sigma_{11} = \frac{F_x}{A} = \frac{14\,000}{100 \times 2} = 70\text{ MPa}$$
-$$\sigma_{22} = 0, \quad \sigma_{12} = 0 \quad \text{(einachsige Belastung)}$$
-
-b) **Dehnung:**
-$$\varepsilon_{11} = \frac{1}{E}[\sigma_{11} - \nu \sigma_{22}] = \frac{70}{70\,000} = 0.001 = 0.1\%$$
-
-c) **Längenänderung:**
-$$\Delta L_x = \varepsilon_{11} \times L_x = 0.001 \times 200 = 0.2\text{ mm}$$
-
----
-# Lösung Aufgabe 4 (Fortsetzung)
-
-d) **Querdehnung (y-Richtung):**
-$$\varepsilon_{22} = \frac{1}{E}[\sigma_{22} - \nu \sigma_{11}] = \frac{1}{70\,000}[0 - 0.33 \times 70] = -3.3 \times 10^{-4}$$
-
-$$\Delta L_y = \varepsilon_{22} \times L_y = -3.3 \times 10^{-4} \times 100 = -0.033\text{ mm}$$
-
-**Neue Breite:** $100 - 0.033 = 99.967$ mm
-
-e) **Querdehnung (z-Richtung):**
-$$\varepsilon_{33} = -\frac{\nu}{E}(\sigma_{11} + \sigma_{22}) = -\frac{0.33}{70\,000} \times 70 = -3.3 \times 10^{-4}$$
-
-$$\Delta t = \varepsilon_{33} \times t = -3.3 \times 10^{-4} \times 2 = -0.00066\text{ mm}$$
-
-**Neue Dicke:** $2 - 0.00066 \approx 1.999$ mm
-
----
 # Zusammenfassung
 
-**1D:**
-$$\sigma = E \cdot \varepsilon, \quad \varepsilon_q = -\nu \cdot \varepsilon_l$$
+### Zentrale Erkenntnisse Kapitel 16
 
-**3D (isotrop):**
-$$\varepsilon_{ij} = \frac{1+\nu}{E}\sigma_{ij} - \frac{\nu}{E}\sigma_{kk}\delta_{ij}$$
-
-**ESZ:** Dünne Strukturen
-$$\sigma_{33} = 0, \quad \varepsilon_{33} = -\frac{\nu}{E}(\sigma_{11} + \sigma_{22})$$
-
-**EDZ:** Lange Strukturen
-$$\varepsilon_{33} = 0, \quad \sigma_{33} = \nu(\sigma_{11} + \sigma_{22})$$
-
----
-# Vielen Dank für Ihre Aufmerksamkeit!
-
-## Literaturempfehlungen
-1. **Altenbach, H. et al.** - "Kontinuumsmechanik" (2015)
-2. **Gross, D. et al.** - "Technische Mechanik 2: Elastostatik" (2019)
-3. **Haupt, P.** - "Continuum Mechanics and Theory of Materials" (2002)
-
-## Fragen?
-
----
-# Zusatzinformationen: Materialparameter
-
-| Material | E [GPa] | ν [-] | G [GPa] |
-|----------|---------|-------|---------|
-| Stahl | 210 | 0.30 | 81 |
-| Aluminium | 70 | 0.33 | 26 |
-| Titan | 110 | 0.34 | 41 |
-| Kupfer | 120 | 0.34 | 45 |
-| Beton | 30 | 0.20 | 12.5 |
-| Glas | 70 | 0.23 | 28 |
+- **Faserbruch** (Fb): nicht tolerierbar, hohe Festigkeiten
+- **Zwischenfaserbruch** (Zfb): teils tolerierbar, aber Keilbruch vermeiden!
+- **Delamination**: besonders gefährlich bei Druckbelastung
+- **Puck**: Festigkeit ≠ Wirkebenen-Bruchwiderstand
+- **Dehnungsvergrößerung**: Kernproblem der FKV
+- **Schubknicken**: Fertigungsqualität entscheidend
+- **Das Knie**: Potenzial der Faserfestigkeit oft nicht nutzbar
