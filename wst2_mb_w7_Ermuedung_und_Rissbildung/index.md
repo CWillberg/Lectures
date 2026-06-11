@@ -523,6 +523,8 @@ Der **T-Spannungsterm** (zweiter Term, $\lambda=1$): wirkt parallel zum Riss —
 
 ---
 
+
+
 ## Modus I 
 
 ![w:800](./assets/modeIcrackTip.png)
@@ -533,6 +535,11 @@ Der **T-Spannungsterm** (zweiter Term, $\lambda=1$): wirkt parallel zum Riss —
 $$v^\pm = \pm\frac{K_I}{2G}\sqrt{\frac{r}{2\pi}}(\kappa+1)$$
 
 → **Parabolisches Rissöffnungsprofil**
+
+---
+
+![bg fit](./assets/LE-01-K1c-D-RT-7_Dicke2.jpg)
+![bg fit](./assets/LE-01-K1c-D-RT-7_Precrack_Skala.jpg)
 
 ---
 
