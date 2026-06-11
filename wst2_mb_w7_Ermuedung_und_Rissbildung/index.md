@@ -25,7 +25,7 @@ img[alt="ORCID"] {
 # Bruch & Ermüdung
 ## Ermüdungsarten und Lineare Bruchmechanik
 
-Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing. Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 Hochschule Magdeburg-Stendal
 
@@ -458,15 +458,12 @@ $$\varepsilon_{th} = \alpha \cdot \Delta T$$
 <!-- _class: lead -->
 # Teil II  Lineare Bruchmechanik
 
----
 
-- Abbildungen sind überwiegend entnommen aus Gross und Seelig, *Bruchmechanik*
 
----
-<!-- _class: lead -->
-# Grundkonzepte
+Abbildungen sind überwiegend entnommen aus Gross und Seelig, *Bruchmechanik*
 
 ---
+
 
 ## Bruchmechanische Bauteilbewertung
 
@@ -510,32 +507,7 @@ In Sonderfällen gelten sie für den gesamten Körper.
 
 ---
 
-# Das Rissspitzenfeld
 
----
-
-
-![](./assets/crack_tip.png)
-> Koordinatensystem an der Rissspitze: Radius $r$, Winkel $\varphi$ (Gross und Seelig)
-
----
-
-## Rissspitzenfeld – Modus I und II
-
-**Modus I** (symmetrisch):
-
-$$\begin{pmatrix} \sigma_x \\ \sigma_y \\ \tau_{xy} \end{pmatrix} = \frac{K_I}{\sqrt{2\pi r}}\cos\frac{\varphi}{2} \begin{pmatrix} 1 - \sin\frac{\varphi}{2}\sin\frac{3\varphi}{2} \\ 1 + \sin\frac{\varphi}{2}\sin\frac{3\varphi}{2} \\ \sin\frac{\varphi}{2}\cos\frac{3\varphi}{2} \end{pmatrix}$$
-
-**Modus II** (antisymmetrisch):
-
-$$\begin{pmatrix} \sigma_x \\ \sigma_y \\ \tau_{xy} \end{pmatrix} = \frac{K_{II}}{\sqrt{2\pi r}} \begin{pmatrix} -\sin\frac{\varphi}{2}\left[2+\cos\frac{\varphi}{2}\cos\frac{3\varphi}{2}\right] \\ \sin\frac{\varphi}{2}\cos\frac{\varphi}{2}\cos\frac{3\varphi}{2} \\ \cos\frac{\varphi}{2}\left[1-\sin\frac{\varphi}{2}\sin\frac{3\varphi}{2}\right] \end{pmatrix}$$
-
----
-
-![w:1000](./assets/tipEigenvalues.png)
-> (a) Belastete Rissflanken; (b) Gekrümmter Riss nahe der Rissspitze
-
----
 
 ## Spannungszustand an der Rissspitze
 
@@ -579,6 +551,12 @@ $$v^\pm = \pm\frac{K_I}{2G}\sqrt{\frac{r}{2\pi}}(\kappa+1)$$
 Das $K_I$-dominierte Feld gilt zwischen zwei Grenzen:
 - **Äußere Grenze $R$:** darüber hinaus sind höhere Terme nicht mehr vernachlässigbar
 - **Innere Grenze** ($\rho$, $r_p$): Prozesszone $\rho$ und plastische Zone $r_p$
+- auch bekannt als Spannungsintensitätsfaktoren $\rightarrow$ Maschinenelemente
+
+---
+
+![bg 65%](./assets/tab_k_faktoren.png)
+![bg 63%](./assets/tab_k_faktoren_fortsetz.png)
 
 ---
 
@@ -596,65 +574,7 @@ $$K_{II} = K_{IIc} \quad \text{(Modus II)}, \qquad K_{III} = K_{IIIc} \quad \tex
 
 Allgemeines Mischmodus-Kriterium: $f(K_I, K_{II}, K_{III}) = 0$
 
----
-<!-- _class: lead -->
-# K-Faktoren
 
----
-
-##  Riss unter Fernfeldzug
-
-![bg right fit](./assets/centeCrack.png)
-
-**Konfiguration:** Gerader Riss der Länge $2a$ in einer unendlichen Scheibe unter einachsigem Zug $\sigma$.
-
-**Lösung durch Superposition:** Problem (1) = ungerissene Platte + Problem (2) = Riss belastet mit $-\sigma$ auf den Flanken.
-
-**Spannungsintensitätsfaktor:**
-
-$$\boxed{K_I = \sigma\sqrt{\pi a}}$$
-
-**Rissöffnungsverschiebung** (elliptisch):
-
-$$4Gv^\pm = \pm(1+\kappa)\sigma\sqrt{a^2-x^2}$$
-
-
----
-
-
-# Energiebilanz
-
----
-
-## Energiefreisetzung beim Risswachstum
-
-Während der Rissausbreitung um eine Fläche $\Delta A$ gilt:
-
-$$\Delta\Pi = \Delta W_\sigma \leq 0$$
-
-Die **mechanische Energie nimmt ab** während des Risswachstums. Die freigesetzte Energie treibt den Bruchprozess.
-
-![bg right 50%](./assets/energyReleasePrinciple.png)
-
----
-
-## Energiefreisetzungsrate $\mathcal{G}$
-
-$$\mathcal{G} = -\frac{d\Pi}{dA} \qquad \text{(3D)}, \qquad \mathcal{G} = -\frac{d\Pi}{da} \qquad \text{(2D pro Einheitsdicke)}$$
-
-$\mathcal{G}$ hat die Dimension Kraft pro Längeneinheit = **Risserweiterungskraft**.
-
-![w:800](./assets/EnergyRelease.png)
-
-**Zusammenhang mit den SIF** (Modus I):
-
-$$\mathcal{G} = \frac{\kappa+1}{8G}K_I^2 = \begin{cases}K_I^2/E & \text{ESZ}\\ (1-\nu^2)K_I^2/E & \text{EVZ}\end{cases}$$
-
-Für alle drei Modi kombiniert:
-
-$$\mathcal{G} = \frac{1}{E^*}(K_I^2 + K_{II}^2) + \frac{1}{2G}K_{III}^2$$
-
-mit $E^* = E/(1-\nu^2)$ für EVZ/3D und $E^* = E$ für ESZ.
 
 ---
 
@@ -682,14 +602,6 @@ $$\boxed{\mathcal{G} = G_c}$$
 
 
 
-## Form der plastischen Zone
-
-Plastische Zonengrenze nach von Mises:
-
-$$r_p(\varphi) = \frac{K_I^2}{2\pi\sigma_F^2}\cos^2\frac{\varphi}{2} \begin{cases}\left[3\sin^2\frac{\varphi}{2}+(1-2\nu)^2\right] & \text{EVZ}\\ \left[3\sin^2\frac{\varphi}{2}+1\right] & \text{ESZ}\end{cases}$$
-
----
-
 **Dog-Bone-Modell:** Im Inneren dicker Platten dominiert EVZ (kleine Zone), an der Oberfläche ESZ (große Zone).
 
 ![w:700](./assets/plastic_zone_shape.png)
@@ -709,29 +621,6 @@ Für spröde Werkstoffe breitet sich der Riss so aus, dass die neue Oberfläche 
 
 ---
 
-## Mischmodus-Kriterien – Vergleich
-
-
-
-| Kriterium | $\varphi_0$ (reiner Modus II) | $K_{II,c}/K_{Ic}$ |
-|-----------|--------------------------|-------------------|
-| Energetisch | tangential (0°) | 1,0 |
-| Max. Umfangsspannung | −70,6° | 0,866 |
-| S-Kriterium, $\nu=1/3$ | −83,6° | 0,905 |
-| Knickmodell | ≈ −70° (numerisch) | ≈ 0,87 |
-
----
-
-## Einschränkungen der Mischmodus-Kriterien
-
-- Alle Kriterien ignorieren den **mikroskopischen Versagensmechanismus**
-- Unter reinem Modus II: raue Rissflächen **verzahnen sich** → tatsächliche Rissspitzenbelastung geringer als $K_{II}$ vorhersagt
-- Kriterien physikalisch nur für $K_I > 0$ (offener Riss) gültig
-- Empirische Alternative:
-
-$$\left(\frac{K_I}{K_{Ic}}\right)^\mu + \left(\frac{K_{II}}{K_{IIc}}\right)^\nu = 1$$
-
----
 
 # Ermüdungsrissausbreitung (Bruchmechanik)
 
@@ -755,15 +644,15 @@ $$\boxed{\frac{da}{dN} = C \cdot (\Delta K)^m}$$
 
 $$\frac{da}{dN} = \frac{C\,(\Delta K)^m}{(1-R)K_{Ic}-\Delta K}, \qquad R = K_\text{min}/K_\text{max}$$
 
-
-
----
-
 ## Lebensdauervorhersage
 
 Integration des Paris-Gesetzes von Anfangsrisslänge $a_i$ bis kritische Länge $a_c$:
 
 $$N_f = \frac{1}{C(\Delta\sigma)^m}\int_{a_i}^{a_c}\frac{da'}{\left[\sqrt{\pi a'}F(a')\right]^m}$$
+
+---
+
+
 
 **Kernaussage:** Verdopplung von $\Delta\sigma$ reduziert die Lebensdauer um den Faktor $2^m$ — bei $m=3$: **8× kürzere Lebensdauer**
 
@@ -774,12 +663,6 @@ $$N_f = \frac{1}{C(\Delta\sigma)^m}\int_{a_i}^{a_c}\frac{da'}{\left[\sqrt{\pi a'
 - Werkstoffkonstanten $C$, $m$
 - Spannungsschwingbreite $\Delta\sigma$
 
----
-
-## Literatur
-
-- Gross, Seelig: *Bruchmechanik*, 2016, DOI 10.1007/978-3-662-46737-4
-- Zerbst, Madia: *Bruchmechanische Bauteilbewertung*, 2022, DOI 10.1007/978-3-658-36151-8
 
 ---
 
