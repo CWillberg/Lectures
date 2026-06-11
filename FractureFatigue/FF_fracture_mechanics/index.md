@@ -412,6 +412,7 @@ $$K_I \approx K_I^0\left(1+\frac{1}{2}\left(\frac{a}{d}\right)^2\right)$$
 
 Interaction decays rapidly with distance — as $(a/r)^2$ in 2D, even faster $(a/r)^3$ in 3D.
 
+
 ![](./assets/transmissionfactor.png)
 
 ---
