@@ -93,10 +93,14 @@ img[alt="ORCID"] {
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
 
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Faserverbundwerkstoffe/composites_015/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
+
 ---
 <!-- _class: cols-2 -->
 
-# Überblick: Was berechnen wir heute?
 
 <div class="ldiv">
 
@@ -147,7 +151,7 @@ $$N_x = 100\,\text{N/mm},\quad N_y = 0,\quad N_{xy} = 0$$
 
 ---
 
-# Schritt 1: Nachgiebigkeitsmatrix $\mathbf{S}$ (lokal, Faserkoordinaten)
+## Schritt 1: Nachgiebigkeitsmatrix $\mathbf{S}$ (lokal, Faserkoordinaten)
 
 Die Nachgiebigkeitsmatrix verknüpft lokale Dehnungen mit lokalen Spannungen:
 
@@ -164,6 +168,8 @@ Die Komponenten folgen direkt aus den Ingenieurskonstanten:
 $$S_{11} = \frac{1}{E_1} \qquad S_{22} = \frac{1}{E_2} \qquad S_{12} = -\frac{\nu_{12}}{E_1} \qquad S_{66} = \frac{1}{G_{12}}$$
 
 </div>
+
+---
 
 **Einsetzen der Zahlenwerte:**
 
@@ -187,7 +193,7 @@ $\mathbf{S}$ ist für **beide** Lagen identisch – gleiches Material, Winkel wi
 
 ---
 
-# Schritt 2: Steifigkeitsmatrix $\mathbf{Q}$ (lokal, Faserkoordinaten)
+## Schritt 2: Steifigkeitsmatrix $\mathbf{Q}$ (lokal, Faserkoordinaten)
 
 $\mathbf{Q} = \mathbf{S}^{-1}$ – die Invertierung einer $3\times3$-Blockdiagonalmatrix:
 
@@ -206,6 +212,8 @@ $$\nu_{21} = \nu_{12}\frac{E_2}{E_1} = 0{,}3 \cdot \frac{10\,000}{135\,000} = 0{
 $$1 - \nu_{12}\nu_{21} = 1 - 0{,}3 \cdot 0{,}02222 = 1 - 0{,}006667 = 0{,}99333$$
 
 </div>
+
+---
 
 **Einsetzen:**
 
@@ -237,6 +245,8 @@ $$\mathbf{T}(\varphi) = \begin{bmatrix} c^2 & s^2 & 2cs \\ s^2 & c^2 & -2cs \\ -
 
 Es gilt: $\boldsymbol{\sigma}_{12} = \mathbf{T}(\varphi)\,\boldsymbol{\sigma}_{xy}$
 
+---
+
 **Für Lage 1 ($\varphi_1 = 0°$):** $c=1$, $s=0$
 
 <div class="loesung">
@@ -257,7 +267,7 @@ $$\mathbf{T}(45°) = \begin{bmatrix} 0{,}5 & 0{,}5 & 1{,}0 \\ 0{,}5 & 0{,}5 & -1
 
 ---
 
-# Schritt 4a: Transformierte Steifigkeit $\bar{\mathbf{Q}}$ – Herleitung
+## Schritt 4a: Transformierte Steifigkeit $\bar{\mathbf{Q}}$ – Herleitung
 
 $\bar{\mathbf{Q}}$ ist die Steifigkeitsmatrix **im globalen System**. Sie verknüpft globale Spannungen mit globalen Dehnungen einer Einzelschicht:
 
@@ -267,7 +277,7 @@ $$\bar{\mathbf{Q}} = \mathbf{T}^{-1}\,\mathbf{Q}\,\mathbf{T}^{-T}$$
 
 </div>
 
-Mit der Reuss-Matrix $\mathbf{R}$ (Voigt-Notation Korrektur für Schubverzerrungen):
+Mit der Reuss-Matrix $\mathbf{R}$:
 
 <div class="eq">
 
@@ -285,15 +295,10 @@ $$\bar{Q}_{66} = (Q_{11}+Q_{22}-2Q_{12}-2Q_{66})c^2s^2 + Q_{66}(c^4+s^4)$$
 
 </div>
 
-<div class="hinweis">
-
-$\bar{Q}_{16}$ und $\bar{Q}_{26}$ sind bei $0°$ und $90°$ gleich **null** – Kopplung zwischen Normal- und Schubspannungen entsteht nur bei Zwischenwinkeln wie $45°$!
-
-</div>
 
 ---
 
-# Schritt 4b: $\bar{\mathbf{Q}}$ für Lage 1 ($\varphi = 0°$)
+## Schritt 4b: $\bar{\mathbf{Q}}$ für Lage 1 ($\varphi = 0°$)
 
 Bei $0°$ gilt $c=1$, $s=0$ → alle Terme mit $s$ fallen weg:
 
@@ -321,7 +326,7 @@ Bei $0°$ ist $\bar{\mathbf{Q}} = \mathbf{Q}$ – das lokale und globale System 
 
 ---
 
-# Schritt 4c: $\bar{\mathbf{Q}}$ für Lage 2 ($\varphi = 45°$)
+## Schritt 4c: $\bar{\mathbf{Q}}$ für Lage 2 ($\varphi = 45°$)
 
 Bei $45°$: $c = s = \tfrac{1}{\sqrt{2}}$, also $c^2 = s^2 = 0{,}5$, $c^4 = s^4 = 0{,}25$, $c^2s^2 = 0{,}25$
 
@@ -330,6 +335,8 @@ Bei $45°$: $c = s = \tfrac{1}{\sqrt{2}}$, also $c^2 = s^2 = 0{,}5$, $c^4 = s^4 
 $$Q_{11}+Q_{22}-4Q_{66} = 135\,906 + 10\,067 - 20\,000 = 125\,973$$
 
 $$Q_{11}+Q_{22}-2Q_{12}-2Q_{66} = 135\,906 + 10\,067 - 6\,044 - 10\,000 = 129\,929$$
+
+---
 
 <div class="loesung">
 
@@ -351,7 +358,7 @@ $$\bar{Q}_{66}^{(2)} = 129\,929 \cdot 0{,}25 + 5\,000 \cdot 0{,}5 = 32\,482 + 2\
 ---
 <!-- _class: cols-2 -->
 
-# Schritt 4d: Vergleich $\bar{\mathbf{Q}}$ beider Lagen
+## Schritt 4d: Vergleich $\bar{\mathbf{Q}}$ beider Lagen
 
 <div class="ldiv">
 
@@ -382,7 +389,7 @@ $$\bar{\mathbf{Q}}^{(2)} = \begin{bmatrix} 42\,987 & 32\,987 & 31\,457 \\ 32\,98
 
 ---
 
-# Schritt 5: A-Matrix des Laminats
+## Schritt 5: A-Matrix des Laminats
 
 Die **Dehnsteifigkeitsmatrix** $\mathbf{A}$ summiert die transformierten Steifigkeiten gewichtet mit der jeweiligen Lagendicke:
 
@@ -393,6 +400,8 @@ $$A_{ij} = \sum_{k=1}^{N} \bar{Q}_{ij}^{(k)} \cdot t_k$$
 </div>
 
 Mit $t_1 = t_2 = 0{,}5\,\text{mm}$:
+
+---
 
 <div class="loesung">
 
@@ -422,6 +431,7 @@ $$\mathbf{A} = \begin{bmatrix} 89\,447 & 18\,004 & 15\,729 \\ 18\,004 & 26\,527 
 </div>
 
 ---
+
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
@@ -452,15 +462,11 @@ Laminat $[0/45/-45/90]_s$: $A_{16} = A_{26} = 0$ → quasi-isotrop!
 
 </div>
 
-<div class="hinweis">
 
-Die A-Matrix verknüpft Schnittlasten $\mathbf{N}$ mit mittleren Dehnungen $\boldsymbol{\varepsilon}^0$: $\mathbf{N} = \mathbf{A}\,\boldsymbol{\varepsilon}^0$ (für symmetrische Laminate ohne Biegung).
-
-</div>
 
 ---
 
-# Schritt 6a: Globale Dehnungen aus Schnittlasten
+## Schritt 6a: Globale Dehnungen aus Schnittlasten
 
 **Gegebene Belastung:** $N_x = 100\,\text{N/mm}$, $N_y = 0$, $N_{xy} = 0$
 
@@ -478,6 +484,8 @@ $$\mathbf{a} = \mathbf{A}^{-1} \approx 10^{-5} \cdot \begin{bmatrix} 1{,}537 & -
 
 </div>
 
+---
+
 **Mittlere Dehnungen des Laminats** ($N_x = 100\,\text{N/mm}$, $N_y = N_{xy} = 0$):
 
 <div class="loesung">
@@ -492,7 +500,7 @@ $$\gamma_{xy}^0 = a_{61} \cdot N_x = -0{,}893 \times 10^{-5} \cdot 100 = \mathbf
 
 ---
 
-# Schritt 6b: Globale Spannungen in jeder Lage
+## Schritt 6b: Globale Spannungen in jeder Lage
 
 Für **reine Membranbelastung** (kein Biegeanteil, symmetrisches Laminat) gilt:
 
@@ -524,7 +532,7 @@ Probe: $N_x = \sigma_x^{(1)} \cdot t_1 + \sigma_x^{(2)} \cdot t_2$ muss $100\,\t
 
 ---
 
-# Schritt 6c: Globale Spannungen in Lage 2 ($45°$)
+## Schritt 6c: Globale Spannungen in Lage 2 ($45°$)
 
 <div class="loesung">
 
@@ -551,7 +559,7 @@ Kleine Abweichung durch gerundete $\mathbf{A}^{-1}$-Einträge – exakt bei unve
 
 ---
 
-# Schritt 7: Transformation global → lokal (Faserkoordinaten)
+## Schritt 7: Transformation global → lokal (Faserkoordinaten)
 
 Mit $\boldsymbol{\sigma}_{12}^{(k)} = \mathbf{T}(\varphi_k) \cdot \boldsymbol{\sigma}_{xy}^{(k)}$
 
@@ -568,6 +576,8 @@ $$\tau_{12}^{(1)} = \tau_{xy}^{(1)} = \mathbf{-4{,}5\,\text{N/mm}^2}$$
 </div>
 
 **Lage 2 ($45°$):** mit $c = s = 0{,}7071$, $c^2 = s^2 = 0{,}5$, $2cs = 1{,}0$
+
+---
 
 <div class="loesung">
 
@@ -626,75 +636,3 @@ $$\frac{\sigma_2^{(2)}}{R_T^+} + \left(\frac{\tau_{12}^{(2)}}{R_{LT}}\right)^2 \
 
 </div>
 
----
-
-# Vollständiger Rechenweg – Zusammenfassung
-
-```
-Gegeben: E₁, E₂, G₁₂, ν₁₂, Schichtenaufbau [0°/45°], t_k, Lastvektor N
-```
-
----
-<!-- _class: cols-2 -->
-<div class="ldiv">
-
-**Schritt 1:** Nachgiebigkeit $\mathbf{S}$
-$$S_{11}=\tfrac{1}{E_1},\; S_{22}=\tfrac{1}{E_2},\; S_{12}=-\tfrac{\nu_{12}}{E_1},\; S_{66}=\tfrac{1}{G_{12}}$$
-
-**Schritt 2:** Lokale Steifigkeit $\mathbf{Q} = \mathbf{S}^{-1}$
-$$\nu_{21}=\nu_{12}\tfrac{E_2}{E_1}, \quad Q_{11}=\tfrac{E_1}{1-\nu_{12}\nu_{21}}, \;\ldots$$
-
-**Schritt 3:** Transformationsmatrix $\mathbf{T}(\varphi)$
-$$c=\cos\varphi,\;s=\sin\varphi \;\rightarrow\; \mathbf{T}\text{-Einträge}$$
-
-**Schritt 4:** Transformierte Steifigkeit $\bar{\mathbf{Q}}^{(k)}$
-$$\bar{\mathbf{Q}}^{(k)} = \mathbf{T}^{-1}\mathbf{Q}\mathbf{T}^{-T}$$
-
-</div>
-<div class="rdiv">
-
-**Schritt 5:** A-Matrix (Membransteifigkeit)
-$$A_{ij} = \sum_k \bar{Q}_{ij}^{(k)}\,t_k$$
-
-**Schritt 6:** Globale Dehnungen
-$$\boldsymbol{\varepsilon}^0 = \mathbf{A}^{-1}\,\mathbf{N}$$
-
-**Schritt 6b:** Globale Spannungen pro Lage
-$$\boldsymbol{\sigma}_{xy}^{(k)} = \bar{\mathbf{Q}}^{(k)}\,\boldsymbol{\varepsilon}^0$$
-
-**Schritt 7:** Lokale Spannungen (Probe!)
-$$\boldsymbol{\sigma}_{12}^{(k)} = \mathbf{T}(\varphi_k)\,\boldsymbol{\sigma}_{xy}^{(k)}$$
-
-**Optional:** Versagensbewertung mit $\sigma_1, \sigma_2, \tau_{12}$
-
-</div>
-
-<div class="loesung">
-
-**Ergebnis:** $0°$-Lage trägt Faserlast ($\sigma_1 = 206{,}5\,\text{N/mm}^2$), $45°$-Lage trägt Schub ($\tau_{12} = -11{,}4\,\text{N/mm}^2$) → ZfB-Gefahr in Lage 2.
-
-</div>
-
----
-
-# Übungsaufgabe – Selbst rechnen
-
-<div class="aufgabe">
-
-**Gegeben:** Gleiches CFK-HT-Material, gleiche Dicken $t_k = 0{,}5\,\text{mm}$.
-
-**Neuer Aufbau:** Lage 1: $0°$, Lage 2: $90°$
-
-**Belastung:** $N_x = 100\,\text{N/mm}$, $N_y = 0$, $N_{xy} = 0$
-
-**Gesucht:**
-
-1. $\bar{\mathbf{Q}}^{(2)}$ für $90°$ (Hinweis: $c=0$, $s=1$)
-2. A-Matrix des $[0°/90°]$-Laminats
-3. Globale Dehnungen $\varepsilon_x^0$, $\varepsilon_y^0$, $\gamma_{xy}^0$
-4. Lokale Spannungen $\sigma_1^{(k)}$, $\sigma_2^{(k)}$, $\tau_{12}^{(k)}$ in beiden Lagen
-5. Vergleich: Warum ist $A_{16} = A_{26} = 0$ beim $[0°/90°]$-Laminat?
-
-**Erwartetes Ergebnis (Kontrolle):** $\gamma_{xy}^0 = 0$, $\tau_{12}^{(k)} = 0$ in beiden Lagen, $\sigma_1^{(1)} \gg \sigma_1^{(2)}$
-
-</div>
