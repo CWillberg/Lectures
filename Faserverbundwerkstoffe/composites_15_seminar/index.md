@@ -5,6 +5,7 @@ header: 'Seminar – Spannungstransformation und CLT (A-Matrix)'
 paginate: true
 math: katex
 ---
+
 <style>
 section {
   font-family: 'Segoe UI', sans-serif;
@@ -94,7 +95,7 @@ Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvect
 Hochschule Magdeburg-Stendal
 
 <div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Faserverbundwerkstoffe/composites_015/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Faserverbundwerkstoffe/composite_15_seminar/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
