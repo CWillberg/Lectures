@@ -1,346 +1,524 @@
 ---
 marp: true
-
+header: 'Faserverbunde - Auslegung von Faserverbunden'
 theme: h2
-header: ''
-footer: ''
-
-title: Vorlesung Faserverbunde
-author: Christian Willberg
+paginate: true
+math: katex
 ---
 
+<!-- _class: title -->
 
+# Schadenstypen und Fertigungsfehler in CFK
 
-<style>
-footer {
-    font-size: 14px; /* Ändere die Schriftgröße des Footers */
-    color: #888; /* Ändere die Farbe des Footers */
-    text-align: right; /* Ändere die Ausrichtung des Footers */
-}
-img[alt="ORCID"] {
-    height: 15px !important;
-    width: auto !important;
-    vertical-align: top !important;
-    display: inline !important;
-    margin: 0 !important;
-}
-</style>
+**Faserverbundwerkstoffe – Kapitel: Schädigungsmechanismen**
 
+Prof. Dr.-Ing. Christian Willberg
+Hochschule Magdeburg-Stendal
 
-## Vorlesung Faserverbunde
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
-
-![bg right](../assets/Figures/crack.jpg)
-
-Kontakt: christian.willberg@h2.de
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="https://doi.org/10.1007/s42102-021-00079-6" style="color: blue;">Bildreferenz</a>
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Faserverbundwerkstoffe/composites_12/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
 </div>
 
-
----
-
-<!--paginate: true-->
-
-![bg right 70%](../assets/QR/composite_01.png)
-
----
-
-# Grundlagen der Materialmodellierung
-
-$\boldsymbol{\sigma}_T=\mathbf{C}_T\cdot\cdot\boldsymbol{\varepsilon}_T$
-
-$\boldsymbol{\sigma} =
-\begin{bmatrix}
-\sigma_{11} & \sigma_{12} & \sigma_{13} \\
-\sigma_{21} & \sigma_{22} & \sigma_{23} \\
-\sigma_{31} & \sigma_{32} & \sigma_{33}
-\end{bmatrix}
-$
-
-$\boldsymbol{\varepsilon} =
-\begin{bmatrix}
-\varepsilon_{11} & \varepsilon_{12} & \varepsilon_{13} \\
-\varepsilon_{21} & \varepsilon_{22} & \varepsilon_{23} \\
-\varepsilon_{31} & \varepsilon_{32} & \varepsilon_{33}
-\end{bmatrix}$
-
----
-
-## Voigt Notation
-
-**Symmetriebedingungen**
-
-$
-C_{ijkl} = C_{ijlk} \quad \text{(Symmetrie bei Vertauschung der letzten Indizes)},$
-$C_{ijkl} = C_{jikl} \quad \text{(Symmetrie bei Vertauschung der ersten Indizes)},$
-$C_{ijkl} = C_{klij} \quad \text{(Paarweise Symmetrie)}$
-
 ---
 
 
-$
-\begin{bmatrix}
-\sigma_{11} \\
-\sigma_{22} \\
-\sigma_{33} \\
-\sigma_{12} \\
-\sigma_{13} \\
-\sigma_{23}
-\end{bmatrix}=
-\begin{bmatrix}
-C_{1111} & C_{1122} & C_{1133} & C_{1112} & C_{1113} & C_{1123} \\
-C_{2211} & C_{2222} & C_{2233} & C_{2212} & C_{2213} & C_{2223} \\
-C_{3311} & C_{3322} & C_{3333} & C_{3312} & C_{3313} & C_{3323} \\
-C_{1211} & C_{1222} & C_{1233} & C_{1212} & C_{1213} & C_{1223} \\
-C_{1311} & C_{1322} & C_{1333} & C_{1312} & C_{1313} & C_{1323} \\
-C_{2311} & C_{2322} & C_{2333} & C_{2312} & C_{2313} & C_{2323}
-\end{bmatrix}
-\cdot
-\begin{bmatrix}
-\varepsilon_{11} \\
-\varepsilon_{22} \\
-\varepsilon_{33} \\
-\gamma_{12} \\
-\gamma_{13} \\
-\gamma_{23}
-\end{bmatrix}$
-mit
+## Kontextualisierung
 
-$\gamma_{ij}=\gamma_{ji}=0.5(\varepsilon_{ij}+\varepsilon_{ji})$
+<div class="hinweis">
+
+**Ausgangspunkt:** Fertigungsdefekte beeinflussen die Kennwerte des „idealen" Verbunds aus der Mikromechanik und CLT erheblich.
+
+</div>
+
+- Fertigungsverfahren haben **Fehler-„Präferenzen"** – bestimmte Prozesse erzeugen typische Defektmuster
+- Industrielle Fertigung ist ein Kompromiss:
+
+<div class="eq">
+
+$$\text{Fertigungsgeschwindigkeit} \;\longleftrightarrow\; \text{Fehler} \;\longleftrightarrow\; \text{Kosten}$$
+
+</div>
+
+> Heinecke & Willberg (2019): Manufacturing-Induced Imperfections in Composite Parts via AFP. *Journal of Composites Science*, 3(2):56.
 
 ---
 
-## Faserverbunde - orthotropes Material
-
-- Annahme des ebenen Spannungzustands
-
-$\begin{bmatrix}
-\sigma_1 \\
-\sigma_2 \\
-\tau_{12}
-\end{bmatrix}=
-\begin{bmatrix}
-\frac{E_1}{1-\nu_{12}\nu_{21}} & \frac{\nu_{21}E_1}{1-\nu_{12}\nu_{21}} & 0 \\
-\frac{\nu_{12}E_2}{1-\nu_{12}\nu_{21}} & \frac{E_2}{1-\nu_{12}\nu_{21}} & 0 \\
-0 & 0 & G_{12}
-\end{bmatrix}
-\begin{bmatrix}
-\varepsilon_1 \\
-\varepsilon_2 \\
-\gamma_{12}
-\end{bmatrix}$
+## Auswirkungen von Fertigungsfehlern
 
 
----
+**Betroffene Eigenschaften**
 
-# Rotation
-- Transformation ist nicht mittels der Rotationsmatrix direkt möglich
-- Voigt Matrix hat keine orthonormale Basis
-- 2 Wege
-  - Transformation über den Steifikeitstensor
-  - Transpormation über Spannungen und Dehnungen
-
-
----
-
-- Nach der Rotation des Dehnungstensors (2x2) wird dann die Voigtform für die Multiplikation genutzt
-
-$\mathbf{\sigma}'= \mathbf{C}\mathbf{R} \mathbf{\varepsilon} \mathbf{R}^T$
-
-$\mathbf{\sigma}=\mathbf{R}^T \mathbf{\sigma}' \mathbf{R}$
-
--> wird in FEM angewandt
-
----
-
-## Klassische Laminattheorie
-
-- Einzelschichten ist ideal linear elastisch
-- Das Laminat ist dünn (Dicke $t$ ist klein gegenüber den restlichen Abmessungen)
-- Die Laminatdicke $t$ ist konstant
-- Die Theorie I. Ordnung ist gültig (kleine Verformungen)
-- Die Bernoullische Annahmen sind gültig (ebene Querschnitte, schubstarr in Dickenrichtung)
-- Der Spannungszustand ist aufgrund der Dünnwandigkeit eben $σ_3 = τ_{13} = τ_{23} = 0$
-- Die Schichten sind ideal miteinander verklebt.
-- Das Laminat liegt in der 1 , 2 -Ebene.
-
----
-
-$\mathbf{Q}=\mathbf{C}_{Voigt}^{2D}$
-
-$\mathbf{\sigma}= \mathbf{Q} \mathbf{\varepsilon}=
-\begin{bmatrix}Q_{11}  & Q_{12} & Q_{16}\\
-Q_{12}  & Q_{22} & Q_{26}\\
-Q_{16}  & Q_{26} & Q_{66}
-\end{bmatrix}\begin{bmatrix}
-\varepsilon_1 \\
-\varepsilon_2 \\
-\gamma_{12}
-\end{bmatrix}$
-
-$\mathbf{Q}^{0°}=\begin{bmatrix}
-\frac{E_1}{1-\nu_{12}\nu_{21}} & \frac{\nu_{21}E_1}{1-\nu_{12}\nu_{21}} & 0 \\
-\frac{\nu_{12}E_2}{1-\nu_{12}\nu_{21}} & \frac{E_2}{1-\nu_{12}\nu_{21}} & 0 \\
-0 & 0 & G_{12}
-\end{bmatrix}$
+| Eigenschaft | Beispielauswirkung |
+|------------|-------------------|
+| Festigkeit | Reduktion bis 40 % |
+| Steifigkeit | Veränderte CLT-Vorhersage |
+| Stabilität | Beullastreduktion |
+| Dynamik | Eigenfrequenzverschiebung |
+| Dichtigkeit | Versagen bei Druckbehältern |
+| Lebensdauer | Frühzeitiges Ermüdungsversagen |
 
 
----
-## Rotierte Matrixeinträge nach Schürmann
-![](../assets/Figures/glg922.png)
-
----
-
-![](../assets/Figures/glg927.png)
-
----
-
-![bg right 60%](https://upload.wikimedia.org/wikipedia/de/8/82/Dehnung-Schiebungs-Kopplung.png)
-
-$A_{ij} = \sum_{k=1}^{N} \hat Q_{ij,k} \cdot t_k$
-
----
-
-$D_{ij} = \sum_{k=1}^{N} \hat Q_{ij,k} \cdot \left(   \underbrace{\frac {t^3_{k}} {12}}_\text{Biegesteifigkeit}  + t_k \underbrace{ \left( z_k-\frac {t_k} {2} \right)^2}_\text{Steiner Anteil} \right)$
-
-![](https://upload.wikimedia.org/wikipedia/de/b/bc/Biege-Drill-Kopplung.png)
-
----
-
-$B_{ij} = -\sum_{k=1}^{N} \hat Q_{ij,k} \cdot t_k \cdot \underbrace{  \left(  z_k - \frac{t_{k}}{2}   \right)}_\text{stat. Moment}$
-
-![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/b/bb/Dehnung-Kr%C3%BCmmungs-Kopplung.png)
 
 ---
 
 
 
-$
-\begin{bmatrix} 
-\mathbf{N}\\
-\mathbf{M}
-\end{bmatrix}=
-\begin{bmatrix}
-\mathbf{A} & \mathbf{B} \\
-\mathbf{B} & \mathbf{D}
-\end{bmatrix}\begin{bmatrix} 
-\boldsymbol{\varepsilon}\\
-\boldsymbol{\kappa}
-\end{bmatrix}$
+**Praxisbeispiele**
 
-## Grenzen
-- durch Kirchhoffsche Schalentheorie gegeben (Dünnwandigkeit)
+- Windenergieanlagen-Rotorblatt: Fertigungsdefekte als Ursache für Steifigkeitsschwankungen *(Knebusch, 2020)*
+
+- FRP-Metall-Hybride: Eigenspannungen durch Herstellungsprozess *(Prussak, 2018)*
+
+- Ermüdung unter thermischer Last *(Lüders, DLR Leichtbau)*
+
+
 
 ---
 
----
-
-## Schäden in Faserverbunden
-Nach Heslehurst können 52 Fehlertypen kategorisiert werden 
-  - Einteilung nach Auftreten im Lebenszyklus
-        - Materialprozess – Fehler die bei der Bereitstellung der Teilbestandteile auftreten
-        - Komponentenfertigung – Fehler während der Kompositfertigung, welche während der Ablage, Aushärtung, Bearbeitung oder der Assemblierung auftreten
-        - In-service Nutzung – im Betrieb auftretende Schäden
-  - Einteilung nach Größe
-      - Mikroskopisch 
-      - Makroskopisch
-
----
-
-## Delaminationen
-- eine der häufigsten Schädigungen
-- hohe interlaminare Spannungen durch 
-- Querkontraktionseffekte
-- Unterschiedliche Wärmedehnungen
-- Kanten (Geometrie, Mikrorisse, Poren)
-- Trennfolien
+## Klassifikation nach Heslehurst
 
 
-![bg right fit](../assets/Figures/delamination.png)
+
+**52 Fehlertypen** lassen sich in drei Kategorien nach dem Lebenszyklus einteilen *(Heslehurst, 2014)*
+
+
+### Nach Auftreten
+
+```
+Lebenszyklus
+├── Materialprozess
+│   └── Bereitstellung der Teilbestandteile
+├── Komponentenfertigung
+│   ├── Ablage
+│   ├── Aushärtung
+│   ├── Bearbeitung
+│   └── Assemblierung
+└── In-service Nutzung
+    └── Betriebsschäden
+```
 
 ---
 
-## Delaminationen
+### Nach Größe
 
-- Verschmutzungen
-- Trennung zwischen zwei Lagen – interlaminarer Riss
-- Feuchteeintritt
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+
+
+![h:380](./assets/mikroschaden.png)
+
+**Mikroskopisch** - Matrixrisse, Faserbrüche, Faser-Matrix-Ablösung 
+
+</div>
+<div class="rdiv">
+
+![h:400](./assets/makroschaden.png)
+**Makroskopisch** - Delaminationen, Beulen, Durchdringungen
+
+</div>
+
+---
+
+## Fehlertypen – Komponentenfertigung
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+**Matrixbezogen**
+- Blasenbildung / Hohlräume
+- Porosität
+- Bereiche ohne Harz
+- Schwankungen im Harzanteil
+- Fehler im Aushärteprozess
+- Ungleichmäßige Härtermittelverteilung
+
+
+</div>
+<div class="rdiv">
+
+**Faserbezogen**
+- Faserausrichtungsfehler
+- Faserknicke (Wrinkles)
+- Fehlende Lagen
+- Starke Lagenüberlappungen
+</div>
+
+---
+
+**Strukturell**
+- Risse / Delaminationen
+- Ablösungen
+- Thermische Spannungen
+- Verzug
+
+**Fertigungsbedingt**
+- Verschmutzungen / Trennfolien
+- Fehler in Verbindungsbohrungen
+- Kanten-/Eckensplitterung
+- Falsche Materialien
+
+
+
+---
+
+
+
+## Schadenstyp: Delamination
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+**Definition:** Trennung zwischen zwei Lagen – interlaminarer Riss
+
+**Ursachen**
+- Hohe interlaminare Spannungen durch Querkontraktionseffekte
+- Unterschiedliche Wärmedehnungen der Lagen
+- Geometrische Kanten (Kerbwirkung)
+- Trennfolien / Verschmutzungen zwischen Lagen
+
+</div>
+<div class="rdiv">
+
+**Folgen**
+- Feuchteeintritt → weitere Schädigung
 - Lebensdauerreduktion
-- Stabilität
+- Stabilitätsverlust (Druckversagen)
 
-![bg right fit](../assets/Figures/delamination.png)
-
----
-
-## Ablösungen
-
-- Schlechte Prozesskontrolle
-- Schlechte Passung
-- Durch eintretenden Trennfilm
-- Schlechte Oberflächenbehandlung (Verschmutzung, etc.)
-- Relevant bei Kernanbindung und Verklebung von Komponenten
-
-![bg right fit](../assets/Figures/abloesung_klebung.png)
+</div>
 
 ---
 
 
-## Fehler an Verbindungsbohrungen
 
-- Zu starkes Anziehen von Schrauben 
-Oberflächenschädigung
-- Lokale Beschädigung der ersten Lage
-- Austrittsschäden bei Bohrungen
-- Meist Splitterungen und lokale Delaminationen
-- Splitter können bei Bohrungen zwischen zwei Komponenten verbleiben
+![w:500](./assets/delimation.png)
 
-![bg right fit](../assets/Figures/Bohrungen.png)
+
+
+![](./assets/impact.png)
+
 
 ---
 
-## Porosität
+## Schadenstyp: Porosität
 
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+**Ursachen**
 - Schlechte Material- und Prozesskontrolle
-- Überaltertes Material
-- Feuchtigkeit im Prepreg 
+- Überaltertes Prepreg-Material
+- Feuchtigkeit im Prepreg
 - Fehlfunktion im Autoklav
 
+**Auswirkungen**
+- Verschlechterte Lageneigenschaften (Interlaminare Scherfestigkeit ↓)
+- Reduktion der Ermüdungslebensdauer
+- Beeinträchtigung der Dichtheit
+
+</div>
+<div class="rdiv">
+
+**Wichtige Erkenntnis:**
+
+Die **Konzentration** der Poren ist für die Schädigungswirkung wichtiger als die absolute Porengröße.
+
+</div>
+
+<div class="eq">
+
+Porosität > 2 % → signifikante ILSS-Abnahme
+
+</div>
+
+> Wang et al. (2019): 3D Characterizations of Pores in C/SiC via X-Ray CT. *Applied Composite Material*, 26:493–505.
 
 
-![bg right fit](../assets/Figures/Poren.png)
+
+---
+
+![bg 80%](./assets/poren.png)
 
 ---
 
-## Porosität
+## Schadenstyp: Faserwelligkeit (Wrinkles)
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+**Out-of-plane Welligkeit**
+- Entsteht bei manueller Ablage oder AFP-Prozessen
+- Fasern verlaufen nicht in der Laminatebene
+
+**In-plane Welligkeit**
+- AFP-bedingt durch Kurvenradien
+- Lagenüberlappungen
+
+</div>
+
+<div class="rdiv">
+
+**Auswirkungen auf Festigkeit**
+
+| Welligkeitswinkel | Festigkeitsabfall |
+|-------------------|-------------------|
+| 5° | ca. 15 % |
+| 10° | ca. 30–40 % |
+| 15° | > 50 % |
 
 
 
-- Verschlechtert die Lageneigenschaften
-- Auswirkung auf die Ermüdungslebens-dauer
-- Konzentrationen von Poren wichtiger als Größe
-- Wirkt sich auf die Dichtheit aus
 
+**Praxisrelevanz (Airbus):** Faserwelligkeit ist ein zentrales Qualitätskriterium in der Rumpfschalenfertigung
 
-![bg right fit](../assets/Figures/Poren.png)
+</div>
+
+> Al-Kathemi: *Physical interaction effects of out of plane waviness and impact damages*, 2022
+
+> Willberg: *A mode-dependent energy-based damage model for peridynamics*, 2019
+
+</div>
 
 ---
 
-## Vor- und Nachteile 
-**Vorteile**
-- Spezifische Materialeigenschaften
-- Weitgehend elastisches Verhalten
-- Hohe Festigkeiten und Steifigkeiten in Faserrichtung
-- „maßgeschneidertes“ Material
-- Alterung- und Korrosionsbeständigkeit
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+![](./assets/welligkeit.png)
+
+</div>
+
+<div class="rdiv">
+
+![w:2000](./assets/modelWelligkeit.png)
+
+</div>
 
 ---
-## Vor- und Nachteile
-**Nachteile**
-- Variantenreichtum
-- Geringe Zugfestigkeit senkrecht zur Faser
-- Schwierige Prüfung
-- Recyclebarkeit
-- Spezifische Materialeigenschaften und Verarbeitungsverfahren
+
+![bg 85%](./assets/afpschaden.png)
+
+---
+
+## Schadenstyp: Fehler an Verbindungsbohrungen
+
+**Ursachen und Erscheinungsformen**
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+**Beim Bohren**
+- Austrittsschäden (Delamination an der Bohrungsaustrittsseite)
+- Kanten-/Eckensplitterung
+- Lokale Beschädigung der obersten Lage
+
+**Im Betrieb**
+- Zu starkes Anziehen von Schrauben → Lagenschädigung
+- Oberflächenschädigung durch Kontakt
+
+</div>
+<div class="rdiv">
+
+
+**Montageproblem:** Splitter können zwischen zwei Komponenten verbleiben und erst im Betrieb zur Ablösung führen.
+
+**Konsequenzen**
+- Negative Beeinflussung der Fügung
+- Kerbspannungen → Rissinitiierung
+- Lokale Delaminationen am Bohrungsrand
+
+</div>
+</div>
+
+---
+
+![bg 40%](./assets/bohrungen.png)
+
+---
+
+## Schädigungen nach Größe – Mikroskopisch vs. Makroskopisch
+
+| Ebene | Schädigungstypen |
+|-------|-----------------|
+| **Mikroskopisch** | Beschädigte Filamente · Faser-Fehlausrichtung · Faser-/Matrixanhaftungen · Risse in der Matrix · Matrixporen · Pillen & Fusseln · Thermische Eigenspannungen · Schwankungen im Harzanteil |
+| **Makroskopisch** | Delaminationen · Risse · Ablösungen · Beulen · Translaminare Brüche · Lagenüberlappungen/-lücken · Beschädigung der Kanten · Löcher/Durchdringungen · Fehlende Lagen |
+
+
+
+**Skalenübergreifende Wirkung:** Mikroskopische Risse können unter Last zu makroskopischen Delaminationen koaleszieren → Kaskadenversagen
+
+
+---
+
+## Design- und Prozesseinfluss auf Fehlerbildung
+
+
+
+**Geometriekomplexität ↑ → Fehlerrisiko ↑**
+- Enge Radien fördern Faserwelligkeit
+- Komplexe Ecken begünstigen Porosität
+- Schichtdickensprünge erzeugen Eigenspannungen
+
+**Prozesse zur Fehlerreduktion**
+
+| Prozess | Reduziert |
+|---------|-----------|
+| Vakuuminfusion + Autoklav | Poren |
+| AFP (automatisiert) | Orientierungsfehler |
+| Prepreg | Faser-Matrix-Anbindung |
+
+
+---
+
+**Manuelle vs. automatisierte Fertigung**
+
+
+
+Manuelle Prozesse: hohe Flexibilität, aber starke Streuung der Qualität – abhängig von Erfahrung des Operateurs
+
+
+AFP (Automated Fiber Placement): reproduzierbar, aber eigene Fehlertypen (Gaps, Overlaps, Tows-Twists)
+
+
+
+
+
+---
+
+## Strategien im Umgang mit Fehlern
+
+<div class="zwei-spalten">
+<div>
+
+### Präventiv
+
+**Tolerante Designs**
+- ✅ Wenig Nacharbeit
+- ❌ Überdimensionierung, Gewichtsnachteil
+
+**Robuste Prozesse**
+- ✅ Wenig Nacharbeit, Planbarkeit
+- ❌ Prozesseinstellung aufwändig, nur bei großen Stückzahlen wirtschaftlich
+
+**Prozessüberwachung (SHM)**
+- ✅ Weniger Prozessanpassung nötig
+- ❌ Aufwändige Sensorik, detailliertes Prozessverständnis erforderlich
+
+</div>
+<div>
+
+### Detektiv
+
+**Prüfung (ZfP)**
+- ✅ Planbarkeit der Fertigung
+- ❌ Zusätzlicher Schritt mit Kosten
+
+**In-service Monitoring**
+- ✅ Reduktion von Überholungsintervallen
+- ❌ Sensorik im Betrieb, Datenauswertung
+
+<div class="hinweis">
+
+In der Luftfahrt sind Reparaturen und Nacharbeiten normaler Bestandteil des QM-Prozesses – nicht das Eingeständnis eines Versagens.
+
+</div>
+
+</div>
+</div>
+
+---
+
+## Zerstörungsfreie Prüfverfahren (ZfP)
+
+<div class="zwei-spalten">
+<div>
+
+**Geometrisch / Optisch**
+- Visuelle Inspektion (manuell / automatisch)
+- Klopfprüfung (coin tap)
+- Interferometrie
+
+**Durchstrahlung**
+- Röntgen / Radiographie
+- CT (Computertomographie)
+- Mikrowelle
+
+</div>
+<div>
+
+**Wellenbasiert**
+- Ultraschall (Pulse/Echo, Durchstrahlung)
+- Thermographie (aktiv/passiv)
+- Akustische Emission
+
+**Spezialverfahren**
+- Eindringmittelprüfung
+- Dielektrische Prüfung
+- Mechanische Impedanzanalyse
+- Magnetische Verfahren
+
+</div>
+</div>
+
+<div class="hinweis">
+
+Detaillierte Beschreibung der Verfahren, Vor- und Nachteile: **Lernplattform**
+
+</div>
+
+---
+
+## Industrielle Relevanz – Anforderungen nach Branche
+
+| Branche | Primäre Anforderung | Fehlertoleranz |
+|---------|--------------------|--------------------|
+| **Luftfahrt** | Schadenstoleranz, Festigkeit/Gewicht | Sehr niedrig (JAR/CS 23/25) |
+| **Automobil** | Kosten, Zykluszeit | Mittel (Crashtoleranz) |
+| **Bauwesen** | Lebensdauer, Korrosionsbeständigkeit | Niedrig (Dauerhaftigkeit) |
+| **Windenergie** | Kosten, Ermüdungslebensdauer | Mittel (Zugänglichkeit) |
+| **Raumfahrt** | Gewicht, Zuverlässigkeit | Sehr niedrig |
+
+<div class="eq">
+
+Fertigungsgeschwindigkeit ↔ Fehlertoleranz ↔ Kosten = **anwendungsabhängiger Kompromiss**
+
+</div>
+
+---
+
+## Praxisbeispiele
+
+**Airbus – Umgang mit Faserwelligkeit**
+- Grenzwerte für Out-of-plane Welligkeit in Rumpfschalen
+- Analyse von Einfluss auf Druckfestigkeit und Beullast
+
+**PAG – Bohrungen in Rumpfschalen**
+- Prozessoptimierung Bohrparameter zur Minimierung von Austrittsschäden
+- Qualitätssicherung durch automatisierte Bildauswertung
+
+**Voith Composite – Prozessbegleitproben**
+- Kleine Testlaminatproben werden parallel zur Serienproduktion gefertigt
+- Erlauben Rückschlüsse auf Chargenqualität ohne Bauteilzerstörung
+
+---
+
+## Zusammenfassung
+
+
+
+1. Fertigungsfehler in CFK sind **vielfältig** – 52 Typen nach Heslehurst, klassifiziert nach Lebenszyklus und Größe
+2. **Wirkung ist anwendungsabhängig** – Porosität ist in der Luftfahrt kritischer als im Bauwesen
+3. **Ursachen**: Fertigungsprozess, Materialkombination und Designkomplexität
+4. **Prüfung** während und nach der Fertigung ist Standard – ZfP-Methoden ergänzen sich
+5. **Robuste Prozesse + Schadenstoleranz + Monitoring** sind die drei Säulen des Qualitätsmanagements
+
+

@@ -481,32 +481,3 @@ Das Spannungs**verhältnis** bleibt gleich – die Umverteilung ist **nicht** ge
 
 </div>
 
----
-
-# Aufgabe 10 – Verständnisfragen
-
-<div class="aufgabe">
-
-Beantworten Sie folgende Fragen zur CLT:
-
-**a)** Warum dürfen beim Scheibenelement Schichten gleicher Orientierung zusammengefasst werden, beim Plattenelement aber nicht?
-
-**b)** Was bedeutet „statisch unbestimmt" im Kontext des MSV?
-
-**c)** Warum gilt die CLT nicht an Bauteilrändern?
-
-</div>
-
----
-
-## Lösung 10
-
-<div class="loesung">
-
-**a)** Beim **Scheibenelement** sind die Verzerrungen über der Dicke **konstant** (Kompatibilität). Die Position der Schicht im Laminat spielt keine Rolle – nur die Summe $\bar{Q}_{ijk} \cdot t_k$ zählt. Beim **Plattenelement** sind die Verzerrungen **linear über der Dicke** verteilt (Bernoulli). Hier bestimmt der **Abstand** einer Schicht zur Mittelebene ihren Beitrag zur Biegesteifigkeit ($z^2$-Gewichtung). Die Reihenfolge ist entscheidend.
-
-**b)** Die Verteilung der äußeren Last auf die Einzelschichten kann **nicht allein aus dem Kräftegleichgewicht** bestimmt werden. Zusätzlich werden die Kompatibilitätsbedingung und die Elastizitätsgesetze der Schichten benötigt.
-
-**c)** An Rändern entstehen **interlaminare Spannungen** durch unterschiedliche Querkontraktionen der Schichten. Dieser 3D-Spannungszustand wird vom ESZ der CLT nicht erfasst.
-
-</div>

@@ -2657,15 +2657,3 @@ Hochtemperatur: PPS, PEEK, PSU, PEI
 **Kontakt:**
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
-
-
-
-
-
----
-
-## Vielen Dank für Ihre Aufmerksamkeit!
-
-**Kontakt:**
-Prof. Dr.-Ing. Christian Willberg
-Hochschule Magdeburg-Stendal
