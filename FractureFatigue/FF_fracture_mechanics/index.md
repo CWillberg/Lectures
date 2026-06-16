@@ -35,7 +35,7 @@ Hochschule Magdeburg-Stendal
 
 --- 
 
-Figures are mostly taken from Gross und Seelig, Bruchmechnanik
+Figures are mostly taken from Gross und Seelig, Bruchmechanik
 
 ---
 
