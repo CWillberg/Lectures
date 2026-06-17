@@ -359,10 +359,16 @@ Bauteilbewertung"_
 </div>
 
 
+---
+
+![](./assets/strengthOrientation.png)
+
+_Fig 6.18. taken from Uwe Zerbst · Mauro Madia: "Bruchmechanische
+Bauteilbewertung"_
 
 ---
 
-## 6.3.2.3 Estimating Cyclic Parameters from Hardness
+## Estimating Cyclic Parameters from Hardness
 
 When measured data are unavailable, $K'$ and $\sigma'_Y$ can be estimated from Brinell hardness HB:
 
@@ -384,31 +390,39 @@ These are **empirical estimates** — use measured cyclic curves whenever possib
 
 ---
 
-## 6.3.2.4 Crack Idealisation and Recharacterisation
+## Crack Idealisation and Recharacterisation
 
-➜ **Fig. 6.19** (orientation recharacterisation), **Fig. 6.20** (idealisation types), **Fig. 6.21** (co-planar crack interaction), **Fig. 6.22** (subsurface → surface; surface → through-thickness)
+![bg right fit](./assets/crackprojection.png)
 
 **Orientation:** Project real crack perpendicular to principal stresses $\sigma_{H1}$, $\sigma_{H2}$:
 
 $$\frac{c}{c_0} = \cos^2\!\beta + \tfrac{1}{2}(1-\lambda)\sin\beta\cos\beta + \lambda^2\sin^2\!\beta \qquad (\sigma_{H1}\text{-plane})$$
 
-**Co-planar cracks** (BS 7910, Tab. 6.2): merge when spacing $s \leq \max(a_1, a_2)$
+**Co-planar cracks**: merge when spacing $s \leq \max(a_1, a_2)$
 
-**Subsurface crack near surface:** If $p \leq a$ → recharacterise as surface crack (➜ **Fig. 6.22a**)
+_Fig 6.19. taken from Uwe Zerbst · Mauro Madia: "Bruchmechanische
+Bauteilbewertung"_
 
-<div class="hinweis">
 
-**Mixed-mode exception** (BS 7910): If the angle between actual crack plane and the plane with highest K exceeds **20°**, or if principal stresses are of comparable magnitude with opposite signs → full mixed-mode analysis required.
+---
 
-</div>
+
+
+![bg 80%](./assets/idealisiation.png)
+
+![bg fit](./assets/tab_trafo.png)
+
+---
+
+# Remark
+
+- all these models are idealisations
+- assess ''real'' behavior CDF (Crack Driving Force) and FAD (Failure Assessment Diagram) have to be used
 
 ---
 
 <!-- _class: cols-2 -->
 
-## 6.4 CDF vs. FAD Assessment
-
-➜ **Fig. 6.23** (CDF and FAD principles side by side)
 
 <div class="ldiv">
 
@@ -442,28 +456,23 @@ CDF = FAD: **identical results**, different representation only.
 
 ---
 
-## 6.4.2.2 Assessment Against Stable Crack Initiation
-
-➜ **Fig. 6.24** (Demo 6.2: critical load, CDF + FAD), **Fig. 6.25** (Demo 6.3: critical crack depth)
-
-**Criterion:** $K_J < K_\text{mat}$ at $J_i$ or $J_{0.2BL}$
-
-**Demo 6.2** – plate, Al alloy, $\sigma_Y = 242$ MPa, $J_i = 10$ N/mm, $a = 3$ mm, $a/c = 1$:
-
-| Assessment option | Critical load $F_c$ |
-|---|---|
-| BS 7910 Option 1 | **460.2 kN** |
-| BS 7910 Option 2 (less conservative) | **474.5 kN** |
-
-**Demo 6.3** – same geometry, $F = 300$ kN, $a/c = 0.2$: Option 1 → $a_c =$ **4.05 mm**, Option 2 → **4.30 mm**
-
-**Demo 6.4** – $F = 500$ kN → minimum required toughness: $K_\text{mat} \geq$ **45.5 MPa√m** (Opt. 1), **34.5 MPa√m** (Opt. 2)
+![](./assets/CDFFAD.png)
+_Fig 6.24. taken from Uwe Zerbst · Mauro Madia: "Bruchmechanische
+Bauteilbewertung"_
 
 ---
 
-## 6.4.2.3 Assessment Against Ductile Crack Instability
+## Assessment Against Ductile Crack Instability
+<!-- _class: cols-2 -->
 
-➜ **Fig. 6.26** (J–a diagram, tangent criterion), **Fig. 6.27** (parameter influence), **Fig. 6.28** (σ–a method), **Fig. 6.29** (fuselage panel), **Fig. 6.30** (FAD)
+
+<div class="ldiv">
+
+![](./assets/instability.png)
+_Fig 6.28. taken from Uwe Zerbst · Mauro Madia: "Bruchmechanische
+Bauteilbewertung"_
+</div>
+<div class="rdiv">
 
 **Two conditions for stable crack growth:**
 
@@ -473,60 +482,24 @@ $$J < J_\text{mat}(a) \qquad \text{and} \qquad \frac{dJ}{da}\bigg|_\sigma < \fra
 
 </div>
 
-**σ–a method (Fig. 6.28):**
+**σ–a method:**
 1. Start at $a_0$, increment by $\Delta a_i$
 2. For each crack depth: raise load until $J(\sigma,\, a_0\!+\!\Delta a_i) = J_\text{mat}(\Delta a_i)$
 3. Plot $(\sigma, a)$ pairs → **maximum = instability load**
 
-<div class="loesung">
 
-**Demo 6.5:** Instability load $F_c =$ **520 kN** vs. 460 kN at stable initiation → 60 kN of stable crack growth capacity (➜ Fig. 6.31, 6.32)
 
 </div>
 
 ---
 
-<!-- _class: cols-2 -->
-
-## 6.4.2.4 Plastic Collapse & 6.4.2.5 Constraint
-
-<div class="ldiv">
-
-### Plastic Collapse (➜ Fig. 6.33)
-
-Occurs when the FAD path reaches the vertical cut-off at $L_r^\text{max}$:
-
-$$L_r^\text{max} = \frac{1}{2}\left(\frac{\sigma_Y + R_m}{\sigma_Y}\right)$$
-
-<div class="hinweis">
-
-Compare instability and collapse load — the **lower** governs. In Fig. 6.33, collapse was ~13 % below instability pressure. Experiment: only 1 % above predicted collapse.
-
-</div>
-
-</div>
-<div class="rdiv">
-
-### Constraint Correction (➜ Fig. 6.34, 6.35, 6.36)
-
-Small cracks / thin sections → lower triaxiality → **higher effective toughness**:
-
-$$K_\text{mat}^c = K_\text{mat} \cdot f(\beta_T,\, L_r)$$
-
-In FAD: replace $K_\text{mat}$ with $K_\text{mat}^c(L_r)$ → failure locus shifts upward
-
-<div class="loesung">
-
-**Demo 6.6** – constraint correction increases critical load by **14 %** (658 → **749 kN**)
-
-</div>
-</div>
+![](./assets/analysis.png)
 
 ---
 
 <!-- _class: cols-2 -->
 
-## 6.4.2.6 Probabilistic Analysis
+##  Probabilistic Analysis
 
 ➜ **Fig. 6.37** (scatter), **Fig. 6.38** (Monte Carlo in FAD), **Fig. 6.39–6.41** (Demos 6.7–6.8, R6 method)
 
@@ -560,16 +533,18 @@ $$\beta = -\Phi^{-1}(P_f)$$
 
 **Target** (ISO 2394): $P_f = 10^{-3}$ to $10^{-6}$ per year
 
-**Demo 6.7:** $P_f = 10^{-4}$ → $F_c = 430$ kN; $P_f = 10^{-3}$ → $F_c = 439$ kN
-**Demo 6.8:** $P_f = 10^{-3}$ → $a_c = 3.41$ mm
 
 </div>
 
 ---
 
-## 6.5 Life Estimation – Basic Iteration
+![](./assets/probility.png)
 
-➜ **Fig. 6.42** (schematic of remaining life procedure)
+---
+
+## Life Estimation – Basic Iteration
+
+
 
 <div class="aufgabe">
 
@@ -592,124 +567,7 @@ For elliptical cracks: compute deepest point **and** surface points **separately
 
 ---
 
-## 6.5.2 Remaining Life – Demo 6.9
-
-➜ **Fig. 6.43** (crack dimensions and K-factors vs. cycles)
-
-**Plate under bending** ($\sigma_b = 100$ MPa), Paris law per BS 7910:
-$$\frac{da}{dN} = 5.21\!\times\!10^{-13} \cdot \Delta K^3 \quad \left[\frac{\text{mm}}{\text{cycle}},\;\text{MPa}\sqrt{\text{mm}}\right]$$
-
-| $N$ (cycles) | $a$ (mm) | $c$ (mm) | $K_I^A$ (MPa√mm) | $K_I^C$ (MPa√mm) |
-|---|---|---|---|---|
-| 0 | 1.00 | 1.00 | 100 | 125 |
-| 0.5 M | 1.26 | 1.50 | 119 | 137 |
-| 1.5 M | 2.32 | 3.20 | 145 | 183 |
-| 2.5 M | 4.08 | 7.33 | 160 | 245 |
-
-<div class="loesung">
-
-Under **bending**, the crack **flattens** ($a/c$ decreases). Under tension it would deepen. This is why separate point tracking matters.
-
-</div>
-
----
-
-<!-- _class: cols-2 -->
-
-## 6.5.3 Total Life – Short Crack Regime
-
-➜ **Fig. 6.44** (K at circular void), **Fig. 6.45** ($P_J$ Wöhler curve), **Fig. 6.46** (crack closure build-up), **Fig. 6.47** (cyclic R-curve analysis)
-
-<div class="ldiv">
-
-**Total life** = fracture mechanics from a **fatigue-relevant initial defect** $a_i$
-
-**Requirements:**
-
-1. **EP crack tip parameter** ($J$ or $P_J = \sqrt{J/a}$) for short cracks
-
-2. **Gradual build-up of crack closure** (IBESS):
-$$\frac{1 - U_{SC}(a)}{1 - U_{LC}} = \frac{\Delta K_{th,SC}(a) - \Delta K_{th,eff}}{\Delta K_{th,LC} - \Delta K_{th,eff}}$$
-
-3. **Initial crack size $a_i$** from cyclic R-curve:
-→ load at which arrest → propagation = **component fatigue limit**
-
-</div>
-<div class="rdiv">
-
-**Multiple crack growth** above fatigue limit (➜ **Fig. 6.48–6.50**)
-
-At the fatigue limit: exactly **one** crack at the arrest/propagation boundary.
-
-Above fatigue limit: multiple cracks grow simultaneously at stress hot spots (e.g. weld toes).
-
-**IBESS Monte Carlo:**
-- Divide weld toe into sections
-- Assign statistical geometry + material + $a_i$ per section
-- Repeat on multiple load levels → probabilistic Wöhler curve
-
-➜ **Fig. 6.51** (Wöhler curve construction), **Fig. 6.52** (IBESS result)
-
-<div class="hinweis">
-
-FAT classes: set failure criterion at $N = 2\!\times\!10^6$ cycles.
-
-</div>
-</div>
-
----
-
-## 6.5.4 FAD Under Creep Loading
-
-➜ **Fig. 6.53** (creep effect on stress–strain curve and FAD failure locus)
-
-**Time as additional parameter:**
-
-- Creep deformation → stress–strain curve softens with time
-- $K_r$ decreases, $L_r$ increases → assessment point moves along the FAD path
-- Critical load and crack size become **time-dependent**
-
-<div class="hinweis">
-
-Creep crack growth is driven by the $C^*$-integral — the time-dependent analogue of the J-integral (see Sections 3.11 and 4.5). The FAD failure locus is recalculated at each time step.
-
-</div>
-
----
-
-<!-- _class: cols-2 -->
-
-## Summary
-
-<div class="ldiv">
-
-**Design philosophies:**
-- Safe Life · Damage Tolerance · Fail Safe
-- Hierarchical, often combined
-
-**Fracture mechanics triangle:**
-- Stress ↔ Crack size ↔ Toughness
-- 5 problem types (a)–(e)
-
-**Assessment (Figs. 6.23–6.36):**
-- CDF = FAD (identical results)
-- Stable initiation → instability → collapse
-- Constraint correction can increase critical load significantly
-
-</div>
-<div class="rdiv">
-
-**Life estimation (Figs. 6.42–6.52):**
-- Remaining life: $a_0$ from NDT → iterative crack growth
-- Total life: $a_i$ from cyclic R-curve
-- Residual stresses → R-ratio, not $\Delta K$
-- Elliptical cracks: A-point and C-point separately
-
-**Probabilistic (Figs. 6.37–6.41):**
-- Monte Carlo preferred over PSF (BS 7910 ≥ 2019)
-- $P_f = 10^{-3} \ldots 10^{-6}$ per year (ISO 2394)
-
-</div>
+![w:800](./assets/remaining_life.png)
 
 ---
 

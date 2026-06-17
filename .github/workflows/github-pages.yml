@@ -45,7 +45,7 @@ jobs:
           - FractureFatigue/FF_seminar_V
           - FractureFatigue/FF_seminar_VI
           - FractureFatigue/FF_fracture_mechanics
-          # - FractureFatigue/FF_seminar_VII
+         - FractureFatigue/FF_design
           - mechanics_01
           - Faserverbund_02
           - Peridynamics/pd_01
