@@ -2432,7 +2432,7 @@ Entscheidend ist die **Viskosität**
   - TBPB: 90°C
   - CUHP: 100°C
 
-**Härtung:** T_Härtung ≈ T_Anspring + 20°C
+**Härtung:** T$_{Härtung}$ ≈ T$_{Anspring}$ + 20°C
 
 **Faustregel:** +10°C → Reaktion 2× schneller
 
@@ -2510,7 +2510,7 @@ Entscheidend ist die **Viskosität**
 
 **Stufenhärtung (optimal):**
 1. Kalthärtung mit Peroxid 1
-2. Nachhärtung mit Peroxid 2 (höherer T_Anspring)
+2. Nachhärtung mit Peroxid 2 (höherer T$_{Anspring}$)
 
 **Kontrolle:** Rest-Styrolgehalt oder DSC
 
@@ -2521,7 +2521,7 @@ Entscheidend ist die **Viskosität**
 
 **EP-Harze - Allgemeines:**
 - Standard für Hochleistungs-FKV
-- Luft- und Raumfahrt, SporT$_{g}$eräte
+- Luft- und Raumfahrt, Sportgeräte
 - Basis: Bisphenol A
 - Polyaddition (Härter eingebaut)
 - Gelierung ab 50-70% Umsatz
