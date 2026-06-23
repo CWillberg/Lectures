@@ -20,7 +20,6 @@ img[alt="ORCID"] {
 # Krafteinleitung und Fügetechniken in FKV
 ## Schlaufenanschluss 
 ## Bolzenverbindungen 
-## Klebverbindungen
 
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 Hochschule Magdeburg-Stendal
@@ -36,26 +35,43 @@ Hochschule Magdeburg-Stendal
 
 In Leichtbaukonstruktionen wird der Werkstoff **hoch ausgereizt** – Krafteinleitungsbereiche erfordern daher besonderes Augenmerk.
 
-<div class="zwei-spalten">
-<div>
-
 **Grundprinzip:** In nahezu jeder tragenden Struktur müssen Kräfte konzentriert ein- oder ausgeleitet werden.
 
-**Besonderheit FKV:**
+![bg right fit](./assets/airbrake_old.png)
+
+---
+
+# Besonderheit FKV
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
 - Faserparallele Festigkeit sehr hoch
 - Querzug- und interlaminare Festigkeit sehr niedrig
 - → Krafteinleitung muss **fasergerecht** gestaltet sein
 
-<div class="hinweis">
+Häufig nimmt die Gestaltung und Erprobung von Krafteinleitungen den **größten Teil** einer Konstruktionsaufgabe ein.
 
-Obwohl FE-Modellierung möglich ist, ist immer ein **experimenteller Nachweis** an Prototypen notwendig – Betriebsfestigkeit ist rechnerisch nicht sicher genug vorherzusagen.
+</div>
+<div class="rdiv">
+
+> ⚠️ Obwohl FE-Modellierung möglich ist, ist immer ein **experimenteller Nachweis** an Prototypen notwendig – Betriebsfestigkeit ist rechnerisch nicht sicher genug vorherzusagen.
+
+Weitere Konstruktionsaspekte:
+- Fail-Safe-Verhalten / Reserve-Lastpfade
+- Qualitätssicherung, Wartung, Reparatur
+- Thermische Ausdehnung (FKV ↔ Metall)
+- Kriech- und Relaxationsvorgänge der Matrix
 
 </div>
 
-</div>
-<div>
+---
 
-**Drei Verbindungsprinzipien**
+![w:800](../../assets/Figures/Testpyramide.png)
+
+---
+
+# Drei Verbindungsprinzipien
 
 | Prinzip | Wirkung | Beispiele |
 |---------|---------|-----------|
@@ -68,52 +84,89 @@ Obwohl FE-Modellierung möglich ist, ist immer ein **experimenteller Nachweis** 
 - Dicke Laminate, große Flächen → **Bolzen / gestufte Klebung**
 - Dünne Laminate, große Klebfläche → **Klebung**
 
-</div>
+Verbindungstechniken werden auch kombiniert (z.B. Kleben + Nieten).
+
+---
+
+![](./assets/Abb21.1.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.1 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
 
 <!-- _class: lead -->
 
-# Teil 2: Der Schlaufenanschluss – Grundlagen
+# Der Schlaufenanschluss
 
 ---
 
 # Prinzip des Schlaufenanschlusses
 
-<div class="zwei-spalten">
-<div>
-
-**Grundidee:** UD-Faserstränge haben den Charakter von Seilen. Die höchste Belastbarkeit bei minimalem Gewicht bieten UD-Stränge, wenn sie **ausschließlich in Faserrichtung** belastet werden.
+UD-Faserstränge haben den Charakter von **Seilen** – höchste Belastbarkeit bei minimalem Gewicht, wenn sie ausschließlich in Faserrichtung belastet werden.
 
 → Umschlingen eines Bolzens: **Schlaufenanschluss** (*pin-loaded strap*)
 
-**Anwendung:**
-- Hohe, punktuell einzuleitende Kräfte
-- Hubschrauber-Rotorblattanschlüsse
+> ❗ Nur einsetzen wenn hohe Kräfte **punktuell** eingeleitet werden müssen. Die aufwändige Herstellung ist der wesentliche Nachteil.
+
+**Höchste Festigkeiten** durch sorgfältigst manuell gelegte Stränge. Prepregstreifen besonders geeignet (Arbeitshygiene, zähmodifizierte Harze).
+
+---
+
+# Anwendungen des Schlaufenanschlusses
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+- Hubschrauber-Rotorblattanschlüsse (Fliehkraft)
 - Trag- und Lasteinleitungselemente in Hängeisolatoren
 - Tieftemperatur-Behälterhalterungen (GFK: elektrische Isolation)
+- Funktionsintegration: Verdichterblätter als Schlaufe
+- Spannelemente als Alternative zu Schraubverbindungen
 
 </div>
-<div>
+<div class="rdiv">
 
-**Ausführungsformen**
-
-<div class="aufgabe">
-
-**Parallelschlaufe** (bevorzugt): Fasern laufen parallel um den Bolzen – kein Aufziehen. Günstigere Spannungsverteilung.
-
-</div>
-
-<div class="hinweis">
-
-**Augenschlaufe**: Fasern werden erst spät zusammengeführt → zusätzliche **Aufziehspannungen** entstehen. Gegenmaßnahme: Querbandagierung. Nur wenn unvermeidbar.
+> ✅ Vorteile der Schlaufe gegenüber Bolzenverbindung:
+>
+> - Kein Faserdurchtrennen
+> - Volle faserparallele Festigkeit nutzbar (prinzipiell)
+> - Sehr hohe Lastdichte
 
 </div>
 
-**Werkstoffe:** Prepregstreifen besonders geeignet (bessere Arbeitshygiene, zähmodifizierte Harze möglich). Höchste Festigkeiten durch sorgfältig manuell gelegte Stränge.
+---
+
+# Ausführungsformen
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+> ❗ **Parallelschlaufe** (bevorzugt)
+>
+> Fasern laufen parallel um den Bolzen – kein Aufziehen. Günstigere Spannungsverteilung.
+
+> ⚠️ **Augenschlaufe** (nur wenn unvermeidbar)
+>
+> Fasern werden erst spät zusammengeführt → zusätzliche **Aufziehspannungen**. Gegenmaßnahme: Querbandagierung.
 
 </div>
+<div class="rdiv">
+
+Begriffe:
+- **Schaft** – gerader paralleler Teil
+- **Flanke** – Übergangsbereich zum Bolzen
+- **Scheitel** – Umschlingungspunkt
+
+</div>
+
+---
+
+![h:500](./assets/Abb21.2.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.2 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
@@ -122,354 +175,880 @@ Obwohl FE-Modellierung möglich ist, ist immer ein **experimenteller Nachweis** 
 
 Zur analytischen Beschreibung des Umschlingungsbereichs eignet sich das Modell des **dickwandigen Rohres unter Innendruck**.
 
-<div class="zwei-spalten">
-<div>
-
 **Annahmen (UD-Parallelschlaufe):**
 - Kräfte über Schlaufenbreite konstant verteilt
-- Rotationssymmetrie → Spannungsänderung nur radial
+- Rotationssymmetrie → Spannungsänderung **nur radial**
 - Reibung am Bolzen wird vernachlässigt
 - Thermische und Quell-Eigenspannungen unberücksichtigt
 
 **Koordinatensystem:** Polarkoordinaten $(r, \varphi)$
 
-</div>
-<div>
-
-**Randbedingungen am Innenradius $r_i$:**
-
-<div class="eq">
-
-$$\sigma_r(r_i) = -p_i \qquad \sigma_r(r_a) = 0$$
-
-</div>
-
-**Leibungsdruck** (aus Bolzenkraft $F$, Breite $b$):
-
-<div class="eq">
-
-$$p_i = \frac{F}{2\, r_i\, b}$$
-
-</div>
-
-</div>
-</div>
-
-**Drei Gleichungssysteme der Elasto-Statik:**
-
-| System | Gleichung |
-|--------|-----------|
-| Gleichgewicht (radial) | $r \dfrac{d\sigma_r}{dr} + \sigma_r - \sigma_t = 0$ |
-| Kinematik | $\varepsilon_r = \dfrac{du}{dr}$, $\varepsilon_t = \dfrac{u}{r}$ → Kompatibilität: $r\dfrac{d\varepsilon_t}{dr} + \varepsilon_t - \varepsilon_r = 0$ |
-| Elastizitätsgesetz | Orthotrop, UD-Schicht in Polarkoordinaten |
+Lösung über drei Gleichungssysteme der Elasto-Statik: Gleichgewicht, Kinematik, Elastizitätsgesetze.
 
 ---
 
-# Lösung: Spannungsverteilung in der Schlaufe
+# Kräftegleichgewicht in Polarkoordinaten
 
-Die Euler-DGL 2. Ordnung liefert die Lösung für die radiale Verschiebung:
+$$r \frac{d\sigma_r}{dr} + \sigma_r - \sigma_t = 0$$
 
-<div class="eq">
+Tangential- und Radialspannungen sind über die radialen Abtriebskräfte der Tangentialkräfte **gekoppelt**.
 
-$$u = C_1 \, r^{E_v} + C_2 \, r^{-E_v} \qquad \text{mit} \quad E_v = \sqrt{\frac{E_\perp}{E_\parallel}}$$
+![](./assets/Abb21.3.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.3 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Kinematische Beziehungen
+
+$$\varepsilon_r = \frac{du}{dr} \qquad \varepsilon_t = \frac{u}{r}$$
+
+Kompatibilitätsbedingung (Verschiebung $u$ eliminiert):
+
+$$r\frac{d\varepsilon_t}{dr} + \varepsilon_t - \varepsilon_r = 0$$
+
+![h:300](./assets/Abb21.4.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.4 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Elastizitätsgesetze – zwei Fälle
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Seitlich gestützt** → $\varepsilon_z = 0$
+
+Dreiachsiger **Spannungs**zustand. Orthotropes Elastizitätsgesetz mit $\sigma_z \neq 0$:
+
+$$\varepsilon_r = \frac{\sigma_r}{E_\parallel} - \nu_{\perp\parallel}\frac{\sigma_t}{E_\perp} - \nu_{\perp\parallel}\frac{\sigma_z}{E_\perp}$$
+
+$$\varepsilon_z = 0 \Rightarrow \sigma_z \text{ aus Gleichung 3}$$
+
+</div>
+<div class="rdiv">
+
+**Seitlich ungestützt** → $\sigma_z = 0$
+
+Dreiachsiger **Dehnungs**zustand. Ebener Spannungszustand:
+
+$$\varepsilon_r = \frac{\sigma_r}{E_\parallel} - \nu_{\perp\parallel}\frac{\sigma_t}{E_\perp}$$
+
+$$\varepsilon_z = -\nu_{\parallel\perp}\frac{\sigma_r}{E_\parallel} - \nu_{\perp\perp}\frac{\sigma_t}{E_\perp}$$
 
 </div>
 
-<div class="zwei-spalten">
-<div>
+---
+
+![h:500](./assets/Abb21.5.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.5 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Randbedingungen und Leibungsdruck
+
+Am **Innenradius** $r_i$: Gleichgewicht zwischen Leibungsdruck und Radialspannung.
+
+Am **Außenradius** $r_a$: kraftfreier Rand.
+
+$$\sigma_r(r_i) = -p_i \qquad \sigma_r(r_a) = 0$$
+
+$$p_i = \frac{F}{2\, r_i\, b}$$
+
+![bg right 60%](./assets/Abb21.6.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.6 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Lösung der Euler-DGL
+
+Einsetzen von Kinematik und Elastizitätsgesetzen ins Gleichgewicht liefert die homogene DGL 2. Ordnung:
+
+$$r^2 \frac{d^2u}{dr^2} + r\frac{du}{dr} - \frac{E_\perp}{E_\parallel} u = 0$$
+
+**Lösung für die radiale Verschiebung:**
+
+$$u = C_1 \, r^{E_v} + C_2 \, r^{-E_v} \qquad \text{mit} \quad E_v = \sqrt{\frac{E_\perp}{E_\parallel}}$$
+
+Koeffizienten $C_1$, $C_2$ aus den Randbedingungen. Daraus folgen $\sigma_r(r)$ und $\sigma_t(r)$.
+
+---
+
+# Ergebnis: Spannungsverteilung
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
 
 **Tangentialspannung** $\sigma_t$ (Zugspannung):
 - Maximal am **Innenradius** $r_i$
 - Klingt zum Schaft hin ab
-- Bleibt über weiten Umfangsbereich (Scheitel → Flanke) nahezu konstant
+- Über Scheitel → Flanke nahezu konstant
 
 **Radialspannung** $\sigma_r$ (Druckspannung):
-- Ebenfalls maximal am Innenradius: $\sigma_{r,\max} = -p_i$
+- Maximum am Innenradius: $\sigma_{r,\max} = -p_i$
 - Verschwindet im Schlaufenschaft
 
+
+
 </div>
-<div>
+<div class="rdiv">
 
-**Mittlere Zugspannung im Schaft** (Bezugsgröße):
 
-<div class="eq">
+**Mittlere Zugspannung** im Schaft (Bezugsgröße):
 
 $$\bar{\sigma}_t = \frac{F/2}{b\,(r_a - r_i)}$$
 
-</div>
 
-<div class="aufgabe">
+> Am Schlaufen-Innenradius liegen **deutliche Spannungsüberhöhungen** vor. Die Faserfestigkeit kann nicht gleichmäßig über der Schlaufendicke ausgenutzt werden.
 
-**Wichtigste Aussage:**
-
-Am Schlaufen-Innenradius liegen **deutliche Spannungsüberhöhungen** vor. Die Faserfestigkeit kann nicht gleichmäßig über der Schlaufendicke ausgenutzt werden.
-
-</div>
-
-</div>
 </div>
 
 ---
 
-# Einflüsse auf die Spannungsüberhöhung
+![h:500](./assets/Abb21.7.png)
 
-<div class="zwei-spalten">
-<div>
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.7 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
-**Einflussgröße 1: Radienverhältnis $r_a/r_i$**
+---
+
+# Einfluss Radienverhältnis $r_a/r_i$
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
 
 - Größeres $r_a/r_i$ → stärkere Spannungsüberhöhung
 - Beispiel GFK, $r_a/r_i = 2$: Überhöhungsfaktor **≈ 2** → Gütegrad nur **50 %**
-- → Schlaufen möglichst **flach/riemenartig** gestalten!
 
-**Einflussgröße 2: Orthotropiegrad $E_\parallel/E_\perp$**
+> ⚠️ Eine einfache **Wanddickenerhöhung** steigert die Tragfähigkeit **nicht proportional** – die Spannungsspitze am Innenradius steigt mit!
 
-- Großes $E_\parallel/E_\perp$ → große Spannungsüberhöhungen
-- CFK-HM ist bei dieser Anwendung **ungünstig**
-- GFK (kleines $E_\parallel/E_\perp$) ist günstigerer Schlaufenwerkstoff
+→ Schlaufen möglichst **flach / riemenartig** gestalten!
 
 </div>
-<div>
+<div class="rdiv">
+
+![](./assets/Abb21.8.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.8 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einfluss Orthotropiegrad $E_\parallel/E_\perp$
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+- Großes $E_\parallel/E_\perp$ → große Spannungsüberhöhungen
+- CFK-HM bei dieser Anwendung **ungünstig**
+- GFK (kleines $E_\parallel/E_\perp$) ist günstigerer Schlaufenwerkstoff
+
+
+![h:250](./assets/Abb21.9.png)
+
+</div>
+<div class="rdiv">
 
 | Werkstoff | $E_\parallel/E_\perp$ | Charakter |
 |-----------|----------------------|-----------|
-| Isotropes Material | 1 | Optimal |
+| Isotrop | 1 | Optimal |
 | GFK | ≈ 3–5 | Günstig |
 | CFK-HT | ≈ 10–15 | Mittel |
 | CFK-HM | ≈ 20–25 | Ungünstig |
 
-<div class="hinweis">
-
-Trotz ungünstigem Modellverhalten sollte CFK wegen der überlegenen **Ermüdungsfestigkeit** und günstigerer Verhältnisse am Ablaufpunkt immer mit betrachtet werden.
+> ⚠️ CFK trotzdem immer mitbetrachten – überlegene **Ermüdungsfestigkeit** und Vorteile am Ablaufpunkt.
 
 </div>
 
-</div>
-</div>
 
----
 
-# FE-Korrekturen des analytischen Modells
 
-Das Modell „Dickwandiges Rohr unter Innendruck" weist zwei wichtige Unzulänglichkeiten auf:
 
-<div class="zwei-spalten">
-<div>
-
-**Unzulänglichkeit 1: Innenradius-Spannungen überschätzt**
-
-Die Schlaufe weitet sich **nicht als Rohr** auf, sondern folgt der Kontur des starren Bolzens. Ein zusätzliches Moment biegt die Schlaufe auf den Bolzen zurück → Spannungen am Innenradius sinken.
-
-**Unzulänglichkeit 2: Kritischer Bereich an der Bolzenflanke fehlt**
-
-</div>
-<div>
-
-<div class="aufgabe">
-
-**Dimensionierende Spannung** tritt **nicht** am Scheitel, sondern am **Übergang Radius → gerader Schaft** auf (Bolzenflanke)!
-
-</div>
-
-**Mechanismus:** Unter Last dehnt sich die Schlaufe elastisch. Ein Teil des gebogenen Bereichs wandert vom Bolzen ab in den Schaft → Zugbiegung entsteht → lokale Biegebeanspruchung mit deutlicher Spannungsüberhöhung.
-
-**Empfehlung:** Kritischen Bereich an der Bolzenflanke per **FE nachweisen**.
-
-</div>
-</div>
-
-**Folgerungen aus der FE-Analyse:**
-- Hohe **Dehnsteifigkeit** → weniger gebogenes Material verlässt den Bolzen → CFK-Vorteil
-- Geringe **Biegesteifigkeit** am Ablaufpunkt → kleines Zusatzbiegemoment → geringe Schlaufendicke bevorzugen
-
----
-
-# Festigkeitsanalyse und seitliche Stützung
-
-<div class="zwei-spalten">
-<div>
-
-**Zwei primäre Versagensformen:**
-
-**1. Faserbruch** (FB) durch Tangentialspannungen
-
-**2. Zwischenfaserbruch** (ZfB) durch Radialdruckspannungen $\sigma_r^-$
-
-Die äußeren Schichten pressen die inneren auf den Bolzen → hohe $\sigma_\perp^-$-Beanspruchung → Scherbruch (Überschreiten von $R_{A\perp\perp}$)
-
-<div class="aufgabe">
-
-ZfB ist **unbedingt zu vermeiden** – nur bei Faserbruch wird der Leichtbauvorteil genutzt!
-
-</div>
-
-</div>
-<div>
-
-**Einfluss der seitlichen Stützung** (Rechenergebnisse, $r_a/r_i = 1{,}55$):
-
-| Werkstoff | Ungestützt [N/mm²] | Gestützt [N/mm²] |
-|-----------|-------------------|------------------|
-| UD-GFK (E-Glas) | 336 | 1320 |
-| UD-Aramid | 254 | 1005 |
-| UD-CFK-HT | 347 | 876 |
-| UD-CFK-HM | 244 | 393 |
-
-<div class="loesung">
-
-Seitliche Stützung steigert die Tragfähigkeit um den **Faktor 3–4**. Immer vorsehen!
-
-</div>
-
-</div>
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.9 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
 
-# Konstruktive Verbesserungsmaßnahmen – Schlaufe
+# FE-Korrekturen – Unzulänglichkeit 1
 
-<div class="zwei-spalten">
-<div>
+**Innenradius-Spannungen werden überschätzt**
 
-**Maßnahme 1: Schlaufenkaskade**
-- Dicke Schlaufe → mehrere dünne, riemenartige Einzelschlaufen
+Die Schlaufe weitet sich **nicht als Rohr** auf, sondern folgt der Kontur des starren Bolzens.
+
+→ Ein zusätzliches Moment biegt die Schlaufe auf den Bolzen zurück → Spannungen am Innenradius **sinken** gegenüber dem analytischen Modell.
+
+![h:300](./assets/Abb21.10.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.10 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+
+
+**Kritischer Bereich an der Bolzenflanke fehlt im Modell**
+
+> Die **dimensionierende Spannung** tritt nicht am Scheitel, sondern am **Übergang Radius → gerader Schaft** auf (Bolzenflanke)!
+
+Mechanismus: Unter Last dehnt sich die Schlaufe elastisch. Vormals auf dem Bolzen liegendes Material wandert in den Schaft → Zugbiegung → Spannungsüberhöhung.
+
+![bg right fit](./assets/Abb21.11.png)
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.11 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Folgerungen aus der FE-Analyse
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Hohe Dehnsteifigkeit günstig:**
+- Weniger gebogenes Material verlässt den Bolzen
+- Kleines Zusatz-Biegemoment
+- → CFK-Vorteil an der Flanke
+
+**Geringe Biegesteifigkeit am Ablaufpunkt günstig:**
+- Kleines Rückbiegemoment
+- → Geringe Schlaufendicke bevorzugen
+- → Aufteilung in dünnere Einzelstränge
+
+</div>
+<div class="rdiv">
+
+> ⚠️ **Empfehlung:**
+>
+> Den kritischen Bereich an der Bolzenflanke per **FE nachweisen**. Das analytische Modell ist zur Vorauslegung geeignet, erfasst aber nicht die dimensionierende Stelle.
+
+</div>
+
+---
+
+# Festigkeitsanalyse – Versagensformen
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Versagensform 1: Faserbruch (FB)**
+durch Tangentialspannungen $\sigma_t$
+
+→ gewünschte Versagensform, nutzt Leichtbauvorteil
+
+**Versagensform 2: Zwischenfaserbruch (ZfB)**
+durch Radialdruckspannungen $\sigma_r^-$
+
+Die äußeren Schichten pressen die inneren auf den Bolzen → hohe $\sigma_\perp^-$ → Scherbruch ($R_{A\perp\perp}$ überschritten)
+
+
+
+</div>
+<div class="rdiv">
+
+![w:480](./assets/Abb21.12.png)
+
+> ❗ ZfB ist **unbedingt zu vermeiden** – nur bei Faserbruch wird der Leichtbauvorteil genutzt!
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.12 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einfluss der seitlichen Stützung
+
+Rechenergebnisse für $r_a/r_i = 1{,}55$:
+
+| Werkstoff | Ungestützt [N/mm²] | Gestützt [N/mm²] | Faktor |
+|-----------|-------------------|------------------|--------|
+| UD-GFK (E-Glas) | 336 | 1320 | 3,9 |
+| UD-Aramid | 254 | 1005 | 4,0 |
+| UD-CFK-HT | 347 | 876 | 2,5 |
+| UD-CFK-HM | 244 | 393 | 1,6 |
+
+> ✅ Seitliche Stützung steigert die Tragfähigkeit um den **Faktor 3–4**. Immer vorsehen!
+
+Bei gestützten Schlaufen bestimmt **Faserbruch** (nicht ZfB) das Versagen → Leichtbauvorteil wird genutzt.
+
+---
+
+# Maßnahme 1: Schlaufenkaskade
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Dicke Schlaufe → mehrere dünne, riemenartige Einzelschlaufen.
+
+**Vorteile:**
 - Jede Einzelschlaufe hat günstiges $r_a/r_i$
-- Möglichkeit für gezieltes **Fail-Safe-Verhalten** (Versagensreihenfolge)
-- Trennfolie (PTFE) zwischen Strängen ermöglicht Relativverschiebung
+- Gezieltes **Fail-Safe-Verhalten** (Versagensreihenfolge)
+- PTFE-Folie zwischen Strängen → Relativverschiebung möglich
+- Gleichmäßigere Kraftaufteilung
 
-**Maßnahme 2: Mehrschichtige Schlaufe** *(Meier & Winistörfer)*
-- Nicht miteinander verbundene riemenförmige Streifen
-- Gütegrade **> 80 %** (vs. kompakte Schlaufe)
-- Versagenslasten +29 % gegenüber kompakt
-- Bolzendurchmesser > 25 mm → Festigkeit nahezu unabhängig vom Durchmesser
+
 
 </div>
-<div>
+<div class="rdiv">
 
-**Maßnahme 3: Hybridschlaufe**
-- GFK innen (dehnweich), CFK außen (steif)
-- Mittleres $E_\parallel/E_\perp$ gesenkt + günstigeres Radienverhältnis je Streifen
-- Nur bei **großen Radienverhältnissen** sinnvoll
+![w:500](./assets/Abb21.13.png)
 
-**Maßnahme 4: Rissstopperschichten**
-- Zwischenlagen (0°/90° oder ±45°, z.B. Aramidgewebe)
-- Verhindern Abscheren durch $\tau_{\perp\perp}$
-- Zeitfestigkeit bis zum **Faktor 1000** steigerbar
 
-**Gestaltungsregel Bolzen:**
-
-<div class="hinweis">
-
-Bolzen eng in der Schlaufe → kein Ovalieren → keine Schubrisse. Alternativ: Vorspannung.
+**Nachteile:**
+- Aufwändige Anschlussstücke
+- Statisch unbestimmtes Problem → Querschnitte aufeinander abstimmen
 
 </div>
 
-</div>
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.13 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
+
+# Maßnahme 2: Mehrschichtige Schlaufe
+
+
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Schlaufe in dünne, **nicht miteinander verbundene** riemenförmige Streifen unterteilt.
+
+**Ergebnisse:**
+- Gütegrade **> 80 %** (vs. kompakte Schlaufe)
+- Versagenslasten **+29 %** gegenüber kompakt
+- Bolzendurchmesser > 25 mm → Festigkeit nahezu unabhängig vom Durchmesser
+- PTFE-Streifen zwischen Schichten → geringe Reibung
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb21.14.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.14 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Maßnahme 3: Hybridschlaufe
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Prinzip:**
+- GFK **innen** (dehnweich)
+- CFK **außen** (steif)
+
+**Zwei Effekte:**
+1. Mittleres $E_\parallel/E_\perp$ gesenkt
+2. Günstigeres Radienverhältnis je Streifen
+
+> ⚠️ Nur bei **großen Radienverhältnissen** sinnvoll. Bei kleinen $r_a/r_i$ lohnt sich die Kombination nicht.
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb21.15.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.15 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Maßnahme 4: Rissstopperschichten
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Zwischenlagen** verhindern Abscheren durch $\tau_{\perp\perp}$-Beanspruchung und wirken als Rissstopper bei Faserbruch.
+
+Mögliche Faserorientierungen:
+- 0°/90°
+- ±45°
+- z.B. Aramidgewebe
+
+> ✅ Zeitfestigkeit bis zum **Faktor 1000** steigerbar!
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb21.16.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.16 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Konstruktionslösung: Rotorblattanschluss Bo 105
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+
+- Hubschraubers Bo 105
+- Schlaufe eng in Titan-Fitting eingepasst
+- Fliehkraft $F_x$ direkt in der Schlaufe
+- Biegemoment aus Schwenkbewegung → Querkraftschub auf die Schlaufe
+- Lösung: **Doppelschlaufe** bei Folgemodellen
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb21.17.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.17 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Ausleiten in flächige Strukturen
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Schlaufenstränge in der Fläche **verspreizen** → große Klebfläche.
+
+**Regeln:**
+- Stränge abstufen → kein Steifigkeitssprung
+- UD-Stränge zwischen Einzelschichten des Laminats verteilen
+- Stränge straff und ondulationsfrei ausrichten
+- Keine Schälbeanspruchung durch Bolzenlast-Komponenten in Bolzenachse
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb21.19.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.19 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einleitung von Biegemomenten
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Einzelschlaufe:** nur bei reiner Zug- oder Druckbelastung eindeutig.
+
+Bei Biegung → Querkraftschub → unerwünschte Punktbelastungen.
+
+**Doppelschlaufe:** Momentenäquivalentes Kräftepaar in die beiden Einzelschlaufen eingeleitet.
+
+→ Füllstück als Schubwand und Knickstütze bei Druckbeanspruchung
+
+</div>
+<div class="rdiv">
+
+*Option 1*
+![w:400](./assets/Abb21.20.png)
+*Option 2*
+![](./assets/Abb21.21.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.20 und Bild 21.21 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Druckbeanspruchte Schlaufen
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Druckkräfte werden **nicht über den Bolzen**, sondern über Druckstücke am Außenradius eingeleitet.
+
+**Konstruktionsmerkmale:**
+- Druckstücke nehmen Druckkräfte auf
+- Schlaufe seitlich gestützt (Kammern)
+- Kaskadenförmige Ausführung
+- Gerade Schäfte auf Knicken prüfen
+
+> Hybridaufbau bringt bei druckbeanspruchten Schlaufen **keine** Verbesserung.
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb21.27.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.27 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Gestaltungsregel: Bolzensitz
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+> ⚠️ **Bolzen zu klein** → Schlaufe wird lokal auf den Bolzen gebogen → Aufziehspannungen → **Delamination**
+
+Abhilfe:
+- Bolzen eng in der Schlaufe
+- Alternativ: Vorspannung
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb21.28.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 21.28 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Gestaltungsregeln – Schlaufenanschluss
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Aus der Spannungsanalyse:**
+- Parallelschlaufe bevorzugen
+- $r_a/r_i$ klein halten → Breite $b$ vergrößern
+- $E_\parallel/E_\perp$ klein (GFK günstiger)
+- FE-Analyse am Ablaufpunkt unbedingt
+- Geringe Schlaufendicke → biegeweich am Ablaufpunkt
+- PTFE-Folie bei Kaskadenausführung
+
+</div>
+<div class="rdiv">
+
+**Aus der Festigkeitsanalyse:**
+- Seitliche Stützung **immer** vorsehen
+- Alternativ: Rissstopperzwischenlagen
+- Bolzen eng / vorgespannt
+- Mindestens 2 Bolzen (Momentenaufnahme)
+
+</div>
+
+---
+
+
+
 
 <!-- _class: lead -->
 
-# Teil 3: Bolzenverbindungen
+# Bolzenverbindungen
 
 ---
 
-# Grundlagen und Einsatzbereich
+# Wann Bolzenverbindungen?
 
-<div class="zwei-spalten">
-<div>
+<!-- _class: cols-2 -->
+<div class="ldiv">
 
-**Wann Bolzenverbindungen?**
 - Flächige, **dickwandige**, hoch belastete Strukturen
 - Verbindung **ungleichartiger Werkstoffe** (FKV–Metall)
 - Wenn **lösbare** Verbindung erforderlich
-- Als Alternative zu Schlaufenanschlüssen bei großen verfügbaren Flächen
+- Alternative zu Schlaufen bei großen verfügbaren Flächen
 
-**Vorteile:**
+> ✅ Trotz Faserdurchtrennung hat sich die Bolzenverbindung in der FKV-Technik **ausgezeichnet bewährt** – analog zu Holz, das genagelt und verschraubt wird.
+
+</div>
+<div class="rdiv">
+
+**Bolzendurchmesser-Faustregel:**
+
+$$d \approx t_\text{Fügeteil}$$
+
+Bei $t < 6\,\text{mm}$: $d$ tendenziell größer als $t$.
+
+</div>
+
+---
+
+# Vorteile der Bolzenverbindung
+
 - Einfache Qualitätssicherung (visuelle Kontrolle)
 - Geringer Ermüdungsfestigkeitsabfall (vs. Metall)
 - Kein schlagartiges Versagen möglich
-- Energieabsorption (Bolzen durch Laminat ziehen)
+- Energieabsorption durch Laminatdurchziehen
 - Keine Reibkorrosion (vs. Al-Bolzenfügungen)
-- Misch-fügung mit Klebung: Lebensdauer ×3
+- **Mischfügung** mit Klebung: Lebensdauer ×3, Karosseriesteifigkeit ↑
+- Kein Nachpolymerisieren notwendig
 
-</div>
-<div>
+---
 
-**Nachteile:**
+# Nachteile der Bolzenverbindung
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
 - Fasern werden durchtrennt → Kerbwirkung + Querschnittsreduktion
 - Gütegrad des ungestörten Laminats **nicht erreichbar**
 - Zusatzgewicht durch Überlappungen / Doppler
 - Metallische Bolzen + CFK → **elektrochemische Korrosion** beachten
-
-**Optimaler Laminataufbau für Bolzenfügungen:**
-
-<div class="loesung">
-
-$(0°/{\pm}45°/90°)$ mit **50 % / 40 % / 10 %** – der klassische *Flugzeugbaulaminat*-Aufbau. 0°-Fasern für Lochleibung, ±45° gegen Scherbruch und Spalten.
+- Senkköpfe stören glatte Oberflächen (aerodynamisch)
 
 </div>
+<div class="rdiv">
 
-</div>
+> ⚠️ Der Gütegrad einer Bolzenverbindung wird von zwei Effekten gleichzeitig begrenzt:
+>
+> 1. Nettoquerschnitt durch Bohrung vermindert
+> 2. Kerbwirkung am Bohrungsrand
+
 </div>
 
 ---
 
-# Versagensformen einer Bolzenverbindung
+# Fügungsarten
 
-<div class="zwei-spalten">
-<div>
 
-**Versagensform 1: Lochleibungsversagen** *(angestrebt!)*
-- Bohrung weitet sich auf, kein Trennbruch
-- Gutmütiges Verhalten, hohe Energieaufnahme
-- Dimensionierungsziel: **alle anderen Versagen vermeiden**
+
+| Fügungsart | Schnittigkeit | Bolzenbiegung |
+|---|---|---|
+| Überlappung | einschnittig | ja |
+| Laschenf. | einschnittig | ja |
+| Überlapp. 2-schn. | zweischnittig | nein |
+| Laschenf. 2-schn. | zweischnittig | nein |
+
+
+![w:500](./assets/Abb22.1.png)
+
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.1 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+
+---
+
+# Übersicht: Versagensformen
+
+**Ziel:** Lochleibungsversagen anstreben – alle anderen Formen konstruktiv ausschließen.
+
+| Versagensform | Ursache | Abhilfe |
+|---|---|---|
+| **Lochleibung** *(angestrebt)* | Druckbelastung Bohrungsrand | $d\cdot t$ groß, 0°-Fasern |
+| Flankenzugbruch | Kleiner Restquerschnitt | $w \geq 5d$ |
+| Scherbruch | Kleiner Randabstand | $e \geq 3d$ |
+| Spaltbruch | Geringe Querfestigkeit | $e \geq 3d$, 90°/±45° |
+| Komb. Scher-/Zugbruch | Kombination | $e \geq 3d$, $w \geq 5d$ |
+
+---
+
+#  Lochleibungsversagen
+
+
 
 $$F_{ult} = \hat{R}_L \cdot d \cdot t$$
 
-**Versagensform 2: Flankenzugbruch**
+**Merkmale:**
+- Bohrung weitet sich auf, kein Trennbruch
+- Gutmütiges Verhalten, hohe Energieaufnahme
+- Dimensionierungsziel: alle anderen Versagen vermeiden
 
-$$F_{ult} = \hat{R}_x^+ \cdot (w - d) \cdot t$$
 
-Abhilfe: $w \geq 5d$, höherer 0°-Anteil
+![bg right fit](./assets/Abb22.5.png)
 
-</div>
-<div>
 
-**Versagensform 3: Scherbruch**
 
-$$F_{ult} = \hat{R}_{xy} \cdot 2e \cdot t$$
-
-Abhilfe: $e \geq 3d$, ±45°-Schichten
-
-**Versagensform 4: Spaltbruch**
-
-$$F_{ult} = \hat{R}_y^+ \cdot (e - d/2) \cdot t \cdot 2$$
-
-Abhilfe: 90°- oder ±45°-Fasern, $e \geq 3d$
-
-**Versagensform 5: Komb. Scher-/Flankenzugbruch**
-
-$$F_{ult} = \frac{1}{2}\hat{R}_x^+(w-d)t + \hat{R}_{xy}(e-d/2)t$$
-
-</div>
-</div>
-
-<div class="hinweis">
-
-Mindestabstände einhalten → Lochleibungsversagen tritt automatisch auf: $e \geq 3d$, $w \geq 5d$, $p \geq 4d$
-
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.5 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
 
-# Mindestabstände und Lochleibungsfestigkeit
+# Bestimmung der Lochleibungsfestigkeit
 
-<div class="zwei-spalten">
-<div>
+<!-- _class: cols-2 -->
+<div class="ldiv">
 
-**Empfohlene Mindestabstände** (Flugzeugbaulaminat, $(0/{\pm}45/90)_{50/40/10}$):
+![h:300](./assets/Abb22.6.png)
+
+**Definition:**
+- $\hat{R}_{L2}$: Kraft bei 2 % Lochaufweitung (Offset-Festigkeit)
+- $\hat{R}_{Lm}$: Maximalkraft
+
+</div>
+<div class="rdiv">
+
+![h:300](./assets/Abb22.7.png)
+
+> ✅ Gezielte Nutzung zur **Energieabsorption**: Bolzen über längere Strecke durch das Laminat ziehen → Fläche unter Last-Weg-Kurve = absorbierte Energie
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder 22.6 und 22.7 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Flankenzugbruch
+
+$$F_{ult} = \hat{R}_x^+ \cdot (w - d) \cdot t$$
+
+Ursachen:
+- Querschnittsreduktion durch Bohrung
+- Kerbwirkung am Bohrungsrand (Formfaktor $\alpha_K$)
+
+**Abhilfe:**
+- $w \geq 5d$
+- Höherer 0°-Faseranteil
+
+
+<div class="rdiv">
+
+![bg right fit](./assets/Abb22.8.png)
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.8 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+#  Scherbruch
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+$$F_{ult} = \hat{R}_{xy} \cdot 2e \cdot t$$
+
+Ursachen:
+- Zu geringer Randabstand $e$
+- Geringer ±45°-Anteil
+
+**Abhilfe:**
+- $e \geq 3d$
+- ±45°-Schichten erhöhen $\hat{R}_{xy}$ und senken Formfaktor
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.9.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.9 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+#  Spaltbruch
+
+
+
+$$F_{ult} = \hat{R}_y^+ \cdot (e - d/2) \cdot t \cdot 2$$
+
+Ursachen:
+- Geringe Querfestigkeit (reine 0°-Anordnung)
+- Presssitz des Bolzens (Innendruck auf Lochrand)
+
+**Abhilfe:**
+- 90°- oder ±45°-Fasern
+- $e \geq 3d$
+
+
+![bg right fit](./assets/Abb22.10.png)
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.10 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+##  Kombinierter Scher-/Flankenzugbruch
+
+
+$$F_{ult} = \frac{1}{2}\hat{R}_x^+(w-d)t + \hat{R}_{xy}(e-d/2)t$$
+
+Verbesserungsmaßnahmen analog zu Scher- und Flankenzugbruch.
+
+> ⚠️ Mindestabstände einhalten → Lochleibungsversagen tritt automatisch auf:
+>
+> $e \geq 3d$, $w \geq 5d$, $p \geq 4d$
+
+
+
+![bg right fit](./assets/Abb22.11.png)
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.11 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Optimaler Laminataufbau
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.12.png)
+> ✅ Optimaler 0°-Anteil: **~50 %** bei $(0/{\pm}45)$. Klassischer Aufbau: $(0/{\pm}45/90)_{50/40/10}$.
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.13.png)
+
+
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder 22.12 und 22.13 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Mindestabstände
+
+
+
+$(0/{\pm}45/90)_{50/40/10}$:
 
 | Abstand | Mindestmaß |
 |---------|------------|
@@ -478,483 +1057,376 @@ Mindestabstände einhalten → Lochleibungsversagen tritt automatisch auf: $e \g
 | Bolzenabstand (Reihe) $p$ | $\geq 4d$ |
 | Kantenabstand seitlich | $\geq 2{,}5d$ |
 
-**Lochleibungsfestigkeit** – Definition:
-- 2 %-Lochaufweitung (Offset-Festigkeit $\hat{R}_{L2}$)
-- Maximalkraft $\hat{R}_{Lm}$
+Bei anderen Laminattypen sind Mindestabstände experimentell zu bestimmen!
+
+
+
+![bg right fit](./assets/Abb22.2.png)
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.2 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einfluss des Randabstands $e/d$
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![1](./assets/Abb22.3.png)
 
 </div>
-<div>
+<div class="rdiv">
 
-**Einflüsse auf $\hat{R}_L$:**
+Deutlicher Umschlag des Versagensmodus bei $e/d \approx 2$:
+
+- $e/d < 2$: Scherbruch oder Spaltbruch
+- $e/d \geq 3$: Lochleibungsversagen
+
+Ab $e/d \geq 3$ ist keine weitere Steigerung durch Vergrößern von $e$ möglich.
+
+> ✅ FKV: $e/d \geq 3$ (vs. Metall: $e/d \geq 2$)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.3 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einfluss des seitlichen Abstands $w/d$
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.4.png)
+
+</div>
+<div class="rdiv">
+
+Bei $w/d < 5$ überlappen sich die Spannungsfelder benachbarter Bohrungen → **Abminderung** der übertragbaren Kraft notwendig.
+
+Faustregel: $w/d \geq 5$
+
+Bei engerem Setzen: Kraft nach Diagramm abmindern.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.4 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einflüsse auf die Lochleibungsfestigkeit
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
 - ↑ 0°-Faseranteil (optimal: 50 %)
-- ↑ Bolzendurchmesser $d$ (kein eigenständiger Einfluss auf spez. Festigkeit)
-- ↑ Temperatur → $\hat{R}_L$ sinkt (bei 123°C ca. 65 % von 23°C-Wert)
-- Übergangspassung H7/j6 → bis 20 % höhere $\hat{R}_L$ vs. Spielpassung
+- Bolzendurchmesser $d$: kein eigenständiger Einfluss auf **spez.** Festigkeit
+- ↑ Temperatur → $\hat{R}_L$ sinkt (bei 123°C ca. **65 %** von 23°C-Wert)
+- Übergangspassung H7/j6 → bis **20 %** höhere $\hat{R}_L$ vs. Spielpassung
+
+</div>
+<div class="rdiv">
 
 **Steigerung durch Anpressdruck:**
-
-<div class="eq">
 
 $$F_{ult} = \hat{R}_L \cdot d \cdot t + \mu_0 \cdot F_V$$
 
 mit $\mu_0 \approx 0{,}1{-}0{,}2$ (Stahl/FKV)
 
-</div>
+> ⚠️ Nur nutzbar wenn Vorspannung **langzeitig** erhalten bleibt (Kriech- und Relaxationsprüfung!). Sonst konservativ: nur Lochleibungsanteil ansetzen.
 
-</div>
 </div>
 
 ---
 
-# Optimierungsmaßnahmen bei Bolzenverbindungen
+# Steigerung durch Anpressdruck – Versuchsdaten
 
-<div class="zwei-spalten">
-<div>
+![h:430](./assets/Abb22.16.png)
 
-**Konstruktive Maßnahmen:**
-- Seitliche Stützung durch **große Unterlegscheiben** (Nebenschlusswirkung)
-- Niete in **Kleber setzen** → Lochleibungsdruck vergleichmäßigt
-- **Moulded-in holes** (Fasern vor Aushärten verdrängen statt schneiden) → Schwingfestigkeit ↑
-- **Stern-Einleger**: $\hat{R}_{LV}$ + 61 % (wirksamster Einleger)
-- Hülsen vor dem Niet → Presssitz ohne Delamination
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.16 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
 
-**Einlaminieren von Metallfolien** (Kolesnikov):
-- 90°- und ±45°-Schichten durch Ti- oder St-Folie ersetzen
-- Ti: $\hat{R}_L$ bis +90 %, St: bis +160 %
-- Leichtbau-optimal: 20 % Stahlanteil (volumenbezogen)
+---
+
+# Optimierungsmaßnahmen – Seitliche Stützung
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Große **Unterlegscheiben** wirken als Nebenschluss:
+- Kräfte laufen vermehrt über steife Scheiben
+- Rissgefährdeter Bohrungsrand wird entlastet
+- Gleichmäßigere Druckspannungsverteilung über Lochranddicke
 
 </div>
-<div>
+<div class="rdiv">
 
-**Zur Nietselektion:**
-- CFK + **Aluminium-Niete** → ungeeignet (Potentialdifferenz 0,90 V!)
-- Geeignete Werkstoffe: **TiAl6V4** (0,33 V), rostfreier Stahl (0,27 V)
-- Unlegierter Stahl (0,57 V) → nicht geeignet
+![](./assets/Abb22.17.png)
 
-**Passungstoleranz:**
-- Übergangspassungen bei Al-Fügungen günstig
-- Bei FKV: **Pressübermaß vermeiden** → Delamination durch Schälspannung beim Einpressen
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.17 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Optimierungsmaßnahmen – Moulded-in holes
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Löcher **vor dem Aushärten** stechen statt bohren → Fasern werden umgeleitet, nicht durchtrennt.
+
+**Vorteile:**
+- Nettoquerschnitt nicht vermindert
+- Keine Schubrisse von Bohrungsrändern
+- Schwingfestigkeit deutlich erhöht
+
+**Einschränkungen:** Bei Duroplasten aufwändig; einfacher bei Thermoplasten (lokales Aufheizen).
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.18.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.18 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Optimierungsmaßnahmen – Einlegeelemente
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.19.png)
+
+</div>
+<div class="rdiv">
+
+| Einleger | $\hat{R}_{LV}$ | $\hat{R}_{Lm}$ |
+|---|---|---|
+| Schlaufen-Einleger | +5 % | +4 % |
+| Yoyo-Einleger | +121 % | 0 % |
+| **Stern-Einleger** | **+61 %** | **−25 %** |
+| Zusätzl. ±45° | −8 % | +7 % |
+
+> ✅ **Stern-Einleger** ist wirksamster Einleger für $\hat{R}_{LV}$ (Versagensbeginn).
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.19 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einlaminierte Metallfolien – Prinzip
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Idee:** Nicht einfach Metallfolien hinzufügen, sondern **schwache Laminatschichten ersetzen** (90°- und ±45°-Lagen) ohne aufzudicken.
+
+**Folienwerkstoffe:**
+- Ti6Al4V (geringere Dichte, passender $\alpha_T$)
+- Rostfreier Stahl 1.4310 (höhere Festigkeit)
+
+**Schlüsselfaktor:** Sichere Verklebung der Metallfolien! Sorgfältige Oberflächenbehandlung vor dem Einlaminieren.
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.20.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.20 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einlaminierte Metallfolien – Ergebnisse
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.21.png)
+
+Bei mittleren Metallanteilen **überproportionale** Steigerung der Lochleibungsfestigkeit.
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.24.png)
+
+Gegenüber FBL-Laminat: **Ti +90 %**, **St +160 %** an Zugfestigkeit der Verbindung.
+
+> ⚠️ Dichtebezogen: Vorteile geringer. Leichtbauoptimum bei ~20 % Stahlanteil.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bilder 22.21 und 22.24 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Zur Auswahl geeigneter Niete – Korrosion
+
+Elektrochemische Korrosion bei CFK + Metall durch Potentialdifferenz in Elektrolyt:
+
+| Werkstoffpaarung | Potentialdiff. [V] | Eignung für CFK |
+|---|---|---|
+| C-Faser / TiAl6V4 | 0,33 | ✅ |
+| C-Faser / Rostfreier Stahl | 0,27 | ✅ |
+| C-Faser / Unlegierter Stahl | 0,57 | ❌ |
+| C-Faser / Aluminium | 0,90 | ❌ |
+| C-Faser / Cadmium | 0,89 | ❌ |
+
+> ⚠️ Grenzwert: max. **0,4 V** Potentialdifferenz. CFK + Aluminium-Niete → **ungeeignet**!
+
+---
+
+# Niete – Typen und Auswahl
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:300](./assets/Abb22.25.png)
+
+a Senkkopf-Vollniet, b Senkkopf-Blindniet, c Senkkopf-Passniet
+
+</div>
+<div class="rdiv">
+
+- Vollniete: niedrige bis mittlere Belastung
+- Blindniete: einseitige Zugänglichkeit, automatisierbar
+- Passniete: mittlere und hohe Belastung
+
+> ⚠️ **Senkköpfe** wenn möglich vermeiden:
+> - Gefahr des Ausknöpfens
+> - Geringerer Lochleibungsanteil im konischen Bereich
+> - Unterlegscheibe auf Schließkopfseite bei FKV vorsehen
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.25 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Senkkopf-Lochleibung und Passungstoleranz
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:260](./assets/Abb22.26.png)
+
+$$F_{L,\text{zyl}} = d \cdot (t-k) \cdot \hat{R}_L$$
+$$F_{L,\text{kon}} = d \cdot k \cdot \alpha \cdot \hat{R}_L$$
+
+</div>
+<div class="rdiv">
+
+**Passungstoleranz Bohrung–Niet:**
+
+- Bei Metall: Übergangspassung günstig → günstiger Eigenspannungszustand
+- Bei FKV: **Pressübermaß vermeiden** → Delamination durch Schälspannungen
+
+**Lösung:** Hülse vor dem Niet einsetzen → Presssitz zum Niet, kein Übermaß im Laminat.
 
 **Bohrungshinweise:**
-- Bohren senkrecht (max. 1° Abweichung)
+- Senkrecht bohren (max. 1° Abweichung)
 - Übermaß $\leq 0{,}1$ mm
 - Unterlage auf Durchtrittsseite → Delamination verhindern
 
 </div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.26 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
 
-# Mehrreihige Bolzenverbindungen – Nietreihenanalyse
+# Mehrreihige Bolzenverbindungen – Grundlagen
 
 Bei mehrreihigen Fügungen ist die **Lastverteilung statisch unbestimmt**.
 
-<div class="zwei-spalten">
-<div>
+<!-- _class: cols-2 -->
+<div class="ldiv">
 
 **Zwei Lastfälle:**
 
-**Bruchlast (quasi-statisch):** Alle Niete tragen gleichmäßig (plastische Umlagerung) → einfache Addition der Versagenslasten.
+**Bruchlast (quasi-statisch):** Plastische Umlagerung → alle Niete tragen gleich → Addition der Versagenslasten.
 
-**Betriebslast (elastisch):** Nietkräfte ungleich verteilt. End-Niete höher belastet.
+**Betriebslast (elastisch):** End-Niete höher belastet.
 
-**Analytisches Verfahren (Franz):**
+**Extremfälle:**
+- Unendlich starre Niete → nur Endniete tragen
+- Sehr nachgiebige Niete → $P_j = F/n$
 
-<div class="eq">
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.27.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.27 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Analytisches Verfahren nach Franz
+
+Matrixsystem für Nietkräfte $\{P\}$:
 
 $$[C] \cdot \{P\} = \{B\}$$
 
 $$\{P\} = [C]^{-1} \cdot \{B\}$$
 
-</div>
+Die Matrix $[C]$ enthält Nietnachgiebigkeiten $C_j = u_j/P_j$ und Fügeteil-Nachgiebigkeiten $K_{aj}$, $K_{bj}$.
 
-</div>
-<div>
-
-**Einflussparameter auf Nietkraftverteilung:**
-
-- Nietnachgiebigkeit $C_j = u_j / P_j$
-- Fügeteil-Nachgiebigkeit $K_{aj}$, $K_{bj}$
-- Temperaturdehnungen $\alpha_a$, $\alpha_b$
-
-**Extremfälle:**
-- Unendlich starre Niete → nur Endniete tragen
-- Sehr nachgiebige Niete → gleichmäßige Verteilung $P_j = F/n$
-
-<div class="loesung">
-
-**Praktische Regel:** Bei zweireihiger Fügung tragen **beide Niete je 50 %** der Last. Für viele Fälle ausreichend!
-
-</div>
-
-</div>
-</div>
+Der Vektor $\{B\}$ enthält äußere Lasten und Temperaturterme $(\alpha_a - \alpha_b)\Delta T$.
 
 ---
 
-<!-- _class: lead -->
+# Nietkraftverteilung – Ergebnisse
 
-# Teil 4: Klebverbindungen
+<!-- _class: cols-2 -->
+<div class="ldiv">
 
----
+![](./assets/Abb22.31.png)
 
-# Grundlagen und Einsatzbereich
-
-<div class="zwei-spalten">
-<div>
-
-**Vorteile:**
-- Verschiedene Werkstoffe fügbar (GFK+Al, CFK+Ti …)
-- Keine thermischen Eigenspannungen (kein Schweißen)
-- Kein Querschnittsverlust, keine Kerbwirkung → höhere Anrissfestigkeit
-- Gleichzeitig Dichtfunktion nutzbar
-- Höhere Strukturdämpfung
-- Kombination Kleben + Bolzen: Lebensdauer ×3, Karosseriesteifigkeit ↑
-
-**Einsatzbereich:**
-- Bevorzugt **dünnwandige**, flächige Strukturen
-- Große Klebflächen notwendig (Festigkeit oft < Fügeteil)
+Durch Stufung der Fügeteile lässt sich die Verteilung **umkehren** – Endniete entlasten.
 
 </div>
-<div>
+<div class="rdiv">
 
-**Nachteile:**
-- Ausgeprägte **Spannungsspitzen** an Überlappungsenden
-- Geringe Querzugfestigkeit → **Schälspannungen vermeiden**
-- Temperatur + Feuchte reduzieren Festigkeit
-- Streuung der Klebfestigkeit
-- Aufwändige Fügeteilvorbehandlung
-- Qualitätssicherung nur per ZfP möglich
+> ✅ **Praktische Regel:** Bei zweireihiger Fügung tragen **beide Niete je 50 %** der Last. Für viele Fälle ausreichend!
 
-**Klebstoffklassen:**
-
-| Typ | $G_K$ [N/mm²] | Bruchdehnung |
-|-----|--------------|--------------|
-| Strukturkleber | > 10 | bis 70 % |
-| Elastischer Kleber | 1–10 | 70–300 % |
-| Dichtstoff | 0,1–1 | 300–700 % |
+**Immer mindestens 2 Bolzen setzen** – sonst kein Moment übertragbar (Drehpunkt!).
 
 </div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.31 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
-
-# Spannungsanalyse – Schäftung
-
-Die **Schäftung** (scarfed joint) ist konstruktiv besonders günstig.
-
-<div class="zwei-spalten">
-<div>
-
-**Spannungstransformation** am schrägen Schnitt (Winkel $\alpha$):
-
-<div class="eq">
-
-$$\sigma_\alpha = \sigma_x \cos^2\alpha$$
-
-$$\tau_\alpha = \frac{1}{2}\,\sigma_x \sin 2\alpha$$
-
-</div>
-
-**Fünf Vorteile der Schäftung:**
-1. Vergrößerte Klebfläche → Spannungsreduktion
-2. Bei flacher Schäftung: Fast nur Schub, kaum Querzug
-3. Gleichförmige Spannungsverteilung (keine Spitzen bei gleichen Fügeteilen)
-4. Kein Biegemoment → keine Schälspannungen
-5. Leichtbaugerecht (keine Materialdopplung)
-6. Glatte Oberfläche (aerodynamisch nutzbar)
-
-</div>
-<div>
-
-**Sinnvoller Schäftungswinkel:** $\alpha \approx 3°{-}10°$
-
-<div class="loesung">
-
-Bei ausreichend flachem $\alpha$ ist Versagen in den Fügeteilen **außerhalb** der Schäftung erreichbar – die Klebung ist nicht mehr dimensionierend!
-
-</div>
-
-**Nachteil:** Hoher Fertigungsaufwand für konstante Klebschichtdicke. Zinkung als Alternative bei großen Dicken.
-
-</div>
-</div>
-
----
-
-# Spannungsanalyse – Überlappungsklebung (Volkersen)
-
-**Modell:** Längsgurt-Scheibe (Fügeteile = Gurte, Kleber = Scheibe)
-
-<div class="zwei-spalten">
-<div>
-
-**Annahmen:**
-- Fügeteile: nur Längskräfte $N$
-- Kleber: nur Schubfluss $n_{xy}$, dehnschlaff
-- Haftung: ideal (kein Schlupf)
-- Lineares Elastizitätsgesetz
-
-**DGL für Schubspannungsverteilung:**
-
-<div class="eq">
-
-$$\frac{1}{E_1 t_1} + \frac{1}{E_2 t_2} \biggr) \tau_K - \frac{t_K}{G_K}\,\tau_K'' = 0$$
-
-</div>
-
-→ Homogene DGL 2. Ordnung, Lösung über Hyperbelfunktionen.
-
-</div>
-<div>
-
-**Spannungsspitze** am Überlappungsende:
-
-<div class="eq">
-
-$$\frac{\tau_{K,\max}}{\bar{\tau}_K} = \frac{\rho}{2}\left[\coth\frac{\rho}{2} + \frac{1-\psi}{1+\psi}\tanh\frac{\rho}{2}\right]$$
-
-$$\rho^2 = \left(1+\psi\right)\frac{G_K\,l_\ddot{u}^2}{E_1 t_1\,t_K} \qquad \psi = \frac{E_1 t_1}{E_2 t_2}$$
-
-</div>
-
-Für $\rho \geq 5$ vereinfacht (Spitze **unabhängig** von $l_\ddot{u}$!):
-
-<div class="eq">
-
-$$\tau_{K,\max} = \bar{\tau}_K \cdot \sqrt{\frac{l_\ddot{u}\,G_K}{E_1 t_1\,t_K\,(1+\psi)}}$$
-
-</div>
-
-</div>
-</div>
-
----
-
-# Parameterdiskussion – Überlappungsklebung
-
-Für gleiche Fügeteile ($\psi = 1$) vereinfacht sich die Spannungsspitze zu:
-
-<div class="eq">
-
-$$\tau_{K,\max} = \frac{F_{10}}{b} \cdot \frac{1}{2} \sqrt{\frac{G_K}{E\,t\,t_K}}$$
-
-</div>
-
-<div class="zwei-spalten">
-<div>
-
-**Reduktion der Spannungsspitze durch:**
-
-| Maßnahme | Effekt | Anmerkung |
-|----------|--------|-----------|
-| Breite $b$ ↑ | $\tau_{K,\max}$ ↓ | **Wirksamste Maßnahme!** |
-| Dehnsteifigkeit $Et$ ↑ | $\tau_{K,\max}$ ↓ | Steife Fügeteile günstiger |
-| Schubmodul $G_K$ ↓ | $\tau_{K,\max}$ ↓ | Aber: weichere Fügung |
-| Kleberdicke $t_K$ ↑ | $\tau_{K,\max}$ ↓ | Optimum 0,1–0,2 mm! |
-| Überlappung $l_\ddot{u}$ ↑ | Wirkung begrenzt | Nur bis $\tilde{l}_\ddot{u}$ wirksam |
-
-</div>
-<div>
-
-**Kritische Erkenntnis:**
-
-<div class="aufgabe">
-
-Ab der Grenz-Überlappungslänge $\tilde{l}_\ddot{u}$ sind die Spannungsspitzen von der Überlappungslänge **unabhängig**! Eine weitere Verlängerung hilft nicht.
-
-$$\tilde{l}_\ddot{u} = 5\sqrt{\frac{E_1 t_1 t_K}{G_K(1+\psi)}}$$
-
-</div>
-
-**Konsequenz für Auslegung:**
-- Nicht $l_\ddot{u}$ verlängern, sondern **Breite $b$ vergrößern**
-- Plastizität: Spannungsumlagerung → $l_\ddot{u} \geq 2\,\tilde{l}_\ddot{u}$ empfohlen
-
-</div>
-</div>
-
----
-
-# Kleberplastizität und Langzeitverhalten
-
-<div class="zwei-spalten">
-<div>
-
-**Kleberplastizität:**
-
-Kleber mit ideal elastisch-plastischem Verhalten und **hoher Bruchschiebung** können Spannungsspitzen abbauen → Umlagerung in den Mittenbereich.
-
-- Flexible Klebstoffe erreichen im Zug-Scherversuch oft **höhere Festigkeiten** als hartelastische Kleber
-- Bedingung: ausreichend lange Überlappung für Umlagerung
-
-**Langzeitverhalten:**
-- Temperatur + Feuchte → Festigkeitsreduktion
-- Kriechen/Relaxation: Spannungen vergleichmäßigen sich über Zeit
-- Nach sehr langen Zeiten: konstante Schubspannung über $l_\ddot{u}$
-
-</div>
-<div>
-
-**Schwingfestigkeit:**
-
-- Ausreichend große Überlappungslänge ermöglicht Spannungsumlagerung
-- Häufig versagen bei Ermüdungsversuchen die **Fügeteile**, nicht die Klebung
-
-**Optimale Klebschichtdicke:**
-
-<div class="loesung">
-
-Eindeutiges Optimum liegt bei $t_K = 0{,}05{-}0{,}15$ mm (gut merkbar: **0,1 mm**). Sowohl Statik als auch Zeitstand bestätigen diesen Wert.
-
-</div>
-
-**Oberflächenvorbehandlung:**
-- Entfetten (Aceton, Dampfentfettung)
-- Schleifen / Sandstrahlen / Abreißgewebe
-- Chemische Behandlung (Beizen) bei Al für Luftfahrtqualität
-- Primer gegen Unterwanderung bei Feuchte
-
-</div>
-</div>
-
----
-
-# Konstruktive Verbesserungen von Klebverbindungen
-
-<div class="zwei-spalten">
-<div>
-
-**Maßnahme 1: Querdruck überlagern**
-- Querdruckspannungen $\sigma^-$ steigern ertragbare Schubspannung erheblich
-- Realisierbar durch Presssitze, Klemmverbindungen
-
-**Maßnahme 2: Gradientenklebung**
-- Weicher Kleber ($G_K$ klein) an den Enden → Spitzen reduziert
-- Harter Kleber ($G_K$ groß) in der Mitte → Mittenbereich wird stärker belastet
-- Spannungsverteilung vergleichmäßigt sich
-
-**Maßnahme 3: Keilförmige Klebfuge**
-- Größere Kleberdicke $t_K$ an den Enden → lokale Schubnachgiebigkeit ↑
-- Anfasung der Fügeteilenden reicht bereits aus
-
-</div>
-<div>
-
-**Maßnahme 4: Kleber-Kehle**
-- Herausgequetschter Kleber bildet Kehlnaht → Spannungsspitze reduziert
-- Ermüdungsfestigkeit: Bruchlastzahl ×7 gegenüber ohne Kehle
-- Kanten der Fügeteile **stark verrunden** – scharfe Kanten in Kleber = Kerbwirkung!
-
-**Maßnahme 5: Angstniete gegen Schälung**
-- Niete am Überlappungsende nehmen Schälkräfte auf (auf Kopfzug dimensioniert)
-- Alternativ: Falz, lokale Aufdickung
-
-<div class="hinweis">
-
-Schälspannungen sind die **größte Gefahr** für Klebungen – konstruktiv immer ausschließen, nicht nur rechnerisch nachweisen!
-
-</div>
-
-</div>
-</div>
-
----
-
-# Zusammenfassung – Auswahl des Fügeprinzips
-
-| Kriterium | Schlaufe | Bolzen | Klebung |
-|-----------|----------|--------|---------|
-| **Lastgröße** | Sehr hoch, punktuell | Hoch, flächig | Mittel, flächig |
-| **Fügeteildicke** | – | Dick | Dünn |
-| **Lösbarkeit** | Nein | Ja | Nein |
-| **Qualitätssicherung** | Schwierig | Einfach | ZfP notwendig |
-| **Temperaturempfindlichkeit** | Gering | Gering | Hoch |
-| **Bevorzugter Werkstoff** | GFK (UD) | FBL-Laminat | FKV + Metall |
-| **Gütegrad** | 50–80 % | 40–70 % | Hoch bei opt. Design |
-
-<div class="loesung">
-
-**Kombinationen nutzen:** Kleben + Bolzen verlängert Lebensdauer ×3. Schlaufe + Laminat durch Verspreizen in der Fläche. Hybridschlaufe GFK/CFK bei großen Radienverhältnissen.
-
-</div>
-
----
-
-# Gestaltungsregeln – Zusammenfassung
-
-<div class="zwei-spalten">
-<div>
-
-**Schlaufenanschluss:**
-- Parallelschlaufe bevorzugen
-- $r_a/r_i$ klein halten → Breite $b$ vergrößern
-- Orthotropiegrad $E_\parallel/E_\perp$ klein (GFK günstiger)
-- Seitliche Stützung immer vorsehen
-- Dünne Streifen oder Kaskade für große Querschnitte
-- PTFE-Folie zwischen Strängen
-- Bolzen eng / vorgespannt
-
-**Bolzenverbindungen:**
-- $d \approx t$ (Fügeteildicke)
-- $e \geq 3d$, $w \geq 5d$, $p \geq 4d$
-- Laminataufbau $(0/{\pm}45/90)_{50/40/10}$
-- Lochleibungsversagen anstreben
-- Senkköpfe wenn möglich vermeiden
-- ≥ 2 Bolzen setzen (Momentenaufnahme)
-
-</div>
-<div>
-
-**Klebverbindungen:**
-- Schälspannungen konstruktiv ausschließen
-- Breite $b$ ist Hauptdimensionierungsgröße
-- Überlappungslänge $\geq 2\,\tilde{l}_\ddot{u}$
-- Klebschichtdicke $t_K \approx 0{,}1$ mm
-- Zweischnittige Fügung bevorzugen
-- Oberflächenvorbehandlung nicht vernachlässigen
-- Kehle stehen lassen, Kanten verrunden
-- Gradientenklebung bei hohen Anforderungen
-
-<div class="hinweis">
-
-Für sicherheitsrelevante Anwendungen gilt in allen drei Fügekategorien: Analytische Rechnung liefert Vorauslegung – der **experimentelle Nachweis** am Prototypen ist immer erforderlich.
-
-</div>
-
-</div>
-</div>
-
----
-
-# Literatur
-
-<div style="font-size: 18px;">
-
-**Grundlagenwerke:**
-
-Heslehurst, R. B.: *Defects and Damage in Composite Materials and Structures*. CRC Press, 2014.
-
-Wiedemann, J.: *Leichtbau. Bd. 2: Konstruktion*. Springer-Verlag, Berlin, 1989.
-
-**Schlaufenanschluss:**
-
-Conen, H.: Deformation und Versagen von GFK-Strangschlaufen. *Kunststoffe* 56 (1966).
-
-Winistörfer, A.: Development of non-laminated advanced composite straps. Diss. Warwick, 1999.
-
-Wörndle & Daschner: Rechnerische Untersuchung von FVW-Strangschlaufen. *Z. Flugwiss.* 4 (1980).
-
-**Bolzenverbindungen:**
-
-Kraft & Schelling: Statische Tragfähigkeit von Nietverbindungen aus CFK/GFK. DLR IB 435-81/1, 1981.
-
-Fink, A.: Metalllaminate für verstärkte Verbindungen. *SAMPE Symposium*, Braunschweig, 2006.
-
-**Klebverbindungen:**
-
-Volkersen, O.: Die Nietkraftverteilung in zugbeanspruchten Nietverbindungen. *Luftfahrtforschung* (1938).
-
-Habenicht, G.: *Kleben*. Springer-Verlag, Berlin, 1990.
-
-</div>
