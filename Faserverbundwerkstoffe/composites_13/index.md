@@ -1430,3 +1430,594 @@ Durch Stufung der Fügeteile lässt sich die Verteilung **umkehren** – Endniet
 </div>
 
 ---
+
+# Direktverschraubungen
+
+Höchste Belastbarkeit: **durchgesteckte, vorgespannte** Schraube.
+
+Bei geringer Belastung (z.B. Kabelschellen): Gewinde direkt ins Laminat schneiden oder eindrehen.
+
+Geprüft wurde an quasi-isotropen $(0/90/{\pm}45)_s$-Köpergewebe-Laminaten aus EP-Harz ($T_g = 80\,°\text{C}$, trocken).
+
+**Wichtige Ergebnisse:**
+- HSS-Gewindeschneider wegen Abrasivität vermeiden → beschichtete Werkzeuge (z.B. TiCN)
+- Schäden entstehen primär beim Bohren des Kernlochs, nicht beim Gewindeschneiden
+- Gewinde kleben: keine Festigkeitssteigerung
+
+---
+
+# Varianten und Auszugskräfte
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:380](./assets/Abb22.32.png)
+
+</div>
+<div class="rdiv">
+
+Vergleich verschiedener Varianten bei Plattendicke 5 mm:
+
+- **M10 Regelgewinde in CF-EP** → sehr hohe Auszugskraft
+- M10 Regelgewinde in GF-EP → etwas niedriger
+- Regelgewinde in Buchensperrholz → Vergleichswert
+- Holzschraube 10 mm in CF-EP → vergleichbar mit Regelgewinde
+- **Blindnietmutter M10** → höchste Auszugskräfte
+
+> ✅ Blindnietmuttern empfehlenswert, besonders bei dünnen Laminaten mit wenigen tragenden Gewindegängen.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.32 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Versagensformen und Varianten
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:380](./assets/Abb22.33.png)
+
+</div>
+<div class="rdiv">
+
+**Versagensursache:** Plattendurchbiegung → Gewindebohrung weitet sich konisch auf → letzter Gewindegang trägt primär.
+
+**Varianten:**
+- a) Auszugsversuch
+- b) Konische Aufweitung der Gewindebohrung
+- c) Gewindeeinsatz mit Außengewinde im Laminat
+- d) Blindnietmutter mit aufgeschraubter Lasche
+
+> ⚠️ Bei Querbelastung: Schraube „knöpft" leicht aus → Stützhülse oder lokale Aufdickung vorsehen.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.33 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Kraft-Weg-Verläufe Regelgewinde vs. Blindnietmutter
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.34.png)
+
+</div>
+<div class="rdiv">
+
+Ähnliche Kraft-Weg-Verläufe bei beiden Varianten.
+
+Blindnietmutter erreicht deutlich höhere Maximalkraft.
+
+**Mehrfaches Ein-/Ausschrauben:**
+- Keine Reduktion der Auszugsfestigkeit gegenüber erstmaliger Prüfung
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.34 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einfluss der Schrauben-Nenngröße
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:380](./assets/Abb22.35.png)
+
+</div>
+<div class="rdiv">
+
+Maximale Auszugskraft steigt in guter Näherung **linear** mit dem Gewindedurchmesser.
+
+→ Gewindedurchmesser ist der entscheidende Geometrieparameter.
+
+Bei unzureichender Auszugskraft: **Gewindeeinsatz** → Durchmesser im Laminat vergrößern.
+
+> ✅ Für dünne Platten ($t \leq 5$ mm): **Feingewinde** bevorzugen – mehr Gewindegänge im Eingriff.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.35 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einfluss der Einschraubtiefe
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:380](./assets/Abb22.36.png)
+
+</div>
+<div class="rdiv">
+
+Vergrößerung der Einschraubtiefe steigert die Auszugskraft **erheblich**.
+
+→ Lokales Aufdicken des Laminats ist eine wirkungsvolle Maßnahme.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.36 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Querbelastung einer Schraubbefestigung
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Bei dünnen Laminaten: Querlasten kaum aufnehmbar → Schraube knöpft aus.
+
+**Abhilfe:**
+- Stützhülse mit großflächiger Fußplatte → ausreichender Hebelarm
+- Lokale Aufdickung durch gestapelte CFK-Scheiben
+- Schräge Ränder oder Füllmasse zur Entschärfung
+
+</div>
+<div class="rdiv">
+
+![h:380](./assets/Abb22.37.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.37 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+
+---
+
+## KE-Elemente – Grundlagen
+
+Wenn durchgesteckte Krafteinleitungen wegen mangelnder Zugänglichkeit oder aerodynamischer Anforderungen nicht möglich sind:
+
+**Krafteinleitungselemente (KE-Elemente)** – Fußplatte mit Stehbolzen – werden in das Laminat eingebettet.
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Versagensformen:**
+- Biegeversagen der Bolzenwurzel
+- Plastifizieren der Fußplatte
+- Versagen der Schweißnaht
+- Bruch der Klebung Fußplatte–Laminat
+- Laminatversagen (ZfB, FB, Delamination)
+
+</div>
+<div class="rdiv">
+
+![h:300](./assets/Abb22.38.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.38 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Einbausituationen: Insert und Onsert
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.39.png)
+
+</div>
+<div class="rdiv">
+
+**Insert:** KE-Element in das Grundlaminat integriert
+
+**Onsert:** KE-Element nachträglich auf das Grundlaminat aufgesetzt
+
+Grundlaminat: $(0/90/{\pm}45)_s$ Köpergewebe, Dicke 1,4–2 mm.
+
+> ⚠️ Ist das Laminat starker Biegeverformung ausgesetzt → **Insert** bevorzugen, sonst Abplatzen des Onserts.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.39 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Versuchsaufbau
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Laminatplatte allseitig momentenfest eingespannt.
+
+Belastung weggeregelt **parallel** zur Laminatplatte über definierten Hebelarm $h$.
+
+→ Überlagerung von Scheiben- und Plattenbelastung
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.40.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.40 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Belastung im Laminat
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.41.png)
+
+</div>
+<div class="rdiv">
+
+Überlagerung von:
+- **Scheibenbelastung** (Kraft in Plattenebene)
+- **Plattenbelastung** (Biegung durch Hebelarm $h$)
+
+→ **Plattenbiegung dominiert**.
+
+Versagen tritt immer ohne Vorankündigung im Bereich der Plattenzugspannungen auf.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.41 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Statische Versagensformen
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.42.png)
+
+</div>
+<div class="rdiv">
+
+**CF-EP:** Dominantes Versagensbild = Faserbruch an der Fußplattenkante auf der Probenrückseite (plattenzugseitig).
+
+**GF-EP:** Versagen kündigt sich durch Knistern an → abrupter Kraftabfall (keine Tragreserve danach).
+
+**Schlüsselmaßnahme:** Fußplatte mit **Strukturkleber** einstreichen vor dem Einlaminieren:
+- CF-EP: +28,5 % Versagenslast
+- GF-EP: +50 % Versagenslast
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.42 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Ergebnisse statischer Festigkeitsprüfungen
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:380](./assets/Abb22.43.png)
+
+</div>
+<div class="rdiv">
+
+**Wichtigste Ergebnisse:**
+- Ertragbares Moment steigt **proportional** mit dem Fußplattendurchmesser
+- CF-EP-Laminate ertragen deutlich höhere Momente als GF-EP
+- Strukturkleber bringt erhebliche Steigerung
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.43 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Ermüdungsprüfungen – Versagensbilder
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![](./assets/Abb22.44.png)
+
+</div>
+<div class="rdiv">
+
+**CF-EP:** Graduelle Steifigkeitsabnahme durch ZfB. Fb-Anriss im Pflaster-Plattendruckbereich nahe Fußplattenkante.
+
+**GF-EP:** Nach ~500 Schwingspielen deutliche ZfB als milchige Eintrübung sichtbar. Fb durchdringt schließlich das Pflaster-Laminat.
+
+> ✅ Gutmütigeres Versagen als unter quasi-statischer Last – kein schlagartiges Durchtrennen.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.44 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Ermüdungsprüfungen – Wöhlerkurve
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:380](./assets/Abb22.45.png)
+
+</div>
+<div class="rdiv">
+
+Schwellversuche: $R = 0{,}1$, $f = 4\,\text{Hz}$, Kraftregelung.
+
+CF-EP und GF-EP zeigen jeweils typische Wöhlerverläufe.
+
+> ⚠️ Trotz noch geringem Prüfumfang: Diagramm zur **Abschätzung** des Ermüdungsverhaltens geeignet. Für sicherheitsrelevante Anwendungen eigene Versuche durchführen.
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.45 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Analytisches Modell: Zweifeldbalken
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Ersatzmodell: statisch unbestimmter **Zweifeldbalken**
+
+- Bereich I: Laminat mit einlaminierter Fußplatte + Rampe
+- Bereich II: angrenzendes freies Plattenlaminat
+
+Mittragende Breite: $b_m = 2 \cdot r_F$
+
+Schnittmoment an der Fußkante:
+
+$$M(r_F) = -F \cdot h \cdot \frac{3(r_{F,\text{eff}}^3 EI_I - EI_I \cdot r_{F,\text{eff}}^3 - \ldots)}{4(\ldots)}$$
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.46.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.46 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Vergleich Rechnung und Versuch
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:380](./assets/Abb22.47.png)
+
+</div>
+<div class="rdiv">
+
+FE und Analytik stimmen nur **tendenziell** mit Versuch überein.
+
+Ursachen:
+- Vereinfachte Breite $b_m$ erfasst ungleichförmiges Tragverhalten nicht exakt
+- Weitere Versagensarten (Schub, Delamination) nicht im Modell
+
+> ⚠️ Modell dient nur zur **Vordimensionierung**. Bei sicherheitsrelevanten Strukturen: experimenteller Bruchnachweis zwingend!
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.47 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Verstärkung durch Pflaster
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Lokale Aufdickung im höchstbeanspruchten Bereich durch ringförmige Pflaster.
+
+Spannungen klingen rasch ab (~$r^{-1}$) → Pflaster nur im unmittelbaren Krafteinleitungsbereich nötig.
+
+> ✅ Pflaster **innen** platzieren (niedrig biegebeansprucht) → geringere interlaminare Spannungen an Pflasterrändern.
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.48.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.48 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Konstruktionsempfehlungen – KE-Elemente (I/II)
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+**Geometrie:**
+- Krafteinleitungspunkt möglichst niedrig halten → kleines Biegemoment
+- Fußplatte: möglichst großer Durchmesser
+- Aufdickung des Laminats im Krafteinleitungsbereich
+- Rampe möglichst flach auslaufend
+
+</div>
+<div class="rdiv">
+
+
+**Klebung:**
+- **Strukturkleber** verwenden (nicht nur Laminierharz)
+- Duktiler Kleber → Spannungsspitzen abbauen
+- Querdruck durch Muttern mit Unterlegscheiben steigert Belastbarkeit
+
+</div>
+
+---
+# Konstruktionsempfehlungen – KE-Elemente (II/II)
+
+**Bolzen und Fußplatte:**
+- Bolzenwurzel ausreichend dimensionieren + großer Übergangsradius
+- Fußplatte biegesteif gestalten (hohe Wanddicke, Sicken)
+- Metallische KE-Elemente in CFK: nur rostfreier Stahl oder Titan (Korrosion!)
+- Schweißen: WIG + S355 bei Einzelstücken; Bolzenschweißen bei Serienfertigung
+- Von aufgeschweißten Normschrauben **dringend abraten**
+
+
+---
+
+
+# Windkraft - Rotorblattanschlüsse – Anforderungen
+
+Anforderungen:
+- Hohe Lasten: Fliehkräfte, Querkräfte, Biegemomente
+- Betriebssicher für **~30 Jahre**
+- Konzentrierte Kraftein- und -ausleitung Blattschale ↔ Rotornabe
+
+**Drei verbreitete Konzepte:**
+1. Schlaufenanschluss (hoher Fertigungsaufwand)
+2. **Flanschanschluss** (Blattschale zwischen Stahlflansche geklemmt)
+3. **Dehnbolzenanschluss** (ausschließlich Lochleibung)
+
+---
+
+# Flansch-Rotorblattanschluss
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Blattschale wird zwischen zwei konzentrische Stahlflansche **geklemmt**.
+
+- Klemmkräfte über Schrauben
+- Bei Nachlassen der Klemmkraft: Last auch über Lochleibung
+- GFK-Schale vollständig in Kleber gesetzt → Toleranzausgleich + Abdichtung + Festigkeitssteigerung
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.49.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.49 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Dehnbolzen-Rotorblattanschluss
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Querbolzen im Laminat + in Blattlängsrichtung orientierte **Dehnbolzen**.
+
+**Vorteile:**
+- Einfachere Fertigung
+- Leichter als Flanschanschluss
+- Ständig hohe Vorspannkräfte → kein „Klappern"
+- Dehnsteifigkeiten von Schraube und GFK-Laminat aufeinander abgestimmt
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.50.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.50 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Verspannungsschaubild – Dehnbolzen
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+Flansch und Schraube **parallel** geschaltet:
+
+$$F_{SA} = F_A \cdot \frac{\delta_P}{\delta_P + \delta_S}$$
+
+→ Belastung der Schraube reduzieren durch **hohe Schraubennachgiebigkeit** (Dehnschraube).
+
+Thermische Ausdehnungskoeffizienten von GFK und Stahl nahe beieinander → Vorspannkraftänderung nur **0,3 %/°C**.
+
+</div>
+<div class="rdiv">
+
+![](./assets/Abb22.51.png)
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 22.51 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
+
+# Nachweis des Dehnbolzenanschlusses
+
+Umfangreiche Untersuchungen bestätigen:
+
+- **Kriechprüfung:** nach 1000 h nur ~3 % Vorspannkraftverlust (tolerierbar bis 22 %)
+- **Ermüdungsfestigkeit GFK-Flansch:** nach $10^5$ Lastwechseln noch $\hat{R}_L > 300\,\text{N/mm}^2$
+- **Stahlkomponenten:** Betriebsfestigkeit der Dehnbolzen gesondert nachgewiesen
+- **Thermische Verspannung:** nur 0,3 %/°C Vorspannkraftänderung
+
+> ✅ Der Dehnbolzenanschluss wurde **1984** erstmals realisiert und hat sich seitdem ausgezeichnet bewährt.
+
+---
+# Danke für die Aufmerksamkeit
