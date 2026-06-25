@@ -42,7 +42,7 @@ jobs:
           - FractureFatigue/FF_seminar_math_II
           - FractureFatigue/FF_seminar_math_III
           - FractureFatigue/FF_seminar_math_IV
-          - FractureFatigue/FF_seminar_math_VIII
+          - FractureFatigue/FF_seminar_VIII
           - FractureFatigue/FF_seminar_V
           - FractureFatigue/FF_seminar_VI
           - FractureFatigue/FF_fracture_mechanics
