@@ -226,8 +226,6 @@ weeks  = 1.0 / D_week
 
 println("D per week = $(round(D_week, digits=5))")
 println("Weeks to failure = $(round(weeks, digits=1))")
-# → D/week ≈ 0.01012
-# → Failure after ≈ 98.8 weeks
 ```
 
 </div>
@@ -315,9 +313,7 @@ for mult in [1.0, 1.5, 3.0]
     σ = σ_θ(r, π/2)
     println("r = $(mult)a → σ_θ = $(round(σ, digits=1)) MPa")
 end
-# r = 1.0a → σ_θ = 300.0 MPa  (Kt = 3)
-# r = 1.5a → σ_θ = 185.2 MPa
-# r = 3.0a → σ_θ = 119.1 MPa
+
 
 println("Elastic? ", 300.0 < 350.0 ? "Yes ✓" : "No – plasticity!")
 ```
