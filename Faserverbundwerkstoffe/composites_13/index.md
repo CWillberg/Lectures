@@ -171,7 +171,7 @@ Begriffe:
 
 ---
 
-# Modell: Dickwandiges Rohr unter Innendruck
+## Modell: Dickwandiges Rohr unter Innendruck
 
 Zur analytischen Beschreibung des Umschlingungsbereichs eignet sich das Modell des **dickwandigen Rohres unter Innendruck**.
 
@@ -187,7 +187,7 @@ Lösung über drei Gleichungssysteme der Elasto-Statik: Gleichgewicht, Kinematik
 
 ---
 
-# Kräftegleichgewicht in Polarkoordinaten
+## Kräftegleichgewicht in Polarkoordinaten
 
 $$r \frac{d\sigma_r}{dr} + \sigma_r - \sigma_t = 0$$
 
@@ -201,7 +201,7 @@ Tangential- und Radialspannungen sind über die radialen Abtriebskräfte der Tan
 
 ---
 
-# Kinematische Beziehungen
+## Kinematische Beziehungen
 
 $$\varepsilon_r = \frac{du}{dr} \qquad \varepsilon_t = \frac{u}{r}$$
 
@@ -209,7 +209,7 @@ Kompatibilitätsbedingung (Verschiebung $u$ eliminiert):
 
 $$r\frac{d\varepsilon_t}{dr} + \varepsilon_t - \varepsilon_r = 0$$
 
-![h:300](./assets/Abb21.4.png)
+![](./assets/Abb21.4.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild 21.4 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -226,7 +226,7 @@ $$r\frac{d\varepsilon_t}{dr} + \varepsilon_t - \varepsilon_r = 0$$
 
 Dreiachsiger **Spannungs**zustand. Orthotropes Elastizitätsgesetz mit $\sigma_z \neq 0$:
 
-$$\varepsilon_r = \frac{\sigma_r}{E_\parallel} - \nu_{\perp\parallel}\frac{\sigma_t}{E_\perp} - \nu_{\perp\parallel}\frac{\sigma_z}{E_\perp}$$
+$$\varepsilon_r = \frac{\sigma_r}{E_\perp} - \nu_{\perp\parallel}\frac{\sigma_t}{E_\parallel} - \nu_{\perp\parallel}\frac{\sigma_z}{E_\perp}$$
 
 $$\varepsilon_z = 0 \Rightarrow \sigma_z \text{ aus Gleichung 3}$$
 
@@ -237,9 +237,9 @@ $$\varepsilon_z = 0 \Rightarrow \sigma_z \text{ aus Gleichung 3}$$
 
 Dreiachsiger **Dehnungs**zustand. Ebener Spannungszustand:
 
-$$\varepsilon_r = \frac{\sigma_r}{E_\parallel} - \nu_{\perp\parallel}\frac{\sigma_t}{E_\perp}$$
+$$\varepsilon_r = \frac{\sigma_r}{E_\perp} - \nu_{\perp\parallel}\frac{\sigma_t}{E_\parallel}$$
 
-$$\varepsilon_z = -\nu_{\parallel\perp}\frac{\sigma_r}{E_\parallel} - \nu_{\perp\perp}\frac{\sigma_t}{E_\perp}$$
+$$\varepsilon_z = -\nu_{\parallel\perp}\frac{\sigma_t}{E_\parallel} - \nu_{\perp\perp}\frac{\sigma_r}{E_\perp}$$
 
 </div>
 
@@ -275,11 +275,11 @@ $$p_i = \frac{F}{2\, r_i\, b}$$
 
 Einsetzen von Kinematik und Elastizitätsgesetzen ins Gleichgewicht liefert die homogene DGL 2. Ordnung:
 
-$$r^2 \frac{d^2u}{dr^2} + r\frac{du}{dr} - \frac{E_\perp}{E_\parallel} u = 0$$
+$$r^2 \frac{d^2u}{dr^2} + r\frac{du}{dr} - \frac{E_t}{E_r} \frac{u}{r} = 0$$
 
 **Lösung für die radiale Verschiebung:**
 
-$$u = C_1 \, r^{E_v} + C_2 \, r^{-E_v} \qquad \text{mit} \quad E_v = \sqrt{\frac{E_\perp}{E_\parallel}}$$
+$$u = C_1 \, r^{E_v} + C_2 \, r^{-E_v} \qquad \text{mit} \quad E_v = \sqrt{\frac{E_t}{E_r}}$$
 
 Koeffizienten $C_1$, $C_2$ aus den Randbedingungen. Daraus folgen $\sigma_r(r)$ und $\sigma_t(r)$.
 
@@ -385,7 +385,7 @@ $$\bar{\sigma}_t = \frac{F/2}{b\,(r_a - r_i)}$$
 
 ---
 
-# FE-Korrekturen – Unzulänglichkeit 1
+## FE-Korrekturen – Unzulänglichkeit 1
 
 **Innenradius-Spannungen werden überschätzt**
 
@@ -393,7 +393,7 @@ Die Schlaufe weitet sich **nicht als Rohr** auf, sondern folgt der Kontur des st
 
 → Ein zusätzliches Moment biegt die Schlaufe auf den Bolzen zurück → Spannungen am Innenradius **sinken** gegenüber dem analytischen Modell.
 
-![h:300](./assets/Abb21.10.png)
+![](./assets/Abb21.10.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild 21.10 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -900,7 +900,7 @@ $$F_{ult} = \hat{R}_L \cdot d \cdot t$$
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:300](./assets/Abb22.6.png)
+![w:340](./assets/Abb22.6.png)
 
 **Definition:**
 - $\hat{R}_{L2}$: Kraft bei 2 % Lochaufweitung (Offset-Festigkeit)
@@ -909,7 +909,7 @@ $$F_{ult} = \hat{R}_L \cdot d \cdot t$$
 </div>
 <div class="rdiv">
 
-![h:300](./assets/Abb22.7.png)
+![](./assets/Abb22.7.png)
 
 > ✅ Gezielte Nutzung zur **Energieabsorption**: Bolzen über längere Strecke durch das Laminat ziehen → Fläche unter Last-Weg-Kurve = absorbierte Energie
 
@@ -1306,7 +1306,7 @@ Elektrochemische Korrosion bei CFK + Metall durch Potentialdifferenz in Elektrol
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:300](./assets/Abb22.25.png)
+![](./assets/Abb22.25.png)
 
 a Senkkopf-Vollniet, b Senkkopf-Blindniet, c Senkkopf-Passniet
 
@@ -1317,16 +1317,19 @@ a Senkkopf-Vollniet, b Senkkopf-Blindniet, c Senkkopf-Passniet
 - Blindniete: einseitige Zugänglichkeit, automatisierbar
 - Passniete: mittlere und hohe Belastung
 
-> ⚠️ **Senkköpfe** wenn möglich vermeiden:
-> - Gefahr des Ausknöpfens
-> - Geringerer Lochleibungsanteil im konischen Bereich
-> - Unterlegscheibe auf Schließkopfseite bei FKV vorsehen
 
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild 22.25 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
+
+---
+
+> ⚠️ **Senkköpfe** wenn möglich vermeiden:
+> - Gefahr des Ausknöpfens
+> - Geringerer Lochleibungsanteil im konischen Bereich
+> - Unterlegscheibe auf Schließkopfseite bei FKV vorsehen
 
 ---
 
@@ -1348,12 +1351,6 @@ $$F_{L,\text{kon}} = d \cdot k \cdot \alpha \cdot \hat{R}_L$$
 - Bei Metall: Übergangspassung günstig → günstiger Eigenspannungszustand
 - Bei FKV: **Pressübermaß vermeiden** → Delamination durch Schälspannungen
 
-**Lösung:** Hülse vor dem Niet einsetzen → Presssitz zum Niet, kein Übermaß im Laminat.
-
-**Bohrungshinweise:**
-- Senkrecht bohren (max. 1° Abweichung)
-- Übermaß $\leq 0{,}1$ mm
-- Unterlage auf Durchtrittsseite → Delamination verhindern
 
 </div>
 
@@ -1363,7 +1360,17 @@ $$F_{L,\text{kon}} = d \cdot k \cdot \alpha \cdot \hat{R}_L$$
 
 ---
 
-# Mehrreihige Bolzenverbindungen – Grundlagen
+
+**Lösung:** Hülse vor dem Niet einsetzen → Presssitz zum Niet, kein Übermaß im Laminat.
+
+**Bohrungshinweise:**
+- Senkrecht bohren (max. 1° Abweichung)
+- Übermaß $\leq 0{,}1$ mm
+- Unterlage auf Durchtrittsseite → Delamination verhindern
+
+---
+
+## Mehrreihige Bolzenverbindungen – Grundlagen
 
 Bei mehrreihigen Fügungen ist die **Lastverteilung statisch unbestimmt**.
 
@@ -1393,19 +1400,6 @@ Bei mehrreihigen Fügungen ist die **Lastverteilung statisch unbestimmt**.
 
 ---
 
-# Analytisches Verfahren nach Franz
-
-Matrixsystem für Nietkräfte $\{P\}$:
-
-$$[C] \cdot \{P\} = \{B\}$$
-
-$$\{P\} = [C]^{-1} \cdot \{B\}$$
-
-Die Matrix $[C]$ enthält Nietnachgiebigkeiten $C_j = u_j/P_j$ und Fügeteil-Nachgiebigkeiten $K_{aj}$, $K_{bj}$.
-
-Der Vektor $\{B\}$ enthält äußere Lasten und Temperaturterme $(\alpha_a - \alpha_b)\Delta T$.
-
----
 
 # Nietkraftverteilung – Ergebnisse
 
@@ -1431,7 +1425,7 @@ Durch Stufung der Fügeteile lässt sich die Verteilung **umkehren** – Endniet
 
 ---
 
-# Direktverschraubungen
+## Direktverschraubungen
 
 Höchste Belastbarkeit: **durchgesteckte, vorgespannte** Schraube.
 
@@ -1451,8 +1445,8 @@ Geprüft wurde an quasi-isotropen $(0/90/{\pm}45)_s$-Köpergewebe-Laminaten aus 
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb22.32.png)
-
+![](./assets/Abb22.32.png)
+> ✅ Blindnietmuttern empfehlenswert, besonders bei dünnen Laminaten mit wenigen tragenden Gewindegängen.
 </div>
 <div class="rdiv">
 
@@ -1464,7 +1458,7 @@ Vergleich verschiedener Varianten bei Plattendicke 5 mm:
 - Holzschraube 10 mm in CF-EP → vergleichbar mit Regelgewinde
 - **Blindnietmutter M10** → höchste Auszugskräfte
 
-> ✅ Blindnietmuttern empfehlenswert, besonders bei dünnen Laminaten mit wenigen tragenden Gewindegängen.
+
 
 </div>
 
@@ -1479,7 +1473,7 @@ Vergleich verschiedener Varianten bei Plattendicke 5 mm:
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb22.33.png)
+![](./assets/Abb22.33.png)
 
 </div>
 <div class="rdiv">
@@ -1532,7 +1526,7 @@ Blindnietmutter erreicht deutlich höhere Maximalkraft.
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb22.35.png)
+![](./assets/Abb22.35.png)
 
 </div>
 <div class="rdiv">
@@ -1558,7 +1552,7 @@ Bei unzureichender Auszugskraft: **Gewindeeinsatz** → Durchmesser im Laminat v
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb22.36.png)
+![](./assets/Abb22.36.png)
 
 </div>
 <div class="rdiv">
@@ -1590,7 +1584,7 @@ Bei dünnen Laminaten: Querlasten kaum aufnehmbar → Schraube knöpft aus.
 </div>
 <div class="rdiv">
 
-![h:380](./assets/Abb22.37.png)
+![](./assets/Abb22.37.png)
 
 </div>
 
@@ -1620,7 +1614,7 @@ Wenn durchgesteckte Krafteinleitungen wegen mangelnder Zugänglichkeit oder aero
 </div>
 <div class="rdiv">
 
-![h:300](./assets/Abb22.38.png)
+![](./assets/Abb22.38.png)
 
 </div>
 
@@ -1737,7 +1731,7 @@ Versagen tritt immer ohne Vorankündigung im Bereich der Plattenzugspannungen au
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb22.43.png)
+![](./assets/Abb22.43.png)
 
 </div>
 <div class="rdiv">
@@ -1784,7 +1778,7 @@ Versagen tritt immer ohne Vorankündigung im Bereich der Plattenzugspannungen au
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb22.45.png)
+![](./assets/Abb22.45.png)
 
 </div>
 <div class="rdiv">
@@ -1837,7 +1831,7 @@ $$M(r_F) = -F \cdot h \cdot \frac{3(r_{F,\text{eff}}^3 EI_I - EI_I \cdot r_{F,\t
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb22.47.png)
+![](./assets/Abb22.47.png)
 
 </div>
 <div class="rdiv">

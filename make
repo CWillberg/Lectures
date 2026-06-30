@@ -30,6 +30,7 @@ marp FractureFatigue/FF_stress_intensity_seminar/index.md --pdf --theme-set them
 
 marp FractureFatigue/FF_seminar_math_III/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_math_III.pdf
 marp FractureFatigue/FF_types_of_fatigue/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_types_of_fatigue.pdf
+marp FractureFatigue/FF_seminar_VIII/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_VIII.pdf
 
 marp FractureFatigue/FF_HCF/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_HCF.pdf
 
@@ -37,12 +38,25 @@ marp FractureFatigue/FF_numerics_FEM/index.md --pdf --theme-set themes/h2.css --
 marp FractureFatigue/FF_numerics_PD/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_numerics_PD.pdf
 marp FractureFatigue/FF_strength/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_strength.pdf
 marp FractureFatigue/FF_types_of_fatigue/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_types_of_fatigue.pdf
+marp FractureFatigue/FF_numerics_FEM/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_numerics_FEM.pdf
+marp FractureFatigue/FF_numerics_PD/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_numerics_PD.pdf
+marp FractureFatigue/FF_seminar_math/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_math.pdf
+marp FractureFatigue/FF_seminar_math_II/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_math_II.pdf
+marp FractureFatigue/FF_seminar_math_III/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_math_III.pdf
+marp FractureFatigue/FF_seminar_math_IV/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_math_IV.pdf
+marp FractureFatigue/FF_seminar_VIII/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_VIII.pdf
+marp FractureFatigue/FF_seminar_V/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_V.pdf
+marp FractureFatigue/FF_seminar_VI/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_seminar_VI.pdf
+marp FractureFatigue/FF_fracture_mechanics/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_fracture_mechanics.pdf
 marp FractureFatigue/FF_design/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o FF_design.pdf
-
 marp composites_01/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_01.pdf
 marp composites_02/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_02.pdf
 marp composites_03/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_03.pdf
 marp Faserverbunde/composites_07/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_07.pdf
 marp Faserverbunde/composites_08/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_08.pdf
 marp Faserverbunde/composites_09/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_09.pdf
+marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf
+marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf
+marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf
+marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf
 marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf

@@ -250,7 +250,7 @@ Der Burgersvektor muss ein **Translationsvektor** des Kristallgitters sein – n
 
 ## Konkret für Metalle
 
-| Metall | Struktur | Gitterkonstante $a$ / nm | Burgersvektor $|\vec{b}|$ / nm | Berechnet |
+| Metall | Struktur | Gitterkonstante $a$ / nm | Burgersvektor | $\vec{b}$ | / nm | Berechnet |
 |---|---|---|---|---|
 | Fe | krz | 0,287 | 0,248 | $\frac{0{,}287\cdot\sqrt{3}}{2} = 0{,}249$ ✓ |
 | W | krz | 0,317 | 0,274 | $\frac{0{,}317\cdot\sqrt{3}}{2} = 0{,}275$ ✓ |
@@ -488,6 +488,8 @@ $$\Delta\sigma_{\text{m.k.}} = \text{const} \cdot \sqrt{c}$$
 
 </div>
 
+---
+
 <div>
 
 ### Titan-Legierungen (Ti-Al, Ti-V)
@@ -593,7 +595,7 @@ Festigkeit **sinkt** mit $r$.
 
 <div class="two-col">
 
-<div>
+<div class="ldiv">
 
 ### Aluminium 7xxx (Al-Zn-Mg-Cu)
 - **Höchstfeste Aluminiumlegierung**
@@ -608,7 +610,7 @@ Festigkeit **sinkt** mit $r$.
 
 </div>
 
-<div>
+<div class="rdiv">
 
 ### Superlegierungen (Ni-Basis)
 - γ'-Phase (Ni₃Al) als kohärente Ausscheidung
