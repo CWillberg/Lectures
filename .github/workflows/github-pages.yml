@@ -71,19 +71,19 @@ jobs:
           - wst2_mb_w6_Seminar_Normen
           - wst2_mb_w7_Ermuedung_und_Rissbildung
           - wst2_mb_w9_Faserverbundwerkstoffe
-          - MTI/wst_mb_01
-          - MTI/wst_mb_02
-          - MTI/wst_mb_03
-          - MTI/wst_mb_04
-          - MTI/wst_mb_05
-          - MTI/wst_mb_06
-          - MTI/wst_mb_07
-          - MTI/wst_mb_08
-          - MTI/wst_mb_09
-          - MTI/wst_mb_10
-          - MTI/wst_mb_11
-          - MTI/wst_mb_12
-          - MTI/wst_mb_13
+          - wst_mb_01
+          - wst_mb_02
+          - wst_mb_03
+          - wst_mb_04
+          - wst_mb_05
+          - wst_mb_06
+          - wst_mb_07
+          - wst_mb_08
+          - wst_mb_09
+          - wst_mb_10
+          - wst_mb_11
+          - wst_mb_12
+          - wst_mb_13
           - MTI/mti_ft_01
           - MTI/mti_ft_02
           - MTI/mti_ft_03
