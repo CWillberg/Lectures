@@ -47,14 +47,11 @@ Kontakt: christian.willberg@h2.de
 <!--paginate: true-->
 
 
-
-
-## Inhalte – Vorlesung 2
-
 - **Bezeichnungssystem für Stähle**
   - Einteilung nach DIN EN 10020
   - Werkstoffnummern (DIN EN 10027-2)
   - Kurznamen nach chemischer Zusammensetzung (DIN EN 10027-1)
+- **Legierungselemente – Wirkungsweise**
 - **Ausgewählte Stahllegierungen**
   - Einsatzstähle
   - Vergütungsstähle
@@ -98,12 +95,14 @@ Stahl
       └── Edelstahl
 ```
 
+> **Merke:** Der C-Gehalt legt das Grundpotenzial fest –
+> die **Legierungselemente entscheiden, wie es genutzt werden kann**
+
 </div>
 </div>
 
 ---
 
-## Einteilung nach DIN EN 10020
 
 <div class="cols-2" style="display:flex; gap:2rem;">
 <div>
@@ -133,7 +132,8 @@ Stahl
 | Cr, Ni, Al, Co, W | 0,30 |
 | V | 0,10 |
 
-
+> Die Grenzwerte sind **kein Maß für die Wirkung** eines Elements –
+> schon Bruchteile von V oder B können das Gefüge stark verändern
 
 </div>
 </div>
@@ -149,31 +149,32 @@ Stahl
 
 ## Qualitätsstähle und Edelstähle
 
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
 
-
-### Qualitätsstähle
-Erfüllen bestimmte **sortenabhängige** Anforderungen, z.B.:
+**Qualitätsstähle**
+Erfüllen bestimmte **sortenabhängige** Anforderungen, z. B.:
 - Zähigkeit (Feinkornbaustähle)
 - Schweißeignung
 - Magnetische Eigenschaften (Elektrobleche)
 
 **Wichtig:** Qualitätsstähle sind i. A. **nicht zum Vergüten** vorgesehen – unzureichende Materialhomogenität würde zu stark schwankenden Eigenschaften führen
 
+</div>
+<div>
 
-
----
-
-### Edelstähle
+**Edelstähle**
 Darüber hinausgehende Qualitätsmerkmale (DIN EN 10020):
 - Sehr geringe nichtmetallische Einschlüsse
 - P- und S-Gehalt ≤ 0,025 %
 - Besonders enge Streckgrenztoleranzen
 - Auf Grund Homogenität meist **vergütbar**
 
-
 > „Edelstahl" im technischen Sinne bedeutet **hohe Reinheit und Homogenität** –
 > **nicht** „nichtrostender Stahl"!
 
+</div>
+</div>
 
 ---
 
@@ -188,118 +189,165 @@ Darüber hinausgehende Qualitätsmerkmale (DIN EN 10020):
 > Unlegierte Edelstähle: z. B. C45 (für Vergüten)
 > Legierte Edelstähle: fast alle Cr-, Ni-, Mo-legierten Stähle
 
+---
+
+# Legierungselemente – Wirkungsweise
+
+---
+
+## Warum Legierungselemente?
+
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
+
+**Reiner Kohlenstoffstahl kann:**
+- Härtbarkeit und Festigkeit über C-Gehalt einstellen
+- ...aber **nicht** gleichzeitig:
+  - hohe Durchhärtbarkeit in großen Querschnitten
+  - Korrosionsbeständigkeit
+  - Warmfestigkeit / Warmhärte
+  - Zähigkeit bei hoher Festigkeit
+
+</div>
+<div>
+
+**Legierungselemente lösen genau diese Zielkonflikte:**
+- Verzögern/beschleunigen Phasenumwandlungen
+- Bilden stabile Karbide/Nitride
+- Bilden Schutzschichten (Passivierung)
+- Beeinflussen Korngröße und Kornwachstum
+
+> Ein legierter Stahl ist im Kern immer noch ein
+> **Fe-C-System** – die Zusatzelemente steuern,
+> **wie** sich dieses System verhält
+
+</div>
+</div>
+
+---
+
+## Gefügewirkung: α- und γ-Bildner
+
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
+
+**α-Bildner (krz-Stabilisatoren)**
+Erweitern das α-Gebiet, engen das γ-Gebiet ein
+
+- **Cr** – Leitelement, Korrosionsschutz
+- Si, Mo, W, Ti, Nb, V, Al
+
+→ dominant genug → **ferritischer** Stahl
+(nicht härtbar durch Umwandlung)
+
+</div>
+<div>
+
+**γ-Bildner (kfz-Stabilisatoren)**
+Erweitern das γ-Gebiet, drängen α zurück
+
+- **Ni** – Leitelement für Zähigkeit
+- C, Mn, N, Cu
+
+→ dominant genug → **austenitischer** Stahl
+(nicht härtbar durch Umwandlung)
+
+</div>
+</div>
+
+**Kompromiss zwischen beiden Gruppen → martensitischer, härtbarer Stahl**
+(z. B. X39Cr13: genug Cr für Korrosionsschutz, genug C für γ-Gebiet)
+
+---
+
+## Legierungselemente: Wirkung auf Härtbarkeit und Festigkeit
+
+
+| Element | Hauptwirkung |
+|---|---|
+| **C** | Basis der Härtbarkeit, Karbidbildner |
+| **Mn** | Härtbarkeit ↑, bindet S als MnS |
+| **Cr** | Härtbarkeit ↑, Karbidbildner, Korrosionsschutz |
+| **Ni** | Kern-/Zähigkeit ↑, γ-Stabilisator |
+| **Mo** | Anlassbeständigkeit, Warmfestigkeit |
+
+---
+
+| Element | Hauptwirkung |
+|---|---|
+| **V, W** | starke Karbidbildner, Kornfeinung, Warmhärte |
+| **Si** | Streckgrenze ↑, mindert Anlassversprödung |
+| **B** | schon in Spuren stark härtbarkeitssteigernd |
+| **Co** | Warmhärte ↑ (v. a. Schnellarbeitsstahl) |
+
+> Faustregel: **Cr, Mo, Mn, Ni** verzögern die Perlitbildung
+> → Martensit entsteht auch bei langsamerer Abkühlung
+> → **bessere Durchhärtbarkeit großer Querschnitte**
+
 
 
 ---
 
-## Werkstoffnummern – DIN EN 10027-2
+## Legierungselemente: Sonderfunktionen
 
-**Aufbau:**
-$$\underbrace{1}_{\text{Werkstoffgruppe}}.\underbrace{XXXX}_{\text{spezifische Sorte}}$$
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
 
-**Werkstoffhauptgruppen:**
+**Korrosions- und Hitzeschutz**
+- **Cr ≥ 10,5 %** → Cr₂O₃-Passivschicht, selbstheilend
+- **Al, Si** → Al₂O₃- bzw. SiO₂-Deckschicht (hitzebeständige Stähle, bis ~1100 °C)
+- **Mo** → verbessert Lochkorrosionsbeständigkeit zusätzlich
 
-| WN | Werkstoffgruppe | Beispiele |
-|---|---|---|
-| **1**.XXXX | Stähle | 1.0503 = C45 |
-| **2**.XXXX | Schwermetalle außer Eisen | Ni, Co, Cu, Edelmetalle |
-| **3**.XXXX | Leichtmetalle | Al, Mg, Ti |
+**Kornfeinung**
+- Ti, Nb, V, Al binden N/C zu feinkörnigen Nitriden/Karbiden
+
+
+</div>
+<div>
+
+**Unerwünschte / gezielte Begleitelemente**
+- **P, S** → i. d. R. Versprödung, bei Edelstählen streng begrenzt (≤ 0,025 %)
+- **S gezielt zugesetzt** → Automatenstähle (bessere Zerspanbarkeit, MnS als Spanbrecher)
+
+**Karbidbildner-Reihenfolge (grob zunehmende Stabilität)**
+$$\text{Fe}_3\text{C} < \text{Cr}_{23}\text{C}_6 < \text{Mo}_2\text{C} < \text{V}_4\text{C}_3 < \text{WC}$$
+
+→ erklärt, warum W/Mo/V erst bei Schnellarbeitsstählen nötig sind
+
+</div>
+</div>
 
 ---
 
-**Vorteile der Werkstoffnummer:**
-- Eindeutig und **sprachunabhängig**
-- International verwendbar
-- Reihenfolge: 1.0xxx = unlegierte Qualitätsstähle, 1.1xxx = unlegierte Edelstähle, 1.7xxx = legierte Stähle mit Cr ...
+## Legierungselemente – Zusammenfassung
 
----
-
-## Kurznamen: Unlegierte Stähle mit Mn < 1 %
-
-**Aufbau:**
-$$\underbrace{C}_{\text{Kennbuchstabe}} \quad \underbrace{35}_{\text{C-Gehalt} \times 100}$$
-
-
-> Der Buchstabe **C** steht für Kohlenstoff (lat. *carboneum*) – zugleich das wichtigste Legierungselement
-
----
-
-**Beispiele:**
-
-| Kurzname | C-Gehalt | Bedeutung |
-|---|---|---|
-| **C10** | 0,10 % | Einsatzstahl |
-| **C15** | 0,15 % | Einsatzstahl |
-| **C35** | 0,35 % | Vergütungsstahl |
-| **C45** | 0,45 % | Vergütungsstahl |
-| **C60** | 0,60 % | Federstahl |
-| **C110** | 1,10 % | Werkzeugstahl |
-
-
+| Element | α/γ-Bildner | Härtbarkeit | Karbidbildner | Korrosion/Hitze | Sonstiges |
+|---|---|---|---|---|---|
+| C | γ | Basis | ja (Fe₃C) | – | – |
+| Cr | α | ↑↑ | ja | ✓✓ (≥10,5 %) | Standardelement Edelstahl |
+| Ni | γ | – | nein | leicht ↑ | Zähigkeit, kfz-Stabilisator |
+| Mn | γ | ↑ | schwach | – | bindet S |
+| Mo | α | ↑↑ | ja | ✓ | Anlassbeständigkeit |
 
 
 ---
 
-## Kurznamen: Unlegierte Stähle mit Mn ≥ 1 % und legierte Stähle (alle Elemente < 5 %)
 
-**Aufbau:**
-$$\underbrace{34}_{\text{C-Gehalt} \times 100} \quad \underbrace{Cr}_{\text{Element 1}} \underbrace{Mo}_{\text{Element 2}} \quad \underbrace{4}_{\text{Gehalt} \times \text{Faktor}}$$
+## Legierungselemente – Zusammenfassung
 
----
+| Element | α/γ-Bildner | Härtbarkeit | Karbidbildner | Korrosion/Hitze | Sonstiges |
+|---|---|---|---|---|---|
+| Si | α | – | nein | ✓ (Zunder) | Streckgrenze ↑ |
+| V, W | α | – | ja (stark) | – | Warmhärte, Kornfeinung |
+| Al, Ti, Nb | α | – | (Nitride) | ✓ (Al) | Kornfeinung |
+| Co | – | – | nein | – | Warmhärte |
+| B | – | ↑↑↑ (Spuren) | nein | – | sehr wirksam, geringe Menge |
 
-**Faktoren für Gehaltsangabe:**
 
-| Element | Faktor | Rechenbeispiel |
-|---|---|---|
-| Cr, Co, Mn, Ni, Si, W | **4** | Mn**6** → 6/4 = **1,5 % Mn** |
-| Al, Cu, Mo, Nb, Ta, Ti, V, Zr | **10** | Mo**2** → 2/10 = **0,2 % Mo** |
-| C, P, S, N | **100** | C**35** → 35/100 = **0,35 % C** |
-| B | **1000** | B**1** → 1/1000 = **0,001 % B** |
-
-**Beispiel: 34CrMo4**
-→ 0,34 % C | 1,0 % Cr | ~0,2 % Mo (aus Tabellenwerk)
 
 ---
 
-## Kurznamen: Hochlegierte und nichtrostende Stähle
 
-**Gruppe: mindestens ein Element ≥ 5 % → Kennbuchstabe X**
-
-$$\underbrace{X}_{\geq 5\,\%} \quad \underbrace{5}_{\text{C} \times 100} \quad \underbrace{CrNi}_{\text{Elemente}} \quad \underbrace{18\text{-}10}_{\text{Gehalt direkt in \%}}$$
-
-→ **X5CrNi18-10:** 0,05 % C | 18 % Cr | 10 % Ni
-
-**Weitere Beispiele:**
-
-| Kurzname | C [%] | Cr [%] | Sonstiges | Volksname |
-|---|---|---|---|---|
-| X5CrNi18-10 | 0,05 | 18 | 10 % Ni | V2A-Stahl |
-| X6Cr13 | 0,06 | 13 | – | ferritisch niro |
-| X39Cr13 | 0,39 | 13 | – | Messerklingen |
-| X90CrMoV18 | 0,90 | 18 | Mo, V | Chirurgie-Instr. |
-
----
-
-## Kurznamen: Schnellarbeitsstähle
-
-**Kennbuchstaben: HS** (= „High Speed Steel")
-
-**Aufbau:** HS – W – Mo – V – Co (Gehalte in %, durch Bindestriche getrennt)
-
-$$HS \underbrace{6}_{\text{W\%}} - \underbrace{5}_{\text{Mo\%}} - \underbrace{2}_{\text{V\%}}$$
-
-**Beispiele:**
-
-| Kurzname | WN | W [%] | Mo [%] | V [%] | Co [%] | Anwendung |
-|---|---|---|---|---|---|---|
-| HS6-5-2 | 1.3343 | 6 | 5 | 2 | – | Fräser, Spiralbohrer |
-| HS12-1-4-5 | 1.3202 | 12 | 1 | 4 | 5 | Drehmeißel (Automat) |
-| HS16-1-2-10 | 1.3265 | 16 | 1 | 2 | 10 | Hochbeanspruchte Fräser |
-| HS2-9-1-8 | – | 2 | 9 | 1 | 8 | Schnellarbeitsstahl |
-
-> W, Mo, V bilden **hochtemperaturfeste Karbide** → Schneidkante bleibt bis ~600 °C hart
-
----
 
 ## Übersicht: Gesamtes Bezeichnungssystem
 
@@ -310,7 +358,6 @@ $$HS \underbrace{6}_{\text{W\%}} - \underbrace{5}_{\text{Mo\%}} - \underbrace{2}
 | Leg., mind. 1 × ≥ 5 % | **X** + Zahl + Elemente | X5CrNi18-10 | 0,05 % C, 18 % Cr, 10 % Ni |
 | Schnellarbeitsstahl | **HS** + Zahlenfolge | HS6-5-2 | W-Mo-V in % |
 
-> **Merkhilfe:** X = extra (viel Legierung) | HS = High Speed | C = Kohlenstoff
 
 ---
 
@@ -322,11 +369,20 @@ $$HS \underbrace{6}_{\text{W\%}} - \underbrace{5}_{\text{Mo\%}} - \underbrace{2}
 
 **Kennzeichen:** C-Gehalt **0,1–0,2 %**
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 **Warum geringer C-Gehalt?**
 - Beim Härten: kein Verspröden → **Kern bleibt duktil**
 - Kein nachfolgendes Anlassen nötig
 
----
+**Rolle der Legierungselemente:**
+- **Cr, Mn** (z. B. 16MnCr5) → verzögern Perlitbildung → auch die dünne Randschicht härtet zuverlässig durch
+- **Ni** → zusätzliche Kernzähigkeit bei hochbeanspruchten Bauteilen (z. B. Getriebezahnräder)
+
+</div>
+<div class="rdiv">
 
 **Prozess: Einsatzhärten**
 
@@ -335,6 +391,9 @@ $$HS \underbrace{6}_{\text{W\%}} - \underbrace{5}_{\text{Mo\%}} - \underbrace{2}
 $$\text{CO} + \text{H}_2 \rightarrow \text{C} + \text{H}_2\text{O}$$
 3. C diffundiert in Randschicht: ~0,1–0,2 mm tief
 4. **Abschrecken:** Randschicht wird martensitisch
+
+</div>
+</div>
 
 ---
 
@@ -363,23 +422,40 @@ Bauteilquerschnitt
 
 ## Einsatzstähle – Beispiele
 
-| Legierung | WN | $R_e$ [MPa] | $A$ [%] | Anwendungen |
-|---|---|---|---|---|
-| C10 | 1.0301 | 295 | 16 | Schrauben, Bolzen, Gabeln, Gelenke, Buchsen |
-| C15 | 1.0401 | 355 | 14 | Nockenwellen, Kolbenbolzen, Treib- und Kuppelzapfen |
-| 15Cr3 | 1.7015 | 440 | 11 | Zahnräder, Spindeln, Wellen, Messzeuge |
-| 16MnCr5 | 1.7131 | 590 | 10 | Zahnräder, Spindeln, Wellen, Messzeuge |
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
+
+| Legierung | WN | $R_e$ [MPa] | $A$ [%] |
+|---|---|---|---|
+| C10 | 1.0301 | 295 | 16 |
+| C15 | 1.0401 | 355 | 14 |
+| 15Cr3 | 1.7015 | 440 | 11 |
+| 16MnCr5 | 1.7131 | 590 | 10 |
 
 > Mechanische Eigenschaften nach dem Einsatzhärten – gemessen im **Kern**
 
+</div>
+<div>
+
+**Legierungswirkung entlang der Reihe:**
+- C10/C15: unlegiert → nur für kleine Querschnitte geeignet
+- 15Cr3: Cr verbessert Durchhärtbarkeit → höhere Kernfestigkeit
+- 16MnCr5: Cr **+** Mn → nochmals höhere Festigkeit, Standard-Einsatzstahl im Getriebebau
+
 **Lesehilfe 16MnCr5:**
 16/100 = **0,16 % C** | Mn5/4 = **1,25 % Mn** | Cr: Geringmenge (nicht quantifiziert)
+
+</div>
+</div>
 
 ---
 
 ## Vergütungsstähle – Prinzip
 
 **Kennzeichen:** C-Gehalt **0,2–0,6 %**
+
+<div class="cols-2" ">
+<div class = "ldiv">
 
 **Prozess: Vergüten = Härten + Anlassen**
 
@@ -389,15 +465,18 @@ Bauteilquerschnitt
 | Abschrecken | schnell | Martensit (hart, spröde) |
 | Anlassen | **500–650 °C** | angelassener Martensit |
 
----
-
 **Anlassen bewirkt:**
 - Ausscheidung feiner **Fe₃C-Teilchen**
 - Abbau der Gitterverzerrung
-- Feines Gefüge: Martensitnadeln + Ausscheidungen
 - → **günstigste Kombination** aus Festigkeit und Duktilität
 
+</div>
+<div>
 
+**Rolle der Legierungselemente:**
+- **Cr, Mo** verzögern die Perlitbildung → Martensit auch im Bauteilkern → **große Querschnitte durchhärtbar**
+- **Mo** wirkt zusätzlich gegen **Anlassversprödung** im kritischen Temperaturbereich
+- **Ni** erhöht die Zähigkeit bei hoher Festigkeit
 
 **Einfluss der Anlasstemperatur:**
 
@@ -408,6 +487,9 @@ Anlasstemperatur →
 Festigkeit:  ████  ███   ██
 Duktilität:  █     ██    ████
 ```
+
+</div>
+</div>
 
 ---
 
@@ -444,19 +526,11 @@ Duktilität:  █     ██    ████
 **Härtbarkeit und Bauteilgröße:**
 
 - Unlegierte Stähle: nur C muss diffundieren → **schnelle Perlitbildung** → schwer vollständig zu härten
-- Legierte Stähle (Cr, Mo): auch Legierungselemente diffundieren → **verzögerte Perlitbildung** → Martensit auch im Kern
+- Legierte Stähle (Cr, Mo, Ni): auch Legierungselemente diffundieren → **verzögerte Perlitbildung** → Martensit auch im Kern
 
-```
-Unlegiert (C45):
-[Martensit|Ferrit+Perlit|Ferrit+Perlit]
-            ↑ Kern bei größeren Querschnitten
 
-Legiert (34CrMo4):
-[Martensit | Martensit  | Martensit   ]
-```
-
-> → Legierte Vergütungsstähle für **große Bauteilquerschnitte** bevorzugt
-
+</div>
+</div>
 
 ---
 
@@ -481,7 +555,9 @@ Legiert (34CrMo4):
 
 **Zunehmende Anforderungen an Härte und Verschleißbeständigkeit:**
 
-> Faustregel: Je höher die Anforderung an **Verschleißbeständigkeit**, desto höher C-Gehalt und desto niedriger Anlasstemperatur
+> Faustregel: Je höher die Anforderung an **Verschleißbeständigkeit**,
+> desto höher C-Gehalt, desto niedriger Anlasstemperatur –
+> **und** desto mehr Karbidbildner (Cr, Mo, V, W)
 
 ---
 
@@ -502,12 +578,10 @@ Legiert (34CrMo4):
 </div>
 <div>
 
-
-
 **Legierungselemente:**
-- Si → erhöht Streckgrenze, verhindert Anlassverspödung
-- Cr → verbessert Härtbarkeit
-- Mn, V → Feinkornbildung, Härtbarkeit
+- **Si** → erhöht Streckgrenze, verhindert Anlassversprödung
+- **Cr** → verbessert Härtbarkeit
+- **Mn, V** → Feinkornbildung, Härtbarkeit
 
 | Legierung | WN | Anwendung |
 |---|---|---|
@@ -520,34 +594,61 @@ Legiert (34CrMo4):
 
 ---
 
-## Werkzeugstähle – Kalt- und Warmarbeit
+## Werkzeugstähle – Kaltarbeit
 
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
 
-### Kaltarbeitsstähle (Einsatz < ~200 °C)
+**Kaltarbeitsstähle (Einsatz < ~200 °C)**
 - Hauptanforderung: Härte + Verschleißbeständigkeit
-- Karbidbildner: Fe₃C (reicht bei niedrigen T)
+- Karbidbildner: **Fe₃C reicht aus**, da niedrige Einsatztemperatur → keine teuren Sonderkarbide nötig
+
+</div>
+<div>
 
 | Legierung | WN | Anwendung |
 |---|---|---|
 | C55 | 1.0535 | Zangen, gering beanspruchtes Werkzeug |
 | C110 | 1.1654 | Spiralbohrer, Gewindebohrer, Walzbacken |
 
+</div>
+</div>
+
 ---
 
-### Warmarbeitsstähle (Einsatz > 200 °C)
+## Werkzeugstähle – Warmarbeit
+
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
+
+**Warmarbeitsstähle (Einsatz > 200 °C)**
 - Zusätzlich: **Warmhärte** gefordert
-- Cr, Mo, V → temperaturstabilere Karbide als Fe₃C
+- **Cr, Mo, V** → temperaturstabilere Karbide als Fe₃C, bleiben bis deutlich höheren Temperaturen hart
+
+</div>
+<div>
 
 | Legierung | WN | Anwendung |
 |---|---|---|
 | 56NiCrMoV7 | 1.2714 | Pressstempel, Gesenke |
 | X38CrMoV5-1 | 1.2343 | Druckgießformen, Strangpresswerkzeuge |
 
+</div>
+</div>
+
 ---
 
-### Schnellarbeitsstähle (bis ~600 °C)
+## Werkzeugstähle – Schnellarbeit
+
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
+
+**Schnellarbeitsstähle (bis ~600 °C)**
 - **W, Mo, V** → hochtemperaturfeste Karbide (WC, MoC, VC)
-- Erhalten Schneidkantenhärte auch bei hohen Schnittgeschwindigkeiten
+- Erhalten Schneidkantenhärte auch bei hohen Schnittgeschwindigkeiten (Reibungswärme!)
+
+</div>
+<div>
 
 | Legierung | WN | Anwendung |
 |---|---|---|
@@ -555,13 +656,18 @@ Legiert (34CrMo4):
 | HS12-1-4-5 | 1.3202 | Drehmeißel für Automatenarbeit |
 | HS16-1-2-10 | 1.3265 | Hochbeanspruchte Fräser |
 
-> Zunehmend Cr, Mo, V, W von Kalt- zu Schnellarbeitsstählen → deutlicher Trend in der Bezeichnung erkennbar
+</div>
+</div>
 
+> Zunehmende Legierung von Kalt- zu Schnellarbeitsstahl:
+> **Fe₃C → Cr/Mo/V-Karbide → W/Mo/V-Karbide (+ Co)**
 
 ---
 
 ## Wälzlagerstähle
 
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
 
 **Höchste Anforderungen an:**
 - **Rollkontakt-Verschleißfestigkeit**
@@ -573,9 +679,20 @@ Legiert (34CrMo4):
 - Anlasstemperatur: **100–250 °C** (maximale Härte!)
 - Hohe Reinheit → Edelstahlqualität zwingend
 
+</div>
+<div>
+
+**Rolle des Chroms:**
+- **Cr (~1,5 %)** bildet feine, gleichmäßig verteilte Karbide
+- Verbessert die Durchhärtbarkeit trotz relativ geringem Cr-Gehalt (kein Korrosionsschutz-Niveau)
+
 **Typischer Vertreter: 102Cr6**
 - 1,02 % C | 6/4 = 1,5 % Cr
 - WN: 1.2067
+- **weltweit meistverwendeter Wälzlagerstahl**
+
+</div>
+</div>
 
 ---
 
@@ -593,8 +710,6 @@ Legiert (34CrMo4):
 | Gewindebohrer | Schneidkante + Führung |
 | Präzisionswerkzeuge | Formtreue |
 
-> 102Cr6 ist der **weltweit meistverwendete Wälzlagerstahl**
-
 ---
 
 ## Nichtrostende Stähle – Grundprinzip
@@ -610,7 +725,8 @@ $$\text{Cr-Gehalt} \geq 10{,}5\,\%$$
 - Selbstheilend bei Beschädigung (in oxidierenden Medien)
 - Schutz vor Oxidation und korrosivem Angriff
 
----
+</div>
+<div>
 
 **Drei Anwendungsgruppen:**
 
@@ -620,9 +736,15 @@ $$\text{Cr-Gehalt} \geq 10{,}5\,\%$$
 | Hitzebeständig | Oxidationsschutz bis ~1100 °C |
 | Hochwarmfest | Festigkeit bei Hochtemperatur |
 
+</div>
+</div>
+
 ---
 
-**Legierungseinflüsse auf das Gefüge:**
+## Nichtrostende Stähle – Legierungseinflüsse auf das Gefüge
+
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
 
 | Element | Wirkung |
 |---|---|
@@ -631,13 +753,26 @@ $$\text{Cr-Gehalt} \geq 10{,}5\,\%$$
 | C | γ-Bildner (stabilisiert kfz) |
 | Mo | verbessert Korrosionsbeständigkeit |
 
+</div>
+<div>
+
 ```
-α-Bildner (Cr) dominant → ferritischer Stahl
-γ-Bildner (Ni, C) dominant → austenitischer Stahl
-Kompromiss → martensitischer Stahl (härtbar)
+α-Bildner (Cr) dominant
+  → ferritischer Stahl
+
+γ-Bildner (Ni, C) dominant
+  → austenitischer Stahl
+
+Kompromiss
+  → martensitischer Stahl
+    (härtbar)
 ```
 
+</div>
+</div>
 
+> Dieselbe Logik wie zuvor allgemein eingeführt –
+> hier konkret angewendet auf nichtrostende Stähle
 
 ---
 
@@ -652,8 +787,6 @@ Kompromiss → martensitischer Stahl (härtbar)
 - Keine weiteren wesentlichen Legierungselemente
 - Cr dominiert → **krz-Gitter stabil** → kein γ-Gebiet
 - → **nicht härtbar** durch Wärmebehandlung
-
-
 
 </div>
 <div>
@@ -697,6 +830,9 @@ Kompromiss → martensitischer Stahl (härtbar)
 
 ## Martensitische korrosionsbeständige Stähle
 
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
+
 **Merkmale:**
 - Haben **Vergütungsprozess** durchlaufen
 - Gefüge: **angelassener Martensit**
@@ -706,29 +842,30 @@ Kompromiss → martensitischer Stahl (härtbar)
 - Cr → stabilisiert α (krz) → wirkt gegen γ
 - C → stabilisiert γ (kfz) → wirkt für γ
 - Wenn **C-Wirkung überwiegt** → γ-Gebiet vorhanden → härtbar
-- Beispiel: X6Cr13 (wenig C) → nicht härtbar; X39Cr13 (viel C) → härtbar
+- X6Cr13 (wenig C) → nicht härtbar; X39Cr13 (viel C) → härtbar
 
----
-
-**Beispiele:**
+</div>
+<div>
 
 | Legierung | WN | $R_e$ [MPa] | Anwendung |
 |---|---|---|---|
-| X39Cr13 | 1.4031 | ~700 | Klingen zweigeteilter Messer |
+| X39Cr13 | 1.4031 | ~700 | Messerklingen |
 | X90CrMoV18 | 1.4112 | ~1000 | Chirurgische Instrumente |
 
 **Eigenschaften:**
 - Wesentlich höhere Festigkeit als ferritische Stähle
 - Korrosionsbeständigkeit geringer als austenitisch
 - Magnetisch
-- Für Anwendungen mit **hoher mechanischer Beanspruchung + Korrosionsanforderung**
 
+</div>
+</div>
 
 ---
 
 ## Austenitische korrosionsbeständige Stähle
 
-
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
 
 **Wichtigstes Legierungselement: Nickel**
 - Ni stabilisiert kfz-Gitter → **γ-Phase bei Raumtemperatur stabil**
@@ -736,14 +873,13 @@ Kompromiss → martensitischer Stahl (härtbar)
 - → **nicht härtbar** durch Wärmebehandlung
 - Festigkeitssteigerung nur durch **Kaltverfestigung**
 
-**Verbesserte Korrosionsbeständigkeit** gegenüber ferritischen Stählen:
+**Verbesserte Korrosionsbeständigkeit:**
 - Beständig in feuchter Atmosphäre, verdünnten Säuren, Laugen
 - Selbstheilende Passivschicht (Cr₂O₃)
+- **Nicht magnetisch** (kfz-Struktur)
 
-**Nicht magnetisch** (kfz-Struktur)
-
-
----
+</div>
+<div>
 
 **Wichtigster Vertreter: X5CrNi18-10 (V2A-Stahl)**
 
@@ -753,43 +889,48 @@ Kompromiss → martensitischer Stahl (härtbar)
 | Cr-Gehalt | 18 % |
 | Ni-Gehalt | 10 % |
 | Struktur | austenitisch (kfz) |
-| Magnetisch | nein |
 
 **Anwendungsbreite:** Kochgeschirr – Chemieapparate – Medizintechnik – Architektur
 
-> bei fehlerhafter Wärmebehandlung → **interkristalline Korrosion** 
-> Korrosionsbeständigkeit kommt immer auf das **spezifische korrosive Medium** an!
+</div>
+</div>
 
+> bei fehlerhafter Wärmebehandlung → **interkristalline Korrosion**
+> Korrosionsbeständigkeit kommt immer auf das **spezifische korrosive Medium** an!
 
 ---
 
 ## Hitzebeständige und hochwarmfeste Stähle
 
-### Hitzebeständige Stähle (bis ~1100 °C)
-**Ziel:** Oxidationsschutz, keine Festigkeitsanforderung
+<div class="cols-2" style="display:flex; gap:2rem;">
+<div>
 
-**Legierungselemente:** Al, Si
+**Hitzebeständige Stähle (bis ~1100 °C)**
+Ziel: Oxidationsschutz, keine Festigkeitsanforderung
+
+- Legierungselemente: **Al, Si**
 - Bilden **Al₂O₃, SiO₂** → besonders temperaturstabile Deckschichten
 
 **Beispiel: X10CrAlSi13**
 - 13 % Cr | 1 % Al | 1 % Si
-- Anwendung: Wärmekraftanlagen, Gehäuseteile, Ofenbau, Dampfleitungsrohre
+- Anwendung: Wärmekraftanlagen, Ofenbau, Dampfleitungsrohre
 
----
+</div>
+<div>
 
-### Hochwarmfeste Stähle (bis ~600 °C)
-**Ziel:** Festigkeit bei Hochtemperatur
+**Hochwarmfeste Stähle (bis ~600 °C)**
+Ziel: Festigkeit bei Hochtemperatur
 
-**Legierungselemente:** Mo, W, V, Nb
+- Legierungselemente: **Mo, W, V, Nb**
 - Bilden **temperaturstabile Karbide/Nitride** → Ausscheidungshärtung
-
-
-**Beispiele hochwarmfeste Stähle:**
 
 | Legierung | Anwendung |
 |---|---|
-| X20CrMoV12-1 | Schaufeln, Scheiben Hochdruck-Dampfturbine |
+| X20CrMoV12-1 | Dampfturbinenschaufeln |
 | X20CrMoWVNbN10-1-1 | Hochdruckbereich Dampfturbinen |
+
+</div>
+</div>
 
 ---
 
@@ -807,37 +948,41 @@ Kompromiss → martensitischer Stahl (härtbar)
 
 ## Zusammenfassung: Nichtrostende Stähle
 
-| Typ | Gefüge | Härtbar | Festigkeit | Besonderheit |
-|---|---|---|---|---|
-| **Ferritisch** | α (krz) | Nein | niedrig | günstig, magnetisch |
-| **Martensitisch** | Martensit | Ja | hoch | vergütbar, magnetisch |
-| **Austenitisch** | γ (kfz) | Nein | mittel | bestes Korr.-schutz, nicht magn. |
-| **Hitzebeständig** | α oder γ | – | gering | bis 1100 °C (Oxidation) |
-| **Hochwarmfest** | γ + Ausscheidungen | – | hoch | bis 600 °C |
+| Typ | Gefüge | Härtbar | Festigkeit | Legierung | Besonderheit |
+|---|---|---|---|---|---|
+| **Ferritisch** | α (krz) | Nein | niedrig | Cr | günstig, magnetisch |
+| **Martensitisch** | Martensit | Ja | hoch | Cr + C | vergütbar, magnetisch |
+| **Austenitisch** | γ (kfz) | Nein | mittel | Cr + Ni | bester Korr.-schutz, nicht magn. |
+| **Hitzebeständig** | α oder γ | – | gering | Cr + Al/Si | bis 1100 °C (Oxidation) |
+| **Hochwarmfest** | γ + Ausscheid. | – | hoch | Cr + Mo/W/V | bis 600 °C |
 
-> **Cr ≥ 10,5 %** ist die notwendige Bedingung für alle nichtrostenden Stähle
+> **Cr ≥ 10,5 %** ist die notwendige Bedingung für alle nichtrostenden Stähle –
+> **welche weiteren Elemente hinzukommen, entscheidet über den Stahltyp**
 
 ---
 
 ## Gesamtübersicht: Stahlgruppen (I/II)
 
-| Gruppe | C [%] | Wärmebehandlung | Gefüge | Anwendung |
+| Gruppe | C [%] | Leit-Legierungselemente | Wärmebehandlung | Anwendung |
 |---|---|---|---|---|
-| Einsatzstahl | 0,1–0,2 | Einsatzhärten | Martensit + Kern zäh | Zahnräder, Wellen |
-| Vergütungsstahl | 0,2–0,6 | Vergüten | ang. Martensit | Kurbelwellen, Schrauben |
-| Federstahl | 0,4–1,0 | Vergüten (niedrig anl.) | ang. Martensit | Federn |
-| Werkzeugstahl | 0,6–1,2 | Härten + niedrig anl. | Martensit + Karbide | Bohrer, Fräser |
+| Einsatzstahl | 0,1–0,2 | Cr, Mn, Ni | Einsatzhärten | Zahnräder, Wellen |
+| Vergütungsstahl | 0,2–0,6 | Cr, Mo, Ni | Vergüten | Kurbelwellen, Schrauben |
+| Federstahl | 0,4–1,0 | Si, Cr, V | Vergüten (niedrig anl.) | Federn |
+| Werkzeugstahl | 0,6–1,2 | Cr, Mo, V, W | Härten + niedrig anl. | Bohrer, Fräser |
 
 ---
 
 ## Gesamtübersicht: Stahlgruppen (II/II)
 
-| Gruppe | C [%] | Wärmebehandlung | Gefüge | Anwendung |
+| Gruppe | C [%] | Leit-Legierungselemente | Wärmebehandlung | Anwendung |
 |---|---|---|---|---|
-| Wälzlagerstahl | 0,8–1,2 | Härten (100–250 °C) | feiner Martensit | Lager |
-| niro ferritisch | < 0,15 | keine | Ferrit | Besteck, Haushaltsger. |
-| niro martensitisch | ~0,4 | Vergüten | ang. Martensit | Messer, Chirurgieinstr. |
-| niro austenitisch | < 0,1 | keine | Austenit | Apparatebau, Medizin |
+| Wälzlagerstahl | 0,8–1,2 | Cr | Härten (100–250 °C) | Lager |
+| niro ferritisch | < 0,15 | Cr | keine | Besteck, Haushaltsger. |
+| niro martensitisch | ~0,4 | Cr | Vergüten | Messer, Chirurgieinstr. |
+| niro austenitisch | < 0,1 | Cr, Ni | keine | Apparatebau, Medizin |
+
+> **Roter Faden der gesamten Vorlesung:** C-Gehalt bestimmt das Härtepotenzial,
+> Legierungselemente entscheiden über Durchhärtbarkeit, Korrosionsschutz und Temperaturbeständigkeit
 
 ---
 
