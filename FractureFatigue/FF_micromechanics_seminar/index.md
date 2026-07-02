@@ -633,6 +633,7 @@ The equatorial point P is the <b>critical location</b> for matrix failure initia
 - Interface strain/stress jumps depend on property mismatch and component orientation
 - The equatorial stress concentration in stiff-particle composites is the microstructural origin of ductile damage
 
+
 <div class="hinweis">
 These results connect directly to damage mechanics in Chapter 9: microcrack and void nucleation are controlled by stress concentrations at defects, computed via the tools developed here.
-</div>
+</div> 

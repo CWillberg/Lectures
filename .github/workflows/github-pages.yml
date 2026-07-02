@@ -58,6 +58,7 @@ jobs:
           - fracture_and_fatigue_01
           - wst2_mb_w0_Kurs
           - wst2_mb_w1_bindungen
+          - wst2_mb_w4_EKD_II
           - wst2_mb_w1_bindungen_seminar
           - wst2_mb_w2_festigkeit_plastizitaet
           - wst2_mb_w2_festigkeit_plastizitaet_seminar
