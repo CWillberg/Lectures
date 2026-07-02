@@ -838,14 +838,23 @@ Kompromiss
 - Gefüge: **angelassener Martensit**
 - Höherer C-Gehalt → C stabilisiert γ-Phase bei hohen T → härtbar
 
+
+
+</div>
+<div>
+
 **Warum möglich trotz Cr?**
 - Cr → stabilisiert α (krz) → wirkt gegen γ
 - C → stabilisiert γ (kfz) → wirkt für γ
 - Wenn **C-Wirkung überwiegt** → γ-Gebiet vorhanden → härtbar
 - X6Cr13 (wenig C) → nicht härtbar; X39Cr13 (viel C) → härtbar
 
+
+
 </div>
-<div>
+</div>
+
+---
 
 | Legierung | WN | $R_e$ [MPa] | Anwendung |
 |---|---|---|---|
@@ -856,10 +865,6 @@ Kompromiss
 - Wesentlich höhere Festigkeit als ferritische Stähle
 - Korrosionsbeständigkeit geringer als austenitisch
 - Magnetisch
-
-</div>
-</div>
-
 ---
 
 ## Austenitische korrosionsbeständige Stähle
