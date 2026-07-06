@@ -53,7 +53,7 @@ Hochschule Magdeburg-Stendal
 
 **Klebstoffklassen:**
 
-| Typ | $G_K$ [N/mm²] | Bruchdehnung |
+| Typ | $G_K$ [N/mm²] | $\varepsilon_{Bruch}$ |
 |-----|--------------|--------------|
 | Strukturkleber | > 10 | bis 70 % |
 | Elastischer Kleber | 1–10 | 70–300 % |
@@ -70,7 +70,7 @@ Hochschule Magdeburg-Stendal
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb23.1.png)
+![](./assets/Abb23.1.png)
 
 </div>
 <div class="rdiv">
@@ -101,7 +101,7 @@ Bei **elastischen** Fügeteilen → Dehnungsunterschiede an den Enden → dort m
 
 ---
 
-# Spannungsanalyse – Schäftung
+## Spannungsanalyse – Schäftung
 
 Die **Schäftung** (scarfed joint) ist konstruktiv besonders günstig – Spannungstransformation am schrägen Schnitt:
 
@@ -120,7 +120,7 @@ $$\sigma_\alpha = \sigma_x \cos^2\alpha \qquad \tau_\alpha = \frac{1}{2}\,\sigma
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:360](./assets/Abb23.4.png)
+![](./assets/Abb23.4.png)
 
 </div>
 <div class="rdiv">
@@ -128,6 +128,16 @@ $$\sigma_\alpha = \sigma_x \cos^2\alpha \qquad \tau_\alpha = \frac{1}{2}\,\sigma
 **Sinnvoller Schäftungswinkel:** $\alpha \approx 3°{-}10°$
 
 > ✅ Bei ausreichend flachem $\alpha$: Versagen **außerhalb** der Schäftung möglich – Klebung nicht mehr dimensionierend!
+
+
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
+    Bild 23.4 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+</div>
+
+---
 
 **Sechs Vorteile der Schäftung:**
 1. Vergrößerte Klebfläche
@@ -139,15 +149,9 @@ $$\sigma_\alpha = \sigma_x \cos^2\alpha \qquad \tau_\alpha = \frac{1}{2}\,\sigma
 
 **Nachteil:** Hoher Fertigungsaufwand für konstante Klebschichtdicke.
 
-</div>
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild 23.4 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
-</div>
-
 ---
 
-# Volkersen-Modell: Längsgurt-Scheibe
+## Volkersen-Modell: Längsgurt-Scheibe
 
 **Annahmen:**
 - Fügeteile: nur Längskräfte $N$, Kleber: nur Schubfluss $n_{xy}$, dehnschlaff
@@ -155,9 +159,7 @@ $$\sigma_\alpha = \sigma_x \cos^2\alpha \qquad \tau_\alpha = \frac{1}{2}\,\sigma
 
 ![h:300](./assets/Abb23.5.png)
 
-$$\left(\frac{1}{E_1 t_1} + \frac{1}{E_2 t_2}\right) \tau_K - \frac{t_K}{G_K}\,\tau_K'' = 0$$
 
-→ Homogene DGL 2. Ordnung, Lösung über Hyperbelfunktionen.
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild 23.5 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
@@ -167,13 +169,18 @@ $$\left(\frac{1}{E_1 t_1} + \frac{1}{E_2 t_2}\right) \tau_K - \frac{t_K}{G_K}\,\
 
 # Volkersen-Lösung: Spannungsspitze
 
+$$\left(\frac{1}{E_1 t_1} + \frac{1}{E_2 t_2}\right) \tau_K - \frac{t_K}{G_K}\,\tau_K'' = 0$$
+
+→ Homogene DGL 2. Ordnung, Lösung über Hyperbelfunktionen.
+
+
 $$\frac{\tau_{K,\max}}{\bar{\tau}_K} = \frac{\rho}{2}\left[\coth\frac{\rho}{2} + \frac{1-\psi}{1+\psi}\tanh\frac{\rho}{2}\right]$$
 
-$$\rho^2 = \left(1+\psi\right)\frac{G_K\,l_\ddot{u}^2}{E_1 t_1\,t_K} \qquad \psi = \frac{E_1 t_1}{E_2 t_2}$$
+$$\rho^2 = \left(1+\psi\right)\frac{G_K\,l_{\ddot{u}}^2}{E_1 t_1\,t_K} \qquad \psi = \frac{E_1 t_1}{E_2 t_2}$$
 
-Für $\rho \geq 5$ (Spitze **unabhängig** von $l_\ddot{u}$):
+Für $\rho \geq 5$ (Spitze **unabhängig** von $l_{\ddot{u}}$):
 
-$$\tau_{K,\max} = \bar{\tau}_K \cdot \sqrt{\frac{l_\ddot{u}\,G_K}{E_1 t_1\,t_K\,(1+\psi)}}$$
+$$\tau_{K,\max} = \bar{\tau}_K \cdot \sqrt{\frac{l_{\ddot{u}}\,G_K}{E_1 t_1\,t_K\,(1+\psi)}}$$
 
 ---
 
@@ -182,14 +189,14 @@ $$\tau_{K,\max} = \bar{\tau}_K \cdot \sqrt{\frac{l_\ddot{u}\,G_K}{E_1 t_1\,t_K\,
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb23.6.png)
+![](./assets/Abb23.6.png)
 
 </div>
 <div class="rdiv">
 
 Spitzen an den Enden bleiben **unverändert** – egal wie lang die Überlappung.
 
-Die mittlere Schubspannung $\bar{\tau}_K$ sinkt mit steigendem $l_\ddot{u}$, die **Spitzen** nicht.
+Die mittlere Schubspannung $\bar{\tau}_K$ sinkt mit steigendem $l_{\ddot{u}}$, die **Spitzen** nicht.
 
 > ❗ Auf Basis der mittleren Schubspannung zu dimensionieren ist **falsch**!
 
@@ -206,7 +213,7 @@ Die mittlere Schubspannung $\bar{\tau}_K$ sinkt mit steigendem $l_\ddot{u}$, die
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:380](./assets/Abb23.7.png)
+![](./assets/Abb23.7.png)
 
 </div>
 <div class="rdiv">
@@ -241,19 +248,19 @@ $$\tau_{K,\max} = \frac{F_{10}}{b} \cdot \frac{1}{2} \sqrt{\frac{G_K}{E\,t\,t_K}
 | Dehnsteifigkeit $Et$ ↑ | $\tau_{K,\max}$ ↓ | Steife Fügeteile günstiger |
 | Schubmodul $G_K$ ↓ | $\tau_{K,\max}$ ↓ | Aber: weichere Fügung |
 | Kleberdicke $t_K$ ↑ | $\tau_{K,\max}$ ↓ | Optimum 0,1–0,2 mm! |
-| Überlappung $l_\ddot{u}$ ↑ | Wirkung begrenzt | Nur bis $\tilde{l}_\ddot{u}$ wirksam |
+| Überlappung $l_{\ddot{u}}$ ↑ | Wirkung begrenzt | Nur bis $\tilde{l}_{\ddot{u}}$ wirksam |
 
 ---
 
 # Grenz-Überlappungslänge
 
-> ❗ Ab der Grenz-Überlappungslänge $\tilde{l}_\ddot{u}$ sind die Spannungsspitzen von der Überlappungslänge **unabhängig**! Eine weitere Verlängerung hilft nicht.
+> ❗ Ab der Grenz-Überlappungslänge $\tilde{l}_{\ddot{u}}$ sind die Spannungsspitzen von der Überlappungslänge **unabhängig**! Eine weitere Verlängerung hilft nicht.
 
-$$\tilde{l}_\ddot{u} = 5\sqrt{\frac{E_1 t_1 t_K}{G_K(1+\psi)}}$$
+$$\tilde{l}_{\ddot{u}} = 5\sqrt{\frac{E_1 t_1 t_K}{G_K(1+\psi)}}$$
 
 **Konsequenz für Auslegung:**
-- Nicht $l_\ddot{u}$ verlängern, sondern **Breite $b$ vergrößern**
-- Wegen Plastizität: $l_\ddot{u} \geq 2\,\tilde{l}_\ddot{u}$ empfohlen
+- Nicht $l_{\ddot{u}}$ verlängern, sondern **Breite $b$ vergrößern**
+- Wegen Plastizität: $l_{\ddot{u}} \geq 2\,\tilde{l}_{\ddot{u}}$ empfohlen
 
 ---
 
@@ -262,7 +269,7 @@ $$\tilde{l}_\ddot{u} = 5\sqrt{\frac{E_1 t_1 t_K}{G_K(1+\psi)}}$$
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:360](./assets/Abb23.11.png)
+![](./assets/Abb23.11.png)
 
 </div>
 <div class="rdiv">
@@ -270,7 +277,7 @@ $$\tilde{l}_\ddot{u} = 5\sqrt{\frac{E_1 t_1 t_K}{G_K(1+\psi)}}$$
 Kleber mit ideal elastisch-plastischem Verhalten und **hoher Bruchschiebung** können Spannungsspitzen abbauen → Umlagerung in den Mittenbereich.
 
 - Flexible Klebstoffe erreichen oft **höhere Festigkeiten** als hartelastische
-- Bedingung: ausreichend lange Überlappung für Umlagerung ($\geq 2\,\tilde{l}_\ddot{u}$)
+- Bedingung: ausreichend lange Überlappung für Umlagerung ($\geq 2\,\tilde{l}_{\ddot{u}}$)
 
 > ⚠️ Im Betrieb liegt der Kleber im elastischen Bereich – Plastizität nur beim Bruchversuch nutzbar.
 
@@ -287,9 +294,9 @@ Kleber mit ideal elastisch-plastischem Verhalten und **hoher Bruchschiebung** k�
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:360](./assets/Abb23.12.png)
+![](./assets/Abb23.12.png)
 
-Spannungsumlagerung durch Kriech- und Relaxationsvorgänge. Nach langen Zeiten: konstante Schubspannung über $l_\ddot{u}$.
+Spannungsumlagerung durch Kriech- und Relaxationsvorgänge. Nach langen Zeiten: konstante Schubspannung über $l_{\ddot{u}}$.
 
 </div>
 <div class="rdiv">
@@ -373,6 +380,12 @@ Zeitstanddauer bis zum Bruch
 - Sandstrahlen (trocken, ölfrei)
 - FKV: Abreißgewebe abziehen → aktivierte Bruchfläche
 
+
+
+</div>
+<div class="rdiv">
+
+
 **Schritt 3: Chemische Behandlung** *(bei Al für Luftfahrt)*
 - Beizen → metallisch blanke Fläche
 - Oxidationsbeizen → adhäsionsfördernde Schicht
@@ -380,6 +393,20 @@ Zeitstanddauer bis zum Bruch
 **Schritt 4: Primer auftragen**
 - Schutz gegen Feuchteunterwanderung
 - Unbedingt bei Al unter Feuchteeinwirkung!
+
+
+
+</div>
+
+
+---
+
+# Einfluss der Oberflächenbehandlung
+
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
+![h:430](./assets/Abb23.16.png)
 
 </div>
 <div class="rdiv">
@@ -393,17 +420,7 @@ Abdruck eines Abreißgewebes: vergrößerte wirksame Oberfläche
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild 23.15 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
-</div>
-
----
-
-# Einfluss der Oberflächenbehandlung
-
-![h:430](./assets/Abb23.16.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Bild 23.16 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
+    Bild 23.15 und 23.16 aus H. Schürrmann "Konstruieren mit Faser-Kunststoff-Verbunden"
 </div>
 
 ---
@@ -423,7 +440,7 @@ Realisierung:
 </div>
 <div class="rdiv">
 
-![h:380](./assets/Abb23.19.png)
+![](./assets/Abb23.19.png)
 
 </div>
 
@@ -445,7 +462,7 @@ Realisierung:
 </div>
 <div class="rdiv">
 
-![h:360](./assets/Abb23.20.png)
+![](./assets/Abb23.20.png)
 
 </div>
 
@@ -469,7 +486,7 @@ Bereits eine einfache **Anfasung** der Fügeteilenden reicht aus.
 </div>
 <div class="rdiv">
 
-![h:380](./assets/Abb23.21.png)
+![](./assets/Abb23.21.png)
 
 </div>
 
@@ -492,7 +509,7 @@ Herausgequetschter Kleber bildet Kehlnaht → Spannungsspitze reduziert.
 </div>
 <div class="rdiv">
 
-![h:380](./assets/Abb23.22.png)
+![](./assets/Abb23.22.png)
 
 </div>
 
@@ -516,7 +533,7 @@ Alternativ: Falz, lokale Aufdickung.
 </div>
 <div class="rdiv">
 
-![h:380](./assets/Abb23.23.png)
+![](./assets/Abb23.23.png)
 
 </div>
 
@@ -526,7 +543,7 @@ Alternativ: Falz, lokale Aufdickung.
 
 ---
 
-# Zusammenfassung – Auswahl des Fügeprinzips
+## Zusammenfassung – Auswahl des Fügeprinzips
 
 | Kriterium | Schlaufe | Bolzen | Klebung |
 |-----------|----------|--------|---------|
@@ -573,7 +590,7 @@ Alternativ: Falz, lokale Aufdickung.
 
 - Schälspannungen **konstruktiv** ausschließen
 - Breite $b$ ist Hauptdimensionierungsgröße
-- Überlappungslänge $\geq 2\,\tilde{l}_\ddot{u}$
+- Überlappungslänge $\geq 2\, \tilde{l}_{\ddot{u}}$
 - Klebschichtdicke $t_K \approx 0{,}1$ mm
 - Zweischnittige Fügung bevorzugen
 - Oberflächenvorbehandlung nicht vernachlässigen
@@ -581,43 +598,9 @@ Alternativ: Falz, lokale Aufdickung.
 - Gradientenklebung bei hohen Anforderungen
 - Querdruck nutzen wo konstruktiv möglich
 
-> ⚠️ In allen drei Fügekategorien: Analytische Rechnung liefert Vorauslegung – der **experimentelle Nachweis** am Prototypen ist immer erforderlich.
-
----
 
 
+--- 
 
-**Hauptquelle:**
-
-Schürrmann, H.: *Konstruieren mit Faser-Kunststoff-Verbunden*. Springer-Verlag, Berlin, 2005. (Kapitel 21, 22, 23)
-
-**Grundlagenwerke:**
-
-Heslehurst, R. B.: *Defects and Damage in Composite Materials and Structures*. CRC Press, 2014.
-
-Wiedemann, J.: *Leichtbau. Bd. 2: Konstruktion*. Springer-Verlag, Berlin, 1989.
-
-**Schlaufenanschluss:**
-
-Conen, H.: Deformation und Versagen von GFK-Strangschlaufen. *Kunststoffe* 56 (1966).
-
-Winistörfer, A.: Development of non-laminated advanced composite straps. Diss. Warwick, 1999.
-
-------
-
-Wörndle & Daschner: Rechnerische Untersuchung von FVW-Strangschlaufen. *Z. Flugwiss.* 4 (1980).
-
-
-
-**Bolzenverbindungen:**
-
-Kraft & Schelling: Statische Tragfähigkeit von Nietverbindungen aus CFK/GFK. DLR IB 435-81/1, 1981.
-
-Fink, A.: Metalllaminate für verstärkte Verbindungen. *SAMPE Symposium*, Braunschweig, 2006.
-
-**Klebverbindungen:**
-
-Volkersen, O.: Die Nietkraftverteilung in zugbeanspruchten Nietverbindungen. *Luftfahrtforschung* (1938).
-
-Habenicht, G.: *Kleben*. Springer-Verlag, Berlin, 1990.
+## Vielen Dank für die Aufmerksamkeit
 
