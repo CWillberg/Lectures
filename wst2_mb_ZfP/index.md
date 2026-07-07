@@ -72,7 +72,7 @@ Hochschule Magdeburg-Stendal
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.1s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 1.1 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -99,7 +99,7 @@ Unterscheidung nach Prüftiefe:
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.2s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 1.2 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -144,7 +144,7 @@ $$C = \lambda \cdot f \qquad n_{\text{Medium}} = \frac{C_0}{C_{\text{Medium}}}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.1s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.1 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -172,7 +172,7 @@ $$\frac{\sin\alpha_1}{\sin\alpha_2} = \frac{C_1}{C_2}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.2s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.2 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -182,7 +182,7 @@ $$\frac{\sin\alpha_1}{\sin\alpha_2} = \frac{C_1}{C_2}$$
 ![w:400](./assets/Abb2.3s.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.3s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.3 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -220,7 +220,7 @@ $$\Gamma = \frac{\tan\sigma}{\tan\sigma_0}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.4s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.4 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -249,7 +249,7 @@ Messbar per **Luxmeter**; Leuchtdichte über Aufsatzkegel
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.5s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.5 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -273,7 +273,7 @@ Messbar per **Luxmeter**; Leuchtdichte über Aufsatzkegel
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.6s und 2.7s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.6s und 2.7 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -296,7 +296,7 @@ Messbar per **Luxmeter**; Leuchtdichte über Aufsatzkegel
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.8s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.8 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -320,7 +320,7 @@ Messbar per **Luxmeter**; Leuchtdichte über Aufsatzkegel
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.9s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 2.9 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -401,7 +401,7 @@ Grundausstattung der Längenmesstechnik für Maßkontrollen im Rahmen der VT.
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 3.7s und 3.9s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 3.7s und 3.9 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -444,7 +444,7 @@ Grundausstattung der Längenmesstechnik für Maßkontrollen im Rahmen der VT.
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 3.11s und 3.15s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 3.11s und 3.15 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -492,7 +492,7 @@ Sichtprüfung von Innenräumen, wenn Kontrollspiegel nicht ausreichen:
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 3.18s und 3.19s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 3.18s und 3.19 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -513,7 +513,7 @@ Sichtprüfung von Innenräumen, wenn Kontrollspiegel nicht ausreichen:
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 3.21s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 3.21 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -538,7 +538,7 @@ Sichtprüfung von Innenräumen, wenn Kontrollspiegel nicht ausreichen:
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 3.22s und 3.23s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 3.22s und 3.23 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -618,7 +618,7 @@ Videokameras nehmen überwiegend **reflektierte** Strahlung auf, thermische Kame
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 3.32s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 3.32 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -641,7 +641,7 @@ Videokameras nehmen überwiegend **reflektierte** Strahlung auf, thermische Kame
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 4.17s und 4.18s aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
+    Abb. 4.17s und 4.18 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Sichtprüfung"
 </div>
 
 ---
@@ -675,7 +675,7 @@ Videokameras nehmen überwiegend **reflektierte** Strahlung auf, thermische Kame
 # Teil 2 — Durchstrahlungsprüfung (RT)
 ## Grundlagen
 
-# Einordnung und Grundprinzip
+
 
 - RT (**R**adiographic **T**esting) neben UT, MT, PT, VT, ET eines der klassischen ZfP-Verfahren
 - Nutzt **Röntgen-** oder **Gammastrahlung** — kurzwellige, ionisierende elektromagnetische Strahlung
@@ -703,19 +703,25 @@ Videokameras nehmen überwiegend **reflektierte** Strahlung auf, thermische Kame
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.3d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
+    Abb. 1.3 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
 </div>
 
 ---
 
 # Strahlungsspektrum
 
+<!-- _class: cols-2 -->
+<div class="ldiv">
+
 ![](./assets/Abb1.1d.png)
 
-Röntgen-/Gammastrahlung: Energiebereich ca. 10 keV (weich) bis 100 MeV (ultrahart). Defektoskopie mit Isotopen: ca. 200 keV bis 1,2 MeV; mit Röntgenröhren: 100–450 keV, mit Beschleunigern bis 15–30 MeV.
+</div>
+<div class="rdiv">
 
+Röntgen-/Gammastrahlung: Energiebereich ca. 10 keV (weich) bis 100 MeV (ultrahart). Defektoskopie mit Isotopen: ca. 200 keV bis 1,2 MeV; mit Röntgenröhren: 100–450 keV, mit Beschleunigern bis 15–30 MeV.
+</div>
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.1d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
+    Abb. 1.1 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
 </div>
 
 ---
@@ -752,7 +758,7 @@ $$H^* = H_0^* \cdot e^{-\mu \cdot s}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.2d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
+    Abb. 2.2 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
 </div>
 
 ---
@@ -782,28 +788,6 @@ $$C_{sp} = \frac{\mu}{1+k}$$
 
 ---
 
-# Prüfeinrichtungen für Gammastrahlen
-
-<!-- _class: cols-2 -->
-<div class="ldiv">
-
-![](./assets/Abb3.4d.png)
-
-</div>
-<div class="rdiv">
-
-- **Arbeitsbehälter** (Gamma-Arbeitsbehälter) sind gleichzeitig Transportbehälter, Abschirmung meist aus angereichertem Uran
-- Klassen **P** (portabel) und **M** (mobil)
-- Kategorie 1–3 je nach Ausfahrmechanismus des Strahlers
-- Wichtige Isotope: **Ir-192, Co-60, Se-75** — unterscheiden sich in Energie, Dosisleistungskonstante und Halbwertszeit
-
-</div>
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 3.4d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
-</div>
-
----
 
 # Röntgen- vs. Gammastrahler — Vergleich
 
@@ -829,41 +813,6 @@ $$C_{sp} = \frac{\mu}{1+k}$$
 
 ---
 
-# Bildqualität — Einflussfaktoren
-
-![](./assets/Abb6.1d.png)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 6.1d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
-</div>
-
----
-
-# Geometrische Unschärfe
-
-<!-- _class: cols-2 -->
-<div class="ldiv">
-
-![](./assets/Abb9.1d.png)
-
-</div>
-<div class="rdiv">
-
-$$U_g = \frac{d \cdot b}{f}$$
-
-- $d$ = Brennfleckgröße
-- $b$ = Abstand Werkstück–Film
-- $f$ = Abstand Strahlenquelle–Werkstück
-
-**Optimale Schärfe:** kleiner Brennfleck, großer Abstand Quelle–Werkstück, Film möglichst nah am Werkstück
-
-</div>
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 9.1d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
-</div>
-
----
 
 # Bildgüteprüfkörper (BPK)
 
@@ -883,7 +832,7 @@ $$U_g = \frac{d \cdot b}{f}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 6.13d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
+    Abb. 6.13 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
 </div>
 
 ---
@@ -905,7 +854,7 @@ $$U_g = \frac{d \cdot b}{f}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 13.2d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
+    Abb. 13.2 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
 </div>
 
 ---
@@ -916,20 +865,19 @@ $$U_g = \frac{d \cdot b}{f}$$
 <div class="ldiv">
 
 ![h:220](./assets/Abb13.9d.png)
-
+**Längsriss** — dunkle, feine Linie in Nahtrichtung
 </div>
 <div class="rdiv">
 
 ![h:220](./assets/Abb13.18d.png)
-
+**Porennester** — rundliche, dunkle Anzeigen gehäuft auftretend
+Bewertung: rundliche vs. längliche Anzeigen getrennt beurteilen
 </div>
 
-- **Längsriss** — dunkle, feine Linie in Nahtrichtung
-- **Porennester** — rundliche, dunkle Anzeigen gehäuft auftretend
-- Bewertung: rundliche vs. längliche Anzeigen getrennt beurteilen
+
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 13.9d und 13.18d aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
+    Abb. 13.9 und 13.18 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Durchstrahlungsprüfung"
 </div>
 
 ---
@@ -962,7 +910,7 @@ $$U_g = \frac{d \cdot b}{f}$$
 # Teil 3 — Ultraschallprüfung (UT)
 ## Grundlagen
 
-# Einordnung und Grundprinzip
+
 
 - UT (**U**ltrasonic **T**esting) neben RT, MT, PT, VT, ET eines der klassischen ZfP-Verfahren
 - Nutzt **mechanische Wellen** oberhalb der Hörschwelle — Ausbreitung erfordert elastisch gekoppelte Materie (im Gegensatz zu elektromagnetischen Wellen)
@@ -993,7 +941,7 @@ $$c = \lambda \cdot f$$
 
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.2u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 1.2 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1005,18 +953,20 @@ $$c = \lambda \cdot f$$
 
 ![](./assets/Abb1.3u.png)
 
+**Longitudinalwelle:** Schwingung parallel zur Ausbreitungsrichtung — breitet sich in Gasen, Flüssigkeiten und Festkörpern aus
+
 </div>
 <div class="rdiv">
 
 ![](./assets/Abb1.6u.png)
 
+**Transversalwelle:** Schwingung senkrecht zur Ausbreitungsrichtung — nur in **Festkörpern** möglich (Gase/Flüssigkeiten übertragen keine Scherkräfte)
+
 </div>
 
-- **Longitudinalwelle:** Schwingung parallel zur Ausbreitungsrichtung — breitet sich in Gasen, Flüssigkeiten und Festkörpern aus
-- **Transversalwelle:** Schwingung senkrecht zur Ausbreitungsrichtung — nur in **Festkörpern** möglich (Gase/Flüssigkeiten übertragen keine Scherkräfte)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 1.3u und 1.6u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 1.3 und 1.6 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1028,18 +978,21 @@ $$c = \lambda \cdot f$$
 
 ![](./assets/Abb1.7u.png)
 
+**Rayleighwelle (Oberflächenwelle):** elliptische Teilchenbewegung, Eindringtiefe ≈ 1 Wellenlänge — Nachweis von **Oberflächenrissen**, folgt auch gekrümmten Konturen
+
 </div>
 <div class="rdiv">
 
 ![](./assets/Abb1.9u.png)
 
+**Plattenwelle (Lambwelle):** entsteht in dünnen Blechen (< 5 mm), erfasst die komplette Wanddicke — unempfindlich für lokale Unganzen
+
 </div>
 
-- **Rayleighwelle (Oberflächenwelle):** elliptische Teilchenbewegung, Eindringtiefe ≈ 1 Wellenlänge — Nachweis von **Oberflächenrissen**, folgt auch gekrümmten Konturen
-- **Plattenwelle (Lambwelle):** entsteht in dünnen Blechen (< 5 mm), erfasst die komplette Wanddicke — unempfindlich für lokale Unganzen
+
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 1.7u und 1.9u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 1.7 und 1.9 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1089,7 +1042,7 @@ Beim Übergang in ein Medium mit anderer Schallgeschwindigkeit können aus einer
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.14u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 1.14 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1108,12 +1061,12 @@ Beim Übergang in ein Medium mit anderer Schallgeschwindigkeit können aus einer
 - **2. Kritischer Winkel:** auch die Transversalwelle wird total reflektiert (ca. 57,3°) → **Oberflächenwelle**
 - Nutzbarer Arbeitsbereich für reine Transversalwellenprüfung dazwischen
 
-> ✅ Praxis: Standard-Einschallwinkel 45°, 60°, 70° liegen in diesem eindeutigen Fenster.
+
 
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.16u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 1.16 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1125,6 +1078,7 @@ Beim Übergang in ein Medium mit anderer Schallgeschwindigkeit können aus einer
 
 ![](./assets/Abb1.25u.png)
 
+> ⚠️ Die Nachweisgrenze ist erreicht, wenn die Gefügestreuung genauso groß wird wie die Streuung am gesuchten Reflektor.
 </div>
 <div class="rdiv">
 
@@ -1132,12 +1086,12 @@ Beim Übergang in ein Medium mit anderer Schallgeschwindigkeit können aus einer
 - **Streuung:** an Korngrenzen, Graphitlamellen oder Fasern — erzeugt "**Gras**"-Echos
 - Streuung wächst mit **abnehmender Wellenlänge** (steigender Frequenz) im Verhältnis zur Korngröße
 
-> ⚠️ Die Nachweisgrenze ist erreicht, wenn die Gefügestreuung genauso groß wird wie die Streuung am gesuchten Reflektor.
+
 
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 1.25u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 1.25 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1159,21 +1113,34 @@ $$f = \frac{c}{2d}$$
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:220](./assets/Abb1.28u.png)
+![](./assets/Abb1.28u.png)
 
+**A-Bild:** Amplitude über Schallweg — Standarddarstellung des Impuls-Echo-Verfahrens
 </div>
 <div class="rdiv">
 
-![h:220](./assets/Abb1.29u.png)
+![w:400](./assets/Abb1.29u.png)
+**B-Bild:** Schnittbild — Tiefenlage über Prüfkopfverschiebung (ein Freiheitsgrad)
 
 </div>
 
-- **A-Bild:** Amplitude über Schallweg — Standarddarstellung des Impuls-Echo-Verfahrens
-- **B-Bild:** Schnittbild — Tiefenlage über Prüfkopfverschiebung (ein Freiheitsgrad)
-- **C-Bild:** Draufsicht/Projektion einer Fläche — für automatisierte Prüfanlagen
+
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 1.28u und 1.29u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 1.28 und 1.29 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+</div>
+
+
+---
+
+![](./assets/Abb1.30u.png)
+**C-Bild:** Draufsicht/Projektion einer Fläche — für automatisierte Prüfanlagen
+
+
+
+
+<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
+    Abb. 1.30 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1192,25 +1159,18 @@ $$f = \frac{c}{2d}$$
 
 **Digitalgerät:** A/D-Wandler + Mikroprozessor entkoppeln Bildaufbau von der Impulsfolge — Speicherung, Auswertung, Dokumentation möglich
 
-> ⚠️ Zu hohe Impulsfolgefrequenz kann **Phantomechos** erzeugen, wenn Mehrfachechos nicht vollständig abgeklungen sind.
 
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.1u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 2.1 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
 
 # Schallfeld — Nahfeld und Fernfeld
 
-<!-- _class: cols-2 -->
-<div class="ldiv">
 
-![](./assets/Abb2.8u.png)
-
-</div>
-<div class="rdiv">
 
 $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 
@@ -1218,11 +1178,7 @@ $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 - **Fernfeld:** Schalldruck nimmt gleichmäßig mit dem Abstand ab — hier gelten die Abstandsgesetze
 - Große Schwingerdurchmesser/hohe Frequenz → lange Nahfeldlänge, aber gute Fernempfindlichkeit
 
-</div>
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.8u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
-</div>
 
 ---
 
@@ -1231,21 +1187,20 @@ $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![h:220](./assets/Abb2.14u.png)
-
-</div>
-<div class="rdiv">
-
-![h:220](./assets/Abb2.16u.png)
-
-</div>
-
 - **Senkrechtnormalprüfkopf:** ein Schwinger als Sender und Empfänger, Einschallwinkel 0°
 - **Sende-Empfangs (SE)-Prüfkopf:** getrennte, akustisch isolierte Schwinger — kein Sendeimpuls im Nahbereich, bessere Nahauflösung
 - **Winkelprüfkopf:** Vorsatzkeil erzeugt durch Brechung Transversalwellen im Bauteil
+</div>
+<div class="rdiv">
+
+![](./assets/Abb2.16u.png)
+
+</div>
+
+
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 2.14u und 2.16u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 2.16 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
@@ -1273,25 +1228,14 @@ $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 
 ---
 
-# Sonderprüfköpfe — Kurzüberblick
+# Sonderprüfköpfe 
 
-<!-- _class: cols-2 -->
-<div class="ldiv">
-
-![](./assets/Abb2.23u.png)
-
-</div>
-<div class="rdiv">
 
 - **Fokusprüfköpfe:** Vorsatzlinse bündelt das Schallbündel auf einen definierten Fokusbereich — genaue Fehlergrößenbestimmung
 - **SEL/SEK-Prüfköpfe:** nutzen Longitudinal- bzw. Kriechwellen für oberflächennahe Fehler
 - **Rohrprüfköpfe:** zwei gegenläufig einschallende Winkelprüfköpfe zum Nachweis von Dopplungen und Rissen in Rundmaterial
 
-</div>
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 2.23u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
-</div>
 
 ---
 
@@ -1300,51 +1244,22 @@ $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 <!-- _class: cols-2 -->
 <div class="ldiv">
 
-![](./assets/Abb4.13u.png)
+![w:450](./assets/Abb4.13u.png)
 
 </div>
 <div class="rdiv">
 
-![](./assets/Abb4.14u.png)
+![](./assets/Abb4.15u.png)
 
 </div>
 
-- **K1 (DIN EN ISO 2400):** Entfernungsjustierung, Schallaustrittspunkt- und Einschallwinkelkontrolle über den Kreisbogen (100 mm Radius)
-- **K2 (DIN EN ISO 7963):** kompakter, für 45°/60°/70°-Prüfköpfe, Kontrolle über Radien und Querbohrung
-
-> ❗ 60°-Winkelprüfköpfe dürfen **nicht** am K1-Kreisbogen justiert werden (Versagen des Winkelspiegeleffekts durch Wellenumwandlung).
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 4.13u und 4.14u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 4.13 und 4.15 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
 
-# Justierreflektoren
-
-<!-- _class: cols-2 -->
-<div class="ldiv">
-
-![h:220](./assets/Abb4.5u.png)
-
-</div>
-<div class="rdiv">
-
-![h:220](./assets/Abb4.10u.png)
-
-</div>
-
-- **Rückwand:** eben, senkrecht, Referenz für Entfernungs- und Empfindlichkeitsjustierung
-- **Kreisbogen:** winkelunabhängiger Ruckwandersatz für Schrägeinschallung
-- **Flachbodenbohrung:** nur bei Senkrechteinschallung sinnvoll
-- **Querbohrung:** winkelunabhängig, universell einsetzbar
-- **Nut:** zur Justierung auf oberflächennahe Fehler (Wurzelbereich)
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 18px;"> 
-    Abb. 4.5u und 4.10u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
-</div>
-
----
 
 # Abstands- und Größengesetze
 
@@ -1359,27 +1274,6 @@ $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 
 ---
 
-# Die AVG-Methode (Abstand-Verstärkung-Größe)
-
-<!-- _class: cols-2 -->
-<div class="ldiv">
-
-![](./assets/Abb6.1u.png)
-
-</div>
-<div class="rdiv">
-
-- Vergleicht die Echohöhe einer realen Unganze mit der eines **idealen Kreisscheibenreflektors (KSR)** bei gleichem Schallweg
-- Vorteil: kein Vergleichskörper mit eingebrachten Testreflektoren nötig — nur Rückwandecho erforderlich
-- Ergebnis: **Ersatzreflektorgröße** (äquivalenter KSR-Durchmesser) der gefundenen Unganze
-
-</div>
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 6.1u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
-</div>
-
----
 
 # Ankopplungstechnik — Kontakt- und Flieswassertechnik
 
@@ -1388,10 +1282,12 @@ $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 
 ![](./assets/Abb7.6u.png)
 
+- **Kontakttechnik:** Koppelmittel (Wasser, Öl, Gel) füllt den Luftspalt zwischen Prüfkopf und Bauteil
+
 </div>
 <div class="rdiv">
 
-- **Kontakttechnik:** Koppelmittel (Wasser, Öl, Gel) füllt den Luftspalt zwischen Prüfkopf und Bauteil
+
 - **Spalttechnik:** definierter Wasserfilm zwischen Prüfkopf und Oberfläche — für mechanisierte Prüfung
 - **Tauchtechnik:** Prüfkopf und Bauteil vollständig im Wasserbad — ermöglicht Fokussierung
 
@@ -1400,20 +1296,14 @@ $$N = \frac{D^2 \cdot f}{4 \cdot c}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 7.6u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 7.6 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
 ---
 
 # Wanddickenmessung — Laufzeitprinzip
 
-<!-- _class: cols-2 -->
-<div class="ldiv">
 
-![](./assets/Abb8.4u.png)
-
-</div>
-<div class="rdiv">
 
 $$d = \frac{c \cdot t}{2}$$
 
@@ -1421,11 +1311,7 @@ $$d = \frac{c \cdot t}{2}$$
 - Digitale Wanddickenmessgeräte nutzen meist eine feste, vorgegebene Schallgeschwindigkeit
 - Einflussfaktoren: Oberflächenzustand, Beschichtungen, Temperatur, Werkstoffgefüge
 
-</div>
 
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 8.4u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
-</div>
 
 ---
 
@@ -1446,30 +1332,9 @@ $$d = \frac{c \cdot t}{2}$$
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 13.2u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
+    Abb. 13.2 aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
 </div>
 
----
-
-# Besondere Prüftechniken (Kurzüberblick)
-
-<!-- _class: cols-2 -->
-<div class="ldiv">
-
-![](./assets/Abb15.1u.png)
-
-</div>
-<div class="rdiv">
-
-- **Tandemtechnik:** zwei Winkelprüfköpfe im festen Abstand — Nachweis senkrecht zur Oberfläche stehender Fehler in dickwandigen Bauteilen
-- **TOFD-Technik:** Beugungslaufzeitmessung an Rissspitzen — sehr gute Größenbestimmung, aber tote Zonen nahe Oberfläche/Rückwand
-- **Phased-Array (Gruppenstrahler):** elektronisch schwenk- und fokussierbares Schallfeld ohne Prüfkopfwechsel
-
-</div>
-
-<div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
-    Abb. 15.1u aus K. Schiebold "Zerstörungsfreie Werkstoffprüfung – Ultraschallprüfung"
-</div>
 
 ---
 
