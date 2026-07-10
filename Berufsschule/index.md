@@ -10,7 +10,7 @@ author: Christian Willberg
 ---
 
 
-
+ 
 <style>
 footer {
     font-size: 14px; /* Ändere die Schriftgröße des Footers */
@@ -54,7 +54,7 @@ Kontakt: christian.willberg@h2.de
 
 - Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
 - Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
-- Material und seine Eigenschaften entstehen in der Fertigung 
+- Material und seine Eigenschaften entstehen in der Fertigung
 
 ---
 
