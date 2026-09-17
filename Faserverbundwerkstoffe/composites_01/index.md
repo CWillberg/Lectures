@@ -47,7 +47,7 @@ Hochschule Magdeburg-Stendal
 ---
 
 
-![bg fit](../assets/Figures/FKV_Beispiele.png)
+![bg fit](../../assets/Figures/FKV_Beispiele.png)
 
 
 
@@ -80,7 +80,6 @@ Hochschule Magdeburg-Stendal
 
 
 ---
-
 
 ![bg 60%](../../assets/Figures/FKV/Energietraeger.png)
 

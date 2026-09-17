@@ -60,3 +60,17 @@ marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allo
 marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf
 marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf
 marp Faserverbunde/composites_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o composites_10.pdf
+
+
+marp stream_material_science/stream_wst_01/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_01.pdf
+marp stream_material_science/stream_wst_02/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_02.pdf
+marp stream_material_science/stream_wst_03/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_03.pdf
+marp stream_material_science/stream_wst_04/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_04.pdf
+marp stream_material_science/stream_wst_05/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_05.pdf
+marp stream_material_science/stream_wst_06/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_06.pdf
+marp stream_material_science/stream_wst_07/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_07.pdf
+marp stream_material_science/stream_wst_08/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_08.pdf
+marp stream_material_science/stream_wst_09/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_09.pdf
+marp stream_material_science/stream_wst_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_10.pdf
+marp stream_material_science/stream_wst_11/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_11.pdf
+marp stream_material_science/stream_wst_12/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_12.pdf

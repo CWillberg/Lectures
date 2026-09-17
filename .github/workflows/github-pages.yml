@@ -73,19 +73,19 @@ jobs:
           - wst2_mb_w7_Ermuedung_und_Rissbildung
           - wst2_mb_w9_Faserverbundwerkstoffe
           - wst2_mb_ZfP
-          - wst_mb_01
-          - wst_mb_02
-          - wst_mb_03
-          - wst_mb_04
-          - wst_mb_05
-          - wst_mb_06
-          - wst_mb_07
-          - wst_mb_08
-          - wst_mb_09
-          - wst_mb_10
-          - wst_mb_11
-          - wst_mb_12
-          - wst_mb_13
+          - Werkstofftechnik_1/wst_mb_01
+          - Werkstofftechnik_1/wst_mb_02
+          - Werkstofftechnik_1/wst_mb_03
+          - Werkstofftechnik_1/wst_mb_04
+          - Werkstofftechnik_1/wst_mb_05
+          - Werkstofftechnik_1/wst_mb_06
+          - Werkstofftechnik_1/wst_mb_07
+          - Werkstofftechnik_1/wst_mb_08
+          - Werkstofftechnik_1/wst_mb_09
+          - Werkstofftechnik_1/wst_mb_10
+          - Werkstofftechnik_1/wst_mb_11
+          - Werkstofftechnik_1/wst_mb_12
+          - Werkstofftechnik_1/wst_mb_13
           - MTI/mti_ft_01
           - MTI/mti_ft_02
           - MTI/mti_ft_03
