@@ -29,6 +29,19 @@ jobs:
       fail-fast: false
       matrix:
         folder:
+          # ── Engineering_Mechanics ────────────────────────────────
+          - Engineering_Mechanics/e_01
+          - Engineering_Mechanics/e_02
+          - Engineering_Mechanics/e_03
+          - Engineering_Mechanics/e_04
+          - Engineering_Mechanics/e_05
+          - Engineering_Mechanics/e_06
+          - Engineering_Mechanics/e_07
+          - Engineering_Mechanics/e_08
+          - Engineering_Mechanics/e_09
+          - Engineering_Mechanics/e_10
+          - Engineering_Mechanics/e_11
+          - Engineering_Mechanics/e_12
           # ── FractureFatigue ──────────────────────────────────────
           - FractureFatigue/FF_introduction
           - FractureFatigue/FF_bonds
