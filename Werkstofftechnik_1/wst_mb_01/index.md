@@ -392,6 +392,85 @@ Was sind Werkstoffe?
 
 ---
 
+# Eigenschaften von Werkstoffen
+**Welche gibt es?**
+
+---
+
+
+
+![bg fit](../../assets/Figures/werkstoffeigenschaften.png)
+
+---
+
+## Mechanische Eigenschaften
+
+Verhalten unter mechanischer Belastung
+
+- Festigkeit, Steifigkeit, Härte
+- Duktilität, Zähigkeit
+- Ermüdungs- und Verschleißverhalten
+
+
+
+---
+
+## Thermische Eigenschaften
+
+Verhalten bei Temperatureinwirkung
+
+- Wärmeleitfähigkeit, Wärmeausdehnung
+- spezifische Wärmekapazität
+- Schmelz- und Glasübergangstemperatur
+
+---
+
+## Elektrische und magnetische Eigenschaften
+
+- elektrische Leitfähigkeit / spezifischer Widerstand
+- Dielektrizität
+- magnetische Permeabilität (z. B. ferromagnetisch, paramagnetisch)
+
+---
+
+## Chemische Eigenschaften
+
+- Korrosionsbeständigkeit
+- Reaktivität, Beständigkeit gegenüber Medien (Säuren, Laugen, Lösemittel)
+- Oxidationsverhalten
+
+---
+
+## Technologische Eigenschaften
+
+Wie gut lässt sich ein Werkstoff verarbeiten?
+
+- Umformbarkeit, Zerspanbarkeit
+- Schweißbarkeit, Gießbarkeit
+- Härtbarkeit
+
+---
+
+## Ökologische Eigenschaften
+
+- CO₂-Fußabdruck bei Herstellung und Recycling
+- Ressourcenverbrauch, Kreislauffähigkeit
+- Umweltverträglichkeit über den Lebenszyklus
+
+
+
+---
+
+## Soziale Eigenschaften
+
+- Herkunft und Abbaubedingungen der Rohstoffe
+- Arbeitsbedingungen in der Lieferkette
+- Konfliktrohstoffe, Menschenrechte
+
+
+
+---
+
 # Mechanische Eigenschaften
 Was sind wichtige Eigenschaften aus Sicht einer Ingenieurin / eines Ingenieurs?
 

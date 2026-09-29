@@ -40,7 +40,10 @@ Kontakt: christian.willberg@h2.de
 # Definition
 Unter [Beschichten](https://de.wikipedia.org/wiki/Beschichten) (englisch coating) ist das Aufbringen einer festhaftenden Schicht aus formlosem Stoff auf die Oberfläche eines Werkstückes. 
 
-![bg right 70%](../assets/QR/mti_ft_14.png)
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_14/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
 
 
 ---
@@ -108,7 +111,10 @@ Birgit Awiszus et al. (2007) "Grundlagen der Fertigungstechnik"
 - Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
 - Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
 - Material und seine Eigenschaften entstehen in der Fertigung 
-![bg right 70%](../assets/QR/wst_mb_13.png)
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_14/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
 
 ---
 

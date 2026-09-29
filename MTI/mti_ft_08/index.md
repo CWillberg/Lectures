@@ -37,7 +37,10 @@ Kontakt: christian.willberg@h2.de
 
 Trennen ist das Herstellen geometrisch bestimmter fester Körper mittels Werkzeugen durch Formänderung und Stoffverminderung. Geometrisch bestimmte feste Körper sind Halbzeuge, montagefähige Einzelteile oder Werkzeuge.
 
-![bg right 70%](../assets/QR/mti_ft_08.png)
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_08/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
 
 ---
 

@@ -46,7 +46,10 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Zusammenhänge zwischen Struktur und mechanischen Eigenschaften erklären
 - Plastische Verformungsmechanismen
 
-![bg right 70%](../assets/QR/mti_ft_03.png)
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_03/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
 
 
 

@@ -38,7 +38,10 @@ Kontakt: christian.willberg@h2.de
 
 # Inhalte
 
-![bg right 70%](../assets/QR/mti_ft_05.png)
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_05/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
 
 ---
 
