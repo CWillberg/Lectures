@@ -1,0 +1,55 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{xcolor}
+\usetikzlibrary{calc}
+
+\definecolor{mainblue}{HTML}{001158}
+\definecolor{accent}{HTML}{8592bc}
+\definecolor{lightaccent}{HTML}{e7e9f2}
+
+\begin{document}
+\begin{tikzpicture}[
+    font=\sffamily,
+    center/.style={
+        circle, draw=mainblue, fill=mainblue, text=white,
+        align=center, text width=3.1cm, inner sep=2pt, line width=1pt
+    },
+    petal/.style={
+        rectangle, rounded corners=8pt, draw=mainblue, fill=lightaccent, text=mainblue,
+        align=center, text width=2.6cm, minimum height=1.5cm,
+        line width=1pt, font=\sffamily\bfseries, inner sep=6pt
+    },
+    spoke/.style={draw=accent, line width=1.4pt}
+]
+
+\def\R{5.6cm}
+
+\foreach \i/\lbl in {
+    0/Mechanical Properties,
+    1/Thermal Properties,
+    2/Electrical and Magnetic Properties,
+    3/Chemical Properties,
+    4/Technological Properties,
+    5/Ecological Properties,
+    6/Social Properties
+} {
+    \pgfmathsetmacro{\angle}{90 - \i*360/7}
+    \draw[spoke] (0,0) -- (\angle:\R);
+}
+
+\node[center] (center) at (0,0) {\Large\bfseries Properties of Materials};
+
+\foreach \i/\lbl in {
+    0/Mechanical Properties,
+    1/Thermal Properties,
+    2/Electrical and Magnetic Properties,
+    3/Chemical Properties,
+    4/Technological Properties,
+    5/Ecological Properties,
+    6/Social Properties
+} {
+    \pgfmathsetmacro{\angle}{90 - \i*360/7}
+    \node[petal] (N\i) at (\angle:\R) {\lbl};
+}
+
+\end{tikzpicture}
+\end{document}

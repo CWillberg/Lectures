@@ -400,6 +400,85 @@ What are materials?
 
 ---
 
+# Properties of materials
+**What kinds are there?**
+
+---
+
+## Overview
+
+![bg fit](../../assets/Figures/material_properties.png)
+
+---
+
+## Mechanical properties
+
+Behaviour under mechanical loading
+
+- Strength, stiffness, hardness
+- Ductility, toughness
+- Fatigue and wear behaviour
+
+*Covered in more depth later in this course*
+
+---
+
+## Thermal properties
+
+Behaviour under the influence of temperature
+
+- Thermal conductivity, thermal expansion
+- Specific heat capacity
+- Melting and glass transition temperature
+
+---
+
+## Electrical and magnetic properties
+
+- Electrical conductivity / resistivity
+- Dielectric behaviour
+- Magnetic permeability (e.g. ferromagnetic, paramagnetic)
+
+---
+
+## Chemical properties
+
+- Corrosion resistance
+- Reactivity, resistance to media (acids, alkalis, solvents)
+- Oxidation behaviour
+
+---
+
+## Technological properties
+
+How well can a material be processed?
+
+- Formability, machinability
+- Weldability, castability
+- Hardenability
+
+---
+
+## Ecological properties
+
+- Carbon footprint of production and recycling
+- Resource consumption, circularity
+- Environmental impact over the life cycle
+
+*Covered in more depth in the context section of this course*
+
+---
+
+## Social properties
+
+- Origin and extraction conditions of raw materials
+- Working conditions in the supply chain
+- Conflict minerals, human rights
+
+*Covered in more depth in the context section of this course*
+
+---
+
 # Mechanical properties
 What are important properties from an engineer's perspective?
 
