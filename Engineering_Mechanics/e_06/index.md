@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 6: Friction'
+header: 'Engineering Mechanics - Seminar 6: Distributed Loads, Beams and Supports'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Friction
+# Distributed Loads, Beams and Supports
 ## Engineering Mechanics - Seminar 6
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 4: Centroids & Center of Gravity'
+header: 'Engineering Mechanics - Seminar 4: Trusses and Frames I - Method of Joints'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Centroids & Center of Gravity
+# Trusses and Frames I - Method of Joints
 ## Engineering Mechanics - Seminar 4
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

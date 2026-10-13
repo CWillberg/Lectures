@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 11: Vibrations (Introduction)'
+header: 'Engineering Mechanics - Seminar 11: Second Moment of Area'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Vibrations (Introduction)
+# Second Moment of Area
 ## Engineering Mechanics - Seminar 11
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

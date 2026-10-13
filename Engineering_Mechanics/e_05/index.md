@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 5: Moments of Inertia'
+header: 'Engineering Mechanics - Seminar 5: Trusses and Frames II - Method of Sections'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Moments of Inertia
+# Trusses and Frames II - Method of Sections
 ## Engineering Mechanics - Seminar 5
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

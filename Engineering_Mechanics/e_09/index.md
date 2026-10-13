@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 9: Work & Energy'
+header: 'Engineering Mechanics - Seminar 9: Internal Forces II'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Work & Energy
+# Internal Forces II
 ## Engineering Mechanics - Seminar 9
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

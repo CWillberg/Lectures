@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 10: Impulse & Momentum'
+header: 'Engineering Mechanics - Seminar 10: Internal Forces III'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Impulse & Momentum
+# Internal Forces III
 ## Engineering Mechanics - Seminar 10
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 8: Kinetics of a Particle (Newton's Laws)'
+header: 'Engineering Mechanics - Seminar 8: Internal Forces I'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Kinetics of a Particle (Newton's Laws)
+# Internal Forces I
 ## Engineering Mechanics - Seminar 8
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

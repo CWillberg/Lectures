@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 7: Kinematics of a Particle'
+header: 'Engineering Mechanics - Seminar 7: Hinges in Beams'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Kinematics of a Particle
+# Hinges in Beams
 ## Engineering Mechanics - Seminar 7
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

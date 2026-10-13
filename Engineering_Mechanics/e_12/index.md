@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 12: Rigid Body Kinematics'
+header: 'Engineering Mechanics - Seminar 12: Normal and Bending Stress'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Rigid Body Kinematics
+# Normal and Bending Stress
 ## Engineering Mechanics - Seminar 12
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

@@ -31,6 +31,10 @@ Exercise counts for e_03, e_08–e_12 were not explicitly given by the professor
 
 On a `bg right fit` slide (narrow ~570px text column), a single H1 line that wraps to 2+ lines overlaps the body text below it (the H1 appears to be positioned without reserving space for wrapped lines). Fix: split into `# Exercise N.N` (short, always 1 line) + `## Subtitle` (separate line, wraps safely) rather than one long `# Exercise N.N - Long Description` heading. Keep any table on such a slide to short, single-line cell contents — a wrapping 5-row table can overflow the slide bottom.
 
+## Support-symbol convention (established in e_03, reuse wherever a support/Lager appears)
+
+Any figure introducing a support type shows **two stacked parts**: the physical **model** (support symbol attached to the body) on top, then a small accent-colored arrow labeled *"freigeschnitten"*, then the **free-body equivalent** below (just a point with its reaction force(s)/moment — no support symbol). Support catalogue used: Loslager (1: F⊥), Festlager (2: Fx,Fy), Einspannung (3: Fx,Fy,M), Führung/sliding guide (2: one force ⊥ to slide direction + M, in either orientation), Pendelstütze (1: force along the strut, drawn at a genuine angle φ, not just vertical/horizontal).
+
 ## Theory-intro pattern (established in e_01, reuse where relevant)
 
 - Open the theory section with **Newton's second law** ($\vec F = m\vec a$) as the motivating principle, showing equilibrium as the $\vec a = 0$ special case
@@ -50,7 +54,7 @@ On a `bg right fit` slide (narrow ~570px text column), a single H1 line that wra
 
 - [x] e_01 — Concurrent force system (4 exercises: cable/ring, resultant of 3 forces, block on incline, boom & cable)
 - [x] e_02 — General force system (4 exercises: parallel-force resultant, force-couple equivalent, pin+couple equilibrium, force+couple → single force)
-- [ ] e_03 — Equilibrium & support reactions
+- [x] e_03 — Equilibrium & support reactions (Loslager/Festlager/Einspannung/Führung(2 variants)/Pendelstütze — each shown as model + freigeschnittenes Freikörperbild; Freischneiden; 1 concurrent + 4 general-system exercises, all statically determinate)
 - [ ] e_04 — Trusses & frames I (method of joints)
 - [ ] e_05 — Trusses & frames II (method of sections)
 - [ ] e_06 — Distributed loads, beams & supports
