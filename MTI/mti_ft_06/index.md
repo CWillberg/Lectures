@@ -29,7 +29,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung MTI - Legierungsbildung
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
@@ -170,8 +170,8 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 ---
 
 
-![bg fit 70%](../assets/Figures/Zustandsdiagramm.png)
-![bg fit 70%](../assets/Figures/Zustandsdiagramm_3.png)
+![bg fit 70%](../../assets/Figures/Zustandsdiagramm.png)
+![bg fit 70%](../../assets/Figures/Zustandsdiagramm_3.png)
 
 ---
 
@@ -212,14 +212,14 @@ Zustandsdiagramme sind Gleichgewichtsdiagramme. Sie haben nur Gültigkeit bei ei
 
 ## Beispiel für Unlöslichkeit
 
-![bg right 100%](../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
+![bg right 100%](../../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
 
 ---
 
 
 ## Beispiel für vollständige Löslichkeit
 
-![bg right 100%](../assets/Figures/Zustandsdiagramm_Kupfer_Nickel.png)
+![bg right 100%](../../assets/Figures/Zustandsdiagramm_Kupfer_Nickel.png)
 
 
 ---
@@ -251,7 +251,7 @@ Es können folgende ZSDs auftauchen:
 
 ---
 
-![bg 70%](../assets/Figures/Eutektikum.png)
+![bg 70%](../../assets/Figures/Eutektikum.png)
 
 ---
 
@@ -300,7 +300,7 @@ Gründe sind
 
 ---
 
-![bg 70%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg 70%](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -365,13 +365,13 @@ Ausscheidung aus dem Austenit (Linie ES)
 Ausscheidung aus dem Ferrit (Linie PQ)
 
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
 ## Kristallstruktur
 
-![bg right 80%](../assets/Figures/Zementit.png)
+![bg right 80%](../../assets/Figures/Zementit.png)
 
 - orthorhombischen Elementarzelle 
   -  zwölf Eisen- und vier Kohlenstoffatome
@@ -382,7 +382,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 - Zementit ist hart und spröde
 - überwiegende Zahl der technischen Eisen-Kohlenstoff-Legierungen erstarrt unter Bildung von Zementit
 
-![bg right 80%](../assets/Figures/Zementit.png)
+![bg right 80%](../../assets/Figures/Zementit.png)
 
 ---
 
@@ -400,7 +400,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 - häufig spricht man von einer "Perlitstufe", die - gemessen am Lamellenabstand - in Perlit, fein-streifigen  und feinststreifigen Perlit unterteilt wird. 
 
 
-![bg right](../assets/Figures/perilitisches_gefuege.png)
+![bg right](../../assets/Figures/perilitisches_gefuege.png)
 
 ---
 
@@ -420,7 +420,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 - Ledeburit ist schlecht umformbar, hat sehr geringe Duktilität. 
  - bei Raumtemperatur  feines Gemenge von Fe3C-Kristalliten und Perlitbereichen im Auflichtmikroskop als charakteristische Pantherfellstruktur sichtbar.
 
-![bg right](../assets/Figures/ledeburit_gefuege.png)
+![bg right](../../assets/Figures/ledeburit_gefuege.png)
 
 
 ---
@@ -477,7 +477,7 @@ Die Eigenschaften der Legierung (z.B. Stahl, Gusseisen) wird durch die Art der b
 
 ---
 
-![bg fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
+![bg fit](../../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
 
 
 ---
@@ -506,7 +506,7 @@ Charakterisierung:
 - Haltedauer
 - Art des Abkühlens (Ofen-, Luft-, Öl-, Wasserabkühlung)
 
-![bg right fit](../assets/Figures/EKD_farbe.png)
+![bg right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -537,7 +537,7 @@ Ziele ausabeiten für
 - Grobkornglühen
 - Diffusionsglühen
 
-![bg right fit](../assets/Figures/EKD_farbe.png)
+![bg right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -545,7 +545,7 @@ Ziele ausabeiten für
 - Langsames Erwärmen auf 550 - 650 °C (unterhalb $\text{A}_{c1}$)
 - Haltedauer 2 - 4 h, langsame Abkühlung (Ofenabkühlung)
 
-![bg right 99% fit](../assets/Figures/spannungsarmgluehen.svg)
+![bg right 99% fit](../../assets/Figures/spannungsarmgluehen.svg)
 
 Ziel:
 Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonstigen Eigenschaften
@@ -556,7 +556,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - Rekristallisationstemperatur bei Stahl: 500 - 600°C
 - halten, langsame Abkühlung
 - bei zu langer Haltezeit: Grobkornbildung
-![bg right 99% fit](../assets/Figures/rekristallisationsgluehen.svg)
+![bg right 99% fit](../../assets/Figures/rekristallisationsgluehen.svg)
 
 Ziel:
 
@@ -568,7 +568,7 @@ Rückgängigmachen von Eigenschaftsänderungen (Verfestigung) durch Kaltumformun
 - Temperaturen um  $\text{A}_{C1}$ (unterhalb, oberhalb oder pendelnd um  $\text{A}_{C1}$)
 - langsame Abkühlung.
 
-![bg fit right 99](../assets/Figures/weichgluehen.svg)
+![bg fit right 99](../../assets/Figures/weichgluehen.svg)
 Ziel:
 Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands. Dabei werden Zementitteilchen kugelig eingeformt (GKZ-Glühen).
 
@@ -580,13 +580,13 @@ Herstellung eines - für die Weiterverarbeitung günstigen - weichen Zustands. D
 - Erwärmung zwischen $\text{A}_{C1}$ und Glühtemperatur rasch, kurze Haltedauer
 - rasche Abkühlung durch Zweiphasen-Intervall, dann langsam abkühlen
 
-![bg fit right 99](../assets/Figures/normalgluehen.svg)
+![bg fit right 99](../../assets/Figures/normalgluehen.svg)
 
 ---
 
 ## Normalglühen
 
-![bg fit right 99](../assets/Figures/normalgluehen.svg)
+![bg fit right 99](../../assets/Figures/normalgluehen.svg)
 
 Ziel:
 
@@ -603,7 +603,7 @@ Verfahrensparameter:
 - langsame Ofenabkühlung
 - dann raschere Luftabkühlung
 
-![bg fit right 99](../assets/Figures/grobkorngluehen.svg)
+![bg fit right 99](../../assets/Figures/grobkorngluehen.svg)
 
 Ziel:
 Erzielung eines groben Korns. Hierdurch wird die Spanbarkeit verbessert.
@@ -616,7 +616,7 @@ Erzielung eines groben Korns. Hierdurch wird die Spanbarkeit verbessert.
 - lange Haltezeit (bis 50 h)
 - langsame Abkühlung
 
-![bg fit right 99](../assets/Figures/diffussionsgluehen.svg)
+![bg fit right 99](../../assets/Figures/diffussionsgluehen.svg)
 
 Ziel:
 Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
@@ -627,7 +627,7 @@ Beseitigung örtlicher Konzentrationsunterschiede (Seigerungen) durch Diffusion.
 
 ---
 
-![bg fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 

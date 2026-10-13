@@ -56,7 +56,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung Werkstofftechnik - Struktur der Werkstoffe
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
 
@@ -132,7 +132,7 @@ Besteht aus
 
 ---
 
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg 80%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
 
 ---
@@ -149,6 +149,16 @@ A-B → A + B     Energy needed = Bond Energy
 Stärkere Bindung = Höhere Bindungsenergie = stabileres Material
 
 ![bg right:50% fit](https://wisc.pb.unizin.org/app/uploads/sites/564/2020/06/Unit01Day06-H2MoleculeEvsBondLengthFinal.png)
+
+---
+
+## Bindungsarten - Überblick
+
+Bevor es ins Detail geht: eine Landkarte der Bindungsarten, die in den nächsten Folien behandelt werden - unterteilt in Primär- und Sekundärbindungen.
+
+---
+
+![bg fit](../../assets/Figures/bindungsarten_baum.png)
 
 ---
 
@@ -229,7 +239,7 @@ Cl + e⁻ → Cl⁻
 - 2 Al → 2 Al³⁺ + 6e⁻
 - 3 O + 6e⁻ → 3 O²⁻
 - **2 Al³⁺ + 3 O²⁻ → Al₂O₃**
-![bg right fit](../assets/Figures/ionic_bonds.png)
+![bg right fit](../../assets/Figures/ionic_bonds.png)
 
 
 ---
@@ -288,7 +298,7 @@ $$F = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
 - r = Abstand zwischen Ionen
 
 
-![bg fit right:50%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg fit right:50%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
 **Schlussfolgerung:**
 Stärkere Bindung bei höherer Ladung und kleinerem Abstand

@@ -28,7 +28,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung MTI - Umformen
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://bortec-group.com/app/uploads/resized/2022/07/kaltumformung-1-2560x0-c-center.jpg)
 
@@ -67,7 +67,7 @@ Vorteile
 
 
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -81,7 +81,7 @@ Nachteile
 - hohe mechanische Werkzeugbeanspruchung, hoher Kraftbedarf
 - schlechtere Umformbarkeit als bei Warmumformung
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -114,7 +114,7 @@ Vorteile
 - geringe mechanische Werkzeugbeanspruchung und geringer Kraftbedarf
 
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -127,7 +127,7 @@ Nachteile
 - hohe thermische Werkzeugbeanspruchung
 - hoher Aufwand für die Erwärmung und Nachbearbeitung
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 

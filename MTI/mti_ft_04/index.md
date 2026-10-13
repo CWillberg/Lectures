@@ -26,7 +26,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung MTI - Fertigungtechnik
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/1/1d/SchmelzofenArbeiter.jpg)
 
@@ -313,7 +313,7 @@ Die Prozesskette beim Gießen besteht aus
    - Gerichtetes Wachstum
    - Längliche Kristalle
 
-![bg right 80%](../assets/Figures/Kokille.png)
+![bg right 80%](../../assets/Figures/Kokille.png)
 
 ---
 
@@ -321,7 +321,7 @@ Die Prozesskette beim Gießen besteht aus
    - Langsame Abkühlung
    - Große Körner
 
-![bg right 80%](../assets/Figures/Kokille.png)
+![bg right 80%](../../assets/Figures/Kokille.png)
 
 ---
 

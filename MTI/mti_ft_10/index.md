@@ -28,7 +28,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung MTI - Korrosion & Beschichtung
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 <div style="position: absolute; top: 200px; left: 850px;"> 
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_10/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
      style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
@@ -183,8 +183,8 @@ $\text{Metallion} + \text{Elektron} \rightarrow \text{Metallatom}$
 $\text{H}_2\text{O} + \frac12\text{O}_2 + 2\text{e}^{-} \rightarrow 2\text{OH}^-$
 $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \rightarrow 2\text{Fe(OH)}_3$
 - kann noch weiter zerfallen
-![bg vertical](../assets/Figures/whitespace.png)
-![bg fit](../assets/Figures/whitespace.png)
+![bg vertical](../../assets/Figures/whitespace.png)
+![bg fit](../../assets/Figures/whitespace.png)
 ![bg  fit](https://upload.wikimedia.org/wikipedia/commons/9/97/Korrosion.svg)
 
 ---
@@ -212,7 +212,7 @@ $2\text{Fe}^{2+} + 4\text{(OH)}^- +\text{H}_2\text{O} + \frac12\text{O}_2 \right
 **Lochfraßkorrosion**
 - bleibt lange unbemerkt
 - können sich in der Tiefe trogförmig ausdehnen
-![bg vertical right 1%](../assets/Figures/whitespace.png)
+![bg vertical right 1%](../../assets/Figures/whitespace.png)
 ![bg fit](https://upload.wikimedia.org/wikipedia/commons/8/84/Pitting_corrosion-scheme.png)
 ![bg fit](https://upload.wikimedia.org/wikipedia/commons/b/b3/Corrosion.Pit.jpg)
 

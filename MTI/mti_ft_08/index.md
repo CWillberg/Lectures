@@ -27,7 +27,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung MTI - Trennen & Fügen
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/9/90/SchlichtenDrehen.jpg)
 
@@ -510,7 +510,7 @@ _Belastungen wie Temperaturen, Schwingungen, etc. sind zu berücksichtigen._
 
 ---
 
-![bg 80%](../assets/Figures/schweissnaehte.png)
+![bg 80%](../../assets/Figures/schweissnaehte.png)
 <div style="position: absolute; bottom: 10px; left: 1020px; color: blue; font-size: 20px;"> 
     <a href="https://www.schuetz-licht.de/wissen-normen-seminare/metallographie-metallografie/schweissnahtpruefung" style="color: blue;">Bildreferenz</a>
 </div>

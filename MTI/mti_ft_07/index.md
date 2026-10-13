@@ -11,7 +11,7 @@ author: Christian Willberg
 
 
 ## Ermüdung und Verschleiß
-Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
+Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Hochschule Magdeburg-Stendal
 
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/b/bd/Smith2.svg)
@@ -87,7 +87,7 @@ $\sigma_m=\frac{\sigma_u+\sigma_o}{2}$
 $\sigma_o$ - Oberspannung
 $\sigma_u$ - Unterspannung
 
-![bg right 90%](../assets/Figures/sinuskurven_mit_offset.png)
+![bg right 90%](../../assets/Figures/sinuskurven_mit_offset.png)
 
 ---
 

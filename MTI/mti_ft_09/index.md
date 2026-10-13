@@ -28,7 +28,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung MTI - Werkstoffprüfung
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://pub.mdpi-res.com/aerospace/aerospace-10-00430/article_deploy/html/images/aerospace-10-00430-g008.png?1683204034)
 
@@ -68,7 +68,7 @@ Was sind Modelle und wozu braucht man sie?
 
 ---
 
-![bg fit 60%](../assets/Figures/KIC.png)
+![bg fit 60%](../../assets/Figures/KIC.png)
 
 ---
 
@@ -81,7 +81,7 @@ Was sind Modelle und wozu braucht man sie?
 ## 
 
 
-![bg fit 60%](../assets/Figures/Testpyramide.png)
+![bg fit 60%](../../assets/Figures/Testpyramide.png)
 
 
 
@@ -115,7 +115,7 @@ $Z = \int_0^{\varepsilon_{B}}\sigma d \varepsilon$
 - Energiefreisetzungrate $G = \frac{Z}{A_{Bruch}}$
 - Einfluss der Belastungs-geschwindigkeit 
 
-![bg right 90%](../assets/Figures/varying_storedElastic_energy.svg)
+![bg right 90%](../../assets/Figures/varying_storedElastic_energy.svg)
 
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
@@ -195,7 +195,7 @@ Verformungszonen einer gestauchten Probe (Abb3.16)
 
 ## Druckverformung
 
-![bg left 80%](../assets/Figures/Verformungszonen_Druck.svg)
+![bg left 80%](../../assets/Figures/Verformungszonen_Druck.svg)
 
 I - geringe Verformung (Reibbehinderung)
 II - mäßige Zugverformung
@@ -236,7 +236,7 @@ $l_b$ - Länge der Probe
 ---
 
 ## 2 Punkt Biegeversuch
-![](../assets/Figures/kragbalken.svg)
+![](../../assets/Figures/kragbalken.svg)
 
 $E=\frac{4l_b^2 F}{ubh^3}$
 
@@ -244,7 +244,7 @@ $E=\frac{4l_b^2 F}{ubh^3}$
 
 ## 3 Punkt Biegeversuch
 
-![](../assets/Figures/3Punktbiege.svg)
+![](../../assets/Figures/3Punktbiege.svg)
 
 $E=\frac{l_b^3 F}{4ubh^3}$
 
@@ -252,7 +252,7 @@ $E=\frac{l_b^3 F}{4ubh^3}$
 
 ## 4 Punkt Biegeversuch
 
-![](../assets/Figures/4Punktbiege.svg)
+![](../../assets/Figures/4Punktbiege.svg)
 
 Ziel ist ein querkraftfreier Bereich und daraus resultierend ein konstantes Biegemoment
 
@@ -275,7 +275,7 @@ $l_a$ Abstand zwischen Auflagepunkt und näher gelegenem Druckpunkt des Prüfste
 - ENF (End-Notched Flexure) Versuch nutzt die Spannungsnulllinie gezielt aus
 
 
-![](../assets/Figures/ENF.svg)
+![](../../assets/Figures/ENF.svg)
 
 ---
 
@@ -285,7 +285,7 @@ $l_a$ Abstand zwischen Auflagepunkt und näher gelegenem Druckpunkt des Prüfste
   - Torsionsversuch
   - Zug-/Druckversuch
 
-![](../assets/Figures/Whoehlerversuch.svg)
+![](../../assets/Figures/Whoehlerversuch.svg)
 
 ---
 
@@ -443,7 +443,7 @@ $c = \lambda f$
 - $c$ ist die Licht- oder Schallgeschwindigkeit
 
 $\lambda = \frac{c}{f} = \frac{6000 m/s}{10^6 1/s} = 6 mm$
-![bg right fit](../assets/Figures/sandwichvarianten.png)
+![bg right fit](../../assets/Figures/sandwichvarianten.png)
 ![bg vertical fit](https://upload.wikimedia.org/wikipedia/commons/4/44/Kohlenstofffasermatte.jpg)
 
 ---
@@ -602,9 +602,9 @@ sie haben eine Gruppen und Phasengeschwindigkeit
 - $d_{31}$; el. Spannung in 3 Richtung und Deformation in 1, bzw. 2 Richtung
 - $d_{33}$; el. Spannung in 3 Richtung und Deformation in 3 Richtung
 
-![bg right 70%](../assets/Figures/piezo.png)
+![bg right 70%](../../assets/Figures/piezo.png)
 
-![bg vertical 100%](../assets/Figures/polarization_2.png)
+![bg vertical 100%](../../assets/Figures/polarization_2.png)
 
 ---
 
@@ -617,7 +617,7 @@ $\frac{p_{a,r}}{p_{a,e}}=\frac{W_2-W_1}{W_2+W_1}$
 _Durchgehender Schall_
 $\frac{p_{a,d}}{p_{a,e}}=\frac{2W_2}{W_2+W_1}$
 
-![bg right fit](../assets/Figures/reflexion.png)
+![bg right fit](../../assets/Figures/reflexion.png)
 
 ---
 
@@ -648,7 +648,7 @@ $SNR = \frac{P_{Signal}}{P_{Rauschen}}$
 - Messverstärker
 - Messaufnehmer
 
-![bg right 95%](../assets/Figures/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
+![bg right 95%](../../assets/Figures/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
   
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="http://std-partners.de/fileadmin/_processed_/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)" style="color: blue;">Bildreferenz</a>
@@ -843,7 +843,7 @@ Ein System kann feststellen, dass ein Event passiert ist, wo es stattfand, was s
 - Nutzung von Torsionswellen
 - in der chemischen Industrie existieren Rohrleitungslängen > 40000 km pro Standort
 
-![bg right fit](../assets/Figures/Smart%20structural%20health%20monitoring%20(SHM)%20system%20for%20on-board%20localization%20of%20defects%20in%20pipes%20using%20torsional%20ultrasonic%20guided%20waves.png)
+![bg right fit](../../assets/Figures/Smart%20structural%20health%20monitoring%20(SHM)%20system%20for%20on-board%20localization%20of%20defects%20in%20pipes%20using%20torsional%20ultrasonic%20guided%20waves.png)
 
 <div style="position: absolute; bottom: 10px; left: 120px; color: black; font-size: 20px;"> 
     Bild aus S. Patil et al. "Smart structural health monitoring (SHM) system for on-board localization of defects in pipes using torsional ultrasonic guided waves"; arXiv:2403.11110v1
@@ -901,7 +901,7 @@ $MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\
 
 
 ---
-![](../assets/Figures/sensornetzwerke.png)
+![](../../assets/Figures/sensornetzwerke.png)
 
 
 ---
