@@ -55,16 +55,16 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung Werkstofftechnik - Faserverbundwerkstoffe
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](../assets/Figures/FKV_struktur.png)
+![bg right](../../assets/Figures/FKV_struktur.png)
 
 Kontakt: christian.willberg@h2.de
 
 
 ---
 
-![bg fit](../assets/Figures/FKV_Beispiele.png)
+![bg fit](../../assets/Figures/FKV_Beispiele.png)
 
 <!--paginate: true-->
 
@@ -76,7 +76,7 @@ Kontakt: christian.willberg@h2.de
 - Mehrphasen- oder Mischwerkstoff im Allgemeinen bestehend aus zwei Hauptkomponenten (Faser und Matrix)
 - Der Gesamtwerkstoff hat höherwertige Eigenschaften als jede der beiden beteiligten Komponenten alleine
 - Material und seine Eigenschaften entstehen in der Fertigung 
-![bg right 70%](../assets/QR/wst_mb_13.png)
+![bg right 70%](../../assets/QR/wst_mb_13.png)
 
 ---
 
@@ -114,7 +114,7 @@ Kontakt: christian.willberg@h2.de
 Formgebend
 Schutz und Stabilisierung der Fasern
 Spannungen an die Fasern übertragen
-![bg right 75%](../assets/Figures/FKV_struktur.png)
+![bg right 75%](../../assets/Figures/FKV_struktur.png)
 
 ---
 
@@ -128,7 +128,7 @@ Faserbeschichtungen
 Füllstoffe
 Beimischung anderer Fasertypen
 
-![bg right 75%](../assets/Figures/FKV_struktur.png)
+![bg right 75%](../../assets/Figures/FKV_struktur.png)
 
 ---
 
@@ -172,7 +172,7 @@ Beimischung anderer Fasertypen
 - Anorganische Fasern: Glas, Basalt, Quarz, SiC, Al2O3, Bor, ...
 - Metallfasern aus: Stahl, Aluminium, Kupfer, Nickel, Beryllium, Wolfram ... 
 
-![](../assets/Figures/faservergleich.png)
+![](../../assets/Figures/faservergleich.png)
 
 ---
 
@@ -261,11 +261,11 @@ Errechnet sich aus Mischungsregel
 $𝜌= 𝜑𝜌_𝑓+(1- 𝜑) 𝜌_𝑚$
 Steifigkeiten und Festigkeiten
 
-![bg right fit](../assets/Figures/FKV_eigenschaften.png)
+![bg right fit](../../assets/Figures/FKV_eigenschaften.png)
 
 ---
 
-![bg fit](../assets/Figures/spezifische_Eigenschaften.png)
+![bg fit](../../assets/Figures/spezifische_Eigenschaften.png)
 
 ---
 
@@ -297,7 +297,7 @@ Wahl des Verfahrens hängt ab von
 - Faserverbunden
 - Thermaldehnung sollte kompatibel
 
-![bg  right fit](../assets/Figures/formwerkzeug.png)
+![bg  right fit](../../assets/Figures/formwerkzeug.png)
 ![bg  vertical fit](https://leichtbau.dlr.de/wp-content/uploads/2023/06/Instrumentierung-1-1072x536.jpg)
 
 ---
@@ -314,8 +314,8 @@ Wahl des Verfahrens hängt ab von
   - Flechtschläuche
   - …
 
-![bg right 90%](../assets/Figures/gewebearten.png)
-![bg  80%](../assets/Figures/honeycomb.png)
+![bg right 90%](../../assets/Figures/gewebearten.png)
+![bg  80%](../../assets/Figures/honeycomb.png)
 
 ---
 
@@ -332,7 +332,7 @@ RTM (Resin Transfer Moulding) Verfahren
 Automatisierte Faserablageverfahren
 …
 
-![bg right 90%](../assets/Figures/manuell_ablage.png)
+![bg right 90%](../../assets/Figures/manuell_ablage.png)
 
 ---
 
@@ -344,7 +344,7 @@ Handlaminieren
 …
 
 
-![bg right 90%](../assets/Figures/manuell_ablage.png)
+![bg right 90%](../../assets/Figures/manuell_ablage.png)
 
 ---
 
@@ -359,7 +359,7 @@ Pultrusion
 Pressen
 ...
 
-![bg right 90%](../assets/Figures/wickeln.png)
+![bg right 90%](../../assets/Figures/wickeln.png)
 
 ---
 
@@ -377,7 +377,7 @@ RTM (Resin Transfer Moulding) Verfahren
 ...
 
 
-![bg right 90%](../assets/Figures/autoklav.png)
+![bg right 90%](../../assets/Figures/autoklav.png)
 
 ---
 
@@ -394,7 +394,7 @@ RTM (Resin Transfer Moulding) Verfahren
 Automatisierte Faserablageverfahren
 …
 
-![bg right 90%](../assets/Figures/afp.png)
+![bg right 90%](../../assets/Figures/afp.png)
 
 ---
 
@@ -419,7 +419,7 @@ Nach Heslehurst können 52 Fehlertypen kategorisiert werden
 - Trennfolien
 
 
-![bg right fit](../assets/Figures/delamination.png)
+![bg right fit](../../assets/Figures/delamination.png)
 
 ---
 
@@ -431,7 +431,7 @@ Nach Heslehurst können 52 Fehlertypen kategorisiert werden
 - Lebensdauerreduktion
 - Stabilität
 
-![bg right fit](../assets/Figures/delamination.png)
+![bg right fit](../../assets/Figures/delamination.png)
 
 ---
 
@@ -443,7 +443,7 @@ Nach Heslehurst können 52 Fehlertypen kategorisiert werden
 - Schlechte Oberflächenbehandlung (Verschmutzung, etc.)
 - Relevant bei Kernanbindung und Verklebung von Komponenten
 
-![bg right fit](../assets/Figures/abloesung_klebung.png)
+![bg right fit](../../assets/Figures/abloesung_klebung.png)
 
 ---
 
@@ -457,7 +457,7 @@ Oberflächenschädigung
 - Meist Splitterungen und lokale Delaminationen
 - Splitter können bei Bohrungen zwischen zwei Komponenten verbleiben
 
-![bg right fit](../assets/Figures/Bohrungen.png)
+![bg right fit](../../assets/Figures/Bohrungen.png)
 
 ---
 
@@ -471,7 +471,7 @@ Oberflächenschädigung
 
 
 
-![bg right fit](../assets/Figures/Poren.png)
+![bg right fit](../../assets/Figures/Poren.png)
 
 ---
 
@@ -485,7 +485,7 @@ Oberflächenschädigung
 - Wirkt sich auf die Dichtheit aus
 
 
-![bg right fit](../assets/Figures/Poren.png)
+![bg right fit](../../assets/Figures/Poren.png)
 
 ---
 

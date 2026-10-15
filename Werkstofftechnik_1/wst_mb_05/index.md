@@ -55,7 +55,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung Werkstofftechnik - Legierungsbildung - Zustandsdiagramme
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
@@ -68,13 +68,11 @@ Kontakt: christian.willberg@h2.de
 
 <!--paginate: true-->
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_05/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
-
 # Lernziele
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
 
 - Zustandsdiagramme lesen und interpretieren
 - Phasen und Phasengrenzen identifizieren
@@ -82,6 +80,14 @@ Kontakt: christian.willberg@h2.de
 - Eutektische und peritektische Reaktionen erkennen
 - Die Gibbsche Phasenregel anwenden
 - Praktische Schlüsse für Legierungen ziehen
+
+</div>
+<div class="rimg">
+
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_05/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:300px;width:auto;background-color:transparent;">
+
+</div>
 
 ---
 
@@ -117,8 +123,8 @@ den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann.
 ---
 
 
-![bg fit 70%](../assets/Figures/Zustandsdiagramm.png)
-![bg fit 70%](../assets/Figures/Zustandsdiagramm_3.png)
+![bg fit 70%](../../assets/Figures/Zustandsdiagramm.png)
+![bg fit 70%](../../assets/Figures/Zustandsdiagramm_3.png)
 
 ---
 
@@ -190,7 +196,7 @@ Beispiel: Cu-Ni erfüllt alle Bedingungen ✓
 
 ## Beispiel für Unlöslichkeit
 
-![bg right 100%](../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
+![bg right 100%](../../assets/Figures/Zustandsdiagramm_Eisen_Blei.png)
 
 ---
 
@@ -210,7 +216,7 @@ Beispiel: Cu-Ni erfüllt alle Bedingungen ✓
 
 ## Beispiel für vollständige Löslichkeit
 
-![bg right 100%](../assets/Figures/Zustandsdiagramm_Kupfer_Nickel.png)
+![bg right 100%](../../assets/Figures/Zustandsdiagramm_Kupfer_Nickel.png)
 
 
 
@@ -232,7 +238,7 @@ Beispiel: Cu-Ni erfüllt alle Bedingungen ✓
 ---
 
 
-![bg fit](../assets/Figures/binaeresSystem.png)
+![bg fit](../../assets/Figures/binaeresSystem.png)
 
 ---
 
@@ -270,7 +276,7 @@ Die Gesamtkonzentration bleibt konstant: $c_L \cdot m_{ges} = c_S \cdot m_S + c_
 $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}$
 
 
-![bg right 90%](../assets/Figures/Konstituionelle_abkuehlung.png)
+![bg right 90%](../../assets/Figures/Konstituionelle_abkuehlung.png)
 
 
 ---
@@ -361,7 +367,7 @@ Es können folgende ZSDs auftauchen:
 
 ---
 
-![bg 70%](../assets/Figures/Eutektikum.png)
+![bg 70%](../../assets/Figures/Eutektikum.png)
 
 ---
 
@@ -469,7 +475,7 @@ $S_E \rightarrow \alpha_E + \beta_E$
 ## Eutektische Entmischung
 
 
-![](../assets/Figures/eutektischerPunkt.png)
+![](../../assets/Figures/eutektischerPunkt.png)
 
 
 ---

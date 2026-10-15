@@ -56,7 +56,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung Werkstofftechnik - Struktur der Werkstoffe
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/Strukturebene_Metall-2.jpg)
 
@@ -67,12 +67,20 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 ---
 
 ## Inhalte
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 - Aufbau von Werkstoffen
 - Bindungsarten
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
+</div>
+<div class="rimg">
+
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_02/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+     style="height:300px;width:auto;background-color:transparent;">
+
 </div>
 
 
@@ -106,14 +114,14 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-## Relevante Gößen
+## Relevante Größen
 
 **Ordnungszahl**
 Zahl der Protonen im Kern
 **Atommasse**
 bestimmt die Masse des Elements
  Masse des Werkstoffs ist eine Kombination aus Atommasse und Dichte
-**Elektronegativiät**
+**Elektronegativität**
 bestimmt ob Atome abgegeben oder aufgenommen werden in einer Bindung
 metallische Bindungen eher links
 kovalente Bindungen eher rechts
@@ -124,7 +132,7 @@ kovalente Bindungen eher rechts
 
 Besteht aus
 - Kern (Protonen + Neutronen) der die Masse definiert
-- Hülle (Elektronen) mit verschieden Schalen, welche chemischen und viele physikalische Eigeschaften definiert
+- Hülle (Elektronen) mit verschieden Schalen, welche chemischen und viele physikalische Eigenschaften definiert
 
 - Aufenthaltswahrscheinlichkeit der Elektronen sorgt für Abstoßung und Anziehung
 - als Elastizität oder Wärmedehnung makroskopisch zu erkennen
@@ -132,11 +140,11 @@ Besteht aus
 
 ---
 
-![bg 80%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg 80%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
 
 ---
-## Bindungsenegie
+## Bindungsenergie
 
 
 - Physikalische Arbeit notwendig um Bindungen zu trennen
@@ -153,6 +161,8 @@ Stärkere Bindung = Höhere Bindungsenergie = stabileres Material
 ---
 
 # Bindungen
+
+---
 
 ## Hauptvalenzbindungen  
 **Primärbindungen - hohe Bindungsenergie, starke Bindung**
@@ -229,7 +239,7 @@ Cl + e⁻ → Cl⁻
 - 2 Al → 2 Al³⁺ + 6e⁻
 - 3 O + 6e⁻ → 3 O²⁻
 - **2 Al³⁺ + 3 O²⁻ → Al₂O₃**
-![bg right fit](../assets/Figures/ionic_bonds.png)
+![bg right fit](../../assets/Figures/ionic_bonds.png)
 
 
 ---
@@ -288,7 +298,7 @@ $$F = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
 - r = Abstand zwischen Ionen
 
 
-![bg fit right:50%](../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg fit right:50%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
 
 **Schlussfolgerung:**
 Stärkere Bindung bei höherer Ladung und kleinerem Abstand
@@ -529,7 +539,7 @@ Energie, die benötigt wird, um eine Bindung zu trennen
 
 ---
 
-# Dazu später mehr
+# Vertiefung: Vorlesung Faserverbundwerkstoffe
 
 ---
 
@@ -587,6 +597,8 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 
 ---
 
+## Beispiele metallischer Elemente (2)
+
 **Übergangsmetalle**
 - Eisen (Fe), Kupfer (Cu), Aluminium (Al)
 - Variable Valenzelektronen
@@ -604,6 +616,8 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 - Energiegewinn stabilisiert die Struktur
 
 ---
+
+## Triebkraft: Energieabsenkung (2)
 
 **Je mehr Valenzelektronen, desto stärker die Bindung**
 
@@ -629,6 +643,8 @@ Bindung zwischen **Metall-Atomen** durch delokalisierte Valenzelektronen
 - Verformungsverfestigung möglich
 
 ---
+
+## Mechanische Eigenschaften (3)
 
 **Bruchverhalten**
 - Zäh (nicht spröde)
@@ -740,6 +756,8 @@ Schwache Bindungen zwischen **Molekülen** oder **Atomen** durch elektrostatisch
 ---
 
 
+## Bindungsenergien im Überblick
+
 | Bindungstyp | Energie [kJ/mol] | Beispiel |
 |-------------|------------------|----------|
 | **Primärbindungen** | | |
@@ -755,21 +773,13 @@ Schwache Bindungen zwischen **Molekülen** oder **Atomen** durch elektrostatisch
 
 ---
 
-**Sekundärbindungen**
-│
-├── Van-der-Waals-Bindungen
-│   ├── London-Kräfte (Dispersionskräfte)
-│   │   └── Alle Moleküle/Atome
-│   │
-│   ├── Dipol-Dipol-Kräfte
-│   │   └── Polare Moleküle
-│   │
-│   └── Dipol-induzierte Dipol
-│       └── Mischung polar/unpolar
-│
-└── Wasserstoffbrückenbindungen
-└── Spezialfall: H an F, O, N
+## Sekundärbindungen - Einteilung
 
+Van-der-Waals-Bindungen gliedern sich in drei Unterarten, Wasserstoffbrückenbindungen bilden einen Sonderfall.
+
+---
+
+![bg fit](../../assets/Figures/sekundaerbindungen_baum.png)
 
 ---
 
@@ -787,6 +797,8 @@ Schwache zwischenmolekulare Kräfte aufgrund von Ladungsverteilungen
 
 ---
 
+
+## Van-der-Waals-Bindungen (2)
 
 **1. London-Kräfte** 
 - Temporäre, fluktuierende Dipole
@@ -864,6 +876,8 @@ Unpolar:  ⊕ ⊖
 
 ---
 
+## 3. Dipol-induzierte Dipol-Kräfte (2)
+
 **Beispiele:**
 - Lösung von O₂ in H₂O
 - Lösung von N₂ in Wasser
@@ -882,6 +896,8 @@ Unpolar:  ⊕ ⊖
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/1a/Acetic_Acid_Hydrogenbridge_V.2.svg)
 
 ---
+
+## Wasserstoffbrückenbindungen (2)
 
 **Voraussetzungen:**
 1. H gebunden an **F, O oder N** (hohe Elektronegativität)
@@ -928,6 +944,8 @@ Unpolar:  ⊕ ⊖
 
 ---
 
+## Werkstofftechnische Bedeutung (2)
+
 **3. Dichtungen und Elastomere**
 - Flexibilität durch schwache Bindungen
 - Gummi, Silikone
@@ -945,6 +963,8 @@ Unpolar:  ⊕ ⊖
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/19/Lego_bricks.jpg)
 
 ---
+
+## Thermoplaste vs. Duroplaste (2)
 
 **Duroplaste**
 - Kovalente Vernetzung (Primärbindung)

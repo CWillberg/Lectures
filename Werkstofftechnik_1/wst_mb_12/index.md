@@ -55,15 +55,22 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung Werkstofftechnik - Nicht Eisen Werkstoffe
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_12/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
+<!-- _class: cols-2 -->
 
+<div class="ldiv">
+
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 Kontakt: christian.willberg@h2.de
+
+</div>
+<div class="rimg">
+
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_12/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:300px;width:auto;background-color:transparent;">
+
+</div>
 
 ---
 
@@ -78,7 +85,7 @@ Kontakt: christian.willberg@h2.de
 - Naturwerkstoffe
 - Faserverbundkunststoffe
 
-![bg right](../assets/Figures/crack.jpg)
+![bg right](../../assets/Figures/crack.jpg)
 
 ---
 
@@ -259,7 +266,7 @@ $\text{Cu}_2\text{S} + 2\text{Cu}_2\text{O} \rightarrow 6\text{Cu} + \text{SO}_2
 
 ---
 
-![bg fit](../assets/Figures/spezifische_Eigenschaften.png)
+![bg fit](../../assets/Figures/spezifische_Eigenschaften.png)
 
 ---
 
@@ -272,7 +279,7 @@ $\text{Cu}_2\text{S} + 2\text{Cu}_2\text{O} \rightarrow 6\text{Cu} + \text{SO}_2
 
 **Struktur:**
 
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+![bg right fit](../../assets/Figures/Syndiotactic_polypropene.png)
 
 ---
 
@@ -463,7 +470,7 @@ Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 - Oberhalb Tg: Flüssigkeitsverhalten
 - Reversibler Prozess
 
-![bg right fit](../assets/Figures/Eigenschaft-Temperaturkurve-Glas.svg)
+![bg right fit](../../assets/Figures/Eigenschaft-Temperaturkurve-Glas.svg)
 
 ---
 
@@ -496,7 +503,7 @@ Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 - Geringe Schlagbiegefestigkeit
 - Hohe Kerbempfindlichkeit
 
-![bg right fit](../assets/Figures/Gefuege_Kermaik.png)
+![bg right fit](../../assets/Figures/Gefuege_Kermaik.png)
 
 ---
 
@@ -507,13 +514,13 @@ Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 - Kein Gleiten möglich → keine plastische Verformung
 - Hohe Festigkeit und Elastizität
 
-![bg right 90%](../assets/Figures/Eigenschaften_Keramiken.png)
+![bg right 90%](../../assets/Figures/Eigenschaften_Keramiken.png)
 
 ---
 
 # Keramiken - Härte
 
-![bg 50%](../assets/Figures/haerte_Keramik.png)
+![bg 50%](../../assets/Figures/haerte_Keramik.png)
 
 ---
 
@@ -545,7 +552,7 @@ Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 **Anwendungen:**
 Stecker, Klemmleisten, Schalter, Isolatoren
 
-![bg right fit](../assets/Figures/isolator.jpg)
+![bg right fit](../../assets/Figures/isolator.jpg)
 
 ---
 
@@ -578,13 +585,13 @@ Gezieltes "Design" von Materialeigenschaften durch Mikrostrukturdesign
 
 ---
 
-![bg fit](../assets/Figures/metamaterial.png)
+![bg fit](../../assets/Figures/metamaterial.png)
 
 ---
 
 # Beispiel: Negativer Poisson-Effekt
 
-![bg 60%](../assets/Figures/poisson.png)
+![bg 60%](../../assets/Figures/poisson.png)
 
 ---
 
@@ -716,7 +723,7 @@ Hanf, Flachs, Kenaf, Jute, Baumwolle
 
 ---
 
-![](../assets/Figures/Natur_Materialeigenschaften.png)
+![](../../assets/Figures/Natur_Materialeigenschaften.png)
 
 PP: Polypropylen | PP-T: PP + Talkum | WPC: PP + Holzfasern
 PP-Naturfaser: PP + Hanf/Flachs/Jute/Kenaf | PP-GF: PP + Glasfasern
@@ -729,7 +736,7 @@ PP-Naturfaser: PP + Hanf/Flachs/Jute/Kenaf | PP-GF: PP + Glasfasern
 - Anteil Naturfasern: ~15% (Stand 2015)
 - Tendenz steigend
 
-![bg right fit](../assets/Figures/Einatz_naturfasern.png)
+![bg right fit](../../assets/Figures/Einatz_naturfasern.png)
 
 ---
 
@@ -752,7 +759,7 @@ PP-Naturfaser: PP + Hanf/Flachs/Jute/Kenaf | PP-GF: PP + Glasfasern
 
 ---
 
-![bg fit](../assets/Figures/FKV_Beispiele.png)
+![bg fit](../../assets/Figures/FKV_Beispiele.png)
 
 ---
 
@@ -823,7 +830,7 @@ Kombination von Vorteilen verschiedener Materialien
 - Schutz und Stabilisierung der Fasern
 - Spannungsübertragung an Fasern
 
-![bg right 75%](../assets/Figures/FKV_struktur.png)
+![bg right 75%](../../assets/Figures/FKV_struktur.png)
 
 ---
 
@@ -839,7 +846,7 @@ Kombination von Vorteilen verschiedener Materialien
 - Füllstoffe
 - Hybridfasersysteme
 
-![bg right 75%](../assets/Figures/FKV_struktur.png)
+![bg right 75%](../../assets/Figures/FKV_struktur.png)
 
 ---
 
@@ -886,7 +893,7 @@ Stahl, Aluminium, Kupfer, Nickel, Wolfram
 
 ---
 
-![](../assets/Figures/faservergleich.png)
+![](../../assets/Figures/faservergleich.png)
 
 ---
 
@@ -982,11 +989,11 @@ $\rho = \varphi \rho_f + (1-\varphi) \rho_m$
 
 Bestimmt Steifigkeiten und Festigkeiten (Mischungsregel)
 
-![bg right fit](../assets/Figures/FKV_eigenschaften.png)
+![bg right fit](../../assets/Figures/FKV_eigenschaften.png)
 
 ---
 
-![bg fit](../assets/Figures/spezifische_Eigenschaften.png)
+![bg fit](../../assets/Figures/spezifische_Eigenschaften.png)
 
 ---
 
@@ -1024,7 +1031,7 @@ Bestimmt Steifigkeiten und Festigkeiten (Mischungsregel)
 **Wichtig:**
 Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 
-![bg right fit](../assets/Figures/formwerkzeug.png)
+![bg right fit](../../assets/Figures/formwerkzeug.png)
 ![bg vertical fit](https://leichtbau.dlr.de/wp-content/uploads/2023/06/Instrumentierung-1-1072x536.jpg)
 
 ---
@@ -1043,8 +1050,8 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 - Kernmaterialien
 - Flechtschläuche
 
-![bg right 90%](../assets/Figures/gewebearten.png)
-![bg 80%](../assets/Figures/honeycomb.png)
+![bg right 90%](../../assets/Figures/gewebearten.png)
+![bg 80%](../../assets/Figures/honeycomb.png)
 
 ---
 
@@ -1080,7 +1087,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 
 ## Handlaminieren
 
-![bg right 90%](../assets/Figures/manuell_ablage.png)
+![bg right 90%](../../assets/Figures/manuell_ablage.png)
 
 **Charakteristik:**
 - Einfachstes Verfahren
@@ -1092,7 +1099,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 
 ## Wickelverfahren
 
-![bg right 90%](../assets/Figures/wickeln.png)
+![bg right 90%](../../assets/Figures/wickeln.png)
 
 **Charakteristik:**
 - Rotationssymmetrische Bauteile
@@ -1104,7 +1111,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 
 ## Autoklav-Verfahren
 
-![bg right 90%](../assets/Figures/autoklav.png)
+![bg right 90%](../../assets/Figures/autoklav.png)
 
 **Charakteristik:**
 - Hohe Bauteilqualität
@@ -1116,7 +1123,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 
 ## Automatisierte Faserablage (AFP)
 
-![bg right 90%](../assets/Figures/afp.png)
+![bg right 90%](../../assets/Figures/afp.png)
 
 **Charakteristik:**
 - Höchste Präzision
@@ -1157,7 +1164,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 - Lebensdauerreduktion
 - Stabilitätsverlust
 
-![bg right fit](../assets/Figures/delamination.png)
+![bg right fit](../../assets/Figures/delamination.png)
 
 ---
 
@@ -1173,7 +1180,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 - Kernanbindungen
 - Verklebungen
 
-![bg right fit](../assets/Figures/abloesung_klebung.png)
+![bg right fit](../../assets/Figures/abloesung_klebung.png)
 
 ---
 
@@ -1187,7 +1194,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 - Splitterungen
 - Faserausrisse
 
-![bg right fit](../assets/Figures/Bohrungen.png)
+![bg right fit](../../assets/Figures/Bohrungen.png)
 
 ---
 
@@ -1205,7 +1212,7 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 - Porenkonzentration kritischer als Größe
 - Beeinträchtigte Dichtheit
 
-![bg right fit](../assets/Figures/Poren.png)
+![bg right fit](../../assets/Figures/Poren.png)
 
 ---
 
@@ -1253,4 +1260,4 @@ Die Werkstoffwahl erfordert Abwägung von Eigenschaften, Kosten und Nachhaltigke
 Prof. Dr.-Ing. Christian Willberg
 christian.willberg@h2.de
 
-![bg right](../assets/Figures/crack.jpg)
+![bg right](../../assets/Figures/crack.jpg)

@@ -51,7 +51,7 @@ img[alt="ORCID"] {
 </style>
 
 ## Vorlesung Werkstofftechnik - Legierungsbildung - Grundlagen
-Prof. Dr.-Ing. Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
@@ -64,14 +64,21 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 # Inhalte
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 - **Grundbegriffe** der Legierungsbildung
 - **Kristallbildung** und Gefügeentstehung
 - **Zustandsdiagramme** und Phasen
 - **Diffusion** und Massentransport
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
+</div>
+<div class="rimg">
+
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_04/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+     style="height:300px;width:auto;background-color:transparent;">
+
 </div>
 
 ---
@@ -316,7 +323,7 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 ## Arten von Mischkristallen
 
-![bg right fit](../assets/Figures/mischkristalle.png)
+![bg right fit](../../assets/Figures/mischkristalle.png)
 
 **1. Substitutionsmischkristall**
 
@@ -336,7 +343,7 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 ## Arten von Mischkristallen
 
-![bg right fit](../assets/Figures/mischkristalle.png)
+![bg right fit](../../assets/Figures/mischkristalle.png)
 
 **2. Einlagerungsmischkristall**
 
@@ -481,7 +488,7 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 
 # Einfluss der Korngröße
 
-![](../assets/Figures/Korngroesse.png)
+![](../../assets/Figures/Korngroesse.png)
 
 ---
 
@@ -534,7 +541,7 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 
 # Gießen und Stranggießen - Drei Zonen
 
-![bg right 80%](../assets/Figures/Kokille.png)
+![bg right 80%](../../assets/Figures/Kokille.png)
 
 Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Zonen**:
 
@@ -546,7 +553,7 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 
 ## Zone 1: Feinkörnige Randzone
 
-![bg right 80%](../assets/Figures/Kokille.png)
+![bg right 80%](../../assets/Figures/Kokille.png)
 
 **Entstehung:**
 - Starke **Unterkühlung** an Kokillenwand
@@ -562,7 +569,7 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 
 ## Zone 2: Transkristallisationszone
 
-![bg right 80%](../assets/Figures/Kokille.png)
+![bg right 80%](../../assets/Figures/Kokille.png)
 
 **Entstehung:**
 - **Gerichtetes** Wachstum von Kristalliten
@@ -572,7 +579,7 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 ---
 
 ## Zone 2: Transkristallisationszone
-![bg right 80%](../assets/Figures/Kokille.png)
+![bg right 80%](../../assets/Figures/Kokille.png)
 **Ergebnis:**
 - **Stängelkristalle** (sehr grob)
 - Ausgeprägte Vorzugsorientierung
@@ -583,7 +590,7 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 
 ## Zone 3: Globulare Kernzone
 
-![bg right 80%](../assets/Figures/Kokille.png)
+![bg right 80%](../../assets/Figures/Kokille.png)
 
 **Entstehung:**
 - Verunreinigungen werden von Stängelkristallen "vorgeschoben"
@@ -679,7 +686,7 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 - Korngrenzen erscheinen als dunkle Linien
 - Körner werden sichtbar
 
-![bg right 50%](../assets/Figures/Korngrenzenaetzung.png)
+![bg right 50%](../../assets/Figures/Korngrenzenaetzung.png)
 
 ---
 
@@ -691,7 +698,7 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 - Körner reflektieren Licht **unterschiedlich stark**
 - → Kontrastbildung durch verschiedene Grautöne
 
-![bg right 60%](../assets/Figures/Kornflaechenaetzung.png)
+![bg right 60%](../../assets/Figures/Kornflaechenaetzung.png)
 
 ---
 

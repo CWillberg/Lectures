@@ -55,9 +55,9 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung Werkstofftechnik - Wärmebehandlung
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](../assets/Figures/Flamm-1.png)
+![bg right](../../assets/Figures/Flamm-1.png)
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="https://wiki.arnold-horsch.de/images/3/36/Flamm-1.png" style="color: blue;">Bildreferenz</a>
@@ -245,7 +245,7 @@ Ausgangszustand
 
 ---
 
-![bg 70% fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg 70% fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -259,7 +259,7 @@ Ausgangszustand
 | Anlassen | 150-650°C |
 | Vergüten | Härten + Anlassen | 
 
-![bg 70% right fit](../assets/Figures/EKD_farbe.png)
+![bg 70% right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -309,7 +309,7 @@ Ausgangszustand
 - Gussteile
 - große Maschinenteile
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -323,7 +323,7 @@ Ausgangszustand
 **Ziel**:
 Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonstigen Eigenschaften
 
-![bg right 90% fit](../assets/Figures/spannungsarmgluehen.svg)
+![bg right 90% fit](../../assets/Figures/spannungsarmgluehen.svg)
 
 ---
 
@@ -355,7 +355,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - wenn Duktilität wichtig ist
 - zu stark verfestigte Bauteile
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 
 ---
@@ -371,7 +371,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - bei zu langer Haltezeit: Grobkornbildung
 - bei zu niedriger Temperatur: unvollständige Rekristallisation
 
-![bg right 90% fit](../assets/Figures/rekristallisationsgluehen.svg)
+![bg right 90% fit](../../assets/Figures/rekristallisationsgluehen.svg)
 
 ---
 
@@ -436,7 +436,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - vor spanender Bearbeitung
 - vor Kaltumformung
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -452,7 +452,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 **Haltezeit**:
 - mehrere Stunden (2-10 h)
 
-![bg fit right 90%](../assets/Figures/weichgluehen.svg)
+![bg fit right 90%](../../assets/Figures/weichgluehen.svg)
 
 ---
 
@@ -500,7 +500,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - nach Gießen
 - Vorbereitung für weitere Wärmebehandlung
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -518,7 +518,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - rasche Abkühlung durch Zweiphasen-Intervall
 - dann langsam abkühlen (Luft)
 
-![bg fit right 90%](../assets/Figures/normalgluehen.svg)
+![bg fit right 90%](../../assets/Figures/normalgluehen.svg)
 
 ---
 
@@ -580,7 +580,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 
 **Achtung**: Verschlechtert mechanische Eigenschaften!
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -597,7 +597,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - langsame Ofenabkühlung
 - dann raschere Luftabkühlung
 
-![bg fit right 90%](../assets/Figures/grobkorngluehen.svg)
+![bg fit right 90%](../../assets/Figures/grobkorngluehen.svg)
 
 ---
 
@@ -612,7 +612,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 - bei hochwertigen Bauteilen
 - vor wichtigen Wärmebehandlungen
 
-![bg fit right](../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -627,7 +627,7 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 
 **Nachteil**: Sehr energieaufwendig und teuer!
 
-![bg fit right 90%](../assets/Figures/diffussionsgluehen.svg)
+![bg fit right 90%](../../assets/Figures/diffussionsgluehen.svg)
 
 ---
 
@@ -643,7 +643,7 @@ $$D = D_0 \cdot e^{-Q/RT}$$
 **Diffusionsweg**: 
 $$x \approx \sqrt{D \cdot t}$$
 
-![bg right 60%](../assets/Figures/Diffusion_Kohlenstoff_in_Eisen.png)
+![bg right 60%](../../assets/Figures/Diffusion_Kohlenstoff_in_Eisen.png)
 
 ---
 
@@ -695,7 +695,7 @@ $$x \approx \sqrt{D \cdot t}$$
 - y-Achse: Temperatur
 - Kurven: Beginn und Ende der Umwandlung
 
-![bg right fit](../assets/Figures/ztisotherm.png)
+![bg right fit](../../assets/Figures/ztisotherm.png)
 
 ---
 
@@ -713,7 +713,7 @@ $$x \approx \sqrt{D \cdot t}$$
    - Start der Martensitbildung
    - diffusionslos, sofort
 
-![bg right fit](../assets/Figures/ztisotherm.png)
+![bg right fit](../../assets/Figures/ztisotherm.png)
 
 ---
 
@@ -729,7 +729,7 @@ $$x \approx \sqrt{D \cdot t}$$
 - realitätsnäher für praktische Anwendungen
 - Kurven liegen rechts von ZTU-I
 
-![bg right fit](../assets/Figures/ztukontinuierlich.png)
+![bg right fit](../../assets/Figures/ztukontinuierlich.png)
 
 ---
 
@@ -744,7 +744,7 @@ $$x \approx \sqrt{D \cdot t}$$
 5. **Ms/Mf-Linien**: Martensitbildung
 
 
-![bg right fit](../assets/Figures/ztukontinuierlich.png)
+![bg right fit](../../assets/Figures/ztukontinuierlich.png)
 
 ---
 
@@ -803,7 +803,7 @@ Schnelles Abkühlen von Austenitisierungstemperatur zur Bildung von Martensit
 - Martensitbildung
 - maximale Härte und Festigkeit
 
-![bg right 100%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right 100%](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 

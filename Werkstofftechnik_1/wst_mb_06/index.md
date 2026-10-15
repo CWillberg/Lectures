@@ -55,7 +55,7 @@ img[alt="ORCID"] {
 
 
 ## Vorlesung Werkstofftechnik - Phasen- und Gefüge im System-Eisen-Kohlenstoff
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 ![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
 
@@ -135,7 +135,7 @@ Gründe sind die Eigenschaften von Stahl und Gußeisen
 
 ---
 
-![bg 70%](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg 70%](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -159,7 +159,7 @@ ECF 		Eutektikale
 PSK 		Eutektoide			
 ES, PQ		Sättigungslinien				MOSK		Curie-Linie
 QPSECD 	Bildung/Auflösung Fe$_3$C	
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -171,7 +171,7 @@ E -	Punkt max. C-Löslichkeit im $\alpha$ - MK
 P - Punkt max. C-Löslichkeit im $\gamma$ - MK
 u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -186,7 +186,7 @@ u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 - A3 = steigt mit sinkendem C-Gehalt
 - Acm = steigt mit steigendem C-Gehalt
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -198,13 +198,13 @@ u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 
 ![bg fit](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
 
-![bg  fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg  fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
 ![bg fit](https://www.tec-science.com/wp-content/uploads/2021/02/de-legierungstypen-einteilung-loeslich-unloeslich.jpg)
 
-![bg  fit](../assets/Figures/EKD_farbe.png)
+![bg  fit](../../assets/Figures/EKD_farbe.png)
 
 
 ---
@@ -215,7 +215,7 @@ u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
  - technisch von untergeordneter Bedeutung
  - Max. C-Löslichkeit: 0.12 %
 
-![bg right fit](../assets/Figures/EKD_farbe.png)
+![bg right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -225,7 +225,7 @@ u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 - scheidet sich oberhalb der G-S-E-Linie  aus; 
   - durch Legierungszusätze (Ni, Mn) und Abschrecken auch bei Raumtemperatur beständig (austenitische Stähle)
 
-![bg right fit](../assets/Figures/EKD_farbe.png)
+![bg right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -233,7 +233,7 @@ u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 - hohe Warmfestigkeit, gute Korrosions- und Zunderbeständigkeit
 - Max. C-Löslichkeit: 2.06 %
 
-![bg right fit](../assets/Figures/EKD_farbe.png)
+![bg right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 ## Austenit
@@ -241,7 +241,7 @@ u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 - bezeichnet die kubisch-flächenzentrierte Modifikation (Phase) des reinen Eisens und seiner Mischkristalle
 - eine hohe Löslichkeit von Kohlenstoffatomen 
 
-![bg right fit](../assets/Figures/EKD_farbe.png)
+![bg right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -258,7 +258,7 @@ u. a. m. (vgl. Fe-Fe$_3$C - Diagramm)
 
 **Wichtig**: Austenit ist die Ausgangsphase für viele Wärmebehandlungen!
 
-![bg right fit](../assets/Figures/EKD_farbe.png)
+![bg right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -316,7 +316,7 @@ Härte
 Zementit (Eisencarbid Fe$_3$C); 6.67 Masse-% C-Gehalt
 
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -326,7 +326,7 @@ Zementit (Eisencarbid Fe$_3$C); 6.67 Masse-% C-Gehalt
 - Stabil ist Graphit
 
 
-![](../assets/Figures/meta-stabil.png)
+![](../../assets/Figures/meta-stabil.png)
 
 ![bg right 70%](https://upload.wikimedia.org/wikipedia/commons/5/54/GraphitGitter4.png)
 
@@ -355,13 +355,13 @@ Ausscheidung aus dem Austenit (Linie ES)
 Ausscheidung aus dem Ferrit (Linie PQ)
 
 
-![bg right fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
 ## Kristallstruktur
 
-![bg right 80%](../assets/Figures/Zementit.png)
+![bg right 80%](../../assets/Figures/Zementit.png)
 
 - orthorhombischen Elementarzelle 
   -  zwölf Eisen- und vier Kohlenstoffatome
@@ -372,7 +372,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 - Zementit ist hart und spröde
 - überwiegende Zahl der technischen Eisen-Kohlenstoff-Legierungen erstarrt unter Bildung von Zementit
 
-![bg right 80%](../assets/Figures/Zementit.png)
+![bg right 80%](../../assets/Figures/Zementit.png)
 
 ---
 
@@ -390,7 +390,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 
 **Bedeutung**: Zementit bestimmt maßgeblich die Härte von Stählen!
 
-![bg right 80%](../assets/Figures/Zementit.png)
+![bg right 80%](../../assets/Figures/Zementit.png)
 
 ---
 
@@ -419,7 +419,7 @@ Ausscheidung aus dem Ferrit (Linie PQ)
 - häufig spricht man von einer "Perlitstufe", die - gemessen am Lamellenabstand - in Perlit, fein-streifigen  und feinststreifigen Perlit unterteilt wird. 
 
 
-![bg right](../assets/Figures/perilitisches_gefuege.png)
+![bg right](../../assets/Figures/perilitisches_gefuege.png)
 
 ---
 
@@ -436,7 +436,7 @@ $$\gamma_{0.8\%C} \rightarrow \alpha_{0.02\%C} + Fe_3C_{6.67\%C}$$
 - grober Perlit: weicher, zäher
 - feiner Perlit: härter, fester
 
-![bg right](../assets/Figures/perilitisches_gefuege.png)
+![bg right](../../assets/Figures/perilitisches_gefuege.png)
 
 ---
 
@@ -481,7 +481,7 @@ $$\gamma_{0.8\%C} \rightarrow \alpha_{0.02\%C} + Fe_3C_{6.67\%C}$$
 - Ledeburit ist schlecht umformbar, hat sehr geringe Duktilität. 
  - bei Raumtemperatur  feines Gemenge von Fe$_3$C-Kristalliten und Perlitbereichen im Auflichtmikroskop als charakteristische Pantherfellstruktur sichtbar.
 
-![bg right](../assets/Figures/ledeburit_gefuege.png)
+![bg right](../../assets/Figures/ledeburit_gefuege.png)
 
 ---
 
@@ -499,7 +499,7 @@ $$Schmelze_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 - Gusseisen mit weißer Erstarrung
 - Hartguss
 
-![bg right](../assets/Figures/ledeburit_gefuege.png)
+![bg right](../../assets/Figures/ledeburit_gefuege.png)
 
 ---
 
@@ -646,7 +646,7 @@ $$Schmelze_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 
 ---
 
-![bg fit](../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -664,7 +664,7 @@ $$Schmelze_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 
 ---
 
-![bg fit](../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
+![bg fit](../../assets/Figures/Technische%20Werkstoffe%20des%20Systems%20Eisen-Eisencarbid_Seidel.png)
 
 ---
 

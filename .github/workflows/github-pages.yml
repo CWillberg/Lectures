@@ -77,7 +77,6 @@ jobs:
           - wst2_mb_w2_festigkeit_plastizitaet_seminar
           - wst2_mb_w3_Spannungen_Dehnungen
           - wst2_mb_w3_Spannungen_Dehnungen_Seminar
-          - wst2_mb_w3_Spannungen_Dehnungen_Seminar
           - wst2_mb_w3_thermisch_elektrisch
           - wst2_mb_w3_thermisch_elektrisch_seminar
           - wst2_mb_w5_DOE
@@ -98,7 +97,6 @@ jobs:
           - Werkstofftechnik_1/wst_mb_10
           - Werkstofftechnik_1/wst_mb_11
           - Werkstofftechnik_1/wst_mb_12
-          - Werkstofftechnik_1/wst_mb_13
           - MTI/mti_ft_01
           - MTI/mti_ft_02
           - MTI/mti_ft_03

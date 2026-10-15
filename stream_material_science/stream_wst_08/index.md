@@ -44,16 +44,24 @@ footer {
 </style>
 
 ## Fatigue and Wear
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 Prof. Dr.-Ing. Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 Magdeburg-Stendal University of Applied Sciences
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_08/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
-
 Contact: christian.willberg@h2.de  
 Parts of the script are adopted from Prof. Dr.-Ing. Jürgen Häberle  
+
+</div>
+<div class="rimg">
+
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_08/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:300px;width:auto;background-color:transparent;">
+
+</div>
 
 ---
 
@@ -377,7 +385,7 @@ Both recommended according to DIN 50100
 - Regular inspections
 
 
-![bg fit right](https://www.ing-hanke.de/wp-content/uploads/2020/03/Abminderungsfaktoren_Dauerfestigkeit_Rauheit_Sproedigkeit_Stahl.jpg)
+![bg fit right](https://www.ing-hanke.de/wp-content/uploads/2020/03/Abminderungsfaktoren_Dauerfestigkeit_Rauheit_Sproedheit_Stahl.jpg)
 
 ---
 

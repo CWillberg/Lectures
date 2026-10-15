@@ -55,9 +55,9 @@ img[alt="ORCID"] {
 
 
 ## Feinstruktur
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right:35% fit](../assets/Figures/kfz.png)
+![bg right:35% fit](../../assets/Figures/kfz.png)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -67,15 +67,22 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ## Inhalte
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 - Kristallstrukturen identifizieren und charakterisieren
 - Molekülstrukturen und deren Aufbau verstehen
 - Realstrukturen von Kristallen mit ihren Defekten beschreiben
 - Zusammenhänge zwischen Struktur und mechanischen Eigenschaften erklären
 - Plastische Verformungsmechanismen
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
+</div>
+<div class="rimg">
+
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_03/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+     style="height:300px;width:auto;background-color:transparent;">
+
 </div>
 
 
@@ -106,7 +113,7 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - a$_0$, b$_0$ und c$_0$  (Gitterkonstanten) -> Einheitszelle
 
 
-![bg fit right 80%](../assets/Figures/einheitszelle.png)
+![bg fit right 80%](../../assets/Figures/einheitszelle.png)
 
 ---
 
@@ -147,14 +154,14 @@ Kubisch flächenzentriert (kfz)
 - 4 Atome pro Einheitszelle
 - Packungsdichte: 74%
 - Koordinationszahl: 12
-![bg right 30%](../assets/Figures/kfz.png)
+![bg right 30%](../../assets/Figures/kfz.png)
 
 Kubisch raumzentriert (krz)
 - 2 Atome pro Einheitszelle
 - Packungsdichte: 68%
 - Koordinationszahl: 8
 
-![bg vertical 30%](../assets/Figures/krz.png)
+![bg vertical 30%](../../assets/Figures/krz.png)
 
 ---
 
@@ -164,7 +171,7 @@ Hexagonal dichteste Packung (hpd)
 - Packungsdichte: 74%
 - Koordinationszahl: 12
 
-![bg right 30%](../assets/Figures/hdp.png)
+![bg right 30%](../../assets/Figures/hdp.png)
 
 ---
 
@@ -262,7 +269,7 @@ _Thermische Analyse (DTA/DSC)_
 
 ---
 
-![bg fit](../assets/Figures/Haltepunkte_knickpunkte.png)
+![bg fit](../../assets/Figures/Haltepunkte_knickpunkte.png)
 
 
 ---
@@ -296,7 +303,7 @@ _Thermische Analyse (DTA/DSC)_
 - zwischen den Ketten existieren Nebenvalenzbindungen und Molekülverhakungen
 
 
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+![bg right fit](../../assets/Figures/Syndiotactic_polypropene.png)
 
 ---
 
@@ -307,7 +314,7 @@ _Thermische Analyse (DTA/DSC)_
 - **zwischen den Ketten**: schwache Nebenvalenzbindungen und Molekülverhakungen (Van-der-Waals und Wasserstoffbrückenbindung)
 
 
-![bg right fit](../assets/Figures/Syndiotactic_polypropene.png)
+![bg right fit](../../assets/Figures/Syndiotactic_polypropene.png)
 
 ---
 
@@ -423,14 +430,14 @@ _Thermische Analyse (DTA/DSC)_
 - Gläser sind ein nichtmetallisch-anorganisches, vorzugsweise silikatisches Schmelzprodukt
 - **nichtkristallinen, also amorphen Zustand**
 - bei Glas wird die Schmelze zunächst unterkühlt und dann unterhalb der Transformationstemperatur Tg „eingefroren"
-![bg right fit](../assets/Figures/amorph.png)
+![bg right fit](../../assets/Figures/amorph.png)
 
 ---
 
 **Glasübergangstemperatur Tg:**
 - Unterhalb: spröde, hart
 - Oberhalb: geringe Härte, verformbar
-![bg right fit](../assets/Figures/amorph.png)
+![bg right fit](../../assets/Figures/amorph.png)
 
 ---
 
@@ -489,7 +496,7 @@ _Thermische Analyse (DTA/DSC)_
 
 ## Nulldimensionale Defekte
 
-![bg right 50%](../assets/Figures/ideales_gitter.png)
+![bg right 50%](../../assets/Figures/ideales_gitter.png)
 
 **Arten:**
 - Leerstellen (Vakanz)
@@ -543,7 +550,7 @@ _Thermische Analyse (DTA/DSC)_
 - aufgrund von Eigenspannungen
 - durch plastische Verformungen
 
-![bg right 80%](../assets/Figures/versetzung.png)
+![bg right 80%](../../assets/Figures/versetzung.png)
 ![bg 105%](https://upload.wikimedia.org/wikipedia/commons/7/77/Versetzung_im_2D-Kristall.svg)
 
 **Versetzungsdichte:**
@@ -723,7 +730,7 @@ _Thermische Analyse (DTA/DSC)_
 
 Gut oder Schlecht
 
-![bg right 70%](../assets/Figures/fragezeichen.png)
+![bg right 70%](../../assets/Figures/fragezeichen.png)
 
 
 
@@ -772,7 +779,7 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 ## Bild
 
-![](../assets/Figures/Beispiel_plast.bmp)
+![](../../assets/Figures/Beispiel_plast.bmp)
   
 ---
 

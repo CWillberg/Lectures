@@ -25,14 +25,22 @@ img[alt="ORCID"] {
 </style>
 
 ## Materials Testing
-Prof. Dr.-Ing. Christian Willberg [![ORCID](../../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_09/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
+Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 Contact: christian.willberg@h2.de
+
+</div>
+<div class="rimg">
+
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_09/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:300px;width:auto;background-color:transparent;">
+
+</div>
 
 ---
 
@@ -62,7 +70,7 @@ What are models and why do we need them?
 
 ---
 
-![bg fit 60%](../../../assets/Figures/KIC.png)
+![bg fit 60%](../../assets/Figures/KIC.png)
 
 ---
 
@@ -73,7 +81,7 @@ What are models and why do we need them?
 
 ## 
 
-![bg fit 60%](../../../assets/Figures/Testpyramide.png)
+![bg fit 60%](../../assets/Figures/Testpyramide.png)
 
 ---
 
@@ -109,7 +117,7 @@ $Z = \int_0^{\varepsilon_{B}}\sigma d \varepsilon$
 - Energy release rate $G = \frac{Z}{A_{fracture}}$
 - Influence of loading rate
 
-![bg right 90%](../../../assets/Figures/varying_storedElastic_energy.svg)
+![bg right 90%](../../assets/Figures/varying_storedElastic_energy.svg)
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="https://doi.org/10.1007/s00466-021-02017-1" style="color: blue;">Image reference</a>
@@ -186,7 +194,7 @@ Deformation zones of a compressed specimen (Fig. 3.16)
 
 ## Compression Deformation
 
-![bg left 80%](../../../assets/Figures/Verformungszonen_Druck.svg)
+![bg left 80%](../../assets/Figures/Verformungszonen_Druck.svg)
 
 I - low deformation (friction inhibition)
 II - moderate tensile deformation
@@ -237,7 +245,7 @@ $l_b$ - length of specimen
 ---
 
 ## 2-Point Bending Test
-![](../../../assets/Figures/kragbalken.svg)
+![](../../assets/Figures/kragbalken.svg)
 
 $E=\frac{4l_b^2 F}{ubh^3}$
 
@@ -245,7 +253,7 @@ $E=\frac{4l_b^2 F}{ubh^3}$
 
 ## 3-Point Bending Test
 
-![](../../../assets/Figures/3Punktbiege.svg)
+![](../../assets/Figures/3Punktbiege.svg)
 
 $E=\frac{l_b^3 F}{4ubh^3}$
 
@@ -257,13 +265,13 @@ $E=\frac{l_b^3 F}{4ubh^3}$
 
 - ENF (End-Notched Flexure) test specifically utilizes the neutral axis
 
-![](../../../assets/Figures/ENF.svg)
+![](../../assets/Figures/ENF.svg)
 
 ---
 
 ## 4-Point Bending Test
 
-![](../../../assets/Figures/4Punktbiege.svg)
+![](../../assets/Figures/4Punktbiege.svg)
 
 Goal is a shear-free region and resulting constant bending moment
 
@@ -286,7 +294,7 @@ $l_a$ distance between support point and closer loading point of test stamp
   - torsion test
   - tension/compression test
 
-![](../../../assets/Figures/Whoehlerversuch.svg)
+![](../../assets/Figures/Whoehlerversuch.svg)
 
 ---
 
@@ -441,7 +449,7 @@ $c = \lambda f$
 - $c$ is the speed of light or sound
 
 $\lambda = \frac{c}{f} = \frac{6000 m/s}{10^6 1/s} = 6 mm$
-![bg right fit](../../../assets/Figures/sandwichvarianten.png)
+![bg right fit](../../assets/Figures/sandwichvarianten.png)
 ![bg vertical fit](https://upload.wikimedia.org/wikipedia/commons/4/44/Kohlenstofffasermatte.jpg)
 
 ---
@@ -552,13 +560,13 @@ Shear waves
 
 ## Symmetric Modes (Longitudinal waves)
 
-<video controls="controls" width="600" src="../../../assets/Videos/asym.avi">
+<video controls="controls" width="600" src="../../assets/Videos/asym.avi">
 
 ---
 
 ## Anti-Symmetric Modes (Transverse waves)
 
-<video controls="controls" width="600" src="../../../assets/Videos/asym.avi">
+<video controls="controls" width="600" src="../../assets/Videos/asym.avi">
 
 ---
 
@@ -593,9 +601,9 @@ they have a group and phase velocity
 - $d_{31}$; electrical voltage in direction 3 and deformation in direction 1 or 2
 - $d_{33}$; electrical voltage in direction 3 and deformation in direction 3
 
-![bg right 70%](../../../assets/Figures/piezo.png)
+![bg right 70%](../../assets/Figures/piezo.png)
 
-![bg vertical 100%](../../../assets/Figures/polarization_2.png)
+![bg vertical 100%](../../assets/Figures/polarization_2.png)
 
 ---
 
@@ -608,7 +616,7 @@ $\frac{p_{a,r}}{p_{a,e}}=\frac{W_2-W_1}{W_2+W_1}$
 _Transmitted sound_
 $\frac{p_{a,d}}{p_{a,e}}=\frac{2W_2}{W_2+W_1}$
 
-![bg right fit](../../../assets/Figures/reflexion.png)
+![bg right fit](../../assets/Figures/reflexion.png)
 
 ---
 
@@ -637,7 +645,7 @@ $SNR = \frac{P_{signal}}{P_{noise}}$
 - measurement amplifier
 - measurement sensor
 
-![bg right 95%](../../../assets/Figures/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
+![bg right 95%](../../assets/Figures/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)
   
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="http://std-partners.de/fileadmin/_processed_/csm_STD_HP_Ultraschall_03_18_07ef793d11.jpg)" style="color: blue;">Image reference</a>
@@ -866,8 +874,8 @@ $MAC=\frac{|\mathbf{\hat{x}}_i\mathbf{\hat{x}}_{i, ref}|^2}{(\mathbf{\hat{x}}_i\
 ![bg right fit](https://pub.mdpi-res.com/aerospace/aerospace-10-00430/article_deploy/html/images/aerospace-10-00430-g008.png?1683204034)
 
 ---
-![](../../../assets/Figures/sensornetzwerke.png)
-[Damage interaction](../../../assets/Videos/flachbodenbohrung.avi)
+![](../../assets/Figures/sensornetzwerke.png)
+[Damage interaction](../../assets/Videos/flachbodenbohrung.avi)
 
 ---
 

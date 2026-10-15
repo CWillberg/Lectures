@@ -70,8 +70,11 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ## Lecture
 
-**Framework**
+<!-- _class: cols-2 -->
 
+<div class="ldiv">
+
+**Framework**
 
 - Food or drinks are okay, but quiet
 - Problems:
@@ -82,9 +85,12 @@ Prof. Dr.-Ing. Jürgen Häberle
     - ...
 - Questions
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
+</div>
+<div class="rimg">
+
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_01/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+     style="height:300px;width:auto;background-color:transparent;">
+
 </div>
 
 ---

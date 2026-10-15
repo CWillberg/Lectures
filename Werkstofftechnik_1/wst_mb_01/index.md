@@ -70,8 +70,11 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ## Vorlesung
 
-**Rahmen**
+<!-- _class: cols-2 -->
 
+<div class="ldiv">
+
+**Rahmen**
 
 - Essen oder Trinken sind okay, aber leise
 - Probleme:
@@ -82,9 +85,12 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
     - ...
 - Fragen
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
+</div>
+<div class="rimg">
+
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Werkstofftechnik_1/wst_mb_01/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+     style="height:300px;width:auto;background-color:transparent;">
+
 </div>
 
 ---

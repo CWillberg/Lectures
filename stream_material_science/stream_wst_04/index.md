@@ -51,18 +51,23 @@ img[alt="ORCID"] {
 </style>
 
 ## Alloy Formation - Basics
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
-
-
-
-
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_04/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
 
 Contact: christian.willberg@h2.de
 Parts of the script are adopted from Prof. Dr.-Ing. Jürgen Häberle
+
+</div>
+<div class="rimg">
+
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_04/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:300px;width:auto;background-color:transparent;">
+
+</div>
 
 ---
 

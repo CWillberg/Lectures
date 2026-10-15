@@ -29,13 +29,22 @@ img[alt="ORCID"] {
 
 
 ## Structures of materials
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_01/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
 Contact: christian.willberg@h2.de
+
+</div>
+<div class="rimg">
+
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_02/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:300px;width:auto;background-color:transparent;">
+
+</div>
 
 --- 
 
@@ -70,6 +79,8 @@ Example:
 
 
 ---
+
+## Relevant Quantities (2)
 
 **Atomic weight (Relative Atomic Mass)**
 
@@ -529,7 +540,7 @@ Energy required to break a bond
 
 ---
 
-# More on This Later
+# In-Depth: Fiber-Reinforced Composites Lecture
 
 ---
 
@@ -576,6 +587,8 @@ Bond between **metal atoms** through delocalized valence electrons
 
 ---
 
+## Examples of Metallic Elements (2)
+
 **Transition Metals**
 - Iron (Fe), Copper (Cu), Aluminum (Al)
 - Variable valence electrons
@@ -593,6 +606,8 @@ Bond between **metal atoms** through delocalized valence electrons
 - Energy gain stabilizes the structure
 
 ---
+
+## Driving Force: Energy Reduction (2)
 
 **More valence electrons, stronger the bond**
 
@@ -618,6 +633,8 @@ Bond between **metal atoms** through delocalized valence electrons
 - Work hardening possible
 
 ---
+
+## Mechanical Properties (3)
 
 **Fracture Behavior**
 - Tough (not brittle)
@@ -724,6 +741,8 @@ Weak bonds between **molecules** or **atoms** through electrostatic interactions
 
 ---
 
+## Bond Energies at a Glance
+
 | Bond Type | Energy [kJ/mol] | Example |
 |-----------|-----------------|---------|
 | **Primary Bonds** | | |
@@ -739,20 +758,13 @@ Weak bonds between **molecules** or **atoms** through electrostatic interactions
 
 ---
 
-**Secondary Bonds**
-│
-├── Van der Waals Bonds
-│   ├── London Forces (Dispersion Forces)
-│   │   └── All molecules/atoms
-│   │
-│   ├── Dipole-Dipole Forces
-│   │   └── Polar molecules
-│   │
-│   └── Dipole-Induced Dipole
-│       └── Polar/nonpolar mixture
-│
-└── Hydrogen Bonds
-└── Special case: H on F, O, N
+## Secondary Bonds - Classification
+
+Van der Waals bonds split into three subtypes, while hydrogen bonds form a special case.
+
+---
+
+![bg fit](../../assets/Figures/secondary_bonds_tree.png)
 
 ---
 
@@ -769,6 +781,8 @@ Weak intermolecular forces due to charge distributions
 3. Dipole-induced dipole
 
 ---
+
+## Van der Waals Bonds (2)
 
 **1. London Forces**
 - Temporary, fluctuating dipoles
@@ -848,6 +862,8 @@ Nonpolar:  ⊕ ⊖
 
 ---
 
+## Dipole-Induced Dipole Forces (2)
+
 **Examples:**
 - Solution of O₂ in H₂O
 - Solution of N₂ in water
@@ -866,6 +882,8 @@ Nonpolar:  ⊕ ⊖
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/1a/Acetic_Acid_Hydrogenbridge_V.2.svg)
 
 ---
+
+## Hydrogen Bonds (2)
 
 **Prerequisites:**
 1. H bonded to **F, O or N** (high electronegativity)
@@ -913,6 +931,8 @@ Nonpolar:  ⊕ ⊖
 
 ---
 
+## Materials Engineering Significance (2)
+
 **3. Seals and Elastomers**
 - Flexibility through weak bonds
 - Rubber, silicones
@@ -930,6 +950,8 @@ Nonpolar:  ⊕ ⊖
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/1/19/Lego_bricks.jpg)
 
 ---
+
+## Thermoplastics vs. Thermosets (2)
 
 **Thermosets**
 - Covalent crosslinking (primary bond)

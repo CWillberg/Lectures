@@ -55,16 +55,22 @@ img[alt="ORCID"] {
 
 
 ## Lecture Materials Science - Heat Treatment
-Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
+<!-- _class: cols-2 -->
 
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_07/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
+<div class="ldiv">
 
+Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 Contact: christian.willberg@h2.de
+
+</div>
+<div class="rimg">
+
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/stream_material_science/stream_wst_07/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:300px;width:auto;background-color:transparent;">
+
+</div>
 
 
 ---
@@ -234,7 +240,7 @@ Initial State
 
 ---
 
-![bg 70% fit](../../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg 70% fit](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
@@ -248,7 +254,7 @@ Initial State
 | Tempering | 150-650°C |
 | Quenching & tempering | Hardening + Tempering | 
 
-![bg 70% right fit](../../../assets/Figures/EKD_farbe.png)
+![bg 70% right fit](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -298,7 +304,7 @@ Initial State
 - Castings
 - Large machine parts
 
-![bg fit right](../../../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -312,7 +318,7 @@ Initial State
 **Objective**:
 Reduction of internal stresses (residual stresses) without significant change in other properties
 
-![bg right 90% fit](../../../assets/Figures/spannungsarmgluehen.svg)
+![bg right 90% fit](../../assets/Figures/spannungsarmgluehen.svg)
 
 ---
 
@@ -344,7 +350,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - When ductility is important
 - Components that are too heavily work-hardened
 
-![bg fit right](../../../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 
 ---
@@ -360,7 +366,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - With too long holding time: Coarse grain formation
 - With too low temperature: Incomplete recrystallization
 
-![bg right 90% fit](../../../assets/Figures/rekristallisationsgluehen.svg)
+![bg right 90% fit](../../assets/Figures/rekristallisationsgluehen.svg)
 
 ---
 
@@ -425,7 +431,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - Before machining
 - Before cold forming
 
-![bg fit right](../../../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -441,7 +447,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 **Holding time**:
 - Several hours (2-10 h)
 
-![bg fit right 90%](../../../assets/Figures/weichgluehen.svg)
+![bg fit right 90%](../../assets/Figures/weichgluehen.svg)
 
 ---
 
@@ -489,7 +495,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - After casting
 - Preparation for further heat treatment
 
-![bg fit right](../../../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -507,7 +513,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - Rapid cooling through two-phase interval
 - Then slow cooling (air)
 
-![bg fit right 90%](../../../assets/Figures/normalgluehen.svg)
+![bg fit right 90%](../../assets/Figures/normalgluehen.svg)
 
 ---
 
@@ -569,7 +575,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 
 **Caution**: Deteriorates mechanical properties!
 
-![bg fit right](../../../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -586,7 +592,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - Slow furnace cooling
 - Then faster air cooling
 
-![bg fit right 90%](../../../assets/Figures/grobkorngluehen.svg)
+![bg fit right 90%](../../assets/Figures/grobkorngluehen.svg)
 
 ---
 
@@ -601,7 +607,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - For high-quality components
 - Before important heat treatments
 
-![bg fit right](../../../assets/Figures/EKD_farbe.png)
+![bg fit right](../../assets/Figures/EKD_farbe.png)
 
 ---
 
@@ -616,7 +622,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 
 **Disadvantage**: Very energy-intensive and expensive!
 
-![bg fit right 90%](../../../assets/Figures/diffussionsgluehen.svg)
+![bg fit right 90%](../../assets/Figures/diffussionsgluehen.svg)
 
 ---
 
@@ -632,7 +638,7 @@ $$D = D_0 \cdot e^{-Q/RT}$$
 **Diffusion distance**: 
 $$x \approx \sqrt{D \cdot t}$$
 
-![bg right 60%](../../../assets/Figures/Diffusion_Kohlenstoff_in_Eisen.png)
+![bg right 60%](../../assets/Figures/Diffusion_Kohlenstoff_in_Eisen.png)
 
 ---
 
@@ -684,7 +690,7 @@ $$x \approx \sqrt{D \cdot t}$$
 - y-axis: Temperature
 - Curves: Start and end of transformation
 
-![bg right fit](../../../assets/Figures/ztisotherm.png)
+![bg right fit](../../assets/Figures/ztisotherm.png)
 
 ---
 
@@ -702,7 +708,7 @@ $$x \approx \sqrt{D \cdot t}$$
    - Start of martensite formation
    - Diffusionless, instantaneous
 
-![bg right fit](../../../assets/Figures/ztisotherm.png)
+![bg right fit](../../assets/Figures/ztisotherm.png)
 
 ---
 
@@ -718,7 +724,7 @@ $$x \approx \sqrt{D \cdot t}$$
 - More realistic for practical applications
 - Curves lie to the right of TTT-I
 
-![bg right fit](../../../assets/Figures/ztukontinuierlich.png)
+![bg right fit](../../assets/Figures/ztukontinuierlich.png)
 
 ---
 
@@ -733,7 +739,7 @@ $$x \approx \sqrt{D \cdot t}$$
 5. **Ms/Mf lines**: Martensite formation
 
 
-![bg right fit](../../../assets/Figures/ztukontinuierlich.png)
+![bg right fit](../../assets/Figures/ztukontinuierlich.png)
 
 ---
 
@@ -792,7 +798,7 @@ Rapid cooling from austenitizing temperature to form martensite
 - Martensite formation
 - Maximum hardness and strength
 
-![bg right 100%](../../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
+![bg right 100%](../../assets/Figures/Eisen_Kohlenstoff_Diagramm_Deutsch.svg)
 
 ---
 
