@@ -95,10 +95,7 @@ Prof. Dr.-Ing. Jürgen Häberle
 
 ---
 ## Organization
-- [2 lab sessions](https://moodle2.hs-magdeburg.de/moodle/course/view.php?id=4605)
-    - Tensile test
-    - Hardness test
-    - Participation is a prerequisite for admission to the exam
+
 - Exam: 40 minutes
 - Questions by email; consultations on request
 
@@ -112,12 +109,11 @@ Prof. Dr.-Ing. Jürgen Häberle
 - Ideal and real phase diagrams, equilibrium and
 non-equilibrium states
 - Heat treatment, hardening processes
-- Lab: tensile test, hardness test
 
 ---
 
 # Context
-## Why materials engineering, right now?
+## Materials engineering, right nowcand future?
 Climate, sustainability, and what that means for engineers
 
 

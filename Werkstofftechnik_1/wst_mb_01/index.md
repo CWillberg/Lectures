@@ -211,25 +211,6 @@ Quellen: <a href="https://www.amnesty.org/en/documents/afr62/3183/2016/en/">Amne
 
 ---
 
-## Europa und Deutschland - politischer Rahmen
-
-**EU**
-- **2030**: -55 % Treibhausgase (gegenüber 1990)
-- **2050**: Klimaneutralität
-- CO₂-Grenzausgleich **CBAM**: seit 2026 zahlungspflichtig für Stahl, Aluminium, Zement, Dünger u. a.
-- Ökodesign-Verordnung (ESPR): Haltbarkeit, Reparierbarkeit, Rezyklatanteile, digitaler Produktpass
-- Batterieverordnung: Batteriepass ab 2027, Recyclingquoten
-
-**Deutschland (Klimaschutzgesetz)**
-- **2030**: -65 %, **2040**: -88 %, **2045**: Klimaneutralität
-
-<div style="position: absolute; bottom: 10px; left: 10px; font-size: 14px;">
-Quellen: <a href="https://climate.ec.europa.eu/">EU Climate Action</a> |
-<a href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en">EU CBAM</a> |
-<a href="https://www.bundesregierung.de/breg-de/aktuelles/klimaschutzgesetz-2197410">Bundesregierung - KSG</a>
-</div>
-
----
 
 ## CO₂-Fußabdruck von Werkstoffen
 
