@@ -19,6 +19,19 @@ Hochschule Magdeburg-Stendal
 
 ---
 
+## Recap quiz - Seminar 1
+
+Before we move on - can you still answer these?
+
+1. What makes a force system **concurrent**? Why does equilibrium then need only two equations?
+2. Angle (trigonometric) method vs. vector method - when is each one preferred?
+3. A block sits on a **frictionless** incline of angle $\alpha$, held by a force $F$ parallel to the incline. What is $F$ in terms of $W$ and $\alpha$?
+4. What happens to $F$ as $\alpha\to90^\circ$ and $\alpha\to0^\circ$ - and why does that make physical sense?
+5. Given a force specified from a non-standard axis (e.g. "$40^\circ$ from $+y$"), what is the first step before summing forces?
+6. What is the **equilibrant** of a resultant $R$, and how does it relate to $R$?
+
+---
+
 ## Overview
 
 - Recap: Seminar 1 handled forces through one point - now the lines of action are **general**
