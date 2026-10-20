@@ -24,22 +24,11 @@ Hochschule Magdeburg-Stendal
 Before we move on - can you still answer these?
 
 1. What makes a force system **concurrent**? Why does equilibrium then need only two equations?
-2. Angle (trigonometric) method vs. vector method - when is each one preferred?
-3. A block sits on a **frictionless** incline of angle $\alpha$, held by a force $F$ parallel to the incline. What is $F$ in terms of $W$ and $\alpha$?
-4. What happens to $F$ as $\alpha\to90^\circ$ and $\alpha\to0^\circ$ - and why does that make physical sense?
-5. Given a force specified from a non-standard axis (e.g. "$40^\circ$ from $+y$"), what is the first step before summing forces?
-6. What is the **equilibrant** of a resultant $R$, and how does it relate to $R$?
+2. What does static means?
+3. Why in 2D only two independend equations?
 
 ---
 
-## Overview
-
-- Recap: Seminar 1 handled forces through one point - now the lines of action are **general**
-- The moment of a force, and the rotational form of Newton's second law
-- Equilibrium of a rigid body: $\sum F_x=0$, $\sum F_y=0$, $\sum M=0$
-- Four worked examples: resultant of parallel forces, force-couple equivalence, equilibrium with a pin and an applied couple, reducing a force+couple to a single force
-
----
 
 # Theory
 
@@ -47,7 +36,7 @@ Before we move on - can you still answer these?
 
 ## Rotational Newton's Law
 
-$$\sum M = I\alpha$$
+$$\sum M = J\alpha$$
 
 Just as $\sum F=0$ is Newton's second law for $\vec a=0$, the **rotational** equivalent gives us the moment equation:
 
@@ -179,6 +168,8 @@ A rigid bar $AB$ (length $4\ \text{m}$) is pinned at $A$. A downward force $F=30
 
 **Find** the vertical force $P$ at $B$ required for equilibrium, and the pin reaction at $A$.
 
+*Note: a couple has no fixed point of application - drawing it anywhere on the bar changes nothing about the equilibrium, since its moment is the same about every point.*
+
 ![bg right fit](./assets/em_s02_ex3_bar_couple.png)
 
 ---
@@ -220,6 +211,29 @@ $$-F\cdot x' = -50 \quad\Rightarrow\quad x' = \frac{50}{200}$$
 $$\boxed{x' = 0.25\ \text{m from } O}$$
 
 The single equivalent force is **closer to $O$** than the original force - the counterclockwise couple partially cancels the original force's clockwise moment.
+
+---
+
+# Exercise 2.5
+## Shifting a force - the Versatzmoment
+
+A force $F$ acts along a line of action a perpendicular distance $d$ from a point $O$. We want to redraw $F$ so that it acts **through $O$** instead.
+
+**Find** what has to be added for the two systems to stay statically equivalent.
+
+![bg right fit](./assets/em_s02_ex5_versatzmoment.png)
+
+---
+
+## Solution 2.5
+
+Moving a force to a parallel line of action is **not** free - it changes the moment about every point not on the new line. To keep the system equivalent, we must add a compensating couple, the **Versatzmoment** (moment of transfer):
+
+$$M = F\cdot d$$
+
+- $d$ = perpendicular distance between the old and new line of action
+- $M$ acts in the **same sense** as the moment $F$ already produced about $O$ - so nothing about the net effect changes, only how it's represented
+- This is the reverse of Exercise 2.2: there we replaced a single offset force by a force at $O$ **plus** a couple; here we do the same thing in general, $F\to(F\text{ at }O)+M$
 
 ---
 
