@@ -15,9 +15,9 @@ marp Werkstofftechnik_1/wst_mb_12/index.md --pdf --theme-set themes/h2.css --all
 
 
 
-marp mti_ft_09/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_09.pdf
-marp mti_ft_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_10.pdf
-marp mti_ft_11/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_11.pdf
+marp MTI/mti_ft_01/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_01.pdf
+marp MTI/mti_ft_02/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_02.pdf
+marp MTI/mti_ft_03/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_03.pdf
 
 marp wst2_mb_w1_bindungen/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o wst2_mb_w1_bindungen.pdf
 marp wst2_mb_w1_bindungen_seminar/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o wst2_mb_w1_bindungen_seminar.pdf
@@ -87,3 +87,9 @@ marp stream_material_science/stream_wst_09/index.md --pdf --theme-set themes/h2.
 marp stream_material_science/stream_wst_10/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_10.pdf
 marp stream_material_science/stream_wst_11/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_11.pdf
 marp stream_material_science/stream_wst_12/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o stream_wst_12.pdf
+
+
+
+marp Engineering_Mechanics/e_01/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o eng_mech_01.pdf
+
+marp Engineering_Mechanics/e_02/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o eng_mech_02.pdf

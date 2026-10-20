@@ -467,6 +467,10 @@ Es wird unterschieden zwischen:
 - Graphit liegt in Form von dünnen, unregelmäßig geformten Lamellen vor
 - Lamellen wirken als Kerben bei Zugbelastung
 
+![bg right fit](https://www.giessereilexikon.com/uploads/tx_d3ency/189-01.png)
+
+---
+
 **Eigenschaften:**
 - Zugfestigkeit: 100-300 MPa (gering wegen Kerbwirkung)
 - Druckfestigkeit: 400-1200 MPa (Faktor 4 höher)
@@ -487,13 +491,15 @@ Es wird unterschieden zwischen:
 - Kostengünstig
 - Gute Gießbarkeit
 
+---
+
 **Typische Anwendungen:**
 - Motorblöcke
 - Bremsscheiben
 - Maschinenbetten
 - Getriebegehäuse
+![bg right fit](https://upload.wikimedia.org/wikipedia/commons/b/b0/Bremsanlage.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
 
-![bg right 70%](https://www.gsl-metallhandel.de/images/gusseisen-mit-lamellengraphit-maschinengeformt.jpg)
 
 ---
 
@@ -546,6 +552,8 @@ Es wird unterschieden zwischen:
 - Thermoplaste (PE, PP, ABS, PC, PA, etc.)
 - Duroplaste (selten, Reaktionsspritzgießen)
 
+---
+
 **Anwendungen:**
 - Gehäuse
 - Verpackungen
@@ -561,6 +569,8 @@ Es wird unterschieden zwischen:
 3. Nachdruckphase
 4. Abkühlung
 5. Entformen
+
+---
 
 **Wichtige Parameter:**
 - Massetemperatur
@@ -605,6 +615,8 @@ Es wird unterschieden zwischen:
    - Pressen (uniaxial, isostatisch)
    - Spritzgießen (MIM - Metal Injection Molding)
 
+---
+
 3. **Sintern**
    - Erwärmung unterhalb Schmelztemperatur
    - Diffusion verbindet Partikel
@@ -619,6 +631,8 @@ Es wird unterschieden zwischen:
 - Kontrolle von Porosität
 - Spezielle Materialkombinationen möglich
 - Reproduzierbare Eigenschaften
+
+---
 
 **Anwendungen:**
 - Zahnräder, Lager
@@ -739,6 +753,8 @@ Es wird unterschieden zwischen:
 - Hohe Detailgenauigkeit
 - Transparente Bauteile möglich
 
+---
+
 **Anwendungen:**
 - Prototypen mit feinen Details
 - Dentalmodelle
@@ -776,6 +792,8 @@ Es wird unterschieden zwischen:
 - Bindemittel wird selektiv aufgetragen
 - Anschließendes Sintern im Ofen
 - Entbindern + Verdichten
+
+---
 
 **Vorteile:**
 - Keine thermischen Spannungen während Druck
@@ -831,6 +849,8 @@ Es wird unterschieden zwischen:
 **Thermische Nachbehandlung:**
 - Spannungsarmglühen
 - Hot Isostatic Pressing (HIP) - Verdichtung
+
+---
 
 **Oberflächenbehandlung:**
 - Sandstrahlen

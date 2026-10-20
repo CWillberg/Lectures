@@ -31,7 +31,12 @@ img[alt="ORCID"] {
 ## Vorlesung Werkstofftechnik - Vorlesung Reale Strukturen und Eigenschaften
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/d/d7/Gold-crystals.jpg)
+
+<div style="position: absolute; top: 200px; left: 850px;"> 
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_04/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
+     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
+</div>
+
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von \
@@ -45,11 +50,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Realstrukturen von Kristallen mit ihren Defekten beschreiben
 - Zusammenhänge zwischen Struktur und mechanischen Eigenschaften erklären
 - Plastische Verformungsmechanismen
-
-<div style="position: absolute; top: 200px; left: 850px;"> 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/MTI/mti_ft_04/&light=0000&size=300&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png"
-     style="height:380px;width:auto;vertical-align:top;background-color:transparent;">
-</div>
 
 
 
