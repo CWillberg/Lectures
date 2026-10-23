@@ -17,6 +17,13 @@ Berufungsvorlesung - Vortrag vor der Kommission
 
 Prof. Dr.-Ing. Christian Willberg
 
+<div style="margin-top:30px;">
+<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=220" style="height:150px;width:auto;">
+<div style="font-size:14px; color:#888;">Jetzt selbst ausprobieren: perihub.nimbus-extern.dlr.de</div>
+</div>
+
+![bg right fit](./assets/forschung_saeulen.png)
+
 ---
 
 ## Überblick
@@ -114,12 +121,27 @@ Ziel: Peridynamik von der akademischen Validierung zu einem **einsetzbaren Werkz
 
 ## Software & Demonstrationen (PeriLab)
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 - Open-Source-Code: [github.com/PeriHub/PeriLab.jl](https://github.com/PeriHub/PeriLab.jl)
 - Video-Kanal: [youtube.com/@PeriHub](https://www.youtube.com/@PeriHub/videos)
   - *3D Printed Dogbone - Additive-Manufacturing Stress Analysis*
   - *Fragmenting Cylinder*
 - Interaktive Beispielmodelle (live, im Browser):
   [Dogbone](https://perilab-results.nimbus-extern.dlr.de/models/Dogbone), [DCB](https://perilab-results.nimbus-extern.dlr.de/models/DCB), [RVE](https://perilab-results.nimbus-extern.dlr.de/models/RVE), [Additive](https://perilab-results.nimbus-extern.dlr.de/models/Additive)
+
+</div>
+<div class="rdiv">
+
+<iframe src="https://perihub.nimbus-extern.dlr.de/" title="PeriHub (live)" style="width:100%; height:360px; border:1px solid #8592bc; border-radius:6px;"></iframe>
+
+<div style="text-align:center; margin-top:10px;">
+<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=220&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png" style="height:110px;width:auto;">
+</div>
+
+</div>
 
 <!-- _footer: 'Auf Wunsch: Live-Demonstration direkt im Browser' -->
 

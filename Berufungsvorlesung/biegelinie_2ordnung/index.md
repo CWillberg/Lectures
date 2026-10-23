@@ -17,33 +17,26 @@ Berufungsvorlesung - Professur Mechanik und experimentelle Mechanik
 
 Prof. Dr.-Ing. Christian Willberg
 
----
-
-## Überblick
-
-- Warum interessiert uns die Durchbiegung eines Balkens?
-- Geometrische Beschreibung: Krümmung und Biegelinie $w(x)$
-- Von der exakten Krümmung zur technischen Biegelehre
-- Herleitung der Differentialgleichung 2. Ordnung: $EI\,w''(x) = -M(x)$
-- Rand- und Übergangsbedingungen
-- Zwei vollständig durchgerechnete Beispiele
-- Einordnung: Superposition, Grenzen, Ausblick
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Berufungsvorlesung/biegelinie_2ordnung/&light=0000&size=220" style="height:150px;width:auto;margin-top:20px;">
 
 ---
 
-# Motivation
+## Auslegung eines Bauteils
+
+- bisher Momentenverläufe und daraus abgeleitet Spannungen und Dehnungen
+- Fokus auf Materialversagen und Bewertung nach Festigkeit
+- **immer** für das statisch bestimmte System
+
+![bg right fit](../../assets/Figures/Stress_strain_ductile.svg)
+
+
 
 ---
 
-## Wiederholung: Was ist Steifigkeit?
 
-- **Steifigkeit** $k$: Widerstand eines Bauteils gegen Verformung - $k = F/w$ (translatorisch) bzw. $M/\varphi$ (rotatorisch)
-- Für den Biegebalken: $w \sim \dfrac{F\ell^3}{EI}$ $\Rightarrow$ Steifigkeit $k \sim \dfrac{EI}{\ell^3}$
-- Drei **unabhängige** Auslegungskriterien für ein Bauteil:
-  - **Festigkeit** - hält der Querschnitt der Spannung stand? ($\sigma \le \sigma_{zul}$)
-  - **Ermüdung** - hält er den Lastwechseln auf Dauer stand? (Wöhlerlinie)
-  - **Steifigkeit** - verformt er sich nicht zu stark? ($w \le w_{zul}$)
-- Jedes der drei Kriterien kann für sich allein auslegungsbestimmend sein
+# Warum interessiert uns die Durchbiegung eines Balkens?
+
+
 
 ---
 
@@ -236,12 +229,16 @@ $$EI\,w''(x) = -M(x)$$
 
 ## Übergangsbedingungen zwischen Bereichen
 
+*Ausblick - wird in Beispiel 2 konkret angewendet:*
+
 An einer Stelle, an der zwei Bereiche mit unterschiedlicher $M(x)$-Funktion aneinandertreffen (z. B. unter einer Einzellast):
 
 - **Durchbiegung stetig:** $w_I(x_0) = w_{II}(x_0)$
 - **Neigung stetig:** $w_I'(x_0) = w_{II}'(x_0)$
 
 Der Balken "knickt" nicht und reißt nicht - die Biegelinie bleibt glatt.
+
+![bg right fit](./assets/biegelinie_uebergang.png)
 
 ---
 

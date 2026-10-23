@@ -131,4 +131,34 @@
   \node[mainblue] at (3.6,0.6) {Biegelinie $w(x)$ (Einfeldträger)};
 \end{tikzpicture}
 
+% ---------- PAGE 5: Uebergangsbedingung - Ausblick-Skizze ----------
+\begin{tikzpicture}[>=stealth, line width=1.3pt, font=\large]
+  % reference axis (undeformed beam)
+  \draw[accent, dashed, line width=0.9pt] (-0.4,0) -- (8.4,0);
+
+  % Bereich labels
+  \node[mainblue] at (2.0,0.45) {Bereich I};
+  \node[mainblue] at (6.0,0.45) {Bereich II};
+  \node[mainblue] at (4,0.9) {$x_0$};
+  \draw[accent, dashed] (4,0) -- (4,-1.9);
+
+  % correct, smooth deflection curve (continuous w and w')
+  \draw[mainblue, line width=1.8pt]
+    plot[domain=0:4,samples=40] (\x,{-1.3*(3*(\x/8) - 4*(\x/8)*(\x/8)*(\x/8))});
+  \draw[mainblue, line width=1.8pt]
+    plot[domain=4:8,samples=40] (\x,{-1.3*(3*((8-\x)/8) - 4*((8-\x)/8)*((8-\x)/8)*((8-\x)/8))});
+
+  % horizontal tangent at the junction, to show the slope really is continuous
+  \draw[mainblue, line width=0.6pt] (3.4,-1.3) -- (4.6,-1.3);
+  \fill[mainblue] (4,-1.3) circle (3pt);
+
+  % wrong continuation without matching slope -> visible kink
+  \draw[accent, dashed, line width=1.4pt] (4,-1.3) -- (5.6,-2.6);
+  \node[accent, align=left] at (7.3,-2.75) {\small ohne Übergangs-\\bedingung: Knick};
+
+  % callout for the correct, smooth join
+  \node[mainblue, align=left] at (1.1,-2.5) {\small $w_I(x_0)=w_{II}(x_0)$\\[2pt] $w_I'(x_0)=w_{II}'(x_0)$};
+  \draw[mainblue, ->, line width=0.8pt] (2.3,-2.1) to[bend right=15] (3.6,-1.35);
+\end{tikzpicture}
+
 \end{document}
