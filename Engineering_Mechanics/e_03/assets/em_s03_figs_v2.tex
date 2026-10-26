@@ -56,7 +56,7 @@
 \begin{tikzpicture}
 \node[align=center] at (-0.3,1.55) {\textbf{Einspannung}\\[-2pt]\small (fixed support)};
 \draw[line width=1.5pt, mainblue] (-1.6,0) -- (0,0);
-\fill[lightaccent, draw=mainblue, line width=1pt] (0,0.6) rectangle (0.6,-0.6);
+\draw[mainblue, line width=1.5pt] (0,0.6) -- (0,-0.6);
 \foreach \y in {-0.5,-0.25,...,0.5} {\draw[line width=0.5pt] (0,\y) -- (0.2,\y+0.2);}
 \draw[accent, -{Stealth[length=3mm]}, line width=1pt] (-0.3,-1.15) -- (-0.3,-1.65);
 \node[accent] at (1.05,-1.4) {\small \emph{freigeschnitten}};
