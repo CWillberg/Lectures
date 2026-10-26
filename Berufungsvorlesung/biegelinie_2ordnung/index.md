@@ -16,6 +16,7 @@ style: |
 Berufungsvorlesung - Professur Mechanik und experimentelle Mechanik
 
 Prof. Dr.-Ing. Christian Willberg
+28.10.2026
 
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Berufungsvorlesung/biegelinie_2ordnung/&light=0000&size=220" style="height:150px;width:auto;margin-top:20px;">
 
@@ -78,26 +79,37 @@ Prof. Dr.-Ing. Christian Willberg
 
 ## Warum die Biegelinie? Quantitativ
 
-- Durchbiegungen sind durch Normen begrenzt (z. B. $w_{max} \le \ell/300$ im Hochbau)
-- Weitere Beispiele: Kranbahnträger, Werkzeugmaschinenwellen, Leiterplatten
+- Durchbiegungen sind beispielsweise durch Normen begrenzt 
+- Funktionen werden durch Durchbiegung beeinträchtigt 
 - Frage: Wie groß ist $w(x)$ an jeder Stelle des Balkens - nicht nur der Maximalwert?
 
 <!-- _footer: 'Diese Vorlesung: lineare Elastizität, kleine Verformungen, ebene Biegung' -->
 
 ---
 
+## Verformung im 1D-Fall: Zugstab
+
+![bg right fit](./assets/biegelinie_zugstab.png)
+
+- Kraft $F$, Querschnittsfläche $A$ $\Rightarrow$ Spannung $\sigma = F/A$
+- Hookesches Gesetz: $\varepsilon = \sigma/E$
+- Verlängerung: $u = \varepsilon L = \dfrac{FL}{EA}$
+
+
+---
+
 <!-- _class: cols-2 -->
-## Was wir schon kennen
+## Was ist der Unterschied beim Balken?
 
 <div class="ldiv">
 
-Aus der Festigkeitslehre:
+- Beim Balken wirkt am Querschnitt ein **Biegemoment** $M(x)$ statt nur einer Normalkraft
+- Schnittgrößen: $F_q(x)$ (Querkraft), $M_b(x)$ (Biegemoment)
+- Gleichgewicht am Element: 
+$\dfrac{dF_q}{dx} = -q(x) \qquad\dfrac{dM_b}{dx} = F_q(x)$
+- Die Biegespannung und Dehnung ist **nicht** konstant über den Querschnitt$\sigma(x,z)$
 
-- Normalspannung bei Biegung: $\sigma(z,y) = \dfrac{M_b(z)}{I}\,y$
-- Schnittgrößen $F_q(z)$ (Querkraft), $M_b(z)$ (Biegemoment)
-- Gleichgewicht am Element: $\dfrac{dF_q}{dz} = -q(z)$, $\dfrac{dM_b}{dz} = F_q(z)$
-
-**Neu heute:** wie hängt die Form der Biegelinie $w(z)$ mit $M_b(z)$ zusammen?
+$$\sigma(x,z) = \frac{M_b(x)}{I}\,z$$
 
 </div>
 <div class="rimg">
@@ -108,113 +120,96 @@ Aus der Festigkeitslehre:
 
 ---
 
-## Kleines Beispiel: Momentenverlauf
+## Wie kommt man von der Spannung zur Deformation?
 
-![bg right fit](./assets/biegelinie_momentenbeispiel.png)
+- Beim Zugstab: $\sigma \to \varepsilon \to \delta$ - direkt, konstant über den Querschnitt
+- Beim Balken: $\sigma(x,z) \to \varepsilon(x,z) \to\ ?$
+- Die Dehnung variiert über $z$ $\Rightarrow$ der Balken **krümmt sich**
 
-- Kragarm mit konstanter Streckenlast $q_0$
-- Aus $\dfrac{dV}{dx}=-q_0$ (const.) $\Rightarrow$ $V(x)$ linear
-- Aus $\dfrac{dM}{dx}=V(x)$ $\Rightarrow$ $M(x)$ quadratisch (Parabel)
-- Maximalmoment an der Einspannung: $M(0) = -\dfrac{q_0\ell^2}{2}$
 
 ---
 
-# Geometrische Grundlage: Krümmung
-
----
 
 ## Die Biegelinie $w(x)$
 
 ![bg right fit](./assets/biegelinie_konzept.png)
 
 - $x$ - Balkenachse (unverformt)
-- $w(x)$ - Durchbiegung in $z$-Richtung
+- $w(x)$ - Durchbiegung, gemessen in $z$-Richtung
 - $w'(x) = \tan\varphi$ - Neigung der Tangente
 - $\rho$ - Krümmungsradius an der Stelle $x$
 
 ---
 
-## Exakte Krümmung
+
+
 
 ![bg right fit](./assets/biegelinie_kruemmung.png)
 
-- Aus der Differentialgeometrie: $\rho = \dfrac{ds}{d\varphi}$
-- Für die Biegelinie als Funktion $w(x)$:
+**Krümmung**
+$$\rho = \dfrac{ds}{d\varphi}$$
+
+**Biegelinie als Funktion $w(x)$**
 $$\frac{1}{\rho} = \frac{w''(x)}{\left(1+w'(x)^2\right)^{3/2}}$$
-- Exakt, aber nichtlinear in $w'$
-
----
-
-## Technische Biegelehre: Linearisierung
-
-- Annahme: **kleine Durchbiegungen**, $w'(x) \ll 1$ (typisch $< 5°$ Neigung)
-- Dann: $1 + w'(x)^2 \approx 1$
+Annahme: **kleine Durchbiegungen** $w'(x) \ll 1$ (typisch $< 5°$ Neigung)
+$\rightarrow 1 + w'(x)^2 \approx 1$
 
 $$\boxed{\frac{1}{\rho} \approx w''(x)}$$
 
-- Diese Linearisierung ist der entscheidende Schritt der gesamten Theorie
-- Grenze der Gültigkeit: große Durchbiegungen (z. B. sehr schlanke Stäbe) brauchen die nichtlineare Form
+
+
 
 ---
 
-# Von der Krümmung zur Differentialgleichung
+## Spannungsverteilung über die Querschnittshöhe
+
+![bg right fit](./assets/biegelinie_spannungsverteilung.png)
+
+- An jeder Stelle $x$: Spannung linear über $z$, Null an der neutralen Faser
+- Zug auf der einen Seite, Druck auf der anderen
 
 ---
+
 
 ## Elastizitätsgesetz der Biegung
 
-Aus der Balkentheorie (Navier-Bernoulli, ebene Querschnitte bleiben eben):
+Drei bekannte Zutaten zusammenführen:
 
-$$\frac{1}{\rho(x)} = \frac{M(x)}{EI}$$
+1. **Biegespannung**: $\sigma(x,z) = \dfrac{M_b(x)}{I}\,z$
+2. **Hookesches Gesetz:** $\varepsilon = \dfrac{\sigma}{E}$ $\;\Rightarrow\;$ $\varepsilon(x,z) = \dfrac{M_b(x)}{EI}\,z$
+3. **Geometrie** (vorige Folie): $\varepsilon(x,z) = \dfrac{z}{\rho(x)}$
 
-- $E$ - Elastizitätsmodul, $I$ - Flächenträgheitsmoment des Querschnitts
-- $EI$ - **Biegesteifigkeit**
-- Große $M$ oder kleine $EI$ $\Rightarrow$ starke Krümmung
+Gleichsetzen von (2) und (3):
+
+$$\frac{M_b(x)}{EI}\,z = \frac{y}{\rho(x)} \quad\Rightarrow\quad \boxed{\frac{1}{\rho(x)} = \frac{M_b(x)}{EI}}$$
 
 ---
+
+
+
 
 ## Die Differentialgleichung der Biegelinie 2. Ordnung
 
 Kombination von Geometrie und Werkstoffgesetz:
 
-$$\frac{1}{\rho(x)} \approx w''(x) \qquad \text{und} \qquad \frac{1}{\rho(x)} = \frac{M(x)}{EI}$$
+$$\frac{1}{\rho(x)} \approx w''(x) \qquad \text{und} \qquad \frac{1}{\rho(x)} = \frac{M_b(x)}{EI}$$
 
-$$\boxed{EI\,w''(x) = -M(x)}$$
+$$\boxed{EI\,w''(x) = -M_b(x)}$$
 
-- Das Vorzeichen folgt aus der gewählten Koordinatenkonvention ($z$ nach unten, $M$ positiv wenn es die Biegelinie "nach oben" krümmt - hier: Minuszeichen bei $z$ nach unten)
-- **2. Ordnung**, weil $M(x)$ bereits aus dem Gleichgewicht bekannt ist (statisch bestimmte Systeme)
+Das Vorzeichen folgt aus der gewählten Koordinatenkonvention ($z$ nach unten, $M_b$ positiv wenn es die Biegelinie "nach oben" krümmt - hier: Minuszeichen bei $z$ nach unten) $\rightarrow$ $w(x)$ positiv in $z$ für positive $M_b$
 
----
-
-## Einordnung: 2. vs. 4. Ordnung
-
-- Differenziert man die Gleichung zweimal und nutzt $\dfrac{dM}{dx}=V$, $\dfrac{dV}{dx}=-q$:
-
-$$EI\,w''''(x) = q(x)$$
-
-| | 2. Ordnung | 4. Ordnung |
-|:---|:---|:---|
-| Ansatz | $EI\,w'' = -M(x)$ | $EI\,w'''' = q(x)$ |
-| Voraussetzung | $M(x)$ bekannt | nur $q(x)$ nötig |
-| Integrationskonstanten | 2 pro Bereich | 4 pro Bereich |
-| typischer Einsatz | statisch bestimmt, $M(x)$ einfach | statisch unbestimmt, $q(x)$ gegeben |
-
-**Heute:** wir nutzen die 2. Ordnung - $M(x)$ kennen wir aus dem Gleichgewicht.
 
 ---
 
-# Lösungsmethode: Integration
-
----
 
 ## Zweifache Integration
 
-$$EI\,w''(x) = -M(x)$$
+$$EI\,w''(x) = -M_b(x)$$
 
-1. Erste Integration: $EI\,w'(x) = -\int M(x)\,dx + C_1$ (Neigung)
-2. Zweite Integration: $EI\,w(x) = -\int\!\!\int M(x)\,dx\,dx + C_1 x + C_2$ (Durchbiegung)
+1. Erste Integration: $EI\,w'(x) = -\int M_b(x)\,dx + C_1$ (Neigung)
+2. Zweite Integration: $EI\,w(x) = -\int\!\!\int M_b(x)\,dx\,dx + C_1 x + C_2$ (Durchbiegung)
 
-- Zwei Integrationskonstanten $C_1$, $C_2$ **pro Bereich** mit eigener $M(x)$-Funktion
+- Zwei Integrationskonstanten $C_1$, $C_2$ **pro Bereich** mit eigener $M_b(x)$-Funktion
 - Bestimmung über **Randbedingungen** (an den Lagern) und **Übergangsbedingungen** (zwischen Bereichen)
 
 ---
@@ -223,59 +218,62 @@ $$EI\,w''(x) = -M(x)$$
 
 - **Festlager / Loslager:** $w = 0$ (keine Durchbiegung)
 - **Einspannung:** $w = 0$ **und** $w' = 0$ (keine Durchbiegung, keine Neigung)
-- **Freies Ende:** $M = 0$ (und $V=0$, falls keine Einzellast)
+- **Freies Ende:** $M = 0$ (und $F_q=0$, falls keine Einzellast)
 
 ---
 
 ## Übergangsbedingungen zwischen Bereichen
 
-*Ausblick - wird in Beispiel 2 konkret angewendet:*
 
-An einer Stelle, an der zwei Bereiche mit unterschiedlicher $M(x)$-Funktion aneinandertreffen (z. B. unter einer Einzellast):
 
 - **Durchbiegung stetig:** $w_I(x_0) = w_{II}(x_0)$
 - **Neigung stetig:** $w_I'(x_0) = w_{II}'(x_0)$
 
-Der Balken "knickt" nicht und reißt nicht - die Biegelinie bleibt glatt.
+
 
 ![bg right fit](./assets/biegelinie_uebergang.png)
 
 ---
 
-# Beispiel 1: Der Kragarm
+
+# Beispiel - Kragträger
+
+
+![bg right fit](./assets/biegelinie_momentenbeispiel.png)
+
+- Querkraft: 
+$F_q(x) = q_0(\ell - x)$
+- Biegemoment: 
+$M(x) = -\dfrac{q_0}{2}(\ell-x)^2$
+- Biegespannung: 
+$\sigma(x,y) = \dfrac{M(x)}{I}\,y$
+
 
 ---
 
-## Kragarm mit Einzellast am freien Ende
 
-![bg right fit](./assets/biegelinie_kragarm.png)
+## Kragarm mit konstanter Streckenlast $q_0$
 
-- Einspannung bei $x=0$, freies Ende bei $x=\ell$
-- Einzellast $P$ am freien Ende
+![bg right fit](./assets/biegelinie_momentenbeispiel.png)
+
+- Dasselbe Beispiel wie zuvor: Einspannung bei $x=0$, freies Ende bei $x=\ell$, Streckenlast $q_0$
 - Gesucht: $w(x)$, insbesondere $w(\ell)$
 
 ---
 
 ## Schritt 1: Momentenverlauf
 
-Schnitt bei $x$, Betrachtung des rechten Teils (von $x$ bis $\ell$):
-
-$$M(x) = -P\,(\ell - x)$$
-
-- Bei $x=0$ (Einspannung): $M(0) = -P\ell$ (Maximalbetrag)
-- Bei $x=\ell$ (freies Ende): $M(\ell) = 0$ ✓
-
----
+$$M(x) = -\frac{q_0}{2}(\ell - x)^2$$
 
 ## Schritt 2: Differentialgleichung lösen
 
-$$EI\,w''(x) = -M(x) = P(\ell - x)$$
+$$EI\,w''(x) = -M(x) = \frac{q_0}{2}\left(\ell^2 - 2\ell x + x^2\right)$$
 
 **1. Integration:**
-$$EI\,w'(x) = P\left(\ell x - \frac{x^2}{2}\right) + C_1$$
+$$EI\,w'(x) = \frac{q_0}{2}\left(\ell^2 x - \ell x^2 + \frac{x^3}{3}\right) + C_1$$
 
 **2. Integration:**
-$$EI\,w(x) = P\left(\frac{\ell x^2}{2} - \frac{x^3}{6}\right) + C_1 x + C_2$$
+$$EI\,w(x) = \frac{q_0}{2}\left(\frac{\ell^2 x^2}{2} - \frac{\ell x^3}{3} + \frac{x^4}{12}\right) + C_1 x + C_2$$
 
 ---
 
@@ -287,11 +285,11 @@ $$w'(0)=0 \;\Rightarrow\; C_1 = 0 \qquad\qquad w(0)=0 \;\Rightarrow\; C_2 = 0$$
 
 **Ergebnis:**
 
-$$w(x) = \frac{P}{EI}\left(\frac{\ell x^2}{2} - \frac{x^3}{6}\right)$$
+$$w(x) = \frac{q_0}{2EI}\left(\frac{\ell^2 x^2}{2} - \frac{\ell x^3}{3} + \frac{x^4}{12}\right)$$
 
-$$\boxed{w(\ell) = \frac{P\ell^3}{3EI}}$$
+$$\boxed{w(\ell) = \frac{q_0\ell^4}{8EI}}$$
 
-Maximale Durchbiegung am freien Ende - der klassische Referenzwert.
+Maximale Durchbiegung am freien Ende - der klassische Referenzwert für den gleichmäßig belasteten Kragarm.
 
 ---
 
@@ -301,7 +299,17 @@ Maximale Durchbiegung am freien Ende - der klassische Referenzwert.
 
 - Waagerechte Tangente an der Einspannung ($w'(0)=0$)
 - Monoton wachsende Durchbiegung bis zum freien Ende
-- Maximum $w(\ell)=P\ell^3/3EI$ am freien Ende
+- Maximum $w(\ell)=q_0\ell^4/8EI$ am freien Ende
+
+---
+## Diskussion der Einflussgrößen
+
+Gegebene Belastung $q$ und Geometrie $l$
+
+Auslegung hinsichtlich 
+- Material $E$
+- Flächenträgheitsmoment $I$
+
 
 ---
 
@@ -361,7 +369,7 @@ $$w(x) = \frac{F x}{48\,EI}\left(3\ell^2 - 4x^2\right) \qquad (0 \le x \le \ell/
 
 $$\boxed{w_{max} = w(\ell/2) = \frac{F\ell^3}{48\,EI}}$$
 
-Zum Vergleich: der Kragarm ($w_{max}=P\ell^3/3EI$) ist bei gleicher Last/Spannweite **16-mal** weicher als der beidseitig gelagerte Träger.
+Zum Vergleich: der einseitig eingespannte Kragarm ($w_{max}=q_0\ell^4/8EI$) ist deutlich weicher als der beidseitig gelagerte Einfeldträger - die zweite Lagerstelle reduziert die Durchbiegung erheblich.
 
 ---
 
@@ -371,7 +379,7 @@ Zum Vergleich: der Kragarm ($w_{max}=P\ell^3/3EI$) ist bei gleicher Last/Spannwe
 
 - Symmetrisch, Null an beiden Lagern
 - Maximum in Feldmitte: $w(\ell/2)=F\ell^3/48EI$
-- Deutlich flacher als beim Kragarm - 16-fach höhere Steifigkeit
+- Deutlich flacher als beim Kragarm - die zweite Lagerstelle erhöht die Steifigkeit erheblich
 
 ---
 
@@ -415,12 +423,18 @@ Dennoch: die Grundlage für die allermeisten Auslegungsrechnungen im Maschinenba
 
 ---
 
+
 ## Zusammenfassung
 
 - Krümmung $\dfrac{1}{\rho}\approx w''(x)$ + Werkstoffgesetz $\dfrac{1}{\rho}=\dfrac{M}{EI}$ $\Rightarrow$ $EI\,w''=-M(x)$
 - Lösung durch zweifache Integration, Konstanten aus Rand-/Übergangsbedingungen
-- Kragarm: $w_{max}=P\ell^3/3EI$ - Einfeldträger: $w_{max}=F\ell^3/48EI$
-- Grundlage für Superposition, Tabellenwerke und FEM-Balkenelemente
+
+---
+
+Plutoskript
+
+julia code erstellen den ich lokal als web interface laufen lasse. da kann ich die einflussgrößen testen und zeigen was passiert, wenn ich eine kraft vergrößere und verschiebe bei einem zweifeldbeispiel; dort die herleitung der mathematik mit rein und abgebildet in code, damit man spielen kann
+
 
 ---
 

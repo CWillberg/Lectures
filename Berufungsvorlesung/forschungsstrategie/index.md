@@ -16,6 +16,7 @@ style: |
 Berufungsvorlesung - Vortrag vor der Kommission
 
 Prof. Dr.-Ing. Christian Willberg
+28.10.2026
 
 <div style="margin-top:30px;">
 <img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=220" style="height:150px;width:auto;">

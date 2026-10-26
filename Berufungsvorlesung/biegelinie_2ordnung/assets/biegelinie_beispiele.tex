@@ -10,11 +10,10 @@
 % ---------- PAGE 1: Kragarm (cantilever) with end load P ----------
 \begin{tikzpicture}[>=stealth, line width=1.3pt, font=\large]
   % wall / fixed support
-  \fill[lightaccent] (-0.6,-1.0) rectangle (0,1.0);
+  \draw[mainblue, line width=1.5pt] (0,1.0) -- (0,-1.0);
   \foreach \y in {-0.9,-0.6,...,0.9} {
-    \draw[mainblue] (-0.6,\y) -- (0,\y+0.3);
+    \draw[line width=0.5pt] (0,\y) -- (-0.25,\y+0.22);
   }
-  \draw[mainblue, line width=1.4pt] (-0.6,-1.0) -- (-0.6,1.0);
 
   % beam
   \draw[mainblue, line width=2pt] (0,0) -- (8,0);
@@ -87,11 +86,10 @@
 % ---------- PAGE 3: Kragarm - Biegelinie w(x) ----------
 \begin{tikzpicture}[>=stealth, line width=1.3pt, font=\large]
   % wall / fixed support
-  \fill[lightaccent] (-0.6,-1.0) rectangle (0,1.0);
+  \draw[mainblue, line width=1.5pt] (0,1.0) -- (0,-1.0);
   \foreach \y in {-0.9,-0.6,...,0.9} {
-    \draw[mainblue] (-0.6,\y) -- (0,\y+0.3);
+    \draw[line width=0.5pt] (0,\y) -- (-0.25,\y+0.22);
   }
-  \draw[mainblue, line width=1.4pt] (-0.6,-1.0) -- (-0.6,1.0);
 
   % undeformed reference line
   \draw[accent, dashed, line width=0.9pt] (0,0) -- (8.6,0);
@@ -102,9 +100,9 @@
 
   \draw[mainblue, dashed] (8,0) -- (8,-2.1);
   \draw[mainblue, <->, line width=0.9pt] (8.3,0) -- (8.3,-2.1);
-  \node[mainblue, anchor=west] at (8.4,-1.05) {$w(\ell)=\dfrac{P\ell^3}{3EI}$};
+  \node[mainblue, anchor=west] at (8.4,-1.05) {$w(\ell)=\dfrac{q_0\ell^4}{8EI}$};
 
-  \node[accent] at (0,0.4) {$x=0$};
+  \node[accent, anchor=west] at (0.15,0.4) {$x=0$};
   \node[mainblue] at (3.6,0.9) {Biegelinie $w(x)$ (Kragarm)};
 \end{tikzpicture}
 

@@ -28,7 +28,7 @@ img[alt="ORCID"] {
 </style>
 
 
-## Vorlesung Werkstofftechnik - Vorlesung Reale Strukturen und Eigenschaften
+##  Reale Strukturen und Eigenschaften
 Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
 
@@ -55,9 +55,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 
 ---
-
-<!--paginate: true-->
-
 
 ## Warum ist die Feinstruktur wichtig?
 
@@ -678,7 +675,10 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 - Realtität um Faktor ~100 niedriger durch Versetzungen
 ---
 
-## Bild
+## Beispiel: Gleitstufen im Einkristall
+
+- Abgleiten der Atomschichten wird als Stufenbildung an der Oberfläche sichtbar
+- Jede Stufe entspricht dem Durchlaufen einer Gleitebene durch den Kristall
 
 ![](../../assets/Figures/Beispiel_plast.bmp)
   
