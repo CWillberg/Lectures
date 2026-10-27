@@ -13,7 +13,7 @@ style: |
 <!-- _class: lead -->
 
 
-Prof. Dr.-Ing. Christian Willberg
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 28.10.2026
 
 <img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Berufungsvorlesung/gesamtvortrag/&light=0000&size=180" style="height:160px;width:auto;margin-top:15px;">
@@ -62,6 +62,38 @@ Grundlagen Peridynamik
 - Gutachter für die Österreichische Forschungsförderungsgesellschaft mbH (FFG)
 - Mitglied bei der DGZfP und GAMM
 - Gutachter in Acta Mechanica, SoftwareX, Wave Motion, ...
+
+---
+
+<!-- _class: cols-2 -->
+## Peridynamik: ein interdisziplinäres Forschungsfeld
+
+<div class="ldiv">
+
+**Mechanik & Numerik**
+*Computer Methods in Appl. Mech. and Eng., J. of the Mechanics and Physics of Solids, Engineering Fracture Mechanics*
+
+**Luft- und Raumfahrt**
+*CEAS Aeronautical Journal, Chinese Journal of Aeronautics*
+
+**Werkstoffe & Verbunde**
+*Composites Part B: Engineering, Composites Science and Technology*
+
+</div>
+<div class="rdiv">
+
+**Geotechnik**
+*Acta Geotechnica, Géotechnique*
+
+**Elektrochemie & Korrosion**
+*Corrosion Science, Electrochimica Acta*
+
+**Software**
+*SoftwareX*
+
+</div>
+
+<!-- _footer: 'Auswahl aus eigener Literaturdatenbank (>560 Journalartikel zur Peridynamik)' -->
 
 ---
 
@@ -311,10 +343,12 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 ---
 
 ## Biegelinie des Einfeldträgers
-<iframe src="http://localhost:1234/edit?id=b36a1260-d211-11f1-a8b5-bb277f7ab7c6" width="1150" height="500"></iframe>
 
+![bg right fit](./assets/biegelinie_einfeldtraeger_wx.png)
 
-
+- Symmetrisch, Null an beiden Lagern
+- Maximum in Feldmitte: $w(\ell/2)=F\ell^3/48EI$
+- Stetiger, glatter Verlauf über den Übergang bei $x=\ell/2$ hinweg - kein Knick
 
 
 ---
@@ -343,8 +377,7 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 
 
 
-Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
-28.10.2026
+
 
 
 
@@ -375,14 +408,31 @@ Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183
 
 ---
 
+<!-- _class: cols-2 -->
 ## PeriHub: Modellbau & Plattform
 
-<iframe src="https://perihub.nimbus-extern.dlr.de/" width="800" height="500"></iframe>
+<div class="ldiv">
 
-<div style="margin-top:30px;">
-<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=220" style="height:150px;width:auto;">
-<div style="font-size:14px; color:#888;">Jetzt selbst ausprobieren: perihub.nimbus-extern.dlr.de</div>
+<iframe src="https://perihub.nimbus-extern.dlr.de/" width="100%" height="520"></iframe>
+
 </div>
+<div class="rdiv" style="text-align:center;">
+
+<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=160" style="height:150px;width:auto;">
+<div style="font-size:14px; color:#888; margin-bottom:20px;">Modellbildung</div>
+
+<img src="https://quickchart.io/qr?text=https://perilab-results.nimbus-extern.dlr.de/&light=0000&size=160" style="height:150px;width:auto;">
+<div style="font-size:14px; color:#888;">Modellergebnisse</div>
+
+</div>
+
+---
+
+## Beispiel: Impact-Simulation
+
+<iframe width="1150" height="520" src="https://www.youtube.com/embed/qj7xGgmjEdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div style="font-size:14px; color:#888;">Falls das Video nicht lädt: <a href="https://youtu.be/qj7xGgmjEdE">youtu.be/qj7xGgmjEdE</a></div>
 
 ---
 
