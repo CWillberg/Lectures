@@ -29,7 +29,9 @@ jobs:
       fail-fast: false
       matrix:
         folder:
-          # ── Engineering_Mechanics ────────────────────────────────
+          # ── Berufungsvorlesung ───────────────────────────────────
+          - Berufungsvorlesung/gesamtvortrag
+          - Berufungsvorlesung/persoenliche_vorstellung
           - Berufungsvorlesung/biegelinie_2ordnung
           - Berufungsvorlesung/forschungsstrategie
           # ── Engineering_Mechanics ────────────────────────────────

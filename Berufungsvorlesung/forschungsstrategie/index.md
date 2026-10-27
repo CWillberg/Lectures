@@ -63,6 +63,38 @@ Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183
 ---
 
 <!-- _class: cols-2 -->
+## Peridynamik: ein interdisziplinäres Forschungsfeld
+
+<div class="ldiv">
+
+**Mechanik & Numerik**
+*Computer Methods in Appl. Mech. and Eng., J. of the Mechanics and Physics of Solids, Engineering Fracture Mechanics*
+
+**Luft- und Raumfahrt**
+*CEAS Aeronautical Journal, Chinese Journal of Aeronautics*
+
+**Werkstoffe & Verbunde**
+*Composites Part B: Engineering, Composites Science and Technology*
+
+</div>
+<div class="rdiv">
+
+**Geotechnik**
+*Acta Geotechnica, Géotechnique*
+
+**Elektrochemie & Korrosion**
+*Corrosion Science, Electrochimica Acta*
+
+**Software**
+*SoftwareX*
+
+</div>
+
+<!-- _footer: 'Auswahl aus eigener Literaturdatenbank (>560 Journalartikel zur Peridynamik)' -->
+
+---
+
+<!-- _class: cols-2 -->
 ## Säule 2: Structural Health Monitoring
 
 <div class="ldiv">
