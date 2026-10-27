@@ -9,14 +9,14 @@ style: |
     background-image: url("./assets/background_nologo.png");
   }
 ---
-
+## Angewandte und experimentelle Mechanik
 <!-- _class: lead -->
-# Persönliche Vorstellung
+
 
 Prof. Dr.-Ing. Christian Willberg
 28.10.2026
 
-<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Berufungsvorlesung/gesamtvortrag/&light=0000&size=180" style="height:130px;width:auto;margin-top:15px;">
+<img src="https://quickchart.io/qr?text=https://cwillberg.github.io/Lectures/Berufungsvorlesung/gesamtvortrag/&light=0000&size=180" style="height:160px;width:auto;margin-top:15px;">
 
 ![bg right](./assets/image.png)
 
@@ -78,15 +78,23 @@ Grundlagen Peridynamik
 
 ---
 
+## Fragen
+
+![bg right](../../assets/Figures/fragezeichen.png)
+
+---
+
 <!-- header: 'Berufungsvorlesung - Die Biegelinie 2. Ordnung' -->
 
 <!-- _class: lead -->
-# Die Differentialgleichung der Biegelinie 2. Ordnung
-## Herleitung, Lösung und Anwendung
+# Lehrprobe
+
+## Die Differentialgleichung der Biegelinie 2. Ordnung
 
 
-Prof. Dr.-Ing. Christian Willberg
-28.10.2026
+![bg right fit](./assets/biegelinie_einfeldtraeger.png)
+
+
 
 ---
 
@@ -303,12 +311,11 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 ---
 
 ## Biegelinie des Einfeldträgers
+<iframe src="http://localhost:1234/edit?id=b36a1260-d211-11f1-a8b5-bb277f7ab7c6" width="1150" height="500"></iframe>
 
-![bg right fit](./assets/biegelinie_einfeldtraeger_wx.png)
 
-- Symmetrisch, Null an beiden Lagern
-- Maximum in Feldmitte: $w(\ell/2)=F\ell^3/48EI$
-- Stetiger, glatter Verlauf über den Übergang bei $x=\ell/2$ hinweg - kein Knick
+
+
 
 ---
 
@@ -322,20 +329,24 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 
 ---
 
+## Fragen
+
+![bg right](../../assets/Figures/fragezeichen.png)
+
+
+---
+
 <!-- header: 'Berufungsvorlesung - Forschungs- und Lehrkonzept' -->
 
 <!-- _class: lead -->
-# Forschungs- und Lehrkonzept
-## Mechanik und experimentelle Mechanik
+## Forschungs- und Lehrkonzept
+
 
 
 Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 28.10.2026
 
-<div style="margin-top:30px;">
-<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=220" style="height:150px;width:auto;">
-<div style="font-size:14px; color:#888;">Jetzt selbst ausprobieren: perihub.nimbus-extern.dlr.de</div>
-</div>
+
 
 ![bg right fit](./assets/forschung_saeulen.png)
 
@@ -360,19 +371,18 @@ Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183
 - Simulation mit Open-Source-Code **PeriLab.jl** (DLR/PeriHub), validiert an eigenen Experimenten
 - Bereits im industriellen Einsatz (additive Fertigung, Partner SWMS Systemtechnik)
 
-<div style="margin-top:10px;">
-<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=110" style="height:80px;width:auto;">
-<div style="font-size:13px; color:#888;">perihub.nimbus-extern.dlr.de</div>
-</div>
+
 
 ---
 
 ## PeriHub: Modellbau & Plattform
 
-<iframe src="https://perihub.nimbus-extern.dlr.de/" width="1150" height="600"></iframe>
+<iframe src="https://perihub.nimbus-extern.dlr.de/" width="800" height="500"></iframe>
 
-- Modelle werden direkt in der Plattform aufgebaut, parametrisiert und simuliert
-- Ergebnisse, Modelle und Metadaten liegen zentral und FAIR-strukturiert vor
+<div style="margin-top:30px;">
+<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=220" style="height:150px;width:auto;">
+<div style="font-size:14px; color:#888;">Jetzt selbst ausprobieren: perihub.nimbus-extern.dlr.de</div>
+</div>
 
 ---
 
@@ -501,7 +511,7 @@ $$\text{Simulation} \;\longleftrightarrow\; \text{Messung} \;\xrightarrow{\text{
 
 - **Forschung:** zwei komplementäre Säulen (Peridynamik-Simulation, UAV-Laser-SHM), verbunden durch strukturierte, FAIR-Daten zum digitalen Zwilling
 - **Lehre:** dieselbe Verzahnung von Modellbildung und Messpraxis, vermittelt mit visuellen, interaktiven Werkzeugen
-- Beides passt direkt auf die Professur **"Angewandte und Experimentelle Mechanik"**
+
 
 ---
 
@@ -509,3 +519,5 @@ $$\text{Simulation} \;\longleftrightarrow\; \text{Messung} \;\xrightarrow{\text{
 # Vielen Dank für Ihre Aufmerksamkeit
 
 ## Fragen und Diskussion
+
+![bg right fit](../../assets/Figures/Testpyramide.png)
