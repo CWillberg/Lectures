@@ -30,6 +30,9 @@ jobs:
       matrix:
         folder:
           # ── Engineering_Mechanics ────────────────────────────────
+          - Berufungsvorlesung/biegelinie_2ordnung
+          - Berufungsvorlesung/forschungsstrategie
+          # ── Engineering_Mechanics ────────────────────────────────
           - Engineering_Mechanics/e_01
           - Engineering_Mechanics/e_02
           - Engineering_Mechanics/e_03
