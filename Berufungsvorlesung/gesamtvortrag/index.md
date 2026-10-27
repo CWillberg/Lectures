@@ -343,12 +343,7 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 ---
 
 ## Biegelinie des Einfeldträgers
-
-![bg right fit](./assets/biegelinie_einfeldtraeger_wx.png)
-
-- Symmetrisch, Null an beiden Lagern
-- Maximum in Feldmitte: $w(\ell/2)=F\ell^3/48EI$
-- Stetiger, glatter Verlauf über den Übergang bei $x=\ell/2$ hinweg - kein Knick
+<iframe src="http://localhost:1234/edit?id=b36a1260-d211-11f1-a8b5-bb277f7ab7c6" width="1150" height="500"></iframe>
 
 
 ---
@@ -413,7 +408,7 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 
 <div class="ldiv">
 
-<iframe src="https://perihub.nimbus-extern.dlr.de/" width="100%" height="520"></iframe>
+<iframe src="https://perihub.nimbus-extern.dlr.de/" width="100%" height="460"></iframe>
 
 </div>
 <div class="rdiv" style="text-align:center;">
