@@ -13,7 +13,7 @@ style: |
 <!-- _class: lead -->
 # Die Differentialgleichung der Biegelinie 2. Ordnung
 ## Herleitung, Lösung und Anwendung
-Berufungsvorlesung - Professur Mechanik und experimentelle Mechanik
+
 
 Prof. Dr.-Ing. Christian Willberg
 28.10.2026
@@ -181,7 +181,7 @@ Drei bekannte Zutaten zusammenführen:
 
 Gleichsetzen von (2) und (3):
 
-$$\frac{M_b(x)}{EI}\,z = \frac{y}{\rho(x)} \quad\Rightarrow\quad \boxed{\frac{1}{\rho(x)} = \frac{M_b(x)}{EI}}$$
+$$\frac{M_b(x)}{EI}\,z = \frac{z}{\rho(x)} \quad\Rightarrow\quad \boxed{\frac{1}{\rho(x)} = \frac{M_b(x)}{EI}}$$
 
 ---
 
@@ -238,6 +238,15 @@ $$EI\,w''(x) = -M_b(x)$$
 
 # Beispiel - Kragträger
 
+## Kragarm mit konstanter Streckenlast $q_0$
+
+
+
+- Dasselbe Beispiel wie zuvor: Einspannung bei $x=0$, freies Ende bei $x=\ell$, Streckenlast $q_0$
+- Gesucht: $w(x)$, insbesondere $w(\ell)$
+
+
+---
 
 ![bg right fit](./assets/biegelinie_momentenbeispiel.png)
 
@@ -246,20 +255,14 @@ $F_q(x) = q_0(\ell - x)$
 - Biegemoment: 
 $M(x) = -\dfrac{q_0}{2}(\ell-x)^2$
 - Biegespannung: 
-$\sigma(x,y) = \dfrac{M(x)}{I}\,y$
+$\sigma(x,z) = \dfrac{M(x)}{I}\,z$
 
 
 ---
 
 
-## Kragarm mit konstanter Streckenlast $q_0$
 
-![bg right fit](./assets/biegelinie_momentenbeispiel.png)
 
-- Dasselbe Beispiel wie zuvor: Einspannung bei $x=0$, freies Ende bei $x=\ell$, Streckenlast $q_0$
-- Gesucht: $w(x)$, insbesondere $w(\ell)$
-
----
 
 ## Schritt 1: Momentenverlauf
 
@@ -338,15 +341,17 @@ Maximalmoment in Feldmitte: $M(\ell/2) = F\ell/4$
 
 ---
 
-## Schritt 2: Integration in Bereich I
+## Schritt 2: Integration in beiden Bereichen
 
-$$EI\,w_I''(x) = -\frac{F}{2}x$$
+**Bereich I** ($0 \le x \le \ell/2$), aus $EI\,w_I''(x) = -\dfrac{F}{2}x$:
 
-$$EI\,w_I'(x) = -\frac{F}{4}x^2 + C_1$$
+$$EI\,w_I'(x) = -\frac{F}{4}x^2 + C_1 \qquad\qquad EI\,w_I(x) = -\frac{F}{12}x^3 + C_1 x + C_2$$
 
-$$EI\,w_I(x) = -\frac{F}{12}x^3 + C_1 x + C_2$$
+**Bereich II** ($\ell/2 \le x \le \ell$), aus $EI\,w_{II}''(x) = -\dfrac{F}{2}(\ell-x)$:
 
-Analog für Bereich II (mit $C_3$, $C_4$) - macht **vier** Unbekannte.
+$$EI\,w_{II}'(x) = -\frac{F\ell}{2}x + \frac{F}{4}x^2 + C_3 \qquad\qquad EI\,w_{II}(x) = -\frac{F\ell}{4}x^2 + \frac{F}{12}x^3 + C_3 x + C_4$$
+
+Vier Integrationskonstanten $C_1,\dots,C_4$ - zwei pro Bereich.
 
 ---
 
@@ -383,45 +388,20 @@ Zum Vergleich: der einseitig eingespannte Kragarm ($w_{max}=q_0\ell^4/8EI$) ist 
 
 ---
 
-# Einordnung und Ausblick
 
----
 
-## Das Superpositionsprinzip
 
-- Die Differentialgleichung ist **linear** in $w$ und $M$
-- Mehrere Lasten gleichzeitig? Biegelinien einzeln berechnen und **addieren**
-- In der Praxis: Tabellenwerke mit vorgelösten Standardfällen (Kragarm, Einfeldträger, Kraft/Streckenlast) statt jedes Mal neu zu integrieren
-
----
 
 <!-- _class: cols-2 -->
 ## Grenzen der Theorie
-
-<div class="ldiv">
 
 - **Schubverformung** vernachlässigt (Euler-Bernoulli) - bei gedrungenen Balken (Timoshenko-Theorie nötig)
 - **Kleine Verformungen** vorausgesetzt - bei großen Durchbiegungen nichtlineare Krümmung nötig
 - **Lineare Elastizität** - keine Plastizität, kein Kriechen
 
-</div>
-<div class="rdiv">
-
-Dennoch: die Grundlage für die allermeisten Auslegungsrechnungen im Maschinenbau - und direkter Ausgangspunkt für FEM-Balkenelemente.
-
-</div>
 
 ---
 
-## Ausblick: Statisch überbestimmte Systeme
-
-- Bisher: statisch **bestimmte** Systeme - $M(x)$ folgt direkt aus dem Gleichgewicht, unabhängig von der Steifigkeit
-- Statisch **überbestimmte** (unbestimmte) Systeme: mehr Lagerreaktionen als Gleichgewichtsbedingungen
-  - Randbedingungen weiterhin bekannt ($w=0$, $w'=0$, ...) - aber $M(x)$ selbst hängt jetzt von der Steifigkeitsverteilung $EI(x)$ ab
-  - Kraftgrößen-/Verformungsmethoden lösen kleine Systeme noch analytisch, werden aber schnell unübersichtlich
-- Für komplexe Geometrien, Randbedingungen und Lastfälle: **numerische Methoden** (FEM) - direkte Erweiterung der hier gezeigten Balkentheorie
-
----
 
 
 ## Zusammenfassung

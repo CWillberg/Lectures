@@ -13,7 +13,7 @@ style: |
 <!-- _class: lead -->
 # Forschungsstrategie
 ## Mechanik und experimentelle Mechanik
-Berufungsvorlesung - Vortrag vor der Kommission
+
 
 Prof. Dr.-Ing. Christian Willberg
 28.10.2026
@@ -27,35 +27,19 @@ Prof. Dr.-Ing. Christian Willberg
 
 ---
 
-## Überblick
-
-- Leitidee: Simulation und Experiment als zwei sich ergänzende Säulen
-- Säule 1 - Peridynamik: rechnergestützte Schädigungs- und Bruchmechanik
-- Säule 2 - UAV-gestützte Laser-SHM: ein neuer experimenteller Ansatz
-- Die Synergie: Validierung und digitaler Zwilling
-- Roadmap, Lehre und Kooperationen
-
----
-
-# Leitidee
-
----
-
-## Zwei Säulen, ein Forschungsprofil
+# Zwei Säulen
 
 ![bg right fit](./assets/forschung_saeulen.png)
 
 - **Simulation** (Peridynamik) sagt voraus, wie und wo Schäden entstehen und sich ausbreiten
-- **Experiment** (UAV-Laser-SHM) misst, wo Schäden tatsächlich sind - auch an bestehenden Anlagen
+- **Experiment** (SHM) misst, wo Schäden tatsächlich sind - auch an bestehenden Anlagen
 - Beide Säulen validieren und schärfen sich gegenseitig
 
 ---
 
 # Säule 1: Peridynamik
 
----
 
-## Warum Peridynamik?
 
 ![bg right fit](./assets/model_comp.png)
 
@@ -71,7 +55,7 @@ Prof. Dr.-Ing. Christian Willberg
 
 - Simulationen werden gegen eigene Experimente validiert (hier: Rissflächen in PMMA, Mikroskopaufnahmen)
 - Open-Source-Code **PeriLab.jl** (DLR / PeriHub) als gemeinsame, offene Software-Basis
-- Ergebnisse und Beispielmodelle sind öffentlich einsehbar (siehe Software-Folie)
+- Ergebnisse und Beispielmodelle sind öffentlich einsehbar 
 
 ---
 
@@ -156,7 +140,15 @@ Ziel: Peridynamik von der akademischen Validierung zu einem **einsetzbaren Werkz
 
 ---
 
-# Säule 2: Experimentelle Mechanik - SHM per Drohne
+# Säule 2: Experimentelle Mechanik - Structural Health Monitoring
+
+Bilder und videos zur wellenausbreitung
+simulation + system
+
+
+bild für strukturierte Datenablage -> Digitalisierung
+Bild aus antrittsvolesung rein
+ KI anlernen. Metadaten wichtig
 
 ---
 
@@ -224,9 +216,7 @@ Kurzfristig, mittelfristig, langfristig - entlang beider Säulen, mit dem digita
 
 ---
 
-# Lehre und Kooperationen
 
----
 
 <!-- _class: cols-2 -->
 ## Anbindung an die Lehre

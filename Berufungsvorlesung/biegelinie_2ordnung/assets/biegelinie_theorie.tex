@@ -112,7 +112,7 @@
 
   % neutral fiber (radius rho)
   \draw[mainblue, line width=1.8pt] (-70:4) arc (-70:-20:4);
-  % fiber at distance y from the neutral axis (radius rho+y) -> stretched
+  % fiber at distance z from the neutral axis (radius rho+z) -> stretched
   \draw[mainblue, dashed, line width=1.4pt] (-70:4.9) arc (-70:-20:4.9);
 
   % the two cross-sections (cut faces), extended through both fibers
@@ -121,19 +121,19 @@
 
   \node[mainblue] at (-45:3.65) {$\rho$};
   \node[mainblue, anchor=east] at (-68:3.75) {$\mathrm ds$};
-  \node[mainblue, anchor=south west] at (-22:5.25) {$\mathrm ds+y\,\mathrm d\varphi$};
+  \node[mainblue, anchor=south west] at (-22:5.25) {$\mathrm ds+z\,\mathrm d\varphi$};
 
-  % y-bracket along the right cut face, between the two fibers
+  % z-bracket along the right cut face, between the two fibers
   \draw[shearcolor, <->, line width=0.9pt] (-20:4.08) -- (-20:4.82);
-  \node[shearcolor, anchor=north west] at (-20:4.45) {$y$};
+  \node[shearcolor, anchor=north west] at (-20:4.45) {$z$};
 
   \draw[accent] (-70:0.9) arc (-70:-20:0.9);
   \node[accent] at (-45:1.3) {$\mathrm d\varphi$};
 
   \node[mainblue, font=\large, anchor=west] at (7.3,1.3) {Neutrale Faser: $\mathrm ds = \rho\,\mathrm d\varphi$};
-  \node[mainblue, font=\large, anchor=west] at (7.3,0.0) {Faser im Abstand $y$: $\mathrm ds+y\,\mathrm d\varphi=(\rho+y)\,\mathrm d\varphi$};
-  \node[mainblue, font=\large, anchor=west] at (7.3,-1.6) {Dehnung: $\varepsilon(x,y)=\dfrac{(\mathrm ds+y\,\mathrm d\varphi)-\mathrm ds}{\mathrm ds} = \dfrac{y\,\mathrm d\varphi}{\rho\,\mathrm d\varphi}$};
-  \node[mainblue, font=\large, anchor=west] at (7.3,-3.0) {$\boxed{\varepsilon(x,y) = \dfrac{y}{\rho(x)}}$};
+  \node[mainblue, font=\large, anchor=west] at (7.3,0.0) {Faser im Abstand $z$: $\mathrm ds+z\,\mathrm d\varphi=(\rho+z)\,\mathrm d\varphi$};
+  \node[mainblue, font=\large, anchor=west] at (7.3,-1.6) {Dehnung: $\varepsilon(x,z)=\dfrac{(\mathrm ds+z\,\mathrm d\varphi)-\mathrm ds}{\mathrm ds} = \dfrac{z\,\mathrm d\varphi}{\rho\,\mathrm d\varphi}$};
+  \node[mainblue, font=\large, anchor=west] at (7.3,-3.0) {$\boxed{\varepsilon(x,z) = \dfrac{z}{\rho(x)}}$};
 \end{tikzpicture}
 
 \end{document}
