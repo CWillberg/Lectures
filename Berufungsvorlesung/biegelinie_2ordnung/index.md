@@ -53,19 +53,7 @@ Prof. Dr.-Ing. Christian Willberg
 
 ---
 
-## Beispiel 2: Flugzeug U-2
-
-![bg right fit](https://upload.wikimedia.org/wikipedia/commons/3/3c/U-2_taxies_2006-06-20_F-8409K-002.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
-
-- Höhenaufklärer U-2: extrem leichte, lange Tragflächen für große Flughöhen
-- Flügel so biegeweich, dass er am Boden auf Stützrädern ("Pogo-Sticks") ruht
-- Bewusste Auslegungsentscheidung - nicht durch Festigkeit, sondern durch Steifigkeit/Gewicht getrieben
-
-<!-- _footer: 'Bild: US Air Force (PD) · u2egypt.brown.edu' -->
-
----
-
-## Beispiel 3: Blattfeder
+## Beispiel 2: Blattfeder
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/6/63/Leafs1.jpg?utm_source=www.wikidata.org&utm_campaign=imageinfo&utm_content=original)
 
@@ -120,24 +108,13 @@ $$\sigma(x,z) = \frac{M_b(x)}{I}\,z$$
 
 ---
 
-## Wie kommt man von der Spannung zur Deformation?
-
-- Beim Zugstab: $\sigma \to \varepsilon \to \delta$ - direkt, konstant über den Querschnitt
-- Beim Balken: $\sigma(x,z) \to \varepsilon(x,z) \to\ ?$
-- Die Dehnung variiert über $z$ $\Rightarrow$ der Balken **krümmt sich**
-
-
----
-
-
 ## Die Biegelinie $w(x)$
 
 ![bg right fit](./assets/biegelinie_konzept.png)
 
-- $x$ - Balkenachse (unverformt)
-- $w(x)$ - Durchbiegung, gemessen in $z$-Richtung
-- $w'(x) = \tan\varphi$ - Neigung der Tangente
-- $\rho$ - Krümmungsradius an der Stelle $x$
+- Beim Balken variiert die Dehnung über $z$ $\Rightarrow$ der Balken **krümmt sich**
+- $x$ - Balkenachse (unverformt), $w(x)$ - Durchbiegung in $z$-Richtung
+- $w'(x) = \tan\varphi$ - Neigung der Tangente, $\rho$ - Krümmungsradius an der Stelle $x$
 
 ---
 
@@ -214,109 +191,7 @@ $$EI\,w''(x) = -M_b(x)$$
 
 ---
 
-## Randbedingungen an Lagern
-
-- **Festlager / Loslager:** $w = 0$ (keine Durchbiegung)
-- **Einspannung:** $w = 0$ **und** $w' = 0$ (keine Durchbiegung, keine Neigung)
-- **Freies Ende:** $M = 0$ (und $F_q=0$, falls keine Einzellast)
-
----
-
-## Übergangsbedingungen zwischen Bereichen
-
-
-
-- **Durchbiegung stetig:** $w_I(x_0) = w_{II}(x_0)$
-- **Neigung stetig:** $w_I'(x_0) = w_{II}'(x_0)$
-
-
-
-![bg right fit](./assets/biegelinie_uebergang.png)
-
----
-
-
-# Beispiel - Kragträger
-
-## Kragarm mit konstanter Streckenlast $q_0$
-
-
-
-- Dasselbe Beispiel wie zuvor: Einspannung bei $x=0$, freies Ende bei $x=\ell$, Streckenlast $q_0$
-- Gesucht: $w(x)$, insbesondere $w(\ell)$
-
-
----
-
-![bg right fit](./assets/biegelinie_momentenbeispiel.png)
-
-- Querkraft: 
-$F_q(x) = q_0(\ell - x)$
-- Biegemoment: 
-$M(x) = -\dfrac{q_0}{2}(\ell-x)^2$
-- Biegespannung: 
-$\sigma(x,z) = \dfrac{M(x)}{I}\,z$
-
-
----
-
-
-
-
-
-## Schritt 1: Momentenverlauf
-
-$$M(x) = -\frac{q_0}{2}(\ell - x)^2$$
-
-## Schritt 2: Differentialgleichung lösen
-
-$$EI\,w''(x) = -M(x) = \frac{q_0}{2}\left(\ell^2 - 2\ell x + x^2\right)$$
-
-**1. Integration:**
-$$EI\,w'(x) = \frac{q_0}{2}\left(\ell^2 x - \ell x^2 + \frac{x^3}{3}\right) + C_1$$
-
-**2. Integration:**
-$$EI\,w(x) = \frac{q_0}{2}\left(\frac{\ell^2 x^2}{2} - \frac{\ell x^3}{3} + \frac{x^4}{12}\right) + C_1 x + C_2$$
-
----
-
-## Schritt 3: Randbedingungen
-
-Einspannung bei $x=0$: $w(0)=0$ und $w'(0)=0$
-
-$$w'(0)=0 \;\Rightarrow\; C_1 = 0 \qquad\qquad w(0)=0 \;\Rightarrow\; C_2 = 0$$
-
-**Ergebnis:**
-
-$$w(x) = \frac{q_0}{2EI}\left(\frac{\ell^2 x^2}{2} - \frac{\ell x^3}{3} + \frac{x^4}{12}\right)$$
-
-$$\boxed{w(\ell) = \frac{q_0\ell^4}{8EI}}$$
-
-Maximale Durchbiegung am freien Ende - der klassische Referenzwert für den gleichmäßig belasteten Kragarm.
-
----
-
-## Biegelinie des Kragarms
-
-![bg right fit](./assets/biegelinie_kragarm_wx.png)
-
-- Waagerechte Tangente an der Einspannung ($w'(0)=0$)
-- Monoton wachsende Durchbiegung bis zum freien Ende
-- Maximum $w(\ell)=q_0\ell^4/8EI$ am freien Ende
-
----
-## Diskussion der Einflussgrößen
-
-Gegebene Belastung $q$ und Geometrie $l$
-
-Auslegung hinsichtlich 
-- Material $E$
-- Flächenträgheitsmoment $I$
-
-
----
-
-# Beispiel 2: Der Einfeldträger
+# Beispiel: Der Einfeldträger
 
 ---
 
@@ -327,54 +202,35 @@ Auslegung hinsichtlich
 - Loslager bei $x=0$, Festlager bei $x=\ell$
 - Einzellast $F$ bei $x=\ell/2$
 - Zwei Bereiche nötig: I ($0 \le x \le \ell/2$), II ($\ell/2 \le x \le \ell$)
+- Randbedingungen an den Lagern **und** Übergangsbedingungen am Lastangriffspunkt $x=\ell/2$ nötig
 
 ---
 
 ## Schritt 1: Auflagerreaktionen und Momente
 
+![bg right fit](./assets/biegelinie_uebergang.png)
+
 Symmetrie: $A = B = F/2$
 
 $$M_I(x) = \frac{F}{2}\,x \qquad (0 \le x \le \ell/2)$$
-$$M_{II}(x) = \frac{F}{2}\,x - F\left(x-\frac{\ell}{2}\right) = \frac{F}{2}(\ell - x) \qquad (\ell/2 \le x \le \ell)$$
+$$M_{II}(x) = \frac{F}{2}(\ell - x) \qquad (\ell/2 \le x \le \ell)$$
 
 Maximalmoment in Feldmitte: $M(\ell/2) = F\ell/4$
 
 ---
 
-## Schritt 2: Integration in beiden Bereichen
+## Lösung: zwei Bereiche, vier Bedingungen
 
-**Bereich I** ($0 \le x \le \ell/2$), aus $EI\,w_I''(x) = -\dfrac{F}{2}x$:
+- Integration in **beiden** Bereichen $\Rightarrow$ vier Integrationskonstanten $C_1,\dots,C_4$ (zweifache Integration, s.o.)
+- Bestimmt aus $w_I(0)=0$, $w_{II}(\ell)=0$ (Lager) sowie $w_I(\ell/2)=w_{II}(\ell/2)$, $w_I'(\ell/2)=w_{II}'(\ell/2)$ (Stetigkeit am Übergang)
 
-$$EI\,w_I'(x) = -\frac{F}{4}x^2 + C_1 \qquad\qquad EI\,w_I(x) = -\frac{F}{12}x^3 + C_1 x + C_2$$
-
-**Bereich II** ($\ell/2 \le x \le \ell$), aus $EI\,w_{II}''(x) = -\dfrac{F}{2}(\ell-x)$:
-
-$$EI\,w_{II}'(x) = -\frac{F\ell}{2}x + \frac{F}{4}x^2 + C_3 \qquad\qquad EI\,w_{II}(x) = -\frac{F\ell}{4}x^2 + \frac{F}{12}x^3 + C_3 x + C_4$$
-
-Vier Integrationskonstanten $C_1,\dots,C_4$ - zwei pro Bereich.
-
----
-
-## Schritt 3: Rand- und Übergangsbedingungen
-
-- $w_I(0) = 0$ (Loslager)
-- $w_{II}(\ell) = 0$ (Festlager)
-- $w_I(\ell/2) = w_{II}(\ell/2)$ (Durchbiegung stetig)
-- $w_I'(\ell/2) = w_{II}'(\ell/2)$ (Neigung stetig)
-
-Vier Gleichungen für vier Unbekannte $C_1,\dots,C_4$ - eindeutig lösbar.
-
----
-
-## Ergebnis
-
-Nach Einsetzen und Auflösen (Rechnung analog zu Beispiel 1, hier das Resultat):
+**Ergebnis:**
 
 $$w(x) = \frac{F x}{48\,EI}\left(3\ell^2 - 4x^2\right) \qquad (0 \le x \le \ell/2)$$
 
 $$\boxed{w_{max} = w(\ell/2) = \frac{F\ell^3}{48\,EI}}$$
 
-Zum Vergleich: der einseitig eingespannte Kragarm ($w_{max}=q_0\ell^4/8EI$) ist deutlich weicher als der beidseitig gelagerte Einfeldträger - die zweite Lagerstelle reduziert die Durchbiegung erheblich.
+Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselbe Steigung - die Übergangsbedingungen sind erfüllt.
 
 ---
 
@@ -384,7 +240,7 @@ Zum Vergleich: der einseitig eingespannte Kragarm ($w_{max}=q_0\ell^4/8EI$) ist 
 
 - Symmetrisch, Null an beiden Lagern
 - Maximum in Feldmitte: $w(\ell/2)=F\ell^3/48EI$
-- Deutlich flacher als beim Kragarm - die zweite Lagerstelle erhöht die Steifigkeit erheblich
+- Stetiger, glatter Verlauf über den Übergang bei $x=\ell/2$ hinweg - kein Knick
 
 ---
 
@@ -392,29 +248,13 @@ Zum Vergleich: der einseitig eingespannte Kragarm ($w_{max}=q_0\ell^4/8EI$) ist 
 
 
 
-<!-- _class: cols-2 -->
-## Grenzen der Theorie
+## Zusammenfassung und Grenzen der Theorie
 
+- Krümmung $\dfrac{1}{\rho}\approx w''(x)$ + Werkstoffgesetz $\dfrac{1}{\rho}=\dfrac{M}{EI}$ $\Rightarrow$ $\boxed{EI\,w''=-M(x)}$
+- Lösung durch zweifache Integration, Konstanten aus Rand-/Übergangsbedingungen
 - **Schubverformung** vernachlässigt (Euler-Bernoulli) - bei gedrungenen Balken (Timoshenko-Theorie nötig)
 - **Kleine Verformungen** vorausgesetzt - bei großen Durchbiegungen nichtlineare Krümmung nötig
 - **Lineare Elastizität** - keine Plastizität, kein Kriechen
-
-
----
-
-
-
-## Zusammenfassung
-
-- Krümmung $\dfrac{1}{\rho}\approx w''(x)$ + Werkstoffgesetz $\dfrac{1}{\rho}=\dfrac{M}{EI}$ $\Rightarrow$ $EI\,w''=-M(x)$
-- Lösung durch zweifache Integration, Konstanten aus Rand-/Übergangsbedingungen
-
----
-
-Plutoskript
-
-julia code erstellen den ich lokal als web interface laufen lasse. da kann ich die einflussgrößen testen und zeigen was passiert, wenn ich eine kraft vergrößere und verschiebe bei einem zweifeldbeispiel; dort die herleitung der mathematik mit rein und abgebildet in code, damit man spielen kann
-
 
 ---
 

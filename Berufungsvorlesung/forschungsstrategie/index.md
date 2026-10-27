@@ -1,6 +1,6 @@
 ---
 marp: true
-header: 'Berufungsvorlesung - Forschungsstrategie'
+header: 'Berufungsvorlesung - Forschungs- und Lehrkonzept'
 theme: h2
 paginate: true
 math: katex
@@ -11,11 +11,11 @@ style: |
 ---
 
 <!-- _class: lead -->
-# Forschungsstrategie
+# Forschungs- und Lehrkonzept
 ## Mechanik und experimentelle Mechanik
 
 
-Prof. Dr.-Ing. Christian Willberg
+Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183"><img src="../../assets/styles/ORCIDiD_iconvector.png" alt="ORCID Symbol" style="height:15px;width:auto;vertical-align: top;background-color:transparent;"></a>
 28.10.2026
 
 <div style="margin-top:30px;">
@@ -27,229 +27,135 @@ Prof. Dr.-Ing. Christian Willberg
 
 ---
 
-# Zwei Säulen
+# Forschungskonzept
+
 
 ![bg right fit](./assets/forschung_saeulen.png)
 
 - **Simulation** (Peridynamik) sagt voraus, wie und wo Schäden entstehen und sich ausbreiten
-- **Experiment** (SHM) misst, wo Schäden tatsächlich sind - auch an bestehenden Anlagen
-- Beide Säulen validieren und schärfen sich gegenseitig
+- **Experiment** messen, wo Schäden tatsächlich sind - auch an bestehenden Anlagen; Verständnis wie sie wirken
+- **Daten & Digitalisierung** verbinden beide Seiten strukturiert - Grundlage für Validierung und KI-Modelle
 
 ---
 
-# Säule 1: Peridynamik
+## Peridynamik
 
+![bg right fit](https://raw.githubusercontent.com/PeriHub/PeriLab.jl/main/assets/PeriLab_crack.gif)
 
+- Peridynamik: **nichtlokal** über einen Horizont $\delta$ - Risse entstehen, wo es die Physik vorgibt, statt vordefinierter Risspfade
+- Simulation mit Open-Source-Code **PeriLab.jl** (DLR/PeriHub), validiert an eigenen Experimenten
+- Bereits im industriellen Einsatz (additive Fertigung, Partner SWMS Systemtechnik)
 
-![bg right fit](./assets/model_comp.png)
-
-- Kontinuumsmechanik: **lokal**, braucht vordefinierte Risspfade oder Remeshing
-- Peridynamik: **nichtlokal** über einen Horizont $\delta$ - Risse entstehen, wo es die Physik vorgibt
-- Schwerpunkt bisher: Bruch- und Ermüdungsverhalten, Schädigungsmodelle, numerische Umsetzung
+<div style="margin-top:10px;">
+<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=110" style="height:80px;width:auto;">
+<div style="font-size:13px; color:#888;">perihub.nimbus-extern.dlr.de</div>
+</div>
 
 ---
 
-## Validierung an realen Bauteilen
+## PeriHub: Modellbau & Plattform
 
-![bg right fit](./assets/cracksurfaces_PMMA.png)
+<iframe src="https://perihub.nimbus-extern.dlr.de/" width="1150" height="600"></iframe>
 
-- Simulationen werden gegen eigene Experimente validiert (hier: Rissflächen in PMMA, Mikroskopaufnahmen)
-- Open-Source-Code **PeriLab.jl** (DLR / PeriHub) als gemeinsame, offene Software-Basis
-- Ergebnisse und Beispielmodelle sind öffentlich einsehbar 
+- Modelle werden direkt in der Plattform aufgebaut, parametrisiert und simuliert
+- Ergebnisse, Modelle und Metadaten liegen zentral und FAIR-strukturiert vor
 
 ---
 
 <!-- _class: cols-2 -->
-## Stand und nächste Schritte
+## Säule 2: Structural Health Monitoring
 
 <div class="ldiv">
 
-**Bereits etabliert:**
-- Schädigungsmodelle für Bruch & Ermüdung
-- Numerische Umsetzung und Validierung an Testfällen
-
-**Nächste Schritte:**
-- Skalierung auf industrielle Geometrien
-- Kopplung mit FEM (Rechenzeit, Hybridmodelle)
-- Unsicherheitsquantifizierung
+- **Beispiel: geführte Wellen** - Wellenausbreitung in Simulation (EFIT) und FEM, validiert an Messdaten
+- Klassisches SHM (feste Sensoren) nur in Neubauten wirtschaftlich nachrüstbar
+- Unser Ansatz: **UAV-gestützte Lasermessung** - berührungslos, retrofit-fähig an Bestandsanlagen
+- Offene Fragen: Auflösung vs. Schadensgröße, Flugbahnplanung, Datenfusion
 
 </div>
-<div class="rdiv">
+<div class="rimg" style="flex-direction:column; gap:8px;">
 
-Ziel: Peridynamik von der akademischen Validierung zu einem **einsetzbaren Werkzeug** für reale Bauteile weiterentwickeln.
+<img src="./assets/wellen_simfem.png" style="width:95%;">
+<img src="./assets/forschung_drohne_pipeline.png" style="width:95%;">
 
 </div>
 
----
-
-## PeriLab in Aktion: Beispielergebnisse
-
-<div style="display:flex; justify-content:center; align-items:flex-end; gap:24px; margin-top:10px;">
-  <figure style="text-align:center; margin:0;">
-    <img src="./assets/perilab_dogbone.png" style="height:210px; border-radius:4px;">
-    <figcaption><b>Dogbone</b><br>von-Mises-Spannung</figcaption>
-  </figure>
-  <figure style="text-align:center; margin:0;">
-    <img src="./assets/perilab_dcb.png" style="height:210px; border-radius:4px;">
-    <figcaption><b>DCB</b><br>Delamination (Damage)</figcaption>
-  </figure>
-  <figure style="text-align:center; margin:0;">
-    <img src="./assets/perilab_rve.png" style="height:210px; border-radius:4px;">
-    <figcaption><b>RVE</b><br>Mikroschädigung</figcaption>
-  </figure>
-</div>
-
-- Farbskala jeweils variablenspezifisch (Spannung, Schädigung)
-- Alle Ergebnisse live und interaktiv im Browser einsehbar (nächste Folie)
+<!-- _footer: 'Wellenbild: Lefèvre, Savli, Willberg, Tschöke, ICCBMA 2022' -->
 
 ---
 
-## Software & Demonstrationen (PeriLab)
+## Die Synergie: digitaler Zwilling
 
-<!-- _class: cols-2 -->
+- Peridynamik-Prognosen brauchen Validierung - UAV-Laserscans liefern genau diese Referenzdaten an echten Strukturen
+- Beide Datenströme werden über **PeriLab/PeriHub** mit einheitlichen Metadaten (FAIR) strukturiert abgelegt - Grundlage für verlässliche KI-/Surrogatmodelle
 
-<div class="ldiv">
-
-- Open-Source-Code: [github.com/PeriHub/PeriLab.jl](https://github.com/PeriHub/PeriLab.jl)
-- Video-Kanal: [youtube.com/@PeriHub](https://www.youtube.com/@PeriHub/videos)
-  - *3D Printed Dogbone - Additive-Manufacturing Stress Analysis*
-  - *Fragmenting Cylinder*
-- Interaktive Beispielmodelle (live, im Browser):
-  [Dogbone](https://perilab-results.nimbus-extern.dlr.de/models/Dogbone), [DCB](https://perilab-results.nimbus-extern.dlr.de/models/DCB), [RVE](https://perilab-results.nimbus-extern.dlr.de/models/RVE), [Additive](https://perilab-results.nimbus-extern.dlr.de/models/Additive)
-
-</div>
-<div class="rdiv">
-
-<iframe src="https://perihub.nimbus-extern.dlr.de/" title="PeriHub (live)" style="width:100%; height:360px; border:1px solid #8592bc; border-radius:6px;"></iframe>
-
-<div style="text-align:center; margin-top:10px;">
-<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=220&centerImageUrl=https://raw.githubusercontent.com/CWillberg/Lectures/main/assets/QR/h2.png" style="height:110px;width:auto;">
-</div>
-
-</div>
-
-<!-- _footer: 'Auf Wunsch: Live-Demonstration direkt im Browser' -->
+$$\text{Simulation} \;\longleftrightarrow\; \text{Messung} \;\xrightarrow{\text{Metadaten}}\; \text{digitaler Zwilling}$$
 
 ---
 
-## Von der Forschung in die Industrie: Additive Fertigung
+## Anwendungsfeld und Förderung
 
-- PeriLab simuliert native additive Fertigungsprozesse (Schichtaufbau, Temperaturfeld - siehe Demo-Folie)
-- Bereits im aktiven industriellen Einsatz: **SWMS Systemtechnik Ingenieurgesellschaft mbH**, Partner auf der PeriLab-Projektseite, u.a. in Forschungsprojekten zur additiven Fertigung
-- Zeigt den Übergang von akademischer Validierung zum einsetzbaren Industrie-Werkzeug
+![bg right fit](./assets/enerkite_system.jpg)
 
----
+- **Flugwindanlagen** (Airborne Wind Energy, hier: Enerkite): leichte, hochdynamisch belastete Strukturen - Profil beider Säulen
+- Aktiv in **IEA Wind Task 48** - WP1-Leiter **"Material and Manufacturing"**
+- **Drittmittel:** DFG-Einzelförderung (Peridynamik), Förderlinien für SHM-Entwicklung
 
-# Säule 2: Experimentelle Mechanik - Structural Health Monitoring
-
-Bilder und videos zur wellenausbreitung
-simulation + system
-
-
-bild für strukturierte Datenablage -> Digitalisierung
-Bild aus antrittsvolesung rein
- KI anlernen. Metadaten wichtig
+<!-- _footer: 'Bild: Enerkite GmbH' -->
 
 ---
 
-## Das Problem klassischer Structural Health Monitoring (SHM)
+## Industrietransfer
 
-- Klassisches SHM: fest verbautes Sensornetzwerk (Dehnmessstreifen, piezoelektrische Sensoren, Glasfasern)
-- Nachteile: aufwendige Auslegung, feste Verkabelung, **nur in Neubauten wirtschaftlich** nachrüstbar
-- Frage: Wie überwacht man **bestehende** Anlagen, ohne sie umzubauen?
-
----
-
-## Idee: UAV-gestützte Lasermessung
-
-![bg right fit](./assets/forschung_drohne_pipeline.png)
-
-- Drohne mit Laserscanner tastet die Oberfläche berührungslos ab
-- Punktwolken-/Bilddaten werden per Bilderkennung auf Schäden ausgewertet
-- Kein fest installiertes Sensornetzwerk nötig
-- Einsetzbar an **bestehenden** Anlagen - Inspektion statt Neubau
+- Viele DLR-Projekte in enger Zusammenarbeit mit der Industrie
+- Aktuell: **Kommerzialisierung von PeriLab** - vom Open-Source-Forschungscode zum Industrieprodukt
 
 ---
 
-## Vorteile dieses Ansatzes
-
-- **Keine Sensorplanung:** keine vorab festgelegten Messpunkte, keine Verkabelung
-- **Retrofit-fähig:** funktioniert an Bestandsanlagen (Brücken, Industrieanlagen, Rotorblätter)
-- **Flexibel:** Fluggebiet und Auflösung pro Inspektion anpassbar
-- **Skalierbar:** Bilderkennung automatisiert die Auswertung großer Datenmengen
-
-**Offene Forschungsfragen:** Auflösung vs. Schadensgröße, Flugbahnplanung, Datenfusion, Validierung gegen bekannte Referenzschäden
+# Lehrkonzept
 
 ---
 
-# Die Synergie
+## Lehrphilosophie: dieselbe Verbindung wie in der Forschung
+
+- Modellbildung **und** Messpraxis gehören zusammen - keine Trennung von Theorie und Experiment
+- Visuelle, schrittweise Herleitung statt Formel-Dump: jede Vorlesung mit eigens erstellten Grafiken zur Veranschaulichung
+- Materialien offen zugänglich (GitHub Pages) - nachschlagbar über das Semester hinaus
 
 ---
 
-## Simulation trifft Experiment
+## Digitale, interaktive Werkzeuge
 
-- Peridynamik-Modelle sagen Schädigungsentwicklung voraus - aber jedes Modell braucht **Validierung**
-- Die UAV-Laserscans liefern genau diese Referenzdaten - gemessen an echten, auch historisch gewachsenen Strukturen
-- Umgekehrt: erkannte Schäden aus den Scans lassen sich mit Peridynamik-Simulationen erklären und fortschreiben (Restlebensdauer)
+![bg right fit](./assets/pluto_interactive_biegelinie.png)
 
-$$\text{Simulation (PD)} \;\;\longleftrightarrow\;\; \text{Messung (UAV-Laser-SHM)}$$
-
-**Langfristige Vision:** ein digitaler Zwilling, dessen Schädigungszustand kontinuierlich durch autonome Messung aktualisiert wird.
+- Interaktive Pluto.jl-Notebooks: Studierende verändern Parameter per Schieberegler, Ergebnis aktualisiert sich live
+- Beispiel: Einfeldträger-Biegelinie - Kraft und Lastposition frei wählbar, Herleitung im Code nachvollziehbar
+- Software-Analysen mit Metadaten verknüpft, strukturierte Daten als Basis für spätere KI-Anbindung
 
 ---
 
-## Anwendungsfeld: Flugwindanlagen (Airborne Wind Energy)
+## Lehrportfolio
 
-- Flugwindanlagen (Kites/Tragflächen am Seil statt Turm): leichte, hochdynamisch belastete Faserverbund- und Membranstrukturen
-- Genau das Profil beider Säulen: Ermüdung & Schädigung (Peridynamik) und Zustandsüberwachung (UAV-Laser-SHM)
-- Aktive Mitarbeit: **IEA Wind Task 48** (Airborne Wind Energy), Arbeitspaket **WP1 - Materials and Manufacturing**
-
----
-
-## Forschungs-Roadmap
-
-Kurzfristig, mittelfristig, langfristig - entlang beider Säulen, mit dem digitalen Zwilling als gemeinsamem Zielbild:
+- Technische Mechanik (u.a. Biegelinie, Festigkeitslehre)
+- Faserverbundwerkstoffe (Bachelor- und Seminar-Module)
+- Bruchmechanik, Ermüdung und Peridynamik
+- Durchgängig über mehrere Semester des Maschinenbau-Bachelors
 
 ---
 
-![bg fit](./assets/forschung_roadmap.png)
+## Lehrkonzept an der Professur Mittweida
 
----
-
-
-
-<!-- _class: cols-2 -->
-## Anbindung an die Lehre
-
-<div class="ldiv">
-
-- Peridynamik und Bruchmechanik sind bereits in bestehenden Modulen verankert (FractureFatigue, Peridynamics)
-- Neue experimentelle Inhalte (SHM, Messtechnik, Bildverarbeitung) ergänzen das Profil "Mechanik und experimentelle Mechanik" konsequent
-- Abschlussarbeiten an der Schnittstelle Simulation/Experiment
-
-</div>
-<div class="rdiv">
-
-Studierende lernen beide Seiten: Modellbildung **und** Messpraxis - keine Trennung von Theorie und Experiment.
-
-</div>
-
----
-
-## Kooperationen und Förderung
-
-- **Industriepartner:** Zugang zu Bestandsanlagen für Flugfeldtests, Praxisrelevanz der Schadensszenarien
-- **Drittmittel:** DFG-Einzelförderung (Grundlagenforschung Peridynamik), anwendungsnahe Förderlinien für die SHM-Entwicklung
-- **Vernetzung:** bestehende Kontakte aus der Peridynamik-Community, neue Partnerschaften im Bereich UAV/Messtechnik
+- Dieselbe Verzahnung Simulation/Experiment, die die Forschungsstrategie trägt, auch in der Lehre verankern
+- Abschlussarbeiten an der Schnittstelle Simulation/Experiment - Studierende direkt in laufende Projekte einbinden
+- Ziel: Studierende, die beide Seiten der Mechanik - Modell und Messung - sicher beherrschen
 
 ---
 
 ## Zusammenfassung
 
-- Zwei komplementäre Säulen: **Peridynamik** (Simulation) und **UAV-Laser-SHM** (Experiment)
-- Beide bauen auf vorhandener Expertise auf und erschließen neue Anwendungsfelder
-- Die Verbindung beider Säulen - Validierung, digitaler Zwilling - ist das Alleinstellungsmerkmal dieser Forschungsstrategie
-- Passt direkt auf die Professur "Mechanik und experimentelle Mechanik"
+- **Forschung:** zwei komplementäre Säulen (Peridynamik-Simulation, UAV-Laser-SHM), verbunden durch strukturierte, FAIR-Daten zum digitalen Zwilling
+- **Lehre:** dieselbe Verzahnung von Modellbildung und Messpraxis, vermittelt mit visuellen, interaktiven Werkzeugen
+- Beides passt direkt auf die Professur **"Angewandte und Experimentelle Mechanik"**
 
 ---
 

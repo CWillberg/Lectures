@@ -16,7 +16,7 @@ macro bind(def, element)
     #! format: on
 end
 
-# ╔═╡ 3c7070ee-d1cf-11f1-9b1e-1137ea4593e7
+# ╔═╡ 57fee2ce-d1f6-11f1-852f-711f4ecbb238
 begin
 	using PlutoUI
 	using CairoMakie
@@ -25,7 +25,7 @@ begin
 end
 
 
-# ╔═╡ 3c6f1334-d1cf-11f1-a53a-f9c5526e1686
+# ╔═╡ 57fdd3a2-d1f6-11f1-94ea-41d4ecd72025
 md"""
 # Einfeldträger mit verschiebbarer Einzellast - interaktiv
 
@@ -36,10 +36,17 @@ die Biegelinie \$w(x)\$ wird live neu berechnet und geplottet.
 
 **Aufbau:** Einfeldträger der Länge \$\\ell\$, Loslager bei \$x=0\$, Festlager bei \$x=\\ell\$,
 Einzellast \$F\$ an einer beliebigen Stelle \$x=a\$ (statt fest in Feldmitte wie in der Vorlesung).
+
+<div style="text-align:center; margin-top:28px;">
+<button onclick="document.getElementById('demo-start').scrollIntoView({behavior:'smooth', block:'start'})"
+style="background:#001158; color:white; border:none; border-radius:10px; padding:14px 34px; font-size:1.1em; font-weight:bold; cursor:pointer; box-shadow:0 2px 8px rgba(0,17,88,0.25);">
+▶ Start
+</button>
+</div>
 """
 
 
-# ╔═╡ 3c70758a-d1cf-11f1-8eed-1d6dae8e4892
+# ╔═╡ 57fee6ca-d1f6-11f1-8804-6fb8e0fe0eab
 md"""
 ## Herleitung
 
@@ -67,7 +74,7 @@ hinterlegt, die Integrationskonstanten werden bei jeder Schieberbewegung neu aus
 """
 
 
-# ╔═╡ 3c7079a4-d1cf-11f1-a3d6-852630ceb780
+# ╔═╡ 57feea30-d1f6-11f1-b175-e7bbd3ed2042
 """
     solve_beam(F, a, ℓ, EI)
 
@@ -113,11 +120,11 @@ function solve_beam(F, a, ℓ, EI)
 end
 
 
-# ╔═╡ 3c707e4a-d1cf-11f1-b56f-4bcbc5808c33
-md"## Feste Parameter (im Bedarfsfall hier direkt anpassen)"
+# ╔═╡ 57feee86-d1f6-11f1-81f6-db4876edc518
+md"## Feste Parameter"
 
 
-# ╔═╡ 3c708232-d1cf-11f1-abca-2173c92a39cf
+# ╔═╡ 57fef1c4-d1f6-11f1-a0e2-ff2fef740121
 begin
 	ℓ  = 4.0        # Spannweite [m]
 	EI = 2.1e11 * 8.0e-6  # Biegesteifigkeit [N·m²] (Beispiel: Stahl E=210 GPa, I=8e-6 m⁴)
@@ -125,81 +132,121 @@ begin
 end
 
 
-# ╔═╡ 3c708624-d1cf-11f1-8d14-f73083367e9a
+# ╔═╡ 57fef502-d1f6-11f1-a5a0-7566c48feb53
+begin
+	# Farbpalette wie in den Vorlesungsfolien (biegelinie_2ordnung)
+	mainblue  = "#001158"
+	accent    = "#8592bc"
+	loadcolor = "#e67e22"
+	lightacc  = "#e7e9f2"
+end
+
+
+# ╔═╡ 57fef836-d1f6-11f1-9265-19a3c72ef0b0
 html"""
 <style>
-pluto-notebook { padding-left: 250px !important; padding-bottom: 110px !important; }
+.beam-panel-row {
+	display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;
+	margin: 10px 0 24px 0;
+}
+.beam-panel {
+	background: #ffffff; border: 1px solid #e7e9f2; border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0,17,88,0.10);
+	font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+	padding: 14px 22px; flex: 1 1 320px; max-width: 380px;
+}
+.beam-panel b {
+	color: #001158; font-size: 0.95em; letter-spacing: 0.02em;
+}
+.beam-panel .unit { color: #8592bc; font-weight: normal; }
 </style>
 """
 
 
-# ╔═╡ 3c708a20-d1cf-11f1-94e2-ef3ebb2264c6
+# ╔═╡ 57fefb4a-d1f6-11f1-9088-89bb3f27dba5
 md"""
-<div style="position:fixed; left:16px; top:110px; width:210px; z-index:50;
-            background:#f7f8fc; border:1px solid #c7ccdd; border-radius:10px;
-            padding:14px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-<b>Kraft F&nbsp;[N]</b><br>
+<div id="demo-start"></div>
+<div class="beam-panel-row">
+<div class="beam-panel">
+<b>Kraft <span class="unit">F&nbsp;[N]</span></b><br><br>
 $(@bind F PlutoUI.Slider(0:50:Fmax, default=2000.0, show_value=true))
 </div>
-"""
-
-
-# ╔═╡ 3c708dfe-d1cf-11f1-ac77-4f3f5289b914
-md"""
-<div style="position:fixed; left:250px; right:20px; bottom:16px; z-index:50;
-            background:#f7f8fc; border:1px solid #c7ccdd; border-radius:10px;
-            padding:10px 16px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-<b>Position der Kraft a&nbsp;[m]&nbsp;(von links, 0&nbsp;&lt;&nbsp;a&nbsp;&lt;&nbsp;ℓ)</b><br>
+<div class="beam-panel">
+<b>Position der Kraft <span class="unit">a&nbsp;[m]</span></b>
+<span class="unit">&nbsp;(0 &lt; a &lt; ℓ = $(round(Int, ℓ)) m)</span><br><br>
 $(@bind a PlutoUI.Slider(0.1:0.05:(ℓ-0.1), default=ℓ/2, show_value=true))
+</div>
 </div>
 """
 
 
-# ╔═╡ 3c7091e6-d1cf-11f1-a7b2-d384510c7da1
+# ╔═╡ 57fefe80-d1f6-11f1-a031-81d972a08859
 begin
 	w_I, w_II, (C1, C2, C3, C4) = solve_beam(F, a, ℓ, EI)
 
-	xs1 = range(0, a, length=120)
-	xs2 = range(a, ℓ, length=120)
+	xs1 = range(0, a, length=160)
+	xs2 = range(a, ℓ, length=160)
 	# w(x) ist "nach unten positiv" (Vorlesungskonvention) -> zum Zeichnen negieren,
 	# damit ein durchhängender Balken auf dem Bildschirm auch sichtbar nach unten durchhängt.
 	ys1 = [-w_I(x) for x in xs1] .* 1000   # m -> mm, Vorzeichen fürs Bild gedreht
 	ys2 = [-w_II(x) for x in xs2] .* 1000
+	xs_curve = vcat(collect(xs1), collect(xs2))
+	ys_curve = vcat(ys1, ys2)
 
-	wmax_mm = maximum(abs.(vcat(ys1, ys2)))
-	ylim = max(wmax_mm * 1.35, 1.0)
+	# Stelle und Betrag der maximalen Durchbiegung (für Markierung + Textzelle unten)
+	idx = argmax(abs.(ys_curve))
+	x_at_wmax = xs_curve[idx]
+	w_at_wmax_mm = -ys_curve[idx]   # zurück in die "nach unten positiv"-Konvention der Vorlesung
 
-	fig = Figure(size = (760, 440))
+	wmax_mm = abs(ys_curve[idx])
+	ylim = max(wmax_mm * 1.4, 1.0)
+
+	fig = Figure(size = (760, 460), backgroundcolor = :white)
 	ax = Axis(fig[1, 1],
-		xlabel = "x [m]", ylabel = "Durchbiegung [mm]  (Bild: unten = reale Durchbiegungsrichtung)",
-		title = "Biegelinie - F = $(round(F, digits=0)) N bei a = $(round(a, digits=2)) m")
-	xlims!(ax, 0, ℓ)
-	ylims!(ax, -ylim, 0.3*ylim)
+		xlabel = "x  [m]",
+		ylabel = "Durchbiegung  [mm]   (unten im Bild = reale Durchbiegungsrichtung)",
+		title = "Einfeldträger - Biegelinie",
+		subtitle = "F = $(round(Int, F)) N  bei  a = $(round(a, digits=2)) m",
+		titlecolor = mainblue, subtitlecolor = accent,
+		xgridcolor = lightacc, ygridcolor = lightacc,
+		bottomspinecolor = accent, leftspinecolor = accent,
+		xticklabelcolor = mainblue, yticklabelcolor = mainblue,
+		xlabelcolor = mainblue, ylabelcolor = mainblue)
+	xlims!(ax, -0.15, ℓ + 0.15)
+	ylims!(ax, -ylim, 0.32*ylim)
 
-	lines!(ax, [0, ℓ], [0, 0], color = :gray, linestyle = :dash)                    # unverformte Achse
-	lines!(ax, [0, 0], [-0.1*ylim, 0.15*ylim], color = :black, linewidth = 4)       # Loslager-Andeutung
-	lines!(ax, [ℓ, ℓ], [-0.1*ylim, 0.15*ylim], color = :black, linewidth = 4)       # Festlager-Andeutung
-	lines!(ax, collect(xs1), ys1, color = :navy, linewidth = 3)
-	lines!(ax, collect(xs2), ys2, color = :navy, linewidth = 3)
-	arrows!(ax, [a], [0.28*ylim], [0.0], [-0.14*ylim], color = :crimson, linewidth = 3, arrowsize = 18)
-	text!(ax, a, 0.29*ylim, text = "F", color = :crimson, align = (:center, :bottom), fontsize = 18)
+	lines!(ax, [0, ℓ], [0, 0], color = accent, linestyle = :dash, linewidth = 1.2)   # unverformte Balkenachse
+
+	# Biegelinie: Fläche zwischen Kurve und Nulllinie leicht einfärben, Kurve selbst kräftig
+	band!(ax, xs_curve, zeros(length(xs_curve)), ys_curve, color = (mainblue, 0.12))
+	lines!(ax, xs_curve, ys_curve, color = mainblue, linewidth = 3.5)
+
+	# Lagersymbole (Dreieck = Auflager), angedeutet wie in den Folien
+	for (x0, lbl) in ((0.0, "A"), (ℓ, "B"))
+		poly!(ax, Point2f[(x0-0.11, 0.1*ylim), (x0+0.11, 0.1*ylim), (x0, 0.0)],
+			color = :white, strokecolor = mainblue, strokewidth = 2)
+		text!(ax, x0, 0.14*ylim, text = lbl, color = mainblue, align = (:center, :bottom), fontsize = 15)
+	end
+
+	# Kraftpfeil (orange wie die Streckenlast-Darstellung in den Folien)
+	arrows!(ax, [a], [0.30*ylim], [0.0], [-0.17*ylim], color = loadcolor, linewidth = 3, arrowsize = 20)
+	text!(ax, a, 0.31*ylim, text = "F", color = loadcolor, align = (:center, :bottom), fontsize = 18, font = :bold)
+
+	# Maximale Durchbiegung markieren
+	scatter!(ax, [x_at_wmax], [ys_curve[idx]], color = mainblue, markersize = 10)
+	text!(ax, x_at_wmax, ys_curve[idx] - 0.05*ylim,
+		text = "w_max = $(round(w_at_wmax_mm, digits=3)) mm",
+		color = mainblue, align = (:center, :top), fontsize = 13)
 
 	fig
 end
 
 
-# ╔═╡ 3c7095ec-d1cf-11f1-8d88-e98b85870c3b
-begin
-	xs_all = range(0, ℓ, length = 400)
-	ws_all = [x <= a ? w_I(x) : w_II(x) for x in xs_all]
-	idx = argmax(abs.(ws_all))
-	x_at_wmax = xs_all[idx]
-	w_at_wmax_mm = ws_all[idx] * 1000
-	md"""
-	**Maximale Durchbiegung:** $(round(w_at_wmax_mm, digits=3)) mm bei x = $(round(x_at_wmax, digits=2)) m
-	(für mittige Last bei a = ℓ/2 ist das exakt $(round(F*ℓ^3/(48*EI)*1000, digits=3)) mm - zum Vergleich mit dem Vorlesungsergebnis).
-	"""
-end
+# ╔═╡ 57ff01b4-d1f6-11f1-ae02-c1e3d10b2267
+md"""
+**Maximale Durchbiegung:** $(round(w_at_wmax_mm, digits=3)) mm bei x = $(round(x_at_wmax, digits=2)) m
+(zum Vergleich - mittige Last, Vorlesungsformel: $(round(F*ℓ^3/(48*EI)*1000, digits=3)) mm bei a = ℓ/2).
+"""
 
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -2159,16 +2206,16 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 """
 
 # ╔═╡ Cell order:
-# ╠═3c6f1334-d1cf-11f1-a53a-f9c5526e1686
-# ╠═3c7070ee-d1cf-11f1-9b1e-1137ea4593e7
-# ╠═3c70758a-d1cf-11f1-8eed-1d6dae8e4892
-# ╠═3c7079a4-d1cf-11f1-a3d6-852630ceb780
-# ╠═3c707e4a-d1cf-11f1-b56f-4bcbc5808c33
-# ╠═3c708232-d1cf-11f1-abca-2173c92a39cf
-# ╠═3c708624-d1cf-11f1-8d14-f73083367e9a
-# ╠═3c708a20-d1cf-11f1-94e2-ef3ebb2264c6
-# ╠═3c708dfe-d1cf-11f1-ac77-4f3f5289b914
-# ╠═3c7091e6-d1cf-11f1-a7b2-d384510c7da1
-# ╠═3c7095ec-d1cf-11f1-8d88-e98b85870c3b
+# ╠═57fdd3a2-d1f6-11f1-94ea-41d4ecd72025
+# ╠═57fee2ce-d1f6-11f1-852f-711f4ecbb238
+# ╠═57fee6ca-d1f6-11f1-8804-6fb8e0fe0eab
+# ╠═57feea30-d1f6-11f1-b175-e7bbd3ed2042
+# ╠═57feee86-d1f6-11f1-81f6-db4876edc518
+# ╠═57fef1c4-d1f6-11f1-a0e2-ff2fef740121
+# ╠═57fef502-d1f6-11f1-a5a0-7566c48feb53
+# ╠═57fef836-d1f6-11f1-9265-19a3c72ef0b0
+# ╠═57fefb4a-d1f6-11f1-9088-89bb3f27dba5
+# ╠═57fefe80-d1f6-11f1-a031-81d972a08859
+# ╠═57ff01b4-d1f6-11f1-ae02-c1e3d10b2267
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002

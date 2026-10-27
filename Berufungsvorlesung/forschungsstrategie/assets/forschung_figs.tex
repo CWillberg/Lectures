@@ -10,43 +10,54 @@
 \definecolor{wavecolor}{HTML}{2a9d8f}
 
 \tikzset{
-  rootnode/.style={rectangle, rounded corners=4pt, draw=mainblue, fill=mainblue, text=white, minimum width=6.2cm, minimum height=1.0cm, font=\bfseries\large, align=center},
-  pillarnode/.style={rectangle, rounded corners=4pt, draw=mainblue, fill=accent, text=white, minimum width=5.0cm, minimum height=1.0cm, font=\bfseries, align=center},
-  leafnode/.style={rectangle, rounded corners=3pt, draw=mainblue, fill=lightaccent, text=mainblue, minimum width=4.6cm, minimum height=0.9cm, font=\small, align=center},
+  rootnode/.style={rectangle, rounded corners=4pt, draw=mainblue, fill=mainblue, text=white, minimum width=7.8cm, text width=7.4cm, minimum height=1.0cm, font=\bfseries\large, align=center},
+  pillarnode/.style={rectangle, rounded corners=4pt, draw=mainblue, fill=accent, text=white, minimum width=4.4cm, text width=4.0cm, minimum height=1.3cm, font=\bfseries\small, align=center},
+  leafnode/.style={rectangle, rounded corners=3pt, draw=mainblue, fill=lightaccent, text=mainblue, minimum width=4.0cm, text width=3.6cm, minimum height=1.1cm, font=\small, align=center},
   edge/.style={mainblue, line width=1.1pt}
 }
 
 \begin{document}
 
-% ---------- PAGE 1: two research pillars (tree) ----------
+% ---------- PAGE 1: three research pillars (tree) ----------
 \begin{tikzpicture}[>=stealth]
-  \node[rootnode] (root) at (5.0,8.6) {Mechanik und experimentelle Mechanik};
+  \node[rootnode] (root) at (6.2,9.0) {Mechanik und experimentelle Mechanik};
 
-  \node[pillarnode] (pd) at (2.2,6.6) {Peridynamik (Simulation)};
-  \node[pillarnode] (shm) at (7.8,6.6) {UAV-Laser-SHM (Experiment)};
+  \node[pillarnode] (pd) at (1.5,6.8) {Peridynamik (Simulation)};
+  \node[pillarnode] (dig) at (6.2,6.8) {Daten \& Digitalisierung};
+  \node[pillarnode] (shm) at (10.9,6.8) {Experiment};
 
   \draw[edge] (root.south) -- (pd.north);
+  \draw[edge] (root.south) -- (dig.north);
   \draw[edge] (root.south) -- (shm.north);
 
-  \node[leafnode] (pd1) at (2.2,4.7) {Bruch \& Ermüdung};
-  \node[leafnode] (pd2) at (2.2,3.3) {Schädigungsmodelle};
-  \node[leafnode] (pd3) at (2.2,1.9) {Kopplung mit FEM};
+  \node[leafnode] (pd1) at (1.5,4.9) {Bruch \& Ermüdung};
+  \node[leafnode] (pd2) at (1.5,3.5) {Schädigungsmodelle};
+  \node[leafnode] (pd3) at (1.5,2.1) {Kopplung mit FEM};
 
   \draw[edge] (pd.south) -- (pd1.north);
   \draw[edge] (pd1.south) -- (pd2.north);
   \draw[edge] (pd2.south) -- (pd3.north);
 
-  \node[leafnode] (shm1) at (7.8,4.7) {Drohnengestützte Laserscans};
-  \node[leafnode] (shm2) at (7.8,3.3) {Bilderkennung / Schadensdetektion};
-  \node[leafnode] (shm3) at (7.8,1.9) {Einsatz an Bestandsanlagen};
+  \node[leafnode] (dig1) at (6.2,4.9) {Software (PeriLab/PeriHub)};
+  \node[leafnode] (dig2) at (6.2,3.5) {Strukturierte Daten (FAIR)};
+  \node[leafnode] (dig3) at (6.2,2.1) {KI-/Surrogatmodelle};
+
+  \draw[edge] (dig.south) -- (dig1.north);
+  \draw[edge] (dig1.south) -- (dig2.north);
+  \draw[edge] (dig2.south) -- (dig3.north);
+
+  \node[leafnode] (shm1) at (10.9,4.9) {SHM};
+  \node[leafnode] (shm2) at (10.9,3.5) {Schadensbewertung};
+  \node[leafnode] (shm3) at (10.9,2.1) {Versagensexperimente};
 
   \draw[edge] (shm.south) -- (shm1.north);
   \draw[edge] (shm1.south) -- (shm2.north);
   \draw[edge] (shm2.south) -- (shm3.north);
 
   % synergy connector
-  \node[rectangle, rounded corners=4pt, draw=mainblue, fill=white, text=mainblue, minimum width=6.6cm, minimum height=0.9cm, font=\bfseries\small, align=center] (synergy) at (5.0,0.2) {Validierung der Modelle mit Messdaten};
+  \node[rectangle, rounded corners=4pt, draw=mainblue, fill=white, text=mainblue, minimum width=8.2cm, minimum height=0.9cm, font=\bfseries\small, align=center] (synergy) at (6.2,0.2) {Validierung der Modelle mit Messdaten};
   \draw[edge, dashed] (pd3.south) -- (synergy.north west);
+  \draw[edge, dashed] (dig3.south) -- (synergy.north);
   \draw[edge, dashed] (shm3.south) -- (synergy.north east);
 \end{tikzpicture}
 
