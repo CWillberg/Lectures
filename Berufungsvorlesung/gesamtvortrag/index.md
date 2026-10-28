@@ -444,13 +444,13 @@ $$\boxed{w_{max} = w(\ell/2) = \frac{F\ell^3}{48\,EI}}$$
 ---
 
 <!-- _class: cols-2 -->
-## Säule 2: Structural Health Monitoring
+## Structural Health Monitoring
 
 <div class="ldiv">
 
 - **Beispiel: geführte Wellen** - Wellenausbreitung in Simulation (EFIT) und FEM, validiert an Messdaten
 - Klassisches SHM (feste Sensoren) nur in Neubauten wirtschaftlich nachrüstbar
-- Unser Ansatz: **UAV-gestützte Lasermessung** - berührungslos, retrofit-fähig an Bestandsanlagen
+- **UAV-gestützte Lasermessung** - berührungslos, retrofit-fähig an Bestandsanlagen
 - Offene Fragen: Auflösung vs. Schadensgröße, Flugbahnplanung, Datenfusion
 
 </div>
@@ -467,24 +467,37 @@ $$\boxed{w_{max} = w(\ell/2) = \frac{F\ell^3}{48\,EI}}$$
 
 ## Die Synergie: digitaler Zwilling
 
-- Peridynamik-Prognosen brauchen Validierung - UAV-Laserscans liefern genau diese Referenzdaten an echten Strukturen
+- Peridynamik-Prognosen brauchen Validierung 
+  - Experimente auf Material- oder Elementebene liefern sie
+- SHM braucht Schadesevaluation
+  - Peridynamik / Simulationsverfahren liefern diese
 - Beide Datenströme werden über **PeriLab/PeriHub** mit einheitlichen Metadaten (FAIR) strukturiert abgelegt - Grundlage für verlässliche KI-/Surrogatmodelle
 
 $$\text{Simulation} \;\longleftrightarrow\; \text{Messung} \;\xrightarrow{\text{Metadaten}}\; \text{digitaler Zwilling}$$
 
 ---
 
-## Anwendungsfeld und Förderung
+## Strategie
+
+- Entwicklung von Simulationsverfahren und deren Transfer in die Anwendung
+- Nutzung der experimentellen Seite zur Überwachung von Strukturen und zur Validierung
+
+---
+
+## Ein Anwendungsfeld
 
 ![bg right fit](./assets/enerkite_system.jpg)
 
 - **Flugwindanlagen** (Airborne Wind Energy, hier: Enerkite): leichte, hochdynamisch belastete Strukturen - Profil beider Säulen
 - Aktiv in **IEA Wind Task 48** - WP1-Leiter **"Material and Manufacturing"**
-- **Drittmittel:** DFG-Einzelförderung (Peridynamik), Förderlinien für SHM-Entwicklung
+
 
 <!-- _footer: 'Bild: Enerkite GmbH' -->
 
 ---
+
+
+
 
 ## Industrietransfer
 
@@ -500,7 +513,8 @@ $$\text{Simulation} \;\longleftrightarrow\; \text{Messung} \;\xrightarrow{\text{
 ## Lehrphilosophie: dieselbe Verbindung wie in der Forschung
 
 - Modellbildung **und** Messpraxis gehören zusammen - keine Trennung von Theorie und Experiment
-- Visuelle, schrittweise Herleitung statt Formel-Dump: jede Vorlesung mit eigens erstellten Grafiken zur Veranschaulichung
+- Visuelle, schrittweise Herleitung: jede Vorlesung mit eigens erstellten Grafiken zur Veranschaulichung
+- Integration in Softwarebeispiele zum "Spielen"
 - Materialien offen zugänglich (GitHub Pages) - nachschlagbar über das Semester hinaus
 
 ---
@@ -527,8 +541,10 @@ $$\text{Simulation} \;\longleftrightarrow\; \text{Messung} \;\xrightarrow{\text{
 ## Lehrkonzept an der Professur Mittweida
 
 - Dieselbe Verzahnung Simulation/Experiment, die die Forschungsstrategie trägt, auch in der Lehre verankern
+- Automatisierung von Analyseprozessen, Datenprovenienz und Metadaten sind Lehrinhalte
+- Heranführen an physics based oder physics integrated AI
 - Abschlussarbeiten an der Schnittstelle Simulation/Experiment - Studierende direkt in laufende Projekte einbinden
-- Ziel: Studierende, die beide Seiten der Mechanik - Modell und Messung - sicher beherrschen
+- Ziel: Studierende, die beide Seiten der Mechanik - Modell und Messung - sicher beherrschen **gerade** im KI Zeitalter
 
 ---
 
