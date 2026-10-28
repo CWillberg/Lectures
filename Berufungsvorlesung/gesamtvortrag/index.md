@@ -403,21 +403,18 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 
 ---
 
-<!-- _class: cols-2 -->
 ## PeriHub: Modellbau & Plattform
 
-<div class="ldiv">
+<div style="position:relative;">
 
-<iframe src="https://perihub.nimbus-extern.dlr.de/" width="100%" height="460"></iframe>
+<iframe src="https://perihub.nimbus-extern.dlr.de/" width="1150" height="500"></iframe>
 
+<div style="position:absolute; top:10px; right:10px; background:white; padding:8px; border-radius:6px; text-align:center;">
+<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=90" style="height:80px;width:auto;">
+<div style="font-size:11px; color:#888;">Modellbildung</div>
+<img src="https://quickchart.io/qr?text=https://perilab-results.nimbus-extern.dlr.de/&light=0000&size=90" style="height:80px;width:auto; margin-top:6px;">
+<div style="font-size:11px; color:#888;">Modellergebnisse</div>
 </div>
-<div class="rdiv" style="text-align:center;">
-
-<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=160" style="height:150px;width:auto;">
-<div style="font-size:14px; color:#888; margin-bottom:20px;">Modellbildung</div>
-
-<img src="https://quickchart.io/qr?text=https://perilab-results.nimbus-extern.dlr.de/&light=0000&size=160" style="height:150px;width:auto;">
-<div style="font-size:14px; color:#888;">Modellergebnisse</div>
 
 </div>
 
