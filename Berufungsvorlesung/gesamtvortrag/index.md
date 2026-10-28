@@ -403,11 +403,18 @@ $$\boxed{w_{max} = w(\ell/2) = \frac{F\ell^3}{48\,EI}}$$
 
 ---
 
+
 ## Beispiel: Impact-Simulation
 
-<iframe width="1150" height="520" src="https://www.youtube.com/embed/qj7xGgmjEdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1150" height="520"
+  src="https://www.youtube-nocookie.com/embed/qj7xGgmjEdE?rel=0"
+  title="Impact-Simulation"
+  frameborder="0"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
-<div style="font-size:14px; color:#888;">Falls das Video nicht lädt: <a href="https://youtu.be/qj7xGgmjEdE">youtu.be/qj7xGgmjEdE</a></div>
+<div style="font-size:14px; color:#888;">Falls das Video nicht lädt: <a href="https://youtu.be/qj7xGgmjEdE" target="_blank">youtu.be/qj7xGgmjEdE</a></div>
 
 ---
 
