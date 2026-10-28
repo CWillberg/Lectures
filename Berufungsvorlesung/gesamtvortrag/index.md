@@ -343,6 +343,7 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 ---
 
 ## Biegelinie des Einfeldträgers
+
 <iframe src="http://localhost:1234/edit?id=b36a1260-d211-11f1-a8b5-bb277f7ab7c6" width="1150" height="500"></iframe>
 
 
@@ -409,10 +410,12 @@ Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselb
 
 <iframe src="https://perihub.nimbus-extern.dlr.de/" width="1150" height="500"></iframe>
 
-<div style="position:absolute; top:10px; right:10px; background:white; padding:8px; border-radius:6px; text-align:center;">
-<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=90" style="height:80px;width:auto;">
+<div style="position:absolute; top:-120px; right:160px; background:white; padding:8px; border-radius:6px; text-align:center;">
+<img src="https://quickchart.io/qr?text=https://perihub.nimbus-extern.dlr.de/&light=0000&size=90" style="height:100px;width:auto;">
 <div style="font-size:11px; color:#888;">Modellbildung</div>
-<img src="https://quickchart.io/qr?text=https://perilab-results.nimbus-extern.dlr.de/&light=0000&size=90" style="height:80px;width:auto; margin-top:6px;">
+</div>
+<div style="position:absolute; top:-120px; right:10px; background:white; padding:8px; border-radius:6px; text-align:center;">
+<img src="https://quickchart.io/qr?text=https://perilab-results.nimbus-extern.dlr.de/&light=0000&size=90" style="height:100px;width:auto;">
 <div style="font-size:11px; color:#888;">Modellergebnisse</div>
 </div>
 
