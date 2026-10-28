@@ -26,7 +26,7 @@ Prof. Dr.-Ing.  Christian Willberg<a href="https://orcid.org/0000-0003-2433-9183
 
 - 2001-2007 Studium Maschinenbau, Otto-von-Guericke-Universität Magdeburg
 - 2007-2012 Wissenschaftlicher Mitarbeiter, Otto-von-Guericke-Universität Magdeburg
-- 2012 Promotion zum Dr.-Ing.
+- 2012 Promotion zum Dr.-Ing. im Bereich Angewandte Mechanik
 - 2012-2024 Wissenschaftlicher Mitarbeiter, DLR Braunschweig (Institut für Faserverbundleichtbau und Adaptronik)
 - Forschungsaufenthalte im Ausland: 2016 University of Washington, Seattle (USA); 2025 German Jordanian University (GJU)
 - seit 2024 Professur, Hochschule Magdeburg-Stendal - zugleich Internationalisierungsbeauftragter des Fachbereichs
@@ -65,35 +65,11 @@ Grundlagen Peridynamik
 
 ---
 
-<!-- _class: cols-2 -->
-## Peridynamik: ein interdisziplinäres Forschungsfeld
+## Meine Publikationen
 
-<div class="ldiv">
-
-**Mechanik & Numerik**
-*Computer Methods in Appl. Mech. and Eng., J. of the Mechanics and Physics of Solids, Engineering Fracture Mechanics*
-
-**Luft- und Raumfahrt**
-*CEAS Aeronautical Journal, Chinese Journal of Aeronautics*
-
-**Werkstoffe & Verbunde**
-*Composites Part B: Engineering, Composites Science and Technology*
-
-</div>
-<div class="rdiv">
-
-**Geotechnik**
-*Acta Geotechnica, Géotechnique*
-
-**Elektrochemie & Korrosion**
-*Corrosion Science, Electrochimica Acta*
-
-**Software**
-*SoftwareX*
-
-</div>
-
-<!-- _footer: 'Auswahl aus eigener Literaturdatenbank (>560 Journalartikel zur Peridynamik)' -->
+- **Über 40 Veröffentlichungen** - Journalartikel, Konferenzbeiträge, Software
+- Journale u.a. *Computational Mechanics*, *Computers & Structures*, *SoftwareX*, *CEAS Aeronautical Journal*
+- Konferenzen u.a. GAMM-Jahrestagung, ICCBMA, COMPLAS
 
 ---
 
@@ -104,8 +80,8 @@ Grundlagen Peridynamik
 
 ![bg right fit](./assets/forschung_saeulen.png)
 
-- Am DLR: Simulation **und** experimentelle Validierung - nie nur eine Seite
-- Seit 2024 in der Lehre: dieselbe Verbindung weitergegeben
+- Am DLR: Simulation **und** experimentelle Validierung 
+- Seit 2024 als Professor: höhere Fokus auf Materialmodellierung, aber auch Leichtbau und Mechanik
 - Die Professur **"Angewandte und Experimentelle Mechanik"** ist die konsequente Fortsetzung dieses Weges
 
 ---
@@ -132,20 +108,18 @@ Grundlagen Peridynamik
 
 ## Auslegung eines Bauteils
 
-- bisher Momentenverläufe und daraus abgeleitet Spannungen und Dehnungen
-- Fokus auf Materialversagen und Bewertung nach Festigkeit
-- **immer** für das statisch bestimmte System
+Bisher Fokus auf:
+- Bewertung nach Festigkeit
+- Lagerkräfte und -momente
+
+**Immer** für das statisch bestimmte System
 
 ![bg right fit](../../assets/Figures/Stress_strain_ductile.svg)
-
-
 
 ---
 
 
-# Warum interessiert uns die Durchbiegung eines Balkens?
-
-
+# Warum interessiert uns die Verformung von Strukturen?
 
 ---
 
@@ -167,29 +141,22 @@ Grundlagen Peridynamik
 
 - Fahrzeugfederung: großer Federweg bei moderater Kraft
 - Hier ist **geringe** Steifigkeit die gewünschte Funktion
-- $\Rightarrow$ Steifigkeit ist in allen drei Fällen ein eigenständiges, von Festigkeit & Ermüdung unabhängiges Auslegungskriterium
+- $\Rightarrow$ Steifigkeit ist in allen beiden Fällen ein eigenständiges, von Festigkeit unabhängiges Auslegungskriterium
 
 <!-- _footer: 'Bild: Jim Gill, Wikimedia Commons (public domain)' -->
 
 ---
 
-## Warum die Biegelinie? Quantitativ
-
-- Durchbiegungen sind beispielsweise durch Normen begrenzt 
-- Funktionen werden durch Durchbiegung beeinträchtigt 
-- Frage: Wie groß ist $w(x)$ an jeder Stelle des Balkens - nicht nur der Maximalwert?
-
-<!-- _footer: 'Diese Vorlesung: lineare Elastizität, kleine Verformungen, ebene Biegung' -->
-
----
 
 ## Verformung im 1D-Fall: Zugstab
 
-![bg right fit](./assets/biegelinie_zugstab.png)
+![bg right 120%](./assets/biegelinie_zugstab.png)
 
-- Kraft $F$, Querschnittsfläche $A$ $\Rightarrow$ Spannung $\sigma = F/A$
+- Kraft $F$ und Querschnittsfläche $A$ 
+$\Rightarrow$ Spannung $\sigma = F/A$
 - Hookesches Gesetz: $\varepsilon = \sigma/E$
-- Verlängerung: $u = \varepsilon L = \dfrac{FL}{EA}$
+- Verlängerung: 
+$u = \Delta L = \varepsilon L = \dfrac{FL}{EA}$
 
 
 ---
@@ -210,7 +177,7 @@ $$\sigma(x,z) = \frac{M_b(x)}{I}\,z$$
 </div>
 <div class="rimg">
 
-![w:420](./assets/biegelinie_element.png)
+![w:820](./assets/biegelinie_element.png)
 
 </div>
 
