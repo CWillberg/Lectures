@@ -183,6 +183,16 @@ $$\sigma(x,z) = \frac{M_b(x)}{I}\,z$$
 
 ---
 
+
+## Spannungsverteilung über die Querschnittshöhe
+
+![bg right fit](./assets/biegelinie_spannungsverteilung.png)
+
+- An jeder Stelle $x$: Spannung linear über $z$, Null an der neutralen Faser
+- Zug auf der einen Seite, Druck auf der anderen
+
+---
+
 ## Die Biegelinie $w(x)$
 
 ![bg right fit](./assets/biegelinie_konzept.png)
@@ -213,14 +223,7 @@ $$\boxed{\frac{1}{\rho} \approx w''(x)}$$
 
 ---
 
-## Spannungsverteilung über die Querschnittshöhe
 
-![bg right fit](./assets/biegelinie_spannungsverteilung.png)
-
-- An jeder Stelle $x$: Spannung linear über $z$, Null an der neutralen Faser
-- Zug auf der einen Seite, Druck auf der anderen
-
----
 
 
 ## Elastizitätsgesetz der Biegung
@@ -274,9 +277,12 @@ $$EI\,w''(x) = -M_b(x)$$
 
 ![bg right fit](./assets/biegelinie_einfeldtraeger.png)
 
-- Loslager bei $x=0$, Festlager bei $x=\ell$
+- Loslager bei $x=0$, 
+Festlager bei $x=\ell$
 - Einzellast $F$ bei $x=\ell/2$
-- Zwei Bereiche nötig: I ($0 \le x \le \ell/2$), II ($\ell/2 \le x \le \ell$)
+- Zwei Bereiche nötig: 
+I ($0 \le x \le \ell/2$), 
+II ($\ell/2 \le x \le \ell$)
 - Randbedingungen an den Lagern **und** Übergangsbedingungen am Lastangriffspunkt $x=\ell/2$ nötig
 
 ---
@@ -285,19 +291,23 @@ $$EI\,w''(x) = -M_b(x)$$
 
 ![bg right fit](./assets/biegelinie_uebergang.png)
 
-Symmetrie: $A = B = F/2$
+Symmetrie: $F_A = F_{By} = F/2$
 
 $$M_I(x) = \frac{F}{2}\,x \qquad (0 \le x \le \ell/2)$$
 $$M_{II}(x) = \frac{F}{2}(\ell - x) \qquad (\ell/2 \le x \le \ell)$$
 
-Maximalmoment in Feldmitte: $M(\ell/2) = F\ell/4$
+Maximalmoment: $M(\ell/2) = F\ell/4$
 
 ---
 
 ## Lösung: zwei Bereiche, vier Bedingungen
 
-- Integration in **beiden** Bereichen $\Rightarrow$ vier Integrationskonstanten $C_1,\dots,C_4$ (zweifache Integration, s.o.)
-- Bestimmt aus $w_I(0)=0$, $w_{II}(\ell)=0$ (Lager) sowie $w_I(\ell/2)=w_{II}(\ell/2)$, $w_I'(\ell/2)=w_{II}'(\ell/2)$ (Stetigkeit am Übergang)
+- Integration in **beiden** Bereichen $\Rightarrow$ vier Integrationskonstanten $C_1,\dots,C_4$ 
+- Bestimmt aus 
+$w_I(0)=0$
+$w_{II}(\ell)=0$ (Lager) 
+$w_I(\ell/2)=w_{II}(\ell/2)$
+$w_I'(\ell/2)=w_{II}'(\ell/2)$ (Stetigkeit am Übergang)
 
 **Ergebnis:**
 
@@ -305,13 +315,16 @@ $$w(x) = \frac{F x}{48\,EI}\left(3\ell^2 - 4x^2\right) \qquad (0 \le x \le \ell/
 
 $$\boxed{w_{max} = w(\ell/2) = \frac{F\ell^3}{48\,EI}}$$
 
-Beide Bereiche liefern an der Lastposition $x=\ell/2$ denselben Wert und dieselbe Steigung - die Übergangsbedingungen sind erfüllt.
+
 
 ---
 
-## Biegelinie des Einfeldträgers
+# Biegelinie des Einfeldträgers
 
-<iframe src="http://localhost:1234/edit?id=b36a1260-d211-11f1-a8b5-bb277f7ab7c6" width="1150" height="500"></iframe>
+
+
+
+[![h:500](./assets/pluto_interactive_biegelinie.png)](http://localhost:1234/?secret=HzFsdBbq)
 
 
 ---
