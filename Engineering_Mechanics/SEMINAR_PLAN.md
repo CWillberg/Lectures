@@ -4,22 +4,25 @@ Working plan for `Engineering_Mechanics/e_01` … `e_12`. Not a slide deck (not 
 
 ## Topics, folders, exercise counts
 
+Reordered 2026-10-31 at the professor's request (see status log). The course now runs to **13** seminars (`e_01`…`e_13`); `e_13` folder does not exist yet and will be created when that seminar is reached.
+
 | # | Folder | Topic | Exercises (with full solutions) |
 |---|--------|-------|----------------------------------|
 | 1 | `e_01` | Concurrent force system (*zentrales Kraftsystem*) | 4 |
 | 2 | `e_02` | General force system (*allgemeines Kraftsystem*) | 4 |
 | 3 | `e_03` | Equilibrium & support reactions | 4 |
-| 4 | `e_04` | Trusses & frames I — method of joints | 3 (of 6 total across e_04+e_05) |
-| 5 | `e_05` | Trusses & frames II — **method of sections** (Ritterschnittverfahren) | 3 (of 6 total across e_04+e_05) |
-| 6 | `e_06` | Distributed loads, beams & supports (statically determinate / indeterminate) | 3 |
-| 7 | `e_07` | Hinges in beams (*Gelenkbalken*) | 3 |
-| 8 | `e_08` | Internal forces I | 3 |
-| 9 | `e_09` | Internal forces II | 3 |
-| 10 | `e_10` | Internal forces III | 3 |
-| 11 | `e_11` | Second moment of area (*Flächenträgheitsmoment*) | 3 |
-| 12 | `e_12` | Normal and bending stress | 3 |
+| 4 | `e_04` | **Worked examples** — equilibrium/support-reaction practice (basis: e_03) + distributed loads → equivalent resultant (inserted here, not later). No new theory. Solutions show the Schnittbild (free-body diagram) explicitly as its own figure. | 4 |
+| 5 | `e_05` | Trusses & frames I (*Stabtragwerke*) — introduction + method of joints, examples | 3 (of 6 total across e_05+e_06) |
+| 6 | `e_06` | Trusses & frames II — **method of sections** (Ritterschnittverfahren), *Stäbe* | 3 (of 6 total across e_05+e_06) |
+| 7 | `e_07` | Hinges in beams (*Gelenkbalken*) — introduction | 3 |
+| 8 | `e_08` | Hinges in beams — **worked calculations** (*Rechnen von Gelenken*) | 3 |
+| 9 | `e_09` | Internal forces I (*innere Kräfte*) | 3 |
+| 10 | `e_10` | Internal forces II | 3 |
+| 11 | `e_11` | Internal forces III | 3 |
+| 12 | `e_12` | Second moment of area (*Flächenträgheitsmoment*) | 3 |
+| 13 | `e_13` | Normal and bending stress | 3 |
 
-Exercise counts for e_03, e_08–e_12 were not explicitly given by the professor — defaulted to 3–4 to match the stated pattern; flag for review if a different count is wanted.
+Exercise counts for e_08–e_13 were not explicitly given by the professor — defaulted to 3–4 to match the stated pattern; flag for review if a different count is wanted. "Distributed loads, beams & supports" (originally its own seminar) was folded into `e_04` as a worked example rather than kept as a separate slot.
 
 ## Constraints given for internal-force seminars (e_08–e_10)
 
@@ -55,12 +58,17 @@ Any figure introducing a support type shows **two stacked parts**: the physical 
 - [x] e_01 — Concurrent force system (4 exercises: cable/ring, resultant of 3 forces, block on incline, boom & cable)
 - [x] e_02 — General force system (4 exercises: parallel-force resultant, force-couple equivalent, pin+couple equilibrium, force+couple → single force)
 - [x] e_03 — Equilibrium & support reactions (Loslager/Festlager/Einspannung/Führung(2 variants)/Pendelstütze — each shown as model + freigeschnittenes Freikörperbild; Freischneiden; 1 concurrent + 4 general-system exercises, all statically determinate)
-- [ ] e_04 — Trusses & frames I (method of joints)
-- [ ] e_05 — Trusses & frames II (method of sections)
-- [ ] e_06 — Distributed loads, beams & supports
-- [ ] e_07 — Hinges in beams
-- [ ] e_08 — Internal forces I
-- [ ] e_09 — Internal forces II
-- [ ] e_10 — Internal forces III
-- [ ] e_11 — Second moment of area
-- [ ] e_12 — Normal and bending stress
+- [x] e_04 — Worked examples (4 exercises: beam with two point loads, cantilever + applied couple, beam with full UDL + point load, beam with partial UDL + link support; every solution shows a dedicated Schnittbild figure)
+- [x] e_05 — Trusses I (truss idealization, two-force members, m+r=2j, method of joints, zero-force-member rules; 3 exercises: symmetric apex-load triangle, off-centre 2-triangle truss with a confirmed zero-force member, triangle with a horizontal joint load)
+- [x] e_06 — Trusses II (method of sections / Ritterschnittverfahren; moment-centre trick and the parallel-chords ΣF shortcut; 3 exercises, all on the same 5-joint Warren truss: symmetric load/right-portion cut, asymmetric load/left-portion cut, and a ΣFy-only shortcut on the first cut)
+- [x] e_07 — Hinges in beams, introduction (hinge vs. rigid joint vs. support, cut-at-the-hinge procedure; 3 exercises, all single-hinge: fixed+hinge+roller+overhang, pin+roller+hinge+roller, fixed+hinge+full-span UDL)
+- [x] e_08 — Hinges in beams, worked calculations (no new theory; 3 exercises: hinge next to a Pendelstütze with nonzero hinge $G_x$, two hinges/three segments solved outside-in, hinge segment loaded by a pure applied couple)
+- [x] e_09 — Internal forces I (N/V/M via the cut method, sign convention: tension/clockwise-shear/sagging; 3 exercises: simply-supported point load (linear M, step V), cantilever tip load (hogging M, cut from the free end), full UDL (parabolic M, linear V))
+- [ ] e_10 — Internal forces II
+- [ ] e_11 — Internal forces III
+- [ ] e_12 — Second moment of area
+- [ ] e_13 — Normal and bending stress (folder to be created)
+
+### 2026-10-31 reorder log
+
+Professor moved the sequence around in conversation: e_04 becomes a pure practice seminar (no new theory) reusing e_03's support/equilibrium content, with distributed-load-to-resultant added as this week's new worked example rather than deferred to a later "distributed loads" seminar. Trusses (old e_04/e_05) shift to e_05/e_06. Hinges (old e_07) splits into an intro seminar (e_07) and a calculation-practice seminar (e_08). Internal forces I–III and the remaining old topics (2nd moment of area, normal/bending stress) all shift back by one slot accordingly, extending the course to 13 seminars.
