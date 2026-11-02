@@ -49,6 +49,61 @@ img[alt="ORCID"] {
     display: inline !important;
     margin: 0 !important;
 }
+.merke {
+  border-left: 4px solid #d4a017;
+  background-color: #fdf6e3;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.hinweis {
+  border-left: 4px solid #2e86c1;
+  background-color: #eaf2f8;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.aufgabe {
+  border: 2px solid #e67e22;
+  background-color: #fdf2e9;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.loesung {
+  border-left: 4px solid #27ae60;
+  background-color: #eafaf1;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.eq {
+  border: 2px solid #c39bd3;
+  background-color: #f4ecf7;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.box-a {
+  background-color: #eafaf1;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.box-b {
+  background-color: #fdf2e9;
+  border: 2px solid #e67e22;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+table th {
+  background-color: var(--accent-color);
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: var(--light-accent-color);
+}
 </style>
 
 ##  Alloy formation - Phase Diagrams
@@ -95,11 +150,15 @@ Contact: christian.willberg@h2.de
 
 ## Caution!
 
+<div class="hinweis">
+
 Phase diagrams are equilibrium diagrams.
 They are only valid for very slow
 cooling from the molten state down to
 room temperature, where equilibrium between
 the phases (at or between phase boundary lines) can be established.
+
+</div>
 
 **In practice:** Fast cooling can lead to completely different microstructures!
 
@@ -139,6 +198,10 @@ the phases (at or between phase boundary lines) can be established.
 
 ## Solubilities
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv box-b">
+
 **Insoluble**
 
 - too large differences in atomic diameters (>15%)
@@ -146,11 +209,16 @@ the phases (at or between phase boundary lines) can be established.
 - Components are chemically very different
 - Electrons differ strongly
 
+</div>
+<div class="rdiv box-a">
+
 **Soluble**
 - hardly any differences in atomic diameters (<15%)
 - Crystal lattices are identical
 - Components are chemically very close
 - Electronegativity similar
+
+</div>
 
 ---
 
@@ -255,7 +323,11 @@ Total concentration remains constant: $c_L \cdot m_{tot} = c_S \cdot m_S + c_\al
 
 **Transformation leads to:**
 
+<div class="eq">
+
 $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}$
+
+</div>
 
 ![bg right 90%](../../assets/Figures/Konstituionelle_abkuehlung.png)
 
@@ -271,23 +343,35 @@ $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}$
 - The lever mass is at the alloy concentration $c_L$
 - The longer lever section belongs to the smaller mass
 
+<div class="hinweis">
+
 **Important:** Always pay attention to the total concentration!
+
+</div>
 
 ---
 
 ## Calculation Example
 
+<div class="aufgabe">
+
 → Assumption concentrations at point 2
 
 $c_S=20\%$, $c_{\alpha}=40\%$, $c_L=25\%$
+
+</div>
 
 ---
 
 ## Solution
 
+<div class="loesung">
+
 $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25\%-20\%}=\frac{15}{5}=\frac{3}{1}$
 
 - at point 2, there is 3 times as much melt as solid solution
+
+</div>
 
 **Plausibility check:**
 - $c_L = 25\%$ is closer to $c_S = 20\%$ than to $c_\alpha = 40\%$
@@ -296,6 +380,8 @@ $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25
 ---
 
 ## Exercise: Lever Rule
+
+<div class="aufgabe">
 
 A Cu-Ni alloy with 60 wt.-% Ni is at 1300°C in the two-phase region.
 
@@ -306,15 +392,21 @@ A Cu-Ni alloy with 60 wt.-% Ni is at 1300°C in the two-phase region.
 
 **Question:** What are the mass fractions of melt and α-solid solution?
 
+</div>
+
 ---
 
 ## Solution: Lever Rule Exercise
+
+<div class="loesung">
 
 $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{68\%-60\%}{60\%-52\%}=\frac{8}{8}=\frac{1}{1}$
 
 **Fractions:**
 - Fraction melt: $\frac{m_S}{m_{tot}}=\frac{c_{\alpha}-c_{L}}{c_{\alpha}-c_{S}}=\frac{8}{16}=0.5 = 50\%$
 - Fraction α-SS: $\frac{m_{\alpha}}{m_{tot}}=\frac{c_{L}-c_{S}}{c_{\alpha}-c_{S}}=\frac{8}{16}=0.5 = 50\%$
+
+</div>
 
 **Interpretation:** At this temperature, the alloy exists in equal parts as melt and solid solution.
 
@@ -325,7 +417,11 @@ $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{68\%-60\%}{60
 - Metal melts of elements A and B dissolve in any mixing ratio (concentrations)
 - The solid solutions only form to a certain extent
 
+<div class="hinweis">
+
 **Important:** This is the most common case in practice!
+
+</div>
 
 ---
 
@@ -349,18 +445,17 @@ The following phase diagrams can appear:
 
 ## Gibbs' Phase Rule
 
-$F = n - P + 2$
-(for gases and liquids)
+<div class="eq">
+
+$F = n - P + 2$ (for gases and liquids)
+
+at constant pressure (solid substances): $F = n - P + 1$
+
+</div>
+
 F = number of degrees of freedom; n = number of components; P = number of phases
 
-at constant pressure (solid substances)
-
-$F = n - P + 1$
-
-This results for the application of these laws to the cooling and heating curve for metallic systems
-
-F = 0 → a halt point and
-F = 1 → a kink point.
+For the cooling and heating curve of metallic systems: F = 0 → a halt point; F = 1 → a kink point
 
 ---
 
@@ -391,15 +486,16 @@ F = 1 → a kink point.
 
 ## Note
 
+<div class="hinweis">
+
 - Solubility gap usually known as miscibility gap
 - α is an A-rich crystal
 - β is a B-rich crystal
-
-- Diameter eventually so large that the solubility gap extends into the melt region
-→ Eutectic
-
+- Diameter eventually so large that the solubility gap extends into the melt region → Eutectic
 - Components are **soluble** in liquid state
 - Components are **partially soluble** in solid state
+
+</div>
 
 ---
 
@@ -417,7 +513,11 @@ F = 1 → a kink point.
 **Reaction equation:**
 Melt → α-solid solution + β-solid solution
 
+<div class="eq">
+
 $S_E \rightarrow \alpha_E + \beta_E$
+
+</div>
 
 **Characteristics:**
 - Constant temperature (halt point)
@@ -468,29 +568,31 @@ $S_E \rightarrow \alpha_E + \beta_E$
 
 ## Microstructure of Hypoeutectic Alloys
 
+<div class="box-a">
+
 **Hypoeutectic alloy** (< eutectic concentration):
 
 1. **Primary crystallization:** α-solid solutions precipitate (coarse-grained)
 2. **Eutectic solidification:** Remaining melt solidifies eutectically (fine-grained)
 
-**Result:**
-- Large α-primary crystals
-- Surrounded by eutectic microstructure (α + β lamellar)
-- Microstructure: "Primary-α in eutectic matrix"
+**Result:** Large α-primary crystals, surrounded by eutectic microstructure (α + β lamellar) - "Primary-α in eutectic matrix"
+
+</div>
 
 ---
 
 ## Microstructure of Hypereutectic Alloys
+
+<div class="box-b">
 
 **Hypereutectic alloy** (> eutectic concentration):
 
 1. **Primary crystallization:** β-solid solutions precipitate (coarse-grained)
 2. **Eutectic solidification:** Remaining melt solidifies eutectically (fine-grained)
 
-**Result:**
-- Large β-primary crystals
-- Surrounded by eutectic microstructure (α + β lamellar)
-- Microstructure: "Primary-β in eutectic matrix"
+**Result:** Large β-primary crystals, surrounded by eutectic microstructure (α + β lamellar) - "Primary-β in eutectic matrix"
+
+</div>
 
 ---
 
@@ -533,7 +635,11 @@ Special case:
 **Reaction equation:**
 Melt + α-solid solution → β-solid solution
 
+<div class="eq">
+
 $S + \alpha \rightarrow \beta$
+
+</div>
 
 **Characteristics:**
 - Constant temperature (halt point)
@@ -581,15 +687,21 @@ $S + \alpha \rightarrow \beta$
 
 # Comprehension Questions
 
+<div class="aufgabe">
+
 1. Why are phase diagrams equilibrium diagrams?
 2. What does a degree of freedom mean?
 3. Why is the eutectic temperature a minimum?
 4. What advantages do eutectic alloys have in casting?
 5. What is the difference between solid solution and crystal mixture?
 
+</div>
+
 ---
 
 ## Answers to Comprehension Questions
+
+<div class="loesung">
 
 1. **Equilibrium:** Requires very slow cooling for diffusion
 2. **Degree of freedom:** Number of freely selectable state variables without change in number of phases
@@ -597,11 +709,16 @@ $S + \alpha \rightarrow \beta$
 4. **Casting advantages:** Lowest melting temperature, good mold filling, thin-flowing
 5. **SS vs. CM:** SS = homogeneous atomic solution, CM = mechanical mixture
 
+</div>
+
 ---
 
 # Summary
 
 **Key points:**
+
+<div class="loesung">
+
 - Phase diagrams show phases as a function of T and c
 - Gibbs' phase rule: F = n - P + 1
 - Lever rule for calculating mass fractions
@@ -609,6 +726,8 @@ $S + \alpha \rightarrow \beta$
 - Peritectic: S + α → β (rare)
 - Solubility usually decreases with T → hardening possible
 - Practical significance for alloy selection and heat treatment
+
+</div>
 
 ---
 

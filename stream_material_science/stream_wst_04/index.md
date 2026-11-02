@@ -48,6 +48,61 @@ img[alt="ORCID"] {
     display: inline !important;
     margin: 0 !important;
 }
+.merke {
+  border-left: 4px solid #d4a017;
+  background-color: #fdf6e3;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.hinweis {
+  border-left: 4px solid #2e86c1;
+  background-color: #eaf2f8;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.aufgabe {
+  border: 2px solid #e67e22;
+  background-color: #fdf2e9;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.loesung {
+  border-left: 4px solid #27ae60;
+  background-color: #eafaf1;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.eq {
+  border: 2px solid #c39bd3;
+  background-color: #f4ecf7;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.box-a {
+  background-color: #eafaf1;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.box-b {
+  background-color: #fdf2e9;
+  border: 2px solid #e67e22;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+table th {
+  background-color: var(--accent-color);
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: var(--light-accent-color);
+}
 </style>
 
 ## Alloy Formation - Basics
@@ -80,7 +135,7 @@ Parts of the script are adopted from Prof. Dr.-Ing. Jürgen Häberle
 - **Phase diagrams** and phases
 - **Diffusion** and mass transport
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right fit](../../assets/Figures/mischkristalle.png)
 
 ---
 
@@ -100,6 +155,10 @@ Parts of the script are adopted from Prof. Dr.-Ing. Jürgen Häberle
 
 # Why Alloys?
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 **Advantages over pure metals:**
 - Higher strength
 - Better corrosion resistance
@@ -107,12 +166,15 @@ Parts of the script are adopted from Prof. Dr.-Ing. Jürgen Häberle
 - Adjustable mechanical properties
 - Economic efficiency
 
+</div>
+<div class="rdiv">
+
 **Everyday examples:**
 - Steel (Fe + C)
 - Bronze (Cu + Sn)
 - Brass (Cu + Zn)
 
-<!-- 🖼️ INSERT IMAGE: Everyday objects made from different alloys -->
+</div>
 
 ---
 
@@ -128,19 +190,23 @@ $$n_{rel} = \frac{n_1}{\sum_i n_i} \cdot 100 \text{ [\%]}$$
 
 # When are both specifications equal?
 
+<div class="merke">
+
 **Note:**
 - When atomic masses are **similar** → $m_{rel} \approx n_{rel}$
 - When atomic masses are **different** → $m_{rel} \neq n_{rel}$
+
+</div>
 
 **Example:**
 - Cu (63.54 u) and Ni (58.69 u) → similar masses
 - Fe (55.85 u) and C (12.01 u) → very different masses!
 
-<!-- 🖼️ INSERT IMAGE: Comparison chart mass fraction vs. atomic fraction -->
-
 ---
 
 ## Exercise
+
+<div class="aufgabe">
 
 An alloy with 1 kg total mass contains:
 - **25 atomic-% Ni**
@@ -153,37 +219,47 @@ An alloy with 1 kg total mass contains:
 **Given:**
 - $A_{Cu} = 63.54$ u; $A_{Ni} = 58.69$ u; $u = 1.66 \times 10^{-27}$ kg
 
+</div>
+
 ---
 
 # Solution - Part 1: Mass Fraction
 
 <details>
 <summary>🔍 Show solution</summary>
+<div class="loesung">
 
 If **mass fraction** is given (25% Ni, 75% Cu):
 
 $$m_{Cu} = 0.75 \cdot 1\text{ kg} = 0.75\text{ kg}$$
 $$m_{Ni} = 0.25 \cdot 1\text{ kg} = 0.25\text{ kg}$$
 
+</div>
 </details>
 
 ---
 
+# Solution - Part 2: Atomic Fraction
+
 <details>
 <summary>🔍 Show solution</summary>
+<div class="loesung">
 
 **Given:** 25 atomic-% Ni, 75 atomic-% Cu, total mass = 1 kg
 
-$$m = n_{Cu} \cdot A_{Cu} + n_{Ni} \cdot A_{Ni}$$
+$$m = n_{Ni} \cdot A_{Ni} + n_{Cu} \cdot A_{Cu}, \qquad n_{Ni}=0.25\,n,\ \ n_{Cu}=0.75\,n$$
 
-$$m = (0.25 \cdot A_{Cu} + 0.75 \cdot A_{Ni}) \cdot n$$
+$$n = \frac{m}{0.25 \cdot A_{Ni} + 0.75 \cdot A_{Cu}} \cdot \frac{1}{u} = \frac{1\text{ kg}}{0.25 \cdot 58.69 + 0.75 \cdot 63.54} \cdot \frac{1}{1.66\times10^{-27}\text{ kg}}$$
+$$n = 9.665 \times 10^{24} \text{ atoms}$$
 
-$$n = \frac{m}{0.25 \cdot A_{Cu} + 0.75 \cdot A_{Ni}} = \frac{1\text{ kg}}{0.25 \cdot 63.54 + 0.75 \cdot 58.69} \cdot u$$
-$$n = 1.00565 \times 10^{25} \text{ atoms}$$
+$$m_{Ni} = 0.25\,n \cdot A_{Ni} \cdot u \approx 0.235\text{ kg} \qquad m_{Cu} = 0.75\,n \cdot A_{Cu} \cdot u \approx 0.765\text{ kg}$$
 
-$$m_{Cu} = n_{Cu} \cdot A_{Cu} = 0.2449\text{ kg}$$
-$$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
+</div>
+<div class="merke">
 
+**Note:** Since $A_{Cu}\approx A_{Ni}$, as expected $m_{Cu}\approx n_{Cu,rel}=75\,\%$ - mass fraction and atomic fraction are close to each other.
+
+</div>
 </details>
 
 ---
@@ -191,33 +267,25 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 
 
 ## Diffusion - The Foundation
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv eq">
+
 **Definition:** Temperature and time-dependent mass transport
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-
-<div>
 
 **1st Fick's Law:**
 $$dm_A = -D \frac{dc_A}{dx} S \, dt$$
 $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
-**Parameters:**
-- $dm_A$ = diffused amount of component A
-- $D$ = diffusion coefficient
 
 </div>
+<div class="rdiv">
 
-<div>
-
+- $dm_A$ = diffused amount of component A, $D$ = diffusion coefficient
 - $c_A$ = concentration of component A
-- $x$ = spatial coordinate
-- $S$ = cross-sectional area
-- $t$ = time
-- $D_0$ = diffusion constant
-- $Q_A$ = activation energy
-- $R$ = gas constant
-- $T$ = absolute temperature
-
-</div>
+- $x$ = spatial coordinate, $S$ = cross-sectional area, $t$ = time
+- $D_0$ = diffusion constant, $Q_A$ = activation energy
+- $R$ = gas constant, $T$ = absolute temperature
 
 </div>
 
@@ -257,7 +325,7 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 # Phase Examples
 
 <div class="container">
-<div class="col">
+<div class="col box-a">
 
 ## Single-phase
 - Pure aluminum
@@ -266,7 +334,7 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 - Water vapor
 
 </div>
-<div class="col">
+<div class="col box-b">
 
 ## Two-phase
 - Fog (water + air)
@@ -283,17 +351,26 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 # Phase Changes
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 **1. Transformations**
 - Unstable lattice modifications transform into stable ones
 - Below an **equilibrium temperature**
 - Example: $\gamma$-Fe → $\alpha$-Fe upon cooling below 911°C
 - In alloys: Change in solid solution configuration
 
+</div>
+<div class="rdiv">
+
 **2. Precipitations**
 - **Solubility** decreases (usually due to temperature change)
 - Phases precipitate from the solid solution
 - Requires **mass transport** (diffusion)
 - Needs **heat** and **time**
+
+</div>
 
 
 ---
@@ -346,7 +423,11 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 - C in Fe (steel!)
 - N in Fe (nitriding)
 
+<div class="hinweis">
+
 **Important:** Both types are **single-phase**!
+
+</div>
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Image source</a>
@@ -414,12 +495,7 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
 
 # Microstructure Formation - Process
 
-    A[Melt] --> B[Cooling / Undercooling]
-    B --> C[Nucleation homogeneous + heterogeneous]
-    C --> D[Nucleus growth]
-    D --> E[Crystallization]
-    E --> F[Crystallite formationGrains + grain boundaries]
-    F --> G[Microstructure]
+**Melt** → Cooling / Undercooling → Nucleation (homogeneous + heterogeneous) → Nucleus growth → Crystallization → Crystallite formation (Grains + grain boundaries) → **Microstructure**
 
 [🎬 Video on crystal growth](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
@@ -429,7 +505,9 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
 
 # Nucleation
 
-## Two Types:
+<!-- _class: cols-2 -->
+
+<div class="ldiv box-a">
 
 ### Homogeneous Nucleation
 - **Native** nuclei
@@ -437,13 +515,21 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
 - Higher undercooling required
 - Rarer in practice
 
----
+</div>
+<div class="rdiv box-b">
 
 ### Heterogeneous Nucleation
 - **Foreign** nuclei (impurities, mold wall)
 - Lower undercooling required
 - Most common form in practice
 - Can be used purposefully (inoculation)
+
+</div>
+
+---
+
+<br/>
+<iframe width="1150" height="500" src="https://youtu.be/-J2ZOngBfcg?si=Ek3YpDJx4PgGPlFV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -460,7 +546,11 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
 | Many nuclei + slow growth | Fine-grained |
 | Few nuclei + fast growth | Coarse-grained |
 
+<div class="merke">
+
 **Note:** Fast cooling → many nuclei → fine-grained!
+
+</div>
 
 ---
 
@@ -471,7 +561,7 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
 ---
 
 <div class="container">
-<div class="col">
+<div class="col box-a">
 
 ## a) Fine-grained Microstructure
 - Many nuclei
@@ -482,7 +572,7 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
   - More uniform properties
 
 </div>
-<div class="col">
+<div class="col box-b">
 
 ## b) Coarse-grained Microstructure
 - Few nuclei
@@ -580,7 +670,6 @@ When casting into a metal mold (chill), **three characteristic zones** form:
 
 **In very pure metals:**
 - Coarse-grained microstructure
-- [Crystal Growth in Water](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
 ---
 
@@ -735,10 +824,17 @@ When casting into a metal mold (chill), **three characteristic zones** form:
 
 ## Influence of Grain Boundary Substances
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv box-a">
+
 ### Case 1: Deformable Grain Boundary Substance
 - Material behavior is dominated by **grains**
 - Good ductility
 - Example: Pure metals with low impurities
+
+</div>
+<div class="rdiv box-b">
 
 ### Case 2: Brittle Grain Boundary Substance
 - Material behavior is dominated by **grain boundaries**
@@ -748,11 +844,15 @@ When casting into a metal mold (chill), **three characteristic zones** form:
 
 **Important for:** Weldability, hot forming, toughness
 
+</div>
+
 ---
 
 # Summary
 
 **Key points of this lecture:**
+
+<div class="loesung">
 
 ✓ Alloys = multi-component systems with metallic character
 ✓ Concentration: mass fraction ≠ atomic fraction (except for similar atomic masses)
@@ -762,6 +862,8 @@ When casting into a metal mold (chill), **three characteristic zones** form:
 ✓ Microstructure develops through nucleation and crystal growth
 ✓ Grain size significantly influences mechanical properties
 ✓ Microstructure analysis through sectioning and etching
+
+</div>
 
 ---
 

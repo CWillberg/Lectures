@@ -51,6 +51,61 @@ img[alt="ORCID"] {
     display: inline !important;
     margin: 0 !important;
 }
+.merke {
+  border-left: 4px solid #d4a017;
+  background-color: #fdf6e3;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.hinweis {
+  border-left: 4px solid #2e86c1;
+  background-color: #eaf2f8;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.aufgabe {
+  border: 2px solid #e67e22;
+  background-color: #fdf2e9;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.loesung {
+  border-left: 4px solid #27ae60;
+  background-color: #eafaf1;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.eq {
+  border: 2px solid #c39bd3;
+  background-color: #f4ecf7;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.box-a {
+  background-color: #eafaf1;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.box-b {
+  background-color: #fdf2e9;
+  border: 2px solid #e67e22;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+table th {
+  background-color: var(--accent-color);
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: var(--light-accent-color);
+}
 </style>
 
 
@@ -101,11 +156,15 @@ Kontakt: christian.willberg@h2.de
 ---
 ## Achtung!
 
+<div class="hinweis">
+
 Zustandsdiagramme sind Gleichgewichtsdiagramme. 
 Sie haben nur Gültigkeit bei einer sehr langsamen 
 Abkühlung aus dem schmelzflüssigen Zustand bis hin zur 
 Raumtemperatur, bei der sich das Gleichgewicht zwischen 
 den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann. 
+
+</div>
 
 **In der Praxis:** Schnelle Abkühlung kann zu völlig anderen Gefügen führen!
 
@@ -146,6 +205,9 @@ den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann.
 
 ## Löslichkeiten
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv box-b">
 
 **Unlöslich**
 
@@ -154,14 +216,16 @@ den Phasen (an bzw. zwischen den Phasengrenzlinien) einstellen kann.
 - Komponenten sind chemisch sehr unterschiedlich
 - Elektronen unterscheiden sich stark
 
-
-
+</div>
+<div class="rdiv box-a">
 
 **Löslich**
 - kaum Unterschiede bei den Atomdurchmessern (<15%)
 - Kristallgitter sind identisch
 - Komponenten sind chemisch sehr nah beieinander
 - Elektronegativität ähnlich
+
+</div>
 
 ---
 
@@ -273,8 +337,11 @@ Die Gesamtkonzentration bleibt konstant: $c_L \cdot m_{ges} = c_S \cdot m_S + c_
 
 **Umformung führt zu:**
 
+<div class="eq">
+
 $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}$
 
+</div>
 
 ![bg right 90%](../../assets/Figures/Konstituionelle_abkuehlung.png)
 
@@ -291,23 +358,35 @@ $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}$
 - Die Hebelmasse liegt bei der Legierungskonzentration $c_L$
 - Die längere Hebelstrecke gehört zur kleineren Masse
 
+<div class="hinweis">
+
 **Wichtig:** Immer auf die Gesamtkonzentration achten!
+
+</div>
 
 ---
 
 ## Rechenbeispiel
 
+<div class="aufgabe">
+
 → Annahme Konzentrationen in Punkt 2
 
 $c_S=20\%$, $c_{\alpha}=40\%$, $c_L=25\%$
+
+</div>
 
 ---
 
 ## Lösung
 
+<div class="loesung">
+
 $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25\%-20\%}=\frac{15}{5}=\frac{3}{1}$
 
 - im Punkt 2 liegt 3 mal soviel Schmelze wie Mischkristall vor
+
+</div>
 
 **Plausibilitätsprüfung:**
 - $c_L = 25\%$ liegt näher bei $c_S = 20\%$ als bei $c_\alpha = 40\%$
@@ -316,6 +395,8 @@ $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{40\%-25\%}{25
 ---
 
 ## Übungsaufgabe: Hebelgesetz
+
+<div class="aufgabe">
 
 Eine Cu-Ni-Legierung mit 60 Gew.-% Ni befindet sich bei 1300°C im Zweiphasengebiet.
 
@@ -326,15 +407,21 @@ Eine Cu-Ni-Legierung mit 60 Gew.-% Ni befindet sich bei 1300°C im Zweiphasengeb
 
 **Frage:** Wie groß sind die Massenanteile von Schmelze und α-Mischkristall?
 
+</div>
+
 ---
 
 ## Lösung: Übungsaufgabe Hebelgesetz
+
+<div class="loesung">
 
 $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{68\%-60\%}{60\%-52\%}=\frac{8}{8}=\frac{1}{1}$
 
 **Anteile:**
 - Anteil Schmelze: $\frac{m_S}{m_{ges}}=\frac{c_{\alpha}-c_{L}}{c_{\alpha}-c_{S}}=\frac{8}{16}=0,5 = 50\%$
 - Anteil α-MK: $\frac{m_{\alpha}}{m_{ges}}=\frac{c_{L}-c_{S}}{c_{\alpha}-c_{S}}=\frac{8}{16}=0,5 = 50\%$
+
+</div>
 
 **Interpretation:** Bei dieser Temperatur liegt die Legierung zu gleichen Teilen als Schmelze und fester Mischkristall vor.
 
@@ -346,7 +433,11 @@ $\frac{m_S}{m_{\alpha}}=\frac{c_{\alpha}-c_{L}}{c_{L}-c_{S}}=\frac{68\%-60\%}{60
 - Metallschmelzen der Elemente A und B lösen sich in beliebigen Mischungsverhältnissen (Konzentrationen)
 - die Mischkristalle bilden sich nur noch in bestimmten Maße
 
+<div class="hinweis">
+
 **Wichtig:** Dies ist der häufigste Fall in der Praxis!
+
+</div>
 
 ---
 
@@ -377,18 +468,17 @@ Es können folgende ZSDs auftauchen:
 
 ## Gibbsche Phasenregel
 
-$F = n  - P + 2$
-(für Gase und Flüssigkeiten)
+<div class="eq">
+
+$F = n  - P + 2$ (für Gase und Flüssigkeiten)
+
+bei konstantem Druck (feste Stoffe): $F = n  - P + 1$
+
+</div>
+
 F = Anzahl der Freiheitsgrade; n = Anzahl der Komponenten; P = Anzahl der Phasen
 
-bei konstantem Druck (feste Stoffe) 	
-        
-$F = n  - P + 1$
-        
-Damit ergibt sich für die Anwendung dieser Gesetzmäßigkeiten bei der Abkühlungs- und Erwärmungskurve für metallische Systeme
-
-F = 0		ein Haltepunkt und
-F = 1		ein Knickpunkt.
+Damit ergibt sich für die Abkühlungs- und Erwärmungskurve metallischer Systeme: F = 0 → ein Haltepunkt; F = 1 → ein Knickpunkt
 
 ---
 
@@ -419,15 +509,16 @@ F = 1		ein Knickpunkt.
 
 ## Hinweis
 
+<div class="hinweis">
+
 - Löslichkeitslücke meist als Mischungslücke bekannt
 - $\alpha$ ist ein A reicher Kristall
 - $\beta$ ist ein B reicher Kristall
-
-- Durchmesser irgendwann so groß, dass die Löslichkeitslücke in den Schmelzbereich ragt
-→ Eutektikum
-
+- Durchmesser irgendwann so groß, dass die Löslichkeitslücke in den Schmelzbereich ragt → Eutektikum
 - Komponenten sind **löslich** im flüssigen Zustand
 - Komponenten sind **begrenzt löslich** im festen Zustand
+
+</div>
 
 ---
 
@@ -445,7 +536,11 @@ F = 1		ein Knickpunkt.
 **Reaktionsgleichung:**
 Schmelze → α-Mischkristall + β-Mischkristall
 
+<div class="eq">
+
 $S_E \rightarrow \alpha_E + \beta_E$
+
+</div>
 
 **Merkmale:**
 - Konstante Temperatur (Haltepunkt)
@@ -498,29 +593,31 @@ $S_E \rightarrow \alpha_E + \beta_E$
 
 ## Gefüge untereutektischer Legierungen
 
+<div class="box-a">
+
 **Untereutektische Legierung** (< eutektische Konzentration):
 
 1. **Primärkristallisation:** α-Mischkristalle scheiden sich aus (grobkörnig)
 2. **Eutektische Erstarrung:** Verbleibende Schmelze erstarrt eutektisch (feinkörnig)
 
-**Resultat:**
-- Große α-Primärkristalle
-- Umgeben von eutektischem Gefüge (α + β lamellar)
-- Gefüge: "Primär-α in eutektischer Grundmasse"
+**Resultat:** Große α-Primärkristalle, umgeben von eutektischem Gefüge (α + β lamellar) - "Primär-α in eutektischer Grundmasse"
+
+</div>
 
 ---
 
 ## Gefüge übereutektischer Legierungen
+
+<div class="box-b">
 
 **Übereutektische Legierung** (> eutektische Konzentration):
 
 1. **Primärkristallisation:** β-Mischkristalle scheiden sich aus (grobkörnig)
 2. **Eutektische Erstarrung:** Verbleibende Schmelze erstarrt eutektisch (feinkörnig)
 
-**Resultat:**
-- Große β-Primärkristalle
-- Umgeben von eutektischem Gefüge (α + β lamellar)
-- Gefüge: "Primär-β in eutektischer Grundmasse"
+**Resultat:** Große β-Primärkristalle, umgeben von eutektischem Gefüge (α + β lamellar) - "Primär-β in eutektischer Grundmasse"
+
+</div>
 
 ---
 
@@ -567,7 +664,11 @@ Sonderfall:
 **Reaktionsgleichung:**
 Schmelze + α-Mischkristall → β-Mischkristall
 
+<div class="eq">
+
 $S + \alpha \rightarrow \beta$
+
+</div>
 
 **Merkmale:**
 - Konstante Temperatur (Haltepunkt)
@@ -618,15 +719,21 @@ $S + \alpha \rightarrow \beta$
 
 # Verständnisfragen
 
+<div class="aufgabe">
+
 1. Warum sind Zustandsdiagramme Gleichgewichtsdiagramme?
 2. Was bedeutet ein Freiheitsgrad?
 3. Warum ist die eutektische Temperatur ein Minimum?
 4. Welche Vorteile haben eutektische Legierungen beim Gießen?
 5. Was ist der Unterschied zwischen Mischkristall und Kristallgemisch?
 
+</div>
+
 ---
 
 ## Antworten zu Verständnisfragen
+
+<div class="loesung">
 
 1. **Gleichgewicht:** Benötigt sehr langsame Abkühlung für Diffusion
 2. **Freiheitsgrad:** Anzahl frei wählbarer Zustandsvariablen ohne Änderung der Phasenzahl
@@ -634,11 +741,16 @@ $S + \alpha \rightarrow \beta$
 4. **Gießvorteile:** Niedrigste Schmelztemperatur, gute Formfüllung, dünnflüssig
 5. **MK vs. KG:** MK = homogen atomare Lösung, KG = mechanisches Gemenge
 
+</div>
+
 ---
 
 # Zusammenfassung
 
 **Kernpunkte:**
+
+<div class="loesung">
+
 - Zustandsdiagramme zeigen Phasen in Abhängigkeit von T und c
 - Gibbsche Phasenregel: F = n - P + 1
 - Hebelgesetz zur Berechnung von Massenanteilen
@@ -646,6 +758,8 @@ $S + \alpha \rightarrow \beta$
 - Peritektikum: S + α → β (selten)
 - Löslichkeit nimmt meist mit T ab → Aushärtung möglich
 - Praktische Bedeutung für Legierungsauswahl und Wärmebehandlung
+
+</div>
 
 ---
 

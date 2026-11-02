@@ -48,12 +48,67 @@ img[alt="ORCID"] {
     display: inline !important;
     margin: 0 !important;
 }
+.merke {
+  border-left: 4px solid #d4a017;
+  background-color: #fdf6e3;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.hinweis {
+  border-left: 4px solid #2e86c1;
+  background-color: #eaf2f8;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.aufgabe {
+  border: 2px solid #e67e22;
+  background-color: #fdf2e9;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.loesung {
+  border-left: 4px solid #27ae60;
+  background-color: #eafaf1;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.eq {
+  border: 2px solid #c39bd3;
+  background-color: #f4ecf7;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.box-a {
+  background-color: #eafaf1;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.box-b {
+  background-color: #fdf2e9;
+  border: 2px solid #e67e22;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+table th {
+  background-color: var(--accent-color);
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: var(--light-accent-color);
+}
 </style>
 
 ## Vorlesung Werkstofftechnik - Legierungsbildung - Grundlagen
 Prof. Dr.-Ing. Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvector.png)](https://orcid.org/0000-0003-2433-9183)
 
-![bg right](https://wiki.arnold-horsch.de/images/6/6e/EKD-1.jpg)
+![bg right fit](../../assets/Figures/mischkristalle.png)
 
 Kontakt: christian.willberg@h2.de
 Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
@@ -99,6 +154,10 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 # Warum Legierungen?
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 **Vorteile gegenüber reinen Metallen:**
 - Höhere Festigkeit
 - Bessere Korrosionsbeständigkeit
@@ -106,13 +165,15 @@ Teile des Skripts sind von Prof. Dr.-Ing. Jürgen Häberle übernommen
 - Anpassbare mechanische Eigenschaften
 - Wirtschaftlichkeit
 
+</div>
+<div class="rdiv">
+
 **Beispiele aus dem Alltag:**
 - Stahl (Fe + C)
 - Bronze (Cu + Sn)
 - Messing (Cu + Zn)
 
-
-<!-- 🖼️ BILD EINFÜGEN: Alltagsgegenstände aus verschiedenen Legierungen -->
+</div>
 
 ---
 
@@ -129,19 +190,23 @@ $$n_{rel} = \frac{n_1}{\sum_i n_i} \cdot 100 \text{ [\%]}$$
 
 # Wann sind beide Angaben gleich?
 
+<div class="merke">
+
 **Merke:**
 - Wenn die Atommassen **ähnlich** sind → $m_{rel} \approx n_{rel}$
 - Wenn die Atommassen **unterschiedlich** sind → $m_{rel} \neq n_{rel}$
+
+</div>
 
 **Beispiel:**
 - Cu (63.54 u) und Ni (58.69 u) → ähnliche Massen
 - Fe (55.85 u) und C (12.01 u) → sehr unterschiedliche Massen!
 
-<!-- 🖼️ BILD EINFÜGEN: Vergleichsgrafik Massenanteil vs. Atomanteil -->
-
 ---
 
 ## Aufgabe
+
+<div class="aufgabe">
 
 Eine Legierung mit 1 kg Gesamtmasse enthält:
 - **25 Atom-% Ni**
@@ -155,42 +220,47 @@ Eine Legierung mit 1 kg Gesamtmasse enthält:
 **Gegeben:**
 - $A_{Cu} = 63.54$ u; $A_{Ni} = 58.69$ u; $u = 1.66 \times 10^{-27}$ kg
 
+</div>
+
 ---
 
 # Lösung - Teil 1: Massenanteil
 
 <details>
 <summary>🔍 Lösung anzeigen</summary>
+<div class="loesung">
 
 Wenn **Massenanteil** gegeben ist (25% Ni, 75% Cu):
 
 $$m_{Cu} = 0.75 \cdot 1\text{ kg} = 0.75\text{ kg}$$
 $$m_{Ni} = 0.25 \cdot 1\text{ kg} = 0.25\text{ kg}$$
 
-
-
+</div>
 </details>
 
 ---
 
+# Lösung - Teil 2: Atomanteil
 
 <details>
 <summary>🔍 Lösung anzeigen</summary>
+<div class="loesung">
 
 **Gegeben:** 25 Atom-% Ni, 75 Atom-% Cu, Gesamtmasse = 1 kg
 
-$$m = n_{Cu} \cdot A_{Cu} + n_{Ni} \cdot A_{Ni}$$
+$$m = n_{Ni} \cdot A_{Ni} + n_{Cu} \cdot A_{Cu}, \qquad n_{Ni}=0.25\,n,\ \ n_{Cu}=0.75\,n$$
 
-$$m = (0.25 \cdot A_{Cu} + 0.75 \cdot A_{Ni}) \cdot n$$
+$$n = \frac{m}{0.25 \cdot A_{Ni} + 0.75 \cdot A_{Cu}} \cdot \frac{1}{u} = \frac{1\text{ kg}}{0.25 \cdot 58.69 + 0.75 \cdot 63.54} \cdot \frac{1}{1.66\times10^{-27}\text{ kg}}$$
+$$n = 9.665 \times 10^{24} \text{ Atome}$$
 
+$$m_{Ni} = 0.25\,n \cdot A_{Ni} \cdot u \approx 0.235\text{ kg} \qquad m_{Cu} = 0.75\,n \cdot A_{Cu} \cdot u \approx 0.765\text{ kg}$$
 
-$$n = \frac{m}{0.25 \cdot A_{Cu} + 0.75 \cdot A_{Ni}} = \frac{1\text{ kg}}{0.25 \cdot 63.54 + 0.75 \cdot 58.69} \cdot u$$
-$$n = 1.00565 \times 10^{25} \text{ Atome}$$
+</div>
+<div class="merke">
 
+**Merke:** Da $A_{Cu}\approx A_{Ni}$ gilt wie erwartet $m_{Cu}\approx n_{Cu,rel}=75\,\%$ - Massenanteil und Atomanteil liegen nah beieinander.
 
-$$m_{Cu} = n_{Cu} \cdot A_{Cu} = 0.2449\text{ kg}$$
-$$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
-
+</div>
 </details>
 
 ---
@@ -215,7 +285,7 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 # Phasenbeispiele
 
 <div class="container">
-<div class="col">
+<div class="col box-a">
 
 ## Einphasig
 - Reines Aluminium
@@ -224,7 +294,7 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 - Wasserdampf
 
 </div>
-<div class="col">
+<div class="col box-b">
 
 ## Zweiphasig
 - Nebel (Wasser + Luft)
@@ -241,11 +311,18 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 
 # Phasenänderungen
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv">
+
 **1. Umwandlungen**
 - Instabile Gittermodifikationen wandeln sich in stabile um
 - Unterhalb einer **Gleichgewichtstemperatur**
 - Beispiel: $\gamma$-Fe → $\alpha$-Fe bei Abkühlung unter 911°C
 - Bei Legierungen: Änderung der Mischkristallkonfiguration
+
+</div>
+<div class="rdiv">
 
 **2. Ausscheidungen**
 - **Löslichkeit** nimmt ab (meist durch Temperaturänderung)
@@ -253,38 +330,30 @@ $$m_{Ni} = n_{Ni} \cdot A_{Ni} = 0.7551\text{ kg}$$
 - Erfordert **Massentransport** (Diffusion)
 - Benötigt **Wärme** und **Zeit**
 
+</div>
+
 ---
 
 ## Diffusion - Die Grundlage
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv eq">
+
 **Definition:** Temperatur- und zeitabhängiger Massentransport
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-
-<div>
-
 
 **1. Ficksches Gesetz:**
 $$dm_A = -D \frac{dc_A}{dx} S \, dt$$
 $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
-**Parameter:**
-- $dm_A$ = diffundierte Stoffmenge der Komponente A
-- $D$ = Diffusionskoeffizient
 
 </div>
+<div class="rdiv">
 
-<div>
-
-
+- $dm_A$ = diffundierte Stoffmenge der Komponente A, $D$ = Diffusionskoeffizient
 - $c_A$ = Konzentration der Komponente A
-- $x$ = Ortskoordinate
-- $S$ = Querschnittsfläche
-- $t$ = Zeit
-- $D_0$ = Diffusionskonstante
-- $Q_A$ = Aktivierungsenergie
-- $R$ = Gaskonstante
-- $T$ = absolute Temperatur
-
-</div>
+- $x$ = Ortskoordinate, $S$ = Querschnittsfläche, $t$ = Zeit
+- $D_0$ = Diffusionskonstante, $Q_A$ = Aktivierungsenergie
+- $R$ = Gaskonstante, $T$ = absolute Temperatur
 
 </div>
 
@@ -355,7 +424,11 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 - C in Fe (Stahl!)
 - N in Fe (Nitrieren)
 
+<div class="hinweis">
+
 **Wichtig:** Beide Arten sind **einphasig**!
+
+</div>
 
 <div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
     <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Bildquelle</a>
@@ -429,14 +502,7 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 
 # Entstehung des Gefüges - Ablauf
 
-
-    A[Schmelze] --> B[Abkühlung / Unterkühlung]
-    B --> C[Keimbildung homogen + heterogen]
-    C --> D[Keimwachstum]
-    D --> E[Kristallisation]
-    E --> F[KristallitbildungKörner + Korngrenzen]
-    F --> G[Gefüge]
-
+**Schmelze** → Abkühlung / Unterkühlung → Keimbildung (homogen + heterogen) → Keimwachstum → Kristallisation → Kristallitbildung (Körner + Korngrenzen) → **Gefüge**
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
 
@@ -444,7 +510,9 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 
 # Keimbildung
 
-## Zwei Arten:
+<!-- _class: cols-2 -->
+
+<div class="ldiv box-a">
 
 ### Homogene Keimbildung
 - **Arteigene** Keime
@@ -452,13 +520,16 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 - Höhere Unterkühlung nötig
 - Seltener in der Praxis
 
----
+</div>
+<div class="rdiv box-b">
 
 ### Heterogene Keimbildung
 - **Artfremde** Keime (Verunreinigungen, Kokillenwand)
 - Geringere Unterkühlung nötig
 - Häufigste Form in der Praxis
 - Kann gezielt genutzt werden (Impfkristalle)
+
+</div>
 
 
 ---
@@ -482,7 +553,11 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 | Viele Keime + langsames Wachstum | Feinkörnig |
 | Wenige Keime + schnelles Wachstum | Grobkörnig |
 
+<div class="merke">
+
 **Merke:** Schnelle Abkühlung → viele Keime → feinkörnig!
+
+</div>
 
 ---
 
@@ -493,7 +568,7 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
 ---
 
 <div class="container">
-<div class="col">
+<div class="col box-a">
 
 ## a) Feinkörniges Gefüge
 - Viele Keime
@@ -504,7 +579,7 @@ Charakterisiert durch **Art, Größe, Form, Orientierung und Anordnung** der ein
   - Gleichmäßigere Eigenschaften
 
 </div>
-<div class="col">
+<div class="col box-b">
 
 ## b) Grobkörniges Gefüge
 - Wenige Keime
@@ -754,10 +829,17 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 
 ## Einfluss von Korngrenzensubstanzen
 
+<!-- _class: cols-2 -->
+
+<div class="ldiv box-a">
+
 ### Fall 1: Verformbare Korngrenzensubstanz
 - Materialverhalten wird durch **Körner** dominiert
 - Gute Duktilität
 - Beispiel: Reine Metalle mit geringen Verunreinigungen
+
+</div>
+<div class="rdiv box-b">
 
 ### Fall 2: Spröde Korngrenzensubstanz
 - Materialverhalten wird durch **Korngrenzen** dominiert
@@ -767,11 +849,15 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 
 **Wichtig für:** Schweißbarkeit, Warmformgebung, Zähigkeit
 
+</div>
+
 ---
 
 # Zusammenfassung
 
 **Kernpunkte dieser Vorlesung:**
+
+<div class="loesung">
 
 ✓ Legierungen = Mehrstoffsysteme mit metallischem Charakter
 ✓ Konzentration: Massenanteil ≠ Atomanteil (außer bei ähnlichen Atommassen)
@@ -781,6 +867,8 @@ Beim Gießen in eine Metallform (Kokille) bilden sich **drei charakteristische Z
 ✓ Gefüge entsteht durch Keimbildung und Kristallwachstum
 ✓ Korngröße beeinflusst mechanische Eigenschaften erheblich
 ✓ Gefügenachweis durch Schliff und Ätzung
+
+</div>
 
 ---
 
