@@ -160,7 +160,7 @@ Beam $AB$ ($L=5\ \text{m}$): **pin** at $A$, **link support** (Pendelstütze) at
 
 ## Solution 4.4 - Free Body Diagram
 
-The resultant of the **loaded segment only** is $R=q\cdot b = 300\cdot3=900\ \text{N}$, acting at its midpoint: $1+\tfrac{3}{2}=2.5\ \text{m}$ from $A$ - **not** at the midpoint of the whole beam.
+The resultant of the **loaded segment only** is $R=q\cdot b = 300\cdot3=900\ \text{N}$, acting at its midpoint: $1+\tfrac{3}{2}=2.5\ \text{m}$ from $A$ - **not** every time at the midpoint of the whole beam.
 
 ![bg right fit](./assets/em_s04_ex4_fbd.png)
 
