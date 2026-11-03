@@ -392,46 +392,34 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 ## Arten von Mischkristallen
 
-![bg right fit](../../assets/Figures/mischkristalle.png)
+<div class="container">
+<div class="col box-a">
 
 **1. Substitutionsmischkristall**
-
 - Ähnlicher chemischer Charakter
 - Ähnlicher Atomdurchmesser (< 15% Unterschied)
 - Gleiches Kristallgitter
 
-**Beispiele:**
-- Cu-Ni (vollständig mischbar)
-- Cu-Zn (Messing)
+*Beispiele:* Cu-Ni (vollständig mischbar), Cu-Zn (Messing)
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Bildquelle</a>
 </div>
-
----
-
-## Arten von Mischkristallen
-
-![bg right fit](../../assets/Figures/mischkristalle.png)
+<div class="col box-b">
 
 **2. Einlagerungsmischkristall**
-
-- **Kleinere** Atome
-- Durchmesserverhältnis: $f = \frac{d}{D} \leq 0.41$
+- **Kleinere** Atome, $f = \frac{d}{D} \leq 0.41$
 - Atome in Lücken (Zwischengitterplätze)
 
-**Beispiele:**
-- C in Fe (Stahl!)
-- N in Fe (Nitrieren)
+*Beispiele:* C in Fe (Stahl!), N in Fe (Nitrieren)
+
+</div>
+</div>
+
+![center width:340px](../../assets/Figures/mischkristalle.png)
 
 <div class="hinweis">
 
-**Wichtig:** Beide Arten sind **einphasig**!
+**Wichtig:** Beide Arten sind **einphasig**! <small>(<a href="http://anorganik.chemie.vias.org/img/mischkristalle.png">Bildquelle</a>)</small>
 
-</div>
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Bildquelle</a>
 </div>
 
 ---

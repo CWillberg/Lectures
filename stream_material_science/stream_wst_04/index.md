@@ -391,46 +391,34 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 ## Types of Solid Solutions
 
-![bg right fit](../../assets/Figures/mischkristalle.png)
+<div class="container">
+<div class="col box-a">
 
 **1. Substitutional Solid Solution**
-
 - Similar chemical character
 - Similar atomic diameter (< 15% difference)
 - Same crystal lattice
 
-**Examples:**
-- Cu-Ni (completely miscible)
-- Cu-Zn (brass)
+*Examples:* Cu-Ni (completely miscible), Cu-Zn (brass)
 
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Image source</a>
 </div>
-
----
-
-## Types of Solid Solutions
-
-![bg right fit](../../assets/Figures/mischkristalle.png)
+<div class="col box-b">
 
 **2. Interstitial Solid Solution**
-
-- **Smaller** atoms
-- Diameter ratio: $f = \frac{d}{D} \leq 0.41$
+- **Smaller** atoms, $f = \frac{d}{D} \leq 0.41$
 - Atoms in gaps (interstitial sites)
 
-**Examples:**
-- C in Fe (steel!)
-- N in Fe (nitriding)
+*Examples:* C in Fe (steel!), N in Fe (nitriding)
+
+</div>
+</div>
+
+![center width:340px](../../assets/Figures/mischkristalle.png)
 
 <div class="hinweis">
 
-**Important:** Both types are **single-phase**!
+**Important:** Both types are **single-phase**! <small>(<a href="http://anorganik.chemie.vias.org/img/mischkristalle.png">Image source</a>)</small>
 
-</div>
-
-<div style="position: absolute; bottom: 10px; left: 520px; color: blue; font-size: 20px;"> 
-    <a href="http://anorganik.chemie.vias.org/img/mischkristalle.png" style="color: blue;">Image source</a>
 </div>
 
 ---
