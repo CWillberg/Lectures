@@ -155,65 +155,6 @@ Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 
-## Chemische Zusammensetzung oder Konzentration
-**Massenanteil, Gewichtsanteil, Massenprozent (Synonym)**
-$\frac{m_1}{\sum_i m_{i}}\cdot 100 = m_{1-rel}$ in [%]
-Bsp. $m_{Cu-rel}=\frac{m_{Cu}}{m_{Cu}+m_{Fe}}\cdot 100$
-
-Massen $m$ von Komponenten sind unterschiedlich
-
-**Atomanteil**
-
-$\frac{n_1}{\sum_i n_{i}}\cdot 100 = n_{1-rel}$ in [%]
-Bsp. $n_{Cu-rel}=\frac{n_{Cu}}{n_{Cu}+n_{Fe}}\cdot 100$
-
-Wenn Massen $m$ von Komponenten ähnlich sind, dann sind $n_{rel}$ und $m_{rel}$ gleich. 
-
----
-
-## Übung: Massenanteil vs. Atomanteil
-
-<div class="aufgabe">
-
-Eine Legierung mit 1 kg Gesamtmasse enthält **25 Atom-% Ni** und **75 Atom-% Cu**.
-
-**Fragen:**
-1. Wie groß ist die Masse von Ni und Cu beim **Atomanteil**?
-2. Wie groß wäre die Masse beim **Massenanteil** von 25 % Ni und 75 % Cu?
-
-**Gegeben:** $A_{Cu} = 63.54$ u; $A_{Ni} = 58.69$ u; $u = 1.66 \times 10^{-27}$ kg
-
-</div>
-
----
-
-<details>
-<summary>🔍 Lösung Teil 1: als Massenanteil gelesen</summary>
-<div class="loesung">
-
-$$m_{Cu} = 0.75 \cdot 1\text{ kg} = 0.75\text{ kg} \qquad m_{Ni} = 0.25 \cdot 1\text{ kg} = 0.25\text{ kg}$$
-
-</div>
-</details>
-
-<details>
-<summary>🔍 Lösung Teil 2: als Atomanteil gelesen</summary>
-<div class="loesung">
-
-$$n = \frac{m}{0.25\cdot A_{Ni}+0.75\cdot A_{Cu}}\cdot\frac{1}{u} = \frac{1\text{ kg}}{0.25\cdot58.69+0.75\cdot63.54}\cdot\frac{1}{1.66\times10^{-27}\text{ kg}} = 9.665\times10^{24}\text{ Atome}$$
-
-$$m_{Ni} = 0.25\,n \cdot A_{Ni}\cdot u \approx 0.235\text{ kg} \qquad m_{Cu} = 0.75\,n \cdot A_{Cu}\cdot u \approx 0.765\text{ kg}$$
-
-</div>
-<div class="merke">
-
-**Merke:** Da $A_{Cu}\approx A_{Ni}$, liegen beide Ergebnisse nah beieinander - genau wie im vorherigen Merksatz erklärt.
-
-</div>
-</details>
-
----
-
 ## Phase
 
 - Bekannt im Bezug auf den Aggregatzustand (fest, flüssig, gasförmig, plasmaförmig)
@@ -290,6 +231,65 @@ Ein Mischkristall ist ein chemisch homogener, gleichartiger Kritall, der aus meh
 
 Eigenschaft: hart und sehr spröde
 
+
+---
+
+## Chemische Zusammensetzung oder Konzentration
+**Massenanteil, Gewichtsanteil, Massenprozent (Synonym)**
+$\frac{m_1}{\sum_i m_{i}}\cdot 100 = m_{1-rel}$ in [%]
+Bsp. $m_{Cu-rel}=\frac{m_{Cu}}{m_{Cu}+m_{Fe}}\cdot 100$
+
+Massen $m$ von Komponenten sind unterschiedlich
+
+**Atomanteil**
+
+$\frac{n_1}{\sum_i n_{i}}\cdot 100 = n_{1-rel}$ in [%]
+Bsp. $n_{Cu-rel}=\frac{n_{Cu}}{n_{Cu}+n_{Fe}}\cdot 100$
+
+Wenn Massen $m$ von Komponenten ähnlich sind, dann sind $n_{rel}$ und $m_{rel}$ gleich. 
+
+---
+
+## Übung: Massenanteil vs. Atomanteil
+
+<div class="aufgabe">
+
+Eine Legierung mit 1 kg Gesamtmasse enthält **25 Atom-% Ni** und **75 Atom-% Cu**.
+
+**Fragen:**
+1. Wie groß ist die Masse von Ni und Cu beim **Atomanteil**?
+2. Wie groß wäre die Masse beim **Massenanteil** von 25 % Ni und 75 % Cu?
+
+**Gegeben:** $A_{Cu} = 63.54$ u; $A_{Ni} = 58.69$ u; $u = 1.66 \times 10^{-27}$ kg
+
+</div>
+
+---
+
+<details>
+<summary>🔍 Lösung Teil 1: als Massenanteil gelesen</summary>
+<div class="loesung">
+
+$$m_{Cu} = 0.75 \cdot 1\text{ kg} = 0.75\text{ kg} \qquad m_{Ni} = 0.25 \cdot 1\text{ kg} = 0.25\text{ kg}$$
+
+</div>
+</details>
+
+<details>
+<summary>🔍 Lösung Teil 2: als Atomanteil gelesen</summary>
+<div class="loesung">
+
+$$n = \frac{m}{0.25\cdot A_{Ni}+0.75\cdot A_{Cu}}\cdot\frac{1}{u} = \frac{1\text{ kg}}{0.25\cdot58.69+0.75\cdot63.54}\cdot\frac{1}{1.66\times10^{-27}\text{ kg}} = 9.665\times10^{24}\text{ Atome}$$
+
+$$m_{Ni} = 0.25\,n \cdot A_{Ni}\cdot u \approx 0.235\text{ kg} \qquad m_{Cu} = 0.75\,n \cdot A_{Cu}\cdot u \approx 0.765\text{ kg}$$
+
+</div>
+<div class="merke">
+
+**Merke:** Da $A_{Cu}\approx A_{Ni}$, liegen beide Ergebnisse nah beieinander - genau wie im vorherigen Merksatz erklärt.
+
+</div>
+</details>
 
 ---
 
@@ -420,14 +420,14 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 ## a) Feinkörniges Gefüge
 - Viele Keime, schnelle Abkühlung
-- Höhere Festigkeit, bessere Zähigkeit, gleichmäßigere Eigenschaften
+- Eigenschaften siehe Kapitel 4: höhere Festigkeit, bessere Zähigkeit, gleichmäßigere Eigenschaften
 
 </div>
 <div class="col box-b">
 
 ## b) Grobkörniges Gefüge
 - Wenige Keime, langsame Abkühlung
-- Geringere Festigkeit, spröder, anisotrope Eigenschaften
+- Eigenschaften siehe Kapitel 4: geringere Festigkeit, höhere Duktilität, besseres Kriechverhalten
 
 </div>
 </div>
