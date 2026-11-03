@@ -164,9 +164,9 @@ The resultant of the **loaded segment only** is $R=q\cdot b = 300\cdot3=900\ \te
 
 ![bg right fit](./assets/em_s04_ex4_fbd.png)
 
-$$\sum M_A = S\sin40^\circ\cdot5 - R\cdot2.5=0 \ \Rightarrow\ S=\frac{900\cdot2.5}{5\sin40^\circ}\approx\boxed{700.0\ \text{N}}$$
-$$\sum F_y = A_y+S\sin40^\circ-R=0 \ \Rightarrow\ \boxed{A_y = 900-450=450\ \text{N}}$$
-$$\sum F_x = A_x+S\cos40^\circ=0 \ \Rightarrow\ \boxed{A_x\approx-536.2\ \text{N}}$$
+$$\sum M_A : S\cos40^\circ\cdot5 - R\cdot2.5=0 \ \Rightarrow\ S=\frac{900\cdot2.5}{5\cos40^\circ}\approx\boxed{587.4\ \text{N}}$$
+$$\sum F_y : A_y+S\cos40^\circ-R=0 \ \Rightarrow\ \boxed{A_y = 900-450=450\ \text{N}}$$
+$$\sum F_x : A_x+S\sin40^\circ=0 \ \Rightarrow\ \boxed{A_x\approx-377.5\ \text{N}}$$
 
 ---
 
