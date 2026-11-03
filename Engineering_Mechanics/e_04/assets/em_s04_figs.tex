@@ -45,6 +45,26 @@
     \draw[qload] (\qx,#3) -- (\qx,#3-#4);
   }
 }
+% general (non-uniform) distributed load: hump-shaped arrows over [#1,#2], max length #4, BEAM at y=#3 (every arrow lands here)
+\newcommand{\qarrowsvar}[4]{
+  \pgfmathsetmacro{\qn}{int(floor((#2-#1)/0.4))}
+  \foreach \i in {0,...,\qn} {
+    \pgfmathsetmacro{\qx}{(#1)+\i*0.4}
+    \pgfmathsetmacro{\qlen}{(#4)*sin(180*((\qx-(#1))/((#2)-(#1))))}
+    \draw[qload] (\qx,#3+\qlen) -- (\qx,#3);
+  }
+  \draw[mainblue!70, line width=0.8pt, smooth] plot[domain=#1:#2, samples=40] (\x,{(#3)+(#4)*sin(180*((\x-(#1))/((#2)-(#1))))});
+}
+% triangular distributed load: 0 at x=#1 rising linearly to max #4 at x=#2, BEAM at y=#3 (every arrow lands here)
+\newcommand{\qarrowstri}[4]{
+  \pgfmathsetmacro{\qn}{int(floor((#2-#1)/0.4))}
+  \foreach \i in {1,...,\qn} {
+    \pgfmathsetmacro{\qx}{(#1)+\i*0.4}
+    \pgfmathsetmacro{\qlen}{(#4)*((\qx-(#1))/((#2)-(#1)))}
+    \draw[qload] (\qx,#3+\qlen) -- (\qx,#3);
+  }
+  \draw[mainblue!70, line width=0.8pt] (#1,#3) -- (#2,#3+#4);
+}
 
 \begin{document}
 
@@ -76,8 +96,8 @@
 \node[below right] at (8,-0.15) {$B$};
 \draw[force] (0,-1.1) -- (0,-0.05);
 \node[below] at (0,-1.15) {\small $A_y$};
-\draw[force] (-1.4,1.2) -- (-0.05,1.2);
-\node[left] at (-1.45,1.2) {\small $A_x$};
+\draw[force] (-1.4,0) -- (-0.05,0);
+\node[left] at (-1.45,0) {\small $A_x$};
 \draw[force] (8,-1.1) -- (8,-0.05);
 \node[below] at (8,-1.15) {\small $B_y$};
 \draw[force] (3,1.9) -- (3,0.05);
@@ -108,10 +128,10 @@
 \node[below] at (4,-0.05) {$B$};
 \draw[force] (0,-1.1) -- (0,-0.05);
 \node[below] at (0,-1.15) {\small $A_y$};
-\draw[force] (-1.4,1.2) -- (-0.05,1.2);
-\node[left] at (-1.45,1.2) {\small $A_x$};
-\draw[moment, -{Stealth[length=2.5mm]}] (0.314,0.508) arc (100:280:0.35);
-\node[right] at (0.5,0.15) {\small $M_A$};
+\draw[force] (-1.4,0) -- (-0.05,0);
+\node[left] at (-1.45,0) {\small $A_x$};
+\draw[moment, -{Stealth[length=2.5mm]}] (0.423,0.154) arc (20:160:0.45);
+\node[above] at (0,0.5) {\small $M_A$};
 \draw[force] (4,1.5) -- (4,0.05);
 \node[above] at (4,1.55) {\small $F$};
 \draw[moment, {Stealth[length=2.5mm]}-] (4.75,0.75) arc (20:290:0.55);
@@ -125,7 +145,7 @@
 \draw[line width=1.5pt, mainblue] (0,0) -- (6,0);
 \node[below left] at (0,-0.75) {$A$};
 \node[below right] at (6,-0.95) {$B$};
-\qarrows{0}{6}{1.5}{0.75}
+\qarrows{0}{6}{1.5}{1.5}
 \node[above] at (3,2.4) {\small $q=400\,\text{N/m}$};
 \draw[force] (4,2.1) -- (4,0.05);
 \node[right] at (4.05,1.4) {\small $F=600\,\text{N}$};
@@ -144,8 +164,8 @@
 \node[below right] at (6,-0.15) {$B$};
 \draw[force] (0,-1.1) -- (0,-0.05);
 \node[below] at (0,-1.15) {\small $A_y$};
-\draw[force] (-1.4,1.2) -- (-0.05,1.2);
-\node[left] at (-1.45,1.2) {\small $A_x$};
+\draw[force] (-1.4,0) -- (-0.05,0);
+\node[left] at (-1.45,0) {\small $A_x$};
 \draw[force] (6,-1.1) -- (6,-0.05);
 \node[below] at (6,-1.15) {\small $B_y$};
 \draw[force] (3,2.1) -- (3,0.05);
@@ -168,8 +188,8 @@
 \draw[line width=1pt] (5.5,-1.6) -- (6.3,-1.6);
 \foreach \x in {5.5,5.7,...,6.3} {\draw[line width=0.4pt] (\x,-1.6) -- (\x-0.13,-1.78);}
 \draw[dim] (5,-0.5) arc (270:310:0.5);
-\node[right] at (5.15,-0.75) {\small $40^\circ$};
-\qarrows{1}{4}{1.5}{0.75}
+\node[right] at (4.8,-0.75) {\small $40^\circ$};
+\qarrows{1}{4}{1.5}{1.5}
 \node[above] at (2.5,2.4) {\small $q=300\,\text{N/m}$};
 \draw[dim] (0,-2.6) -- (1,-2.6);
 \node[below] at (0.5,-2.65) {\small $1\,\text{m}$};
@@ -188,16 +208,91 @@
 \node[below right] at (5,-0.15) {$B$};
 \draw[force] (0,-1.1) -- (0,-0.05);
 \node[below] at (0,-1.15) {\small $A_y$};
-\draw[force] (-1.4,1.2) -- (-0.05,1.2);
-\node[left] at (-1.45,1.2) {\small $A_x$};
+\draw[force] (-1.4,0) -- (-0.05,0);
+\node[left] at (-1.45,0) {\small $A_x$};
 \draw[dim] (5,-0.5) arc (270:310:0.5);
-\node[right] at (5.15,-0.75) {\small $40^\circ$};
+\node[right] at (4.8,-0.75) {\small $40^\circ$};
 \draw[force] ($(5,0)+(-50:1.6)$) -- (5,0);
 \node[right] at ($(5,0)+(-50:1.7)$) {\small $S$};
 \draw[force] (2.5,2.1) -- (2.5,0.05);
 \node[left] at (2.45,1.4) {\small $R=qb=900\,\text{N}$};
 \draw[dim, dashed] (2.5,0) -- (2.5,-0.75);
 \node[below] at (2.5,-0.8) {\small $2.5\,\text{m}$};
+\end{tikzpicture}
+
+% ================= Theory: general distributed load =================
+\begin{tikzpicture}
+\draw[line width=1.5pt, mainblue] (0,0) -- (5,0);
+\node[below left] at (0,-0.1) {$A$};
+\node[below right] at (5,-0.1) {$B$};
+\qarrowsvar{0}{5}{0}{1.6}
+\node[above] at (2.5,2.0) {\small $q(x)\ [\text{N/m}]$};
+\draw[dim] (0,-0.6) -- (5,-0.6);
+\node[below] at (2.5,-0.65) {\small $\ell$};
+\end{tikzpicture}
+
+% ================= Theory: uniform distributed load + resultant =================
+\begin{tikzpicture}
+\draw[line width=1.5pt, mainblue] (0,1.6) -- (5,1.6);
+\node[below left] at (0,1.5) {$A$};
+\node[below right] at (5,1.5) {$B$};
+\qarrows{0}{5}{2.9}{1.3}
+\node[above] at (2.5,3.35) {\small $q_0=\text{const.}$};
+\draw[line width=1.5pt, mainblue] (0,-0.6) -- (5,-0.6);
+\node[below left] at (0,-0.7) {$A$};
+\node[below right] at (5,-0.7) {$B$};
+\draw[force] (2.5,0.3) -- (2.5,-0.55);
+\node[right] at (2.6,-0.1) {\small $R=q_0\cdot\ell$};
+\draw[dim, dashed] (2.5,-0.6) -- (2.5,-1.1);
+\node[below] at (2.5,-1.15) {\small $\ell/2$};
+\end{tikzpicture}
+
+% ================= Theory: triangular distributed load + resultant =================
+\begin{tikzpicture}
+\draw[line width=1.5pt, mainblue] (0,1.6) -- (5,1.6);
+\node[below left] at (0,1.5) {$A$};
+\node[below right] at (5,1.5) {$B$};
+\qarrowstri{0}{5}{1.6}{1.8}
+\node[above] at (3.7,3.45) {\small $q_0$};
+\draw[line width=1.5pt, mainblue] (0,-0.6) -- (5,-0.6);
+\node[below left] at (0,-0.7) {$A$};
+\node[below right] at (5,-0.7) {$B$};
+\draw[force] (3.33,0.3) -- (3.33,-0.55);
+\node[right] at (3.43,-0.1) {\small $R=\tfrac{1}{2}q_0\cdot\ell$};
+\draw[dim, dashed] (3.33,-0.6) -- (3.33,-1.1);
+\node[below] at (3.33,-1.15) {\small $2\ell/3$};
+\end{tikzpicture}
+
+% ================= Ex 4.5 problem: beam, pin+roller, triangular load =================
+\begin{tikzpicture}
+\festlager{(0,0)}
+\loslager{(6,0)}
+\draw[line width=1.5pt, mainblue] (0,0) -- (6,0);
+\node[below left] at (0,-0.75) {$A$};
+\node[below right] at (6,-0.95) {$B$};
+\qarrowstri{0}{6}{0}{2.7}
+\node[above] at (5.3,2.85) {\small $q_0=600\,\text{N/m}$};
+\draw[dim] (0,-1.5) -- (6,-1.5);
+\node[below] at (3,-1.55) {\small $L=6\,\text{m}$};
+\end{tikzpicture}
+
+% ================= Ex 4.5 FBD (Free Body Diagram) - q replaced by resultant R =================
+\begin{tikzpicture}
+\fill[mainblue] (0,0) circle (2.2pt);
+\fill[mainblue] (6,0) circle (2.2pt);
+\draw[line width=1.5pt, mainblue] (0,0) -- (6,0);
+\node[below left] at (0,-0.15) {$A$};
+\node[below right] at (6,-0.15) {$B$};
+\draw[force] (0,-1.1) -- (0,-0.05);
+\node[below] at (0,-1.15) {\small $A_y$};
+\draw[force] (-1.4,0) -- (-0.05,0);
+\node[left] at (-1.45,0) {\small $A_x$};
+\draw[force] (6,-1.1) -- (6,-0.05);
+\node[below] at (6,-1.15) {\small $B_y$};
+\draw[force] (4,2.1) -- (4,0.05);
+\node[left] at (3.95,1.4) {\small $R=\tfrac12 q_0 L=1800\,\text{N}$};
+\draw[dim, dashed] (4,0) -- (4,-0.55);
+\node[below] at (4,-0.6) {\small $4\,\text{m}$};
 \end{tikzpicture}
 
 \end{document}
