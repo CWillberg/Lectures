@@ -256,19 +256,28 @@ Ein Mischkristall ist ein chemisch homogener, gleichartiger Kritall, der aus meh
 
 ## Mischkristalle - Arten
 
-![bg right fit](http://anorganik.chemie.vias.org/img/mischkristalle.png)
+<div class="container">
+<div class="col box-a">
 
-Subsitutionsmischkristall
+**Substitutionsmischkristall**
 - ähnlicher chemischer Charakter
 - ähnlicher Durchmesser
-- gleiches Kritallgitter
+- gleiches Kristallgitter
 
-Einlagerungsmischkristall
+</div>
+<div class="col box-b">
+
+**Einlagerungsmischkristall**
 - kleinere Atome
-- in Lücken des Kristallgitters eingelagert (Einlagerungs- oder Zwischengitteratome) 
+- in Gitterlücken eingelagert (Zwischengitteratome)
 - zweite Komponente ist gelöst
 
-_Beide Arten sind einphasig._
+</div>
+</div>
+
+![center width:400px](./assets/mischkristalle.svg)
+
+<div class="merke">Beide Arten sind einphasig.</div>
 
 ---
 

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522 176" width="522" height="176" font-family="sans-serif">
+  <circle cx="73" cy="33" r="13" fill="#f4777f" stroke="#b33a42" stroke-width="1.5"/>
+  <circle cx="103" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="133" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="163" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="193" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="73" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="103" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="133" cy="63" r="13" fill="#f4777f" stroke="#b33a42" stroke-width="1.5"/>
+  <circle cx="163" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="193" cy="63" r="13" fill="#f4777f" stroke="#b33a42" stroke-width="1.5"/>
+  <circle cx="73" cy="93" r="13" fill="#f4777f" stroke="#b33a42" stroke-width="1.5"/>
+  <circle cx="103" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="133" cy="93" r="13" fill="#f4777f" stroke="#b33a42" stroke-width="1.5"/>
+  <circle cx="163" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="193" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="73" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="103" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="133" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="163" cy="123" r="13" fill="#f4777f" stroke="#b33a42" stroke-width="1.5"/>
+  <circle cx="193" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="329" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="359" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="389" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="419" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="449" cy="33" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="329" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="359" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="389" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="419" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="449" cy="63" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="329" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="359" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="389" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="419" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="449" cy="93" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="329" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="359" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="389" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="419" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="449" cy="123" r="13" fill="#d9d9d9" stroke="#8c8c8c" stroke-width="1.5"/>
+  <circle cx="374.0" cy="48.0" r="4" fill="#4c6ef5" stroke="#2b3a8f" stroke-width="1"/>
+  <circle cx="404.0" cy="78.0" r="4" fill="#4c6ef5" stroke="#2b3a8f" stroke-width="1"/>
+  <circle cx="374.0" cy="108.0" r="4" fill="#4c6ef5" stroke="#2b3a8f" stroke-width="1"/>
+  <text x="133.0" y="164" text-anchor="middle" font-size="14" fill="#222">Substitutionsmischkristalle</text>
+  <text x="389.0" y="164" text-anchor="middle" font-size="14" fill="#222">Einlagerungsmischkristalle</text>
+</svg>
