@@ -266,45 +266,6 @@ $$m_{Ni} = 0.25\,n \cdot A_{Ni} \cdot u \approx 0.235\text{ kg} \qquad m_{Cu} = 
 
 
 
-## Diffusion - The Foundation
-
-<!-- _class: cols-2 -->
-
-<div class="ldiv eq">
-
-**Definition:** Temperature and time-dependent mass transport
-
-**1st Fick's Law:**
-$$dm_A = -D \frac{dc_A}{dx} S \, dt$$
-$$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
-
-</div>
-<div class="rdiv">
-
-- $dm_A$ = diffused amount of component A, $D$ = diffusion coefficient
-- $c_A$ = concentration of component A
-- $x$ = spatial coordinate, $S$ = cross-sectional area, $t$ = time
-- $D_0$ = diffusion constant, $Q_A$ = activation energy
-- $R$ = gas constant, $T$ = absolute temperature
-
-</div>
-
----
-
-# Diffusion
-**Important for:**
-- Steel hardening (case hardening, nitriding)
-- Galvanizing
-- Annealing
-- Welding
-- Soldering
-
-**Also outside metallurgy:**
-- Gas diffusion from tanks
-- Diffusion of gases through membranes
-- Corrosion
----
-
 # What is a Phase?
 
 **General definition:**
@@ -375,6 +336,46 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 
 ---
 
+## Diffusion - The Foundation
+
+<!-- _class: cols-2 -->
+
+<div class="ldiv eq">
+
+**Definition:** Temperature- and time-dependent mass transport
+
+**Fick's first law:**
+$$dm_A = -D \frac{dc_A}{dx} S \, dt$$
+$$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
+
+</div>
+<div class="rdiv">
+
+- $dm_A$ = diffused amount of component A, $D$ = diffusion coefficient
+- $c_A$ = concentration of component A
+- $x$ = spatial coordinate, $S$ = cross-sectional area, $t$ = time
+- $D_0$ = diffusion constant, $Q_A$ = activation energy
+- $R$ = gas constant, $T$ = absolute temperature
+
+</div>
+
+---
+
+# Diffusion
+**Important for:**
+- Steel hardening (case hardening, nitriding)
+- Galvanizing
+- Annealing
+- Welding
+- Soldering
+
+**Also outside metallurgy:**
+- Gas diffusion from tanks
+- Diffusion of gases through membranes
+- Corrosion
+
+---
+
 # Solid Solutions
 
 **Definition:**
@@ -384,7 +385,7 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 - At least 2 atom types
 - **Homogeneous** on macroscopic level
 - Heterogeneity only visible at atomic level
-- English: "solid solution"
+- German: "Mischkristall"
 - Leads to "strains" in the lattice
 
 ---
@@ -446,7 +447,7 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 **Carbides:**
 - Fe₃C (cementite) in steel
 - Cr₂₃C₆ in stainless steels
-- WC in hard metals
+- WC in cemented carbides
 
 **Others:**
 - Nitrides (e.g., Fe₄N)
@@ -479,13 +480,13 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
 ![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a7/Vanadium-bar.jpg)
 ![bg vertical 60%](https://upload.wikimedia.org/wikipedia/commons/5/5e/AlubronzeCuAl20v500.png)
 
+[🎬 Video on crystal growth](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
+
 ---
 
 # Microstructure Formation - Process
 
 **Melt** → Cooling / Undercooling → Nucleation (homogeneous + heterogeneous) → Nucleus growth → Crystallization → Crystallite formation (Grains + grain boundaries) → **Microstructure**
-
-[🎬 Video on crystal growth](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
 ![bg right fit](https://upload.wikimedia.org/wikipedia/commons/a/a7/Gefuegebildung.png)
 
@@ -545,6 +546,8 @@ Characterized by **type, size, shape, orientation, and arrangement** of individu
 # Effect of Grain Size
 
 ![](../../assets/Figures/Korngroesse.png)
+
+<small>KZ = number of nuclei (Keimzahl), KG = crystallization rate (Kristallisationsgeschwindigkeit), Unterkühlung = undercooling</small>
 
 ---
 
@@ -706,15 +709,10 @@ When casting into a metal mold (chill), **three characteristic zones** form:
    - Gentle separation (avoiding microstructure influence)
 
 2. **Grinding**
-   - Various grits (coarse → fine)
-   - Create plane surface
 
 3. **Polishing**
-   - Diamond suspension or oxide polishing
-   - Mirror-smooth surface
 
 4. **Etching**
-   - Chemical etching for contrast formation
 
 ---
 
@@ -845,7 +843,7 @@ When casting into a metal mold (chill), **three characteristic zones** form:
 ✓ Alloys = multi-component systems with metallic character
 ✓ Concentration: mass fraction ≠ atomic fraction (except for similar atomic masses)
 ✓ Phases = homogeneous regions with uniform properties
-✓ Diffusion = temperature and time-dependent mass transport
+✓ Diffusion = temperature- and time-dependent mass transport
 ✓ Solid solutions: substitutional and interstitial
 ✓ Microstructure develops through nucleation and crystal growth
 ✓ Grain size significantly influences mechanical properties
@@ -876,6 +874,9 @@ When casting into a metal mold (chill), **three characteristic zones** form:
 
 **Online Resources:**
 - [Fundamentals of Metallurgy](https://wiki.arnold-horsch.de/index.php/Grundlagen_der_Metallkunde)
+
+**Videos:**
+- [Crystal growth visualization](https://youtu.be/xlxFVIw_Esc?si=Dqws4vs14SN5CU4y&t=7)
 
 
 <!-- 🖼️ INSERT IMAGE: QR codes to additional learning resources -->

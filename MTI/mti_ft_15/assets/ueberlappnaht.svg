@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" font-family="Arial, sans-serif">
+  <title>Schematischer Querschnitt einer genieteten und kaltgeklebten Überlappnaht</title>
+  <defs>
+    <marker id="z" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e86c1"/></marker>
+  </defs>
+  <rect x="60" y="140" width="560" height="22" fill="#aeb6bf" stroke="#34495e" stroke-width="2"/>
+  <rect x="280" y="172" width="560" height="22" fill="#d5d8dc" stroke="#34495e" stroke-width="2"/>
+  <rect x="280" y="162" width="340" height="10" fill="#e67e22"/>
+  <g fill="#34495e">
+    <rect x="344" y="128" width="12" height="78"/><rect x="334" y="124" width="32" height="10"/><rect x="334" y="204" width="32" height="8"/>
+    <rect x="444" y="128" width="12" height="78"/><rect x="434" y="124" width="32" height="10"/><rect x="434" y="204" width="32" height="8"/>
+    <rect x="544" y="128" width="12" height="78"/><rect x="534" y="124" width="32" height="10"/><rect x="534" y="204" width="32" height="8"/>
+  </g>
+  <path d="M340,142 L330,148 L338,153 L329,160" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <line x1="50" y1="151" x2="10" y2="151" stroke="#2e86c1" stroke-width="5" marker-end="url(#z)"/>
+  <line x1="850" y1="183" x2="890" y2="183" stroke="#2e86c1" stroke-width="5" marker-end="url(#z)"/>
+  <g font-size="19" fill="#222">
+    <text x="60" y="125">äußeres Blech</text>
+    <text x="640" y="225">inneres Blech</text>
+    <text x="350" y="60" text-anchor="middle" fill="#c0392b">obere Nietreihe:</text>
+    <text x="350" y="84" text-anchor="middle" fill="#c0392b">Ermüdungsrisse</text>
+    <text x="450" y="270" text-anchor="middle" fill="#ca6f1e">Kaltklebung soll die Last tragen</text>
+    <text x="450" y="296" text-anchor="middle" fill="#ca6f1e">löst sie sich, tragen die Niete mehr Last</text>
+    <text x="60" y="205" fill="#2e86c1">Last aus Kabinendruck</text>
+  </g>
+  <line x1="350" y1="92" x2="345" y2="120" stroke="#c0392b" stroke-width="2"/>
+  <line x1="450" y1="252" x2="450" y2="175" stroke="#ca6f1e" stroke-width="2"/>
+  <text x="450" y="330" font-size="15" fill="#555" text-anchor="middle">Schema, nicht maßstäblich</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" font-family="Arial, sans-serif">
+  <title>Schweizer-Käse-Modell mit fünf Ebenen des Falls Aloha 243</title>
+  <defs>
+    <marker id="pfeil" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+  </defs>
+  <g stroke="#b7950b" stroke-width="2" fill="#f7dc6f">
+    <path d="M110,60 L190,30 L190,270 L110,300 z"/>
+    <path d="M260,60 L340,30 L340,270 L260,300 z"/>
+    <path d="M410,60 L490,30 L490,270 L410,300 z"/>
+    <path d="M560,60 L640,30 L640,270 L560,300 z"/>
+    <path d="M710,60 L790,30 L790,270 L710,300 z"/>
+  </g>
+  <g fill="#ffffff" stroke="#b7950b" stroke-width="1.5">
+    <ellipse cx="150" cy="170" rx="20" ry="26"/><ellipse cx="135" cy="95" rx="13" ry="17"/><ellipse cx="168" cy="240" rx="11" ry="15"/>
+    <ellipse cx="300" cy="170" rx="20" ry="26"/><ellipse cx="320" cy="85" rx="11" ry="15"/><ellipse cx="282" cy="245" rx="13" ry="17"/>
+    <ellipse cx="450" cy="170" rx="20" ry="26"/><ellipse cx="435" cy="100" rx="12" ry="16"/><ellipse cx="465" cy="235" rx="12" ry="16"/>
+    <ellipse cx="600" cy="170" rx="20" ry="26"/><ellipse cx="620" cy="80" rx="12" ry="16"/><ellipse cx="585" cy="250" rx="11" ry="15"/>
+    <ellipse cx="750" cy="170" rx="20" ry="26"/><ellipse cx="735" cy="95" rx="11" ry="15"/><ellipse cx="770" cy="235" rx="13" ry="17"/>
+  </g>
+  <line x1="20" y1="170" x2="870" y2="170" stroke="#c0392b" stroke-width="5" marker-end="url(#pfeil)"/>
+  <g font-size="20" fill="#222" text-anchor="middle">
+    <text x="150" y="335">Fertigung</text>
+    <text x="300" y="335">Werkstoff</text>
+    <text x="450" y="335">Prüfung</text>
+    <text x="600" y="335">Organisation</text>
+    <text x="750" y="335">Mensch</text>
+  </g>
+  <text x="20" y="150" font-size="18" fill="#c0392b">Gefahr</text>
+  <text x="870" y="150" font-size="18" fill="#c0392b" text-anchor="end">Schaden</text>
+  <text x="450" y="370" font-size="16" fill="#555" text-anchor="middle">Reihenfolge der Ebenen hier nur beispielhaft</text>
+</svg>
