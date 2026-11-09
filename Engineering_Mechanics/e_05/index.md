@@ -19,6 +19,46 @@ Hochschule Magdeburg-Stendal
 
 ---
 
+## Trusses in practice - bridges
+
+<div style="display:flex; gap:20px; justify-content:center; align-items:flex-start;">
+<figure style="margin:0; text-align:center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Forth_Bridge_20140319.jpg/1280px-Forth_Bridge_20140319.jpg" style="height:360px;width:auto;max-width:none;">
+<figcaption style="font-size:22px;">Forth Bridge, Scotland (1890)</figcaption>
+</figure>
+<figure style="margin:0; text-align:center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Solingen_--_M%C3%BCngstener_Br%C3%BCcke_%2810403938084%29.jpg/1280px-Solingen_--_M%C3%BCngstener_Br%C3%BCcke_%2810403938084%29.jpg" style="height:360px;width:auto;max-width:none;">
+<figcaption style="font-size:22px;">Müngstener Brücke, Solingen (1897)</figcaption>
+</figure>
+</div>
+
+Large spans from slender steel members - each member carries only tension or compression.
+
+<div style="font-size:14px; color:#666;">Images: Suicasmo, CC BY-SA 4.0; InterCityImpress, CC BY-SA 2.0 - Wikimedia Commons</div>
+
+---
+
+## Trusses in practice - cranes, pylons, towers
+
+<div style="display:flex; gap:20px; justify-content:center; align-items:flex-start;">
+<figure style="margin:0; text-align:center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Liebherr_tower_crane_at_reconstruction_of_the_GES-2_in_Moscow.jpg/1280px-Liebherr_tower_crane_at_reconstruction_of_the_GES-2_in_Moscow.jpg" style="height:380px;width:auto;max-width:none;">
+<figcaption style="font-size:22px;">Tower crane jib</figcaption>
+</figure>
+<figure style="margin:0; text-align:center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Electricity_Pylon_-_Norris_Dam%2C_Rocky_Top%2C_Tennessee_-_March_8%2C_2015.jpg/1280px-Electricity_Pylon_-_Norris_Dam%2C_Rocky_Top%2C_Tennessee_-_March_8%2C_2015.jpg" style="height:380px;width:auto;max-width:none;">
+<figcaption style="font-size:22px;">Transmission pylon</figcaption>
+</figure>
+<figure style="margin:0; text-align:center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg" style="height:380px;width:auto;max-width:none;">
+<figcaption style="font-size:22px;">Eiffel Tower (1889)</figcaption>
+</figure>
+</div>
+
+<div style="font-size:14px; color:#666;">Images: Dmitry Ivanov, CC BY-SA 4.0; Lee Ann Ratledge, CC BY 4.0; Benh Lieu Song, public domain - Wikimedia Commons</div>
+
+---
+
 ## Overview
 
 - What is a truss (*Stabtragwerk*) and why every member is a **two-force member**
