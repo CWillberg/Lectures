@@ -117,6 +117,8 @@ jobs:
           - MTI/mti_ft_13
           - MTI/mti_ft_14
           - MTI/mti_ft_15
+          - MTI/mti_ft_16
+          - MTI/mti_ft_17
           - stream_mech_01
           - stream_material_science/stream_wst_01
           - stream_material_science/stream_wst_02

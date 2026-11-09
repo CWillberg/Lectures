@@ -1,7 +1,7 @@
 \documentclass[tikz,border=8pt,multi=tikzpicture]{standalone}
 \usepackage{amsmath}
 \usepackage{xcolor}
-\usetikzlibrary{arrows.meta, calc}
+\usetikzlibrary{arrows.meta, calc, patterns}
 
 \definecolor{mainblue}{HTML}{001158}
 \definecolor{accent}{HTML}{8592bc}
@@ -127,6 +127,151 @@
 \draw[force] (2,3.3) -- (2,2.05);
 \node[above] at (2,3.35) {\small $P$};
 \draw[cut] (3,-1.5) -- (3,2.9);
+\end{tikzpicture}
+
+% ================= Comparison: joint E (method of joints, Ex 6.1) =================
+\begin{tikzpicture}
+\draw[member, lightaccent, line width=6pt] (0,0) -- (-1.2,1.2);
+\draw[member, lightaccent, line width=6pt] (0,0) -- (-1.7,0);
+\joint{(0,0)}
+\node[below right] at (0.05,-0.05) {$E$};
+\draw[force] (0,-1.6) -- (0,-0.08);
+\node[below] at (0,-1.65) {\small $E_y=1000\,\text{N}$};
+\draw[force] (0,0) -- ++(180:1.9);
+\node[below] at (-1.3,-0.05) {\small $S_{CE}$};
+\draw[force] (0,0) -- ++(135:1.9);
+\node[above left] at ($(0,0)+(135:1.95)$) {\small $S_{DE}$};
+\draw[dim, -] (-0.7,0) arc (180:135:0.7);
+\node[accent] at (-0.95,0.32) {\small $45^\circ$};
+\end{tikzpicture}
+
+% ================= Comparison: joint D (method of joints, Ex 6.1) =================
+\begin{tikzpicture}
+\draw[member, lightaccent, line width=6pt] (0,0) -- (-1.7,0);
+\draw[member, lightaccent, line width=6pt] (0,0) -- (-1.2,-1.2);
+\draw[member, lightaccent, line width=6pt] (0,0) -- (1.2,-1.2);
+\joint{(0,0)}
+\node[above] at (0,0.1) {$D$};
+\draw[force] (0,0) -- ++(180:1.9);
+\node[above] at (-1.4,0.05) {\small $S_{BD}$};
+\draw[force] (0,0) -- ++(225:1.9);
+\node[below left] at ($(0,0)+(225:1.95)$) {\small $S_{CD}$};
+\draw[force] (0,0) -- ++(-45:1.9);
+\node[below right] at ($(0,0)+(-45:1.95)$) {\small $S_{DE}=-1414.2\,\text{N}$};
+\end{tikzpicture}
+
+% ================= Ex 6.4 problem: wall-mounted cantilever truss =================
+% A(0,0) B(0,2) pins at the wall, C(2,2) D(2,0) E(4,0) tip
+\begin{tikzpicture}
+\fill[pattern=north east lines, pattern color=black] (-0.95,-0.8) rectangle (-0.75,2.8);
+\draw[line width=1pt] (-0.75,-0.8) -- (-0.75,2.8);
+\begin{scope}[shift={(0,0)}, rotate=-90]
+  \draw[line width=1pt] (0,0) -- (-0.3,-0.5) -- (0.3,-0.5) -- cycle;
+\end{scope}
+\begin{scope}[shift={(0,2)}, rotate=-90]
+  \draw[line width=1pt] (0,0) -- (-0.3,-0.5) -- (0.3,-0.5) -- cycle;
+\end{scope}
+\draw[member] (0,2) -- (2,2);
+\draw[member] (0,0) -- (2,0) -- (4,0);
+\draw[member] (2,2) -- (2,0);
+\draw[member] (2,2) -- (4,0);
+\draw[member] (0,0) -- (2,2);
+\joint{(0,0)} \joint{(0,2)} \joint{(2,2)} \joint{(2,0)} \joint{(4,0)}
+\node[below left] at (-0.05,-0.25) {$A$};
+\node[above left] at (-0.05,2.25) {$B$};
+\node[above] at (2,2.05) {$C$};
+\node[below left] at (2,-0.05) {$D$};
+\node[right] at (4.1,0.15) {$E$};
+\draw[force] (2,-0.08) -- (2,-1.3);
+\node[below] at (2,-1.35) {\small $Q=10\,\text{kN}$};
+\draw[force] (4,-0.08) -- (4,-1.3);
+\node[below] at (4,-1.35) {\small $P=20\,\text{kN}$};
+\draw[dim] (0,3.0) -- (2,3.0);
+\node[above] at (1,3.05) {\small $2\,\text{m}$};
+\draw[dim] (2,3.0) -- (4,3.0);
+\node[above] at (3,3.05) {\small $2\,\text{m}$};
+\draw[dim] (4.9,0) -- (4.9,2);
+\node[right] at (4.95,1) {\small $2\,\text{m}$};
+\end{tikzpicture}
+
+% ================= Ex 6.4 check: Ritterschnitt, right portion (C, D, E) =================
+\begin{tikzpicture}
+\draw[member] (2,2) -- (2,0) -- (4,0);
+\draw[member] (2,2) -- (4,0);
+\joint{(2,2)} \joint{(2,0)} \joint{(4,0)}
+\node[above right] at (2,2.05) {$C$};
+\node[below right] at (2,-0.05) {$D$};
+\node[right] at (4.1,0.15) {$E$};
+\draw[force] (2,2) -- ++(180:1.6);
+\node[above] at (0.6,2.05) {\small $S_{BC}$};
+\draw[force] (2,2) -- ++(225:1.6);
+\node[left] at ($(2,2)+(225:1.65)$) {\small $S_{AC}$};
+\draw[force] (2,0) -- ++(180:1.6);
+\node[below] at (0.6,-0.05) {\small $S_{AD}$};
+\draw[force] (2,-0.08) -- (2,-1.3);
+\node[below] at (2,-1.35) {\small $Q$};
+\draw[force] (4,-0.08) -- (4,-1.3);
+\node[below] at (4,-1.35) {\small $P$};
+\draw[cut] (1,-1.6) -- (1,2.8);
+\fill[accent] (0,0) circle (2pt);
+\node[accent, below left] at (0,0) {\small $A$};
+\end{tikzpicture}
+
+% ================= Ex 6.5 problem: Pratt bridge truss, 4 panels =================
+% bottom A(0,0) B(3,0) C(6,0) D(9,0) E(12,0); top F(3,4) G(6,4) H(9,4)
+\begin{tikzpicture}[scale=0.8]
+\draw[member] (0,0) -- (12,0);
+\draw[member] (3,4) -- (9,4);
+\draw[member] (0,0) -- (3,4);
+\draw[member] (9,4) -- (12,0);
+\draw[member] (3,0) -- (3,4);
+\draw[member] (6,0) -- (6,4);
+\draw[member] (9,0) -- (9,4);
+\draw[member] (3,4) -- (6,0) -- (9,4);
+\foreach \p in {(0,0),(3,0),(6,0),(9,0),(12,0),(3,4),(6,4),(9,4)} {\joint{\p}}
+\festlager{(0,0)}
+\loslager{(12,0)}
+\node[above left] at (0,0.05) {$A$};
+\node[below right] at (3,-0.05) {$B$};
+\node[below right] at (6,-0.05) {$C$};
+\node[below right] at (9,-0.05) {$D$};
+\node[above right] at (12,0.05) {$E$};
+\node[above] at (3,4.05) {$F$};
+\node[above] at (6,4.05) {$G$};
+\node[above] at (9,4.05) {$H$};
+\draw[force] (3,-0.08) -- (3,-1.5);
+\node[below] at (3,-1.55) {\small $30\,\text{kN}$};
+\draw[force] (6,-0.08) -- (6,-1.5);
+\node[below] at (6,-1.55) {\small $20\,\text{kN}$};
+\draw[force] (9,-0.08) -- (9,-1.5);
+\node[below] at (9,-1.55) {\small $10\,\text{kN}$};
+\foreach \x in {0,3,6,9} {\draw[dim] (\x,-2.6) -- (\x+3,-2.6); \node[below] at (\x+1.5,-2.65) {\small $3\,\text{m}$};}
+\draw[dim] (-1.3,0) -- (-1.3,4);
+\node[left] at (-1.35,2) {\small $4\,\text{m}$};
+\end{tikzpicture}
+
+% ================= Ex 6.5 FBD: left portion (A, B, F), cut in panel B-C =================
+\begin{tikzpicture}[scale=0.8]
+\draw[member] (0,0) -- (3,0);
+\draw[member] (0,0) -- (3,4);
+\draw[member] (3,0) -- (3,4);
+\joint{(0,0)} \joint{(3,0)} \joint{(3,4)}
+\node[above left] at (0,0.05) {$A$};
+\node[below left] at (3,-0.05) {$B$};
+\node[above] at (3,4.05) {$F$};
+\draw[force] (0,-1.5) -- (0,-0.08);
+\node[below] at (0,-1.55) {\small $A_y=35\,\text{kN}$};
+\draw[force] (3,-0.08) -- (3,-1.5);
+\node[below] at (3,-1.55) {\small $30\,\text{kN}$};
+\draw[force] (3,4) -- ++(0:2.2);
+\node[right] at (5.25,4) {\small $S_{FG}$};
+\draw[force] (3,4) -- ++(-53.13:2.2);
+\node[right] at ($(3,4)+(-53.13:2.25)$) {\small $S_{FC}$};
+\draw[force] (3,0) -- ++(0:2.2);
+\node[above] at (3.9,0.05) {\small $S_{BC}$};
+\draw[cut] (4.5,-1.9) -- (4.5,4.9);
+\fill[accent] (6,0) circle (2.5pt);
+\node[accent, below right] at (6,0) {\small $C$};
 \end{tikzpicture}
 
 \end{document}
