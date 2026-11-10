@@ -61,8 +61,12 @@ Large spans from slender steel members - each member carries only tension or com
 
 ## Overview
 
-- What is a truss (*Stabtragwerk*) and why every member is a **two-force member**
-- Static determinacy of trusses: $m+r=2j$
+<style scoped>section{font-size:24px;}</style>
+
+- **Member, bar** (*Stab*): a straight, slender bar connected to the rest of the structure by a pin at each end, loaded only at these ends (strut - bar under compression, tie - bar under tension)
+- **Truss** (*Stabtragwerk, Fachwerk*): a structure built only from such members, joined at pin joints (*Knoten*)
+- Why every member carries **only axial force** (tension or compression) - a so-called **two-force member**
+- Static determinacy: $m+r=2j$ with $m$ = number of members, $r$ = number of support reactions, $j$ = number of joints
 - The **method of joints** (*Knotenpunktverfahren*) - the concurrent-force method from Seminar 1, applied joint by joint
 - Two shortcut rules for spotting **zero-force members**
 - Three worked examples
@@ -75,17 +79,23 @@ Large spans from slender steel members - each member carries only tension or com
 
 ## What is a truss?
 
+<style scoped>section{font-size:24px;}</style>
+
 ![bg right fit](./assets/em_s05_concept.png)
 
+- **Member, bar** (*Stab*): straight, slender bar (length ≫ cross-section) with a pin at each end
 - Straight members connected at **pin joints** (*Knoten*)
 - **Idealization:** loads/reactions act **only at joints**; pins frictionless, member weight neglected
-- Consequence: every member is a **two-force member** - force acts **only along its axis**, like the Pendelstütze (Seminar 3)
+- Consequence: every member is a **two-force member** - force acts **only along its axis**
 
 ---
 
 ## Static determinacy of a truss
 
-For a 2D truss with $m$ members, $r$ support reactions, and $j$ joints:
+For a 2D truss:
+- $m$ = number of **members** (*Stäbe*) → one unknown force each
+- $r$ = number of **support reactions** (*Lagerreaktionen*), e.g. pin = 2, roller = 1
+- $j$ = number of **joints** (*Knoten*), including the support joints
 
 $$m + r = 2j \quad\Rightarrow\quad \textbf{statically determinate}$$
 
