@@ -290,7 +290,7 @@ $$A_y = -S_{AC}\sin45^\circ = 30\ \text{kN}$$
 
 <style scoped>section{font-size:24px;}</style>
 
-Pratt truss, 4 panels of $3\ \text{m}$, height $4\ \text{m}$ (diagonals: $\sin\alpha=0.8$, $\cos\alpha=0.6$). **Pin** at $A$, **roller** at $E$. Loads $30\ \text{kN}$ at $B$, $20\ \text{kN}$ at $C$, $10\ \text{kN}$ at $D$.
+Pratt truss, 4 panels of $3\ \text{m}$, height $4\ \text{m}$ (diagonals at $\alpha = 53.1^\circ$ to the horizontal: $\sin\alpha=0.8$, $\cos\alpha=0.6$). **Pin** at $A$, **roller** at $E$. Loads $30\ \text{kN}$ at $B$, $20\ \text{kN}$ at $C$, $10\ \text{kN}$ at $D$.
 
 **Find**
 a) the support reactions
