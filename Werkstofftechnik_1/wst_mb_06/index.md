@@ -743,7 +743,7 @@ $$Schmelze_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 
 ---
 
-## Edelstähle (nichtrostende Stähle)
+## Korriosionsbeständige Stähle
 
 **Definition**: Mindestens 10.5% Cr für Passivschicht
 
@@ -765,7 +765,7 @@ $$Schmelze_{4.3\%C} \rightarrow \gamma_{2.06\%C} + Fe_3C_{6.67\%C}$$
 | Element | Wirkung | Beispiel |
 |---------|---------|----------|
 | Cr | Härtbarkeit, Korrosionsschutz | Edelstahl |
-| Ni | Zähigkeit, Austenit-Bildner | Edelstahl 18/8 |
+| Ni | Zähigkeit, Austenit-Bildner | Edelstahl  |
 | Mo | Warmfestigkeit, Härtbarkeit | Vergütungsstähle |
 | W | Warmfestigkeit, Härte | Schnellarbeitsstahl |
 | V | Kornfeinung, Härte | Werkzeugstähle |

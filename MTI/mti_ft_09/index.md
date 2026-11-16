@@ -549,7 +549,7 @@ Die Zonen lassen sich direkt im **Eisen-Kohlenstoff-Diagramm** (MTI 06) ablesen:
 
 ---
 
-## Das Kohlenstoffäquivalent (Wiederholung MTI 07)
+## Das Kohlenstoffäquivalent
 
 <style scoped>section{font-size:22px;}</style>
 
