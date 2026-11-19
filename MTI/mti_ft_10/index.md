@@ -159,9 +159,6 @@ Zeitplan (130 min):
   - Thermomechanische Ermüdung: Hochdruckbehälter, Turbinen
   - Elektrothermische Ermüdung: Stromleiter (Glühfäden)
 
----
-
-![bg 60%](https://leichtbau.dlr.de/wp-content/uploads/2021/11/Abbildung-2_Innovationsbericht_Wasserstofftank_CG06.png)
 
 ---
 
@@ -208,6 +205,8 @@ Zeitplan (130 min):
 ---
 
 ## Die drei Stadien des Ermüdungsbruchs
+
+<style scoped>section{font-size:26px;}</style>
 
 <!-- _class: cols-2 -->
 
@@ -296,6 +295,8 @@ Zeitplan (130 min):
 ---
 
 ## Belastungsfälle
+
+<style scoped>section{font-size:27px;}</style>
 
 | Fall | Spannungsverhältnis | Mittelspannung | Beispiel |
 |---|---|---|---|
@@ -878,6 +879,8 @@ Verschleiß verursacht in Industrieländern Kosten in der Größenordnung von **
 ---
 
 ## Reibungszustände
+
+<style scoped>section{font-size:27px;}</style>
 
 | Zustand | Was passiert? | Reibungszahl $\mu$ (ca.) | Verschleiß |
 |---|---|---|---|

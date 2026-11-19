@@ -290,10 +290,11 @@ $W_S$ - Arbeit durch Schiebung
 ---
 
 ## Strangpressen
+
 ![bg 80% right](https://upload.wikimedia.org/wikipedia/commons/9/90/Filage_direct_de.png)
 
 - Material wird verformt, aber nicht abgetragen
-![](https://upload.wikimedia.org/wikipedia/commons/5/5c/Strangkkp.jpg)
+![h:420](https://upload.wikimedia.org/wikipedia/commons/5/5c/Strangkkp.jpg)
 ---
 
 

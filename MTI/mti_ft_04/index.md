@@ -166,6 +166,8 @@ Hexagonal dichteste Packung (hpd)
 
 ## Anisotropie in Kristallen
 
+<style scoped>section{font-size:23px;}</style>
+
 **Anisotropie** = Richtungsabhängigkeit der Eigenschaften
 
 Beispiele:
@@ -677,10 +679,11 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 
 ## Beispiel: Gleitstufen im Einkristall
 
+
 - Abgleiten der Atomschichten wird als Stufenbildung an der Oberfläche sichtbar
 - Jede Stufe entspricht dem Durchlaufen einer Gleitebene durch den Kristall
 
-![](../../assets/Figures/Beispiel_plast.bmp)
+![h:400](../../assets/Figures/Beispiel_plast.bmp)
   
 ---
 
@@ -741,6 +744,8 @@ Die plastische Verformung eines Kristalls vollzieht sich  im Wesentlichen durch 
 ---
 
 ## Streckgrenzenphänomen
+
+<style scoped>section{font-size:27px;}</style>
 
 ![bg right 90%](https://upload.wikimedia.org/wikipedia/commons/6/6e/Spgs-Dehnungs-Kurve_Streckgrenze.svg)
 

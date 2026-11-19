@@ -460,6 +460,8 @@ H  +  H → H—H
 
 ## Bindungsenergie
 
+<style scoped>section{font-size:24px;}</style>
+
 **Definition:**
 Energie, die benötigt wird, um eine Bindung zu trennen
 
@@ -903,6 +905,8 @@ Unpolar:  ⊕ ⊖
 ---
 
 ## Eigenschaften von Stoffen mit Sekundärbindungen
+
+<style scoped>section{column-count:2;column-gap:2.5em;font-size:26px;} section h1, section h2, section header{column-span:all;} section p{break-after:avoid;} section ul{break-before:avoid;}</style>
 
 **Aggregatzustand**
 - Oft gasförmig oder niedrig siedend

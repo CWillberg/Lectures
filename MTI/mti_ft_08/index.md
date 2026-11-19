@@ -249,7 +249,7 @@ $$\alpha + \beta + \gamma = 90°$$
 
 ## Spanarten
 
-<style scoped>section{font-size:24px;}</style>
+<style scoped>section{font-size:20px;}</style>
 
 | Spanart | Entstehung | Folge |
 |---|---|---|
@@ -535,12 +535,13 @@ Kühlschmierstoffe sind teuer (Entsorgung, Gesundheitsschutz) - daher der Trend 
 
 ## Fräsen
 
+<style scoped>section{font-size:24px;}</style>
+
 - **Werkzeug** dreht sich (mehrschneidig), Werkstück oder Werkzeug macht den Vorschub
 - unterbrochener Schnitt: jede Schneide tritt ein und aus → Temperatur- und Stoßwechsel
 - erzeugt ebene Flächen, Nuten, Taschen, Freiformflächen
 
-<br/>
-<iframe width="350" height="380" src="https://www.youtube.com/embed/6rbNRCL8myM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="350" height="200" src="https://www.youtube.com/embed/6rbNRCL8myM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![bg 90% right](https://upload.wikimedia.org/wikipedia/commons/4/43/Fraisage_surfacage.svg)
 
@@ -548,12 +549,13 @@ Kühlschmierstoffe sind teuer (Entsorgung, Gesundheitsschutz) - daher der Trend 
 
 ## Bohren
 
+<style scoped>section{font-size:24px;}</style>
+
 - Spanabfuhr und Kühlung aus der Bohrung heraus sind das Hauptproblem
 - Schnittgeschwindigkeit an der Spitze = 0
 - Bohrungen sind meist nicht sehr genau → Reiben für Passungen
 
-<br/>
-<iframe width="350" height="380" src="https://www.youtube.com/embed/dZ4zmaVDW48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="350" height="200" src="https://www.youtube.com/embed/dZ4zmaVDW48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![bg right](http://www.matthiashertel.de/Technologien/Bohren/Bohren.jpg)
 
@@ -586,9 +588,12 @@ Kühlschmierstoffe sind teuer (Entsorgung, Gesundheitsschutz) - daher der Trend 
 
 ## Schleifscheiben
 
-<!-- _class: cols-2 -->
+<style scoped>section{font-size:24px;}</style>
 
-<div class="ldiv">
+
+
+<div class="container">
+<div class="col">
 
 - **Körnung** beschreibt die Größe der Schleifmittelkörner
 - kleinere Körner → geringere Oberflächenrauheit
@@ -597,8 +602,7 @@ Kühlschmierstoffe sind teuer (Entsorgung, Gesundheitsschutz) - daher der Trend 
 [Bezeichnung von Schleifscheiben](http://www.fachlexika.de/technik/mechatronik/schleifen.html)
 
 </div>
-
-<div class="rdiv">
+<div class="col">
 
 **Weiche** Schleifwerkzeuge für
 - harte Werkstoffe
@@ -609,6 +613,8 @@ Kühlschmierstoffe sind teuer (Entsorgung, Gesundheitsschutz) - daher der Trend 
 - weiche Werkstoffe
 - kleinere Berührungsflächen
 - größeren Vorschub
+
+</div>
 
 </div>
 
@@ -649,14 +655,14 @@ Kühlschmierstoffe sind teuer (Entsorgung, Gesundheitsschutz) - daher der Trend 
 - Schnittfläche: Kanteneinzug, Glattschnitt, Bruchzone, Grat
 - Schneidkraft (Abschätzung): $F_s \approx 0{,}8 \cdot R_m \cdot L_s \cdot t$ &nbsp; ($L_s$: Schnittlinienlänge, $t$: Blechdicke)
 
-<iframe width="350" height="380" src="https://www.youtube.com/embed/W_iKKt6783g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="350" height="297" src="https://www.youtube.com/embed/W_iKKt6783g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## Schneiden
 
 <br/>
-<iframe width="350" height="500" src="https://www.youtube.com/embed/Vi95Z8rNX_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="350" height="453" src="https://www.youtube.com/embed/Vi95Z8rNX_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Mechanisch
 

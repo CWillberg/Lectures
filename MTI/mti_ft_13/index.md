@@ -124,6 +124,8 @@ Nicht-Eisenmetalle spielen trotz geringerer Produktionsmengen eine entscheidende
 
 ## Aluminium - Herstellung
 
+<style scoped>section{font-size:25px;}</style>
+
 **Schmelzflusselektrolyse**
 - Ausgangsmaterial: Bauxit (Al₂O₃)
 - Schmelzpunkt Bauxit: 2060 °C (zu hoch für direktes Schmelzen)
@@ -172,6 +174,8 @@ Nicht-Eisenmetalle spielen trotz geringerer Produktionsmengen eine entscheidende
 
 ## Kupfer - Herstellung
 
+<style scoped>section{font-size:23px;}</style>
+
 **Prozess aus Kupferstein:**
 
 $6\text{CuFeS}_2 + 10\text{O}_2 \rightarrow 3\text{Cu}_2\text{S} + 2\text{FeS} + 2\text{Fe}_2\text{O}_3 + 7\text{SO}_2$
@@ -201,6 +205,8 @@ $\text{Cu}_2\text{S} + 2\text{Cu}_2\text{O} \rightarrow 6\text{Cu} + \text{SO}_2
 ---
 
 ## Weitere Nicht-Eisenmetalle II
+
+<style scoped>section{font-size:27px;}</style>
 
 **Nickel**
 - Korrosionsbeständigkeit
@@ -343,6 +349,8 @@ Polyethylen (PE), Polypropylen (PP), Polystyrol (PS), Polycarbonat (PC)
 ---
 
 ## Duroplaste
+
+<style scoped>section{font-size:27px;}</style>
 
 **Eigenschaften:**
 - Engmaschig vernetzte Struktur
@@ -509,6 +517,8 @@ Epoxidharze, vernetzbare Polyurethane, ungesättigte Polyesterharze
 ---
 
 ## Keramiken - Elektrische E.
+
+<style scoped>section{font-size:27px;}</style>
 
 **Vorteile:**
 - Hohe Kriechstromfestigkeit
@@ -1121,6 +1131,8 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 
 ## Delaminationen
 
+<style scoped>section{font-size:28px;}</style>
+
 **Ursachen:**
 - Hohe interlaminare Spannungen
 - Querkontraktionseffekte
@@ -1169,6 +1181,8 @@ Thermische Ausdehnung sollte mit Bauteil kompatibel sein
 ---
 
 ## Porosität
+
+<style scoped>section{font-size:26px;}</style>
 
 **Ursachen:**
 - Schlechte Material-/Prozesskontrolle

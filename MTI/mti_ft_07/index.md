@@ -425,6 +425,8 @@ stellt das Gefüge ein: Ferrit/Perlit, Martensit, angelassener Martensit (MTI 06
 
 ## Einteilung nach DIN EN 10020
 
+<style scoped>section{font-size:28px;}</style>
+
 <!-- _class: cols-2 -->
 
 <div class="ldiv">
@@ -637,9 +639,12 @@ Was steckt in den folgenden Bezeichnungen? Gruppe, C-Gehalt, Legierungselemente,
 
 ## Warum überhaupt legieren?
 
-<!-- _class: cols-2 -->
+<style scoped>section{font-size:24px;}</style>
 
-<div class="ldiv">
+
+
+<div class="container">
+<div class="col">
 
 **Ein reiner Kohlenstoffstahl kann nicht gleichzeitig:**
 - große Querschnitte durchhärten
@@ -648,8 +653,7 @@ Was steckt in den folgenden Bezeichnungen? Gruppe, C-Gehalt, Legierungselemente,
 - bei hoher Festigkeit zäh sein
 
 </div>
-
-<div class="rdiv">
+<div class="col">
 
 **Legierungselemente lösen diese Zielkonflikte:**
 - verzögern Umwandlungen (Perlitbildung)
@@ -657,6 +661,8 @@ Was steckt in den folgenden Bezeichnungen? Gruppe, C-Gehalt, Legierungselemente,
 - bilden **Schutzschichten** (Passivierung)
 - **verfeinern das Korn**
 - verzerren das Gitter → **Mischkristallverfestigung**
+
+</div>
 
 </div>
 
@@ -935,7 +941,7 @@ Die Cr-Oxidschicht ist nur wenige Nanometer dick und **heilt selbst** - solange 
 
 <div class="rdiv">
 
-![](https://upload.wikimedia.org/wikipedia/commons/f/fd/Cast_iron_tensile_test.JPG)
+![h:340](https://upload.wikimedia.org/wikipedia/commons/f/fd/Cast_iron_tensile_test.JPG)
 
 <div style="font-size:14px; color:#666;">Zugproben aus Gusseisen: glatter, verformungsloser Bruch. Bild: Sigmund, CC BY-SA 3.0, Wikimedia Commons</div>
 

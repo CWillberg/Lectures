@@ -121,6 +121,7 @@ Kontakt: christian.willberg@h2.de
 
 ---
 [Beispiel Video](https://www.youtube.com/watch?v=oGlUJX_e1Vc)
+
 ---
 
 ## Urformen aus dem flüssigen Zustand
@@ -228,6 +229,8 @@ Die Prozesskette beim Gießen besteht aus
 ---
 
 ## Niederdruckgießen
+
+<style scoped>section{font-size:25px;}</style>
 
 **Prinzip:**
 - Schmelze wird mit geringem Überdruck (0.2-1 bar) von unten in Form gedrückt
@@ -505,6 +508,8 @@ Es wird unterschieden zwischen:
 
 ## Gusseisen mit Kugelgraphit (GJS)
 
+<style scoped>section{font-size:23px;}</style>
+
 **Mikrostruktur:**
 - Graphit liegt in kugelförmiger Form vor
 - Erreicht durch Zugabe von Magnesium zur Schmelze
@@ -516,12 +521,9 @@ Es wird unterschieden zwischen:
 - Bruchdehnung: 2-18% (duktil!)
 - Zähigkeit ähnlich Stahl
 
-**Anwendungen:**
-- Kurbelwellen
-- Windkraftkomponenten
-- Hochbelastete Bauteile
+**Anwendungen:** Kurbelwellen, Windkraftkomponenten, hochbelastete Bauteile
 
-![bg right 80%](https://matdania.com/wp-content/uploads/2017/04/Nodular_Iron.jpg)
+![bg right:38% 80%](https://matdania.com/wp-content/uploads/2017/04/Nodular_Iron.jpg)
 
 ---
 
@@ -700,6 +702,8 @@ Es wird unterschieden zwischen:
 ---
 
 ## Selective Laser Sintering (SLS)
+
+<style scoped>section{font-size:25px;}</style>
 
 **Kunststoff-Pulverbettverfahren:**
 - Kunststoffpulver wird mit Laser aufgeschmolzen

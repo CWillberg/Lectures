@@ -836,6 +836,8 @@ $$w_{Pearlite} = 100\% - 6.8\% = 93.2\%$$
 
 ## Steel Designation According to DIN EN 10027
 
+<style scoped>section{font-size:22px;}</style>
+
 **Short name system**:
 
 **Example 1**: S235JR

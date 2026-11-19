@@ -223,7 +223,8 @@ $$F_{R} = \mu \cdot F_N$$
 
 ## Schraubenverbindungen
 
-![](https://examio-mediafiles1.s3.eu-west-1.amazonaws.com/abb36-schraubenverbindungen-print.png)
+
+![h:470](https://examio-mediafiles1.s3.eu-west-1.amazonaws.com/abb36-schraubenverbindungen-print.png)
 
 ---
 
@@ -822,6 +823,8 @@ Widerstandslöten - direkt: Strom fließt über die Lötstelle; indirekt: Strom 
 
 ## Oberflächenbehandlung
 
+<style scoped>section{font-size:28px;}</style>
+
 - Oberfläche hat oft Verunreinigungen wie
   - Staub, Metallabrieb ~$10^4-10^5$ nm
   - Öle, Fette ~$3$ nm
@@ -915,6 +918,8 @@ Automatisierung über Roboter möglich
 ---
 
 ## Fügen durch Umformen
+
+<style scoped>section{font-size:26px;}</style>
 - Vorteile
   - kein Wärmeeintrag
   - große Vielfalt bei den Werkstoffen/-kombinationen
@@ -936,6 +941,8 @@ Automatisierung über Roboter möglich
 ---
 
 ## Stanznieten / Niet
+
+<style scoped>section{font-size:26px;}</style>
 
 - Nieten: formschlüssig, unlösbar, **kein Wärmeeintrag**
 - geeignet für Mischverbindungen und nicht schweißbare Werkstoffe (aushärtbares Al im Flugzeugbau)

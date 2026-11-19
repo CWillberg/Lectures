@@ -461,6 +461,8 @@ H  +  H → H—H
 
 ## Binding Energy
 
+<style scoped>section{font-size:21px;}</style>
+
 **Definition:**
 Energy required to break a bond
 
@@ -784,6 +786,8 @@ Weak intermolecular forces due to charge distributions
 
 ## Van der Waals Bonds (2)
 
+<style scoped>section{font-size:24px;}</style>
+
 **1. London Forces**
 - Temporary, fluctuating dipoles
 - In **all** atoms/molecules
@@ -895,6 +899,8 @@ Nonpolar:  ⊕ ⊖
 ---
 
 ## Properties of Substances with Secondary Bonds
+
+<style scoped>section{column-count:2;column-gap:2.5em;} section h1, section h2, section header{column-span:all;}</style>
 
 **Aggregate State**
 - Often gaseous or low boiling

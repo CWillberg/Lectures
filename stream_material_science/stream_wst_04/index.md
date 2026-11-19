@@ -241,6 +241,8 @@ $$m_{Ni} = 0.25 \cdot 1\text{ kg} = 0.25\text{ kg}$$
 
 # Solution - Part 2: Atomic Fraction
 
+<style scoped>section{font-size:22px;}</style>
+
 <details>
 <summary>🔍 Show solution</summary>
 <div class="loesung">
@@ -390,6 +392,8 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 ---
 
 ## Types of Solid Solutions
+
+<style scoped>section{font-size:25px;}</style>
 
 <div class="container">
 <div class="col box-a">

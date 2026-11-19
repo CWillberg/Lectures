@@ -502,6 +502,7 @@ $\varepsilon_v = \frac{\Delta V}{V_0} = \varepsilon_1 + \varepsilon_2 + \varepsi
 
 ## Viskoses Verhalten
 
+
 - irreversibel
 - zeitabhängig, dehnratenabhängig
 
