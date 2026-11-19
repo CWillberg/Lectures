@@ -17,6 +17,11 @@ marp MTI/mti_ft_03/index.md --pdf --theme-set themes/h2.css --allow-local-files 
 
 marp MTI/mti_ft_04/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_05.pdf
 marp MTI/mti_ft_05/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_05.pdf
+marp MTI/mti_ft_06/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_06.pdf
+
+marp MTI/mti_ft_07/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_07.pdf
+marp MTI/mti_ft_08/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_08.pdf
+marp MTI/mti_ft_09/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o mti_ft_09.pdf
 
 marp wst2_mb_w1_bindungen/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o wst2_mb_w1_bindungen.pdf
 marp wst2_mb_w1_bindungen_seminar/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o wst2_mb_w1_bindungen_seminar.pdf
@@ -91,3 +96,6 @@ marp Engineering_Mechanics/e_01/index.md --pdf --theme-set themes/h2.css --allow
 marp Engineering_Mechanics/e_02/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o eng_mech_02.pdf
 
 marp Engineering_Mechanics/e_03/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o eng_mech_03.pdf
+marp Engineering_Mechanics/e_04/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o eng_mech_04.pdf
+marp Engineering_Mechanics/e_05/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o eng_mech_05.pdf
+marp Engineering_Mechanics/e_06/index.md --pdf --theme-set themes/h2.css --allow-local-files --html -o eng_mech_06.pdf

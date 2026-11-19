@@ -385,7 +385,6 @@ $$D = D_0 \exp\left(-\frac{Q_A}{RT}\right)$$
 - At least 2 atom types
 - **Homogeneous** on macroscopic level
 - Heterogeneity only visible at atomic level
-- German: "Mischkristall"
 - Leads to "strains" in the lattice
 
 ---

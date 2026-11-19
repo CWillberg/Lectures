@@ -957,7 +957,7 @@ $$Fe_3C \rightarrow 3Fe + C_{Graphite}$$
 - no elongation (brittle)
 
 **Designation**: GJL-250
-- GJ = cast iron (German: Gusseisen)
+- GJ = cast iron (G = cast, J = iron)
 - L = lamellar graphite
 - 250 = minimum tensile strength in MPa
 

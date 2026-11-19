@@ -120,7 +120,7 @@ Consists of
 
 ---
 
-![bg 80%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg 80%](../../assets/Figures/Bindungskraefte_zwischen_Atome_en.svg)
 
 --- 
 
@@ -134,7 +134,7 @@ Consists of
 
 **Equilibrium:** Bond forms where FA + FR = 0 (minimum energy)
 
-![bg right 80%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg right 80%](../../assets/Figures/Bindungskraefte_zwischen_Atome_en.svg)
 
 ---
 
@@ -298,7 +298,7 @@ $$F = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
 - q₁, q₂ = charges of ions
 - r = distance between ions
 
-![bg fit right:50%](../../assets/Figures/Bindungskraefte_zwischen_Atome.svg)
+![bg fit right:50%](../../assets/Figures/Bindungskraefte_zwischen_Atome_en.svg)
 
 
 

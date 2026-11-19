@@ -22,7 +22,7 @@ Hochschule Magdeburg-Stendal
 ## Overview
 
 - No new theory - the same cut-at-the-hinge method from Seminar 7, applied to three harder cases
-- Exercise 8.1: a **Pendelstütze** instead of a roller - the hinge now carries a horizontal force too
+- Exercise 8.1: a **link support** instead of a roller - the hinge now carries a horizontal force too
 - Exercise 8.2: **two hinges**, three segments - which one do you solve first?
 - Exercise 8.3: an **applied couple** at the free end instead of a point load
 
@@ -38,9 +38,9 @@ Hochschule Magdeburg-Stendal
 ---
 
 # Exercise 8.1
-## Hinge next to a Pendelstütze
+## Hinge next to a link support
 
-Segment 1: **fixed** $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **Pendelstütze** $B$ at $\varphi=45^\circ$ ($4\ \text{m}$), to free end $C$ ($2\ \text{m}$ further), $P=800\ \text{N}$ at $C$.
+Segment 1: **fixed** $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **link support** $B$ at $\varphi=45^\circ$ ($4\ \text{m}$), to free end $C$ ($2\ \text{m}$ further), $P=800\ \text{N}$ at $C$.
 
 **Find** all reactions at $A$ and the strut force $S$.
 
@@ -55,7 +55,7 @@ The strut force has **both** components: $B_y=S\sin45^\circ$, $B_x=S\cos45^\circ
 $$\sum M_G = B_y\cdot4-P\cdot6=0 \ \Rightarrow\ B_y=1200\ \text{N} \ \Rightarrow\ \boxed{S\approx1697.1\ \text{N}}, \quad B_x=1200\ \text{N}$$
 $$\sum F_y: G_y=800-1200=\boxed{-400\ \text{N}} \qquad \sum F_x: G_x=\boxed{-1200\ \text{N}}$$
 
-For the **first time**, the hinge carries a horizontal force too - because the Pendelstütze's reaction isn't purely vertical.
+For the **first time**, the hinge carries a horizontal force too - because the link support's reaction isn't purely vertical.
 
 ---
 

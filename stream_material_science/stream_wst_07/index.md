@@ -318,7 +318,7 @@ Initial State
 **Objective**:
 Reduction of internal stresses (residual stresses) without significant change in other properties
 
-![bg right 90% fit](../../assets/Figures/spannungsarmgluehen.svg)
+![bg right 90% fit](../../assets/Figures/spannungsarmgluehen_en.svg)
 
 ---
 
@@ -366,7 +366,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - With too long holding time: Coarse grain formation
 - With too low temperature: Incomplete recrystallization
 
-![bg right 90% fit](../../assets/Figures/rekristallisationsgluehen.svg)
+![bg right 90% fit](../../assets/Figures/rekristallisationsgluehen_en.svg)
 
 ---
 
@@ -447,7 +447,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 **Holding time**:
 - Several hours (2-10 h)
 
-![bg fit right 90%](../../assets/Figures/weichgluehen.svg)
+![bg fit right 90%](../../assets/Figures/weichgluehen_en.svg)
 
 ---
 
@@ -501,6 +501,8 @@ Reduction of internal stresses (residual stresses) without significant change in
 
 ## Normalizing - Process
 
+<style scoped>section{font-size:24px;}</style>
+
 **Temperature**: 
 - 30-50°C above Ac₃ (hypoeutectoid)
 - 30-50°C above Acm (hypereutectoid)
@@ -513,7 +515,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - Rapid cooling through two-phase interval
 - Then slow cooling (air)
 
-![bg fit right 90%](../../assets/Figures/normalgluehen.svg)
+![bg fit right 90%](../../assets/Figures/normalgluehen_en.svg)
 
 ---
 
@@ -592,7 +594,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 - Slow furnace cooling
 - Then faster air cooling
 
-![bg fit right 90%](../../assets/Figures/grobkorngluehen.svg)
+![bg fit right 90%](../../assets/Figures/grobkorngluehen_en.svg)
 
 ---
 
@@ -622,7 +624,7 @@ Reduction of internal stresses (residual stresses) without significant change in
 
 **Disadvantage**: Very energy-intensive and expensive!
 
-![bg fit right 90%](../../assets/Figures/diffussionsgluehen.svg)
+![bg fit right 90%](../../assets/Figures/diffussionsgluehen_en.svg)
 
 ---
 
@@ -714,6 +716,8 @@ $$x \approx \sqrt{D \cdot t}$$
 
 ## Continuous Cooling (TTT-C)
 
+<style scoped>section{font-size:23px;}</style>
+
 **Experimental procedure**:
 - Specimen from austenitizing temperature
 - Continuously cool (various rates)
@@ -724,7 +728,7 @@ $$x \approx \sqrt{D \cdot t}$$
 - More realistic for practical applications
 - Curves lie to the right of TTT-I
 
-![bg right fit](../../assets/Figures/ztukontinuierlich.png)
+![bg right:42% fit](../../assets/Figures/ztukontinuierlich.png)
 
 ---
 
@@ -977,6 +981,8 @@ Rapid cooling from austenitizing temperature to form martensite
 
 ## Temper Embrittlement
 
+<style scoped>section{font-size:25px;}</style>
+
 **Problem**: 
 - In range 250-400°C 
 - Precipitation of carbides at grain boundaries
@@ -1011,6 +1017,8 @@ Hardening + tempering at high temperatures (550-650°C)
 ---
 
 ## Quenching and Tempering Example
+
+<style scoped>section{font-size:25px;}</style>
 
 **Material**: [42CrMo4 (quenched & tempered steel)](https://www.stauberstahl.com/werkstoffe/17225-werkstoff-datenblatt/)
 
@@ -1087,6 +1095,8 @@ Hardening + tempering at high temperatures (550-650°C)
 
 ## Induction Hardening
 
+<style scoped>section{font-size:22px;}</style>
+
 [**Principle**](https://www.youtube.com/watch?v=ew48WuuQIVg):
 - High-frequency alternating current in inductor
 - Induced eddy currents heat surface
@@ -1097,12 +1107,9 @@ Hardening + tempering at high temperatures (550-650°C)
 - 10-30 kHz: 1-3 mm (shafts)
 - 100-400 kHz: 0.5-1.5 mm (bearing seats)
 
-**Advantages**:
-- Very easily automated
-- Reproducible
-- Fast
+**Advantages**: very easily automated, reproducible, fast
 
-![bg right 55% fit](http://wiki.arnold-horsch.de/images/c/c8/Induktion-1.png)
+![bg right:35% 55% fit](http://wiki.arnold-horsch.de/images/c/c8/Induktion-1.png)
 
 ---
 

@@ -37,8 +37,8 @@ Hochschule Magdeburg-Stendal
 Every beam carries loads *through itself* by developing internal forces at every cross-section. Cut the beam anywhere and ask: what must the material transmit across that cut to keep both halves in equilibrium?
 
 - **Normal force $N$** - along the beam axis (tension/compression)
-- **Shear force $V$** (*Querkraft*) - perpendicular to the axis
-- **Bending moment $M$** (*Biegemoment*) - resists rotation of the cut faces
+- **Shear force $V$** - perpendicular to the axis
+- **Bending moment $M$** - resists rotation of the cut faces
 
 All three are found the same way as every free-body diagram so far: isolate one side, apply $\sum F_x=0,\sum F_y=0,\sum M=0$.
 

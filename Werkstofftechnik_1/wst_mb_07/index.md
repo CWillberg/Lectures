@@ -489,6 +489,8 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 
 ## Normalglühen
 
+<style scoped>section{font-size:24px;}</style>
+
 **Ziel**:
 - Herstellung eines gleichmäßigen und feinkörnigen Gefüges
 - Annäherung an den Gleichgewichtszustand
@@ -505,6 +507,8 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 ---
 
 ## Normalglühen - Verfahren
+
+<style scoped>section{font-size:25px;}</style>
 
 **Temperatur**: 
 - 30-50°C über Ac₃ (untereutektoid)
@@ -568,6 +572,8 @@ Abbau innerer Spannungen (Eigenspannungen) ohne wesentliche Änderung der sonsti
 ---
 
 ## Grobkornglühen
+
+<style scoped>section{font-size:24px;}</style>
 
 **Ziel**:
 - Erzielung eines groben Korns
@@ -719,6 +725,8 @@ $$x \approx \sqrt{D \cdot t}$$
 
 ## Kontinuierliche Abkühlung (ZTU-K)
 
+<style scoped>section{font-size:23px;}</style>
+
 **Versuchsführung**:
 - Probe von Austenitisierungstemperatur
 - kontinuierlich abkühlen (verschiedene Raten)
@@ -729,7 +737,7 @@ $$x \approx \sqrt{D \cdot t}$$
 - realitätsnäher für praktische Anwendungen
 - Kurven liegen rechts von ZTU-I
 
-![bg right fit](../../assets/Figures/ztukontinuierlich.png)
+![bg right:42% fit](../../assets/Figures/ztukontinuierlich.png)
 
 ---
 
@@ -1090,6 +1098,8 @@ Härten + Anlassen bei hohen Temperaturen (550-650°C)
 
 ## Induktionshärten
 
+<style scoped>section{font-size:22px;}</style>
+
 [**Prinzip**](https://www.youtube.com/watch?v=ew48WuuQIVg):
 - hochfrequenter Wechselstrom in Induktor
 - induzierte Wirbelströme erwärmen Oberfläche
@@ -1100,12 +1110,9 @@ Härten + Anlassen bei hohen Temperaturen (550-650°C)
 - 10-30 kHz: 1-3 mm (Wellen)
 - 100-400 kHz: 0.5-1.5 mm (Lagersitze)
 
-**Vorteile**:
-- sehr gut automatisierbar
-- reproduzierbar
-- schnell
+**Vorteile**: sehr gut automatisierbar, reproduzierbar, schnell
 
-![bg right 55% fit](http://wiki.arnold-horsch.de/images/c/c8/Induktion-1.png)
+![bg right:35% 55% fit](http://wiki.arnold-horsch.de/images/c/c8/Induktion-1.png)
 
 ---
 

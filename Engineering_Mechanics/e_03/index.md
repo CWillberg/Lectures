@@ -21,8 +21,8 @@ Hochschule Magdeburg-Stendal
 
 ## Overview
 
-- The standard support types (*Lagerarten*) and how many reaction components each provides
-- Free-body diagrams (*Freischneiden*): replacing supports with their reactions
+- The standard support types and how many reaction components each provides
+- Free-body diagrams: replacing supports with their reactions
 - Checking static determinacy
 - Five worked examples: one concurrent system (two struts), four general systems (pin+roller, two cantilevers with a fixed support, pin+link support)
 
@@ -40,21 +40,21 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-## Support types (Lagerarten)
+## Support types
 
 Every support restrains some combination of horizontal motion, vertical motion, and rotation. Each restrained motion corresponds to **one unknown reaction**.
 
 | Support | Restrains | Unknowns |
 |:---|:---|:---|
-| Loslager (roller) | motion $\perp$ to surface | 1 |
-| Festlager (pin) | motion in any direction | 2 |
-| Einspannung (fixed) | all motion + rotation | 3 |
-| Führung (sliding guide) | rotation + motion $\perp$ to slide direction | 2 |
-| Pendelstütze (link) | motion along the strut | 1 |
+| Roller support | motion $\perp$ to surface | 1 |
+| Pin support | motion in any direction | 2 |
+| Fixed support | all motion + rotation | 3 |
+| Sliding guide | rotation + motion $\perp$ to slide direction | 2 |
+| Link support | motion along the strut | 1 |
 
 ---
 
-## Loslager - roller support
+## Roller support
 
 ![bg right fit](./assets/em_s03_loslager.png)
 
@@ -64,7 +64,7 @@ Every support restrains some combination of horizontal motion, vertical motion, 
 
 ---
 
-## Festlager - pin support
+## Pin support
 
 ![bg right fit](./assets/em_s03_festlager.png)
 
@@ -74,7 +74,7 @@ Every support restrains some combination of horizontal motion, vertical motion, 
 
 ---
 
-## Einspannung - fixed support
+## Fixed support
 
 ![bg right fit](./assets/em_s03_einspannung.png)
 
@@ -84,7 +84,7 @@ Every support restrains some combination of horizontal motion, vertical motion, 
 
 ---
 
-## Führung - sliding guide (variant 1)
+## Sliding guide (variant 1)
 
 ![bg right fit](./assets/em_s03_fuehrung_x.png)
 
@@ -94,17 +94,17 @@ Every support restrains some combination of horizontal motion, vertical motion, 
 
 ---
 
-## Führung - sliding guide (variant 2)
+## Sliding guide (variant 2)
 
 ![bg right fit](./assets/em_s03_fuehrung_y.png)
 
 - Same idea, rotated $90^\circ$: free to slide in $y$
 - Reaction: $F_x$ **and** $M_A$ - **not** $F_y$
-- Same *count* of unknowns as a Festlager (2), but a **different combination** of reaction components
+- Same *count* of unknowns as a pin support (2), but a **different combination** of reaction components
 
 ---
 
-## Pendelstütze - link support
+## Link support
 
 ![bg right fit](./assets/em_s03_pendelstuetze.png)
 
@@ -132,9 +132,9 @@ For a single rigid body in 2D there are exactly **3** independent equilibrium eq
 
 $$\text{unknown reactions} = 3 \quad\Rightarrow\quad \textbf{statically determinate}$$
 
-- Festlager (2) + Loslager (1) = 3 ✓
-- Einspannung alone (3) ✓
-- 3 × Pendelstütze (1 each, non-parallel, non-concurrent) = 3 ✓
+- Pin support (2) + roller support (1) = 3 ✓
+- Fixed support alone (3) ✓
+- 3 × link support (1 each, non-parallel, non-concurrent) = 3 ✓
 
 Every problem in this seminar is set up this way - solvable with $\sum F_x=0$, $\sum F_y=0$, $\sum M=0$ alone.
 
@@ -239,7 +239,7 @@ Only the load's **vertical** component contributes to the moment about $A$ (the 
 # Exercise 3.5
 ## Pin support and link support
 
-Beam $AB$ ($4\ \text{m}$): **pin support** at $A$, **link support** (Pendelstütze) at $B$ mounted at $\varphi=50^\circ$ to the horizontal. A downward force $F=700\ \text{N}$ acts $2.5\ \text{m}$ from $A$.
+Beam $AB$ ($4\ \text{m}$): **pin support** at $A$, **link support** at $B$ mounted at $\varphi=50^\circ$ to the horizontal. A downward force $F=700\ \text{N}$ acts $2.5\ \text{m}$ from $A$.
 
 **Find** $A_x$, $A_y$, and the strut force $S$.
 

@@ -16,14 +16,14 @@
 
 \newcommand{\divider}{
   \draw[accent, -{Stealth[length=3mm]}, line width=1pt] (0,-1.15) -- (0,-1.65);
-  \node[accent] at (1.35,-1.4) {\small \emph{freigeschnitten}};
+  \node[accent] at (1.35,-1.4) {\small \emph{free body}};
 }
 
 \begin{document}
 
 % ================= PANEL 1: Loslager =================
 \begin{tikzpicture}
-\node[align=center] at (0,1.3) {\textbf{Loslager}\\[-2pt]\small (roller support)};
+\node[align=center] at (0,1.3) {\textbf{Roller support}};
 \draw[line width=1.5pt, mainblue] (-1.2,0) -- (1.2,0);
 \draw[line width=1pt] (0,0) -- (-0.3,-0.5) -- (0.3,-0.5) -- cycle;
 \foreach \x in {-0.18,0,0.18} {\draw[fill=white, line width=0.7pt] (\x,-0.6) circle (0.1);}
@@ -38,7 +38,7 @@
 
 % ================= PANEL 2: Festlager =================
 \begin{tikzpicture}
-\node[align=center] at (0,1.3) {\textbf{Festlager}\\[-2pt]\small (pin support)};
+\node[align=center] at (0,1.3) {\textbf{Pin support}};
 \draw[line width=1.5pt, mainblue] (-1.2,0) -- (1.2,0);
 \draw[line width=1pt] (0,0) -- (-0.3,-0.5) -- (0.3,-0.5) -- cycle;
 \draw[line width=1pt] (-0.42,-0.5) -- (0.42,-0.5);
@@ -54,12 +54,12 @@
 
 % ================= PANEL 3: feste Einspannung =================
 \begin{tikzpicture}
-\node[align=center] at (-0.3,1.55) {\textbf{Einspannung}\\[-2pt]\small (fixed support)};
+\node[align=center] at (-0.3,1.55) {\textbf{Fixed support}};
 \draw[line width=1.5pt, mainblue] (-1.6,0) -- (0,0);
 \draw[mainblue, line width=1.5pt] (0,0.6) -- (0,-0.6);
 \foreach \y in {-0.5,-0.25,...,0.5} {\draw[line width=0.5pt] (0,\y) -- (0.2,\y+0.2);}
 \draw[accent, -{Stealth[length=3mm]}, line width=1pt] (-0.3,-1.15) -- (-0.3,-1.65);
-\node[accent] at (1.05,-1.4) {\small \emph{freigeschnitten}};
+\node[accent] at (1.05,-1.4) {\small \emph{free body}};
 \fill[mainblue] (-0.3,-2.9) circle (2pt);
 \draw[force] (-0.3,-3.6) -- (-0.3,-2.95);
 \node[below] at (-0.3,-3.65) {\small $F_y$};
@@ -72,7 +72,7 @@
 
 % ================= PANEL 4: Fuehrung, horizontal sliding (Fy + M) =================
 \begin{tikzpicture}
-\node[align=center] at (0,1.55) {\textbf{F\"uhrung}\\[-2pt]\small (sliding guide, slides in $x$)};
+\node[align=center] at (0,1.55) {\textbf{Sliding guide}\\[-2pt]\small (slides in $x$)};
 \draw[line width=1.5pt, mainblue] (-1.4,0) -- (1.4,0);
 \draw[line width=1pt] (-0.9,0.35) -- (0.9,0.35);
 \draw[line width=1pt] (-0.9,-0.35) -- (0.9,-0.35);
@@ -81,7 +81,7 @@
 \draw[dim, {Stealth[length=2mm]}-{Stealth[length=2mm]}] (-0.6,0) -- (0.6,0);
 \node[align=center] at (0,-1.0) {\small can slide in $x$, cannot rotate};
 \draw[accent, -{Stealth[length=3mm]}, line width=1pt] (0,-1.5) -- (0,-2.0);
-\node[accent] at (1.35,-1.75) {\small \emph{freigeschnitten}};
+\node[accent] at (1.35,-1.75) {\small \emph{free body}};
 \fill[mainblue] (0,-3.3) circle (2pt);
 \draw[force] (0,-4.0) -- (0,-3.35);
 \node[below] at (0,-4.05) {\small $F_y$};
@@ -92,7 +92,7 @@
 
 % ================= PANEL 5: Fuehrung, vertical sliding (Fx + M) =================
 \begin{tikzpicture}
-\node[align=center] at (0,1.55) {\textbf{F\"uhrung}\\[-2pt]\small (sliding guide, slides in $y$)};
+\node[align=center] at (0,1.55) {\textbf{Sliding guide}\\[-2pt]\small (slides in $y$)};
 \draw[line width=1.5pt, mainblue] (0,-1.0) -- (0,1.0);
 \draw[line width=1pt] (0.35,-0.7) -- (0.35,0.7);
 \draw[line width=1pt] (-0.35,-0.7) -- (-0.35,0.7);
@@ -101,7 +101,7 @@
 \draw[dim, {Stealth[length=2mm]}-{Stealth[length=2mm]}] (0,-0.45) -- (0,0.45);
 \node[align=center] at (2.0,0) {\small can slide in $y$,\\ cannot rotate};
 \draw[accent, -{Stealth[length=3mm]}, line width=1pt] (0,-1.4) -- (0,-1.9);
-\node[accent] at (1.35,-1.65) {\small \emph{freigeschnitten}};
+\node[accent] at (1.35,-1.65) {\small \emph{free body}};
 \fill[mainblue] (0,-3.2) circle (2pt);
 \draw[force] (-1.1,-3.2) -- (-0.05,-3.2);
 \node[left] at (-1.15,-3.2) {\small $F_x$};
@@ -112,7 +112,7 @@
 
 % ================= PANEL 6: Pendelstuetze at an angle =================
 \begin{tikzpicture}
-\node[align=center] at (0.6,2.15) {\textbf{Pendelst\"utze}\\[-2pt]\small (link support, angle $\varphi$)};
+\node[align=center] at (0.6,2.15) {\textbf{Link support}\\[-2pt]\small (angle $\varphi$)};
 \draw[line width=1.5pt, mainblue] (-1.0,1.2) -- (1.6,1.2);
 \draw[fill=white, line width=0.8pt] (0,1.2) circle (0.08);
 \draw[line width=1.4pt] (0,1.2) -- (0.75,-0.3);
@@ -123,7 +123,7 @@
 \draw[dim] (0,0.7) arc (270:296.6:0.5);
 \node[left] at (-0.05,0.55) {\small $\varphi$};
 \draw[accent, -{Stealth[length=3mm]}, line width=1pt] (0.4,-1.0) -- (0.4,-1.5);
-\node[accent] at (1.75,-1.25) {\small \emph{freigeschnitten}};
+\node[accent] at (1.75,-1.25) {\small \emph{free body}};
 \fill[mainblue] (0.4,-2.8) circle (2pt);
 \draw[dim] (0.4,-3.3) -- (0.4,-2.8);
 \draw[dim] (0.4,-3.3) arc (270:296.6:0.5);

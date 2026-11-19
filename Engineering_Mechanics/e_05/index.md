@@ -28,7 +28,7 @@ Hochschule Magdeburg-Stendal
 </figure>
 <figure style="margin:0; text-align:center;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Solingen_--_M%C3%BCngstener_Br%C3%BCcke_%2810403938084%29.jpg/1280px-Solingen_--_M%C3%BCngstener_Br%C3%BCcke_%2810403938084%29.jpg" style="height:360px;width:auto;max-width:none;">
-<figcaption style="font-size:22px;">Müngstener Brücke, Solingen (1897)</figcaption>
+<figcaption style="font-size:22px;">Müngsten Bridge, Solingen (1897)</figcaption>
 </figure>
 </div>
 
@@ -63,11 +63,11 @@ Large spans from slender steel members - each member carries only tension or com
 
 <style scoped>section{font-size:24px;}</style>
 
-- **Member, bar** (*Stab*): a straight, slender bar connected to the rest of the structure by a pin at each end, loaded only at these ends (strut - bar under compression, tie - bar under tension)
-- **Truss** (*Stabtragwerk, Fachwerk*): a structure built only from such members, joined at pin joints (*Knoten*)
+- **Member, bar**: a straight, slender bar connected to the rest of the structure by a pin at each end, loaded only at these ends (strut - bar under compression, tie - bar under tension)
+- **Truss**: a structure built only from such members, joined at pin joints
 - Why every member carries **only axial force** (tension or compression) - a so-called **two-force member**
 - Static determinacy: $m+r=2j$ with $m$ = number of members, $r$ = number of support reactions, $j$ = number of joints
-- The **method of joints** (*Knotenpunktverfahren*) - the concurrent-force method from Seminar 1, applied joint by joint
+- The **method of joints** - the concurrent-force method from Seminar 1, applied joint by joint
 - Two shortcut rules for spotting **zero-force members**
 - Three worked examples
 
@@ -83,8 +83,8 @@ Large spans from slender steel members - each member carries only tension or com
 
 ![bg right fit](./assets/em_s05_concept.png)
 
-- **Member, bar** (*Stab*): straight, slender bar (length ≫ cross-section) with a pin at each end
-- Straight members connected at **pin joints** (*Knoten*)
+- **Member, bar**: straight, slender bar (length ≫ cross-section) with a pin at each end
+- Straight members connected at **pin joints**
 - **Idealization:** loads/reactions act **only at joints**; pins frictionless, member weight neglected
 - Consequence: every member is a **two-force member** - force acts **only along its axis**
 
@@ -93,9 +93,9 @@ Large spans from slender steel members - each member carries only tension or com
 ## Static determinacy of a truss
 
 For a 2D truss:
-- $m$ = number of **members** (*Stäbe*) → one unknown force each
-- $r$ = number of **support reactions** (*Lagerreaktionen*), e.g. pin = 2, roller = 1
-- $j$ = number of **joints** (*Knoten*), including the support joints
+- $m$ = number of **members** → one unknown force each
+- $r$ = number of **support reactions**, e.g. pin = 2, roller = 1
+- $j$ = number of **joints**, including the support joints
 
 $$m + r = 2j \quad\Rightarrow\quad \textbf{statically determinate}$$
 
@@ -105,7 +105,7 @@ All trusses in this seminar satisfy $m+r=2j$.
 
 ---
 
-## Method of joints (Knotenpunktverfahren)
+## Method of joints
 
 1. Find the **support reactions** first (whole truss, Seminar 3 method)
 2. Pick a joint with **at most 2 unknown** member forces

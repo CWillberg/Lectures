@@ -93,8 +93,6 @@ Prof. Dr.-Ing.  Christian Willberg [![ORCID](../../assets/styles/ORCIDiD_iconvec
 ![bg right](https://upload.wikimedia.org/wikipedia/commons/9/90/SchlichtenDrehen.jpg)
 
 Kontakt: christian.willberg@h2.de
-Teile des Skripts sind von \
-Prof. Dr.-Ing. Jürgen Häberle übernommen
 
 ---
 

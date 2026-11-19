@@ -29,7 +29,7 @@ Hochschule Magdeburg-Stendal
 
 ## Recap: Seminar 3
 
-- Every support restrains some motion - each restrained motion is **one unknown reaction** (Loslager 1, Festlager 2, Einspannung 3, Führung 2, Pendelstütze 1)
+- Every support restrains some motion - each restrained motion is **one unknown reaction** (roller 1, pin 2, fixed support 3, sliding guide 2, link 1)
 - **Free-body diagram:** isolate the body, replace every support by its reaction(s), add all known loads, then solve
 - All problems here are statically determinate: exactly 3 unknowns, solved with $\sum F_x=0$, $\sum F_y=0$, $\sum M=0$
 
@@ -150,7 +150,7 @@ $$\sum M_A = M_A + M_0 - F\cdot L = 0 \ \Rightarrow\ M_A = 800\cdot2-400=\boxed{
 # Exercise 4.4
 ## Beam with partial uniform load and link support
 
-Beam $AB$ ($L=5\ \text{m}$): **pin** at $A$, **link support** (Pendelstütze) at $B$, mounted at $\varphi=40^\circ$. A uniform load $q=300\ \text{N/m}$ acts only over the middle $3\ \text{m}$ (from $1\ \text{m}$ to $4\ \text{m}$ from $A$).
+Beam $AB$ ($L=5\ \text{m}$): **pin** at $A$, **link support** at $B$, mounted at $\varphi=40^\circ$. A uniform load $q=300\ \text{N/m}$ acts only over the middle $3\ \text{m}$ (from $1\ \text{m}$ to $4\ \text{m}$ from $A$).
 
 **Find** $A_x$, $A_y$, and the strut force $S$.
 

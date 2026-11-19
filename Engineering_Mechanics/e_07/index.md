@@ -21,8 +21,8 @@ Hochschule Magdeburg-Stendal
 
 ## Overview
 
-- What a hinge (*Gelenk*) is and how it differs from a rigid joint **and** from a support
-- Why a hinge makes an otherwise indeterminate multi-span beam (*Gelenkbalken*) solvable
+- What a hinge is and how it differs from a rigid joint **and** from a support
+- Why a hinge makes an otherwise indeterminate multi-span beam solvable
 - The procedure: cut the structure apart at the hinge, solve the self-sufficient segment first
 - Three worked examples, all single-hinge, with increasingly different load cases
 
@@ -32,14 +32,14 @@ Hochschule Magdeburg-Stendal
 
 ---
 
-## What is a hinge (Gelenk)?
+## What is a hinge?
 
 ![bg right fit](./assets/em_s07_concept_joint.png)
 
 - A **support** connects a structure to the ground; a **hinge** connects two parts of the *same* structure to each other
 - A rigid connection transmits $F_x$, $F_y$, **and** $M$
 - A hinge transmits $F_x$, $F_y$ **only** - by definition, $M=0$ at a hinge
-- A *Gelenkbalken* is a multi-span beam with one or more internal hinges
+- A **hinged multi-span beam** (Gerber beam) is a beam with one or more internal hinges
 
 ---
 

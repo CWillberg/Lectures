@@ -53,7 +53,7 @@
 \festlager{(0,0)}
 \loslager{(8,0)}
 \draw[cut] (5,-1.1) -- (5,2.9);
-\node[accent, above] at (5,2.95) {\small \emph{Ritterschnitt}};
+\node[accent, above] at (5,2.95) {\small \emph{section cut}};
 \node[align=center] at (5,-1.6) {\small cut through \textbf{at most 3} members of unknown force};
 \draw[dim] (6.3,1.1) -- (5.2,0.55);
 \node[accent, right] at (6.35,1.1) {\small exposes $S_{BD}$, $S_{CD}$, $S_{CE}$};
@@ -171,14 +171,9 @@
 % ================= Ex 6.4 problem: wall-mounted cantilever truss =================
 % A(0,0) B(0,2) pins at the wall, C(2,2) D(2,0) E(4,0) tip
 \begin{tikzpicture}
-\fill[pattern=north east lines, pattern color=black] (-0.95,-0.8) rectangle (-0.75,2.8);
-\draw[line width=1pt] (-0.75,-0.8) -- (-0.75,2.8);
-\begin{scope}[shift={(0,0)}, rotate=-90]
-  \draw[line width=1pt] (0,0) -- (-0.3,-0.5) -- (0.3,-0.5) -- cycle;
-\end{scope}
-\begin{scope}[shift={(0,2)}, rotate=-90]
-  \draw[line width=1pt] (0,0) -- (-0.3,-0.5) -- (0.3,-0.5) -- cycle;
-\end{scope}
+% Festlager A und B, an der Wand (um -90 Grad gedreht)
+\begin{scope}[shift={(0,0)}, rotate=-90] \festlager{(0,0)} \end{scope}
+\begin{scope}[shift={(0,2)}, rotate=-90] \festlager{(0,0)} \end{scope}
 \draw[member] (0,2) -- (2,2);
 \draw[member] (0,0) -- (2,0) -- (4,0);
 \draw[member] (2,2) -- (2,0);
