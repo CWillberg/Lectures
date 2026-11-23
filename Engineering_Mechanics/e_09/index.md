@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 9: Internal Forces I'
+header: 'Engineering Mechanics - Seminar 9: Hinges - Worked Calculations'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Internal Forces I
+# Hinges - Worked Calculations
 ## Engineering Mechanics - Seminar 9
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
@@ -21,120 +21,98 @@ Hochschule Magdeburg-Stendal
 
 ## Overview
 
-- Three internal reactions at any cut through a beam: normal force $N$, shear force $V$, bending moment $M$
-- Sign convention: tension, "clockwise shear", sagging
-- How to compute and sketch $V(x)$ and $M(x)$ along a beam
-- Three worked examples: a point load, a cantilever, a full uniform load - the three basic diagram shapes
+- No new theory - the same cut-at-the-hinge method from Seminar 8, applied to three harder cases
+- Exercise 9.1: a **link support** instead of a roller - the hinge now carries a horizontal force too
+- Exercise 9.2: **two hinges**, three segments - which one do you solve first?
+- Exercise 9.3: an **applied couple** at the free end instead of a point load
 
 ---
 
-# Theory
+## Recap: the procedure
 
----
-
-## Internal forces: cutting the beam
-
-Every beam carries loads *through itself* by developing internal forces at every cross-section. Cut the beam anywhere and ask: what must the material transmit across that cut to keep both halves in equilibrium?
-
-- **Normal force $N$** - along the beam axis (tension/compression)
-- **Shear force $V$** - perpendicular to the axis
-- **Bending moment $M$** - resists rotation of the cut faces
-
-All three are found the same way as every free-body diagram so far: isolate one side, apply $\sum F_x=0,\sum F_y=0,\sum M=0$.
-
----
-
-## Sign convention
-
-![bg right fit](./assets/em_s09_concept.png)
-
-- Positive $N$: **tension** - the two cut faces pulled apart
-- Positive $V$: would **rotate** a thin slice at the cut **clockwise**
-- Positive $M$: **sagging** - the beam curves like a smile, bottom fibre in tension
-
-This seminar only needs $V(x)$ and $M(x)$ - no axial load acts in any example, so $N\equiv0$ throughout.
-
----
-
-## Procedure for $V(x)$ and $M(x)$
-
-1. Find the support reactions (whole beam)
-2. Cut at a variable position $x$ within each load region (at most 3 regions per problem here)
-3. Take **one** side (whichever has fewer forces) as a free body
-4. $V(x)=$ net transverse force on that side; $M(x)=$ net moment of that side's forces about the cut
-5. Plot $V(x)$ and $M(x)$ along the full length - $M$ is extremal wherever $V=0$ (or changes sign)
+1. Find the segment that is determinate **on its own** (its own supports + the hinge give exactly 3 reaction components)
+2. Solve it with $\sum F_x=0,\sum F_y=0,\sum M=0$
+3. The neighbouring segment feels the **same hinge force, reversed** (Newton's third law)
+4. Repeat outward until every segment is solved
 
 ---
 
 # Exercise 9.1
-## Simply supported beam, one point load
+## Hinge next to a link support
 
-Beam $AB$ ($L=6\ \text{m}$): pin at $A$, roller at $B$. $P=1200\ \text{N}$ at $2\ \text{m}$ from $A$.
+Segment 1: **fixed** $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **link support** $B$ at $\varphi=45^\circ$ ($4\ \text{m}$), to free end $C$ ($2\ \text{m}$ further), $P=800\ \text{N}$ at $C$.
 
-**Find** $V(x)$ and $M(x)$, and sketch both diagrams.
+**Find** all reactions at $A$ and the strut force $S$.
 
-![bg right fit](./assets/em_s09_ex1_problem.png)
+![bg right fit](./assets/em_s08_ex1_problem.png)
 
 ---
 
-## Solution 9.1
+## Solution 9.1 - segment 2 first
 
-Reactions: $A_y=P\cdot\frac{4}{6}=800\ \text{N}$, $B_y=P\cdot\frac{2}{6}=400\ \text{N}$.
+The strut force has **both** components: $B_y=S\sin45^\circ$, $B_x=S\cos45^\circ$.
 
-$$0\le x<2:\quad V=A_y=800\ \text{N} \ \text{(const.)}, \qquad M(x)=A_y\,x$$
-$$2<x\le6:\quad V=A_y-P=-400\ \text{N} \ \text{(const.)}, \qquad M(x)=A_y\,x-P(x-2)$$
+$$\sum M_G = B_y\cdot4-P\cdot6=0 \ \Rightarrow\ B_y=1200\ \text{N} \ \Rightarrow\ \boxed{S\approx1697.1\ \text{N}}, \quad B_x=1200\ \text{N}$$
+$$\sum F_y: G_y=800-1200=\boxed{-400\ \text{N}} \qquad \sum F_x: G_x=\boxed{-1200\ \text{N}}$$
 
-$M$ is **linear** on each side, peaking at the load: $M(2)=1600\ \text{N}\!\cdot\!\text{m}$. $V$ **jumps** by $-P$ exactly where the point load acts - a general rule.
+For the **first time**, the hinge carries a horizontal force too - because the link support's reaction isn't purely vertical.
 
-![bg right fit](./assets/em_s09_ex1_solution.png)
+---
+
+## Solution 9.1 - segment 1
+
+Segment 1 receives the reversed hinge force: $1200\ \text{N}$ rightward, $400\ \text{N}$ upward.
+
+![bg right fit](./assets/em_s08_ex1_fbd.png)
+
+$$\boxed{A_x=-1200\ \text{N}} \qquad \boxed{A_y=-400\ \text{N}}$$
+$$\sum M_A = M_A+400\cdot3=0 \ \Rightarrow\ \boxed{M_A=-1200\ \text{N}\!\cdot\!\text{m}}$$
 
 ---
 
 # Exercise 9.2
-## Cantilever, tip load
+## Two hinges, three segments
 
-Cantilever $AB$ ($L=3\ \text{m}$): fixed at $A$, free at $B$, $P=900\ \text{N}$ at the tip.
+$A$ (fixed) - $G_1$ ($2\ \text{m}$) - $D$ (roller, $3\ \text{m}$) - $G_2$ ($2\ \text{m}$) - $B$ (roller, $3\ \text{m}$) - $C$ (free end, $2\ \text{m}$), $P=900\ \text{N}$ at $C$.
 
-**Find** $V(x)$ and $M(x)$.
+**Which segment do you solve first?** The one determinate on its own - here, segment 3 ($G_2$-$B$-$C$): hinge + roller = 3 unknowns, 3 equations.
 
-![bg right fit](./assets/em_s09_ex2_problem.png)
+![bg right fit](./assets/em_s08_ex2_problem.png)
 
 ---
 
-## Solution 9.2
+## Solution 9.2 - outside in
 
-For a cantilever, cut from the **free end** - that side never needs the (unknown) reactions. Measuring $\xi$ from the tip ($\xi=0$ at $B$, $\xi=L$ at $A$):
+**Seg. 3** ($G_2$-$C$, first): $B_y\cdot3-P\cdot5=0 \Rightarrow B_y=1500\ \text{N}$, $G_{2y}=900-1500=-600\ \text{N}$
 
-$$V(\xi)=-P=-900\ \text{N} \ \text{(constant over the whole length)}$$
-$$M(\xi)=-P\,\xi \ \Rightarrow\ M(0)=0,\quad M(L)=-900\cdot3=-2700\ \text{N}\!\cdot\!\text{m}$$
+**Seg. 2** (receives $+600\ \text{N}$ at $G_2$): $D_y\cdot3+600\cdot5=0 \Rightarrow D_y=-1000\ \text{N}$, $G_{1y}=-600-D_y=400\ \text{N}$
 
-$M$ is **negative throughout** - hogging (top fibre in tension), the opposite of Exercise 9.1's sagging. $V$ is constant, $M$ is linear - just like a point-load region, but with no second region to switch to.
+**Seg. 1** (receives $-400\ \text{N}$ at $G_1$): $\boxed{A_y=400\ \text{N}}$, $\boxed{M_A=800\ \text{N}\!\cdot\!\text{m}}$
 
-![bg right fit](./assets/em_s09_ex2_solution.png)
+![bg right fit](./assets/em_s08_ex2_fbd.png)
 
 ---
 
 # Exercise 9.3
-## Simply supported beam, full uniform load
+## Applied couple instead of a point load
 
-Beam $AB$ ($L=4\ \text{m}$): pin at $A$, roller at $B$, $q=500\ \text{N/m}$ over the whole span.
+Segment 1: **fixed** $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **roller** $B$ ($4\ \text{m}$), to free end $C$ ($2\ \text{m}$ further) - but now an **applied couple** $M_0=600\ \text{N}\!\cdot\!\text{m}$ acts at $C$, no force.
 
-**Find** $V(x)$ and $M(x)$.
+**Find** all reactions at $A$ and $B$.
 
-![bg right fit](./assets/em_s09_ex3_problem.png)
+![bg right fit](./assets/em_s08_ex3_problem.png)
 
 ---
 
 ## Solution 9.3
 
-By symmetry, $A_y=B_y=q L/2=1000\ \text{N}$.
+A pure couple still needs $\sum M=0$ - but contributes **no** term to $\sum F_x$ or $\sum F_y$ directly, and (having no lever arm of its own) enters the moment equation unchanged:
 
-$$V(x)=A_y-q\,x=1000-500x \quad \text{(linear, crosses zero at midspan)}$$
-$$M(x)=A_y\,x-\frac{q\,x^2}{2}=1000x-250x^2 \quad \text{(parabolic)}$$
+$$\sum M_G = B_y\cdot4+M_0=0 \ \Rightarrow\ \boxed{B_y=-150\ \text{N}}, \qquad G_y=0-(-150)=\boxed{150\ \text{N}}$$
 
-Unlike the point-load case, $q$ is distributed: $V$ is now **linear**, not constant, and $M$ is **parabolic**, not piecewise-straight. $M$ is maximal at $x=2\ \text{m}$ (where $V=0$): $M(2)=1000\ \text{N}\!\cdot\!\text{m}$.
+Segment 1 receives $150\ \text{N}$ **downward**: $\boxed{A_y=150\ \text{N}}$, $\sum M_A=M_A-150\cdot3=0\Rightarrow\boxed{M_A=450\ \text{N}\!\cdot\!\text{m}}$
 
-![bg right fit](./assets/em_s09_ex3_solution.png)
+![bg right fit](./assets/em_s08_ex3_fbd.png)
 
 ---
 

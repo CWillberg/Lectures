@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 11: Second Moment of Area'
+header: 'Engineering Mechanics - Seminar 11: Internal Forces III'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Second Moment of Area
+# Internal Forces III
 ## Engineering Mechanics - Seminar 11
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal

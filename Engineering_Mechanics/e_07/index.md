@@ -1,13 +1,30 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 7: Hinges in Beams'
+header: 'Engineering Mechanics - Seminar 7: Trusses III - Calculation Practice'
 theme: h2
 paginate: true
 math: katex
 ---
 
+<style>
+.merke {
+  border-left: 4px solid #d4a017;
+  background-color: #fdf6e3;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.hinweis {
+  border-left: 4px solid #2e86c1;
+  background-color: #eaf2f8;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+</style>
+
 <!-- _class: lead -->
-# Hinges in Beams
+# Trusses III - Calculation Practice
 ## Engineering Mechanics - Seminar 7
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
@@ -21,131 +38,165 @@ Hochschule Magdeburg-Stendal
 
 ## Overview
 
-- What a hinge is and how it differs from a rigid joint **and** from a support
-- Why a hinge makes an otherwise indeterminate multi-span beam solvable
-- The procedure: cut the structure apart at the hinge, solve the self-sufficient segment first
-- Three worked examples, all single-hinge, with increasingly different load cases
+- **No new theory** - a pure calculation session
+- One truss model, **five variations**: different dimensions, loads and supports
+- Exam type: this is the kind of truss you will meet in the written exam
+- Use the methods from Seminars 5 and 6: method of joints and method of sections
+- Only the tasks are given here - the solutions are discussed in the seminar
+
+<!--
+Timing (90 min): 5 min introduction, 5 x 15 min exercises (work in pairs, then compare at the board), 10 min wrap-up.
+Solutions intentionally not on the slides.
+-->
 
 ---
 
-# Theory
+## The truss model
+
+![bg right:42% fit](./assets/em_s07_model.png)
+
+<style scoped>section{font-size:25px;}</style>
+
+- Joints $A$, $B$, $C$, $D$ - $D$ is the **midpoint** of the diagonal $AC$
+- Width $b$, height $h$; $AB$ vertical, $BC$ horizontal
+- Inclined members make the angle $\alpha$ with the horizontal: $\tan\alpha = h/b$
+
+| Member | Joints | Angle to the horizontal |
+|---|---|---|
+| 1 | $A$-$D$ | $\alpha$ |
+| 2 | $A$-$B$ | $90^\circ$ |
+| 3 | $B$-$D$ | $\alpha$ |
+| 4 | $D$-$C$ | $\alpha$ |
+| 5 | $B$-$C$ | $0^\circ$ |
 
 ---
 
-## What is a hinge?
+## Working procedure
 
-![bg right fit](./assets/em_s07_concept_joint.png)
+1. **Check** static determinacy: $m + r = 2j$
+2. **Free-body diagram** of the whole truss - replace supports by their reactions
+3. **Support reactions** from $\sum F_x = 0$, $\sum F_y = 0$, $\sum M = 0$
+4. **Zero-force members** - spot them before you calculate
+5. **Member forces** - method of joints (start at a joint with at most 2 unknowns) or method of sections
+6. **Check** - one equation you have not used yet must also be satisfied
 
-- A **support** connects a structure to the ground; a **hinge** connects two parts of the *same* structure to each other
-- A rigid connection transmits $F_x$, $F_y$, **and** $M$
-- A hinge transmits $F_x$, $F_y$ **only** - by definition, $M=0$ at a hinge
-- A **hinged multi-span beam** (Gerber beam) is a beam with one or more internal hinges
+<div class="merke">
 
----
+**Don't forget the sketches!** Every free-body diagram counts in the exam. Assume all member forces as **tension** - a negative result means compression.
 
-## Cutting the structure at the hinge
-
-![bg right fit](./assets/em_s07_concept_cut.png)
-
-- Cutting at the hinge turns one structure into **two separate free bodies**
-- The hinge forces $G_x$, $G_y$ are **internal** - equal and opposite on the two cut faces (Newton's third law) - and vanish when the whole system is considered together
-- No hinge moment ever appears, on either side
-
----
-
-## Solution procedure
-
-1. Identify the segments and the hinge(s) between them
-2. Find the segment that is **statically determinate on its own** (its own supports + the hinge give exactly 3 independent reaction components) - solve it first with $\sum F_x=0,\sum F_y=0,\sum M=0$
-3. By Newton's third law, the **other** segment feels the *same* hinge force, **reversed**
-4. Solve the remaining segment the same way
-
-A segment resting on the hinge alone (no support of its own) is **not** stable - every segment needs enough of its *own* supports besides the hinge.
+</div>
 
 ---
 
 # Exercise 7.1
-## Fixed support, hinge, roller, overhang load
+## Loads at the free corner (exam type)
 
-Segment 1: **fixed** at $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **roller** $B$ ($4\ \text{m}$) to free end $C$ ($2\ \text{m}$ further), with $P=1000\ \text{N}$ at $C$.
+<style scoped>section{font-size:25px;}</style>
 
-**Find** all reactions at $A$ and $B$.
+![bg right:45% fit](./assets/em_s07_ex1.png)
 
-![bg right fit](./assets/em_s07_ex1_problem.png)
+**Given**
+- $b = h = 2\ \text{m}$, $\alpha = 45^\circ$
+- $A$: **pin support**, $B$: **roller support** at the wall (reaction horizontal only)
+- At $C$: $F_1 = 10\ \text{kN}$ horizontal (to the right), $F_2 = 30\ \text{kN}$ vertical (upwards)
 
----
-
-## Solution 7.1 - segment 2 first
-
-Segment 2 (hinge $G$ + roller $B$) is determinate on its own - solve it first:
-
-$$\sum M_G = B_y\cdot4 - P\cdot6=0 \ \Rightarrow\ \boxed{B_y=1500\ \text{N}}$$
-$$\sum F_y = G_y+B_y-P=0 \ \Rightarrow\ G_y=1000-1500=\boxed{-500\ \text{N}}$$
-
-$G_y$ negative: segment 1 actually pulls **down** on segment 2 at $G$ (the overhang moment at $C$ overpowers the roller alone).
-
-![bg right fit](./assets/em_s07_ex1_fbd.png)
-
----
-
-## Solution 7.1 - segment 1
-
-By Newton's third law, segment 2 pulls **up** on segment 1 at $G$ with $500\ \text{N}$:
-
-$$\sum F_x = A_x = 0 \ \Rightarrow\ \boxed{A_x=0}$$
-$$\sum F_y = A_y+500=0 \ \Rightarrow\ \boxed{A_y=-500\ \text{N}}$$
-$$\sum M_A = M_A+500\cdot3=0 \ \Rightarrow\ \boxed{M_A=-1500\ \text{N}\!\cdot\!\text{m}}$$
-
-Check (whole system): $A_y+B_y-P=-500+1500-1000=0$ ✓
+**Find**
+a) the support reactions at $A$ and $B$
+b) all member forces $S_1 \dots S_5$ (tension or compression?)
+c) the zero-force members
 
 ---
 
 # Exercise 7.2
-## Pin, roller, hinge, roller - load between hinge and far support
+## Two loads, smaller truss
 
-Segment 1: **pin** $A$, **roller** $D$ ($3\ \text{m}$ apart), to hinge $G$ ($2\ \text{m}$ further). Segment 2: $G$ to **roller** $B$ ($3\ \text{m}$), $P=900\ \text{N}$ at midspan.
+<style scoped>section{font-size:25px;}</style>
 
-**Find** all reactions at $A$, $D$, $B$.
+![bg right:45% fit](./assets/em_s07_ex2.png)
 
-![bg right fit](./assets/em_s07_ex2_problem.png)
+**Given**
+- $b = h = 1.5\ \text{m}$, $\alpha = 45^\circ$
+- $A$: **pin support**, $B$: **roller support** at the wall (reaction horizontal only)
+- At $C$: $F_1 = 20\ \text{kN}$ vertical (downwards)
+- At $D$: $F_2 = 10\ \text{kN}$ horizontal (to the left)
 
----
-
-## Solution 7.2 - segment 2 first, then segment 1
-
-Segment 2 (hinge + roller, determinate alone):
-$$\sum M_G = B_y\cdot3 - P\cdot1.5=0 \ \Rightarrow\ \boxed{B_y=450\ \text{N}}, \qquad G_y=900-450=\boxed{450\ \text{N}}$$
-
-Segment 1 receives $450\ \text{N}$ **downward** at $G$ (opposite of $G_y$ above):
-
-$$\sum M_A = D_y\cdot3 - 450\cdot5=0 \ \Rightarrow\ \boxed{D_y=750\ \text{N}}, \qquad \sum F_y: \boxed{A_y=450-750=-300\ \text{N}}$$
-
-![bg right fit](./assets/em_s07_ex2_fbd.png)
+**Find**
+a) the support reactions at $A$ and $B$
+b) all member forces $S_1 \dots S_5$ (tension or compression?)
 
 ---
 
 # Exercise 7.3
-## Fixed support, hinge, then a distributed load over the whole second segment
+## Inclined load at the inner joint
 
-Segment 1: **fixed** at $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **roller** $B$ ($4\ \text{m}$) to free end $C$ ($2\ \text{m}$ further) - but now $q=500\ \text{N/m}$ acts over the **entire** $6\ \text{m}$ of segment 2.
+<style scoped>section{font-size:25px;}</style>
 
-**Find** all reactions at $A$ and $B$.
+![bg right:45% fit](./assets/em_s07_ex3.png)
 
-![bg right fit](./assets/em_s07_ex3_problem.png)
+**Given**
+- $b = h = 2\ \text{m}$, $\alpha = 45^\circ$
+- $A$: **pin support**, $B$: **roller support** at the wall (reaction horizontal only)
+- At $D$: $F = 15\ \text{kN}$, acting **downwards to the right** at $30^\circ$ below the horizontal
+
+**Find**
+a) the components of $F$
+b) the support reactions at $A$ and $B$
+c) all member forces $S_1 \dots S_5$ (tension or compression?)
+d) Which members are zero-force members here - and why is the answer different from Exercise 7.1?
 
 ---
 
-## Solution 7.3
+# Exercise 7.4
+## Supports swapped
 
-Resultant $R=q\cdot6=3000\ \text{N}$ at the centroid, $3\ \text{m}$ from $G$ (Seminar 4 technique). Segment 2:
+<style scoped>section{font-size:25px;}</style>
 
-$$\sum M_G = B_y\cdot4-R\cdot3=0 \ \Rightarrow\ \boxed{B_y=2250\ \text{N}}, \qquad G_y=3000-2250=\boxed{750\ \text{N}}$$
+![bg right:45% fit](./assets/em_s07_ex4.png)
 
-Segment 1 receives $750\ \text{N}$ **downward** at $G$:
+**Given**
+- $b = h = 2\ \text{m}$, $\alpha = 45^\circ$
+- $A$: **roller support** at the wall (reaction horizontal only), $B$: **pin support** at the wall
+- At $C$: $F_1 = 12\ \text{kN}$ horizontal (to the right), $F_2 = 24\ \text{kN}$ vertical (downwards)
 
-$$\boxed{A_x=0}, \qquad \boxed{A_y=750\ \text{N}}, \qquad \boxed{M_A=2250\ \text{N}\!\cdot\!\text{m}}$$
+**Find**
+a) the support reactions at $A$ and $B$
+b) all member forces $S_1 \dots S_5$ (tension or compression?)
+c) Which member now carries the vertical load into the support - compare with Exercise 7.1
 
-![bg right fit](./assets/em_s07_ex3_fbd.png)
+---
+
+# Exercise 7.5
+## Rectangular truss, inclined load
+
+<style scoped>section{font-size:25px;}</style>
+
+![bg right:45% fit](./assets/em_s07_ex5.png)
+
+**Given**
+- $b = 3\ \text{m}$, $h = 2\ \text{m}$, $\alpha = 33.7^\circ$ ($\sin\alpha = 0.555$, $\cos\alpha = 0.832$)
+- $A$: **pin support**, $B$: **roller support** at the wall (reaction horizontal only)
+- At $C$: $F = 20\ \text{kN}$, acting **downwards to the right** at $60^\circ$ below the horizontal
+
+**Find**
+a) the components of $F$
+b) the support reactions at $A$ and $B$
+c) all member forces $S_1 \dots S_5$ (tension or compression?)
+
+---
+
+## Before you hand in
+
+- Is every free-body diagram drawn - whole truss **and** each joint you used?
+- Do the support reactions satisfy **all three** equilibrium equations?
+- Are signs consistent? Tension $+$, compression $-$
+- Did you mark **T** / **C** for every member?
+- Does an unused joint confirm your results?
+
+<div class="hinweis">
+
+Exam tip: Look for **zero-force members** first - at an unloaded joint with two members, or with three members where two are collinear. They save time and are a free check.
+
+</div>
 
 ---
 

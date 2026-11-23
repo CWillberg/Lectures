@@ -47,6 +47,7 @@ jobs:
           - Engineering_Mechanics/e_10
           - Engineering_Mechanics/e_11
           - Engineering_Mechanics/e_12
+          - Engineering_Mechanics/e_13
           # ── FractureFatigue ──────────────────────────────────────
           - FractureFatigue/FF_introduction
           - FractureFatigue/FF_bonds

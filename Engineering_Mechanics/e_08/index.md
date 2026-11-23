@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 8: Hinges - Worked Calculations'
+header: 'Engineering Mechanics - Seminar 8: Hinges in Beams'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Hinges - Worked Calculations
+# Hinges in Beams
 ## Engineering Mechanics - Seminar 8
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
@@ -21,98 +21,131 @@ Hochschule Magdeburg-Stendal
 
 ## Overview
 
-- No new theory - the same cut-at-the-hinge method from Seminar 7, applied to three harder cases
-- Exercise 8.1: a **link support** instead of a roller - the hinge now carries a horizontal force too
-- Exercise 8.2: **two hinges**, three segments - which one do you solve first?
-- Exercise 8.3: an **applied couple** at the free end instead of a point load
+- What a hinge is and how it differs from a rigid joint **and** from a support
+- Why a hinge makes an otherwise indeterminate multi-span beam solvable
+- The procedure: cut the structure apart at the hinge, solve the self-sufficient segment first
+- Three worked examples, all single-hinge, with increasingly different load cases
 
 ---
 
-## Recap: the procedure
+# Theory
 
-1. Find the segment that is determinate **on its own** (its own supports + the hinge give exactly 3 reaction components)
-2. Solve it with $\sum F_x=0,\sum F_y=0,\sum M=0$
-3. The neighbouring segment feels the **same hinge force, reversed** (Newton's third law)
-4. Repeat outward until every segment is solved
+---
+
+## What is a hinge?
+
+![bg right fit](./assets/em_s07_concept_joint.png)
+
+- A **support** connects a structure to the ground; a **hinge** connects two parts of the *same* structure to each other
+- A rigid connection transmits $F_x$, $F_y$, **and** $M$
+- A hinge transmits $F_x$, $F_y$ **only** - by definition, $M=0$ at a hinge
+- A **hinged multi-span beam** (Gerber beam) is a beam with one or more internal hinges
+
+---
+
+## Cutting the structure at the hinge
+
+![bg right fit](./assets/em_s07_concept_cut.png)
+
+- Cutting at the hinge turns one structure into **two separate free bodies**
+- The hinge forces $G_x$, $G_y$ are **internal** - equal and opposite on the two cut faces (Newton's third law) - and vanish when the whole system is considered together
+- No hinge moment ever appears, on either side
+
+---
+
+## Solution procedure
+
+1. Identify the segments and the hinge(s) between them
+2. Find the segment that is **statically determinate on its own** (its own supports + the hinge give exactly 3 independent reaction components) - solve it first with $\sum F_x=0,\sum F_y=0,\sum M=0$
+3. By Newton's third law, the **other** segment feels the *same* hinge force, **reversed**
+4. Solve the remaining segment the same way
+
+A segment resting on the hinge alone (no support of its own) is **not** stable - every segment needs enough of its *own* supports besides the hinge.
 
 ---
 
 # Exercise 8.1
-## Hinge next to a link support
+## Fixed support, hinge, roller, overhang load
 
-Segment 1: **fixed** $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **link support** $B$ at $\varphi=45^\circ$ ($4\ \text{m}$), to free end $C$ ($2\ \text{m}$ further), $P=800\ \text{N}$ at $C$.
+Segment 1: **fixed** at $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **roller** $B$ ($4\ \text{m}$) to free end $C$ ($2\ \text{m}$ further), with $P=1000\ \text{N}$ at $C$.
 
-**Find** all reactions at $A$ and the strut force $S$.
+**Find** all reactions at $A$ and $B$.
 
-![bg right fit](./assets/em_s08_ex1_problem.png)
+![bg right fit](./assets/em_s07_ex1_problem.png)
 
 ---
 
 ## Solution 8.1 - segment 2 first
 
-The strut force has **both** components: $B_y=S\sin45^\circ$, $B_x=S\cos45^\circ$.
+Segment 2 (hinge $G$ + roller $B$) is determinate on its own - solve it first:
 
-$$\sum M_G = B_y\cdot4-P\cdot6=0 \ \Rightarrow\ B_y=1200\ \text{N} \ \Rightarrow\ \boxed{S\approx1697.1\ \text{N}}, \quad B_x=1200\ \text{N}$$
-$$\sum F_y: G_y=800-1200=\boxed{-400\ \text{N}} \qquad \sum F_x: G_x=\boxed{-1200\ \text{N}}$$
+$$\sum M_G = B_y\cdot4 - P\cdot6=0 \ \Rightarrow\ \boxed{B_y=1500\ \text{N}}$$
+$$\sum F_y = G_y+B_y-P=0 \ \Rightarrow\ G_y=1000-1500=\boxed{-500\ \text{N}}$$
 
-For the **first time**, the hinge carries a horizontal force too - because the link support's reaction isn't purely vertical.
+$G_y$ negative: segment 1 actually pulls **down** on segment 2 at $G$ (the overhang moment at $C$ overpowers the roller alone).
+
+![bg right fit](./assets/em_s07_ex1_fbd.png)
 
 ---
 
 ## Solution 8.1 - segment 1
 
-Segment 1 receives the reversed hinge force: $1200\ \text{N}$ rightward, $400\ \text{N}$ upward.
+By Newton's third law, segment 2 pulls **up** on segment 1 at $G$ with $500\ \text{N}$:
 
-![bg right fit](./assets/em_s08_ex1_fbd.png)
+$$\sum F_x = A_x = 0 \ \Rightarrow\ \boxed{A_x=0}$$
+$$\sum F_y = A_y+500=0 \ \Rightarrow\ \boxed{A_y=-500\ \text{N}}$$
+$$\sum M_A = M_A+500\cdot3=0 \ \Rightarrow\ \boxed{M_A=-1500\ \text{N}\!\cdot\!\text{m}}$$
 
-$$\boxed{A_x=-1200\ \text{N}} \qquad \boxed{A_y=-400\ \text{N}}$$
-$$\sum M_A = M_A+400\cdot3=0 \ \Rightarrow\ \boxed{M_A=-1200\ \text{N}\!\cdot\!\text{m}}$$
+Check (whole system): $A_y+B_y-P=-500+1500-1000=0$ ✓
 
 ---
 
 # Exercise 8.2
-## Two hinges, three segments
+## Pin, roller, hinge, roller - load between hinge and far support
 
-$A$ (fixed) - $G_1$ ($2\ \text{m}$) - $D$ (roller, $3\ \text{m}$) - $G_2$ ($2\ \text{m}$) - $B$ (roller, $3\ \text{m}$) - $C$ (free end, $2\ \text{m}$), $P=900\ \text{N}$ at $C$.
+Segment 1: **pin** $A$, **roller** $D$ ($3\ \text{m}$ apart), to hinge $G$ ($2\ \text{m}$ further). Segment 2: $G$ to **roller** $B$ ($3\ \text{m}$), $P=900\ \text{N}$ at midspan.
 
-**Which segment do you solve first?** The one determinate on its own - here, segment 3 ($G_2$-$B$-$C$): hinge + roller = 3 unknowns, 3 equations.
+**Find** all reactions at $A$, $D$, $B$.
 
-![bg right fit](./assets/em_s08_ex2_problem.png)
+![bg right fit](./assets/em_s07_ex2_problem.png)
 
 ---
 
-## Solution 8.2 - outside in
+## Solution 8.2 - segment 2 first, then segment 1
 
-**Seg. 3** ($G_2$-$C$, first): $B_y\cdot3-P\cdot5=0 \Rightarrow B_y=1500\ \text{N}$, $G_{2y}=900-1500=-600\ \text{N}$
+Segment 2 (hinge + roller, determinate alone):
+$$\sum M_G = B_y\cdot3 - P\cdot1.5=0 \ \Rightarrow\ \boxed{B_y=450\ \text{N}}, \qquad G_y=900-450=\boxed{450\ \text{N}}$$
 
-**Seg. 2** (receives $+600\ \text{N}$ at $G_2$): $D_y\cdot3+600\cdot5=0 \Rightarrow D_y=-1000\ \text{N}$, $G_{1y}=-600-D_y=400\ \text{N}$
+Segment 1 receives $450\ \text{N}$ **downward** at $G$ (opposite of $G_y$ above):
 
-**Seg. 1** (receives $-400\ \text{N}$ at $G_1$): $\boxed{A_y=400\ \text{N}}$, $\boxed{M_A=800\ \text{N}\!\cdot\!\text{m}}$
+$$\sum M_A = D_y\cdot3 - 450\cdot5=0 \ \Rightarrow\ \boxed{D_y=750\ \text{N}}, \qquad \sum F_y: \boxed{A_y=450-750=-300\ \text{N}}$$
 
-![bg right fit](./assets/em_s08_ex2_fbd.png)
+![bg right fit](./assets/em_s07_ex2_fbd.png)
 
 ---
 
 # Exercise 8.3
-## Applied couple instead of a point load
+## Fixed support, hinge, then a distributed load over the whole second segment
 
-Segment 1: **fixed** $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **roller** $B$ ($4\ \text{m}$), to free end $C$ ($2\ \text{m}$ further) - but now an **applied couple** $M_0=600\ \text{N}\!\cdot\!\text{m}$ acts at $C$, no force.
+Segment 1: **fixed** at $A$, to hinge $G$ ($3\ \text{m}$). Segment 2: $G$ to **roller** $B$ ($4\ \text{m}$) to free end $C$ ($2\ \text{m}$ further) - but now $q=500\ \text{N/m}$ acts over the **entire** $6\ \text{m}$ of segment 2.
 
 **Find** all reactions at $A$ and $B$.
 
-![bg right fit](./assets/em_s08_ex3_problem.png)
+![bg right fit](./assets/em_s07_ex3_problem.png)
 
 ---
 
 ## Solution 8.3
 
-A pure couple still needs $\sum M=0$ - but contributes **no** term to $\sum F_x$ or $\sum F_y$ directly, and (having no lever arm of its own) enters the moment equation unchanged:
+Resultant $R=q\cdot6=3000\ \text{N}$ at the centroid, $3\ \text{m}$ from $G$ (Seminar 4 technique). Segment 2:
 
-$$\sum M_G = B_y\cdot4+M_0=0 \ \Rightarrow\ \boxed{B_y=-150\ \text{N}}, \qquad G_y=0-(-150)=\boxed{150\ \text{N}}$$
+$$\sum M_G = B_y\cdot4-R\cdot3=0 \ \Rightarrow\ \boxed{B_y=2250\ \text{N}}, \qquad G_y=3000-2250=\boxed{750\ \text{N}}$$
 
-Segment 1 receives $150\ \text{N}$ **downward**: $\boxed{A_y=150\ \text{N}}$, $\sum M_A=M_A-150\cdot3=0\Rightarrow\boxed{M_A=450\ \text{N}\!\cdot\!\text{m}}$
+Segment 1 receives $750\ \text{N}$ **downward** at $G$:
 
-![bg right fit](./assets/em_s08_ex3_fbd.png)
+$$\boxed{A_x=0}, \qquad \boxed{A_y=750\ \text{N}}, \qquad \boxed{M_A=2250\ \text{N}\!\cdot\!\text{m}}$$
+
+![bg right fit](./assets/em_s07_ex3_fbd.png)
 
 ---
 

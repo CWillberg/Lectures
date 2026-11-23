@@ -1,13 +1,13 @@
 ---
 marp: true
-header: 'Engineering Mechanics - Seminar 12: Normal and Bending Stress'
+header: 'Engineering Mechanics - Seminar 12: Second Moment of Area'
 theme: h2
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
-# Normal and Bending Stress
+# Second Moment of Area
 ## Engineering Mechanics - Seminar 12
 Prof. Dr.-Ing. Christian Willberg
 Hochschule Magdeburg-Stendal
