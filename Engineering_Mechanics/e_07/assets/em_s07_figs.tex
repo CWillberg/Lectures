@@ -202,7 +202,7 @@
 \node[loadcol] at ($(2.100,2.100)+(-15.0:1.25)$) {\scriptsize $30^\circ$};
 \end{tikzpicture}
 
-\begin{tikzpicture}
+\begin{tikzpicture}[xscale=-1]
 \begin{scope}[shift={(0.000,0.000)}, rotate=-90] \loslager \end{scope}
 \begin{scope}[shift={(0.000,4.200)}, rotate=-90] \festlager \end{scope}
 \draw[member] (0.000,0.000) -- (2.100,2.100);
@@ -214,10 +214,10 @@
 \joint{(0.000,4.200)}
 \joint{(4.200,4.200)}
 \joint{(2.100,2.100)}
-\node[below right] at ($(0,0)+(0.25,-0.05)$) {$A$};
-\node[above left] at ($(0,4.2)+(0.0,0.12)$) {$B$};
-\node[above right] at ($(4.2,4.2)+(0.05,0.05)$) {$C$};
-\node[left] at ($(2.1,2.1)+(-0.12,0)$) {$D$};
+\node[below left] at ($(0,0)+(0.25,-0.05)$) {$A$};
+\node[above right] at ($(0,4.2)+(0.0,0.12)$) {$B$};
+\node[above left] at ($(4.2,4.2)+(0.05,0.05)$) {$C$};
+\node[right] at ($(2.1,2.1)+(-0.12,0)$) {$D$};
 \node[numcol] at (1.500,1.104) {\small \textbf{1}};
 \node[numcol] at (-0.280,2.100) {\small \textbf{2}};
 \node[numcol] at (0.852,2.952) {\small \textbf{3}};
@@ -238,16 +238,16 @@
 \draw[accent, line width=0.4pt] (2.100,-1.5) -- (2.100,-1.2000000000000002);
 \draw[accent, line width=0.4pt] (4.200,-1.5) -- (4.200,-1.2000000000000002);
 \draw[dim] (-1.550,0) -- (-1.550,4.200);
-\node[left, accent] at (-1.600,2.100) {\small $2\,\text{m}$};
+\node[right, accent] at (-1.600,2.100) {\small $2\,\text{m}$};
 \draw[accent, line width=0.4pt, dotted] (-0.95,0) -- (-1.700,0);
 \draw[accent, line width=0.4pt, dotted] (-0.95,4.200) -- (-1.700,4.200);
 \draw[force] (4.200,4.200) -- (5.700,4.200);
-\node[loadcol, right] at (5.700,4.200) {\small $F_1 = 12\,\text{kN}$};
+\node[loadcol, left] at (5.700,4.200) {\small $F_1 = 12\,\text{kN}$};
 \draw[force] (4.200,4.200) -- (4.200,2.700);
 \node[loadcol, below] at (4.200,2.700) {\small $F_2 = 24\,\text{kN}$};
 \end{tikzpicture}
 
-\begin{tikzpicture}
+\begin{tikzpicture}[xscale=-1]
 \begin{scope}[shift={(0.000,0.000)}, rotate=0] \festlager \end{scope}
 \begin{scope}[shift={(0.000,2.800)}, rotate=-90] \loslager \end{scope}
 \draw[member] (0.000,0.000) -- (2.100,1.400);
@@ -259,10 +259,10 @@
 \joint{(0.000,2.800)}
 \joint{(4.200,2.800)}
 \joint{(2.100,1.400)}
-\node[below right] at ($(0,0)+(0.25,-0.05)$) {$A$};
-\node[above left] at ($(0,2.8000000000000003)+(0.0,0.12)$) {$B$};
-\node[above right] at ($(4.2,2.8000000000000003)+(0.05,0.05)$) {$C$};
-\node[left] at ($(2.1,1.4000000000000001)+(-0.12,0)$) {$D$};
+\node[below left] at ($(0,0)+(0.25,-0.05)$) {$A$};
+\node[above right] at ($(0,2.8000000000000003)+(0.0,0.12)$) {$B$};
+\node[above left] at ($(4.2,2.8000000000000003)+(0.05,0.05)$) {$C$};
+\node[right] at ($(2.1,1.4000000000000001)+(-0.12,0)$) {$D$};
 \node[numcol] at (1.457,0.635) {\small \textbf{1}};
 \node[numcol] at (-0.280,1.400) {\small \textbf{2}};
 \node[numcol] at (0.895,1.867) {\small \textbf{3}};
@@ -283,11 +283,11 @@
 \draw[accent, line width=0.4pt] (2.100,-1.5) -- (2.100,-1.2000000000000002);
 \draw[accent, line width=0.4pt] (4.200,-1.5) -- (4.200,-1.2000000000000002);
 \draw[dim] (-1.550,0) -- (-1.550,2.800);
-\node[left, accent] at (-1.600,1.400) {\small $2\,\text{m}$};
+\node[right, accent] at (-1.600,1.400) {\small $2\,\text{m}$};
 \draw[accent, line width=0.4pt, dotted] (-0.95,0) -- (-1.700,0);
 \draw[accent, line width=0.4pt, dotted] (-0.95,2.800) -- (-1.700,2.800);
 \draw[force] (4.200,2.800) -- (4.950,1.501);
-\node[loadcol, right] at (4.950,1.501) {\small $F = 20\,\text{kN}$};
+\node[loadcol, left] at (4.950,1.501) {\small $F = 20\,\text{kN}$};
 \draw[loadcol, dashed, line width=0.5pt] (4.200,2.800) -- ($(4.200,2.800)+(0:1.2)$);
 \draw[loadcol, line width=0.7pt] ($(4.200,2.800)+(0:0.85)$) arc (0:-60:0.85);
 \node[loadcol] at ($(4.200,2.800)+(-30.0:1.25)$) {\scriptsize $60^\circ$};

@@ -761,7 +761,7 @@ c) $KV = 20 \cdot 9{,}81 \cdot 0{,}15 = 29{,}4$ J ≥ 27 J → **erfüllt** (kna
   - Zug-/Druckversuch (Resonanzpulsator, servohydraulisch)
 - Ergebnis: Wöhlerlinie, Dauer- und Zeitfestigkeit (Details: Vorlesung Ermüdung und Verschleiß)
 
-![h:300](../../assets/Figures/Whoehlerversuch.svg)
+![bg right:40% fit](../../assets/Figures/Whoehlerversuch.svg)
 
 ---
 

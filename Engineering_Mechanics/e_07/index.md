@@ -156,7 +156,8 @@ d) Which members are zero-force members here - and why is the answer different f
 **Given**
 - $b = h = 2\ \text{m}$, $\alpha = 45^\circ$
 - $A$: **roller support** at the wall (reaction horizontal only), $B$: **pin support** at the wall
-- At $C$: $F_1 = 12\ \text{kN}$ horizontal (to the right), $F_2 = 24\ \text{kN}$ vertical (downwards)
+- Mirrored model: wall on the **right**, $C$ on the left
+- At $C$: $F_1 = 12\ \text{kN}$ horizontal (to the left), $F_2 = 24\ \text{kN}$ vertical (downwards)
 
 **Find**
 a) the support reactions at $A$ and $B$
@@ -175,7 +176,8 @@ c) Which member now carries the vertical load into the support - compare with Ex
 **Given**
 - $b = 3\ \text{m}$, $h = 2\ \text{m}$, $\alpha = 33.7^\circ$ ($\sin\alpha = 0.555$, $\cos\alpha = 0.832$)
 - $A$: **pin support**, $B$: **roller support** at the wall (reaction horizontal only)
-- At $C$: $F = 20\ \text{kN}$, acting **downwards to the right** at $60^\circ$ below the horizontal
+- Mirrored model: wall on the **right**, $C$ on the left
+- At $C$: $F = 20\ \text{kN}$, acting **downwards to the left** at $60^\circ$ below the horizontal
 
 **Find**
 a) the components of $F$

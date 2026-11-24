@@ -34,7 +34,7 @@ HEAD = r"""\documentclass[tikz,border=8pt,multi=tikzpicture]{standalone}
 def num(v):  # deutsche Dezimalschreibweise vermeiden -> englisch (Vorlesung ist englisch)
     return f"{v:g}"
 
-def pic(b, h, blab, hlab, supports, loads, alpha_lab, halflab=None, dpos="left"):
+def pic(b, h, blab, hlab, supports, loads, alpha_lab, halflab=None, dpos="left", mirror=False):
     halflab = halflab or (blab + "/2")
     k = 4.2 / max(b, h)
     W, H = b * k, h * k
@@ -112,6 +112,11 @@ def pic(b, h, blab, hlab, supports, loads, alpha_lab, halflab=None, dpos="left")
             mid = (ref + ang) / 2
             o.append(rf"\node[loadcol] at ($({p[0]:.3f},{p[1]:.3f})+({mid}:1.25)$) {{\scriptsize ${show}$}};")
     o.append(r"\end{tikzpicture}")
+    if mirror:  # an der Senkrechten spiegeln: Wand rechts; Texte bleiben lesbar, left/right der Labels tauschen
+        import re
+        sw = lambda m: m.group(0).replace("left", "#L#").replace("right", "left").replace("#L#", "right")
+        o = [re.sub(r"\\node\[[^\]]*\]", sw, line) for line in o]
+        o[0] = r"\begin{tikzpicture}[xscale=-1]"
     return "\n".join(o)
 
 std = [('A', 'pin', 'down'), ('B', 'roller', 'wall')]
@@ -123,7 +128,7 @@ pics = [
     pic(2, 2, r"2\,\text{m}", r"2\,\text{m}", std, [('C', r"F_1 = 10\,\text{kN}", 0, None), ('C', r"F_2 = 30\,\text{kN}", 90, None)], r"45^\circ", r"1\,\text{m}"),
     pic(1.5, 1.5, r"1.5\,\text{m}", r"1.5\,\text{m}", std, [('C', r"F_1 = 20\,\text{kN}", 270, None), ('D', r"F_2 = 10\,\text{kN}", 180, None)], r"45^\circ", r"0.75\,\text{m}", "below right"),
     pic(2, 2, r"2\,\text{m}", r"2\,\text{m}", std, [('D', r"F = 15\,\text{kN}", -30, r"30^\circ")], r"45^\circ", r"1\,\text{m}"),
-    pic(2, 2, r"2\,\text{m}", r"2\,\text{m}", swp, [('C', r"F_1 = 12\,\text{kN}", 0, None), ('C', r"F_2 = 24\,\text{kN}", 270, None)], r"45^\circ", r"1\,\text{m}"),
-    pic(3, 2, r"3\,\text{m}", r"2\,\text{m}", std, [('C', r"F = 20\,\text{kN}", -60, r"60^\circ")], r"33.7^\circ", r"1.5\,\text{m}"),
+    pic(2, 2, r"2\,\text{m}", r"2\,\text{m}", swp, [('C', r"F_1 = 12\,\text{kN}", 0, None), ('C', r"F_2 = 24\,\text{kN}", 270, None)], r"45^\circ", r"1\,\text{m}", mirror=True),
+    pic(3, 2, r"3\,\text{m}", r"2\,\text{m}", std, [('C', r"F = 20\,\text{kN}", -60, r"60^\circ")], r"33.7^\circ", r"1.5\,\text{m}", mirror=True),
 ]
 open('em_s07_figs.tex', 'w').write(HEAD + "\n\n".join(pics) + "\n\\end{document}\n")
